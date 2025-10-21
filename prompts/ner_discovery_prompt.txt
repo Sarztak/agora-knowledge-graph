@@ -1,0 +1,37 @@
+Prompt for Manual Named Entity Discovery (NER Phase 1: Label-Free)
+________________________________________
+DATASET CONTEXT: You are working with U.S. and international regulatory documents focused on artificial intelligence (AI) governance. These documents include legislation, executive directives, agency mandates, strategic programs, legal obligations, funding mechanisms, and technical standards. The purpose is to extract all key entities that play a role in AI regulation, development, oversight, application, or compliance.
+This is the first step in building a knowledge graph of actors, mechanisms, policies, and systems described in AI governance-related texts.
+________________________________________
+GOAL: Extract all meaningful named entities from regulatory text without assigning labels. The aim is to build a complete inventory of distinct entities for later clustering and label discovery.
+________________________________________
+STEP 1: READ CAREFULLY Read each sentence of the document. Identify any short, concrete noun phrases (1–5 words max) that refer to distinct, name-like concepts. These might include:
+•	Organizations and agencies
+•	Government roles and officials
+•	Programs, initiatives, or prizes
+•	Laws, directives, executive orders
+•	Named documents or studies
+•	Technologies, systems, or models
+•	Datasets, infrastructures, platforms
+•	Rules, requirements, constraints
+Avoid: - Full sentences - Descriptive adjectives alone - Overly generic words unless clearly meaningful in context
+________________________________________
+STEP 2: EXTRACT ENTITIES FROM EACH SENTENCE For each sentence, extract zero or more meaningful entities. For each, return:
+•	text: The entity string as it appears in the sentence
+•	sentence: The full sentence from which the entity was extracted
+________________________________________
+STEP 3: OUTPUT FORMAT Use this JSON format:
+[
+  {
+    "text": "Secretary of Defense",
+    "sentence": "Directs the Secretary of Defense to submit an annual report to the congressional defense committees..."
+  },
+  {
+    "text": "Federal AI System Inventory",
+    "sentence": "Establishes a Federal AI System Inventory for cataloging agency AI governance charters..."
+  }
+]
+________________________________________
+STEP 4: VALIDATION RULES - Use one JSON list per paragraph or document chunk. - Capture entities exactly as written in the sentence. - Do not guess or assign types yet. - No need to include character offsets.
+________________________________________
+USAGE NOTES: - This phase is for discovery. Extract liberally. - Later, you will cluster these entities manually and define entity types. - After that, switch to the labeled prompt for consistent tagging and training.

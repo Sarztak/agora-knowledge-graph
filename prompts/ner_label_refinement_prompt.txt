@@ -1,0 +1,45 @@
+Prompt for Reclassification of Broad Entity Categories (NER Phase 3: Refining Ambiguous Labels)
+________________________________________
+DATASET CONTEXT: You are working with a collection of named entities extracted from regulatory documents about artificial intelligence (AI) governance. In Phase 1, entities were discovered. In Phase 2, they were grouped into semantic categories like ORG, LAW, TECH, etc. However, several broad or ambiguous categories (such as CONCEPT, REQUIREMENT, and ACTIVITY) were used as placeholders during initial clustering.
+The current task is to refine those broad groups into more specific and semantically meaningful categories that better support knowledge graph construction and named entity recognition.
+________________________________________
+GOAL: Given a list of entities that were grouped under general Labels like CONCEPT, REQUIREMENT, or ACTIVITY, reclassify each entity into a more precise and useful category.
+You will use the sentence context and entity name to assign a more specific label that reflects the entity’s actual role or function in regulatory text.
+________________________________________
+INPUT FORMAT: The input will be a list of objects, each containing: - text: the original entity string - label: the broad placeholder label it was previously assigned - sentence: the sentence it came from
+[
+  {
+    "text": "auditability",
+    "label": "REQUIREMENT",
+    "sentence": "Mandates transparency and auditing of AI systems, ensuring they do not introduce bias or replicate human error."
+  },
+  {
+    "text": "opt-out options",
+    "label": "CONCEPT",
+    "sentence": "Advocates for transparency and accountability, providing opt-out options from AI systems."
+  }
+]
+________________________________________
+STEP 1: EVALUATE THE ENTITY For each item, consider: - What is the entity referring to? - Is it a technical system, policy rule, process, risk, metric, etc.? - Is there a more specific label that better defines its type?
+________________________________________
+STEP 2: ASSIGN A MORE SPECIFIC LABEL Use a meaningful, UPPERCASE label that clearly captures the semantic role of the entity. Reuse existing labels if appropriate (e.g., DATA, TECH, DOC, PROGRAM) or define new ones where necessary (e.g., POLICY_RULE, UI_TERM, INFRASTRUCTURE, VALUE, RISK, PROCESS, MECHANISM, DOCUMENT_TYPE).
+________________________________________
+OUTPUT FORMAT: Return a JSON list where each entry includes the reclassified label:
+[
+  {
+    "text": "auditability",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "opt-out options",
+    "original_label": "CONCEPT",
+    "new_label": "UI_TERM"
+  }
+]
+
+________________________________________
+GUIDELINES: - Do not keep the original vague labels (e.g., CONCEPT) in your final output - Every entity should get exactly one refined new_label - If uncertain, choose the most functionally useful label (what it does, not what it sounds like) - The refined label set will feed into Phase 4 for high-precision extraction
+________________________________________
+USAGE NOTES: - This phase finalizes your label taxonomy - Once all vague groups are reclassified, you can re-tag the corpus using the updated schema - These labels will enable accurate node typing in your knowledge graph and structured downstream extraction
+Let this be pragmatic — not all-encompassing. Your goal is to make entity types clear and useful, not exhaustive.
