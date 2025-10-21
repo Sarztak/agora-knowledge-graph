@@ -1,0 +1,12 @@
+[project]
+name = "agora-knowledge-graph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.0.1",
+    "pandas>=2.3.3",
+    "pip>=25.2",
+    "spacy>=3.8.7",
+]
