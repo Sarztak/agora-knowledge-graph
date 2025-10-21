@@ -1,0 +1,1147 @@
+[
+  {
+    "text": "AI professionals",
+    "original_label": "CONCEPT",
+    "new_label": "WORKFORCE"
+  },
+  {
+    "text": "federal AI workforce",
+    "original_label": "CONCEPT",
+    "new_label": "WORKFORCE"
+  },
+  {
+    "text": "technology ethics",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "extreme events",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "natural hazards",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "resilient infrastructure",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "multidisciplinary wildfire science",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "critical minerals mining strategies",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "domestic resources",
+    "original_label": "CONCEPT",
+    "new_label": "RESOURCE"
+  },
+  {
+    "text": "supply chain disruptions",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "geological exploration of critical minerals",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "AI research capacity",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "peer-reviewed AI research",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "computing power",
+    "original_label": "CONCEPT",
+    "new_label": "RESOURCE"
+  },
+  {
+    "text": "diversity, equity, and inclusion",
+    "original_label": "CONCEPT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "AI research programs",
+    "original_label": "CONCEPT",
+    "new_label": "PROGRAM"
+  },
+  {
+    "text": "key technology focus areas",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "non-contractual fault-based civil claims",
+    "original_label": "CONCEPT",
+    "new_label": "LEGAL_MECHANISM"
+  },
+  {
+    "text": "AI providers",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "causal link",
+    "original_label": "CONCEPT",
+    "new_label": "LEGAL_MECHANISM"
+  },
+  {
+    "text": "AI operators",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "certificates of waiver",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "waiver application",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "private sector stakeholders",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "trafficking routes",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "suspicious financial activity",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "illicit trafficking networks",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "training procedures",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "online marketplaces",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "AI policies",
+    "original_label": "CONCEPT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "American innovation",
+    "original_label": "CONCEPT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "U.S. leadership in AI",
+    "original_label": "CONCEPT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "America's global AI dominance",
+    "original_label": "CONCEPT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "statewide data-sharing system",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "data management inefficiencies",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "funding mechanisms",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "legislative leaders",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "health insurance claims",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "testbeds",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "securities markets",
+    "original_label": "CONCEPT",
+    "new_label": "DOMAIN"
+  },
+  {
+    "text": "mortgage efficiency",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "credit decisions",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "real estate practices",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "underserved communities",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "national security threats",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "public-private partnerships",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "environmental hazards",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "weather risks",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "co-investment strategies",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "intellectual property",
+    "original_label": "CONCEPT",
+    "new_label": "LEGAL_MECHANISM"
+  },
+  {
+    "text": "multistate collaboration",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "real-time data reporting",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "developers and deployers",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "independent audits",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "system capabilities",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "private right of action",
+    "original_label": "CONCEPT",
+    "new_label": "LEGAL_MECHANISM"
+  },
+  {
+    "text": "USDA nutrition benefits",
+    "original_label": "CONCEPT",
+    "new_label": "PROGRAM"
+  },
+  {
+    "text": "eligible recipients",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "human reviewers",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "adverse decisions",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "democratic technology",
+    "original_label": "CONCEPT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "global digital freedom",
+    "original_label": "CONCEPT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "digital authoritarianism",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "censorship",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "AI governance risks",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "industry best practices",
+    "original_label": "CONCEPT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "workflow modifications",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "connectivity needs",
+    "original_label": "CONCEPT",
+    "new_label": "REQUIREMENT"
+  },
+  {
+    "text": "cybersecurity challenges",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "catastrophic outcomes",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "threat scenarios",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "threat models",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "risk thresholds",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "risk mitigation measures",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "threat modeling exercises",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "catastrophic risks",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "cybersecurity and chemical/biological risks",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "enabling capabilities",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "risk assessments",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "post-release monitoring",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "sanctions",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "foreign persons",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "fighter aircraft",
+    "original_label": "CONCEPT",
+    "new_label": "ASSET"
+  },
+  {
+    "text": "fighter aircraft inventory",
+    "original_label": "CONCEPT",
+    "new_label": "DATA"
+  },
+  {
+    "text": "unit assignments",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "legacy retirements",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "recapitalized fighter allocations",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "legacy aircraft retirement",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "fighter squadrons",
+    "original_label": "CONCEPT",
+    "new_label": "ORG"
+  },
+  {
+    "text": "fifth-generation aircraft",
+    "original_label": "CONCEPT",
+    "new_label": "ASSET"
+  },
+  {
+    "text": "recapitalization plan",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "F 16 Block 70 aircraft",
+    "original_label": "CONCEPT",
+    "new_label": "ASSET"
+  },
+  {
+    "text": "advanced capability fighter aircraft",
+    "original_label": "CONCEPT",
+    "new_label": "ASSET"
+  },
+  {
+    "text": "fifth-generation fighter aircraft",
+    "original_label": "CONCEPT",
+    "new_label": "ASSET"
+  },
+  {
+    "text": "next-generation air dominance fighter aircraft",
+    "original_label": "CONCEPT",
+    "new_label": "ASSET"
+  },
+  {
+    "text": "weather observations",
+    "original_label": "CONCEPT",
+    "new_label": "DATA"
+  },
+  {
+    "text": "local and regional networks",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "satellite constellations",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "financial and technical assistance",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "mesonet systems",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "advisory committee",
+    "original_label": "CONCEPT",
+    "new_label": "ORG"
+  },
+  {
+    "text": "terms of service",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "flagged items",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "actioned items",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "user engagement",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "civil penalty",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "work group",
+    "original_label": "CONCEPT",
+    "new_label": "ORG"
+  },
+  {
+    "text": "IT goods and services",
+    "original_label": "CONCEPT",
+    "new_label": "RESOURCE"
+  },
+  {
+    "text": "statewide IT dashboard",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "Microsoft's 365 licenses",
+    "original_label": "CONCEPT",
+    "new_label": "RESOURCE"
+  },
+  {
+    "text": "advanced security features",
+    "original_label": "CONCEPT",
+    "new_label": "TECH"
+  },
+  {
+    "text": "cybersecurity efforts",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "small agency IT services",
+    "original_label": "CONCEPT",
+    "new_label": "RESOURCE"
+  },
+  {
+    "text": "cybersecurity implementation",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "health and human services enterprise coalition",
+    "original_label": "CONCEPT",
+    "new_label": "ORG"
+  },
+  {
+    "text": "geospatial data portal",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "robocalls",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "text messages",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "AI impersonation",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "telemarketing violations",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "AI-generated calls or messages",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "robocall-blocking services",
+    "original_label": "CONCEPT",
+    "new_label": "TECH"
+  },
+  {
+    "text": "tracking system",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "illegal robocall campaigns",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "customer identities",
+    "original_label": "CONCEPT",
+    "new_label": "DATA"
+  },
+  {
+    "text": "robocall patterns",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "text message authentication",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "inbound call restrictions",
+    "original_label": "CONCEPT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Federal actions",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "AI risks",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "vulnerabilities",
+    "original_label": "CONCEPT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "deactivate AI systems",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "stakeholders",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "notification and appeal processes",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "AI-based decisions",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "agency AI governance charters",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "regulations for AI, robotics, and automation",
+    "original_label": "CONCEPT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "current state laws",
+    "original_label": "CONCEPT",
+    "new_label": "LAW"
+  },
+  {
+    "text": "comparative policies",
+    "original_label": "CONCEPT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "liability issues",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "employment impact",
+    "original_label": "CONCEPT",
+    "new_label": "METRIC"
+  },
+  {
+    "text": "AI weaponry",
+    "original_label": "CONCEPT",
+    "new_label": "TECH"
+  },
+  {
+    "text": "technology industry",
+    "original_label": "CONCEPT",
+    "new_label": "DOMAIN"
+  },
+  {
+    "text": "public sector AI applications",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "state government officials",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "university chancellors",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "hearings",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "testimonies",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "state leadership",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "political advertisements",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "synthetic content",
+    "original_label": "CONCEPT",
+    "new_label": "TECH"
+  },
+  {
+    "text": "AI-generated content",
+    "original_label": "CONCEPT",
+    "new_label": "TECH"
+  },
+  {
+    "text": "disclaimer",
+    "original_label": "CONCEPT",
+    "new_label": "REQUIREMENT"
+  },
+  {
+    "text": "print, television, internet, and audio",
+    "original_label": "CONCEPT",
+    "new_label": "DOMAIN"
+  },
+  {
+    "text": "first-degree misdemeanor",
+    "original_label": "CONCEPT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "expedited hearings",
+    "original_label": "CONCEPT",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "organizations and elements",
+    "original_label": "CONCEPT",
+    "new_label": "ORG"
+  },
+  {
+    "text": "Armed Forces members",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "civilian employees",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "educational resources",
+    "original_label": "CONCEPT",
+    "new_label": "RESOURCE"
+  },
+  {
+    "text": "data literacy",
+    "original_label": "CONCEPT",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "Department of Defense personnel",
+    "original_label": "CONCEPT",
+    "new_label": "ACTOR"
+  },
+  {
+    "text": "digital platform",
+    "original_label": "CONCEPT",
+    "new_label": "INFRASTRUCTURE"
+  },
+  {
+    "text": "baseline forecasts and warnings",
+    "original_label": "CONCEPT",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "advisory panel",
+    "original_label": "CONCEPT",
+    "new_label": "ORG"
+  },
+  {
+    "text": "fisheries data collection",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "fishery information collection programs",
+    "original_label": "ACTIVITY",
+    "new_label": "PROGRAM"
+  },
+  {
+    "text": "data management",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "statistical activities",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "risk assessment",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "data analysis",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "banking operations",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "fraud detection",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "cybersecurity",
+    "original_label": "ACTIVITY",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "market research",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "portfolio management",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "public consultation",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "weather, water, and wildfire forecast",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "environmental forecasting innovation",
+    "original_label": "ACTIVITY",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "weather observation and forecasting",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "environmental observations",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "numerical weather prediction",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "data standardization",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "data-driven decision-making",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "benefits administration",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "foreign policy",
+    "original_label": "ACTIVITY",
+    "new_label": "DOMAIN"
+  },
+  {
+    "text": "diplomatic engagements",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "contract administration",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "precision agriculture",
+    "original_label": "ACTIVITY",
+    "new_label": "DOMAIN"
+  },
+  {
+    "text": "procurement and contracting",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "data management efforts",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "content moderation efforts",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "testing and oversight",
+    "original_label": "ACTIVITY",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "public sector AI applications",
+    "original_label": "ACTIVITY",
+    "new_label": "SUBJECT_AREA"
+  },
+  {
+    "text": "duty of care",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "evidence disclosure orders",
+    "original_label": "REQUIREMENT",
+    "new_label": "LEGAL_MECHANISM"
+  },
+  {
+    "text": "no-fault liability",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "consumer protection",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "civil rights",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "data privacy",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "patient privacy",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "informed consent",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "performance standards",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "data ownership",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "performance and risk-based approach",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "fair lending practices",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "privacy measures",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "algorithmic discrimination",
+    "original_label": "REQUIREMENT",
+    "new_label": "RISK"
+  },
+  {
+    "text": "whistleblower protections",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "merit system requirements",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+{
+    "text": "auditability",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "equitable outcomes",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "opt-out options",
+    "original_label": "REQUIREMENT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "responsible innovation",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "data sovereignty",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "digital freedom",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "human rights",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "human rights-compliant technology governance",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "democratic governance of artificial intelligence",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "digital inclusion",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "information integrity",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "human-centered design",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "voluntary interconnectivity standards",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "governance and transparency processes",
+    "original_label": "REQUIREMENT",
+    "new_label": "MECHANISM"
+  },
+  {
+    "text": "ethical and accurate",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "transparency and explainability",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "safety and security",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "fairness, transparency, and non-discrimination",
+    "original_label": "REQUIREMENT",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "Federal AI system governance requirements",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  }
+]
