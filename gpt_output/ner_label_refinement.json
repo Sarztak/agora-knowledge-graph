@@ -1,0 +1,22 @@
+[
+  {
+    "text": "procurement guidelines",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "training guidelines",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "anticipatory release policy",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "GenAI threats",
+    "original_label": "REQUIREMENT",
+    "new_label": "RISK"
+  }
+]
