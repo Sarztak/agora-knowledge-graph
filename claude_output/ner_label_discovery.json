@@ -1,0 +1,395 @@
+{
+  "categories": [
+    {
+      "category_name": "ORG",
+      "description": "Government agencies, departments, bureaus, commissions, offices, and international organizations",
+      "entities": [
+        "Department of Defense",
+        "Federal Trade Commission",
+        "FTC",
+        "Office of Management and Budget",
+        "General Services Administration",
+        "U.S. Customs and Border Protection",
+        "Federal Acquisition Institute",
+        "Federal Communications Commission",
+        "FCC",
+        "National Institute of Standards and Technology",
+        "NIST",
+        "Food & Drug Administration",
+        "Federal Aviation Administration",
+        "FAA",
+        "Nuclear Regulatory Commission",
+        "NRC",
+        "National Laboratories",
+        "European Commission",
+        "U.S. International Development Finance Corporation",
+        "DFC",
+        "Export-Import Bank",
+        "Government Accountability Office",
+        "GAO",
+        "Cybersecurity and Infrastructure Security Agency",
+        "CISA",
+        "Financial Crimes Enforcement Network",
+        "Treasury Department",
+        "Forest Service",
+        "U.S. Geological Survey",
+        "NASA",
+        "EPA",
+        "DOE",
+        "NSF",
+        "FEMA",
+        "Coast Guard",
+        "NOAA",
+        "National Oceanic and Atmospheric Administration",
+        "Directorate-General for Communication Networks, Content and Technology",
+        "NSA",
+        "HHS"
+      ]
+    },
+    {
+      "category_name": "ROLE",
+      "description": "Government officials, executive positions, directors, officers, and other appointed or elected roles",
+      "entities": [
+        "Secretary of Commerce",
+        "Secretary of Defense",
+        "Secretary of Homeland Security",
+        "Comptroller General",
+        "Secretary of Agriculture",
+        "Secretary of Energy",
+        "Director of National Intelligence",
+        "Director of the Central Intelligence Agency",
+        "President",
+        "Chief Data and Artificial Intelligence Officer",
+        "Chief Energy Officer",
+        "Attorney General",
+        "Secretary of the Treasury",
+        "Responsible Scaling Officer",
+        "Chief Artificial Intelligence Officer",
+        "Chief Information Officer",
+        "Director of the United States Patent and Trademark Office",
+        "Administrator of the Office of Electronic Government",
+        "Minister of Innovation, Science, and Industry",
+        "AI and Data Commissioner",
+        "Secretary of State",
+        "Artificial Intelligence Officer",
+        "Artificial Intelligence Implementation Officer",
+        "Assistant Secretary of Commerce",
+        "Under Secretary",
+        "Under Secretary of Commerce for Oceans and Atmosphere",
+        "Governor",
+        "Lieutenant Governor",
+        "Speaker of the House",
+        "Senate President Pro Tempore",
+        "Director of the Joint Artificial Intelligence Center",
+        "Comptroller General of the United States",
+        "Mayor",
+        "CCHT Director",
+        "Deputy Secretary of Defense",
+        "Principal Deputy Director of National Intelligence",
+        "Deputy Sector of Defense",
+        "Vice Chairman of the Joint Chiefs of Staff",
+        "Secretary"
+      ]
+    },
+    {
+      "category_name": "COMPANY",
+      "description": "Private sector companies, technology firms, and corporate entities",
+      "entities": [
+        "Amazon",
+        "Anthropic",
+        "Google",
+        "Inflection",
+        "Meta",
+        "Microsoft",
+        "OpenAI",
+        "Amazon Web Services",
+        "AWS"
+      ]
+    },
+    {
+      "category_name": "ADMIN",
+      "description": "Presidential administrations and government leadership periods",
+      "entities": [
+        "Biden-Harris Administration"
+      ]
+    },
+    {
+      "category_name": "MILITARY",
+      "description": "Military branches, forces, and defense-related organizational units",
+      "entities": [
+        "Armed Forces"
+      ]
+    },
+    {
+      "category_name": "LAW",
+      "description": "Legislation, acts, executive orders, statutes, codes, and legal frameworks",
+      "entities": [
+        "Federal Election Campaign Act of 1971",
+        "BUILD Act of 2018",
+        "International Emergency Economic Powers Act",
+        "FAST Act",
+        "Artificial Intelligence and Data Act",
+        "AIDA",
+        "EU AI Act",
+        "Oklahoma laws",
+        "Workforce Innovation and Opportunity Act",
+        "National Voter Registration Act",
+        "Computer Fraud and Abuse Act",
+        "Homeland Security Act of 2002",
+        "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023",
+        "California's Penal Code",
+        "Senate Bill 1381",
+        "Harmful Algal Blooms and Hypoxia Research and Control Act of 1998",
+        "Consolidated Appropriations Act, 2022",
+        "Executive Order 14110",
+        "Oregon Revised Statutes chapter 260",
+        "ORS 260.345",
+        "Section 236 of the FY 2021 National Defense Authorization Act",
+        "National Security Act of 1947",
+        "New York Artificial Intelligence Consumer Protection Act",
+        "International Humanitarian Law"
+      ]
+    },
+    {
+      "category_name": "PROGRAM",
+      "description": "Government programs, initiatives, pilot programs, demonstration projects, and structured activities",
+      "entities": [
+        "Privacy and Security Victims Relief Fund",
+        "Commercial Solutions Opening Authority",
+        "Digital On-Demand Program",
+        "Joint Energy Export, Development, and Trade Database",
+        "National Vulnerability Database",
+        "Common Vulnerabilities and Exposures Program",
+        "Fireshed Registry",
+        "National Integrated Drought Information System",
+        "National Mesonet Program",
+        "National Coordinated Soil Moisture Monitoring Network",
+        "Digital Europe Programme",
+        "Value-Based Insurance Design Model",
+        "VBID"
+      ]
+    },
+    {
+      "category_name": "COMMITTEE",
+      "description": "Congressional committees, advisory boards, councils, task forces, and deliberative bodies",
+      "entities": [
+        "Congress",
+        "Artificial Intelligence Task Force",
+        "Senate Committee on Government Operations",
+        "House Committee on Energy and Technology",
+        "Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "Committee on Financial Services of the House of Representatives",
+        "Senate and House Armed Services Committees",
+        "Committee on Commerce, Science, and Transportation of the Senate",
+        "Committee on Transportation and Infrastructure",
+        "Committee on Science, Space, and Technology of the House of Representatives",
+        "Joint Commission on Technology and Science",
+        "JCOTS",
+        "Commission on Artificial Intelligence",
+        "General Assembly",
+        "New Jersey Artificial Intelligence Advisory Board",
+        "Safety Advisory Group",
+        "Board of Directors",
+        "Preparedness team",
+        "Alabama Council on Advanced Technology and Artificial Intelligence",
+        "Chief Digital and Artificial Intelligence Officer Governing Council",
+        "Supply Chain Resilience Working Group",
+        "AI Advisory Group",
+        "AI Taskforce",
+        "Board",
+        "Tennessee Artificial Intelligence Advisory Council",
+        "AI Ethics Advisory Panel",
+        "Legislature"
+      ]
+    },
+    {
+      "category_name": "OFFICE",
+      "description": "Specialized offices, centers, and organizational units within larger agencies",
+      "entities": [
+        "AI Office",
+        "Office of Energy",
+        "Artificial Intelligence Security Center",
+        "Fireshed Center",
+        "Joint Autonomy Office",
+        "Office of the Chief Technology Officer",
+        "European Artificial Intelligence Office"
+      ]
+    },
+    {
+      "category_name": "STANDARD",
+      "description": "Technical standards, frameworks, protocols, principles, and compliance requirements",
+      "entities": [
+        "ASL Standards",
+        "ASL-2 standards",
+        "ASL-3 standards",
+        "Capability Thresholds",
+        "FRA safety regulations",
+        "OECD AI Principles",
+        "Privacy, Security, and Accessibility Standards",
+        "HL7",
+        "LOINC",
+        "SNOMED CT",
+        "Protocol on Blinding Laser Weapons"
+      ]
+    },
+    {
+      "category_name": "TECH",
+      "description": "Technologies, systems, devices, models, platforms, and technical tools",
+      "entities": [
+        "Oxehealth Vital Signs device",
+        "PTC",
+        "ChatGPT",
+        "Amazon Bedrock",
+        "Amazon Titan Foundation Models",
+        "AI Service Cards"
+      ]
+    },
+    {
+      "category_name": "CONTRACT",
+      "description": "Formal agreements, contracts, and procurement arrangements",
+      "entities": [
+        "Commercial Cloud Enterprise contract"
+      ]
+    },
+    {
+      "category_name": "GEOPOLITICAL",
+      "description": "Countries, regions, states, cities, and geopolitical entities",
+      "entities": [
+        "China",
+        "Government of the People's Republic of China",
+        "Chinese Communist Party",
+        "Virginia",
+        "California",
+        "Canada",
+        "Shenzhen",
+        "Shenzhen Municipal Government",
+        "New Jersey",
+        "Alabama",
+        "District of Columbia",
+        "U.S. West Coast",
+        "New York",
+        "Connecticut",
+        "Tennessee",
+        "Oregon",
+        "US Government"
+      ]
+    },
+    {
+      "category_name": "STRATEGIC_PLAN",
+      "description": "Strategic plans, national strategies, development plans, and policy roadmaps",
+      "entities": [
+        "Made in China 2025",
+        "14th Five Year Smart Manufacturing Development Plan",
+        "New Generation Artificial Intelligence Development Plan",
+        "National Defense Strategy",
+        "National Intelligence Strategy",
+        "National Security Strategy",
+        "National Intelligence Program"
+      ]
+    },
+    {
+      "category_name": "POLICY",
+      "description": "Policies, guidelines, regulations, and regulatory instruments",
+      "entities": [
+        "AWS Responsible AI Policy",
+        "Regulation on AI",
+        "AI Policy Coordination Center"
+      ]
+    },
+    {
+      "category_name": "DOC",
+      "description": "Documents, reports, registries, records, and documentation artifacts",
+      "entities": [
+        "Register of Copyrights",
+        "State Treasury's General Fund",
+        "AI Bill of Rights",
+        "Blueprint for an AI Bill of Rights"
+      ]
+    },
+    {
+      "category_name": "HEALTHCARE_PROGRAM",
+      "description": "Healthcare insurance programs and medical service systems",
+      "entities": [
+        "Medicare Advantage plans",
+        "Medicare Advantage",
+        "MA plans",
+        "Medicaid"
+      ]
+    },
+    {
+      "category_name": "SECTION",
+      "description": "Legal code sections, statutory provisions, and regulatory subdivisions",
+      "entities": [
+        "Section 40-57-820"
+      ]
+    },
+    {
+      "category_name": "DATA_CENTER",
+      "description": "Data centers, data assembly systems, and centralized data infrastructure",
+      "entities": [
+        "Harmful Algal Bloom Data Assembly Center",
+        "IOOS Program Office",
+        "NCCOS",
+        "IOOS",
+        "Climate Prediction Center"
+      ]
+    },
+    {
+      "category_name": "DIRECTORATE",
+      "description": "Specialized directorates and directorate offices within agencies",
+      "entities": [
+        "Science and Technology Directorate Office of Science and Engineering"
+      ]
+    },
+    {
+      "category_name": "DEPT",
+      "description": "State and local government departments",
+      "entities": [
+        "Department of Administrative Services",
+        "Office of Policy and Management",
+        "Judicial Department",
+        "Department of Human Resources"
+      ]
+    },
+    {
+      "category_name": "RESEARCH_ORG",
+      "description": "Research centers, innovation centers, and academic/research entities",
+      "entities": [
+        "White House Office of Science and Technology Policy",
+        "Centre for Data Ethics and Innovation"
+      ]
+    },
+    {
+      "category_name": "COMMISSION",
+      "description": "Independent commissions with regulatory or oversight authority",
+      "entities": [
+        "Federal Election Commission",
+        "public disclosure commission"
+      ]
+    },
+    {
+      "category_name": "INTERNATIONAL_BODY",
+      "description": "International conventions, treaties, and multilateral organizations",
+      "entities": [
+        "Convention on Certain Conventional Weapons",
+        "CCW"
+      ]
+    },
+    {
+      "category_name": "BUDGET_AUTHORITY",
+      "description": "Budget offices, management entities, and financial oversight bodies",
+      "entities": [
+        "OMB"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_categories": 24,
+    "total_entities": 289,
+    "notes": [
+      "This taxonomy is designed for AI governance documents and can be extended as new entity types emerge",
+      "Some categories overlap conceptually but are distinguished by their organizational level or function",
+      "The schema prioritizes practical utility for knowledge graph construction over theoretical completeness"
+    ]
+  }
+}

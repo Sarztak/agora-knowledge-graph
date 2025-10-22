@@ -1,0 +1,947 @@
+[
+  {
+    "text": "Amazon",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "Anthropic",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "Google",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "Inflection",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "Meta",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "Microsoft",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "OpenAI",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "Biden-Harris Administration",
+    "sentence": "Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology."
+  },
+  {
+    "text": "Secretary of Commerce",
+    "sentence": "Establishes procedures by which the Secretary of Commerce may determine whether any information and communications technology or service (ICTS) transaction that has been produced or supplied by foreign adversaries poses certain undue or unacceptable cybersecurity risks."
+  },
+  {
+    "text": "Secretary of Defense",
+    "sentence": "Instructs the Secretary of Defense to execute a pilot program that offers online courses related to advanced technologies for civilian employees of the Department of Defense and members of the Armed Forces."
+  },
+  {
+    "text": "Department of Defense",
+    "sentence": "Instructs the Secretary of Defense to execute a pilot program that offers online courses related to advanced technologies for civilian employees of the Department of Defense and members of the Armed Forces."
+  },
+  {
+    "text": "Armed Forces",
+    "sentence": "Instructs the Secretary of Defense to execute a pilot program that offers online courses related to advanced technologies for civilian employees of the Department of Defense and members of the Armed Forces."
+  },
+  {
+    "text": "Federal Trade Commission",
+    "sentence": "Creates a new bureau within the Federal Trade Commission (FTC) to enforce the title with experts, including technologists experienced with AI."
+  },
+  {
+    "text": "FTC",
+    "sentence": "Creates a new bureau within the Federal Trade Commission (FTC) to enforce the title with experts, including technologists experienced with AI."
+  },
+  {
+    "text": "Privacy and Security Victims Relief Fund",
+    "sentence": "Establishes a Privacy and Security Victims Relief Fund for consumer redress and technological research."
+  },
+  {
+    "text": "Federal Acquisition Institute",
+    "sentence": "Requires the Federal Acquisition Institute to incorporate experiential learning into key acquisition certification programs within 18 months."
+  },
+  {
+    "text": "Office of Management and Budget",
+    "sentence": "Reassigns the responsibility for AI training requirements from the Office of Management and Budget to the General Services Administration."
+  },
+  {
+    "text": "General Services Administration",
+    "sentence": "Reassigns the responsibility for AI training requirements from the Office of Management and Budget to the General Services Administration."
+  },
+  {
+    "text": "Commercial Solutions Opening Authority",
+    "sentence": "Expands the Commercial Solutions Opening Authority to include commercial services and mandates public reporting and data collection on its use."
+  },
+  {
+    "text": "Secretary of Homeland Security",
+    "sentence": "Instructs the Secretary of Homeland Security to conduct cost-benefit analyses before requesting Department of Defense assistance for border operations, including AI technology impacts."
+  },
+  {
+    "text": "U.S. Customs and Border Protection",
+    "sentence": "Obliges U.S. Customs and Border Protection to submit detailed expenditure plans for autonomous systems, including deployment timelines and sustainment costs."
+  },
+  {
+    "text": "Comptroller General",
+    "sentence": "Obligates the Comptroller General to study the pilot program's progress and effectiveness, with an initial briefing and a final report to Congress."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Obligates the Comptroller General to study the pilot program's progress and effectiveness, with an initial briefing and a final report to Congress."
+  },
+  {
+    "text": "Federal Election Campaign Act of 1971",
+    "sentence": "Amends the Federal Election Campaign Act of 1971 to include penalties for violations of the disclaimer requirements, with fines up to $50,000."
+  },
+  {
+    "text": "Federal Communications Commission",
+    "sentence": "Mandates the Secretary of Agriculture, in coordination with the National Institute of Standards and Technology and the Federal Communications Commission, to develop voluntary interconnectivity standards for precision agriculture within two years."
+  },
+  {
+    "text": "FCC",
+    "sentence": "Directs the Federal Communications Commission (FCC), in consultation with the Federal Trade Commission (FTC), to issue rules prohibiting the offer of artificial intelligence products to minors without parental consent."
+  },
+  {
+    "text": "National Institute of Standards and Technology",
+    "sentence": "Mandates the Secretary of Agriculture, in coordination with the National Institute of Standards and Technology and the Federal Communications Commission, to develop voluntary interconnectivity standards for precision agriculture within two years."
+  },
+  {
+    "text": "NIST",
+    "sentence": "Requires the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities."
+  },
+  {
+    "text": "Secretary of Agriculture",
+    "sentence": "Mandates the Secretary of Agriculture, in coordination with the National Institute of Standards and Technology and the Federal Communications Commission, to develop voluntary interconnectivity standards for precision agriculture within two years."
+  },
+  {
+    "text": "Food & Drug Administration",
+    "sentence": "Classifies the adjunctive hemodynamic indicator with decision point -- a device that monitors medical conditions relating to blood flow -- into the Food & Drug Administration's class II, requiring special controls."
+  },
+  {
+    "text": "Artificial Intelligence Task Force",
+    "sentence": "Amends the meeting limitations of the Artificial Intelligence Task Force to permit no more than 15 meetings, excluding public hearings for obtaining public testimony on AI."
+  },
+  {
+    "text": "Senate Committee on Government Operations",
+    "sentence": "Requires the Task Force to submit an update by February 15, 2019, to the Senate Committee on Government Operations and the House Committee on Energy and Technology."
+  },
+  {
+    "text": "House Committee on Energy and Technology",
+    "sentence": "Requires the Task Force to submit an update by February 15, 2019, to the Senate Committee on Government Operations and the House Committee on Energy and Technology."
+  },
+  {
+    "text": "National Institute of Standards and Technology",
+    "sentence": "Directs the National Institute of Standards and Technology to develop resources for user interface design promoting user autonomy, choice, and decision making."
+  },
+  {
+    "text": "Section 40-57-820",
+    "sentence": "Amends Article 7, Chapter 57, Title 40 of the S.C. Code by adding Section 40-57-820."
+  },
+  {
+    "text": "Federal Aviation Administration",
+    "sentence": "Requires the Federal Aviation Administration (FAA) Administrator to issue a final rule within 24 months mandating safety management systems for certain operators under part 135 of title 14."
+  },
+  {
+    "text": "FAA",
+    "sentence": "Requires the FAA to improve the process for obtaining operating certificates and report on the efficiency and resource needs of this process."
+  },
+  {
+    "text": "Nuclear Regulatory Commission",
+    "sentence": "Requires the Nuclear Regulatory Commission (NRC) to report to Congress within 180 days on regulatory changes made during the COVID-19 emergency, examining their impact on licensing and safety."
+  },
+  {
+    "text": "NRC",
+    "sentence": "Requires the Nuclear Regulatory Commission (NRC) to report to Congress within 180 days on regulatory changes made during the COVID-19 emergency, examining their impact on licensing and safety."
+  },
+  {
+    "text": "Secretary of Energy",
+    "sentence": "Instructs the NRC to seek input from stakeholders including the Secretary of Energy, National Laboratories, the nuclear energy industry, and relevant NGOs in developing the report."
+  },
+  {
+    "text": "National Laboratories",
+    "sentence": "Instructs the NRC to seek input from stakeholders including the Secretary of Energy, National Laboratories, the nuclear energy industry, and relevant NGOs in developing the report."
+  },
+  {
+    "text": "Medicare Advantage plans",
+    "sentence": "Requires Medicare Advantage plans to establish an electronic prior authorization program by the third plan year after the enactment date."
+  },
+  {
+    "text": "GAO",
+    "sentence": "Calls for GAO and HHS to submit reports to Congress evaluating the implementation and impact of these requirements."
+  },
+  {
+    "text": "HHS",
+    "sentence": "Calls for GAO and HHS to submit reports to Congress evaluating the implementation and impact of these requirements."
+  },
+  {
+    "text": "Director of National Intelligence",
+    "sentence": "Requires the Director of National Intelligence to produce a comprehensive analysis of the intelligence community's cloud initiatives relating to the Commercial Cloud Enterprise contract entered into by the Director of the Central Intelligence Agency in November of 2020."
+  },
+  {
+    "text": "Director of the Central Intelligence Agency",
+    "sentence": "Requires the Director of National Intelligence to produce a comprehensive analysis of the intelligence community's cloud initiatives relating to the Commercial Cloud Enterprise contract entered into by the Director of the Central Intelligence Agency in November of 2020."
+  },
+  {
+    "text": "Commercial Cloud Enterprise contract",
+    "sentence": "Requires the Director of National Intelligence to produce a comprehensive analysis of the intelligence community's cloud initiatives relating to the Commercial Cloud Enterprise contract entered into by the Director of the Central Intelligence Agency in November of 2020."
+  },
+  {
+    "text": "European Commission",
+    "sentence": "Classifies AI systems into unacceptable, high, limited, and minimal risk categories, defining specific regulatory requirements for each category."
+  },
+  {
+    "text": "AI Office",
+    "sentence": "Establishes the European Commission's AI Office to lead implementation efforts and enforce compliance."
+  },
+  {
+    "text": "BUILD Act of 2018",
+    "sentence": "Amends the BUILD Act of 2018 to define 'transformational energy technology,' including AI applications for energy efficiency and grid operation."
+  },
+  {
+    "text": "U.S. International Development Finance Corporation",
+    "sentence": "Inserts a Chief Energy Officer position within the U.S. International Development Finance Corporation (DFC) to promote transformational energy technology exports and ensure at least 30% of DFC support targets such projects."
+  },
+  {
+    "text": "DFC",
+    "sentence": "Inserts a Chief Energy Officer position within the U.S. International Development Finance Corporation (DFC) to promote transformational energy technology exports and ensure at least 30% of DFC support targets such projects."
+  },
+  {
+    "text": "Chief Energy Officer",
+    "sentence": "Inserts a Chief Energy Officer position within the U.S. International Development Finance Corporation (DFC) to promote transformational energy technology exports and ensure at least 30% of DFC support targets such projects."
+  },
+  {
+    "text": "Export-Import Bank",
+    "sentence": "Establishes an Office of Energy in the Export-Import Bank to promote and finance exports of eligible technologies, including those involving AI."
+  },
+  {
+    "text": "Office of Energy",
+    "sentence": "Establishes an Office of Energy in the Export-Import Bank to promote and finance exports of eligible technologies, including those involving AI."
+  },
+  {
+    "text": "Joint Energy Export, Development, and Trade Database",
+    "sentence": "Mandates the creation of a Joint Energy Export, Development, and Trade Database to coordinate inter-agency efforts."
+  },
+  {
+    "text": "Government Accountability Office",
+    "sentence": "Obliges the Government Accountability Office to report on existing federal AI literacy programs and the Secretary to annually report on the strategy's progress and effectiveness."
+  },
+  {
+    "text": "International Emergency Economic Powers Act",
+    "sentence": "Utilizes the International Emergency Economic Powers Act to block and prohibit transactions involving sanctioned foreign persons' property within U.S. jurisdiction."
+  },
+  {
+    "text": "President",
+    "sentence": "Requires the President to impose sanctions on foreign persons engaged in significant operations in China's defense or surveillance technology sectors."
+  },
+  {
+    "text": "Oxehealth Vital Signs device",
+    "sentence": "Classifies the Oxehealth Vital Signs device -- which uses software to enable camera-based measurement of pulse rate, heart rate, breathing rate, and/or respiratory rate -- into the U.S. Food and Drug Administration's class II, requiring special controls."
+  },
+  {
+    "text": "Chief Data and Artificial Intelligence Officer",
+    "sentence": "Obliges the Chief Data and Artificial Intelligence Officer to develop policies for a combatant command warfighter forum on AI, considering purposes such as AI tool use cases, risk categorization, and training needs."
+  },
+  {
+    "text": "FAST Act",
+    "sentence": "Amends Section 41001(6)(A) of the FAST Act to include semiconductors, artificial intelligence, machine learning, cybersecurity, and various related technology-powered infrastructure to the FAST Act permitting program."
+  },
+  {
+    "text": "ASL Standards",
+    "sentence": "Establishes AI Safety Level (ASL) Standards to guide safe deployment and security for current and future AI models, categorizing measures into Deployment and Security Standards."
+  },
+  {
+    "text": "ASL-2 standards",
+    "sentence": "Requires all current models to meet ASL-2 standards, focusing on safe usage and protection from unauthorized access."
+  },
+  {
+    "text": "Capability Thresholds",
+    "sentence": "Introduces Capability Thresholds to determine when stronger safeguards (ASL-3 or higher) are needed, specifying Required Safeguards for particular risks including Chemical, Biological, Radiological, and Nuclear (CBRN) capabilities and Autonomous AI R&D."
+  },
+  {
+    "text": "ASL-3 standards",
+    "sentence": "Mandates comprehensive assessments to ensure models remain below Capability Thresholds, with stricter ASL-3 standards implemented if thresholds are surpassed."
+  },
+  {
+    "text": "Responsible Scaling Officer",
+    "sentence": "Outlines internal governance practices including a Responsible Scaling Officer role, transparency measures, and procedures for noncompliance whistleblowing."
+  },
+  {
+    "text": "US Government",
+    "sentence": "Commits to public transparency, expert input, and notifying US Government if standards beyond ASL-2 are needed."
+  },
+  {
+    "text": "Attorney General",
+    "sentence": "Outlines civil penalties for violations, including a fine up to $1,000, with enforcement authority granted exclusively to the Attorney General."
+  },
+  {
+    "text": "Government of the People's Republic of China",
+    "sentence": "Prohibits United States financial institutions from making investments benefiting the Government of the People's Republic of China or the Chinese Communist Party."
+  },
+  {
+    "text": "Chinese Communist Party",
+    "sentence": "Prohibits United States financial institutions from making investments benefiting the Government of the People's Republic of China or the Chinese Communist Party."
+  },
+  {
+    "text": "Secretary of the Treasury",
+    "sentence": "Mandates the Secretary of the Treasury to enforce this prohibition within three days of a covered determination."
+  },
+  {
+    "text": "Made in China 2025",
+    "sentence": "Includes investments that benefit priority industrial sectors identified in Chinese strategic plans, such as 'Made in China 2025' and the '14th Five Year Smart Manufacturing Development Plan.'"
+  },
+  {
+    "text": "14th Five Year Smart Manufacturing Development Plan",
+    "sentence": "Includes investments that benefit priority industrial sectors identified in Chinese strategic plans, such as 'Made in China 2025' and the '14th Five Year Smart Manufacturing Development Plan.'"
+  },
+  {
+    "text": "Joint Autonomy Office",
+    "sentence": "Directs the Secretary of Defense to establish the Joint Autonomy Office in the Department of Defense, responsible for coordinating and accelerating the adoption of all-domain autonomous systems for operational users, including through the adoption of commercial and defense best practices"
+  },
+  {
+    "text": "FRA safety regulations",
+    "sentence": "Require railroads seeking to use automation technology non-compliant with FRA safety regulations to file a petition for rulemaking or a waiver."
+  },
+  {
+    "text": "PTC",
+    "sentence": "Disagree with assertions that labor-saving technologies like PTC justify removal of crew members, stating such technologies are not fully developed."
+  },
+  {
+    "text": "Artificial Intelligence and Data Act",
+    "sentence": "Proposes the Artificial Intelligence and Data Act (AIDA) to regulate AI in Canada, focusing on high-impact AI systems."
+  },
+  {
+    "text": "AIDA",
+    "sentence": "Proposes the Artificial Intelligence and Data Act (AIDA) to regulate AI in Canada, focusing on high-impact AI systems."
+  },
+  {
+    "text": "Minister of Innovation, Science, and Industry",
+    "sentence": "Empowers the Minister of Innovation, Science, and Industry to enforce AIDA, supported by a new AI and Data Commissioner."
+  },
+  {
+    "text": "AI and Data Commissioner",
+    "sentence": "Empowers the Minister of Innovation, Science, and Industry to enforce AIDA, supported by a new AI and Data Commissioner."
+  },
+  {
+    "text": "EU AI Act",
+    "sentence": "Aligns with international norms, such as the EU AI Act, and integrates with existing Canadian laws."
+  },
+  {
+    "text": "Secretary of State",
+    "sentence": "Mandates the Director of the National Institute of Standards and Technology (NIST), in coordination with the Secretary of State, to brief Congress about opportunities for U.S. support in developing AI standards within one year."
+  },
+  {
+    "text": "Oklahoma laws",
+    "sentence": "Amends Oklahoma laws to enhance penalties for offenses involving child pornography, specifically targeting AI-generated images."
+  },
+  {
+    "text": "Microsoft",
+    "sentence": "Mandates Microsoft to conduct Impact Assessments for AI systems early in development to evaluate societal impacts, ensuring AI systems are fit for purpose, with annual updates and reviews for significant adverse impacts."
+  },
+  {
+    "text": "Privacy, Security, and Accessibility Standards",
+    "sentence": "Insists on compliance with Microsoft's Privacy, Security, and Accessibility Standards to ensure AI systems are inclusive, secure, and respect privacy."
+  },
+  {
+    "text": "Administrator of the Office of Electronic Government",
+    "sentence": "Requires the Administrator of the Office of Electronic Government of the Office of Management and Budget, in consultation with various federal actors, to research a technology-based solution to reform the classification system employed by the federal government."
+  },
+  {
+    "text": "New Generation Artificial Intelligence Development Plan",
+    "sentence": "The 'New Generation Artificial Intelligence Development Plan' aims to establish China as a global leader in AI by 2030."
+  },
+  {
+    "text": "China",
+    "sentence": "The 'New Generation Artificial Intelligence Development Plan' aims to establish China as a global leader in AI by 2030."
+  },
+  {
+    "text": "Workforce Innovation and Opportunity Act",
+    "sentence": "Amends the Workforce Innovation and Opportunity Act to require states to use data for analyses and ongoing evaluations of programs."
+  },
+  {
+    "text": "Chief Artificial Intelligence Officer",
+    "sentence": "Creates the Chief Artificial Intelligence Officer position, who will be responsible for (a) the evaluation and facilitation of responsible AI and machine learning usage and (b) advising the Secretary of State on ethical AI and analytics usage in diplomacy."
+  },
+  {
+    "text": "Chief Information Officer",
+    "sentence": "Instructs the Chief Artificial Intelligence Officer to partner with the Chief Information Officer on scaling AI use cases."
+  },
+  {
+    "text": "Joint Commission on Technology and Science",
+    "sentence": "Mandates the Joint Commission on Technology and Science (JCOTS) to conduct an analysis of artificial intelligence use by public bodies in Virginia."
+  },
+  {
+    "text": "JCOTS",
+    "sentence": "Mandates the Joint Commission on Technology and Science (JCOTS) to conduct an analysis of artificial intelligence use by public bodies in Virginia."
+  },
+  {
+    "text": "Commission on Artificial Intelligence",
+    "sentence": "Mandates consideration of establishing a Commission on Artificial Intelligence to advise the General Assembly on AI-related issues."
+  },
+  {
+    "text": "General Assembly",
+    "sentence": "Mandates consideration of establishing a Commission on Artificial Intelligence to advise the General Assembly on AI-related issues."
+  },
+  {
+    "text": "Virginia",
+    "sentence": "Mandates the Joint Commission on Technology and Science (JCOTS) to conduct an analysis of artificial intelligence use by public bodies in Virginia."
+  },
+  {
+    "text": "ChatGPT",
+    "sentence": "Regulate generative AI models, such as ChatGPT, to protect public safety, privacy, and intellectual property rights."
+  },
+  {
+    "text": "Fireshed Center",
+    "sentence": "Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies."
+  },
+  {
+    "text": "Forest Service",
+    "sentence": "Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies."
+  },
+  {
+    "text": "U.S. Geological Survey",
+    "sentence": "Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies."
+  },
+  {
+    "text": "Fireshed Registry",
+    "sentence": "Maintains the Fireshed Registry and supports its operations with personnel and services from the U.S. Geological Survey and the Forest Service."
+  },
+  {
+    "text": "Artificial Intelligence Officer",
+    "sentence": "Establishes the position of Artificial Intelligence Officer to develop and update procedures regulating automated systems used by state agencies for critical decisions."
+  },
+  {
+    "text": "New Jersey Artificial Intelligence Advisory Board",
+    "sentence": "Creates the New Jersey Artificial Intelligence Advisory Board to advise state agencies, hold public hearings on preliminary procedures, and issue reports and recommendations."
+  },
+  {
+    "text": "Artificial Intelligence Implementation Officer",
+    "sentence": "Establishes the position of Artificial Intelligence Implementation Officer to review and approve or deny new automated systems based on compliance with procedures, and conduct periodic reevaluations."
+  },
+  {
+    "text": "AI Bill of Rights",
+    "sentence": "Forms a task force to study AI and create an AI Bill of Rights, with a report due within one year."
+  },
+  {
+    "text": "New Jersey",
+    "sentence": "Creates the New Jersey Artificial Intelligence Advisory Board to advise state agencies, hold public hearings on preliminary procedures, and issue reports and recommendations."
+  },
+  {
+    "text": "HL7",
+    "sentence": "Incorporates by reference various health information standards, including HL7, LOINC, and SNOMED CT, to ensure interoperability and accuracy in electronic health information exchange."
+  },
+  {
+    "text": "LOINC",
+    "sentence": "Incorporates by reference various health information standards, including HL7, LOINC, and SNOMED CT, to ensure interoperability and accuracy in electronic health information exchange."
+  },
+  {
+    "text": "SNOMED CT",
+    "sentence": "Incorporates by reference various health information standards, including HL7, LOINC, and SNOMED CT, to ensure interoperability and accuracy in electronic health information exchange."
+  },
+  {
+    "text": "Federal Election Commission",
+    "sentence": "Directs the Federal Election Commission (FEC) to issue regulations outlining criteria for determining substantially AI-generated content and requirements for the disclosure statement."
+  },
+  {
+    "text": "European Artificial Intelligence Office",
+    "sentence": "Establishes the European Artificial Intelligence Office within the Directorate-General for Communication Networks, Content and Technology to oversee AI advancements and enforce the forthcoming Regulation on AI."
+  },
+  {
+    "text": "Directorate-General for Communication Networks, Content and Technology",
+    "sentence": "Establishes the European Artificial Intelligence Office within the Directorate-General for Communication Networks, Content and Technology to oversee AI advancements and enforce the forthcoming Regulation on AI."
+  },
+  {
+    "text": "Digital Europe Programme",
+    "sentence": "Finances the Office through redeployment of resources from the Directorate-General and the Digital Europe Programme."
+  },
+  {
+    "text": "Regulation on AI",
+    "sentence": "Establishes the European Artificial Intelligence Office within the Directorate-General for Communication Networks, Content and Technology to oversee AI advancements and enforce the forthcoming Regulation on AI."
+  },
+  {
+    "text": "National Vulnerability Database",
+    "sentence": "Requires the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities."
+  },
+  {
+    "text": "Common Vulnerabilities and Exposures Program",
+    "sentence": "Requires the Cybersecurity and Infrastructure Security Agency (CISA) to update the Common Vulnerabilities and Exposures Program for AI vulnerabilities."
+  },
+  {
+    "text": "Cybersecurity and Infrastructure Security Agency",
+    "sentence": "Requires the Cybersecurity and Infrastructure Security Agency (CISA) to update the Common Vulnerabilities and Exposures Program for AI vulnerabilities."
+  },
+  {
+    "text": "CISA",
+    "sentence": "Requires the Cybersecurity and Infrastructure Security Agency (CISA) to update the Common Vulnerabilities and Exposures Program for AI vulnerabilities."
+  },
+  {
+    "text": "Artificial Intelligence Security Center",
+    "sentence": "Establishes an Artificial Intelligence Security Center within NSA to facilitate AI security research, develop counter-AI techniques, and promote secure AI practices."
+  },
+  {
+    "text": "NSA",
+    "sentence": "Establishes an Artificial Intelligence Security Center within NSA to facilitate AI security research, develop counter-AI techniques, and promote secure AI practices."
+  },
+  {
+    "text": "Financial Crimes Enforcement Network",
+    "sentence": "Requires the Director of the Financial Crimes Enforcement Network -- a bureau of the Treasury Department -- to brief the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives on the current and potential future use of artificial intelligence and other emerging technologies in its work, along with policy recommendations for enhancing the efficacy of utilizing such technologies in combating financial crimes."
+  },
+  {
+    "text": "Treasury Department",
+    "sentence": "Requires the Director of the Financial Crimes Enforcement Network -- a bureau of the Treasury Department -- to brief the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives on the current and potential future use of artificial intelligence and other emerging technologies in its work, along with policy recommendations for enhancing the efficacy of utilizing such technologies in combating financial crimes."
+  },
+  {
+    "text": "Committee on Banking, Housing, and Urban Affairs of the Senate",
+    "sentence": "Requires the Director of the Financial Crimes Enforcement Network -- a bureau of the Treasury Department -- to brief the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives on the current and potential future use of artificial intelligence and other emerging technologies in its work, along with policy recommendations for enhancing the efficacy of utilizing such technologies in combating financial crimes."
+  },
+  {
+    "text": "Committee on Financial Services of the House of Representatives",
+    "sentence": "Requires the Director of the Financial Crimes Enforcement Network -- a bureau of the Treasury Department -- to brief the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives on the current and potential future use of artificial intelligence and other emerging technologies in its work, along with policy recommendations for enhancing the efficacy of utilizing such technologies in combating financial crimes."
+  },
+  {
+    "text": "Register of Copyrights",
+    "sentence": "Requires anyone who creates or alters a training dataset used for a generative AI system to submit a notice to the Register of Copyrights with a summary of any copyrighted works used in the dataset and the URL for the dataset."
+  },
+  {
+    "text": "National Voter Registration Act",
+    "sentence": "Amends the National Voter Registration Act to prevent states from using unverified databases to remove voters from official lists, requiring government-verified information approved by the Attorney General."
+  },
+  {
+    "text": "Computer Fraud and Abuse Act",
+    "sentence": "Sets criteria for source information, including monthly updates and non-violation of the Computer Fraud and Abuse Act."
+  },
+  {
+    "text": "Homeland Security Act of 2002",
+    "sentence": "Extends the research and development acquisition pilot program under the Homeland Security Act of 2002 to September 30, 2027."
+  },
+  {
+    "text": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023",
+    "sentence": "Reduces the threshold for covered contract awards from $4,000,000 to $1,000,000 under the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023."
+  },
+  {
+    "text": "OECD AI Principles",
+    "sentence": "Recommends adopting ethical AI principles based on the OECD AI Principles, focusing on growth, human-centric AI, equality, transparency, reliability, and accountability."
+  },
+  {
+    "text": "AI Policy Coordination Center",
+    "sentence": "Proposes the creation of an AI Policy Coordination Center to advise regulators, promote inter-agency coordination, and lead international representation."
+  },
+  {
+    "text": "Shenzhen Municipal Government",
+    "sentence": "Mandates the Shenzhen Municipal Government to coordinate AI development and safety, incorporating AI development into national plans and setting clear industry standards."
+  },
+  {
+    "text": "Shenzhen",
+    "sentence": "Establishes mechanisms for promoting the AI industry in Shenzhen, emphasizing high-quality AI development and integration across social and economic sectors."
+  },
+  {
+    "text": "Assistant Secretary of Commerce",
+    "sentence": "Requires the Assistant Secretary of Commerce to promote U.S. leadership in emerging technologies, including artificial intelligence (AI), and strengthen critical supply chains and national security."
+  },
+  {
+    "text": "California",
+    "sentence": "Prohibits the creation, distribution, and possession of child sexual assault material (CSAM) generated by artificial intelligence (AI) in California."
+  },
+  {
+    "text": "California's Penal Code",
+    "sentence": "Amends California's Penal Code to include AI-generated CSAM as obscene matter, subject to legal penalties."
+  },
+  {
+    "text": "Senate Bill 1381",
+    "sentence": "Becomes operative only if Senate Bill 1381 is enacted by January 1, 2025."
+  },
+  {
+    "text": "Harmful Algal Blooms and Hypoxia Research and Control Act of 1998",
+    "sentence": "Amends the Harmful Algal Blooms and Hypoxia Research and Control Act of 1998 to establish a national harmful algal bloom observing network."
+  },
+  {
+    "text": "Under Secretary",
+    "sentence": "Requires the Under Secretary, through NCCOS and IOOS of NOAA, to monitor, detect, and forecast harmful algal blooms using emerging technologies, including artificial intelligence."
+  },
+  {
+    "text": "NCCOS",
+    "sentence": "Requires the Under Secretary, through NCCOS and IOOS of NOAA, to monitor, detect, and forecast harmful algal blooms using emerging technologies, including artificial intelligence."
+  },
+  {
+    "text": "IOOS",
+    "sentence": "Requires the Under Secretary, through NCCOS and IOOS of NOAA, to monitor, detect, and forecast harmful algal blooms using emerging technologies, including artificial intelligence."
+  },
+  {
+    "text": "NOAA",
+    "sentence": "Requires the Under Secretary, through NCCOS and IOOS of NOAA, to monitor, detect, and forecast harmful algal blooms using emerging technologies, including artificial intelligence."
+  },
+  {
+    "text": "IOOS Program Office",
+    "sentence": "Mandates the IOOS Program Office to coordinate with NCCOS on data integration and information dissemination."
+  },
+  {
+    "text": "Harmful Algal Bloom Data Assembly Center",
+    "sentence": "Establishes a Harmful Algal Bloom Data Assembly Center for data integration, dissemination, and support of ecological forecasting."
+  },
+  {
+    "text": "Safety Advisory Group",
+    "sentence": "Announces creation of a Safety Advisory Group to assist OpenAI leadership and Board of Directors with making safety decisions by overseeing risk assessments and handling emergency scenarios via fast-track process."
+  },
+  {
+    "text": "Board of Directors",
+    "sentence": "Announces creation of a Safety Advisory Group to assist OpenAI leadership and Board of Directors with making safety decisions by overseeing risk assessments and handling emergency scenarios via fast-track process."
+  },
+  {
+    "text": "Preparedness team",
+    "sentence": "Tasks Preparedness team with conducting research, evaluations, and forecasting of risks, submitting regular reports to the Safety Advisory Group, coordinating with other OpenAI teams on recommended mitigations, and managing safety drills and third-party auditing."
+  },
+  {
+    "text": "Science and Technology Directorate Office of Science and Engineering",
+    "sentence": "Establishes (under section 4), a specialized initiative in conjuction with the Science and Technology Directorate Office of Science and Engineering to modify systems and processes towards countering human trafficking."
+  },
+  {
+    "text": "CCHT Director",
+    "sentence": "Instructs the CCHT Director, in conjunction with the Science and Technology Directorate Office of Science and Engineering to apply analytics to automate manual processes."
+  },
+  {
+    "text": "Amazon Web Services",
+    "sentence": "Facilitates AI development and deployment through Amazon Web Services (AWS), offering a comprehensive suite of AI and ML services, including Amazon Bedrock and Amazon Titan Foundation Models, which support generative AI applications."
+  },
+  {
+    "text": "AWS",
+    "sentence": "Facilitates AI development and deployment through Amazon Web Services (AWS), offering a comprehensive suite of AI and ML services, including Amazon Bedrock and Amazon Titan Foundation Models, which support generative AI applications."
+  },
+  {
+    "text": "Amazon Bedrock",
+    "sentence": "Facilitates AI development and deployment through Amazon Web Services (AWS), offering a comprehensive suite of AI and ML services, including Amazon Bedrock and Amazon Titan Foundation Models, which support generative AI applications."
+  },
+  {
+    "text": "Amazon Titan Foundation Models",
+    "sentence": "Facilitates AI development and deployment through Amazon Web Services (AWS), offering a comprehensive suite of AI and ML services, including Amazon Bedrock and Amazon Titan Foundation Models, which support generative AI applications."
+  },
+  {
+    "text": "AI Service Cards",
+    "sentence": "Shares AI service information transparently through AI Service Cards, detailing intended use cases, limitations, and responsible AI design considerations."
+  },
+  {
+    "text": "AWS Responsible AI Policy",
+    "sentence": "Encourages responsible AI use and prohibits misuse through the AWS Responsible AI Policy, which addresses concerns like disinformation and privacy violations."
+  },
+  {
+    "text": "National Integrated Drought Information System",
+    "sentence": "Reauthorizes the National Integrated Drought Information System."
+  },
+  {
+    "text": "National Mesonet Program",
+    "sentence": "Establishes memoranda of understanding with the National Mesonet Program for coordinated drought information."
+  },
+  {
+    "text": "Climate Prediction Center",
+    "sentence": "Requires migration to probabilistic forecasts and incorporation of new modeling tools with the Climate Prediction Center."
+  },
+  {
+    "text": "National Coordinated Soil Moisture Monitoring Network",
+    "sentence": "Mandates development, deployment, and maintenance of the National Coordinated Soil Moisture Monitoring Network."
+  },
+  {
+    "text": "Under Secretary of Commerce for Oceans and Atmosphere",
+    "sentence": "Requires the Under Secretary of Commerce for Oceans and Atmosphere to improve the communication system of the National Oceanic and Atmospheric Administration (NOAA) for hazardous weather and water events to prevent loss of life and property."
+  },
+  {
+    "text": "National Oceanic and Atmospheric Administration",
+    "sentence": "Requires the Under Secretary of Commerce for Oceans and Atmosphere to improve the communication system of the National Oceanic and Atmospheric Administration (NOAA) for hazardous weather and water events to prevent loss of life and property."
+  },
+  {
+    "text": "Alabama Council on Advanced Technology and Artificial Intelligence",
+    "sentence": "Establishes the Alabama Council on Advanced Technology and Artificial Intelligence."
+  },
+  {
+    "text": "Governor",
+    "sentence": "Requires the council to review and advise the Governor and Legislature on the use and development of advanced technology and artificial intelligence."
+  },
+  {
+    "text": "Legislature",
+    "sentence": "Requires the council to review and advise the Governor and Legislature on the use and development of advanced technology and artificial intelligence."
+  },
+  {
+    "text": "Lieutenant Governor",
+    "sentence": "Composes the council of 22 members, including appointees from the Governor, Lieutenant Governor, Speaker of the House, and Senate President Pro Tempore, and ex officio members from commerce and information technology departments."
+  },
+  {
+    "text": "Speaker of the House",
+    "sentence": "Composes the council of 22 members, including appointees from the Governor, Lieutenant Governor, Speaker of the House, and Senate President Pro Tempore, and ex officio members from commerce and information technology departments."
+  },
+  {
+    "text": "Senate President Pro Tempore",
+    "sentence": "Composes the council of 22 members, including appointees from the Governor, Lieutenant Governor, Speaker of the House, and Senate President Pro Tempore, and ex officio members from commerce and information technology departments."
+  },
+  {
+    "text": "Alabama",
+    "sentence": "Establishes the Alabama Council on Advanced Technology and Artificial Intelligence."
+  },
+  {
+    "text": "Chief Digital and Artificial Intelligence Officer Governing Council",
+    "sentence": "Requires the Secretary to establish the Chief Digital and Artificial Intelligence Officer Governing Council, which will provide policy oversight to ensure the responsible, coordinated, and ethical deployment of AI across Department of Defense missions and operations."
+  },
+  {
+    "text": "public disclosure commission",
+    "sentence": "Mandates the public disclosure commission to adopt rules supporting this chapter without constituting violations under existing campaign finance laws."
+  },
+  {
+    "text": "Supply Chain Resilience Working Group",
+    "sentence": "Mandates the creation of the Supply Chain Resilience Working Group composed of relevant federal agencies to assess and model supply chain stability, including those involving AI technologies."
+  },
+  {
+    "text": "Director of the Joint Artificial Intelligence Center",
+    "sentence": "Instructs the Secretary of Defense to delegate acquisition authority to the Director of the Joint Artificial Intelligence Center, and outlines responsibilities of an acquisition executive in the execution, supervision, discussion, and coordination of relevant acquisition activities."
+  },
+  {
+    "text": "Joint Artificial Intelligence Center",
+    "sentence": "Instructs the Secretary of Defense to delegate acquisition authority to the Director of the Joint Artificial Intelligence Center, and outlines responsibilities of an acquisition executive in the execution, supervision, discussion, and coordination of relevant acquisition activities."
+  },
+  {
+    "text": "Comptroller General of the United States",
+    "sentence": "Instructs the Comptroller General of the United States to carry out a study in consultation with law enforcement, relevant federal agencies, private sector stakeholders (such as financial institutions, data and technology companies), to investigate major trafficking routes used by transnational criminal organizations and to what extent the trafficking routes are related."
+  },
+  {
+    "text": "Consolidated Appropriations Act, 2022",
+    "sentence": "Amends the Consolidated Appropriations Act, 2022, to include 'digital forgery' as any intimate visual depiction created via AI or other technological means to appear indistinguishable from an authentic visual depiction."
+  },
+  {
+    "text": "Executive Order 14110",
+    "sentence": "Mandates review and potential suspension, revision, or rescission of actions under the revoked Executive Order 14110 that conflict with the new policy."
+  },
+  {
+    "text": "Office of Management and Budget",
+    "sentence": "Instructs Office of Management and Budget (OMB) to revise relevant memoranda to align with the new policy."
+  },
+  {
+    "text": "OMB",
+    "sentence": "Instructs Office of Management and Budget (OMB) to revise relevant memoranda to align with the new policy."
+  },
+  {
+    "text": "Canada",
+    "sentence": "Proposes a voluntary code of practice for generative AI systems in Canada to ensure safety, security, and trust ahead of binding regulation."
+  },
+  {
+    "text": "District of Columbia",
+    "sentence": "Establishes six core AI Values that District of Columbia agencies must assess before deploying AI tools, specifically focusing on benefits, safety, accountability, transparency, sustainability, and privacy."
+  },
+  {
+    "text": "AI Advisory Group",
+    "sentence": "Forms an AI Advisory Group and an AI Taskforce to align AI Values, conduct community engagement, support governance, and advise the Mayor on AI use."
+  },
+  {
+    "text": "AI Taskforce",
+    "sentence": "Forms an AI Advisory Group and an AI Taskforce to align AI Values, conduct community engagement, support governance, and advise the Mayor on AI use."
+  },
+  {
+    "text": "Mayor",
+    "sentence": "Forms an AI Advisory Group and an AI Taskforce to align AI Values, conduct community engagement, support governance, and advise the Mayor on AI use."
+  },
+  {
+    "text": "Office of the Chief Technology Officer",
+    "sentence": "Instructs the Office of the Chief Technology Officer, Department of Human Resources, and other agencies to develop privacy, cybersecurity, recruitment, and procurement benchmarks by specified deadlines."
+  },
+  {
+    "text": "Department of Human Resources",
+    "sentence": "Instructs the Office of the Chief Technology Officer, Department of Human Resources, and other agencies to develop privacy, cybersecurity, recruitment, and procurement benchmarks by specified deadlines."
+  },
+  {
+    "text": "U.S. West Coast",
+    "sentence": "Supports atmospheric river reconnaissance efforts, ensuring data availability and integration into forecasting systems, and mandates the establishment of observatories along the U.S. West Coast."
+  },
+  {
+    "text": "New York Artificial Intelligence Consumer Protection Act",
+    "sentence": "Enacts the New York Artificial Intelligence Consumer Protection Act to manage risks of AI decision systems."
+  },
+  {
+    "text": "New York",
+    "sentence": "Enacts the New York Artificial Intelligence Consumer Protection Act to manage risks of AI decision systems."
+  },
+  {
+    "text": "Value-Based Insurance Design Model",
+    "sentence": "Establishes a Value-Based Insurance Design Model (VBID) demonstration program to provide Medicare beneficiaries with assistive telehealth consultations and home-based care."
+  },
+  {
+    "text": "VBID",
+    "sentence": "Establishes a Value-Based Insurance Design Model (VBID) demonstration program to provide Medicare beneficiaries with assistive telehealth consultations and home-based care."
+  },
+  {
+    "text": "Medicare Advantage",
+    "sentence": "Limits the VBID program to a maximum of 25 MA plans, with at least 10 plans serving rural or underserved areas."
+  },
+  {
+    "text": "MA plans",
+    "sentence": "Limits the VBID program to a maximum of 25 MA plans, with at least 10 plans serving rural or underserved areas."
+  },
+  {
+    "text": "Medicaid",
+    "sentence": "Administers a grant program for state Medicaid programs to cover similar tests and telehealth consultations, with grants awarded to 5-10 states or territories for a 4-year period, not exceeding $12 million per state."
+  },
+  {
+    "text": "Department of Administrative Services",
+    "sentence": "Requires the Department of Administrative Services to establish a public inventory of state agencies' existing use of AI systems; this inventory should include whether the system was employed to independently make or inform decisions, and whether it undergone an impact assessment before implementation"
+  },
+  {
+    "text": "Office of Policy and Management",
+    "sentence": "Requires the Office of Policy and Management to develop policies to govern state agencies' procurement and use of AI systems; this includes requiring state agencies to conduct impact assessments for these systems and to ensure systems do not unlawfully discriminate against individuals or groups"
+  },
+  {
+    "text": "Connecticut",
+    "sentence": "Bans state agencies from implementing any AI system unless it had performed an impact assessment to prevent unlawful discrimination, effective February 1 2024"
+  },
+  {
+    "text": "Judicial Department",
+    "sentence": "Requires the Judicial Department to establish a public inventory of its systems that employ AI, including whether the AI system had undergone impact assessments and was used to make or support conclusions; also requires the department to introduce policies to govern the use of AI, and to prevent unlawful discrimination"
+  },
+  {
+    "text": "White House Office of Science and Technology Policy",
+    "sentence": "Establishes a working group comprising industry representatives and academics to engage stakeholders and experts and make recommendations on the state government's use of AI; this includes recommendations on the adoption of a Connecticut artificial intelligence bill of rights based on the White House Office of Science and Technology Policy's 'Blueprint for an AI Bill of Rights'"
+  },
+  {
+    "text": "Blueprint for an AI Bill of Rights",
+    "sentence": "Establishes a working group comprising industry representatives and academics to engage stakeholders and experts and make recommendations on the state government's use of AI; this includes recommendations on the adoption of a Connecticut artificial intelligence bill of rights based on the White House Office of Science and Technology Policy's 'Blueprint for an AI Bill of Rights'"
+  },
+  {
+    "text": "Centre for Data Ethics and Innovation",
+    "sentence": "Collaborates with the Centre for Data Ethics and Innovation and forms an AI Ethics Advisory Panel to guide ethical implementation."
+  },
+  {
+    "text": "AI Ethics Advisory Panel",
+    "sentence": "Collaborates with the Centre for Data Ethics and Innovation and forms an AI Ethics Advisory Panel to guide ethical implementation."
+  },
+  {
+    "text": "International Humanitarian Law",
+    "sentence": "Implements a governance framework involving senior defense officials and specialized units to ensure compliance with national and international laws, including International Humanitarian Law."
+  },
+  {
+    "text": "Convention on Certain Conventional Weapons",
+    "sentence": "Welcomes progress in LAWS discussions within the Convention on Certain Conventional Weapons (CCW) framework and supports continued expert meetings."
+  },
+  {
+    "text": "CCW",
+    "sentence": "Welcomes progress in LAWS discussions within the Convention on Certain Conventional Weapons (CCW) framework and supports continued expert meetings."
+  },
+  {
+    "text": "Protocol on Blinding Laser Weapons",
+    "sentence": "Supports developing a legally binding protocol on LAWS, akin to the Protocol on Blinding Laser Weapons, to address legal gaps."
+  },
+  {
+    "text": "Tennessee Artificial Intelligence Advisory Council",
+    "sentence": "Establishes the Tennessee Artificial Intelligence Advisory Council to guide AI awareness, education, and usage in state government."
+  },
+  {
+    "text": "Tennessee",
+    "sentence": "Establishes the Tennessee Artificial Intelligence Advisory Council to guide AI awareness, education, and usage in state government."
+  },
+  {
+    "text": "Oregon Revised Statutes chapter 260",
+    "sentence": "Adds the new provisions to Oregon Revised Statutes chapter 260 and amends ORS 260.345 to incorporate enforcement mechanisms for violations involving synthetic media in campaign communications."
+  },
+  {
+    "text": "ORS 260.345",
+    "sentence": "Adds the new provisions to Oregon Revised Statutes chapter 260 and amends ORS 260.345 to incorporate enforcement mechanisms for violations involving synthetic media in campaign communications."
+  },
+  {
+    "text": "Oregon",
+    "sentence": "Adds the new provisions to Oregon Revised Statutes chapter 260 and amends ORS 260.345 to incorporate enforcement mechanisms for violations involving synthetic media in campaign communications."
+  },
+  {
+    "text": "State Treasury's General Fund",
+    "sentence": "Imposes a civil penalty of up to $10,000 for violations, with penalties directed to the State Treasury's General Fund."
+  },
+  {
+    "text": "Section 236 of the FY 2021 National Defense Authorization Act",
+    "sentence": "Amends Section 236 of the FY 2021 National Defense Authorization Act by adding the Director of National Intelligence as an official that can, with the Secretary of Defense, establish a steering committee on emerging technology and national security and receive recommendations from the committee."
+  },
+  {
+    "text": "Principal Deputy Director of National Intelligence",
+    "sentence": "Amends members of the steering committee to consist of the Principal Deputy Director of National Intelligence, the Deputy Sector of Defense, the Vice Chairman of the Joint Chiefs of Staffs, and other appropriate officials."
+  },
+  {
+    "text": "Deputy Sector of Defense",
+    "sentence": "Amends members of the steering committee to consist of the Principal Deputy Director of National Intelligence, the Deputy Sector of Defense, the Vice Chairman of the Joint Chiefs of Staffs, and other appropriate officials."
+  },
+  {
+    "text": "Vice Chairman of the Joint Chiefs of Staff",
+    "sentence": "Amends members of the steering committee to consist of the Principal Deputy Director of National Intelligence, the Deputy Sector of Defense, the Vice Chairman of the Joint Chiefs of Staffs, and other appropriate officials."
+  },
+  {
+    "text": "Deputy Secretary of Defense",
+    "sentence": "Adds that the Steering Committee shall be chaired by the Deputy Secretary of Defense, the Vice Chairman of the Joint Chiefs of Staff, and the Principal Deputy Director of National Intelligence jointly."
+  },
+  {
+    "text": "National Defense Strategy",
+    "sentence": "Amends the responsibilities of the steering committee by clarifying that the committee's strategy is to maintain the technological superiority of both the US military and intelligence community according to not only the National Defense Strategy, but also the National Intelligence Strategy and the National Security Strategy."
+  },
+  {
+    "text": "National Intelligence Strategy",
+    "sentence": "Amends the responsibilities of the steering committee by clarifying that the committee's strategy is to maintain the technological superiority of both the US military and intelligence community according to not only the National Defense Strategy, but also the National Intelligence Strategy and the National Security Strategy."
+  },
+  {
+    "text": "National Security Strategy",
+    "sentence": "Amends the responsibilities of the steering committee by clarifying that the committee's strategy is to maintain the technological superiority of both the US military and intelligence community according to not only the National Defense Strategy, but also the National Intelligence Strategy and the National Security Strategy."
+  },
+  {
+    "text": "National Intelligence Program",
+    "sentence": "Adds that the steering committee is responsible for making recommendations on any changes to the guidance for developing the National Intelligence Program budget and determining whether sufficient resources are available for the intelligence community, in addition to the Department of Defense, to defeat threats to the US."
+  },
+  {
+    "text": "National Security Act of 1947",
+    "sentence": "Adds the definition of intelligence community from the National Security Act of 1947."
+  },
+  {
+    "text": "Digital On-Demand Program",
+    "sentence": "Mandates the Secretary of Defense to expand the Digital On-Demand Program to all organizations and elements, Armed Forces members, and civilian employees within the Department of Defense."
+  },
+  {
+    "text": "Senate and House Armed Services Committees",
+    "sentence": "Obligates the Secretary of Defense to submit a progress report to the Senate and House Armed Services Committees within 180 days of enactment and annually through 2029."
+  },
+  {
+    "text": "Director of the United States Patent and Trademark Office",
+    "sentence": "Mandates the Secretary of Homeland Security to consult with the Director of the National Institute of Standards and Technology and the Director of the United States Patent and Trademark Office within eight months to develop an AI watermark and trademark system for identifying Federal agency-approved AI applications for civilian agency use."
+  },
+  {
+    "text": "Board",
+    "sentence": "Requires the Board to adjust the issuance threshold for inflation every four years."
+  },
+  {
+    "text": "NSF",
+    "sentence": "Directs NSF to support research on wildland fire risks, tools, technologies, and the social and economic factors influencing fire risk reduction."
+  },
+  {
+    "text": "FEMA",
+    "sentence": "Requires FEMA to support community risk assessment tools, public outreach, and best practices for fire-resistant construction and response."
+  },
+  {
+    "text": "NASA",
+    "sentence": "Directs NASA to support wildland fire research, modeling, data systems, and the development of novel monitoring tools."
+  },
+  {
+    "text": "EPA",
+    "sentence": "Instructs EPA to research wildland fire smoke characteristics, impacts on air and water quality, and communication of risk reduction strategies."
+  },
+  {
+    "text": "DOE",
+    "sentence": "Mandates DOE to develop tools for energy sector resilience to wildland fires and coordinate data resources for improved fire understanding and prevention."
+  },
+  {
+    "text": "Committee on Commerce, Science, and Transportation of the Senate",
+    "sentence": "Requires the Secretary to provide the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Transportation and Infrastructure and the Committee on Science, Space, and Technology of the House of Representatives with a quarterly briefing on the pilot program."
+  },
+  {
+    "text": "Committee on Transportation and Infrastructure",
+    "sentence": "Requires the Secretary to provide the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Transportation and Infrastructure and the Committee on Science, Space, and Technology of the House of Representatives with a quarterly briefing on the pilot program."
+  },
+  {
+    "text": "Committee on Science, Space, and Technology of the House of Representatives",
+    "sentence": "Requires the Secretary to provide the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Transportation and Infrastructure and the Committee on Science, Space, and Technology of the House of Representatives with a quarterly briefing on the pilot program."
+  },
+  {
+    "text": "Coast Guard",
+    "sentence": "Requires the Secretary of the Department of Homeland Security to conduct a pilot program to assess the potential for the autonomous, or remotely controlled, operation and monitoring of certain Coast Guard vessels."
+  },
+  {
+    "text": "Secretary",
+    "sentence": "Requires the Secretary to submit to the Committee on Commerce, Science, and Transportation of the Senate and the Committee on Transportation and Infrastructure and the Committee on Science, Space, and Technology of the House of Representatives a final report assessing the execution of the pilot program and its implications for preserving safety and environmental quality."
+  }
+  {
+    "text": "

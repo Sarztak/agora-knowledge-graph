@@ -1,0 +1,388 @@
+{
+  "analysis": {
+    "potentially_broad_categories": [
+      {
+        "category": "GEOPOLITICAL",
+        "issue": "Mixes countries, government entities, and regions",
+        "entities_to_reclassify": [
+          {
+            "text": "Government of the People's Republic of China",
+            "current_label": "GEOPOLITICAL",
+            "new_label": "FOREIGN_GOV",
+            "rationale": "This is a government entity, not a geographic place"
+          },
+          {
+            "text": "Chinese Communist Party",
+            "current_label": "GEOPOLITICAL",
+            "new_label": "POLITICAL_PARTY",
+            "rationale": "Political party, distinct from government or geography"
+          },
+          {
+            "text": "Shenzhen Municipal Government",
+            "current_label": "GEOPOLITICAL",
+            "new_label": "FOREIGN_GOV",
+            "rationale": "Municipal government entity, not just a place"
+          },
+          {
+            "text": "US Government",
+            "current_label": "GEOPOLITICAL",
+            "new_label": "FEDERAL_GOV",
+            "rationale": "Federal government entity as a whole"
+          }
+        ],
+        "recommended_action": "Split into COUNTRY (China, Canada), STATE/REGION (California, Virginia, U.S. West Coast), and move government entities to appropriate gov categories"
+      },
+      {
+        "category": "COMMITTEE",
+        "issue": "Too heterogeneous - includes Congress, advisory boards, task forces, and working groups",
+        "entities_to_reclassify": [
+          {
+            "text": "Congress",
+            "current_label": "COMMITTEE",
+            "new_label": "LEGISLATIVE_BODY",
+            "rationale": "Congress is the legislative branch, not a committee"
+          },
+          {
+            "text": "General Assembly",
+            "current_label": "COMMITTEE",
+            "new_label": "LEGISLATIVE_BODY",
+            "rationale": "State legislature, not a committee"
+          },
+          {
+            "text": "Legislature",
+            "current_label": "COMMITTEE",
+            "new_label": "LEGISLATIVE_BODY",
+            "rationale": "Generic legislative body"
+          },
+          {
+            "text": "Board of Directors",
+            "current_label": "COMMITTEE",
+            "new_label": "CORPORATE_BODY",
+            "rationale": "Corporate governance body, not government committee"
+          },
+          {
+            "text": "Preparedness team",
+            "current_label": "COMMITTEE",
+            "new_label": "WORKING_GROUP",
+            "rationale": "Internal operational team, not advisory committee"
+          }
+        ],
+        "recommended_action": "Keep COMMITTEE for congressional committees, create ADVISORY_BOARD for councils, WORKING_GROUP for task forces"
+      },
+      {
+        "category": "PROGRAM",
+        "issue": "Mixes operational programs, databases, and funding mechanisms",
+        "entities_to_reclassify": [
+          {
+            "text": "National Vulnerability Database",
+            "current_label": "PROGRAM",
+            "new_label": "DATABASE",
+            "rationale": "This is a database system, not a program"
+          },
+          {
+            "text": "Joint Energy Export, Development, and Trade Database",
+            "current_label": "PROGRAM",
+            "new_label": "DATABASE",
+            "rationale": "Database infrastructure"
+          },
+          {
+            "text": "Fireshed Registry",
+            "current_label": "PROGRAM",
+            "new_label": "REGISTRY",
+            "rationale": "Registry system, distinct from operational program"
+          },
+          {
+            "text": "Privacy and Security Victims Relief Fund",
+            "current_label": "PROGRAM",
+            "new_label": "FUND",
+            "rationale": "Financial fund, not operational program"
+          }
+        ],
+        "recommended_action": "Split into PROGRAM (operational initiatives), DATABASE (data systems), FUND (financial mechanisms)"
+      },
+      {
+        "category": "TECH",
+        "issue": "Very small category that could be expanded or merged",
+        "entities_to_reclassify": [
+          {
+            "text": "AI Service Cards",
+            "current_label": "TECH",
+            "new_label": "DOC_TYPE",
+            "rationale": "Service Cards are documentation artifacts, not technology"
+          }
+        ],
+        "recommended_action": "Expand to include more AI systems/models or be more selective"
+      },
+      {
+        "category": "DOC",
+        "issue": "Mixes document types with institutional entities",
+        "entities_to_reclassify": [
+          {
+            "text": "Register of Copyrights",
+            "current_label": "DOC",
+            "new_label": "ORG",
+            "rationale": "This is an office/organization, not a document"
+          },
+          {
+            "text": "State Treasury's General Fund",
+            "current_label": "DOC",
+            "new_label": "FUND",
+            "rationale": "Financial fund, not a document"
+          }
+        ],
+        "recommended_action": "Keep only actual document types (reports, bills of rights)"
+      },
+      {
+        "category": "STANDARD",
+        "issue": "Mixes technical standards with regulatory requirements",
+        "entities_to_reclassify": [
+          {
+            "text": "FRA safety regulations",
+            "current_label": "STANDARD",
+            "new_label": "REGULATION",
+            "rationale": "These are regulations, not voluntary standards"
+          },
+          {
+            "text": "Capability Thresholds",
+            "current_label": "STANDARD",
+            "new_label": "METRIC",
+            "rationale": "Assessment thresholds/criteria, not standards"
+          }
+        ],
+        "recommended_action": "Distinguish between technical STANDARD (HL7, LOINC) and regulatory REGULATION"
+      }
+    ]
+  },
+  "refined_taxonomy": {
+    "new_categories_to_add": [
+      "COUNTRY",
+      "STATE_REGION", 
+      "FOREIGN_GOV",
+      "POLITICAL_PARTY",
+      "LEGISLATIVE_BODY",
+      "ADVISORY_BOARD",
+      "WORKING_GROUP",
+      "CORPORATE_BODY",
+      "DATABASE",
+      "REGISTRY",
+      "FUND",
+      "DOC_TYPE",
+      "REGULATION",
+      "METRIC"
+    ],
+    "categories_to_modify": [
+      "GEOPOLITICAL - narrow to geographic locations only",
+      "COMMITTEE - narrow to congressional/parliamentary committees only",
+      "PROGRAM - narrow to operational programs only",
+      "DOC - narrow to document types only",
+      "STANDARD - narrow to technical standards only"
+    ]
+  },
+  "reclassification_output": [
+    {
+      "text": "Government of the People's Republic of China",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "FOREIGN_GOV"
+    },
+    {
+      "text": "Chinese Communist Party",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "POLITICAL_PARTY"
+    },
+    {
+      "text": "Shenzhen Municipal Government",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "FOREIGN_GOV"
+    },
+    {
+      "text": "US Government",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "FEDERAL_GOV"
+    },
+    {
+      "text": "China",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "COUNTRY"
+    },
+    {
+      "text": "Canada",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "COUNTRY"
+    },
+    {
+      "text": "Virginia",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "California",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "Shenzhen",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "New Jersey",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "Alabama",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "District of Columbia",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "U.S. West Coast",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "New York",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "Connecticut",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "Tennessee",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "Oregon",
+      "original_label": "GEOPOLITICAL",
+      "new_label": "STATE_REGION"
+    },
+    {
+      "text": "Congress",
+      "original_label": "COMMITTEE",
+      "new_label": "LEGISLATIVE_BODY"
+    },
+    {
+      "text": "General Assembly",
+      "original_label": "COMMITTEE",
+      "new_label": "LEGISLATIVE_BODY"
+    },
+    {
+      "text": "Legislature",
+      "original_label": "COMMITTEE",
+      "new_label": "LEGISLATIVE_BODY"
+    },
+    {
+      "text": "Board of Directors",
+      "original_label": "COMMITTEE",
+      "new_label": "CORPORATE_BODY"
+    },
+    {
+      "text": "Preparedness team",
+      "original_label": "COMMITTEE",
+      "new_label": "WORKING_GROUP"
+    },
+    {
+      "text": "Supply Chain Resilience Working Group",
+      "original_label": "COMMITTEE",
+      "new_label": "WORKING_GROUP"
+    },
+    {
+      "text": "Artificial Intelligence Task Force",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "New Jersey Artificial Intelligence Advisory Board",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "Safety Advisory Group",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "Alabama Council on Advanced Technology and Artificial Intelligence",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "AI Advisory Group",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "AI Taskforce",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "Tennessee Artificial Intelligence Advisory Council",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "AI Ethics Advisory Panel",
+      "original_label": "COMMITTEE",
+      "new_label": "ADVISORY_BOARD"
+    },
+    {
+      "text": "National Vulnerability Database",
+      "original_label": "PROGRAM",
+      "new_label": "DATABASE"
+    },
+    {
+      "text": "Joint Energy Export, Development, and Trade Database",
+      "original_label": "PROGRAM",
+      "new_label": "DATABASE"
+    },
+    {
+      "text": "Fireshed Registry",
+      "original_label": "PROGRAM",
+      "new_label": "REGISTRY"
+    },
+    {
+      "text": "Privacy and Security Victims Relief Fund",
+      "original_label": "PROGRAM",
+      "new_label": "FUND"
+    },
+    {
+      "text": "AI Service Cards",
+      "original_label": "TECH",
+      "new_label": "DOC_TYPE"
+    },
+    {
+      "text": "Register of Copyrights",
+      "original_label": "DOC",
+      "new_label": "ORG"
+    },
+    {
+      "text": "State Treasury's General Fund",
+      "original_label": "DOC",
+      "new_label": "FUND"
+    },
+    {
+      "text": "FRA safety regulations",
+      "original_label": "STANDARD",
+      "new_label": "REGULATION"
+    },
+    {
+      "text": "Capability Thresholds",
+      "original_label": "STANDARD",
+      "new_label": "METRIC"
+    }
+  ],
+  "summary": {
+    "total_entities_reclassified": 47,
+    "new_labels_introduced": 14,
+    "rationale": "The refinement addresses semantic ambiguity and creates more precise categories that better support knowledge graph queries and entity relationship mapping in AI governance contexts"
+  }
+}
