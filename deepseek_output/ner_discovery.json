@@ -1,0 +1,546 @@
+[
+  {
+    "text": "Secretary of Health and Human Services",
+    "sentence": "Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement."
+  },
+  {
+    "text": "Medicare",
+    "sentence": "Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement."
+  },
+  {
+    "text": "Medicare Part B",
+    "sentence": "Ensures care continuity for individuals using diabetes technology when enrolling in Medicare Part B by January 2026."
+  },
+  {
+    "text": "Comptroller General",
+    "sentence": "Instructs the Comptroller General to report within a year on barriers hindering access to diabetes technologies and services in Federal healthcare programs, reviewing legal and policy issues affecting access."
+  },
+  {
+    "text": "California's Government Operations Agency",
+    "sentence": "Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state."
+  },
+  {
+    "text": "Governor",
+    "sentence": "Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state."
+  },
+  {
+    "text": "Generative AI",
+    "sentence": "Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state."
+  },
+  {
+    "text": "GenAI",
+    "sentence": "Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state."
+  },
+  {
+    "text": "California Cybersecurity Integration Center",
+    "sentence": "Requires the California Cybersecurity Integration Center and related bodies to perform a risk analysis by March 2024 on GenAI threats to energy infrastructure, brief the Governor on findings, and make public recommendations for actions to guard against GenAI threats when appropriate."
+  },
+  {
+    "text": "UC Berkeley",
+    "sentence": "Urges the Governor's Office to partner with UC Berkeley and Stanford to evaluate GenAI's impact."
+  },
+  {
+    "text": "Stanford",
+    "sentence": "Urges the Governor's Office to partner with UC Berkeley and Stanford to evaluate GenAI's impact."
+  },
+  {
+    "text": "Executive Order 13960",
+    "sentence": "Ensures taxpayer dollars are safeguarded by tracking AI performance and managing risks as outlined in Executive Order 13960."
+  },
+  {
+    "text": "OMB Memorandum M-25-21",
+    "sentence": "Directs agencies to update internal procedures within 270 days to align with this memorandum and OMB Memorandum M-25-21, requiring cross-functional teams for AI acquisitions and addressing intellectual property rights."
+  },
+  {
+    "text": "GSA",
+    "sentence": "Requires GSA to develop AI acquisition guides within 100 days and establish a shared repository of best practices within 200 days."
+  },
+  {
+    "text": "Director of the National Institute of Standards and Technology",
+    "sentence": "Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies."
+  },
+  {
+    "text": "PRC",
+    "sentence": "Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies."
+  },
+  {
+    "text": "Committees on Science, Space, and Technology",
+    "sentence": "Requires the entity conducting the study to submit a report on its findings to the Committees on Science, Space, and Technology, on Foreign Affairs, on Commerce, Science, and Transportation, and on Foreign Relations."
+  },
+  {
+    "text": "Foreign Affairs",
+    "sentence": "Requires the entity conducting the study to submit a report on its findings to the Committees on Science, Space, and Technology, on Foreign Affairs, on Commerce, Science, and Transportation, and on Foreign Relations."
+  },
+  {
+    "text": "Commerce, Science, and Transportation",
+    "sentence": "Requires the entity conducting the study to submit a report on its findings to the Committees on Science, Space, and Technology, on Foreign Affairs, on Commerce, Science, and Transportation, and on Foreign Relations."
+  },
+  {
+    "text": "Foreign Relations",
+    "sentence": "Requires the entity conducting the study to submit a report on its findings to the Committees on Science, Space, and Technology, on Foreign Affairs, on Commerce, Science, and Transportation, and on Foreign Relations."
+  },
+  {
+    "text": "National Quantum Initiative Act",
+    "sentence": "Amends the National Quantum Initiative Act to mandate the Secretary of Energy to conduct a program focusing on quantum information science research, development, and commercialization."
+  },
+  {
+    "text": "Secretary of Energy",
+    "sentence": "Amends the National Quantum Initiative Act to mandate the Secretary of Energy to conduct a program focusing on quantum information science research, development, and commercialization."
+  },
+  {
+    "text": "National Quantum Information Science Research Centers",
+    "sentence": "Operates National Quantum Information Science Research Centers to facilitate breakthroughs in quantum technologies."
+  },
+  {
+    "text": "National Laboratories",
+    "sentence": "Requires collaboration with industry, National Laboratories, and educational institutions for technology development."
+  },
+  {
+    "text": "Bureau of Consumer Financial Protection",
+    "sentence": "Requires the Bureau of Consumer Financial Protection to assess the use of educational data and automated processes in creditworthiness determinations annually."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Obligates the Bureau to report findings and recommendations to Congress 60 days post-assessment."
+  },
+  {
+    "text": "Federal Election Campaign Act of 1971",
+    "sentence": "Amends the Federal Election Campaign Act of 1971 to include penalties for violations of the disclaimer requirements, with fines up to $50,000."
+  },
+  {
+    "text": "Federal Election Commission",
+    "sentence": "Directs the Federal Election Commission (FEC) to issue regulations outlining criteria for determining substantially AI-generated content and requirements for the disclosure statement."
+  },
+  {
+    "text": "FEC",
+    "sentence": "Directs the Federal Election Commission (FEC) to issue regulations outlining criteria for determining substantially AI-generated content and requirements for the disclosure statement."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Requires the FEC to report on compliance and enforcement within two years and biannually thereafter to Congress."
+  },
+  {
+    "text": "Americas Partnership Secretariat",
+    "sentence": "Establishes a business advisory board under the Americas Partnership Secretariat to meet periodically and provide guidance."
+  },
+  {
+    "text": "USMCA",
+    "sentence": "Requires coordination with central regulatory bodies as outlined in the USMCA."
+  },
+  {
+    "text": "Artificial Intelligence in Education Task Force",
+    "sentence": "Establishes an Artificial Intelligence in Education Task Force in Mississippi to evaluate and recommend AI applications in K-12 education."
+  },
+  {
+    "text": "Mississippi",
+    "sentence": "Establishes an Artificial Intelligence in Education Task Force in Mississippi to evaluate and recommend AI applications in K-12 education."
+  },
+  {
+    "text": "State Superintendent of Education",
+    "sentence": "Requires the State Superintendent of Education to chair the task force, with administrative support provided by the Department of Education."
+  },
+  {
+    "text": "Department of Education",
+    "sentence": "Requires the State Superintendent of Education to chair the task force, with administrative support provided by the Department of Education."
+  },
+  {
+    "text": "Governor",
+    "sentence": "Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy."
+  },
+  {
+    "text": "Lieutenant Governor",
+    "sentence": "Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy."
+  },
+  {
+    "text": "Speaker of the House",
+    "sentence": "Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy."
+  },
+  {
+    "text": "FTC",
+    "sentence": "Mandates the FTC to create regulations within one year for reasonable, equitable, and non-deceptive data practices, including opt-out and affirmative consent mechanisms."
+  },
+  {
+    "text": "National Science Foundation",
+    "sentence": "Directs the National Science Foundation to support research on privacy-enhancing technologies."
+  },
+  {
+    "text": "Workforce Innovation and Opportunity Act",
+    "sentence": "Amends Section 169 of the Workforce Innovation and Opportunity Act to evaluate programs using emerging technology, including AI, for enhancing labor market information and data integration."
+  },
+  {
+    "text": "Senate",
+    "sentence": "Obliges reports on AI-related studies and evaluations to be submitted to relevant Senate and House Committees and published publicly."
+  },
+  {
+    "text": "House Committees",
+    "sentence": "Obliges reports on AI-related studies and evaluations to be submitted to relevant Senate and House Committees and published publicly."
+  },
+  {
+    "text": "Secretary of State",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "Secretary of Defense",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "Australia",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "Canada",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "UK",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "New York",
+    "sentence": "Establishes a temporary New York state commission, composed of 13 members appointed by stakeholders in government and academia, to study the impact of and make determinations on how to regulate AI, robotics, and automation."
+  },
+  {
+    "text": "governor",
+    "sentence": "Requires the commission to issue a final report to the governor and other state leaders before December 31, 2024."
+  },
+  {
+    "text": "Secretary of the Air Force",
+    "sentence": "Mandates annual reports by the Secretary of the Air Force to Congress on the status of fighter aircraft inventory, including new acquisitions, unit assignments, and any legacy retirements, with penalties for late submission."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Mandates annual reports by the Secretary of the Air Force to Congress on the status of fighter aircraft inventory, including new acquisitions, unit assignments, and any legacy retirements, with penalties for late submission."
+  },
+  {
+    "text": "Air National Guard",
+    "sentence": "Obligates the Air National Guard to maintain 25 fighter squadrons and restricts retiring legacy or fifth-generation aircraft unless unserviceable."
+  },
+  {
+    "text": "F-16 Block 70",
+    "sentence": "Directs an annual recapitalization plan for Air National Guard squadrons, assessing financial and readiness impacts, with a focus on acquiring F-16 Block 70 aircraft."
+  },
+  {
+    "text": "Illinois Future of Work Task Force",
+    "sentence": "Creates the Illinois Future of Work Task Force to proactively plan for the future of work and address current labor issues."
+  },
+  {
+    "text": "Illinois",
+    "sentence": "Creates the Illinois Future of Work Task Force to proactively plan for the future of work and address current labor issues."
+  },
+  {
+    "text": "Governor",
+    "sentence": "Requires the Task Force to submit a report with findings to the Governor and General Assembly by May 1, 2022, and dissolves upon report submission."
+  },
+  {
+    "text": "General Assembly",
+    "sentence": "Requires the Task Force to submit a report with findings to the Governor and General Assembly by May 1, 2022, and dissolves upon report submission."
+  },
+  {
+    "text": "Attorney General",
+    "sentence": "Obligates companies to submit semiannual terms of service reports to the Attorney General, detailing content moderation practices and AI involvement, including flagged content statistics and appeal outcomes."
+  },
+  {
+    "text": "Department of Defense",
+    "sentence": "Defines the term \"technical position\" as a Department of Defense position that (1) requires expertise in artificial intelligence, data science, or software development and (2) is eligible for direct hire authority under section 9905 of title 5, United States Code, or section 2358a of title 10, United States Code."
+  },
+  {
+    "text": "Secretary of Defense",
+    "sentence": "Directs the Secretary of Defense to submit a report to the congressional defense committee on the results of the program that describes how electronic portfolios affected the timeliness of technical position hiring, the level of satisfaction with new hires based on electronic portfolio evaluations, and recommends expanding the use of electronic portfolios in the hiring process or making it permanent."
+  },
+  {
+    "text": "congressional defense committee",
+    "sentence": "Directs the Secretary of Defense to submit a report to the congressional defense committee on the results of the program that describes how electronic portfolios affected the timeliness of technical position hiring, the level of satisfaction with new hires based on electronic portfolio evaluations, and recommends expanding the use of electronic portfolios in the hiring process or making it permanent."
+  },
+  {
+    "text": "North Dakota",
+    "sentence": "Requires entities in North Dakota's executive branch to ensure AI technologies are reliable, valid, and transparent, with clear explanations of AI use and marked AI decision-making involving medium to high-risk data."
+  },
+  {
+    "text": "NDIT",
+    "sentence": "Incorporates NDIT's Security Risk Management Program in AI operations, mandates regular risk assessments, and restricts inputting moderate/high-risk data into public AI/ML services."
+  },
+  {
+    "text": "Fireshed Center",
+    "sentence": "Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies."
+  },
+  {
+    "text": "Forest Service",
+    "sentence": "Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies."
+  },
+  {
+    "text": "U.S. Geological Survey",
+    "sentence": "Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies."
+  },
+  {
+    "text": "Director",
+    "sentence": "Appoints a Director from the U.S. Geological Survey or the Forest Service for a term of up to seven years."
+  },
+  {
+    "text": "Fireshed Registry",
+    "sentence": "Maintains the Fireshed Registry and supports its operations with personnel and services from the U.S. Geological Survey and the Forest Service."
+  },
+  {
+    "text": "Office of Technology for Peace",
+    "sentence": "Establishes an Office of Technology for Peace within the Department, headed by the Assistant Secretary for Technology for Peace."
+  },
+  {
+    "text": "Assistant Secretary for Technology for Peace",
+    "sentence": "Establishes an Office of Technology for Peace within the Department, headed by the Assistant Secretary for Technology for Peace."
+  },
+  {
+    "text": "Department of State",
+    "sentence": "Mandates the dissemination of applicable policies and research in consultation with the Department of State."
+  },
+  {
+    "text": "Next Generation Air Dominance",
+    "sentence": "Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission."
+  },
+  {
+    "text": "Collaborative Combat Aircraft",
+    "sentence": "Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission."
+  },
+  {
+    "text": "congressional defense committees",
+    "sentence": "Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission."
+  },
+  {
+    "text": "Comptroller General",
+    "sentence": "Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission."
+  },
+  {
+    "text": "President",
+    "sentence": "Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission."
+  },
+  {
+    "text": "House Bill No. 5141",
+    "sentence": "Condition enactment of this amendment on the passage of House Bill No. 5141."
+  },
+  {
+    "text": "Division of Consumer Protection",
+    "sentence": "Empowers the Division of Consumer Protection to enforce these provisions, including imposing fines up to $2,500 per violation."
+  },
+  {
+    "text": "attorney general",
+    "sentence": "Permits civil penalties up to $5,000 for violating administrative or court orders, enforceable by the attorney general."
+  },
+  {
+    "text": "AI advisory committee",
+    "sentence": "Establishes an AI advisory committee in Hawaii to investigate how to implement, develop, and regulate AI in the state; the committee will be composed of government, academic, and industry stakeholders."
+  },
+  {
+    "text": "Hawaii",
+    "sentence": "Establishes an AI advisory committee in Hawaii to investigate how to implement, develop, and regulate AI in the state; the committee will be composed of government, academic, and industry stakeholders."
+  },
+  {
+    "text": "Legislature",
+    "sentence": "Requires the committee to submit a report of findings and proposed legislation to the Legislature before its convening in 2020."
+  },
+  {
+    "text": "China",
+    "sentence": "Requires AI-generated content in China to meet a series of criteria, including accuracy, non-discrimination with regard to an array of protected characteristics, intellectual property protection, exclusion of violent content or content that subverts state power, and respect for individual privacy."
+  },
+  {
+    "text": "Department of Commerce",
+    "sentence": "Directs the Department of Commerce to establish a Supply Chain Resiliency and Crisis Response Office, responsible for awarding grants, loans, and loan guarantees to critical industry and supply chain stakeholders that integrate artificial intelligence into manufacturing."
+  },
+  {
+    "text": "Supply Chain Resiliency and Crisis Response Office",
+    "sentence": "Directs the Department of Commerce to establish a Supply Chain Resiliency and Crisis Response Office, responsible for awarding grants, loans, and loan guarantees to critical industry and supply chain stakeholders that integrate artificial intelligence into manufacturing."
+  },
+  {
+    "text": "DOC",
+    "sentence": "Mandates the DOC to improve the competitiveness of the advanced tech manufacturing sector, minimize supply chain shocks, and support the creation of related jobs in key technology focus areas such as artificial intelligence, machine learning, and quantum computing."
+  },
+  {
+    "text": "Inspector General of the DOC",
+    "sentence": "Directs the Inspector General of the DOC to audit activities supported by the Supply Chain Resiliency and Crisis Response Office's grants, loans, and loan guarantees every four years."
+  },
+  {
+    "text": "Elementary and Secondary Education Act of 1965",
+    "sentence": "Amends the Elementary and Secondary Education Act of 1965 to expand career counseling opportunities."
+  },
+  {
+    "text": "Administrator",
+    "sentence": "Requires the Administrator to conduct a review of current and planned AI and machine learning technologies to enhance airport efficiency and safety."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Obligates the Administrator to submit a report to Congress within one year, detailing the review's findings."
+  },
+  {
+    "text": "China",
+    "sentence": "Includes a required examination of China's domestic application of AI and machine learning technologies in the report."
+  },
+  {
+    "text": "Secretary of Energy",
+    "sentence": "Directs the Secretary of Energy to support the development of new and emerging technologies to increase the resilience of electrical grid design, planning, and operation."
+  },
+  {
+    "text": "Secretary of Commerce",
+    "sentence": "Prohibits the Secretary of Commerce from exporting any national security sensitive technology or intellectual property to the People's Republic of China."
+  },
+  {
+    "text": "People's Republic of China",
+    "sentence": "Prohibits the Secretary of Commerce from exporting any national security sensitive technology or intellectual property to the People's Republic of China."
+  },
+  {
+    "text": "Trade Act of 1974",
+    "sentence": "Defines \"national security sensitive technology or intellectual property\" to include contributions to China's military, protection of U.S. economic security, and components of key products listed under the Trade Act of 1974."
+  },
+  {
+    "text": "Secretary",
+    "sentence": "Mandates the Secretary, with the Air National Guard Director, to study the necessity of acquiring advanced capability fighter aircraft for the Air Force."
+  },
+  {
+    "text": "Air National Guard Director",
+    "sentence": "Mandates the Secretary, with the Air National Guard Director, to study the necessity of acquiring advanced capability fighter aircraft for the Air Force."
+  },
+  {
+    "text": "Air Force",
+    "sentence": "Mandates the Secretary, with the Air National Guard Director, to study the necessity of acquiring advanced capability fighter aircraft for the Air Force."
+  },
+  {
+    "text": "F-16",
+    "sentence": "Includes evaluation of cost savings linked to foreign sales of F-16 variants."
+  },
+  {
+    "text": "congressional defense committees",
+    "sentence": "Obligates the Secretary to report findings to congressional defense committees within 180 days of enactment."
+  },
+  {
+    "text": "Civil Rights Department",
+    "sentence": "The impact assessment must be updated annually and after any significant update to the tool, and be provided to the state's Civil Rights Department."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Permits Congress to request detailed information about the program materials and responsible personnel."
+  },
+  {
+    "text": "Turkish Liras",
+    "sentence": "Impose fines up to 35 million Turkish Liras or 7% of annual turnover for violations, with varying penalties based on the nature of the breach."
+  },
+  {
+    "text": "President",
+    "sentence": "Enforce the Law upon publication, with the President executing its provisions."
+  },
+  {
+    "text": "S.C. Code",
+    "sentence": "Amends Article 7, Chapter 57, Title 40 of the S.C. Code by adding Section 40-57-820."
+  },
+  {
+    "text": "National Security Memorandum",
+    "sentence": "Orders the development of a National Security Memorandum that directs further actions on AI and security."
+  },
+  {
+    "text": "National AI Research Resource",
+    "sentence": "Urges federal government to facilitate the immigration of AI talent to the U.S., catalyze AI research and innovation through a pilot of the National AI Research Resource, and promote competition in the AI ecosystem by providing resources to small businesses."
+  },
+  {
+    "text": "New York",
+    "sentence": "Makes it unlawful for an employer in New York to use or implement an automated decision tool to filter employment candidates or prospective candidates for hire that has not undergone an disparate impact assessment annually."
+  },
+  {
+    "text": "Attorney General",
+    "sentence": "Allows the Attorney General and Commissioner to initiate investigations and legal action if violations are suspected or found."
+  },
+  {
+    "text": "Commissioner",
+    "sentence": "Allows the Attorney General and Commissioner to initiate investigations and legal action if violations are suspected or found."
+  },
+  {
+    "text": "Director of the National Institute of Standards and Technology",
+    "sentence": "Directs the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities."
+  },
+  {
+    "text": "NIST",
+    "sentence": "Directs the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities."
+  },
+  {
+    "text": "National Vulnerability Database",
+    "sentence": "Directs the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Obligates NIST to submit a report to Congress within three years, detailing the findings and recommendations from the multi-stakeholder process on AI incident reporting and tracking."
+  },
+  {
+    "text": "Department of Energy",
+    "sentence": "Establishes a cross-cutting AI research and development program within the Department of Energy to advance AI tools, systems, and capabilities."
+  },
+  {
+    "text": "Office of Science",
+    "sentence": "Mandates coordination across relevant offices such as the Office of Science and the Office of Energy Efficiency to carry out this program."
+  },
+  {
+    "text": "Office of Energy Efficiency",
+    "sentence": "Mandates coordination across relevant offices such as the Office of Science and the Office of Energy Efficiency to carry out this program."
+  },
+  {
+    "text": "Assistant Secretary for Preparedness and Response",
+    "sentence": "Requires the Assistant Secretary for Preparedness and Response to conduct risk assessments and implement strategic initiatives that address whether AI can develop novel pathogens, viruses, bioweapons, or chemical weapons, including monitoring and researching the global biological catastrophic risk landscape."
+  },
+  {
+    "text": "National Health Security Strategy",
+    "sentence": "Requires the Assistant Secretary for Preparedness and Response to include a summary of the risk assessment above in the National Health Security Strategy."
+  },
+  {
+    "text": "Freedom From AI-Rigged (FAIR) Elections Act",
+    "sentence": "Enacts the \"Freedom From AI-Rigged (FAIR) Elections Act\" to regulate synthetic media in electioneering communications."
+  },
+  {
+    "text": "Rhode Island",
+    "sentence": "Establishes a single state data governance structure, creating a federated data platform to manage data effectively across Rhode Island state agencies."
+  },
+  {
+    "text": "Department of Administration",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "DOA",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "Chief Data Officer",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "CDO",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "Data Center of Excellence",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "AI Center of Excellence",
+    "sentence": "Creates an AI Center of Excellence to formulate AI policies and ethics, minimizing bias and guiding AI implementation in state operations."
+  },
+  {
+    "text": "AI Task Force",
+    "sentence": "Forms an AI Task Force to assess AI risks and opportunities, providing advice to policymakers."
+  },
+  {
+    "text": "Department of Labor and Training",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  },
+  {
+    "text": "DLT",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  },
+  {
+    "text": "Rhode Island Department of Education",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  },
+  {
+    "text": "RIDE",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  },
+  {
+    "text": "Office of Post Secondary Commissioner",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  },
+  {
+    "text": "OPC",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  }
+]

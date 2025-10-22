@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "category_name": "ORG",
+      "entities": [
+        "California's Government Operations Agency",
+        "California Cybersecurity Integration Center",
+        "UC Berkeley",
+        "Stanford",
+        "GSA",
+        "National Institute of Standards and Technology",
+        "NIST",
+        "Bureau of Consumer Financial Protection",
+        "Federal Election Commission",
+        "FEC",
+        "Americas Partnership Secretariat",
+        "Department of Education",
+        "FTC",
+        "National Science Foundation",
+        "Forest Service",
+        "U.S. Geological Survey",
+        "Department of State",
+        "Air National Guard",
+        "NDIT",
+        "Department of Defense",
+        "Department of Commerce",
+        "DOC",
+        "Supply Chain Resiliency and Crisis Response Office",
+        "Inspector General of the DOC",
+        "Civil Rights Department",
+        "Division of Consumer Protection",
+        "Department of Energy",
+        "Office of Science",
+        "Office of Energy Efficiency",
+        "Department of Administration",
+        "DOA",
+        "Department of Labor and Training",
+        "DLT",
+        "Rhode Island Department of Education",
+        "RIDE",
+        "Office of Post Secondary Commissioner",
+        "OPC"
+      ]
+    },
+    {
+      "category_name": "ROLE",
+      "entities": [
+        "Secretary of Health and Human Services",
+        "Comptroller General",
+        "Governor",
+        "Director of the National Institute of Standards and Technology",
+        "Secretary of Energy",
+        "State Superintendent of Education",
+        "Lieutenant Governor",
+        "Speaker of the House",
+        "Secretary of State",
+        "Secretary of Defense",
+        "Secretary of the Air Force",
+        "Attorney General",
+        "Secretary of Defense",
+        "Chief Data Officer",
+        "CDO",
+        "Assistant Secretary for Technology for Peace",
+        "Secretary",
+        "Air National Guard Director",
+        "Commissioner",
+        "Assistant Secretary for Preparedness and Response"
+      ]
+    },
+    {
+      "category_name": "LAW",
+      "entities": [
+        "Executive Order 13960",
+        "OMB Memorandum M-25-21",
+        "National Quantum Initiative Act",
+        "Federal Election Campaign Act of 1971",
+        "USMCA",
+        "Workforce Innovation and Opportunity Act",
+        "Elementary and Secondary Education Act of 1965",
+        "Trade Act of 1974",
+        "S.C. Code",
+        "Freedom From AI-Rigged (FAIR) Elections Act"
+      ]
+    },
+    {
+      "category_name": "PROGRAM",
+      "entities": [
+        "National Quantum Information Science Research Centers",
+        "Artificial Intelligence in Education Task Force",
+        "AI advisory committee",
+        "AI leadership training program",
+        "Fireshed Center",
+        "Office of Technology for Peace",
+        "Next Generation Air Dominance",
+        "Collaborative Combat Aircraft",
+        "AI Center of Excellence",
+        "AI Task Force",
+        "Data Center of Excellence"
+      ]
+    },
+    {
+      "category_name": "TECH",
+      "entities": [
+        "Generative AI",
+        "GenAI",
+        "F-16 Block 70",
+        "F-16",
+        "National Vulnerability Database"
+      ]
+    },
+    {
+      "category_name": "PLACE",
+      "entities": [
+        "Mississippi",
+        "Australia",
+        "Canada",
+        "UK",
+        "New York",
+        "Illinois",
+        "North Dakota",
+        "Hawaii",
+        "China",
+        "People's Republic of China",
+        "PRC",
+        "Rhode Island"
+      ]
+    },
+    {
+      "category_name": "COMMITTEE",
+      "entities": [
+        "Committees on Science, Space, and Technology",
+        "Foreign Affairs",
+        "Commerce, Science, and Transportation",
+        "Foreign Relations",
+        "Senate",
+        "House Committees",
+        "congressional defense committees",
+        "congressional defense committee"
+      ]
+    },
+    {
+      "category_name": "DATA_SYSTEM",
+      "entities": [
+        "Fireshed Registry",
+        "National AI Research Resource"
+      ]
+    },
+    {
+      "category_name": "DOCUMENT",
+      "entities": [
+        "National Security Memorandum",
+        "National Health Security Strategy"
+      ]
+    },
+    {
+      "category_name": "CURRENCY",
+      "entities": [
+        "Turkish Liras"
+      ]
+    },
+    {
+      "category_name": "LEGISLATION",
+      "entities": [
+        "House Bill No. 5141"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Turkish Liras",
+    "original_label": "CURRENCY",
+    "new_label": "CURRENCY_UNIT"
+  },
+  {
+    "text": "House Bill No. 5141",
+    "original_label": "LEGISLATION", 
+    "new_label": "BILL_NUMBER"
+  },
+  {
+    "text": "Director",
+    "original_label": "ROLE",
+    "new_label": "POSITION_TITLE"
+  },
+  {
+    "text": "governor",
+    "original_label": "ROLE",
+    "new_label": "ELECTED_OFFICIAL"
+  },
+  {
+    "text": "attorney general",
+    "original_label": "ROLE",
+    "new_label": "ELECTED_OFFICIAL"
+  },
+  {
+    "text": "Administrator",
+    "original_label": "ROLE",
+    "new_label": "POSITION_TITLE"
+  },
+  {
+    "text": "President",
+    "original_label": "ROLE",
+    "new_label": "ELECTED_OFFICIAL"
+  },
+  {
+    "text": "Comptroller General",
+    "original_label": "ROLE",
+    "new_label": "POSITION_TITLE"
+  },
+  {
+    "text": "Medicare",
+    "original_label": "ORG",
+    "new_label": "GOVERNMENT_PROGRAM"
+  },
+  {
+    "text": "Medicare Part B",
+    "original_label": "ORG",
+    "new_label": "GOVERNMENT_PROGRAM"
+  },
+  {
+    "text": "National Laboratories",
+    "original_label": "ORG",
+    "new_label": "RESEARCH_FACILITY"
+  },
+  {
+    "text": "Congress",
+    "original_label": "COMMITTEE",
+    "new_label": "LEGISLATIVE_BODY"
+  },
+  {
+    "text": "Legislature",
+    "original_label": "COMMITTEE",
+    "new_label": "LEGISLATIVE_BODY"
+  }
+]
