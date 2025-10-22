@@ -41,5 +41,3 @@ OUTPUT FORMAT: Return a JSON list where each entry includes the reclassified lab
 ________________________________________
 GUIDELINES: - Do not keep the original vague labels (e.g., CONCEPT) in your final output - Every entity should get exactly one refined new_label - If uncertain, choose the most functionally useful label (what it does, not what it sounds like) - The refined label set will feed into Phase 4 for high-precision extraction
 ________________________________________
-USAGE NOTES: - This phase finalizes your label taxonomy - Once all vague groups are reclassified, you can re-tag the corpus using the updated schema - These labels will enable accurate node typing in your knowledge graph and structured downstream extraction
-Let this be pragmatic — not all-encompassing. Your goal is to make entity types clear and useful, not exhaustive.

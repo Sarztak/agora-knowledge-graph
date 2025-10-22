@@ -1,0 +1,735 @@
+1. Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement.
+
+Ensures care continuity for individuals using diabetes technology when enrolling in Medicare Part B by January 2026.
+
+Requires development of a process to consider diabetes technologies not currently covered under Medicare Part B for potential inclusion.
+
+Mandates creation of new coding for insulin pump training and education by 2026, to enhance billing and reimbursement transparency.
+
+Obligates the issuance of a national coverage determination for insulin pumps within 180 days from enactment.
+
+Instructs the Comptroller General to report within a year on barriers hindering access to diabetes technologies and services in Federal healthcare programs, reviewing legal and policy issues affecting access.
+
+
+# --------------------------------------------------------------------- #
+
+2. Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state.
+
+Requires the California Cybersecurity Integration Center and related bodies to perform a risk analysis by March 2024 on GenAI threats to energy infrastructure, brief the Governor on findings, and make public recommendations for actions to guard against GenAI threats when appropriate. 
+
+Directs various California departments to issue procurement and training guidelines for GenAI by January 2024.
+
+Instructs relevant agencies to develop guidelines by July 2024 for using GenAI tools with vulnerable communities.
+
+Mandates establishment of GenAI pilot project infrastructure by March 2024.
+
+Urges the Governor's Office to partner with UC Berkeley and Stanford to evaluate GenAI's impact.
+
+Tasks legal counsel to assess GenAI's regulatory impact and recommend updates.
+
+Emphasizes collaboration with civil society, academia, and industry experts in drafting guidelines and conducting analyses.
+
+
+# --------------------------------------------------------------------- #
+
+3. Promotes the competitive American AI marketplace by mandating federal agencies to procure AI systems that enhance efficiency and mission effectiveness while avoiding dependence on single vendors.
+
+Ensures taxpayer dollars are safeguarded by tracking AI performance and managing risks as outlined in Executive Order 13960.
+
+Directs agencies to update internal procedures within 270 days to align with this memorandum and OMB Memorandum M-25-21, requiring cross-functional teams for AI acquisitions and addressing intellectual property rights.
+
+Mandates the protection of privacy and intellectual property, emphasizing compliance with federal law and policy.
+
+Specifies that future AI contracts comply with new guidelines by establishing a clear timeline for implementation.
+
+Excludes certain AI acquisitions and activities, such as national security systems and incidental AI use by contractors.
+
+Requires GSA to develop AI acquisition guides within 100 days and establish a shared repository of best practices within 200 days.
+
+
+# --------------------------------------------------------------------- #
+
+4. Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies.
+
+Identifies potential areas of study, including examining previous PRC practices in international standards setting organizations to predict future international standardization engagement in critical technologies like artificial intelligence and quantum information science. 
+
+Requires the entity conducting the study to submit a report on its findings to the Committees on Science, Space, and Technology, on Foreign Affairs, on Commerce, Science, and Transportation, and on Foreign Relations.
+
+
+# --------------------------------------------------------------------- #
+
+5. Amends the National Quantum Initiative Act to mandate the Secretary of Energy to conduct a program focusing on quantum information science research, development, and commercialization.
+
+Operates National Quantum Information Science Research Centers to facilitate breakthroughs in quantum technologies.
+
+Requires collaboration with industry, National Laboratories, and educational institutions for technology development.
+
+Engages with the quantum technology industry to promote the commercialization of applications relevant to the Department of Energy's activities.
+
+Submits a 10-year strategic plan to integrate quantum and AI with high-performance computing systems.
+
+Establishes an early-stage quantum high-performance computing research program.
+
+Conducts a study on the quantum supply chain to identify growth obstacles and recommends strategies to bolster domestic manufacturing and workforce development.
+
+Launches a university-led traineeship program to develop the quantum workforce.
+
+Coordinates activities with other federal entities to prevent duplication.
+
+Restricts funding from foreign countries of concern and entities deemed harmful to U.S. national security.
+
+
+# --------------------------------------------------------------------- #
+
+6. Requires the Bureau of Consumer Financial Protection to assess the use of educational data and automated processes in creditworthiness determinations annually.
+
+Mandates coordination with executive agencies and civil rights stakeholders for these assessments.
+
+Examines the risks and disparate impacts of using automated or algorithmic underwriting processes.
+
+Obligates the Bureau to report findings and recommendations to Congress 60 days post-assessment.
+
+Requires public disclosure of assessment findings, lists of covered persons using educational data, and those employing automated or algorithmic processes.
+
+Defines key terms, including "certain educational data" and "covered person," with references to existing legislation.
+
+
+# --------------------------------------------------------------------- #
+
+7. Prioritizes AI systems that benefit individuals, society, and the environment throughout their lifecycle.
+
+Requires AI systems to respect human rights, diversity, and individual autonomy, promoting an equitable society.
+
+Mandates fairness by ensuring AI inclusivity and accessibility, prohibiting unfair discrimination.
+
+Demands privacy protection and data security, with ongoing data governance and vulnerability assessments.
+
+Ensures AI reliability and safety, mandating operation in line with intended purposes and risk management.
+
+Calls for transparency and explainability, necessitating timely and responsible disclosures of AI impacts.
+
+Establishes contestability, allowing challenges to AI impacts on individuals or communities through clear processes.
+
+Holds relevant parties accountable for AI outcomes, requiring identifiable responsibility and human oversight.
+
+
+# --------------------------------------------------------------------- #
+
+8. Requires the inclusion of disclaimers on political advertisements containing content substantially generated by AI.
+
+Mandates that disclaimers must clearly state the use of AI in creating or materially altering the content.
+
+Establishes safe harbor guidelines for what constitutes a "clear and conspicuous manner" in disclaimers for image, audio, and video communications.
+
+Amends the Federal Election Campaign Act of 1971 to include penalties for violations of the disclaimer requirements, with fines up to $50,000.
+
+Directs the Federal Election Commission (FEC) to issue regulations outlining criteria for determining substantially AI-generated content and requirements for the disclosure statement. 
+
+Requires the FEC to report on compliance and enforcement within two years and biannually thereafter to Congress.
+
+
+# --------------------------------------------------------------------- #
+
+9. Establishes a business advisory board under the Americas Partnership Secretariat to meet periodically and provide guidance.
+
+Composes the board of representatives from private sector entities, civil society, and labor organizations from partner countries.
+
+Allows the board to advise on issues including regulatory hurdles, labor issues, dispute resolution, legal investment hurdles, and alignment on regulations related to emerging technologies like artificial intelligence.
+
+Requires coordination with central regulatory bodies as outlined in the USMCA.
+
+Mandates the board to submit an annual report on the business environment, highlighting opportunities and challenges to investment in partner countries.
+
+
+# --------------------------------------------------------------------- #
+
+10. Establishes an Artificial Intelligence in Education Task Force in Mississippi to evaluate and recommend AI applications in K-12 education.
+
+Requires the State Superintendent of Education to chair the task force, with administrative support provided by the Department of Education.
+
+Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy.
+
+Instructs the task force to assess AI's ethical, legal, and data privacy implications, develop policy recommendations, and propose guidelines for AI integration in education.
+
+Tasks the force with identifying workforce needs and strategies for data protection, and fostering collaboration between educational sectors and industries.
+
+Requires submission of interim and final reports detailing findings and recommendations to state officials and public posting of the final report.
+
+Dissolves the task force on January 1, 2025, and takes effect on July 1, 2024.
+
+
+# --------------------------------------------------------------------- #
+
+11. Establishes national data privacy standards for covered entities handling personal data.
+
+Requires covered entities to post clear, accessible privacy notices detailing data collection, processing, storage, and disclosure practices.
+
+Mandates the FTC to create regulations within one year for reasonable, equitable, and non-deceptive data practices, including opt-out and affirmative consent mechanisms.
+
+Imposes data minimization requirements, limiting data collection to what is necessary for specified purposes and ensuring timely deletion.
+
+Empowers individuals with rights to access, correct, delete, and transfer their data.
+
+Mandates large entities to appoint privacy protection officers to oversee compliance and advocate for privacy policies.
+
+Directs the National Science Foundation to support research on privacy-enhancing technologies.
+
+Grants enforcement authority to the FTC and state attorneys general, with civil penalties for violations.
+
+Allocates resources to the FTC for enforcement and compliance activities.
+
+
+# --------------------------------------------------------------------- #
+
+12. Labels over-the-counter use of electrocardiograph software devices as Class II (special controls), which requires manufactures to verify, validate, and conduct hazard analysis of detection algorithms in the devices.
+
+Mandates manufactures to produce clinical performance testing results that shows the performance characteristics of the detection algorithm by sensitivity and either specificity or positive predictive value.
+
+Requires manufacturers who fail to conduct non-clinical performance testing to validate detection algorithm performance using a previously adjudicated data set.
+
+Requires human factors and usability testing to demonstrate that the user can correctly interpret the device output and understand when to seek medical care.
+
+
+# --------------------------------------------------------------------- #
+
+13. Amends Section 169 of the Workforce Innovation and Opportunity Act to evaluate programs using emerging technology, including AI, for enhancing labor market information and data integration.
+
+Mandates studies to assess AI's effectiveness in workforce systems, emphasizing technology's impact on service delivery, labor market data, end-user tools, and potential biases.
+
+Requires analysis of how automation affects employment, skills development, and worker displacement.
+
+Demands evaluation of AI and machine learning adoption by States in workforce systems, assessing accuracy and identifying biases.
+
+Calls for alignment studies between workforce and education systems, using data integration to improve outcomes.
+
+Obliges reports on AI-related studies and evaluations to be submitted to relevant Senate and House Committees and published publicly.
+
+Sets limits on using authority if certain evaluations are not initiated or completed timely.
+
+Requires Secretary-conducted evaluations on the effectiveness of programs under various conditions.
+
+
+# --------------------------------------------------------------------- #
+
+14. Requires disclosure of inputs, outputs, components, and limitations of image analysis algorithms used in medical image analyzers.
+
+Requires performance testing that demonstrates the algorithms meaningfully improve the detection of abnormalities during patient radiographs.
+
+Requires appropriate software documentation including device hazard analysis, software specs, traceability analysis, pass/fail criteria, and cybersecurity.
+
+Requires a detailed summary of the methodology behind the performance testing.
+
+
+# --------------------------------------------------------------------- #
+
+15. Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter.
+
+Expedites the processing of Foreign Military Sales requests from Australia, Canada, and the UK.
+
+Mandates the creation of an anticipatory release policy for key Foreign Military Sales capabilities, including AI, hypersonic missiles, cyber capabilities, and quantum technologies, with a presumption of approval.
+
+Requires the review and update of interagency policies to incorporate these anticipatory release provisions.
+
+
+# --------------------------------------------------------------------- #
+
+16. Establishes a temporary New York state commission, composed of 13 members appointed by stakeholders in government and academia, to study the impact of and make determinations on how to regulate AI, robotics, and automation.
+
+Requires the commission to study existing state laws and comparative state regulations for AI, the impact of AI on employment and data privacy, public sector AI applications, and the potential impact of AI regulation on industry. Requires the commission to make determinations regarding criminal and civil liability for AI-enabled violations of law and potential restrictions on AI use in weaponry. 
+
+Requires the commission to issue a final report to the governor and other state leaders before December 31, 2024.
+
+
+# --------------------------------------------------------------------- #
+
+17. Amends the election law to require disclosure for political communications using materially deceptive media.
+
+Mandates visual disclosures to be legibly printed, stating "This (image, video, or audio) has been manipulated."
+
+Requires audio disclosures to be stated clearly at the beginning, end, and periodically for messages longer than two minutes.
+
+Exempts satire, bona fide news reporting with clear disclosures, stations with consistent disclaimer requirements, and platforms disseminating third-party content in good faith.
+
+Permits candidates depicted in deceptive media to seek legal relief, including court costs, attorney fees, and injunctions against unauthorized dissemination.
+
+Grants courts authority to provide preliminary relief to plaintiffs likely to succeed in proving violations in upcoming elections.
+
+Places the burden of proof on plaintiffs to establish use of deceptive media by clear and convincing evidence.
+
+Clarifies that federal law takes precedence over state requirements for media labeling in political communications.
+
+
+# --------------------------------------------------------------------- #
+
+18. Amends U.S. Code to increase the required minimum number of fighter aircraft in the Air Force to 1,900, extending compliance to 2030, but allows temporary reductions for transitions, provided levels don't fall below 1,800.
+
+Mandates annual reports by the Secretary of the Air Force to Congress on the status of fighter aircraft inventory, including new acquisitions, unit assignments, and any legacy retirements, with penalties for late submission.
+
+Requires prioritization of recapitalized fighter allocations to existing Air Force squadrons, allowing one-for-one legacy aircraft retirement.
+
+Obligates the Air National Guard to maintain 25 fighter squadrons and restricts retiring legacy or fifth-generation aircraft unless unserviceable.
+
+Directs an annual recapitalization plan for Air National Guard squadrons, assessing financial and readiness impacts, with a focus on acquiring F–16 Block 70 aircraft.
+
+Defines terms such as "advanced capability fighter aircraft," "fifth-generation fighter aircraft," and "next-generation air dominance fighter aircraft."
+
+
+# --------------------------------------------------------------------- #
+
+19. Creates the Illinois Future of Work Task Force to proactively plan for the future of work and address current labor issues.
+
+Requires the Task Force to identify and assess emerging technologies, particularly automation and AI, that significantly impact employment, wages, and skills.
+
+Mandates the development of job standards and working conditions to build a vibrant middle class.
+
+Instructs the Task Force to identify future job opportunities and shape them to improve life in Illinois.
+
+Compiles research and best practices from other regions on deploying technology for the public good.
+
+Develops tools to evaluate the impact of proposed technologies on workers, employers, and the state.
+
+Proposes workforce development and training programs for future jobs.
+
+Requires the Task Force to submit a report with findings to the Governor and General Assembly by May 1, 2022, and dissolves upon report submission.
+
+
+# --------------------------------------------------------------------- #
+
+20. Mandates digital social companies to post terms of service for each platform within 180 days, detailing contact information, content flagging processes, and potential actions like banning or demonetization.
+
+Requires translation of terms into all supported languages.
+
+Obligates companies to submit semiannual terms of service reports to the Attorney General, detailing content moderation practices and AI involvement, including flagged content statistics and appeal outcomes.
+
+Establishes penalties up to $15,000 per day for non-compliance, managed by the Attorney General, who can take legal action.
+
+Specifies the creation of a public repository of reports for transparency.
+
+Excludes platforms limited to direct messaging or transactions from the Act's scope and protects end-to-end encryption.
+
+Defines key terms and grants the Attorney General interpretive authority.
+
+Ensures Act's obligations and penalties are additional to existing laws.
+
+
+# --------------------------------------------------------------------- #
+
+21. Defines the term "technical position" as a Department of Defense position that (1) requires expertise in artificial intelligence, data science, or software development and (2) is eligible for direct hire authority under section 9905 of title 5, United States Code, or section 2358a of title 10, United States Code. 
+
+Instructs the human resources manager of each Department of Defense participating organization to identify a subset of technical positions for which electronic portfolios should be evaluated during the hiring process.
+
+Requires the Human Resources manager to evaluate applicants for such positions by reviewing their best electronic portfolios, as chosen by the applicant.
+
+Directs the Secretary of Defense to submit a report to the congressional defense committee on the results of the program that describes how electronic portfolios affected the timeliness of technical position hiring, the level of satisfaction with new hires based on electronic portfolio evaluations, and recommends expanding the use of electronic portfolios in the hiring process or making it permanent.
+
+
+# --------------------------------------------------------------------- #
+
+22. Requires entities in North Dakota’s executive branch to ensure AI technologies are reliable, valid, and transparent, with clear explanations of AI use and marked AI decision-making involving medium to high-risk data.
+
+Mandates accountability for secure AI development, compliance with laws and standards, and prohibits using state-managed passwords for third-party apps.
+
+Incorporates NDIT’s Security Risk Management Program in AI operations, mandates regular risk assessments, and restricts inputting moderate/high-risk data into public AI/ML services.
+
+Requires NDIT to offer AI training and workshops, maintain an AI technology inventory, and ensure entities use vetted technologies.
+
+Demands compliance with data protection laws, ethical AI use, and fairness without bias.
+
+Stipulates AI must adhere to legal standards, including copyright, with review of licensing agreements and recognition that AI-generated content lacks copyright protection.
+
+
+# --------------------------------------------------------------------- #
+
+23. Authorizes the department to utilize data analytics and artificial intelligence for eligibility verification and fraud detection in public assistance programs.
+
+Permits the department to access data from other state agencies to verify residency and eligibility of applicants.
+
+Empowers the department to establish rules, regulations, and standards for assistance program administration, including eligibility criteria and benefit modifications.
+
+Requires the department to ensure expenditures do not exceed appropriations and to seek necessary federal waivers or approvals.
+
+Allows the establishment of health savings accounts and medical assistance premiums to aid residents transitioning out of assistance programs.
+
+Mandates physical health managed care organizations to share medical assistance claims data with providers.
+
+
+# --------------------------------------------------------------------- #
+
+24. Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies.
+
+Appoints a Director from the U.S. Geological Survey or the Forest Service for a term of up to seven years.
+
+Utilizes artificial intelligence and data tools to assess and predict fire and smoke at the wildland-urban interface for improved management, risk reduction, and recovery.
+
+Promotes data sharing and coordination across federal, state, local, tribal, and private sectors.
+
+Reduces duplication and fragmentation in predictive services and decision support related to wildland fires.
+
+Streamlines procurement and cybersecurity processes.
+
+Develops and disseminates publicly accessible data, models, and technologies for fire risk reduction and recovery planning.
+
+Maintains the Fireshed Registry and supports its operations with personnel and services from the U.S. Geological Survey and the Forest Service.
+
+
+# --------------------------------------------------------------------- #
+
+25. Establishes an Office of Technology for Peace within the Department, headed by the Assistant Secretary for Technology for Peace.
+
+Tasks the Assistant Secretary with overseeing awareness, study, and ethical implications of technologies, including artificial intelligence, on domestic and international peace.
+
+Mandates the dissemination of applicable policies and research in consultation with the Department of State.
+
+Requires the Assistant Secretary to provide grants for technologies in transportation, communications, agriculture, medicine, and energy that are nonviolent.
+
+Encourages grants that promote conservation and sustainability of natural resources to prevent future conflicts.
+
+Promotes the development of a green, peaceful economy through these grants.
+
+
+# --------------------------------------------------------------------- #
+
+26. Establishes the right for individuals and right holders to authorize the use of their voice or visual likeness in digital replicas, treating it as a property right that is licensable but not assignable during the individual's life.
+
+Allows post-mortem transfer and licensing, enabling rights to be inherited and renewed under specific conditions.
+
+Imposes liability for unauthorized production, distribution, or public display of digital replicas without consent, with certain exclusions for news, historical, and public interest uses.
+
+Provides safe harbors for online services that act promptly to remove unauthorized replicas upon notification.
+
+Preempts conflicting state laws, except for those existing before January 2, 2025, or those addressing sexually explicit or election-related replicas.
+
+Applies only to conduct and contracts occurring after the enactment date, while granting rights retroactively to deceased individuals' estates.
+
+
+# --------------------------------------------------------------------- #
+
+27. Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission. Include key milestones, testing events, and performance goals, subdivided into six-month increments. 
+
+Provide information on technology readiness levels, design maturity, software maturity, integration maturity, manufacturing readiness levels, reliability, availability for flight operations, and maintainability.
+
+Provide updates on progress and cost estimates for the program every 6 months. It details progress made toward the goals identified in the matrices and provides updated cost estimates for air vehicles, propulsion, mission systems, software, program management, system test and evaluation, support and training systems, and more.
+
+Develop key performance parameters (cost KPPs) for cost thresholds and objectives for the programs. Specify threshold and objective values for categories such as unit recurring flyaway cost, average procurement unit cost, gross/weapon system unit cost, aircraft cost-per-tail-per-year, and aircraft cost-per-flight-hour. 
+
+Ensure that each Secretary concerned works on these parameters for the respective programs and includes them in the related documents.
+
+Ensure assessment of the sufficiency of matrices by the Comptroller General, who will review them and submit assessments to congressional defense committees, identifying any cost, schedule, or performance trends.
+
+
+# --------------------------------------------------------------------- #
+
+28. Amends the penal law to include the unlawful dissemination or publication of intimate images created or altered by digitization.
+
+Defines "digitization" as altering an image realistically using other persons' images or computer-generated images.
+
+Requires intent to cause harm to the emotional, financial, or physical welfare of another person for the offense to occur.
+
+Mandates that the actor knew or should have known that the person depicted did not consent to the dissemination or publication.
+
+Repeals subdivision 2-a of section 245.15 of the penal law.
+
+Specifies that the act takes effect on the sixtieth day after becoming law.
+
+
+# --------------------------------------------------------------------- #
+
+29. Define "artificial intelligence" as a machine-based system capable of making predictions, recommendations, or decisions for human-defined objectives, affecting real or virtual environments, using both machine and human inputs.
+
+Mandate AI systems to perceive environments, abstract perceptions into models through automated analysis, and use model inference for decision-making.
+
+Condition enactment of this amendment on the passage of House Bill No. 5141.
+
+
+# --------------------------------------------------------------------- #
+
+30. Establishes that using generative artificial intelligence (AI) is not a defense against violations of consumer protection laws.
+
+Mandates disclosure when generative AI interacts with a person, requiring clear communication that the interaction is with AI, not a human.
+
+Requires providers of regulated occupations to disclose when generative AI is used in service provision.
+
+Prohibits service provision of regulated occupations via generative AI without meeting legal requirements.
+
+Stipulates that disclosures be made verbally at the start of oral interactions and electronically before written exchanges.
+
+Empowers the Division of Consumer Protection to enforce these provisions, including imposing fines up to $2,500 per violation.
+
+Allows the division to seek court actions, which may result in injunctions, disgorgement of funds, or additional fines.
+
+Permits civil penalties up to $5,000 for violating administrative or court orders, enforceable by the attorney general.
+
+
+# --------------------------------------------------------------------- #
+
+31. Establishes an AI advisory committee in Hawaii to investigate how to implement, develop, and regulate AI in the state; the committee will be composed of government, academic, and industry stakeholders.
+
+Requires the committee to evaluate and make recommendations on AI applications in other governments, competitive advantages to be gained by integrating AI into Hawaii’s economy, methods for encouraging AI R&D in universities and private sector, the potential danger of integrating AI into state operations, and potential regulatory systems for AI. 
+
+Requires the committee to submit a report of findings and proposed legislation to the Legislature before its convening in 2020. 
+
+
+# --------------------------------------------------------------------- #
+
+32. Requires AI-generated content in China to meet a series of criteria, including accuracy, non-discrimination with regard to an array of protected characteristics, intellectual property protection, exclusion of violent content or content that subverts state power, and respect for individual privacy.
+
+Requires AI developers to conduct a security assessment on generative AI systems that evaluates the cybersecurity of the system and its ability to comply with regulations; the assessment must be submitted to regulators before the system can be released for public use. 
+
+Requires AI developers to prevent their generative AI systems from being used for various purposes, including engaging in unfair economic competition, and requires generative AI systems to make themselves inaccessible to individuals who use the systems for such purposes. 
+
+Describes the legal liability that developers hold for the content generated by their AI systems and the punishments, including fines, they may face for violating these rules. 
+
+
+# --------------------------------------------------------------------- #
+
+33. Directs the Department of Commerce to establish a Supply Chain Resiliency and Crisis Response Office, responsible for awarding grants, loans, and loan guarantees to critical industry and supply chain stakeholders that integrate artificial intelligence into manufacturing.
+
+Mandates the DOC to improve the competitiveness of the advanced tech manufacturing sector, minimize supply chain shocks, and support the creation of related jobs in key technology focus areas such as artificial intelligence, machine learning, and quantum computing.
+
+Directs the Inspector General of the DOC to audit activities supported by the Supply Chain Resiliency and Crisis Response Office's grants, loans, and loan guarantees every four years.
+
+
+# --------------------------------------------------------------------- #
+
+34. Amends the Elementary and Secondary Education Act of 1965 to expand career counseling opportunities.
+
+Requires career counseling programs to leverage resources and emerging technologies, including artificial intelligence.
+
+Mandates the development of professional development or career development training certification programs for counselors and educators.
+
+Encourages partnerships with one-stop centers and integration with local and state workforce entities.
+
+Promotes the establishment and coordination of postsecondary opportunities such as internships, apprenticeships, and dual enrollment programs.
+
+Requires the identification and assessment of school counseling activities and postsecondary options within and outside the state.
+
+Mandates the evaluation of secondary and postsecondary outcomes for individuals served by career counseling programs.
+
+
+# --------------------------------------------------------------------- #
+
+35. Requires the Administrator to conduct a review of current and planned AI and machine learning technologies to enhance airport efficiency and safety.
+
+Mandates the review to cover applications of AI and machine learning in jet bridges, airport service vehicles, and aircraft taxiing.
+
+Allows the Administrator to include other relevant areas that can improve airport efficiency and safety.
+
+Obligates the Administrator to submit a report to Congress within one year, detailing the review's findings.
+
+Includes a required examination of China's domestic application of AI and machine learning technologies in the report.
+
+
+# --------------------------------------------------------------------- #
+
+36. Directs the Secretary of Energy to support the development of new and emerging technologies to increase the resilience of electrical grid design, planning, and operation.
+
+Mandates the Secretary to bolster the usage of computational tools and technologies in improving the sensing, monitoring, and visualization of the electric grid; models must be able to predict the effects of adverse physical and cyber events on the electric grid.
+
+Instructs the Secretary to research the potential deployment of new and emerging technologies, including artificial intelligence, with existing electrical grid infrastructure.
+
+
+# --------------------------------------------------------------------- #
+
+37. Requires a report on artificial intelligence regulation in the financial services industry, establishes artificial intelligence bug bounty programs, requires a vulnerability analysis study for artificial intelligence-enabled military applications, and requires a report on data sharing and coordination.
+
+
+# --------------------------------------------------------------------- #
+
+38. Prohibits the Secretary of Commerce from exporting any national security sensitive technology or intellectual property to the People's Republic of China.
+
+Defines "intellectual property" to include patents, copyrights, trademarks, or trade secrets.
+
+Defines "national security sensitive technology or intellectual property" to include contributions to China's military, protection of U.S. economic security, and components of key products listed under the Trade Act of 1974.
+
+Includes in "technology" goods or services related to information systems, internet-based services, production-enhancing logistics, robotics, artificial intelligence, biotechnology, or computing.
+
+
+# --------------------------------------------------------------------- #
+
+39. Mandates the Secretary, with the Air National Guard Director, to study the necessity of acquiring advanced capability fighter aircraft for the Air Force.
+
+Requires consideration of plans to implement unmanned or autonomous capabilities in fighter aircraft.
+
+Includes evaluation of cost savings linked to foreign sales of F-16 variants.
+
+Identifies eligible Air Force units for recapitalization with advanced fighter aircraft.
+
+Assesses how these aircraft meet current and contingency mission needs of combatant commanders.
+
+Determines whether a multiyear contract is the optimal acquisition method.
+
+Obligates the Secretary to report findings to congressional defense committees within 180 days of enactment.
+
+
+# --------------------------------------------------------------------- #
+
+40. Defines an automated decision tool as any tool that uses artificial intelligence to make consequential decisions relating to employment, education, housing, utilities, healthcare and family planning, financial services, criminal justice, legal services, voting, or government benefits.
+
+Bans the use of automated decision tools in ways that result in algorithmic discrimination on the basis of classes protected by state law. 
+
+Requires any entity that develops or deploys an automated decision tool to perform an impact assessment on the tool, covering its purpose, outputs, use cases, inputted data, and potential discriminatory impacts, and the monitoring, safeguard measures, and testing conducted to mitigate adverse consequences. The impact assessment must be updated annually and after any significant update to the tool, and be provided to the state's Civil Rights Department. 
+
+Requires any entity that deploys an automated decision tool to provide individuals affected by the tool's decisions with a notice that the tool was used and information on the tool's purpose. 
+
+Grants all individuals subject to an automated decision tool's decisions the right to instead have those decisions be made by a human, if technically feasible. 
+
+Requires automated decision tool developers to provide the tool's deployers with documentation of the tool's limitations, training data, and testing. 
+
+Requires the developer or deployer of an automated decision tool to implement a program that governs the foreseeable risks of the tool's use, including designating an employee to monitor the tool and report concerns. 
+
+Permits individuals and public attorneys to bring civil action against entities that violate this law, and makes violation of the law punishable by fines.
+
+Exempts entities with fewer than 25 employees using automated decision tools that affect less than 1,000 people per year from some of this law's provisions. 
+
+
+# --------------------------------------------------------------------- #
+
+41. Establishes an AI leadership training program for management officials, supervisors, and other designated employees in executive agencies, to be developed and implemented within 18 months.
+
+Requires annual training to cover AI capabilities, risks, safety, ethics, Federal Government requirements, and best practices related to AI procurement, use, testing, evaluation, and auditing.
+
+Mandates program topics include AI basics, benefits, risks, data significance, AI system failures, continuous refinement, risk mitigation, organizational considerations, and constitutional risks related to AI use.
+
+Obligates updates to the program every two years to incorporate new AI information and ensure compliance with training requirements.
+
+Demands metrics to measure participation and feedback for program improvements.
+
+Permits Congress to request detailed information about the program materials and responsible personnel.
+
+Encourages interaction with experts from various sectors as part of the training.
+
+Sets a sunset clause for the program 10 years after enactment.
+
+
+# --------------------------------------------------------------------- #
+
+42. Ensure the safe, ethical, and fair use of AI technologies to protect personal data and privacy rights.
+
+Apply to all stakeholders, including providers, users, importers, and distributors of AI systems.
+
+Mandate adherence to principles of safety, transparency, fairness, accountability, and privacy in AI systems.
+
+Require risk assessments and registration for high-risk AI systems with supervisory authorities.
+
+Obligate AI operators to comply with the Law and allow supervisory authorities to monitor compliance and detect violations.
+
+Impose fines up to 35 million Turkish Liras or 7% of annual turnover for violations, with varying penalties based on the nature of the breach.
+
+Enforce the Law upon publication, with the President executing its provisions.
+
+
+# --------------------------------------------------------------------- #
+
+43. Amends Article 7, Chapter 57, Title 40 of the S.C. Code by adding Section 40-57-820.
+
+Holds a licensee accountable for all work produced with the assistance of artificial intelligence, machine learning, or similar programs.
+
+Treats violations committed through the use of these technologies as if committed directly by the licensee.
+
+
+# --------------------------------------------------------------------- #
+
+44. Requires federal government to develop and apply standards to ensure the safety and security of AI systems and minimize their risks, including biological risks, cybersecurity risks, and deceptive content risks.
+
+Orders the development of a National Security Memorandum that directs further actions on AI and security.
+
+Directs federal government to support privacy-preserving research and technologies and develop guidance on the collection and usage of commercially available information by federal agencies.
+
+Instructs federal government to prevent algorithmic discrimination by developing guidance and best practices in order to ensure fairness.
+
+Calls for federal government to support the safe, responsible deployment of AI in healthcare, transportation, education, and communications networks.
+
+Requires a report on AI's potential labor-market impacts and the identification of options for strengthening federal support for workers facing labor disruptions
+
+Urges federal government to facilitate the immigration of AI talent to the U.S., catalyze AI research and innovation through a pilot of the National AI Research Resource, and promote competition in the AI ecosystem by providing resources to small businesses.
+
+Directs federal government to maintain U.S. leadership in global AI efforts by expanding multilateral engagements, implementing international standards, and developing guidelines to secure critical infrastructure.
+
+Calls for the advancement of federal government use of AI through the issuance of guidance for agency use of AI, support for agency acquisition of AI products/services, and authorization of rapid hiring of AI professionals.
+
+
+# --------------------------------------------------------------------- #
+
+45. Makes it unlawful for an employer in New York to use or implement an automated decision tool to filter employment candidates or prospective candidates for hire that has not undergone an disparate impact assessment annually.
+
+Requires employers to provide the department with a summary of their most recent disparate impact analysis annually. Allows the Attorney General and Commissioner to initiate investigations and legal action if violations are suspected or found. Requires a summary of the most recent disparate impact analysis of the automated decision tool and the distribution date of the tool to be made publicly available on the website of the employer prior to implementing the tool. 
+
+
+
+# --------------------------------------------------------------------- #
+
+46. Directs the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities.
+
+Requires NIST to establish common definitions for AI security vulnerabilities and develop standards for managing these vulnerabilities.
+
+Mandates a multi-stakeholder process to assess voluntary reporting and tracking of substantial AI security and safety incidents, and to establish guidelines, best practices, and standardized mechanisms for reporting AI incidents.
+
+Obligates NIST to submit a report to Congress within three years, detailing the findings and recommendations from the multi-stakeholder process on AI incident reporting and tracking.
+
+
+# --------------------------------------------------------------------- #
+
+47. Establishes a cross-cutting AI research and development program within the Department of Energy to advance AI tools, systems, and capabilities.
+
+Mandates coordination across relevant offices such as the Office of Science and the Office of Energy Efficiency to carry out this program.
+
+Requires financial assistance for research in areas like AI application in simulations, data analysis, and energy-efficient computing.
+
+Supports technology transfer and the use of high-performance computing infrastructure to develop advanced AI systems.
+
+Establishes data center testbeds to improve energy efficiency in AI training and inference.
+
+Encourages partnerships with federal and private entities to enhance AI research and development.
+
+Emphasizes ethical considerations, cybersecurity, and data privacy in AI projects.
+
+Allocates $300 million annually from 2025 to 2030 for these initiatives.
+
+Requires an assessment of energy security related to data centers and computing resources, with recommendations for policy changes.
+
+
+# --------------------------------------------------------------------- #
+
+48. Requires the Assistant Secretary for Preparedness and Response to conduct risk assessments and implement strategic initiatives that address whether AI can develop novel pathogens, viruses, bioweapons, or chemical weapons, including monitoring and researching the global biological catastrophic risk landscape.
+
+Requires the Assistant Secretary for Preparedness and Response to include a summary of the risk assessment above in the National Health Security Strategy.
+
+
+# --------------------------------------------------------------------- #
+
+49. Enacts the "Freedom From AI-Rigged (FAIR) Elections Act" to regulate synthetic media in electioneering communications.
+
+Defines "synthetic media" as altered audio or video intended to mislead about real events or speech through advanced digital techniques.
+
+Allows candidates misrepresented by synthetic media to seek injunctive relief and damages against the creators or distributors.
+
+Requires disclosures on synthetic media: a visible text or audible notice stating the media is manipulated.
+
+Places the burden on plaintiffs to prove synthetic media use by clear and convincing evidence.
+
+Holds information content providers liable, not the medium, unless disclosures are altered or removed.
+
+Encourages courts to resolve cases swiftly.
+
+Declares provisions severable to maintain the act's enforceability if parts are invalidated.
+
+Implements the act immediately upon passage due to an emergency declaration.
+
+
+# --------------------------------------------------------------------- #
+
+50. Establishes a single state data governance structure, creating a federated data platform to manage data effectively across Rhode Island state agencies.
+
+Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration.
+
+Creates an AI Center of Excellence to formulate AI policies and ethics, minimizing bias and guiding AI implementation in state operations.
+
+Directs all state agencies to participate in the federated data system, sharing data for policy analysis and exploring AI applications to improve operations.
+
+Forms an AI Task Force to assess AI risks and opportunities, providing advice to policymakers.
+
+Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula.
+
+
+# --------------------------------------------------------------------- #
+

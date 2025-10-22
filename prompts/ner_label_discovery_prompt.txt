@@ -52,5 +52,3 @@ Only include a label if you have seen multiple entities that justify the categor
 ________________________________________
 STEP 4: GUIDELINES - Labels must be mutually exclusive and clearly defined - Every entity must be assigned to a group — no leftovers - Do not group based on syntax alone — group based on semantic role - The final label list will drive downstream NER annotation
 ________________________________________
-USAGE NOTES: - This phase defines your ontology. - Later phases will use these labels to tag all entities in the corpus. - You may refine labels as you see patterns or edge cases emerge.
-Let this be conceptual, not overly rigid — it’s meant to help you operationalize structured extraction over a large corpus.

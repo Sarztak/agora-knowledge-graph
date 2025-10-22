@@ -34,4 +34,3 @@ STEP 3: OUTPUT FORMAT Use this JSON format:
 ________________________________________
 STEP 4: VALIDATION RULES - Use one JSON list per paragraph or document chunk. - Capture entities exactly as written in the sentence. - Do not guess or assign types yet. - No need to include character offsets.
 ________________________________________
-USAGE NOTES: - This phase is for discovery. Extract liberally. - Later, you will cluster these entities manually and define entity types. - After that, switch to the labeled prompt for consistent tagging and training.
