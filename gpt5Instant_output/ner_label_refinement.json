@@ -1,0 +1,947 @@
+[
+  {
+    "text": "Mandate",
+    "original_label": "REQUIREMENT",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Accountability",
+    "original_label": "OTHER",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "Acknowledges",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Addresses",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Advanced Aviation Coordination Unit",
+    "original_label": "OTHER",
+    "new_label": "PROGRAM_COMPONENT"
+  },
+  {
+    "text": "Advanced Integration",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Advances",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Agriculture",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Aims",
+    "original_label": "OTHER",
+    "new_label": "TECH_SYSTEM"
+  },
+  {
+    "text": "Air Force",
+    "original_label": "OTHER",
+    "new_label": "TECH_SYSTEM"
+  },
+  {
+    "text": "Air Force Reserve Command",
+    "original_label": "OTHER",
+    "new_label": "TECH_SYSTEM"
+  },
+  {
+    "text": "Allocates",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Allow",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Allows",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Allows Councils",
+    "original_label": "OTHER",
+    "new_label": "PROGRAM_COMPONENT"
+  },
+  {
+    "text": "Amazon",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Amends",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Amends Article",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "American",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Announces",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Applies",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Assigns",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Attorney General",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "August",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Authorize",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Authorizes",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Bans",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Bases",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Bletchley Declaration",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "ByteDance",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "CDO",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "COVID-",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Certify",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Chapter",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Children",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Chinese",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "City",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Clarify",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Coast Guard",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Commerce",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Commissioner",
+    "original_label": "OTHER",
+    "new_label": "ORG"
+  },
+  {
+    "text": "Commits",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Commodity Credit Corporation",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Compels",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Compiles",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Comprehensive Iran Sanctions",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Comptroller General",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Conditions",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Congress",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Considers",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Coordination Unit",
+    "original_label": "OTHER",
+    "new_label": "PROGRAM_COMPONENT"
+  },
+  {
+    "text": "Counter Antisemitism",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Countering America",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Creates",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Cybersecurity",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "DLT",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "DMV",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "DOA",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "DPAC",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Declares",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Defense",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Defense Media Activity",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Defines",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Demands",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Describes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Designates",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Details",
+    "original_label": "OTHER",
+    "new_label": "TECH_SYSTEM"
+  },
+  {
+    "text": "Develops",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Directs",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Division",
+    "original_label": "OTHER",
+    "new_label": "PROGRAM_COMPONENT"
+  },
+  {
+    "text": "Dublin",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Education",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Emphasizes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Employs",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Empowers",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Enacts",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Energy",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Enforces",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Ensures",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Establishes",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Excellence",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Excludes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Exempts",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Expands",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "FAA",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Focuses",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Forbids",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Forms",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "GPS-denied",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "General Assembly",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Google",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Governor",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Health",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Healthcare Innovation",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Higher Learning",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Highways",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Holds",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Holocaust",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Homeland Security",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "House",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Human Services",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "IT",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Imposes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Incorporates",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Incorporates NDIT",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Incorporates UAS",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Institutions",
+    "original_label": "OTHER",
+    "new_label": "ORG"
+  },
+  {
+    "text": "Instruct",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Instructs",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Intelligence Advanced Research Projects Activity",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Involves",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Iran",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "January",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "July",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "June",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "LOINC",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Labor",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Limits",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "ML",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Mandates",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "May",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Medicare",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Monongalia",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Motor Vehicles",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "NGOs",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "NRC",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "OPC",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Obligates",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Oblige",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Obliges",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "OpenAI",
+    "original_label": "OTHER",
+    "new_label": "TECH_SYSTEM"
+  },
+  {
+    "text": "Outlines",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Permits",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Plans",
+    "original_label": "OTHER",
+    "new_label": "DOCUMENT_TYPE"
+  },
+  {
+    "text": "Post Secondary Commissioner",
+    "original_label": "OTHER",
+    "new_label": "ORG"
+  },
+  {
+    "text": "Predictive Decision Support Intervention",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Prescribes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "President",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Preston Counties",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Prioritizes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Prohibits",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Promotes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Proposes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Provides",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Qualified Mechanical Inspector",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Qualified Mechanical Inspectors",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "R&D",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "RIDE",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Racial Equity Toolkit",
+    "original_label": "OTHER",
+    "new_label": "VALUE"
+  },
+  {
+    "text": "Reaffirms",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Reappropriates",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Recognizes",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Recommends",
+    "original_label": "OTHER",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "Regular Session",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Regulates City",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Republic",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Requests",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Require",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Requires",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Requires  The",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Requires NDIT",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Requires Seattle IT",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Restricts",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Road Optimization",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Russia",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "SAV",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "SNOMED CT",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "STEM",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Science",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Senate",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Specifies",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Specify",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Squadron",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Standards",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Stipulates",
+    "original_label": "OTHER",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "Supports",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Terminates",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "TikTok",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Title",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Training",
+    "original_label": "OTHER",
+    "new_label": "TECH_SYSTEM"
+  },
+  {
+    "text": "Transportation",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Treasury",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Treats",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "UAS",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "US",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Utilizes GPS",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Weather Reconnaissance Squadron",
+    "original_label": "OTHER",
+    "new_label": "TECH_SYSTEM"
+  },
+  {
+    "text": "XVIII",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  },
+  {
+    "text": "Youth",
+    "original_label": "OTHER",
+    "new_label": "CONCEPT"
+  }
+]

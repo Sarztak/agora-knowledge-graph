@@ -1,0 +1,1 @@
+The 50 text summaries were randomly sampled using documents_table_analysis.ipynb using seed = 2030.
