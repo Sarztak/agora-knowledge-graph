@@ -1,4 +1,139 @@
-DOC_ID: 480
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_481
 Requires the Maryland Department of Information Technology to evaluate the potential use of artificial intelligence in developing a statewide virtual 3-1-1 portal for nonemergency government information and services.
 
 Mandates the prioritization of creating the virtual 3-1-1 portal if the AI application is deemed feasible.
@@ -9,7 +144,7 @@ Receives approval from the Governor on May 9, 2024.
 
 ---
 
-DOC_ID: 481
+doc_482
 Allocate $300,000 from the general fund for fiscal year 2024 to the city of Seattle for leasing space dedicated to nonprofit and academic institutions.
 
 Provide $500,000 for fiscal year 2025 for the same purpose.
@@ -20,7 +155,7 @@ Support the development and teaching of curricula aimed at equipping workers wit
 
 ---
 
-DOC_ID: 482
+doc_483
 Outlines transparency requirements for advanced technological false personation records, requiring producers of such records to include content provenance technologies to identify alterations, as well as disclosures to detail the extent of alterations.
 
 Mandates specific disclosure formats for audiovisual, visual, and audio records.
@@ -33,14 +168,14 @@ Establishes coordinators for deepfake-related violations in each U.S. Attorney�
 
 ---
 
-DOC_ID: 483
+doc_484
 Mandates the research and recommendation of AI and machine learning solutions for efficient classification and declassification systems, to be interoperable across the Federal Government.
 
 Requires the Administrator of the Office of Electronic Government to consult with key defense and intelligence agencies for technology implementation and submit a report on the recommended solution.
 
 ---
 
-DOC_ID: 484
+doc_485
 Amends chapter 35 of title 44, United States Code, to establish Federal AI system governance requirements.
 
 Instructs Federal actions involving AI to align with the Constitution, relevant laws, and policies, protecting civil rights and privacy.
@@ -57,7 +192,7 @@ Establishes a Federal AI System Inventory for cataloging agency AI governance ch
 
 ---
 
-DOC_ID: 485
+doc_486
 Establishes a grant program by the Director of the National Institutes of Health to fund research on the use of generative AI in health care.
 
 Permits research to include enhancing note-taking, reducing administrative burdens, expediting insurance claims, improving customer service efficiency, and other health care improvements.
@@ -70,7 +205,7 @@ Defines "generative artificial intelligence" as AI producing content in response
 
 ---
 
-DOC_ID: 486
+doc_487
 Establishes AI Safety Level (ASL) Standards to guide safe deployment and security for current and future AI models, categorizing measures into Deployment and Security Standards.
 
 Requires all current models to meet ASL-2 standards, focusing on safe usage and protection from unauthorized access.
@@ -85,7 +220,7 @@ Commits to public transparency, expert input, and notifying US Government if sta
 
 ---
 
-DOC_ID: 487
+doc_488
 Amends the Communications Act to criminalize the non-consensual production and dissemination of pornography, especially when intended to cause harm or when involving minors.
 
 Requires covered platforms to establish a takedown process for such depictions, and mandates them to remove the content within 48 hours upon valid request.
@@ -98,7 +233,7 @@ Defines key terms relevant to the instrument, including "covered platform," "dee
 
 ---
 
-DOC_ID: 488
+doc_489
 Requires developers of frontier AI models to implement comprehensive safety and security protocols, including cybersecurity protections, full shutdown capabilities, and detailed risk assessments.
 
 Mandates annual independent audits and public disclosure of redacted audit reports and obligates developers to report AI safety incidents to the Attorney General within 72 hours.
@@ -113,7 +248,7 @@ Introduces CalCompute, a public cloud computing cluster to support AI research a
 
 ---
 
-DOC_ID: 489
+doc_490
 Outlines OpenAI's commits to using influence over AGI deployment to ensure it benefits all of humanity and avoids harm or power concentration.
 
 Pledges to assist other safety-conscious AGI projects nearing completion, rather than compete, under specific conditions.

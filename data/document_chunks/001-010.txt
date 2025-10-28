@@ -1,4 +1,139 @@
-DOC_ID: 0
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_001
 Appropriates $500 million to the Department of Commerce for FY 2025 to modernize federal IT systems using AI and automation technologies.
 
 Authorizes the Secretary of Commerce to use funds to replace legacy systems, adopt efficient AI models, and enhance cybersecurity with AI solutions.
@@ -9,7 +144,7 @@ Exempts laws facilitating AI deployment or removing legal barriers, provided the
 
 ---
 
-DOC_ID: 1
+doc_002
 Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state.
 
 Requires the California Cybersecurity Integration Center and related bodies to perform a risk analysis by March 2024 on GenAI threats to energy infrastructure, brief the Governor on findings, and make public recommendations for actions to guard against GenAI threats when appropriate. 
@@ -28,7 +163,7 @@ Emphasizes collaboration with civil society, academia, and industry experts in d
 
 ---
 
-DOC_ID: 2
+doc_003
 Requires the Superintendent of Public Instruction to form a working group to address artificial intelligence in public schools.
 
 Requires the working group to develop guidance and a model policy for safe AI use in education by January 1, 2026.
@@ -49,7 +184,7 @@ Dissolves the working group upon report submission and repeals provisions by Jan
 
 ---
 
-DOC_ID: 3
+doc_004
 Require public transit employers in California to notify the exclusive employee representative at least 10 months before starting a procurement process for autonomous transit vehicle technology that could eliminate jobs.
 
 Mandate collective bargaining within 30 days upon notification or within 10 days of the public transit employer receiving a written request from the exclusive employee representative, focusing on developing and implementing the autonomous transit technology, creating transition plans for affected workers, and preparing them for new roles.
@@ -62,7 +197,7 @@ Authorize the board to establish, amend, or repeal regulations necessary to impl
 
 ---
 
-DOC_ID: 4
+doc_005
 Urges the President and Congress to develop a comprehensive Artificial Intelligence Advisory Committee.
 
 Urges the adoption of a comprehensive artificial intelligence policy.
@@ -81,7 +216,7 @@ Directs transmission of the resolution to key federal officials and California r
 
 ---
 
-DOC_ID: 5
+doc_006
 Prohibits the creation, distribution, and possession of child sexual assault material (CSAM) generated by artificial intelligence (AI) in California.
 
 Defines AI as a machine-based system capable of generating outputs that influence environments.
@@ -102,7 +237,7 @@ Becomes operative only if Senate Bill 1381 is enacted by January 1, 2025.
 
 ---
 
-DOC_ID: 6
+doc_007
 Expands existing child pornography laws to include materials digitally altered or generated by artificial intelligence.
 
 Prohibits the production, distribution, or possession of AI-generated depictions involving minors engaging in sexual conduct.
@@ -119,7 +254,7 @@ Mandates that the act becomes operative only if AB 1831 is enacted by January 1,
 
 ---
 
-DOC_ID: 7
+doc_008
 Prohibits the distribution of materially deceptive AI-generated content related to elections, such as deepfakes, during specified periods before and after elections in California. 
 
 Requires disclosures for manipulated content used by candidates, stating "This [media type] has been manipulated," ensuring transparency.
@@ -136,7 +271,7 @@ Includes an urgency clause, making the act effective immediately to protect upco
 
 ---
 
-DOC_ID: 8
+doc_009
 Affirms the California Legislature's commitment to President Biden’s vision for safe AI and the "Blueprint for an AI Bill of Rights."
 
 Commits the Legislature to examining and implementing principles, including Safe and Effective Systems, Algorithmic Discrimination Protections, Data Privacy, Notice and Explanation, and Human Alternatives in AI-related policies.
@@ -145,7 +280,7 @@ Directs the Secretary of the Senate to transmit copies of this resolution for di
 
 ---
 
-DOC_ID: 9
+doc_010
 Requires, by September 1, 2024, the California Department of Technology to inventory high-risk automated decision systems used or proposed by state agencies, detailing decision-making roles, data usage, and risk mitigation measures.
 
 Mandates an annual report on high-risk systems to legislative committees until 2029.

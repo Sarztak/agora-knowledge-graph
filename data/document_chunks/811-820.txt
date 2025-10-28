@@ -1,4 +1,139 @@
-DOC_ID: 810
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_811
 Requires commission approval for AI mental health applications and mandates licensed supervision, informed consent, and clear AI disclosure. Permits liability-free testing with specialized consent. 
 
 Mandates that licensed mental health professionals supervise AI mental health services, ensuring availability for review, communication, and intervention. Obliges providers to obtain informed consent and clearly inform users about the use of AI technology.
@@ -6,7 +141,7 @@ Subjects AI mental health service providers to the same disciplinary actions and
 
 ---
 
-DOC_ID: 811
+doc_812
 Establishes the position of Artificial Intelligence Officer to develop and update procedures regulating automated systems used by state agencies for critical decisions.
 
 Mandates state agencies to comply with these procedures and submit inventories of their automated systems, which will be published online.
@@ -21,7 +156,7 @@ Subjects officers and the board to open public records laws while protecting tra
 
 ---
 
-DOC_ID: 812
+doc_813
 Amends the election law to mandate disclosure of synthetic media in political communications.
 
 Requires disclosure for printed or digital political communications to state: "This political communication was created with the assistance of artificial intelligence."
@@ -34,7 +169,7 @@ Sets the effective date of this act to January 1, 2024.
 
 ---
 
-DOC_ID: 813
+doc_814
 Regulate generative AI models, such as ChatGPT, to protect public safety, privacy, and intellectual property rights.
 
 Define "large-scale generative artificial intelligence model" as those with at least one billion parameters.
@@ -57,7 +192,7 @@ Authorize the attorney general to adopt regulations and enforce compliance, incl
 
 ---
 
-DOC_ID: 814
+doc_815
 Establishes a commission within the executive office of technology services and security to study and make recommendations on the use of automated decision systems (ADS) by the Commonwealth of Massachusetts.
 
 Requires the commission to survey all uses of ADS by Massachusetts offices, including procurement, evaluation, training, validation, transparency, and accountability.
@@ -72,7 +207,7 @@ Requires the commission to submit an annual report detailing activities, finding
 
 ---
 
-DOC_ID: 815
+doc_816
 Amends the state finance law to require state units to purchase only products or services containing algorithmic decision systems adhering to responsible artificial intelligence standards.
 
 Mandates the avoidance of harm, including minimizing risks of physical or mental injury, unjustified information deletion or disclosure, and unwarranted damage to property, reputation, or the environment.
@@ -87,14 +222,14 @@ Require the commissioner of taxation and finance to adopt regulations to impleme
 
 ---
 
-DOC_ID: 816
+doc_817
 Exclude productions using AI that displace employees from being considered a "qualified film" for the Empire State Film Production Credit.
 
 Carves out an exception to the above for films covered by current collective bargaining agreements that allow for AI to displace employees.
 
 ---
 
-DOC_ID: 817
+doc_818
 Prioritizes AI systems that benefit individuals, society, and the environment throughout their lifecycle.
 
 Requires AI systems to respect human rights, diversity, and individual autonomy, promoting an equitable society.
@@ -113,7 +248,7 @@ Holds relevant parties accountable for AI outcomes, requiring identifiable respo
 
 ---
 
-DOC_ID: 818
+doc_819
 Mandates the Federal Government to maintain U.S. leadership in AI through a coordinated strategy known as the American AI Initiative.
 
 Requires agencies to pursue strategic guidelines to prioritize AI R&D, enhance data accessibility, and reduce barriers for AI deployment, ensuring protection of civil liberties and privacy.
@@ -128,7 +263,7 @@ Develops an action plan to protect U.S. advantages in AI technology against stra
 
 ---
 
-DOC_ID: 819
+doc_820
 Mandates the federal government to mitigate misuse risks of synthetic nucleic acids by establishing a procurement screening framework.
 
 Requires synthetic nucleic acid providers and equipment manufacturers to implement comprehensive screening measures for sequences of concern (SOCs) and verify customer legitimacy.

@@ -1,0 +1,344 @@
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "appropriate congressional committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Foreign Service",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "deep textual analysis",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_002",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "annual report to Congress",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Xinjiang Uyghur Autonomous Region of China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_003",
+    "entities": [
+      {
+        "pattern": "Commission on the Future of the Navy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "legislative branch",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Navy's Shipyard Infrastructure Optimization Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "ship depot maintenance program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "unclassified report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "congressional armed services committees",
+        "label": "ORGANIZATION"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_004",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "user adoption metrics",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "AI and emerging technology software products",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "head of an element of the intelligence community",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_005",
+    "entities": [
+      {
+        "pattern": "heads of the elements of the intelligence community",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "code-free artificial intelligence enablement tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "official of each element of the intelligence community",
+        "label": "ROLE"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_006",
+    "entities": [
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Bureau of Global Talent Management",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "appropriate congressional committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data science",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Recruitment Language Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "language incentive pay",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "computer programming languages",
+        "label": "TECHNOLOGY"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_007",
+    "entities": [
+      {
+        "pattern": "information technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "software systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "intelligence community personnel",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "training programs",
+        "label": "TRAINING_STAGE"
+      },
+      {
+        "pattern": "evaluations",
+        "label": "TESTING_STAGE"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_008",
+    "entities": [
+      {
+        "pattern": "appropriate committees of Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "legacy semiconductor",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "semiconductors",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cloud computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomous vehicles",
+        "label": "TRANSPORTATION"
+      },
+      {
+        "pattern": "leading edge process nodes",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "electronic design automation technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "semiconductor manufacturing equipment",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "market share",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "Chinese workforce",
+        "label": "STAKEHOLDER"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_009",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "intelligence heads",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI-related policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Office of the Director of National Intelligence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Intelligence Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "artificial intelligence capabilities",
+        "label": "TECHNOLOGY"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_010",
+    "entities": [
+      {
+        "pattern": "AI-related research and development activities",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "AI workforce",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "education and training",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "roles, responsibilities, and authorities",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "contracts",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "compliance assessments",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "foreign adversaries",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      }
+    ]
+  }
+]

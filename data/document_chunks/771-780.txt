@@ -1,9 +1,144 @@
-DOC_ID: 770
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_771
 Amends the Food, Agriculture, Conservation, and Trade Act of 1990 to allow research and extension grants to be made for developing and evaluating agricultural applications of AI, with an emphasis on the use of AI to improve specialty crop production.
 
 ---
 
-DOC_ID: 771
+doc_772
 Establishes a 30% tax credit for investments in innovative agricultural technology projects.
 
 Defines qualified property to include tangible personal property, software, and computer systems used in such projects.
@@ -20,7 +155,7 @@ Applies the amendments to property construction beginning after January 1, 2023.
 
 ---
 
-DOC_ID: 772
+doc_773
 Prohibits the Department of State from entering, renewing, or extending a contract to contractors that, in the past year, have consulted for foreign entities that pose national security or foreign policy concerns, including any entity under China’s control engaged in national security industries, such as producing AI-related products and services. 
 
 Requires companies seeking to provide consulting services for the Department of State to disclose any conflict of interest with foreign entities above, or they may face a debarment of up to five years.
@@ -29,7 +164,7 @@ Requires the Secretary of the Department of State to issue procurement policies 
 
 ---
 
-DOC_ID: 773
+doc_774
 Amends the Defense Production Act to add Title VIII, focusing on protecting sectors like AI.
 
 Defines "covered activities" involving U.S. persons and foreign entities in countries of concern, including AI-related investments and collaborations.
@@ -52,14 +187,14 @@ Provides for national interest waivers, requiring notification to Congress.
 
 ---
 
-DOC_ID: 774
+doc_775
 Requires the Administrator of the Federal Aviation Administration to adopt a performance and risk-based approach when reviewing requests for certificates of waiver under Section 107 of Title 14, Code of Federal Regulations, which establishes rules for the operation of small unmanned aircraft systems (sUAS) for commercial purposes. 
 
 Requires the Administrator to use big data analytics and machine learning to conduct the performance and risk-based approach and refrain from using open-ended descriptive prompts in the waiver application.
 
 ---
 
-DOC_ID: 775
+doc_776
 Authorizes the Secretary of Labor to award competitive grants to support projects addressing the training needs of workers likely to be displaced by automation.
 
 Prioritizes grants for partnerships in areas with high concentrations of affected populations or industries susceptible to automation.
@@ -76,7 +211,7 @@ Ensures grant usage aligns with labor standards and nondiscrimination provisions
 
 ---
 
-DOC_ID: 776
+doc_777
 Requires platforms to make available public repositories of highly disseminated content and major public accounts, including content samples and metadata.
 
 Obligates platforms to disclose advertising information, including ad content, targeting parameters, and dissemination metrics, while protecting user privacy.
@@ -89,7 +224,7 @@ Demands transparency in content moderation, with statistics on policy violations
 
 ---
 
-DOC_ID: 777
+doc_778
 Amends the Homeland Security Act of 2002 to establish the "PIVOTT Program" for expanding cybersecurity education and training.
 
 Requires CISA to partner with community colleges and technical schools to offer programs and internships aiming to build a skills-based cyber workforce.
@@ -110,7 +245,7 @@ Outlines enrollment targets and requires reporting on program enrollment and CIS
 
 ---
 
-DOC_ID: 778
+doc_779
 Mandates the use of electronic monitoring and other technologies in fisheries data collection, allowing vessels to avoid carrying observers if conditions are unsafe.
 
 Requires the Secretary to integrate electronic monitoring and reporting technologies into fishery information collection programs and review these systems every five years.
@@ -127,7 +262,7 @@ Allows Councils to independently develop electronic technologies for data collec
 
 ---
 
-DOC_ID: 779
+doc_780
 Amends the Workforce Innovation and Opportunity Act to require states to use data for analyses and ongoing evaluations of programs.
 
 Allows states to use machine learning or other advanced analytics to enhance program operations, outcomes, and identify areas needing further evaluation.

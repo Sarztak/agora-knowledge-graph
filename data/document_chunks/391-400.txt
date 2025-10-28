@@ -1,4 +1,139 @@
-DOC_ID: 390
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_391
 Defines "smart manufacturing" as advanced technologies in artificial intelligence, computation, and modeling that streamline manufacturing production lines.
 
 Directs the Secretary of Energy the conduct a study on how to increase access to the computing facilities of the National Laboratories for small and medium manufacturers.
@@ -11,14 +146,14 @@ Requires the Secretary to submit an annual report to Congress about the status o
 
 ---
 
-DOC_ID: 391
+doc_392
 Amends previous legislation that directs the Secretary of Transportation to make grants to establish university transportation centers at eligible nonprofit institutions of high education. 
 
 Modifies previously established objectives of the university transportation centers program to include research on the cybersecurity implications of autonomous vehicles, as well as of any other technologies relating to connected vehicles and connected infrastructure. 
 
 ---
 
-DOC_ID: 392
+doc_393
 Directs the Secretary of Transportation to establish an emerging technology research pilot program that will:
 
 Authorizes research and development activities related to using advanced and additive manufacturing technologies to support the integrity and cost-effectiveness of surface transportation infrastructure
@@ -29,7 +164,7 @@ Authorized to be appropriated $5,000,000 to carry this out for fiscal years 2022
 
 ---
 
-DOC_ID: 393
+doc_394
 Instructs the Secretary of Energy to carry out a program of research, development, and demonstration of microelectronics, including leveraging artificial intelligence to enhance microelectronics applications. Appropriates $75M-$100M for the microelectronics research program for each fiscal year from 2023 to 2027.
 
 Instructs the Director of the Office of Science to establish 4 Microelectronic Science Research Centers, whose missions include advancing knowledge and experimental capabilities in AI and other computational and theoretical methods.
@@ -38,7 +173,7 @@ Promotes coordination of microelectronic research and development across DOE eff
 
 ---
 
-DOC_ID: 394
+doc_395
 Directs the Director of National Intelligence to assess export controls and other technology transfer measures by partner countries on artificial intelligence enabled technologies critical to US supply chains.
 
 Mandates the Director to identify opportunities for cooperation with partner countries to address technology transfer threats.
@@ -47,7 +182,7 @@ Instructs the Director to investigate the effect of computing power trends on gl
 
 ---
 
-DOC_ID: 395
+doc_396
 Instructs the Secretary of the Advanced Computing Program to maintain foundational research programs in mathematical and computational sciences, including new and emerging computing needs within the mission of the Department like novel approaches to modelling and simulation, artificial intelligence, and machine learning.
 
 Instructs the Secretary to issue and ensure adherence to guidance for the Department, the National Laboratories, and users. This guidance pertains to how high-performance computing systems, including machine learning algorithms for data analysis and artificial intelligence, should be employed. 
@@ -73,7 +208,7 @@ Necessitates research and testing to improve the accuracy, efficacy, and bias of
 
 ---
 
-DOC_ID: 396
+doc_397
 Directs the Secretary of Energy to support the development of new and emerging technologies to increase the resilience of electrical grid design, planning, and operation.
 
 Mandates the Secretary to bolster the usage of computational tools and technologies in improving the sensing, monitoring, and visualization of the electric grid; models must be able to predict the effects of adverse physical and cyber events on the electric grid.
@@ -82,14 +217,14 @@ Instructs the Secretary to research the potential deployment of new and emerging
 
 ---
 
-DOC_ID: 397
+doc_398
 Defines digital climate solutions as those that use artificial intelligence, blockchain technologies, and the Internet of Things. 
 
 Directs the Secretary of Energy to create a report that contains a full inventory of digital climate solutions, an analysis of how the private sector can use the digital climate solutions, and a summary of opportunities to enhance the standardization of regulatory climate protocols.
 
 ---
 
-DOC_ID: 398
+doc_399
 Establishes an AI advisory committee in Hawaii to investigate how to implement, develop, and regulate AI in the state; the committee will be composed of government, academic, and industry stakeholders.
 
 Requires the committee to evaluate and make recommendations on AI applications in other governments, competitive advantages to be gained by integrating AI into Hawaii’s economy, methods for encouraging AI R&D in universities and private sector, the potential danger of integrating AI into state operations, and potential regulatory systems for AI. 
@@ -98,7 +233,7 @@ Requires the committee to submit a report of findings and proposed legislation t
 
 ---
 
-DOC_ID: 399
+doc_400
 Requires manufacturers of photoplethysmograph analysis software to conduct clinical performance testing that reveals the performance characteristics of the detection algorithms under anticipated use cases.
 
 Requires manufactures to perform verification, validation, and hazard analysis of the software, as well as divulge the software's technical specs including the detection algorithm and its inputs and outputs.

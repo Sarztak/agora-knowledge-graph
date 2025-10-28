@@ -1,4 +1,139 @@
-DOC_ID: 860
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_861
 Defines an automated decision tool as any tool that uses artificial intelligence to make consequential decisions relating to employment, education, housing, utilities, healthcare and family planning, financial services, criminal justice, legal services, voting, or government benefits.
 
 Bans the use of automated decision tools in ways that result in algorithmic discrimination on the basis of classes protected by state law. 
@@ -19,14 +154,14 @@ Exempts entities with fewer than 25 employees using automated decision tools tha
 
 ---
 
-DOC_ID: 861
+doc_862
 Outlines six general principles to guide ethical AI development in China, i.e. enhancing human well-being, fairness and justice, privacy and security, controllability, accountability, and improving ethical literacy.
 
 Outlines 18 specific ethical requirements for AI development, which fall under categories of management and governance, R&D, supply, and usage.
 
 ---
 
-DOC_ID: 862
+doc_863
 Establishes a U.S.-EU Joint Roadmap to advance trustworthy AI and risk management, promoting shared democratic values and human rights.
 
 Encourages risk-based approaches, aligning EU and U.S. methodologies, including the EU AI Act and the U.S. AI Bill of Rights.
@@ -45,7 +180,7 @@ Establishes expert working groups and consultation plans to advance short-term a
 
 ---
 
-DOC_ID: 863
+doc_864
 Launch AI security standardization work by coordinating a system of AI security standards, focusing on foundational and application-specific research.
 
 Accelerate development of AI security standards in key areas, driven by urgent needs and safety incidents, to address security risks and ethical issues.
@@ -62,7 +197,7 @@ Improve AI security supervision by developing an index evaluation system, enhanc
 
 ---
 
-DOC_ID: 864
+doc_865
 Mandates the regulation of AI development and use activities within and outside China if they affect Chinese national interests.
 
 Establishes principles of ethics, fairness, transparency, safety, and accountability in AI development and use.
@@ -79,7 +214,7 @@ Promotes international cooperation in AI governance and allows for countermeasur
 
 ---
 
-DOC_ID: 865
+doc_866
 Classifies AI systems into unacceptable, high, limited, and minimal risk categories, defining specific regulatory requirements for each category. Requires strict monitoring and quality management for high-risk systems. 
 
 Establishes transparency and cooperation requirements for general-purpose AI models. Imposes additional risk management and evaluation obligations for general-purpose models with systemic risks.
@@ -92,7 +227,7 @@ Establishes the European Commission’s AI Office to lead implementation efforts
 
 ---
 
-DOC_ID: 866
+doc_867
 Establishes Department of Defense policy on the development and use of autonomous and semi-autonomous weapons systems, including armed platforms that are remotely operated or operated by onboard personnel. Those policies include:
 
 Requires  testing and evaluation requirements that must be met before a weapons system is deployed, including testing designed to ensure that weapons systems operate as intended even when subject to actions from adversaries. Outlines requirements that humans be able to intervene should weapons systems begin to operate in unintended ways. Establishes guidelines for the use of autonomous weapons systems designed to mitigate the probability and consequences of weapons systems acting in unintended ways.
@@ -101,7 +236,7 @@ Requires  testing and evaluation requirements that must be met before a weapons 
 
 ---
 
-DOC_ID: 867
+doc_868
 Establishes legal framework for the use and governance of generative AI services in mainland China, promoting innovation while ensuring security and compliance with national values.
 
 Applies to public generative AI services generating text, images, audio, video, but excludes non-public research and development.
@@ -122,7 +257,7 @@ Takes effect on August 15, 2023, with provisions for foreign investment complian
 
 ---
 
-DOC_ID: 868
+doc_869
 Calls on countries to enhance information exchange and technological cooperation for AI governance, focusing on security, reliability, and equity.
 
 Opposes using AI for manipulating public opinion, spreading disinformation, or interfering in other nations' affairs.
@@ -147,7 +282,7 @@ Supports UN discussions for an international AI governing institution.
 
 ---
 
-DOC_ID: 869
+doc_870
 Establishes the European Artificial Intelligence Office within the Directorate-General for Communication Networks, Content and Technology to oversee AI advancements and enforce the forthcoming Regulation on AI.
 
 Mandates the Office to develop tools and methodologies for evaluating general-purpose AI models, monitor AI market evolution, and investigate potential regulation infringements.

@@ -1,4 +1,139 @@
-DOC_ID: 570
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_571
 Amends Section 406 of the Weather Research and Forecasting Innovation Act of 2017 to enhance communication about hazardous weather or water events.
 
 Requires the Under Secretary to maintain and improve NOAA's system for communicating risks of hazardous weather or water events to the public.
@@ -19,7 +154,7 @@ Establishes best practices for timely and consistent communications across publi
 
 ---
 
-DOC_ID: 571
+doc_572
 Amends the Weather Research and Forecasting Innovation Act to mandate collaboration between the Under Secretary and the Secretary of Energy in leveraging high-performance computing and AI for advanced weather forecasting.
 
 Requires a competitive, merit-reviewed process for initiative applications, including Federal agencies, National Laboratories, and higher education institutions.
@@ -38,7 +173,7 @@ Requires a report to Congress evaluating the initiative’s effectiveness and fu
 
 ---
 
-DOC_ID: 572
+doc_573
 Amends the National Integrated Drought Information System Act of 2006 to advance and deploy next-generation technologies related to drought, including artificial intelligence, machine learning, and cloud technologies.
 
 Requires incorporation of flash drought research and tools to enhance timely response.
@@ -53,7 +188,7 @@ Authorizes appropriations increasing annually from $15,000,000 in fiscal year 20
 
 ---
 
-DOC_ID: 573
+doc_574
 Mandates the National Science Foundation (NSF) to support research and STEM education in advanced air mobility and unmanned aircraft systems.
 
 Supports fundamental research on technologies including AI, safety, autonomous control, materials, and communications systems.
@@ -74,7 +209,7 @@ Authorizes appropriations increasing from $50 million in 2024 to nearly $61 mill
 
 ---
 
-DOC_ID: 574
+doc_575
 Requires providers of covered internet platforms that use opaque algorithms to notify users about their use and provide detailed information about their operation, including their features, user-specific data collection, and algorithmic inputs in an easily accessible form.
 
 Mandates platforms to offer an easily accessible input-transparent algorithm alternative and prohibits discrimination, via methods like differential pricing, against users who choose the alternative.
@@ -85,7 +220,7 @@ Exempts small downstream providers and non-profit organizations from certain enf
 
 ---
 
-DOC_ID: 575
+doc_576
 Prohibits the Secretary of Commerce from exporting any national security sensitive technology or intellectual property to the People's Republic of China.
 
 Defines "intellectual property" to include patents, copyrights, trademarks, or trade secrets.
@@ -96,7 +231,7 @@ Includes in "technology" goods or services related to information systems, inter
 
 ---
 
-DOC_ID: 576
+doc_577
 Establishes an Office of Manufacturing Security and Resilience within the Department of Commerce to oversee the Manufacturing Security and Resilience Program.
 
 Mandates the Under Secretary to develop and implement a strategy to strengthen supply chains for critical goods, reducing reliance on concentrated supply chains, particularly from countries of concern.
@@ -113,7 +248,7 @@ Allocates $35 billion for fiscal years 2024-2028 to fund the program, with speci
 
 ---
 
-DOC_ID: 577
+doc_578
 Grants Independent Music Creator Owners immunity from antitrust liability for collectively negotiating music licensing terms with Dominant Online Music Distribution Platforms or companies using generative AI.
 
 Defines "Dominant Online Music Distribution Platform" as entities with over $100 million in annual music-related revenue and specifies exclusions.
@@ -128,7 +263,7 @@ Stipulates that the Act does not modify, impair, or supersede existing antitrust
 
 ---
 
-DOC_ID: 578
+doc_579
 Requires the Director of National Intelligence, in consultation with the Secretary of Defense, to identify Chinese institutions of higher education supporting the People's Liberation Army and Military-Civil Fusion strategy.
 
 Mandates submission of an annual list of these identified entities to Congress.
@@ -149,7 +284,7 @@ Lowers the reporting threshold for foreign gifts to institutions of higher educa
 
 ---
 
-DOC_ID: 579
+doc_580
 Mandates the Secretary of State, in coordination with the Secretaries of Defense, Commerce, and Energy, to report on the Department of State's implementation of the AUKUS partnership within 90 days of enactment.
 
 Requires the report to detail Australia's progress on various submarine-related goals, including infrastructure, workforce training, and basing support.

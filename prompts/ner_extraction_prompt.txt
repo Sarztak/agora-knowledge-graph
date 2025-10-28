@@ -1,0 +1,159 @@
+You are an expert entity extraction system specializing in AI governance and policy analysis. Your task is to extract and categorize entities from AI governance documents using a predefined taxonomy.
+
+YOUR TASK
+Read the provided document text and extract ALL relevant entities. For each entity, identify the exact text span and assign ONE most appropriate category tag.
+
+TAXONOMY CATEGORIES
+
+CORE ENTITIES
+- ORGANIZATION: Agencies, companies, bodies, institutions
+- ROLE: People, positions, officers, officials
+- LAW: Formal legislation, acts, statutes
+- POLICY: Guidelines, frameworks, executive orders
+- STANDARD: Technical standards, protocols
+- REQUIREMENT: Specific obligations, mandates
+- PROGRAM: Initiatives, projects, pilot programs
+- TECHNOLOGY: Systems, platforms, tools, models
+- DOCUMENT: Reports, records, assessments, inventories
+- GEOGRAPHIC: Locations, jurisdictions, regions
+
+AI GOVERNANCE CONCEPTS
+- PRIVACY: Data protection, confidentiality, personal information
+- FAIRNESS: Non-discrimination, equity, bias mitigation
+- TRANSPARENCY: Explainability, disclosure, interpretability
+- SAFETY: Reliability, security, robustness
+- ACCOUNTABILITY: Responsibility, oversight, governance
+- HUMAN_RIGHTS: Fundamental rights protection, civil liberties
+
+DOMAINS
+- HEALTHCARE: Medical, health applications, clinical tools
+- FINANCE: Banking, financial services, insurance
+- EDUCATION: Learning, educational tools, training
+- TRANSPORTATION: Autonomous vehicles, logistics, aviation
+- JUSTICE: Legal, criminal justice systems, law enforcement
+- EMPLOYMENT: Hiring, workplace AI, labor
+- GOVERNMENT: Public sector applications, civic services
+- MILITARY: Defense, national security, intelligence
+- CONSUMER: Consumer-facing applications, retail
+
+RISKS & HARMS
+- DISCRIMINATION_HARM: Bias, unfair treatment, algorithmic discrimination
+- PRIVACY_HARM: Data breaches, surveillance, unauthorized access
+- SAFETY_HARM: Physical injury, system failures, accidents
+- ECONOMIC_HARM: Job loss, financial damage, market disruption
+- SECURITY_HARM: Cyber attacks, weaponization, vulnerabilities
+- SOCIAL_HARM: Polarization, misinformation, manipulation
+- AUTONOMY_HARM: Loss of human control, coercion
+
+AI LIFECYCLE
+- RESEARCH_STAGE: Basic research, development, ideation
+- TRAINING_STAGE: Model training, data collection, fine-tuning
+- TESTING_STAGE: Validation, evaluation, auditing
+- DEPLOYMENT_STAGE: Implementation, launch, operationalization
+- MONITORING_STAGE: Ongoing oversight, auditing, tracking
+- DECOMMISSION_STAGE: Retirement, sunsetting, phase-out
+
+AI-SPECIFIC RISKS
+- ALIGNMENT_RISK: Goal misalignment, value drift
+- EMERGENCE_RISK: Unexpected capabilities, emergent behaviors
+- MISUSE_RISK: Malicious use cases, dual-use concerns
+- STRUCTURAL_RISK: Systemic impacts, cascading failures
+
+AI CAPABILITY LEVELS
+- FRONTIER_AI: Highly capable, cutting-edge systems
+- GENERAL_PURPOSE_AI: Broad capability systems, foundation models
+- NARROW_AI: Domain-specific applications, specialized systems
+- EMERGENT_CAPABILITY: Unexpected abilities, novel behaviors
+
+DATA TYPES
+- TRAINING_DATA: Data used for model training
+- PERSONAL_DATA: Individual identifiable information
+- SENSITIVE_DATA: Protected category data (race, health, etc.)
+- PUBLIC_DATA: Openly available data
+- SYNTHETIC_DATA: AI-generated data
+
+STAKEHOLDER GROUPS
+- STAKEHOLDER: Affected groups, communities, civil society, developers, users
+
+IMPLEMENTATION & ENFORCEMENT
+- MECHANISM: Implementation tools, processes, enforcement methods
+- BENCHMARK: Metrics, measurements, impact estimates
+- PENALTY: Fines, sanctions, civil penalties, criminal penalties, remedies
+
+OUTPUT FORMAT
+
+Provide output as a single JSON array in spaCy EntityRuler format:
+
+[
+  {
+    "document_id": "1",
+    "entities": [
+      {
+        "text": "exact text span from document",
+        "label": "CATEGORY"
+      }
+    ]
+  }
+]
+
+EXTRACTION RULES
+
+1. ONE LABEL PER ENTITY: Each entity gets exactly one category tag
+2. CHOOSE THE MOST SPECIFIC LABEL: If an entity could fit multiple categories, choose the most specific one
+3. EXTRACT COMPLETE PHRASES: Get full noun phrases (e.g., "Department of Defense" not just "Department")
+4. NO OVERLAPPING ENTITIES: Don't extract overlapping text spans
+5. EXACT TEXT MATCHING: Extract text exactly as it appears in the document
+
+PRIORITIZATION RULES FOR AMBIGUOUS CASES
+
+When an entity could fit multiple categories, use this priority order:
+1. Specific domains (HEALTHCARE, FINANCE, etc.) over general concepts
+2. Specific risks (DISCRIMINATION_HARM, etc.) over general concepts
+3. Specific lifecycle stages over general MECHANISM
+4. ORGANIZATION/ROLE over general STAKEHOLDER
+5. Specific AI capability levels over general TECHNOLOGY
+
+EXAMPLE
+
+Input Text: "The Secretary of Health and Human Services must ensure AI systems used in healthcare do not produce discriminatory outcomes. Developers must conduct bias audits before deployment, with civil penalties up to $100,000 for non-compliance."
+
+Output:
+[
+  {
+    "document_id": "example_1",
+    "entities": [
+      {
+        "text": "Secretary of Health and Human Services",
+        "label": "ROLE"
+      },
+      {
+        "text": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "text": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "text": "discriminatory outcomes",
+        "label": "DISCRIMINATION_HARM"
+      },
+      {
+        "text": "bias audits",
+        "label": "MECHANISM"
+      },
+      {
+        "text": "deployment",
+        "label": "DEPLOYMENT_STAGE"
+      },
+      {
+        "text": "civil penalties up to $100,000",
+        "label": "PENALTY"
+      }
+    ]
+  }
+]
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+[INSERT DOCUMENT TEXT HERE]

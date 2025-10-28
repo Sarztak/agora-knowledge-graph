@@ -1,4 +1,139 @@
-DOC_ID: 290
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_291
 Requires each Department of Defense service acquisition executive to submit to the Secretary of Defense, the Under Secretary of Defense for Acquisition and Sustainment, the Under Secretary of Defense for Research and Engineering, and the Chief Information Officer a report on how they are assessing, mitigating, and reporting risks in acquisition programs.
 
 Requires the reports described above to cover, among other risk categories, technical risks in engineering, software, manufacturing and testing; integration and interoperability risks posed by changes to Department systems created by artificial intelligence; and supply chain risks, including those related to cybersecurity and the defense industrial base's potential inability to produce technology and systems as needed.
@@ -7,7 +142,7 @@ Requires the Under Secretary of Defense for Acquisition and Sustainment to submi
 
 ---
 
-DOC_ID: 291
+doc_292
 Instructs the Secretary of Defense to execute a pilot program that offers online courses related to advanced technologies for civilian employees of the Department of Defense and members of the Armed Forces.
 
 Requires the Secretary to develop procedures to document course completion, incentivize course completion, and evaluate course quality and effectiveness.
@@ -16,7 +151,7 @@ Requires the Secretary to carry out the program within a year after enactment, a
 
 ---
 
-DOC_ID: 292
+doc_293
 Instructs the Secretary of Defense to establish a program to offer Defense science and technology employment opportunities to selected faculty and students of higher education institutions to carry out research projects. 
 
 Specifies that no fewer than five positions must be given to faculty who conduct research in artificial intelligence and machine learning.
@@ -25,7 +160,7 @@ Requires the Secretary to carry out the program within 180 days of enactment and
 
 ---
 
-DOC_ID: 293
+doc_294
 Instructs the Secretary of the Navy, in coordination with the Secretary of the department in which the Coast Guard is operating and with the Secretary of Commerce, to assess the available commercial solutions relating to illegal maritime activities.
 
 Requires the assessment to build on the ongoing Coast Guard assessment related to autonomous vehicles, and to consider other appropriate commercially and available technological solutions.
@@ -34,7 +169,7 @@ Requires the Secretary of the Navy to submit the report to the specified congres
 
 ---
 
-DOC_ID: 294
+doc_295
 Instructs the Secretary of Defense to transfer all the responsibilities of the Commander of the US Strategic Command that are germane to electromagnetic spectrum operations (EMSO).
 
 Instructs the Secretary to develop a transfer plan with consideration of all appropriate entities, while considering whether the receiving electromagnetic spectrum operations organization should have a unitary structure or hybrid structure.
@@ -47,7 +182,7 @@ Requires an evaluation and assessment of the need for automated and machine lear
 
 ---
 
-DOC_ID: 295
+doc_296
 Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies.
 
 Identifies potential areas of study, including examining previous PRC practices in international standards setting organizations to predict future international standardization engagement in critical technologies like artificial intelligence and quantum information science. 
@@ -56,7 +191,7 @@ Requires the entity conducting the study to submit a report on its findings to t
 
 ---
 
-DOC_ID: 296
+doc_297
 Instructs the Secretary and Secretary of Education to create and support grants to fund STEM education programs for students specifically in the Junior Reserve Corps. 
 Instructs different departments of the government, such as the National Science foundation, as well as local governments to carry out programs that are supported by said grants.
 Outlines what activities are allowed under the grants, and what specific area of studies and subjects that they would work under. 
@@ -66,7 +201,7 @@ Allows for the Secretary of Defense to determine which additional subjects and a
 
 ---
 
-DOC_ID: 297
+doc_298
 
 
 
@@ -83,14 +218,14 @@ Requires the Comptroller General of the United States to submit a report to the 
 
 ---
 
-DOC_ID: 298
+doc_299
 Requires the Secretary of the Treasury to periodically convene a global anti-money laundering and financial crime symposium -- attended by domestic and international financial regulators, senior executives from regulated firms, technology providers, representatives from law enforcement and national security agencies, and experts -- focused on how new technology can be used to more effectively combat financial crimes and other illicit activities.
 
 Requires the Director of the Financial Crimes Enforcement Network -- a bureau of the Treasury Department -- to brief the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives on the current and potential future use of artificial intelligence and other emerging technologies in its work, along with policy recommendations for enhancing the efficacy of utilizing such technologies in combating financial crimes.
 
 ---
 
-DOC_ID: 299
+doc_300
 Instructs the Secretary of the Department of Homeland Security to submit annually, for a period of 5 years, a report to Congress on the state of digital content forgery technology. 
 
 Requires the report to include an assessment of the underlying technologies used to create or propagate digital content forgeries, including the evolution of such technologies and patterns of dissemination of such technologies. 

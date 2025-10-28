@@ -1,4 +1,139 @@
-DOC_ID: 710
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_711
 Amends the Communications Act of 1934 to extend E-rate support to local parks, allowing them to access discounted telecommunications services for technology training programs.
 
 Requires the creation of internet safety regulations for parks receiving such services to ensure cybersecurity standards similar to those for schools and libraries.
@@ -9,7 +144,7 @@ Limits grant coverage to 10% of the training programs' operating costs and to a 
 
 ---
 
-DOC_ID: 711
+doc_712
 Prohibits developers and deployers from using AI to intentionally deceive or defraud individuals of their voting rights in federal, state, or local elections.
 
 Requires election-related AI-generated content to include disclaimers, informing the public that the content was created using AI.
@@ -22,7 +157,7 @@ Obliges developers and deployers to ensure their algorithms meet safety and effi
 
 ---
 
-DOC_ID: 712
+doc_713
 Requires the Administrator of the Office of Electronic Government of the Office of Management and Budget, in consultation with various federal actors, to research a technology-based solution to reform the classification system employed by the federal government.
 
 Requires a submission of recommendations to the President.
@@ -31,7 +166,7 @@ Mandates the President to submit a report on technology-based solutions to Congr
 
 ---
 
-DOC_ID: 713
+doc_714
 Amends the National Institute of Standards and Technology Act to mandate the development and dissemination of AI resources for small businesses.
 
 Requires these resources to include technical standards, best practices, benchmarks, methodologies, and case studies, ensuring they are widely applicable and technology-neutral.
@@ -46,7 +181,7 @@ Compels a report to Congress within four years, detailing resources, feedback, a
 
 ---
 
-DOC_ID: 714
+doc_715
 Establishes the Chief Artificial Intelligence Officers Council to promote AI innovation, oversee compliance, and advise on best practices for AI technologies.
 
 Requires each agency to designate a Chief Artificial Intelligence Officer responsible for promoting AI use, managing risks, and ensuring transparency and privacy.
@@ -61,7 +196,7 @@ Directs the Office of Management and Budget Director to issue updated AI governa
 
 ---
 
-DOC_ID: 715
+doc_716
 Amends the Research and Development, Competition, and Innovation Act to include best practices and technical standards for managing risks in engineering biology and biomanufacturing, specifically addressing artificial intelligence.
 
 Requires the Director, in consultation with Federal agencies, to conduct measurement research supporting biosecurity measures related to nucleic acid synthesis.
@@ -78,7 +213,7 @@ Authorizes $5,000,000 annually for fiscal years 2025 through 2029 for scientific
 
 ---
 
-DOC_ID: 716
+doc_717
 Directs the Secretary of Commerce to develop a national strategy and and conduct a public service campaign to enhance artificial intelligence consumer literacy.
 
 Requires the strategy to promote understanding of AI capabilities and limitations, and support informed decisions on AI use.
@@ -95,7 +230,7 @@ Authorizes necessary appropriations for fiscal years 2025 through 2034 to implem
 
 ---
 
-DOC_ID: 717
+doc_718
 Mandates the Secretary of Defense to submit a strategy to Congress within 180 days to enhance cooperation with Middle Eastern allies using partner-sharing network capabilities for joint defense.
 
 Requires the strategy to include a summary of ongoing efforts, challenges, and recommended actions for implementing joint partner-sharing networks.
@@ -108,7 +243,7 @@ Obligates the Secretary of Defense to report progress on the forum's establishme
 
 ---
 
-DOC_ID: 718
+doc_719
 Amends the Federal Election Campaign Act to require disclaimers on political advertisements containing content generated by AI.
 
 Outlines requirements for clear disclosure in ads using AI-generated images, audio, or video, specifying format requirements for visibility and audibility.
@@ -121,7 +256,7 @@ Requires the FEC to report biannually on compliance and enforcement, providing r
 
 ---
 
-DOC_ID: 719
+doc_720
 Mandates the Secretary of Energy to evaluate the U.S. nuclear supply chain within 270 days, including past efforts, future needs, and lessons from projects like Vogtle 3 and 4.
 
 Analyzes regulatory challenges, including the necessity of N-stamps for nuclear components, cost implications, and potential certification streamlining.

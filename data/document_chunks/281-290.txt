@@ -1,4 +1,139 @@
-DOC_ID: 280
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_281
 Requires the Department of Administrative Services to establish a public inventory of state agencies' existing use of AI systems; this inventory should include whether the system was employed to independently make or inform decisions, and whether it undergone an impact assessment before implementation
 
 Requires the Office of Policy and Management to develop policies to govern state agencies' procurement and use of AI systems; this includes requiring state agencies to conduct impact assessments for these systems and to ensure systems do not unlawfully discriminate against individuals or groups
@@ -11,7 +146,7 @@ Establishes a working group comprising industry representatives and academics to
 
 ---
 
-DOC_ID: 281
+doc_282
 Requires the California Department of Technology, in coordination with other agencies, to analyze the benefits and risks of all high-risk automated decision systems that have been proposed for use, development, or procurement by, or are being used, developed, or procured by, state agencies. 
 
 Requires the analysis to include a description of, among other things, the categories of data and personal information the automated decision system uses to make its decisions. 
@@ -20,7 +155,7 @@ Requires the Department of Technology to submit an annual report on the above-de
 
 ---
 
-DOC_ID: 282
+doc_283
 Clarifies that content generated by artificial intelligence without significant creative contribution from a human is ineligible for U.S. copyright protection.
 
 Also clarifies that contributions made by a human to content that was created with the assistance of AI remain eligible for copyright protection.
@@ -31,19 +166,19 @@ Instructs copyright applicants on how to apply for copyright protection for cont
 
 ---
 
-DOC_ID: 283
+doc_284
 Clarifies that artificial intelligence cannot qualify as a "person" for the purpose of North Dakota state law.
 
 ---
 
-DOC_ID: 284
+doc_285
 Requires employers who use AI to analyze video interviews of applicants in Illinois to notify and receive consent from the applicant before the interview and provide information explaining how the AI system works and what characteristics it uses to evaluate applicants.
 
 Requires employers to refrain from sharing applicant videos except what’s necessary to evaluate the applicant and delete videos, including any copies shared with other actors, upon applicant request within 30 days.
 
 ---
 
-DOC_ID: 285
+doc_286
 Defines the term "technical position" as a Department of Defense position that (1) requires expertise in artificial intelligence, data science, or software development and (2) is eligible for direct hire authority under section 9905 of title 5, United States Code, or section 2358a of title 10, United States Code. 
 
 Instructs the human resources manager of each Department of Defense participating organization to identify a subset of technical positions for which electronic portfolios should be evaluated during the hiring process.
@@ -54,7 +189,7 @@ Directs the Secretary of Defense to submit a report to the congressional defense
 
 ---
 
-DOC_ID: 286
+doc_287
 Directs the Secretary of Commerce to establish national cybersecurity challenges by 2028 through building more resilient cyber systems, increasing American digital literacy, and advancing efforts to develop emerging technologies.
 
 Directs the Secretary of Commerce to coordinate with other agencies to address these challenges through competitions and soliciting funds from both government and non-government entities. 
@@ -63,7 +198,7 @@ Directs the Secretary of Commerce to designate an advisory council to seek furth
 
 ---
 
-DOC_ID: 287
+doc_288
 Use updated algorithms, data, AI tools, and algorithms to modernize infrastructure. Ways to improve infrastructure include efficiency, validation, accuracy, modeling, and monitoring. The directive aims to enhance covered agencies' capacity to meet mission requirements in congested Federal spectrum environments through the implementation of automated adjustments, the creation of a time-based mechanism for collaborative spectrum sharing among agencies, and fostering collaboration to ensure interoperability. 
 
 Within 240 days of the enactment of this Act, the Assistant Secretary of Commerce for Communications and Information is required to submit to Congress a report outlining a plan for the National Telecommunications and Information Administration (NTIA) to modernize and automate its infrastructure for managing the use of Federal spectrum by covered agencies, with the goal of improving efficiency in spectrum management in ways such as a timeline for implementation, plans for security enhancement, data model improvement, and workflow automation. 
@@ -75,7 +210,7 @@ The Comptroller General of the United States is mandated to conduct a review of 
 
 ---
 
-DOC_ID: 288
+doc_289
 Instructs the Secretary of Defense to assign roles and responsibilities relating to the research, development, testing, procurement of, requirements for, and operational use of artificial intelligence technologies to appropriate officials within the Department of Defense.
 
 Supports the incorporation of standards for artificial intelligence into the strategies and doctrine of the Department.
@@ -97,7 +232,7 @@ Permits the secretary of Defense to establish a steering committee on emerging t
 
 ---
 
-DOC_ID: 289
+doc_290
 Mandates that the Secretary of the Navy must submit a report of risk and performance to the congressional defense committees 30 days before the purchase of unmanned surface vessels or vehicles.
 
 Mandates that the Secretary cannot integrate offensive weapons systems into unmanned surface vessels or vehicles until 30 days after certifying that the vessel will comply with legal and performance requirements.

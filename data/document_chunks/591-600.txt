@@ -1,4 +1,139 @@
-DOC_ID: 590
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_591
 Requires the Secretary of Health and Human Services to seek a contract with the National Academies of Sciences, Engineering, and Medicine to conduct a study on AI-related health security vulnerabilities within 45 days of enactment.
 
 Mandates the study to assess risks posed by AI advancements, including chemical, biological, radiological, and nuclear threats.
@@ -17,7 +152,7 @@ Mandates the Secretary of HHS to submit a follow-up report on actions taken to m
 
 ---
 
-DOC_ID: 591
+doc_592
 Establishes a program to advance microelectronics research, overseen by the Director of National Intelligence through the Intelligence Advanced Research Projects Activity.
 
 Focuses research on next-generation computing models, materials, devices, architectures, and algorithms to enhance artificial intelligence and machine learning.
@@ -34,7 +169,7 @@ Mandates regular briefings to congressional intelligence committees on program p
 
 ---
 
-DOC_ID: 592
+doc_593
 Requires the Nuclear Regulatory Commission (NRC) to report to Congress within 180 days on regulatory changes made during the COVID-19 emergency, examining their impact on licensing and safety.
 
 Mandates the NRC to develop and submit a report within one year identifying specific improvements in oversight and inspection programs, emphasizing risk-informed, performance-based procedures and the use of advanced technologies, including AI and machine learning.
@@ -47,7 +182,7 @@ Obligates the NRC to identify and implement actions based on assessments and rec
 
 ---
 
-DOC_ID: 593
+doc_594
 Requires all AI-generated materials to be labeled with a watermark. 
 
 Authorizes the federal government to establish requirements and standards for watermarks.
@@ -58,7 +193,7 @@ Defines key terms including AI-generating entity, AI-generated material, and cov
 
 ---
 
-DOC_ID: 594
+doc_595
 Requires public companies and exchange-traded funds (ETFs) investing in companies with ties to the People’s Republic of China (PRC) to disclose whether senior officials of the PRC government or Communist Party of China (CPC) sit on their boards or have executive roles.
 
 Mandates disclosure of cash held in PRC operations, restrictions on cash repatriation, and details of assets, liabilities, and technology transfers.
@@ -71,14 +206,14 @@ Requires disclosure of PRC companies’ products and services, U.S. defense cont
 
 ---
 
-DOC_ID: 595
+doc_596
 Authorizes $4,000,000 annually for fiscal years 2024 through 2026 to fund a bilateral cooperative program with Israel for developing health technologies. Emphasizes advancing technology, personalized medicine, and data usage in relation to emerging infectious diseases.
 
 Includes artificial intelligence, drugs, vaccinations, respiratory assist devices, diagnostic tests, and telemedicine as eligible health technologies. Requires matching contributions from the Government of Israel to access funding. Allows funding for existing bilateral programs or the establishment of new programs in consultation with the Secretary of State under the 2008 Science and Technology Cooperation Agreement.
 
 ---
 
-DOC_ID: 596
+doc_597
 Requires the President to institute expedited policies for defense article and service requests from Australia and the United Kingdom under the AUKUS partnership.
 
 Mandates prioritization of these requests over all others, except those from Taiwan and Ukraine.
@@ -93,7 +228,7 @@ Directs the Secretary and the Secretary of Defense to update interagency policie
 
 ---
 
-DOC_ID: 597
+doc_598
 Requires disclosure at the beginning of robocalls or text messages if artificial intelligence is used to emulate a human being.
 
 Enhances penalties for robocall and telemarketing violations involving AI impersonation, doubling fines for fraudulent or harmful AI-generated calls or messages.
@@ -106,7 +241,7 @@ Directs both the FCC and Federal Trade Commission (FTC) to study and regulate AI
 
 ---
 
-DOC_ID: 598
+doc_599
 Requires the Assistant Secretary of Commerce to promote U.S. leadership in emerging technologies, including artificial intelligence (AI), and strengthen critical supply chains and national security.
 
 Mandates the establishment of a critical supply chain resiliency and crisis response program within the Department of Commerce, which includes mapping and monitoring AI supply chains.
@@ -121,7 +256,7 @@ Mandates regular reporting on the state of AI and other emerging technology supp
 
 ---
 
-DOC_ID: 599
+doc_600
 Introduces the "Promoting Digital Privacy Technologies Act."
 
 Requires the National Science Foundation to support research on privacy enhancing technologies, including de-identification, pseudonymization, and algorithms for data privacy.

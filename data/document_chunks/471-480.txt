@@ -1,4 +1,139 @@
-DOC_ID: 470
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_471
 Commit to developing AI responsibly, focusing on social benefits by evaluating potential applications for transformative impacts in various fields.
 
 Seek to avoid creating or reinforcing unfair biases, particularly concerning sensitive characteristics.
@@ -19,14 +154,14 @@ Adapt the prohibitions list as AI experience grows.
 
 ---
 
-DOC_ID: 471
+doc_472
 Directs the Interagency Commission on School Construction to report to the General Assembly by December 15, 2024.
 
 Requires the report to assess the eligibility for school construction funding for artificial intelligence weapon detection systems.
 
 ---
 
-DOC_ID: 472
+doc_473
 Amends the Department of Innovation and Technology Act by establishing the Generative AI and Natural Language Processing Task Force.
 
 Mandates the Task Force to investigate and report on generative AI and natural language processing software.
@@ -43,7 +178,7 @@ Requires the Task Force to file a report by December 31, 2024, with the Governor
 
 ---
 
-DOC_ID: 473
+doc_474
 Establishes the "New Jersey Advanced Autonomous Vehicle Task Force" to study and recommend policies for the safe integration of autonomous vehicles on state roads.
 
 Comprises 11 members, including key state officials and public experts appointed by the Governor.
@@ -60,7 +195,7 @@ Expires the act upon the report's submission.
 
 ---
 
-DOC_ID: 474
+doc_475
 Amends existing law to make it unlawful to knowingly purchase or possess visual depictions of a minor engaging in a prohibited sexual act or its simulation.
 
 Requires separate prosecution and punishment for each different minor depicted in such visual content, though multiple depictions of the same minor are treated as a single offense.
@@ -71,7 +206,7 @@ Establishes that prior convictions or deferred judgments under this law, or simi
 
 ---
 
-DOC_ID: 475
+doc_476
 Amends Article 7, Chapter 57, Title 40 of the S.C. Code by adding Section 40-57-820.
 
 Holds a licensee accountable for all work produced with the assistance of artificial intelligence, machine learning, or similar programs.
@@ -80,7 +215,7 @@ Treats violations committed through the use of these technologies as if committe
 
 ---
 
-DOC_ID: 476
+doc_477
 Increases the General Fund appropriation to the Higher Education Coordinating Commission for public university programs by $100,000.
 
 Allocates this increased funding to the University of Oregon Labor Education and Research Center.
@@ -89,7 +224,7 @@ Directs the Center to research the potential workforce impacts of automation and
 
 ---
 
-DOC_ID: 477
+doc_478
 Endeavors to create an enabling environment for human-centered AI that fosters innovation, investment, digital entrepreneurship, and adoption of AI by MSMEs.
 
 Recognizes AI's potential to promote inclusive economic growth and societal benefits, advancing sustainable and inclusive societies while empowering individuals.
@@ -104,7 +239,7 @@ Commits to international cooperation in research, policy development, and inform
 
 ---
 
-DOC_ID: 478
+doc_479
 Allocates $3.2 million to New Hanover County Schools and $2 million to Davidson County Schools for an AI School Safety Pilot Program.
 
 Requires use of funds to implement AI technology into existing school safety systems, including access controls, alerting protocols, and intercom systems.
@@ -115,7 +250,7 @@ Directs reports to include details on school participation, fund usage, impact o
 
 ---
 
-DOC_ID: 479
+doc_480
 Adds $500,000 in general funds to support the Center for Equitable Artificial Intelligence and Machine Learning Systems at Morgan State University.
 
 Prohibits the transfer of unexpended funds to any other purpose.

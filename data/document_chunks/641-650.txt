@@ -1,11 +1,146 @@
-DOC_ID: 640
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_641
 Establishes a National Commission on Online Child Sexual Exploitation Prevention. Tasks the Commission with developing recommended best practices for interactive computer service providers to prevent, reduce, and respond to online child sexual exploitation. 
 
 Composes the Commission of 19 members, including federal officials and appointees with specific expertise in law enforcement, prosecution, victim services, consumer protection, civil liberties, privacy, computer science, and industry representation. Requires two members to have experience in cryptography, data security, or artificial intelligence. Designates the Attorney General or their representative as the Chairperson.
 
 ---
 
-DOC_ID: 641
+doc_642
 Requires covered companies to publicly list the primary country of origin of each application on the app store page with prominent display.
 
 Mandates that covered companies provide an option to filter out apps from countries of concern and display disclaimers if data could be accessed by a foreign government.
@@ -24,7 +159,7 @@ Authorizes the Attorney General to enforce compliance through civil action.
 
 ---
 
-DOC_ID: 642
+doc_643
 Defines "process" as an operation, potentially automated, performed on "covered information" including collecting, disclosing, inferring, etc.
 
 Mandates obtaining "verifiable consent" from teenagers or parents before processing their data.
@@ -41,7 +176,7 @@ Imposes strict security measures for processing children's and teenagers' data.
 
 ---
 
-DOC_ID: 643
+doc_644
 Mandates the Secretary of Homeland Security, through the CBP Innovation Team, to establish pilot projects within one year to test and assess technologies enhancing nonintrusive inspection systems at land ports of entry.
 
 Requires testing of at least five technology types, including artificial intelligence, machine learning, and quantum information sciences, to detect contraband, illegal drugs, and threats.
@@ -56,7 +191,7 @@ Requires reporting to Congress within three years and after project termination,
 
 ---
 
-DOC_ID: 644
+doc_645
 Expands sanctions under the Comprehensive Iran Sanctions, Accountability, and Divestment Act of 2010 to include unmanned aerial systems (UAS).
 
 Incorporates UAS under arms embargos of the Countering America’s Adversaries Through Sanctions Act and Iran-Iraq Arms Non-Proliferation Act of 1992.
@@ -67,7 +202,7 @@ Mandates a report on support for Iran’s UAS program from domestic industries, 
 
 ---
 
-DOC_ID: 645
+doc_646
 Prohibits private passenger automobile insurers from considering certain factors, such as gender, education level, and ZIP Code, in determining insurance eligibility or rates.
 
 Requires insurers to submit information to the FTC within one year of enactment and biennially thereafter to demonstrate that their practices and algorithms do not disproportionately impact any customer group based on protected characteristics.
@@ -82,7 +217,7 @@ Preserves the authority of Federal and State agencies to enforce prohibitions ag
 
 ---
 
-DOC_ID: 646
+doc_647
 Mandates the Comptroller General to conduct a technology assessment of wearable medical devices within 18 months of the Act's enactment.
 
 Requires the report to include an analysis of the devices' potential to accurately prescribe treatments.
@@ -93,7 +228,7 @@ Proposes policy options to enhance benefits and mitigate challenges in developin
 
 ---
 
-DOC_ID: 647
+doc_648
 Mandates the Secretary, the Federal Trade Commission, and the Bureau of Consumer Financial Protection to jointly collect information on unfair practices in tenant and applicant screenings, including the use of algorithms.
 
 Requires the identification of practices that prevent access to or retention of rental housing, focusing on tenant background checks, adverse action notices, and tenant income sources.
@@ -102,7 +237,7 @@ Obliges the submission of an annual report to Congress detailing the information
 
 ---
 
-DOC_ID: 648
+doc_649
 Mandates the National Coordinator to Counter Antisemitism to conduct a study on online antisemitism, including Holocaust denial and distortion, within 180 days of the Act's enactment and annually for 10 years.
 
 Requires the study to analyze the prevalence of antisemitic content online.
@@ -113,7 +248,7 @@ Obligates the National Coordinator to submit the report to specific Senate and H
 
 ---
 
-DOC_ID: 649
+doc_650
 Mandates the Government Accountability Office (GAO) to study the impact of Sections 101(a) and 101(b) on employee coverage under the National Labor Relations Act, focusing on union formation and collective bargaining.
 
 Requires the study to analyze impacts on employee flexibility, compensation, grievance resolution, and technology use, including AI and algorithms.

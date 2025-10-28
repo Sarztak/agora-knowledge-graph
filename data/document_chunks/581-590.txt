@@ -1,4 +1,139 @@
-DOC_ID: 580
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_581
 Prohibits large online operators from manipulating user interfaces to obscure, subvert, or impair user autonomy, decision making, or consent.
 
 Requires affirmative express consent from users for covered research and prohibits manipulation aimed at children or teens to encourage compulsive usage.
@@ -16,7 +151,7 @@ Provides safe harbor for operators acting in good faith per established guidelin
 
 ---
 
-DOC_ID: 581
+doc_582
 Establishes a new research and development program by the FAA’s NEXTOR III to develop new data analysis approaches for aviation safety.
 
 Includes use of new algorithms and AI methods for analyzing various data sets such as weather, equipment performance, flight delays, safety incidents, and communications.
@@ -33,7 +168,7 @@ Terminates the program 6 years after establishment.
 
 ---
 
-DOC_ID: 582
+doc_583
 Amends Section 230 of the Communications Act of 1934 to limit liability protections for dominant interactive computer service providers based on their content management practices.
 
 Deems providers as content creators if they engage in content moderation or use targeted algorithmic amplification that expresses, promotes, or suppresses a discernible viewpoint.
@@ -46,7 +181,7 @@ Reclassifies immunity under Section 230 as an affirmative defense, requiring pro
 
 ---
 
-DOC_ID: 583
+doc_584
 Cites the Act as the “Autonomous Vehicle Accessibility Act” or the “AV Accessibility Act”.
 
 Defines key terms including “disability,” “public transportation,” and “ride-hail ADS-equipped vehicle.”
@@ -59,7 +194,7 @@ Authorizes $5,000,000 for the completion of the accessibility infrastructure stu
 
 ---
 
-DOC_ID: 584
+doc_585
 Amends the Consolidated Appropriations Act, 2022, to include "digital forgery" as any intimate visual depiction created via AI or other technological means to appear indistinguishable from an authentic visual depiction.
 
 Allows identifiable individuals to bring civil action against those who produce, possess, disclose, or solicit digital forgeries without consent, with knowledge or reckless disregard of the lack of consent.
@@ -74,7 +209,7 @@ Ensures the Act does not preempt state, federal, or tribal laws that provide at 
 
 ---
 
-DOC_ID: 585
+doc_586
 Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter.
 
 Expedites the processing of Foreign Military Sales requests from Australia, Canada, and the UK.
@@ -85,7 +220,7 @@ Requires the review and update of interagency policies to incorporate these anti
 
 ---
 
-DOC_ID: 586
+doc_587
 Requires the Director of National Intelligence to brief congressional intelligence committees within 120 days on whether current intelligence community directives provide sufficient guidance on the use of AI and machine learning tools in intelligence products.
 
 Mandates the briefing to include a determination of whether Intelligence Community Directives 203 and 206, and other relevant directives, offer adequate guidance on using, sourcing, and providing transparency for AI and machine learning tools.
@@ -96,7 +231,7 @@ Obligates the Director to explain why no updates are needed if deemed sufficient
 
 ---
 
-DOC_ID: 587
+doc_588
 Requires the Nuclear Regulatory Commission (NRC) to report to Congress on actions taken during the COVID-19 emergency, including revised or suspended regulatory policies and their impacts.
 
 Mandates NRC to develop a report within one year identifying improvements in nuclear oversight and inspections using risk-informed, performance-based procedures, information technologies, and AI.
@@ -109,7 +244,7 @@ Instructs NRC to identify specific actions for incorporating advanced technologi
 
 ---
 
-DOC_ID: 588
+doc_589
 Appropriates $1,090,000,000 to U.S. Customs and Border Protection for technology improvements, including non-intrusive inspection scanning systems and anomaly detection algorithms, to enhance fentanyl interdiction at land borders.
 
 Appropriates $223,000,000 to U.S. Immigration and Customs Enforcement to expand efforts to interdict fentanyl and disrupt transnational criminal networks, including funds for additional special agents and joint surge operations.
@@ -120,7 +255,7 @@ Creates penalties for knowingly damaging or evading border controls, with fines 
 
 ---
 
-DOC_ID: 589
+doc_590
 Amends the Forest and Rangeland Renewable Resources Research Act to include forest carbon in resource assessments.
 
 Requires the Secretary to conduct timber products output studies and national woodland owner surveys.

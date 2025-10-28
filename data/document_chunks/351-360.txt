@@ -1,11 +1,146 @@
-DOC_ID: 350
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_351
 Requires the Secretary of State to submit to the appropriate congressional committees a report that describes and justifies any changes made during FY 2022 and 2023 to the Foreign Service entry process.
 
 Includes the use of artificial intelligence, including deep textual analysis, and its impact on recruitment in the scope of the report.
 
 ---
 
-DOC_ID: 351
+doc_352
 Requires the Director of National Intelligence to create an annual report to Congress for five years that includes a list of Chinese AI businesses that are involved with or are supporting concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of China.
 
 Directs the Director of National Intelligence to work in consultation with the heads of elements of the intelligence community to create the list of Chinese AI businesses for the report.
@@ -13,7 +148,7 @@ Directs the Director of National Intelligence to work in consultation with the h
 
 ---
 
-DOC_ID: 352
+doc_353
 Establishes an independent Commission on the Future of the Navy within the legislative branch, whose duties include studying opportunities to incorporate advanced technologies, including artificial intelligence, in the fleet.
 
 Requires the Commission to consider specific changes to the Navy's Shipyard Infrastructure Optimization Program and ship depot maintenance program, in order to expand the use of advanced technologies in shipyard infrastructure and ship operations.
@@ -28,7 +163,7 @@ Requires the Commission to submit to the congressional armed services committees
 
 ---
 
-DOC_ID: 353
+doc_354
 Authorizes government support for AI-related activities
 
 Instructs the Director of National Intelligence to establish a policy regarding user adoption metrics for contracts and other agreements for the procurement AI and emerging technology software products.
@@ -43,7 +178,7 @@ Requires that prior to the procurement of, or the continuation of the use of, an
 
 ---
 
-DOC_ID: 354
+doc_355
 Instructs the heads of the elements of the intelligence community to draft a policy to promote the intelligence community-wide use of code-free artificial intelligence enablement tools.
 
 Requires the given policy to include the objectives and a set of incentives for using code-free artificial intelligence enablement tools.
@@ -54,7 +189,7 @@ Requires an assessment of the personnel and funding requirements, and any other 
 
 ---
 
-DOC_ID: 355
+doc_356
 Requires the Secretary of State to establish positions within the Bureau of Global Talent Management that are solely dedicated to the recruitment and retention of Department personnel with backgrounds in cybersecurity, engineering, data science, application development, artificial intelligence, critical and emerging technology, and technology and digital policy.
 
 Requires the Secretary to submit a plan to the appropriate congressional committees that describes how the initiative described above will be implemented. 
@@ -72,7 +207,7 @@ rate and (b) the number of individuals benefitting from the inclusion of such c
 
 ---
 
-DOC_ID: 356
+doc_357
 Mandates compatibility of information technology or software systems with new and emerging technologies, such as artificial intelligence.
 
 Incentivizes adoption and integration of new technologies and decommissioning outdated systems, including potential funding enhancements.
@@ -81,7 +216,7 @@ Holds intelligence community personnel accountable for integrating new technolog
 
 ---
 
-DOC_ID: 357
+doc_358
 Begins discussing the phrase “appropriate committees of Congress” and what organizations are actually a part of this phrase when benign referred. Also defines the term “legacy semiconductor” in terms of the definition given in another legislation document.
 
 Annually for 3 years after this act is passed, the Director of National Intelligence must submit an unclassified assessment report regarding China’s production of semiconductors through China’s firms and business sectors to the appropriate committees of Congress.
@@ -90,7 +225,7 @@ The Director of National Intelligence must meet with the heads of federal agenci
 
 ---
 
-DOC_ID: 358
+doc_359
 Creates a new institution to govern, investigate, advise, produce, or otherwise act in relation to AI.
 
 Requires the Director of National Intelligence and intelligence heads, to review and establish AI-related policies, aiming to boost AI adoption in the intelligence community.
@@ -105,7 +240,7 @@ Addresses government support for AI-related development activities.
 
 ---
 
-DOC_ID: 359
+doc_360
 
 Addresses government support for AI-related research and development activities, the development of the AI workforce, including education and training in AI-related disciplines.
 

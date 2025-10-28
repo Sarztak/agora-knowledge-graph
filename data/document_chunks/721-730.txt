@@ -1,4 +1,139 @@
-DOC_ID: 720
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_721
 Amends the National Institute of Standards and Technology Act to require the development of voluntary guidelines for AI system development, release, and assessment.
 
 Mandates the Director of NIST to collaborate with public and private organizations to create guidance on AI risk tolerances and communication of system characteristics.
@@ -17,7 +152,7 @@ Defines "artificial intelligence red teaming" and "artificial intelligence syste
 
 ---
 
-DOC_ID: 721
+doc_722
 Directs the Secretary of Health and Human Services to issue guidance by January 1, 2026, on Medicare payment requirements under part B of title XVIII of the Social Security Act for remote monitoring devices.
 
 Mandates that the guidance specifically address devices that incorporate artificial intelligence components, such as continuous adjustment features.
@@ -26,7 +161,7 @@ Requires that these devices must transmit information to healthcare providers fo
 
 ---
 
-DOC_ID: 722
+doc_723
 Mandates the preparation of reports by the Secretary of Labor, the National Science Foundation, and the Secretary of Education on AI's workforce impact, identifying data needs, affected industries, and opportunities for stakeholder influence.
 
 Authorizes the Department of Education to award grants to enhance emerging and advanced technology education from prekindergarten through grade 12, focusing on inclusivity for underrepresented communities.
@@ -41,7 +176,7 @@ Amends existing education laws to integrate emerging technology education data, 
 
 ---
 
-DOC_ID: 723
+doc_724
 Extends the research and development acquisition pilot program under the Homeland Security Act of 2002 to September 30, 2027.
 
 Mandates the Secretary of Homeland Security to notify and brief Congress within 72 hours regarding the use or extension of transaction authority involving artificial intelligence technology.
@@ -50,14 +185,14 @@ Reduces the threshold for covered contract awards from $4,000,000 to $1,000,000 
 
 ---
 
-DOC_ID: 724
+doc_725
 Mandates the Secretary of Homeland Security to consult with the Director of the National Institute of Standards and Technology and the Director of the United States Patent and Trademark Office within eight months to develop an AI watermark and trademark system for identifying Federal agency-approved AI applications for civilian agency use.
 
 Authorizes the appropriation of necessary funds each fiscal year to the Secretary of Homeland Security to implement this AI watermark system.
 
 ---
 
-DOC_ID: 725
+doc_726
 Establishes a pilot program to encourage private sector use of privacy-enhancing technologies within one year of the Act's enactment to protect covered data.
 
 Requires the Commission to develop a petition process for entities to join the pilot program and implement an auditing system using privacy-enhancing technologies for enforcement purposes.
@@ -76,7 +211,7 @@ Requires the FTC to report to Congress on investigations and future plans relate
 
 ---
 
-DOC_ID: 726
+doc_727
 Establishes a grant program to promote digital citizenship and media literacy among veterans, requiring the Secretary of Veterans Affairs to award grants to eligible entities.
 
 Mandates grant recipients to develop cybersecurity best practices and improve veterans' competencies in digital and media literacy.
@@ -95,7 +230,7 @@ Acknowledges the role of foreign influence campaigns and online scams targeting 
 
 ---
 
-DOC_ID: 727
+doc_728
 Establishes a cross-cutting AI research and development program within the Department of Energy to advance AI tools, systems, and capabilities.
 
 Mandates coordination across relevant offices such as the Office of Science and the Office of Energy Efficiency to carry out this program.
@@ -116,7 +251,7 @@ Requires an assessment of energy security related to data centers and computing 
 
 ---
 
-DOC_ID: 728
+doc_729
 Establishes a voluntary database to track AI security and safety incidents, requiring the National Institute of Standards and Technology (NIST) to develop mechanisms for sharing incident information while preserving confidentiality.
 
 Mandates NIST to update the National Vulnerability Database to incorporate AI security vulnerabilities and identify characteristics that make the database unsuitable for certain AI vulnerabilities.
@@ -129,7 +264,7 @@ Established the Artificial Intelligence Security Center within the National Secu
 
 ---
 
-DOC_ID: 729
+doc_730
 Amends the Food Security Act of 1985 to improve subseasonal-to-seasonal weather forecasting by requiring the National Oceanic and Atmospheric Administration (NOAA) to enhance research, data collection, and model development.
 
 Mandates the development of multi-model ensemble forecast systems and data management strategies, and the operationalization of new modeling technologies.

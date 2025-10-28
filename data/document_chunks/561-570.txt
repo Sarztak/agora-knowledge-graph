@@ -1,4 +1,139 @@
-DOC_ID: 560
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_561
 Authorizes the Secretary of Commerce to review and prohibit certain transactions involving information and communications technology (ICT) between U.S. persons and foreign adversaries.
 
 Empowers the Secretary to identify, deter, disrupt, prevent, prohibit, investigate, or mitigate risks arising from covered transactions.
@@ -15,7 +150,7 @@ Imposes civil and criminal penalties for violations, including fines, imprisonme
 
 ---
 
-DOC_ID: 561
+doc_562
 Requires the Administrator to carry out a research program to modernize and streamline air traffic control training, subject to available appropriations.
 
 Mandates the assessment of advanced technologies, including AI, machine learning, and virtual/augmented reality, to enhance knowledge retention and training effectiveness.
@@ -28,7 +163,7 @@ Obligates the Administrator to submit a report to Congress on the research findi
 
 ---
 
-DOC_ID: 562
+doc_563
 Requires the Administrator to conduct a review of current and planned AI and machine learning technologies to enhance airport efficiency and safety.
 
 Mandates the review to cover applications of AI and machine learning in jet bridges, airport service vehicles, and aircraft taxiing.
@@ -41,7 +176,7 @@ Includes a required examination of China's domestic application of AI and machin
 
 ---
 
-DOC_ID: 563
+doc_564
 Establishes the requirement for the Under Secretary, in collaboration with the weather enterprise, to develop consistent and open data and metadata standards to support open science.
 
 Mandates the consolidation and efficient arrangement of data infrastructure, considering commercial cloud technologies, to ensure effective data transfer between National Oceanic and Atmospheric Administration (NOAA) offices.
@@ -58,7 +193,7 @@ Mandates a study on NOAA's data practices and management needs, assessing costs,
 
 ---
 
-DOC_ID: 564
+doc_565
 Establishes a program to award financial assistance for creating and supporting a network of National Drone and Advanced Air Mobility Research Institutes.
 
 Requires collaboration among public and private organizations, including Federal agencies, academic institutions, and industry, to form these Institutes.
@@ -75,7 +210,7 @@ Authorizes $5 million annually for fiscal years 2024-2028 to support these activ
 
 ---
 
-DOC_ID: 565
+doc_566
 Amends Section 606 of the Harmful Algal Bloom and Hypoxia Research and Control Act to establish a national harmful algal bloom observing network.
 
 Requires the Under Secretary, via NCCOS and IOOS, to integrate Federal, State, regional, and local observing capabilities.
@@ -88,7 +223,7 @@ Establishes a Harmful Algal Bloom Data Assembly Center to integrate, disseminate
 
 ---
 
-DOC_ID: 566
+doc_567
 Directs the Secretary of Education to award competitive grants to eligible entities to enhance data literacy education from pre-kindergarten through postsecondary levels.
 
 Requires grant applications to detail plans for increasing access to data literacy and STEM education, evaluating project activities, and continuing efforts post-grant.
@@ -105,7 +240,7 @@ Authorizes $10 million annually for fiscal years 2024-2028, with caps on adminis
 
 ---
 
-DOC_ID: 567
+doc_568
 Mandates the Secretary of Energy to execute a cross-cutting research, development, and demonstration program for unmanned aircraft system (UAS) technologies, including artificial intelligence.
 
 Requires coordination across relevant DOE offices, including the Artificial Intelligence Technology Office.
@@ -128,7 +263,7 @@ Authorizes appropriations totaling $276,282,638 from fiscal years 2024 to 2028.
 
 ---
 
-DOC_ID: 568
+doc_569
 Mandates the Secretary of Homeland Security to support research, development, evaluation, and testing of advanced air mobility, unmanned aircraft systems (UAS), and counter-UAS systems.
 
 Directs coordination with relevant Department of Homeland Security offices and programs, including the Cybersecurity and Infrastructure Security Agency and U.S. Customs and Border Protection.
@@ -149,7 +284,7 @@ Authorizes appropriations totaling $30 million to $36.5 million from fiscal year
 
 ---
 
-DOC_ID: 569
+doc_570
 Amends the Trade Act of 1974 to establish a list of products supported by the Chinese government under the Made in China 2025 policy.
 
 Requires the United States Trade Representative to compile this list within 120 days of the enactment and update it annually.

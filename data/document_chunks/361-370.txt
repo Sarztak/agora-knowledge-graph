@@ -1,4 +1,139 @@
-DOC_ID: 360
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_361
 Requires the Director of National Intelligence to develop and submit to Congress a report and a plan to promote intelligence-related engineering, research, and development activities at institutes of higher education whose students are predominantly of minority ethnicities. 
 
 Requires the plan described above to include an analysis of (a) the opportunities for advancing engineering, research, and development in computer sciences, including artificial intelligence, quantum computing, and machine learning, and synthetic biology, and (b) the investments necessary to do so.
@@ -10,7 +145,7 @@ Intelligence Advanced Research Projects Activity to develop partnerships between
 
 ---
 
-DOC_ID: 361
+doc_362
 Directs the Secretary of Defense to assess threats posed by unmanned aerial system swarms to installations and deployed Armed Forces, the use of these swarms by adversaries and their national security implications such as autonomous intelligence and machine learning, current capabilities of the Defense Department and their effectiveness in countering these threats, and efforts by the Defense Department to develop and field technology that can counter swarms.
 
 Directs the Secretary of Defense to develop and implement a strategy to field capabilities to counter threats from unmanned aerial system swarms. The strategy should define "unmanned aerial system swarm," outline plans for developing, testing, fielding, and acquiring capabilities to counter swarms, estimate resources needed by each Armed Force to implement the strategy, and determine the legislative action necessary for the Defense Department to counter swarm threats.
@@ -20,7 +155,7 @@ Directs the Secretary of Defense to consider incorporating the strategy into a c
 
 ---
 
-DOC_ID: 362
+doc_363
 Establishes the Alabama Commission on Artificial Intelligence to review and advise on AI growth and use in governance, healthcare, education, transportation, and future industries.
 
 Requires the commission to consider the establishment of a permanent AI commission.
@@ -31,7 +166,7 @@ Requires the commission to submit a report by May 1, 2020, with findings and rec
 
 ---
 
-DOC_ID: 363
+doc_364
 Amends Section 236 of the FY 2021 National Defense Authorization Act by adding the Director of National Intelligence as an official that can, with the Secretary of Defense, establish a steering committee on emerging technology and national security and receive recommendations from the committee. Amends members of the steering committee to consist of the Principal Deputy Director of National Intelligence, the Deputy Sector of Defense, the Vice Chairman of the Joint Chiefs of Staffs, and other appropriate officials. Adds that the Steering Committee shall be chaired by the Deputy Secretary of Defense, the Vice Chairman of the Joint Chiefs of Staff, and the Principal Deputy Director of National Intelligence jointly.
 
 Amends the responsibilities of the steering committee by clarifying that the committee's strategy is to maintain the technological superiority of both the US military and intelligence community according to not only the National Defense Strategy, but also the National Intelligence Strategy and the National Security Strategy. Adds that the steering committee is responsible for making recommendations on any changes to the guidance for developing the National Intelligence Program budget and determining whether sufficient resources are available for the intelligence community, in addition to the Department of Defense, to defeat threats to the US.
@@ -41,19 +176,19 @@ Adds that the list of technologies classified as emerging technologies is to be 
 
 ---
 
-DOC_ID: 364
+doc_365
 Instructs various government departments to sponsor an analysis of cybersecurity tools and capabilities. Outlines which specific departments are involved in the analysis. Describes the features and tools that must be functional and applicable to the Department. Identifies the capabilities and usage of artificial intelligence and machine learning algorithms within the government. Focuses on analyzing software at the enterprise level, which enhances the productivity and capability of the government departments.
 
 ---
 
-DOC_ID: 365
+doc_366
 Provides guidelines for the educational goals of the U.S. Naval Community College, including by naming skills relating to artificial intelligence and other digital technologies as a key focus of the college's educational programs.
 
 Sets eligibility requirements for enrollment in, and graduation from, the college.
 
 ---
 
-DOC_ID: 366
+doc_367
 Requires the Secretary of Defense to designate a chief digital recruiting officer.
 
 Instructs the chief digital recruiting officer to identify Department of Defense skill gaps relating to artificial intelligence, distributed ledger technologies, cybersecurity, and other digital technology fields. 
@@ -64,19 +199,19 @@ Requires the chief digital recruiting officer to provide the congressional defen
 
 ---
 
-DOC_ID: 367
+doc_368
 Directs the Secretary of Defense to submit an annual report to the congressional defense committees on recommendations made by the National Security Commission on AI about the Department of Defense. The report shall cover the Secretary of Defense's intent to implement recommendations, plans for implementing recommendations including timelines and resources, and justifications for not implementing recommendations, including recommendations that are already being implemented.
 
 Directs the Secretary of Defense to brief the congressional defense committees at least annually on progress in analyzing and implementing recommendations and any activities carried out in pursuit of the recommendations, including funding for each activity.
 
 ---
 
-DOC_ID: 368
+doc_369
 Requires the Commander of Cyber Command, Under Secretary of Defense for Intelligence, and Under Secretary of Defense for Intelligence to assess offensive and defensive cyber capabilities of US adversaries and the U.S. military's plans for potential offensive cyber operations during conflict. One part of the assessment should cover the impact of emerging technologies such as AI. Requires briefing to the congressional defense committees.
 
 ---
 
-DOC_ID: 369
+doc_370
 Requires the Secretary of the Navy to submit to the congressional defense committees a 15-year acquisition, modernization, and sustainment plan for the carrier air wings of the Navy.
 
 Requires the plan to include an analysis of how advanced technologies such as Next Generation Jammer can be utilized to maximize operational use of existing platforms, particularly the EA-18G aircraft and the E-2D aircraft.  

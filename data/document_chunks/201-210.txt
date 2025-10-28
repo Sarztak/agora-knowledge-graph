@@ -1,4 +1,139 @@
-DOC_ID: 200
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_201
 Revokes existing AI policies that hinder American innovation, clearing obstacles to U.S. leadership in AI.
 
 Requires development of an action plan within 180 days to sustain and enhance America's global AI dominance, focusing on prosperity, competitiveness, and security.
@@ -13,7 +148,7 @@ Ensures that actions are consistent with applicable laws.
 
 ---
 
-DOC_ID: 201
+doc_202
 Establishes the "New York AI Act" to ensure AI development and use in New York State is safe, responsible and non-discriminatory.
 
 Requires developers and deployers of high-risk AI systems to undergo independent audits for algorithmic discrimination before and after deployment.
@@ -30,7 +165,7 @@ Allows the Attorney General to enforce compliance and allows a private right of 
 
 ---
 
-DOC_ID: 202
+doc_203
 Establishes a framework for federal oversight of advanced AI models, termed "frontier models," to mitigate extreme AI-enabled risks like biological, chemical, cyber, and nuclear threats.
 
 Defines frontier models as those requiring computing power exceeding 10^26 operations, and capable of diverse tasks or intended for specific high-risk areas.
@@ -49,7 +184,7 @@ Tasks the oversight entity to report on emerging challenges and risks, ensuring 
 
 ---
 
-DOC_ID: 203
+doc_204
 Calls for the establishment of safety teams and risk management mechanisms for AI safety and security.
 
 Mandates safety and security testing for AI models, prioritizing evaluations in critical domains.
@@ -66,7 +201,7 @@ Signatories include Alibaba, Baidu, Huawei, Tencent, and other major Chinese tec
 
 ---
 
-DOC_ID: 204
+doc_205
 Establishes principles and mechanisms for AI safety governance, emphasizing a balance between development and security and involving all stakeholders in a coordinated approach.
 
 Commits to enhancing AI safety by identifying risks, promoting inclusivity, and ensuring all participants take responsibility.
@@ -85,7 +220,7 @@ Recommends general users of AI systems to increase their awareness of potential 
 
 ---
 
-DOC_ID: 205
+doc_206
 Highlights six key aspects for risk assessment of advanced AI systems: actionable, transparent, comprehensive, multistakeholder, iterative, and reproducible.
 
 Commits to developing a shared scientific basis for risk assessments via joint evaluations and cooperative research, allowing flexibility for members to adapt assessments according to international and domestic frameworks.
@@ -102,7 +237,7 @@ Encourages reproducibility to enhance verification, validation, and interoperabi
 
 ---
 
-DOC_ID: 206
+doc_207
 Establishes the Texas Responsible Artificial Intelligence Governance Act to regulate high-risk AI systems and prohibit certain harmful AI uses.
 
 Requires developers, distributors, and deployers of high-risk AI systems to protect consumers from algorithmic discrimination and complete impact assessments.
@@ -123,7 +258,7 @@ Effective from September 1, 2025.
 
 ---
 
-DOC_ID: 207
+doc_208
 Requires organizations to raise awareness of AI security and incorporate AI security content into cyber security training, tailored to staff roles.
 
 Requires assessments of AI system design for security alongside functionality and performance, including documentation of business needs, data needs, and potential security risks.
@@ -144,7 +279,7 @@ Ensures secure disposal of data and models during transfer or decommissioning pr
 
 ---
 
-DOC_ID: 208
+doc_209
 Endorses the responsible use and regulation of AI to enhance public service delivery while safeguarding human rights, as reiterated by the Freedom Online Coalition (FOC).
 
 Acknowledges the potential risks of AI misuse, including bias, privacy violations, and exacerbation of inequalities, especially for marginalized populations.
@@ -167,7 +302,7 @@ Defines high-risk AI as those that may impact human rights and safety with likel
 
 ---
 
-DOC_ID: 209
+doc_210
 Amends state law to introduce Chapter 93M, mandating consumer protections in interactions with artificial intelligence (AI) systems.
 
 Requires developers and deployers of high-risk AI systems to use reasonable care to prevent algorithmic discrimination and disclose foreseeable risks.

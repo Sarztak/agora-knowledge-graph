@@ -1,11 +1,146 @@
-DOC_ID: 370
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_371
 Requires the Secretary of Defense to submit to the congressional defense committees a report on the Department of Defense's efforts to ensure that appropriate military systems can operate autonomously in GPS-denied environments.
 
 Directs the report described above to include a list of systems which can be upgraded with autonomy software; the timelines for doing so; the funding required for doing so; plans to leverage artificial intelligence for such systems; plans for ensuring the safety and security of such systems through testing, evaluation, verification, and validation; and a list of Department policies that would require modification to facilitate this project.
 
 ---
 
-DOC_ID: 371
+doc_372
 Requires all eye assessments that utilize artificial intelligence or other advanced technology to conform to the traditional standards of in-person care.
 
 Requires a medical professional to analyze any information collected or generated by an automated system during the eye assessment process.
@@ -16,7 +151,7 @@ Requires all eye assessments to involve the collection of a patient's relevant m
 
 ---
 
-DOC_ID: 372
+doc_373
 Requires the Director of the Office of Management and Budget to establish an artificial intelligence training program for the acquisition workforce to garner knowledge of the capabilities and risks associated with AI.
 
 Requires the program to include information relating to AI risks mitigation and the identification of  reliable, safe, and trustworthy AI.
@@ -29,7 +164,7 @@ Requires the Director of the AI program to develop an evaluation system to track
 
 ---
 
-DOC_ID: 373
+doc_374
 Instructs the Director of National Intelligence to develop a plan with other heads of the intelligence community for a modern digital ecosystem that enables the development and progress of artificial intelligence applications and present it to Congress within one year of the enactment of the Act.
 
 Requires that the plan include policies to allow flexible access to classified facilities to select companies, establishes a system to allow for investments into the ecosystem that would address technical issues including but not limited to common interfaces, authentication, and software, and includes policies to prevent duplication of AI capabilities within the intelligence community.
@@ -38,7 +173,7 @@ Requires that the plan establish a governance structure to standardize implement
 
 ---
 
-DOC_ID: 374
+doc_375
 Requires the President to establish a National Artificial Intelligence Initiative to support AI-related research, education, workforce development, planning, and international cooperation. 
 
 Requires the creation of an office, interagency coordinating committee, external advisory committee, and a task force for a potential National AI Research Resource. Directs the interagency committee to create and periodically update a strategic plan for artificial intelligence.
@@ -55,7 +190,7 @@ Directs the Secretary of Energy to carry out an AI research and development prog
 
 ---
 
-DOC_ID: 375
+doc_376
 Establishes a department of Homeland security center for countering human trafficking.
 
 Establishes (under section 4), a specialized initiative in conjuction with the Science and Technology Directorate Office of Science and Engineering to modify systems and processes towards countering human trafficking. 
@@ -66,7 +201,7 @@ Instructs the CCHT Director, in conjunction with the Science and Technology Dire
 
 ---
 
-DOC_ID: 376
+doc_377
 Directs the Secretary of Commerce and the Federal Trade Commission to conduct a study on the state of the AI industry and its impact on the US economy.
 
 Directs the Secretary and the Commission to conduct a survey of the AI market and supply chain, identify risks of exploitation by third parties, and provide recommendations to reduce bias, and protect privacy and security in AI applications.
@@ -75,14 +210,14 @@ Requires the Commission to conduct a study on how AI can be used to address onli
 
 ---
 
-DOC_ID: 377
+doc_378
 Instructs the Secretary of Commerce in coordination with the Information Officer of the Department of Commerce to modify the manufacturing.gov website to include a section called the manufacturing.gov hub. 
 
 Instructs the Secretary of Commerce to use machine learning in this hub to identify frequently asked questions and disseminate the answers to these questions to the public. 
 
 ---
 
-DOC_ID: 378
+doc_379
 Directs the Secretary of Health and Human Services to produce a report about the effects of media and technology use on the cognitive development, physical health, and mental health of infants, children, and adolescents.
 
 Authorizes the Secretary to provide financial support to research agendas and programs on the same issues.
@@ -91,7 +226,7 @@ Instructs the Secretary to submit the aforementioned report, including grants an
 
 ---
 
-DOC_ID: 379
+doc_380
 Defines Artificial Intelligence
 
 Creates a program called ‘‘AI Center of Excellence’’, (CoE) which shall facilitate the adoption of AI technologies in the Federal Government and improve cohesion in the adoption of artificial intelligence.

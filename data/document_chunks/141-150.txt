@@ -1,4 +1,139 @@
-DOC_ID: 140
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_141
 Recognizes the potential impact of robotics, automation, and AI on the workforce and the importance of planning for their effects.
 
 Requires Delaware State Agencies and government branches to implement daily operational and long-term strategic planning to mitigate negative impacts of these technologies.
@@ -13,7 +148,7 @@ Aims to prepare Delaware for changes in employment due to advancements in AI and
 
 ---
 
-DOC_ID: 141
+doc_142
 Requires each New York City agency to report annually to the mayor’s office of operations or a designated entity by December 31 on all algorithmic tools used in the prior year.
 
 Defines "algorithmic tool" as technologies derived from AI, machine learning, or predictive analytics that impact public rights, services, and resource allocation.
@@ -28,7 +163,7 @@ Implements the law with immediate effect.
 
 ---
 
-DOC_ID: 142
+doc_143
 Requires the Department of Administration to biennially inventory AI systems for consequential decisions used by state agencies, detailing system names, vendors, capabilities, and impact assessments, and publish results online.
 
 Obligates state agency heads to conduct impact assessments every two years for AI systems, analyzing efficacy, oversight, accountability, risks, effects on individuals, and compliance with anti-discrimination measures, with results also published online.
@@ -43,7 +178,7 @@ Allows individuals to sue for damages resulting from violations related to AI us
 
 ---
 
-DOC_ID: 143
+doc_144
 Requires employers in Illinois to notify job applicants if artificial intelligence will analyze their video interviews and to provide information on how the AI works, including characteristics it evaluates.
 
 Requires employers to obtain applicants' consent before using AI to evaluate them.
@@ -56,7 +191,7 @@ Obliges employers to delete video interviews and instruct any recipients to do t
 
 ---
 
-DOC_ID: 144
+doc_145
 Require individuals who know or should know that a communication includes a deepfake depicting a candidate or political party, intended to deceive voters, to include a specific disclosure statement: "This communication has been manipulated or generated by artificial intelligence."
 
 Mandate that the statement be audible in audio communications and visible throughout the entirety of print, video, or digital communications.
@@ -65,7 +200,7 @@ Define "deepfake" as an image, audio, or video created or manipulated with compl
 
 ---
 
-DOC_ID: 145
+doc_146
 Amends the Artificial Intelligence Video Interview Act by requiring employers using AI to analyze video interviews for in-person interview selection to collect demographic data.
 
 Requires the collection of race and ethnicity data of applicants selected and not selected for interviews, as well as of those hired.
@@ -78,7 +213,7 @@ Instructs the Department to report findings of racial bias to the Governor and G
 
 ---
 
-DOC_ID: 146
+doc_147
 Establishes a Select Committee on Artificial Intelligence within the West Virginia House of Delegates.
 
 Comprises up to eleven members appointed by the Speaker of the House.
@@ -89,7 +224,7 @@ Subjects the committee to the House rules governing Standing Committees, where a
 
 ---
 
-DOC_ID: 147
+doc_148
 Request the Department of Health to convene a Stakeholder Working Group to study language access in health care settings, focusing on the benefits and impacts of technologies such as artificial intelligence.
 
 Instruct the Working Group to assess experiences of limited English proficiency (LEP) populations, existing language services, and disparities in health care access.
@@ -102,7 +237,7 @@ Instruct the Department of Health to submit a report of the Group's findings and
 
 ---
 
-DOC_ID: 148
+doc_149
 Authorizes the State Department of Education to implement a K-12 computer science curriculum based on 2018 standards, including artificial intelligence and machine learning.
 
 Instructs the State Department of Education to collaborate with the Center for Cyber Education at Mississippi State University for curriculum development.
@@ -117,7 +252,7 @@ Ensures, beginning the 2024-2025 school year, computer science instruction is av
 
 ---
 
-DOC_ID: 149
+doc_150
 Amends the meeting limitations of the Artificial Intelligence Task Force to permit no more than 15 meetings, excluding public hearings for obtaining public testimony on AI.
 
 Requires the Task Force to submit an update by February 15, 2019, to the Senate Committee on Government Operations and the House Committee on Energy and Technology.

@@ -1,4 +1,139 @@
-DOC_ID: 730
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_731
 Mandates the development of comprehensive weather forecasting training datasets using AI to improve Earth system modeling and weather forecasts.
 
 Requires collaboration with federal agencies and experts to enhance AI weather models and explore AI's role in public preparedness and resilience.
@@ -17,7 +152,7 @@ Supports ongoing research and data acquisition for AI and numerical weather mode
 
 ---
 
-DOC_ID: 731
+doc_732
 Mandates digital social companies to post terms of service for each platform within 180 days, detailing contact information, content flagging processes, and potential actions like banning or demonetization.
 
 Requires translation of terms into all supported languages.
@@ -36,7 +171,7 @@ Ensures Act's obligations and penalties are additional to existing laws.
 
 ---
 
-DOC_ID: 732
+doc_733
 Mandates the Secretary of Agriculture and the Director of the National Science Foundation to conduct collaborative research and development activities, including those involving artificial intelligence and digital agriculture, to advance their mission priorities.
 
 Requires the establishment of memoranda of understanding to coordinate these activities through competitive, merit-based processes.
@@ -55,7 +190,7 @@ Ensures research security consistent with the CHIPS Act of 2022.
 
 ---
 
-DOC_ID: 733
+doc_734
 Amends section 3520A of title 44, United States Code, to extend the Chief Data Officer Council's authority to improve Federal data governance.
 
 Requires the Council to identify opportunities to enhance data governance for reliable and secure adoption of emerging technologies and AI.
@@ -76,7 +211,7 @@ Sunsets the amendments seven years after enactment.
 
 ---
 
-DOC_ID: 734
+doc_735
 Prohibits the distribution of false AI-generated election media containing materially false information about election details or voter eligibility with the intent to impede voting in federal elections.
 
 Prohibits the distribution of false AI-generated depictions of election officials intended to intimidate or harass officials or deter voting.
@@ -93,7 +228,7 @@ Ensures severability of the Act’s provisions, maintaining the validity of rema
 
 ---
 
-DOC_ID: 735
+doc_736
 Amends the National Windstorm Impact Reduction Act of 2004 to include provisions for understanding climate variability and its impact on windstorms, aiming to inform future building codes.
 
 Supports the integration of emerging technologies, such as machine learning, in research and engineering activities related to windstorm mitigation.
@@ -112,7 +247,7 @@ Sets deadlines for reports and analyses, including future research infrastructur
 
 ---
 
-DOC_ID: 736
+doc_737
 Mandates the Under Secretary of Defense for Research and Engineering to develop a plan for a secure computing and data storage environment, termed the "AIxBio sandbox," to facilitate the testing of AI models trained on biological data.
 
 Requires the AIxBio sandbox to utilize existing Department of Defense infrastructure when feasible and designates the Under Secretary of Defense for managing and overseeing its activities.
@@ -125,7 +260,7 @@ Obligates the Under Secretary to report and brief Congress on the plan within on
 
 ---
 
-DOC_ID: 737
+doc_738
 Amends the Homeland Security Act of 2002 to enhance the detection and disruption of drugs like fentanyl and xylazine using advanced technologies.
 
 Mandates research and development of equipment for drug detection and trafficking disruption, emphasizing minimal handling and separation of complex mixtures.
@@ -140,7 +275,7 @@ Ensures federal, state, local, tribal, and territorial law enforcement agencies 
 
 ---
 
-DOC_ID: 738
+doc_739
 Amends the Energy Policy and Conservation Act to establish the Flex-Tech Energy Program aimed at enhancing manufacturing competitiveness.
 
 Requires the Secretary to provide financial assistance to State energy agencies or Indian Tribes for developing and implementing flex-tech programs, including measures related to advanced manufacturing technologies and artificial intelligence.
@@ -157,7 +292,7 @@ Authorizes $100 million annually from 2025 to 2029 for the program.
 
 ---
 
-DOC_ID: 739
+doc_740
 Mandates the Secretary of Commerce to conduct a public awareness and education campaign on artificial intelligence within 180 days of the Act's enactment, in coordination with relevant Federal agencies.
 
 Requires determination of key performance indicators for evaluating the AI Campaign’s effectiveness and gathering baseline data for comparison.

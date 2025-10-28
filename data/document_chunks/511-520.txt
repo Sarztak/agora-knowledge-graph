@@ -1,4 +1,139 @@
-DOC_ID: 510
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_511
 Mandates a study by the Secretaries on the effectiveness and limitations of wildfire detection technologies in various aspects of wildfire management.
 
 Requires examination of how each technology, if deployed timely and properly, can effectively and efficiently address wildland fire threats.
@@ -11,7 +146,7 @@ Requires submission of the study results to congressional committees and public 
 
 ---
 
-DOC_ID: 511
+doc_512
 Mandates the Institute to promote international collaboration on e-governance systems with Americas partner countries.
 
 Requires assistance in developing e-governance systems under the framework from section 102, including creating technical standards and reference implementations.
@@ -30,14 +165,14 @@ Grants authority to exclude individuals, entities, or products not from approved
 
 ---
 
-DOC_ID: 512
+doc_513
 Requires the Assistant Secretary for Preparedness and Response to conduct risk assessments and implement strategic initiatives that address whether AI can develop novel pathogens, viruses, bioweapons, or chemical weapons, including monitoring and researching the global biological catastrophic risk landscape.
 
 Requires the Assistant Secretary for Preparedness and Response to include a summary of the risk assessment above in the National Health Security Strategy.
 
 ---
 
-DOC_ID: 513
+doc_514
 Requires the Assistant Secretary of Commerce for Communications and Information to study accountability mechanisms (e.g., audits, certifications, and assessments) that provide assurances that an AI system is trustworthy. This includes defining terms around AI “trustworthiness,” examining how mechanisms are incorporated into AI systems, and assessing their ability to reduce risks related to AI systems, such as cybersecurity threats. 
 
 Requires the Assistant Secretary to solicit stakeholder feedback through public meetings while carrying out the study above and to report the study’s findings to Congress, including recommendations on effective accountability measures for AI systems. 
@@ -46,13 +181,13 @@ Requires the Assistant Secretary to consult with stakeholders through public mee
 
 ---
 
-DOC_ID: 514
+doc_515
 Requires the Under Secretary of Commerce to develop standards for online content verification. Mandates best practices for detecting AI outputs. Directs review of AI usage in government. Prohibits generative AI without user notification. 
 Requires AI transparency reports. Instructs NIST on AI oversight. Obligates risk assessments for critical-impact AI. Establishes AI Certification Advisory Committee. Empowers enforcement of compliance. Establishes consumer education working group.
 
 ---
 
-DOC_ID: 515
+doc_516
 Requires the Director of the National Institute of Standards and Technology (NIST) to establish a program (“Testing Standards”) to create and maintain testing standards for computational forensic software, which includes software that relies on AI-enabled automated or semiautomated computational processes to analyze or interpret evidence.
 
 Requires Testing Standards to solicit public input, address the potential for disparate impacts on protected groups, and specify requirements for publicly available documentation by developers, validation processes by those using computational forensic software, reports provided to defendants regarding software used, and how to test software and report results. 
@@ -65,12 +200,12 @@ Requires evidence from computational forensic software to be admissible only if 
 
 ---
 
-DOC_ID: 516
+doc_517
 Amends Section 230 of the Communications Act of 1934 (which prevents providers of an interactive computer service from being held legally liable for third-party content) to remove this protection for claims involving the use or provision of generative artificial intelligence.
 
 ---
 
-DOC_ID: 517
+doc_518
 Requires the Director of the National Institute of Standards and Technology (NIST) and Director of the Office of Management and Budget (OMB) to issue guidance on how federal agencies can use NIST’s AI Risk Management Framework (RMF) to reduce risks, covering cybersecurity for AI systems, requirements for AI suppliers, and training for agencies.
 
 Requires the Comptroller General of the United States to assess the impact of NIST's AI RMF on agencies' AI use within a year, and requires the Director of OMB to report to Congress on agency implementation and adherence to NIST’s AI RMF within a year, and subsequently, at least once every three years.
@@ -85,7 +220,7 @@ Requires the Director of NIST to conduct a study on and convene stakeholders to 
 
 ---
 
-DOC_ID: 518
+doc_519
 Amends the definition of 'practitioner licensed by law to administer such a drug' in Section 503(b) of the Federal Food, Drug and Cosmetic Act, to include artificial intelligence and machine learning technology
 
 Authorizes AI and ML technology to prescribe pharmaceutical drugs if approved by the State in question, and if approved by the Food and Drug Administration 
@@ -94,7 +229,7 @@ Requires such AI and ML technology to be approved by the Food and Drug Administr
 
 ---
 
-DOC_ID: 519
+doc_520
 Prohibits the use of pricing algorithms incorporating nonpublic competitor data.
 
 Requires entities using or distributing pricing algorithms to submit detailed reports to the Federal Trade Commission (FTC) or Attorney General upon request, detailing development, data usage, and algorithmic rules.

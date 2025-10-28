@@ -1,4 +1,139 @@
-DOC_ID: 150
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_151
 Adopts an ambitious approach to AI-enabled capabilities in defense, aiming for comprehensive exploitation to enhance efficiency and effectiveness.
 
 Emphasizes ethical, legal, and responsible development of AI, incorporating human oversight, particularly in AI-enabled weapons systems.
@@ -15,7 +150,7 @@ Reaffirms commitment against fully autonomous weapon systems, advocating for hum
 
 ---
 
-DOC_ID: 151
+doc_152
 Establishes a stand-alone competitive research and extension grant program under the Department of Agriculture to advance mechanization and automation for specialty crops.
 
 Mandates projects to create or improve cost-effective technologies that reduce manual labor and increase efficiency in crop production, resource management, and processing.
@@ -34,7 +169,7 @@ Allocates $20 million annually from the Commodity Credit Corporation to fund the
 
 ---
 
-DOC_ID: 152
+doc_153
 Establishes international artificial intelligence research partnerships between U.S. cities and their international counterparts to promote AI leadership, economic cooperation, and workforce development.
 
 Encourages public-private partnerships, including nonprofits and academic institutions, to support these AI research collaborations.
@@ -51,7 +186,7 @@ Mandates annual reporting on partnerships, research scope, city participation, c
 
 ---
 
-DOC_ID: 153
+doc_154
 Amends the National AI Initiative Act by introducing a new subsection focused on expanding AI capacity.
 
 Mandates the Director of the National Science Foundation to competitively award eligible higher education institutions and nonprofit organizations to enhance AI research, education, and workforce development.
@@ -70,7 +205,7 @@ Considers diversity, geographic distribution, and resource constraints in award 
 
 ---
 
-DOC_ID: 154
+doc_155
 Proposes the Artificial Intelligence and Data Act (AIDA) to regulate AI in Canada, focusing on high-impact AI systems.
 
 Empowers the Minister of Innovation, Science, and Industry to enforce AIDA, supported by a new AI and Data Commissioner.
@@ -93,7 +228,7 @@ Targets AI systems impacting services, biometric identification, behavior influe
 
 ---
 
-DOC_ID: 155
+doc_156
 Establishes Chapter 93M regarding AI accountability and consumer protection in Massachusetts, defining key terms such as algorithmic discrimination and high-risk AI systems. 
 
 Mandates developers to identify, mitigate, and disclose risks of algorithmic discrimination, and requires public summaries of AI systems and biases.
@@ -112,7 +247,7 @@ Specifies varying effective dates for sections within 180 days to one year post-
 
 ---
 
-DOC_ID: 156
+doc_157
 Instructs all City department personnel to thoroughly review and fact-check AI-generated content and disclose AI use in output.
 
 Prohibits entering sensitive information into public Generative AI tools and mandates using AI tools with caution to avoid misleading the public or making inappropriate decisions.
@@ -127,7 +262,7 @@ Tasks the City Administrator’s Office with updating guidelines and working wit
 
 ---
 
-DOC_ID: 157
+doc_158
 Establishes statewide governance for AI implementation, emphasizing data protection and quality in Ohio.
 
 Requires state agencies to document and approve AI use cases and submit them to the AI Council for approval.
@@ -148,7 +283,7 @@ Assigns the multi-agency AI Council with overseeing AI use, evaluating societal 
 
 ---
 
-DOC_ID: 158
+doc_159
 Establishes an AI Subcabinet to oversee AI use in Maryland state government, fostering principles such as fairness, innovation, privacy, safety, and transparency.
 
 Directs the AI Subcabinet to create an AI Action Plan incorporating NIST’s AI Risk Management Framework to ensure adherence to AI principles.
@@ -163,7 +298,7 @@ Ensures AI initiatives align with state and federal laws and does not impair exi
 
 ---
 
-DOC_ID: 159
+doc_160
 Outlines protocols for the responsible use of AI within Georgia state agencies, focusing on ethics, transparency, and accountability.
 
 Requires agencies to align AI use with legal standards and agency objectives and to report AI tools to the Georgia Technology Authority (GTA).

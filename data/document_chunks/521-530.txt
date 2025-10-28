@@ -1,4 +1,139 @@
-DOC_ID: 520
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_521
 Requires the Secretary of Health and Human Services to develop a strategy for public health preparedness and response to artificial intelligence (AI) threats within 180 days of enactment.
 
 Mandates consultation with stakeholders, including those developing countermeasures and those with AI expertise, for strategy formulation.
@@ -15,12 +150,12 @@ Amends the Public Health Service Act to integrate this AI threat strategy into t
 
 ---
 
-DOC_ID: 521
+doc_522
 Requires a report on artificial intelligence regulation in the financial services industry, establishes artificial intelligence bug bounty programs, requires a vulnerability analysis study for artificial intelligence-enabled military applications, and requires a report on data sharing and coordination.
 
 ---
 
-DOC_ID: 522
+doc_523
 Requires agencies which use or oversee a covered algorithm to have an office of civil rights employing experts and technologists on bias, discrimination, and algorithmic harms.
 
 Mandates these offices to submit biennial reports to Congress detailing risks from use of algorithms using artificial intelligence techniques within the agency's jurisdiction, mitigation steps, actions taken to engage stakeholders, and recommendations for further mitigation of algorithmic bias and discrimination.
@@ -29,12 +164,12 @@ Establishes an interagency working group on covered algorithms and civil rights,
 
 ---
 
-DOC_ID: 523
+doc_524
 Grants authority to the Secretary of Commerce to prohibit US persons and subsidiaries from supporting the use of remote or cloud integrated circuits listed under Export Control Classification Number 3A090 and 4A090 of the Export Administration Regulations by entities located in the People’s Republic of China or Macau.
 
 ---
 
-DOC_ID: 524
+doc_525
 Requires the Director of the National Institute of Standards and Technology (NIST) to brief Congress within one year on federal participation opportunities in AI and emerging technology standards development.
 
 Directs federal agencies to notify NIST of their involvement in AI standards activities and mandates NIST to create a reporting mechanism for this purpose.
@@ -49,7 +184,7 @@ Authorizes $10 million for the pilot program from fiscal years 2024 through 2028
 
 ---
 
-DOC_ID: 525
+doc_526
 Amends the Financial Stability Act of 2010 to assign the Financial Stability Oversight Council duties regarding AI in the financial sector.
 
 Requires the Council to coordinate with member agencies on AI-related financial system risks and direct the Office of Financial Research to study AI use by financial institutions.
@@ -68,7 +203,7 @@ Imposes liability on developers for AI model outcomes under Federal securities l
 
 ---
 
-DOC_ID: 526
+doc_527
 Require the Secretary of Defense to provide a briefing by March 30, 2024, on national security threats from Chinese autonomous ground vehicles in the U.S.
 
 Mandate the briefing to address vehicles near Department of Defense bases and sensitive U.S. Government facilities.
@@ -79,7 +214,7 @@ Include analysis of how the Chinese Communist Party or People’s Liberation Arm
 
 ---
 
-DOC_ID: 527
+doc_528
 Establishes the National AI Commission, an independent and bi-partisan commission in the legislative branch responsible for reviewing and recommending measures for the US to mitigate the risks and possible harms of AI, and to ensure US leadership in AI innovation and development.
 
 Directs the National AI Commission to review the Federal Government's existing approach to AI oversight and regulation, including the existing distribution of oversight and regulatory authorities across various agencies, and to recommend governmental structures that may be needed to regulate powerful general-purpose AI systems.
@@ -90,7 +225,7 @@ Requires the National AI Commission to comprise twenty commissioners appointed b
 
 ---
 
-DOC_ID: 528
+doc_529
 Establishes property rights for individuals in their likeness and voice, treating them as intellectual property that is transferable and descendible for ten years post-mortem.
 
 Prohibits unauthorized distribution, transmission, or availability of personalized cloning services, digital voice replicas, or digital depictions without the individual’s consent, imposing liabilities for violations.
@@ -107,7 +242,7 @@ Sets a four-year limitations period for civil actions and ensures no preemption 
 
 ---
 
-DOC_ID: 529
+doc_530
 Directs the Secretary of Defense to establish the Joint Autonomy Office in the Department of Defense, responsible for coordinating and accelerating the adoption of all-domain autonomous systems for operational users, including through the adoption of commercial and defense best practices
 
 Requires the Office to implement an all-domain enterprise autonomous systems software development and testing platform across DoD's classification levels, including an all-domain data acquisition and curation process to build and manage datasets; these datasets and platforms should be released to various services and acquisition programs as they mature.

@@ -1,4 +1,139 @@
-DOC_ID: 780
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_781
 Amends the Communications Act of 1934 to establish standards for artificial or prerecorded voice systems created through generative AI.
 
 Includes technologies such as voice cloning and other subsequent technologies as deemed appropriate by the Commission.
@@ -7,7 +142,7 @@ Inserts these standards into Section 227(d)(3) to ensure compliance with the upd
 
 ---
 
-DOC_ID: 781
+doc_782
 Prohibits employers from using workplace surveillance to monitor labor activities, ascertain political or religious views, or determine health or immigration status unrelated to job duties.
 
 Requires employers to disclose details about workplace surveillance practices, including data collection methods, frequency, storage locations, business purposes, and third-party transfers, to employees and applicants.
@@ -26,7 +161,7 @@ Coordinates with federal and state agencies to ensure consistent regulatory trea
 
 ---
 
-DOC_ID: 782
+doc_783
 Aligns the national strategic plan for fisheries data with the National Oceanic and Atmospheric Administration's (NOAA) Artificial Intelligence Strategy to enhance efficiency and interoperability.
 
 Requires the Secretary, through the Assistant Administrator for Fisheries, to provide a strategic plan to Congress within 180 days, detailing goals, implementation schedules, budgets, stakeholder engagement, and system development.
@@ -37,7 +172,7 @@ Mandates the Secretary to report annually to Congress on progress in implementin
 
 ---
 
-DOC_ID: 783
+doc_784
 Establishes the right for individuals and right holders to authorize the use of their voice or visual likeness in digital replicas, treating it as a property right that is licensable but not assignable during the individual's life.
 
 Allows post-mortem transfer and licensing, enabling rights to be inherited and renewed under specific conditions.
@@ -52,7 +187,7 @@ Applies only to conduct and contracts occurring after the enactment date, while 
 
 ---
 
-DOC_ID: 784
+doc_785
 Requires the Administrator to submit strategies within one year to reduce patdowns and the need for item divestiture during passenger screening without compromising security.
 
 Considers technological improvements, discrimination reduction among passenger populations, and next-generation screening technologies in developing these strategies.
@@ -69,7 +204,7 @@ Requires annual briefings to congressional committees and a Comptroller General 
 
 ---
 
-DOC_ID: 785
+doc_786
 Amends Section 1851(d)(4) of the Social Security Act to include provisions for behavioral health information starting in 2025.
 
 Requires the provision of information on access to in-network behavioral health providers, including average wait times for new patient appointments and data on provider participation agreements.
@@ -84,7 +219,7 @@ Aims to promote informed choice by enhancing transparency in behavioral health s
 
 ---
 
-DOC_ID: 786
+doc_787
 Amends Medicare Advantage plans to require parity in mental health and substance use disorder benefits, ensuring financial and treatment limitations are no more restrictive than those for medical benefits.
 
 Mandates MA organizations to determine medical necessity for mental health and substance use benefits based on generally accepted standards.
@@ -101,7 +236,7 @@ Sets the effective date for amendments to plan years beginning two years post-en
 
 ---
 
-DOC_ID: 787
+doc_788
 Mandates the Secretary of Agriculture to prioritize national security alongside homeland security within the Department of Agriculture, including increasing staff with security clearances.
 
 Establishes the position of Senior Advisor for National Security to advise the Secretary and coordinate with the National Security Council on national security matters related to food and agriculture.
@@ -114,7 +249,7 @@ Addresses vulnerabilities concerning agricultural data, foreign influence, and e
 
 ---
 
-DOC_ID: 788
+doc_789
 Amends penalties for financial crimes committed with the assistance of artificial intelligence, increasing fines to $1,000,000 and imprisonment terms.
 
 Mandates fines for AI-assisted money laundering to be not more than $1,000,000 or thrice the value of the funds involved, with imprisonment terms up to 20 years.
@@ -125,7 +260,7 @@ Codifies increased penalties and definitions within the United States Code to de
 
 ---
 
-DOC_ID: 789
+doc_790
 Amends the National Defense Authorization Act to require the Department of Defense to develop and provide distance education courses on artificial intelligence (AI) and machine learning for Armed Forces personnel.
 
 Mandates these courses to cover AI literacy, ethical use, data protection, and awareness of AI-generated content.

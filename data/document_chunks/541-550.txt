@@ -1,4 +1,139 @@
-DOC_ID: 540
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_541
 Establishes a robust human capital infrastructure for computer programming, coding, and AI skills within the U.S. Armed Forces.
 
 Requires the development of career field occupational codes aligned with AI and coding competencies under the Department of Defense Cyber Workforce Framework.
@@ -15,7 +150,7 @@ Requires updates on policy implementation in the Department of Defense's budget 
 
 ---
 
-DOC_ID: 541
+doc_542
 Authorizes the Environmental Protection Agency's (EPA) Administrator to award grants and contracts for projects using emerging technologies to address water quality threats.
 
 Establishes the Water Quality and Environmental Innovation Fund, funding it through fiscal years 2024-2028 using fees from the EPA's Motor Vehicle and Engine Compliance Program.
@@ -28,28 +163,28 @@ Directs the EPA Administrator to report annually to Congress on the benefits, re
 
 ---
 
-DOC_ID: 542
+doc_543
 Requires the Secretary of Defense to conduct a pilot program to outsource the calculation of monthly Basic Allowance for Housing (BAH) rates using machine learning and artificial intelligence algorithms by engaging a covered entity.
 
 Mandates the submission of a report to the Senate and House Armed Services Committees evaluating the AI-calculated rates.
 
 ---
 
-DOC_ID: 543
+doc_544
 Requires the Director of the National Institute on Standards and Technology (NIST) to work with other heads of federal agencies and private/public sector stakeholders to build testbeds for supporting the development of trustworthy AI systems and AI guardrails.
 
 Mandates the Secretary of Commerce and Secretary of Energy to enter into a memorandum of understanding that allows relevant agencies across the federal government access to AI-related personnel, facilities, and research at the Department of Energy.
 
 ---
 
-DOC_ID: 544
+doc_545
 Directs Congress to amend the Communications Act of 1934 to mandate the disclosure of artificial intelligence usage in voice call or text message impersonations.
 
 Mandates the imposition of financial penalties on those who fail to complete the required disclosure of artificial intelligence usage during robocalls.
 
 ---
 
-DOC_ID: 545
+doc_546
 Mandates the Secretary of Agriculture to establish a program to certify AI software for the production of agricultural products. 
 
 Bases the certification program on the  National Institute of Standards and Technology's Artificial Intelligence Risk Management Framework.
@@ -60,7 +195,7 @@ Details specific licensure and certification requirements for various tasks, inc
 
 ---
 
-DOC_ID: 546
+doc_547
 Requires the Secretary of Labor and the Director of the National Science Foundation to submit interim and final reports on AI's impact on the U.S. workforce.
 
 Mandates these reports to identify data necessary for analyzing AI's workforce impact, industries most affected by AI, and demographics vulnerable to job displacement.
@@ -73,7 +208,7 @@ Requires collaboration with educational institutions, industry stakeholders, and
 
 ---
 
-DOC_ID: 547
+doc_548
 Directs the Department of Commerce to establish a Supply Chain Resiliency and Crisis Response Office, responsible for awarding grants, loans, and loan guarantees to critical industry and supply chain stakeholders that integrate artificial intelligence into manufacturing.
 
 Mandates the DOC to improve the competitiveness of the advanced tech manufacturing sector, minimize supply chain shocks, and support the creation of related jobs in key technology focus areas such as artificial intelligence, machine learning, and quantum computing.
@@ -82,7 +217,7 @@ Directs the Inspector General of the DOC to audit activities supported by the Su
 
 ---
 
-DOC_ID: 548
+doc_549
 Designates a senior employee of the Office of Investment and Innovation as the broadband and emerging information technology coordinator to assist small businesses in adopting broadband and emerging technologies.
 
 Requires the coordinator to work with the SBA's chief information officer, chief technology officer, and other relevant federal agencies.
@@ -99,7 +234,7 @@ Amends the Small Business Act to include provisions for increasing small busines
 
 ---
 
-DOC_ID: 549
+doc_550
 Amends the Artificial Intelligence Training for the Acquisition Workforce Act to expand artificial intelligence training within the executive branch.
 
 Requires the training program to cover capabilities, risks and benefits, and mitigation strategies associated with AI.

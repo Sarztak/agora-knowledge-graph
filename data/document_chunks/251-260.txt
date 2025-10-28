@@ -1,4 +1,139 @@
-DOC_ID: 250
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_251
 Establishes the AI Authority to ensure regulators take accountability for AI, align regulatory approaches, review legislation, monitor regulatory frameworks, assess risks, support testbeds, and promote international interoperability.
 
 Mandates the AI Authority to adhere to principles ensuring AI safety, transparency, fairness, accountability, compliance with laws, and inclusivity.
@@ -13,7 +148,7 @@ Mandates the implementation of public engagement programs on AI opportunities an
 
 ---
 
-DOC_ID: 251
+doc_252
 Prohibits the distribution of political communications containing materially deceptive AI-generated audio that impersonates a candidate’s voice, with actual malice, intended to harm the candidate’s reputation or deceive voters.
 
 Applies to communications distributed within 90 days of a general election or 60 days of a primary, special, or runoff election.
@@ -28,7 +163,7 @@ Requires the Federal Election Commission (FEC) to issue regulations to clarify d
 
 ---
 
-DOC_ID: 252
+doc_253
 Requires the Department of Homeland Security to develop a comprehensive plan within 180 days to identify, deploy, and integrate emerging and advanced technologies to enhance situational awareness along the northern and southern borders of the United States.
 
 Mandates the inclusion of artificial intelligence, machine learning, automation, fiber-optic sensing, nanotechnology, optical and cognitive radar, modeling and simulation technology, hyperspectral and LIDAR sensors, and other similar technologies.
@@ -43,7 +178,7 @@ Requires coordination with the Department of Homeland Security's Science and Tec
 
 ---
 
-DOC_ID: 253
+doc_254
 Prohibits U.S. persons from engaging in investments involving covered national security transactions in prohibited technologies, with exemptions permissible by the Secretary for activities deemed in the national interest. 
 
 Allows the Secretary to issue regulations that require notifications for such transactions. 
@@ -62,7 +197,7 @@ Defines key terms, including "prohibited technology" and "country of concern."
 
 ---
 
-DOC_ID: 254
+doc_255
 Expands the responsibilities of the Assistant Secretary of Commerce to include promoting the resilience of supply chains related to critical and emerging technologies, including artificial intelligence.
 
 Mandates the creation of the Supply Chain Resilience Working Group composed of relevant federal agencies to assess and model supply chain stability, including those involving AI technologies.
@@ -81,7 +216,7 @@ Protects confidential data shared voluntarily under this title from disclosure, 
 
 ---
 
-DOC_ID: 255
+doc_256
 Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement.
 
 Ensures care continuity for individuals using diabetes technology when enrolling in Medicare Part B by January 2026.
@@ -96,7 +231,7 @@ Instructs the Comptroller General to report within a year on barriers hindering 
 
 ---
 
-DOC_ID: 256
+doc_257
 Establishes transparency and accountability requirements for the St. Louis Metropolitan Police Department’s (SLMPD) use of surveillance technology, including artificial intelligence (AI).
 
 Prohibits using surveillance technology to monitor political, religious, or social groups unless tied to criminal activity or public safety threats.
@@ -117,7 +252,7 @@ Mandates policies for data sharing, following "need to know" and "right to know"
 
 ---
 
-DOC_ID: 257
+doc_258
 Mandates the Secretary of Homeland Security to submit a plan for deploying innovative border technologies within 180 days. 
 
 Requires the plan to assess artificial intelligence’s impact on privacy, civil rights, and civil liberties, and include mitigation measures. 
@@ -136,7 +271,7 @@ Emphasizes collaboration with the private sector, other government entities, and
 
 ---
 
-DOC_ID: 258
+doc_259
 Mandates the Comptroller General to conduct a technology assessment of wearable medical devices within 18 months of the Act's enactment.
 
 Requires submission of a report to Congress on the capabilities and limitations of these devices in supporting clinical decision-making.
@@ -149,7 +284,7 @@ Suggests policy options to enhance the benefits and address the challenges of de
 
 ---
 
-DOC_ID: 259
+doc_260
 Establishes protocols within the Frontier Safety Framework to address severe risks from future foundation models' capabilities.
 
 Defines "Critical Capability Levels" (CCLs) to identify when AI models pose heightened risks, focusing initially on Autonomy, Biosecurity, Cybersecurity, and Machine Learning R&D.

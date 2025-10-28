@@ -1,4 +1,139 @@
-DOC_ID: 90
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_091
 Enacts stringent frameworks for the development and deployment of high-risk AI systems in Virginia.
 
 Defines consequential decisions as those which may affect access to the justice system, education, employment, and financial or other such services.
@@ -19,7 +154,7 @@ Allows for updates post-modification of AI systems and sets guidelines for consu
 
 ---
 
-DOC_ID: 91
+doc_092
 Mandates the Washington State Transportation Commission to establish a work group to develop policy recommendations for autonomous vehicle operation on public roadways.
 
 Requires executive branch membership from various state departments and branches, alongside legislative members and additional stakeholders from sectors including technology and motor vehicle manufacturing.
@@ -34,7 +169,7 @@ Sets an expiration date of December 31, 2023, for sections detailing the establi
 
 ---
 
-DOC_ID: 92
+doc_093
 Amends requirements for testing autonomous vehicles on public roads in Washington State.
 
 Mandates that self-certifying entities provide contact information, test locations, vehicle identification numbers, and proof of insurance for testing.
@@ -55,7 +190,7 @@ Prohibits autonomous vehicle testing without fulfilling initial information requ
 
 ---
 
-DOC_ID: 93
+doc_094
 Establishes requirements for disclaimers on political advertisements using generative artificial intelligence in Florida.
 
 Defines "generative artificial intelligence" as a system emulating input data to create synthetic content.
@@ -74,7 +209,7 @@ Sets an effective date of July 1, 2024.
 
 ---
 
-DOC_ID: 94
+doc_095
 Prohibits law enforcement from using facial recognition without a court order, except in defined emergency circumstances. 
 
 Mandates regular removal of photos from databases used for facial recognition, including minors and individuals not charged or acquitted.
@@ -91,7 +226,7 @@ Mandates audits of law enforcement agencies' use of facial recognition to ensure
 
 ---
 
-DOC_ID: 95
+doc_096
 Requires online information service providers to label AI-generated synthetic content with both explicit and implicit labels, ensuring that users can easily recognize AI-generated content.
 
 Instructs service providers to embed implicit labels in digital file metadata, indicating the content’s origin and attributes.
@@ -106,7 +241,7 @@ Sets penalties for non-compliance to be enforced by the relevant regulatory auth
 
 ---
 
-DOC_ID: 96
+doc_097
 Enacts the "Responsible Deployment of AI Systems Act," mandating comprehensive governance structures for AI deployment in Oklahoma and requiring classification of all AI systems by risk level based on their potential impact on safety, civil liberties, and fundamental rights.
 
 Prohibits the development and deployment of Unacceptable Risk AI systems, such as social scoring or AI-driven misinformation, while imposing strict oversight, audits, and transparency requirements on high-risk systems.
@@ -123,7 +258,7 @@ Permits the AI Council to issue penalties for noncompliance and requires deploye
 
 ---
 
-DOC_ID: 97
+doc_098
 Directs all Executive Branch departments and agencies to adopt AI by accelerating AI use and innovation while ensuring responsible deployment and governance.  
 
 Requires removal of barriers to AI innovation, focusing on delivering value for taxpayers and improving public services.  
@@ -142,7 +277,7 @@ Excludes specific domains like national security systems from AI governance requ
 
 ---
 
-DOC_ID: 98
+doc_099
 Promotes the competitive American AI marketplace by mandating federal agencies to procure AI systems that enhance efficiency and mission effectiveness while avoiding dependence on single vendors.
 
 Ensures taxpayer dollars are safeguarded by tracking AI performance and managing risks as outlined in Executive Order 13960.
@@ -159,7 +294,7 @@ Requires GSA to develop AI acquisition guides within 100 days and establish a sh
 
 ---
 
-DOC_ID: 99
+doc_100
 Establishes a National Artificial Intelligence Research Resource (NAIRR) to enhance AI research accessibility and spur innovation.
 
 Requires the Director of the National Science Foundation, in coordination with a NAIRR Steering Subcommittee, to oversee NAIRR’s establishment and governance.

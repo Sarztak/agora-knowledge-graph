@@ -1,4 +1,139 @@
-DOC_ID: 750
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_751
 Requires the Director of the Office of Management and Budget to report on the progress of making agency regulations available in machine-readable format within 180 days.
 
 Mandates the issuance of guidance within 18 months on using technology, including AI, for conducting retrospective reviews of agency regulations.
@@ -11,7 +146,7 @@ Compels agency heads to implement the strategy for retrospective review within 1
 
 ---
 
-DOC_ID: 751
+doc_752
 Mandates the development of standards for content provenance and detection of synthetic and synthetically-modified content through a public-private partnership.
 
 Requires tools used commercially to create synthetic or synthetically-modified content to provide the option of including machine-readable content provenance information, with security measures to prevent tampering.
@@ -28,7 +163,7 @@ Ensures the Act does not alter existing copyright rights and includes provisions
 
 ---
 
-DOC_ID: 752
+doc_753
 Prohibits non-governmental entities from designing or employing AI, or handling personal data, in a way that will:
 
 (1) Cause physical, psychological, economic, relational, or repetitional injuries to a person;
@@ -41,7 +176,7 @@ Exempts private groups not open to the public from the requirements outlined abo
 
 ---
 
-DOC_ID: 753
+doc_754
 Establishes the Joint Office of the Fire Environment Center within one year, under the National Oceanic and Atmospheric Administration.
 
 Requires the Data Services branch to test AI and machine learning technologies to aid fire management, suggesting resources based on real-time fire conditions.
@@ -58,14 +193,14 @@ Authorizes $150 million annually from fiscal years 2025 to 2034 for the Joint Of
 
 ---
 
-DOC_ID: 754
+doc_755
 Requires operators of dominant online platforms with (a) large numbers of users and (b) ownership groups in which at least 10% of the members are citizens of foreign adversaries of the U.S. to sequester any back-end data or algorithm from agents of any foreign entity.
 
 Also regulates foreign ownership of, and the granting of licenses for foreigners to operate, online platforms featuring large numbers of users, regardless of whether the platform uses AI. 
 
 ---
 
-DOC_ID: 755
+doc_756
 Establishes the Task Force on Preventing AI and Algorithmic Bias in Health Care within 30 days to guide the development of AI technologies that do not exacerbate health disparities.
 
 Composes the Task Force of various health and public officials, including experts on health equity and minority health.
@@ -82,7 +217,7 @@ Allows the Chairperson to appoint additional staff without adherence to certain 
 
 ---
 
-DOC_ID: 756
+doc_757
 Mandates the Secretary of Homeland Security to conduct virtual and in-person listening sessions across the United States for discussing Federal civilian agency use of artificial intelligence.
 
 Requires inclusion of diverse groups in these discussions, such as civil rights organizations, immigrant communities, and academia.
@@ -93,7 +228,7 @@ Obligates the Secretary of Homeland Security to submit a report to Congress with
 
 ---
 
-DOC_ID: 757
+doc_758
 Prohibits employers from making any employment-related decisions -- including to fire or discipline an employee -- based solely on the output of an automated decision system.
 
 Requires any automated decision system used to inform employment-related decisions to be tested before deployment for efficacy and compliance with relevant employment laws & the Artificial Intelligence Risk Management Framework from the National Institute of Standards & Technology. Systems must also be tested both before deployment and annually after deployment for non-discrimination on the basis of protected classes.
@@ -106,7 +241,7 @@ Establishes protections for whistleblowers who call attention to violations of t
 
 ---
 
-DOC_ID: 758
+doc_759
 Requires the Secretary of Health and Human Services to implement the MedShield program, utilizing artificial intelligence for pandemic preparedness and response.
 
 Mandates the use of AI for developing a global pathogen surveillance system, accelerating vaccine development, and optimizing pathogen tracking and therapeutic interventions.
@@ -121,7 +256,7 @@ Requires submission of a detailed report on the program's plan to relevant Congr
 
 ---
 
-DOC_ID: 759
+doc_760
 Prohibits developers and deployers of AI algorithms from causing or contributing to discrimination based on protected characteristics.
 
 Mandates developers and deployers to conduct pre-deployment evaluations and annual impact assessments of AI algorithms to identify potential harms or disparate impacts.

@@ -1,4 +1,139 @@
-DOC_ID: 620
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_621
 Requires the Administrator of the Office of Electronic Government to research a technology-based solution using machine learning and artificial intelligence for efficient classification and declassification systems within 1 year.
 
 Mandates consultation with various key agencies, including the Secretary of Defense and CIA Director, to ensure a comprehensive approach.
@@ -13,7 +148,7 @@ Directs the President to submit a classified report to Congress within 540 days,
 
 ---
 
-DOC_ID: 621
+doc_622
 Directs the Assistant Secretary of Commerce for Communications and Information to support the establishment, prototyping, and implementation of common models and methodologies to inform electromagnetic spectrum management decisions.
 
 Requires the development of technologies and techniques to control radio frequency emissions and interference.
@@ -30,7 +165,7 @@ Amends section 104 of the National Telecommunications and Information Administra
 
 ---
 
-DOC_ID: 622
+doc_623
 Defines "national critical capabilities sector" as sectors, including artificial intelligence, subject to regulation described in the bill.
 
 Establishes the "Committee on National Critical Capabilities" to review U.S. investments in foreign countries that may threaten national security.
@@ -47,7 +182,7 @@ Grants the Committee authority to enforce compliance, including imposing civil p
 
 ---
 
-DOC_ID: 623
+doc_624
 Mandates the Secretary of Health and Human Services to enter an agreement with the National Academies of Sciences, Engineering, and Medicine to study the use of technology in maternity care.
 
 Requires the study to examine the use of innovative technology, including artificial intelligence, and its impact on racial or ethnic biases in maternal health care.
@@ -64,7 +199,7 @@ Directs the National Academies to complete the study and submit a report to Cong
 
 ---
 
-DOC_ID: 624
+doc_625
 Establishes a wildfire technology testbed pilot program within 60 days of the Act's enactment, coordinated by the Secretaries of Agriculture and the Interior.
 
 Incorporates the program into an existing interagency coordinating group on wildfires.
@@ -83,7 +218,7 @@ Terminates the program four years after establishment.
 
 ---
 
-DOC_ID: 625
+doc_626
 Establishes national data privacy standards for covered entities handling personal data.
 
 Requires covered entities to post clear, accessible privacy notices detailing data collection, processing, storage, and disclosure practices.
@@ -104,7 +239,7 @@ Allocates resources to the FTC for enforcement and compliance activities.
 
 ---
 
-DOC_ID: 626
+doc_627
 Establishes a Value-Based Insurance Design Model (VBID) demonstration program to provide Medicare beneficiaries with assistive telehealth consultations and home-based care.
 
 Requires eligible Medicare Advantage (MA) plans to cover medical tests, including those utilizing adaptive AI and machine learning, for various diseases and conditions.
@@ -117,7 +252,7 @@ Administers a grant program for state Medicaid programs to cover similar tests a
 
 ---
 
-DOC_ID: 627
+doc_628
 Amends the National Quantum Initiative Act to mandate the Secretary of Energy to implement a quantum information science, engineering, and technology research program.
 
 Establishes National Quantum Information Science Research Centers to enhance quantum technology and infrastructure.
@@ -134,7 +269,7 @@ Allocates up to $130 million annually from 2024 to 2027 for these activities.
 
 ---
 
-DOC_ID: 628
+doc_629
 Requires the Under Secretary, in coordination with the Commission and in consultation with other relevant Federal agencies, to develop, establish, prototype, and support the implementation of models, methodologies, and inputs for spectrum management decisions involving AI systems, advanced antenna arrays, and dynamic spectrum access technologies.
 
 Mandates the development of AI systems to enable dynamic spectrum access, Internet of Things networks, and other advanced communications technologies.
@@ -147,7 +282,7 @@ Supports partnerships among institutions for workforce development in advanced c
 
 ---
 
-DOC_ID: 629
+doc_630
 **Subtitle B—Next-Generation Energy, Biotechnology, And Artificial Intelligence**
 
 **SEC. 511. Expanded Annual Assessment of Economic and Technological Capabilities of the People's Republic of China.**

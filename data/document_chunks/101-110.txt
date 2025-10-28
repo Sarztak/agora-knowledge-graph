@@ -1,4 +1,139 @@
-DOC_ID: 100
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_101
 Prohibits United States persons from importing AI technology from China and exporting AI technology to China after 180 days of enactment.
 
 Establishes penalties for individuals and entities violating these prohibitions, including fines and forfeiture of federal contracts.
@@ -19,7 +154,7 @@ Involves multiple federal departments in enforcing these regulations.
 
 ---
 
-DOC_ID: 101
+doc_102
 Establishes the National Center for Alternatives to Animals in Research and Testing to promote and fund nonanimal research methods, including artificial intelligence, within one year of the Act's enactment, under the National Institutes of Health (NIH).
 
 Requires the NIH to prioritize nonanimal methods in research proposals, assess the feasibility of nonanimal methods before approving research, and ensure proposals are reviewed by experts in nonanimal techniques.
@@ -32,7 +167,7 @@ Defines "animal" to include any live nonhuman vertebrate or cephalopod used in r
 
 ---
 
-DOC_ID: 102
+doc_103
 Require the Secretary of Agriculture, in consultation with the Director of the National Institute of Standards and Technology and the Federal Communications Commission, to develop voluntary, consensus-based interconnectivity standards for precision agriculture within two years.
 
 Direct the Secretary to coordinate with relevant stakeholders, including public, private, and industry organizations, while considering factors such as the evolving demands and connectivity needs of precision agriculture, cybersecurity challenges, and the impact of AI and advanced wireless communications technology.
@@ -43,7 +178,7 @@ Require submission of a report to relevant Senate and House Committees summarizi
 
 ---
 
-DOC_ID: 103
+doc_104
 Requires the Secretary of Homeland Security to conduct annual assessments, in consultation with the Director of National Intelligence, on terrorism threats posed by terrorist organizations using generative AI applications.
 
 Instructs inclusion of analysis on incidents involving extremist messaging, recruitment, and WMD capabilities linked to generative AI in these assessments, plus recommendations for countermeasures.
@@ -58,7 +193,7 @@ Defines "generative AI applications" as AI models generating synthetic content a
 
 ---
 
-DOC_ID: 104
+doc_105
 Amends title 18, United States Code, to prohibit the production or distribution of digital forgeries of intimate visual depictions without the consent of the identifiable individual involved.
 
 Defines digital forgery as an intimate visual depiction created or altered using software, machine learning, artificial intelligence, or other computer-generated means that appears authentic to a reasonable person.
@@ -75,7 +210,7 @@ Provides severability to ensure the statute's provisions remain effective even i
 
 ---
 
-DOC_ID: 105
+doc_106
 Control the export, re-export, and transfer of certain national interest technology and intellectual property, including AI, to China, starting 180 days after the Act's enactment.
 
 Require the Secretary of State and the Secretary of Commerce to report within 90 days on the necessity of controls under specific export regulations.
@@ -92,7 +227,7 @@ Include AI technologies in products receiving Chinese support under its industri
 
 ---
 
-DOC_ID: 106
+doc_107
 Require the Secretary of the Treasury, Secretary of Homeland Security, and Secretary of Commerce, in consultation with specified officials, to jointly submit annual reports to Congress on defending against financial crime risks posed by AI, including fraud and misinformation.
 
 Describe interagency policies and procedures to protect against these risks, listing available and needed resources, technologies, and budget estimates.
@@ -105,7 +240,7 @@ Submit recommendations to Congress within 90 days post-report, including legisla
 
 ---
 
-DOC_ID: 107
+doc_108
 Authorize the Small Business Administration to provide loans for business software, cloud computing services, and technology that utilize artificial intelligence.
 
 Permit these loans to support business operations, including the processing, payment, or tracking of payroll expenses, human resources, sales and billing functions, and accounting or tracking of supplies, inventory, records, and expenses.
@@ -118,7 +253,7 @@ Ensure the amendment does not alter the definition of working capital in the con
 
 ---
 
-DOC_ID: 108
+doc_109
 Amends title 18 of the United States Code to prohibit child pornography produced using artificial intelligence.
 
 Eliminates the affirmative defense in prosecutions involving AI-generated child pornography by removing certain clauses in Section 2252A(c).
@@ -129,7 +264,7 @@ Ensures that if any provision of the Act is held unconstitutional, the remaining
 
 ---
 
-DOC_ID: 109
+doc_110
 Leverages artificial intelligence and other emerging technologies to approximate the resources in transboundary hydrocarbon reservoirs.
 
 Requires the application of data analysis tools, AI, quantum computing, and modeling to refine resource estimates and reduce uncertainty.

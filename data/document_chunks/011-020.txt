@@ -1,4 +1,139 @@
-DOC_ID: 10
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_011
 Requires committees creating or distributing qualified political advertisements to include a disclosure stating, “Ad generated or substantially altered using artificial intelligence,” in a clear and conspicuous manner.
 
 Mandates that the disclosure be displayed or spoken as specified in existing sections of the Government Code.
@@ -15,7 +150,7 @@ Specifies that non-compliance does not constitute a misdemeanor.
 
 ---
 
-DOC_ID: 11
+doc_012
 Amends the California Civil Code to impose liability on individuals using a deceased personality's likeness without consent, including AI-generated digital replicas. Requires violators to compensate for unauthorized use, with statutory minimums and profit disgorgement. Excludes certain uses such as news, satire, and fleeting references from consent requirements. 
 
 Recognizes posthumous rights as transferable property interests, extending rights to heirs or designated persons. Limits rights duration to 70 years post-death and outlines specific inheritance rules. Mandates registration with the Secretary of State for enforcing claims, making these registrations public records.
@@ -24,7 +159,7 @@ Clarifies that certain artistic and informational works are exempt unless they s
 
 ---
 
-DOC_ID: 12
+doc_013
 Establishes monthly Generative AI meetings with legislative staff to discuss Executive Order N-12-23 implementation.
 
 Requires updates on deliverable completion, proof of concept implementation, and funding source identification.
@@ -43,7 +178,7 @@ Permits the use of de-identified data for research to justify resource requests 
 
 ---
 
-DOC_ID: 13
+doc_014
 Enacts the California AI Transparency Act, requiring covered providers of generative AI systems with significant user bases to offer free AI detection tools.
 
 Mandates that AI detection tools assess whether content was created or altered by the provider's AI, output system provenance data, and avoid personal provenance data.
@@ -60,7 +195,7 @@ Excludes specific entertainment products from applicability and sets the operati
 
 ---
 
-DOC_ID: 14
+doc_015
 Mandates health care service plans and disability insurers using AI for utilization review or management to comply with specific regulations.
 
 Requires AI tools to base decisions on individual clinical data and prohibits reliance solely on group datasets.
@@ -79,7 +214,7 @@ Stipulates that AI use should not harm enrollees and requires disclosure of AI u
 
 ---
 
-DOC_ID: 15
+doc_016
 Mandates the commission to consider incorporating AI literacy content into the mathematics, science, and history-social science curriculum frameworks when those frameworks are next revised after January 1, 2025.
 
 Requires the commission to consider including AI literacy in the criteria for evaluating mathematics, science, and history-social science instructional materials adopted by the state board after January 1, 2025.
@@ -90,7 +225,7 @@ Directs the commission to also consider including media literacy content in the 
 
 ---
 
-DOC_ID: 16
+doc_017
 Amends the Communications Act of 1934 to criminalize the publication of nonconsensual intimate visual depictions, including digital forgeries created using AI, in interstate or foreign commerce.
 
 Defines digital forgeries as depictions created with AI or other technological means that are indistinguishable from authentic depictions.
@@ -107,7 +242,7 @@ Provides exceptions for certain authorized law enforcement and good faith activi
 
 ---
 
-DOC_ID: 17
+doc_018
 The TAKE IT DOWN Act mandates covered platforms to remove nonconsensual intimate visual depictions, including those created by artificial intelligence (AI), known as digital forgeries. 
 
 Prohibits intentional disclosure of such depictions without consent, especially targeting AI-altered, identifiable images. 
@@ -128,7 +263,7 @@ Defines covered platforms as public websites or applications hosting user-genera
 
 ---
 
-DOC_ID: 18
+doc_019
 Defines key terms such as "artificial intelligence," "developer," "generative artificial intelligence," and "synthetic data generation" to clarify the scope and applicability of the regulations.
 
 Mandates developers of generative AI systems, including parties that release a new system or make substantial modifications to a system, released on or after January 1, 2022 to publicly disclose training data documentation on their websites by January 1, 2026, and for each subsequent release.
@@ -140,7 +275,7 @@ Exempts AI systems solely for security, aircraft operation in national airspace,
 
 ---
 
-DOC_ID: 19
+doc_020
 Amends the Public Utilities Code to regulate the use of automatic dialing-announcing devices in California.
 
 Requires person calling to make a natural voice announcement before using an automatic dialing-announcing device, which includes stating the nature of the call and the business or organization details; inquiring whether the called person consents to hear a prerecorded message; and informing the called person if the message uses an artificial voice.

@@ -1,4 +1,139 @@
-DOC_ID: 190
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_191
 Establishes an initiative to improve the usability of AI systems, that are used by Department of Defense personnel, by considering human factors and cognitive ergonomics. It mandates the development of a guidance plan for their inclusion and evaluation in current and future programs. 
 
 Establishes a program for high-performance computing infrastructure to support advanced AI capabilities, ensuring non-duplication with Department of Energy efforts. The instrument mandates the development of a roadmap that assesses the anticipated compute requirements, security standards, and relevant resources for the infrastructure required to enable advanced AI capabilities. 
@@ -9,7 +144,7 @@ Requires the Secretary of Defense to evaluate the feasibility of centers of exce
 
 ---
 
-DOC_ID: 191
+doc_192
 Appoints a civilian official as the Chief Digital Engineering Recruitment and Management Officer by April 30, 2025, responsible for AI workforce policy and planning in the Department of Defense.
 
 Requires the Officer to define and identify the AI workforce, clarify roles, code roles in workforce data systems, and develop qualification programs.
@@ -22,7 +157,7 @@ Demands a briefing to congressional defense committees within 240 days, detailin
 
 ---
 
-DOC_ID: 192
+doc_193
 Demands the Secretary of Defense to establish a Department of Defense working group to coordinate AI initiatives with U.S. allies and partners within 90 days of the Act's enactment.
 
 Designates a senior civilian or military officer to lead the group and determines allied participation.
@@ -39,7 +174,7 @@ Defines key terms such as "battlespace awareness" and "covered operational use."
 
 ---
 
-DOC_ID: 193
+doc_194
 Mandates the Secretary of Defense to implement a pilot program demonstrating artificial intelligence in national security-related biotechnology applications.
 
 Requires collaboration through public-private partnerships to execute the program.
@@ -56,7 +191,7 @@ Aims to assess the viability of transitioning technology developed in the pilot 
 
 ---
 
-DOC_ID: 194
+doc_195
 Amends the John S. McCain National Defense Authorization Act to include duties for the Chief Digital and Artificial Intelligence Officer Governing Council.
 
 Requires the Chief Digital and Artificial Intelligence Officer Governing Counci to evaluate and assesses AI models and technologies that could pose national security risks if accessed by U.S. adversaries.
@@ -66,7 +201,7 @@ Calls for the development of strategies to prevent unauthorized access and use o
 
 ---
 
-DOC_ID: 195
+doc_196
 Amends section 5306 to require public-private talent exchanges in intelligence or counterintelligence to focus on fields including artificial intelligence.
 
 Extends the duration of temporary details for such exchanges from 3 years to 5 years.
@@ -81,7 +216,7 @@ Mandates the Director of National Intelligence to submit annual reports to Congr
 
 ---
 
-DOC_ID: 196
+doc_197
 Mandates the Secretary of Defense to develop a multi-cloud management and cybersecurity strategy within 180 days.
 
 Requires the strategy to include the assessment of means to increase AI adoption in multi-cloud environments and the identification of opportunities for better data use and storage planning, enforcing government data protection in AI training.
@@ -90,7 +225,7 @@ Requires a briefing to congressional defense committees within 240 days.
 
 ---
 
-DOC_ID: 197
+doc_198
 Mandates the Secretary of Defense to study the use of unmanned ground vehicle systems by the Department of Defense manufactured by certain foreign entities.
 
 Requires submission of a report to congressional defense committees within 180 days, assessing usage, national security threats, and identifying foreign manufacturers.
@@ -109,7 +244,7 @@ Defines "covered foreign countries" including China, Russia, Iran, and North Kor
 
 ---
 
-DOC_ID: 198
+doc_199
 Require the Secretary of the Navy to provide a forum and resources for industry participation in developing a vendor-agnostic and platform-agnostic modular open systems architecture for maritime unmanned systems.
 
 Adopt or join a governance model that includes both Government and industry for the maritime unmanned systems standards.
@@ -122,7 +257,7 @@ Label and distribute the standards as open and publicly releasable information t
 
 ---
 
-DOC_ID: 199
+doc_200
 Requires federal agencies to identify, solicit proposals for, and lease federal lands suitable for AI data centers and related clean energy projects, aiming for full-capacity operation by the end of 2027.
 
 Emphasizes high labor standards and community collaboration, among other factors, in the selection of projects to account for health, safety, and ecological risks/harms.

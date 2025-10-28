@@ -1,4 +1,139 @@
-DOC_ID: 260
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_261
 Creates a law enforcement crime victims notification system to automatically update crime victims on their crime reports, investigations, and cases.
 
 Requires the notification system to provide a virtual agent that employs artificial intelligence to answer citizens' questions and respond to their comments through voice, text, or email. 
@@ -7,7 +142,7 @@ Appropriates funds for the creation of the notification system.
 
 ---
 
-DOC_ID: 261
+doc_262
 Requires the Commandant of the Coast Guard to coordinate activities and data related to identifying, demonstrating and deploying AI technology.
 
 Requires the Commandant to designate a senior Coast Guard official responsible for identifying, demonstrating and deploying AI technology and for convening other Coast Guard officials for AI-related purposes.
@@ -16,7 +151,7 @@ Requires the designated official to develop, and submit within two years, a stra
 
 ---
 
-DOC_ID: 262
+doc_263
 Directs the Secretary of Defense to study potential applications of artificial intelligence to Department of Defense platforms, processes, and operations, and to establish related metrics and objectives.
 
 Specifies study and metric requirements related to AI-related skill gaps; modernization activities; exercises, wargames, and experimentation; logistics and sustainment; and business operations.
@@ -25,7 +160,7 @@ Requires the Secretary to report to Congress within 120 days after completion of
 
 ---
 
-DOC_ID: 263
+doc_264
 Instructs the Secretary of Defense to modify the Joint Common Foundation Program and to ensure that the Department of Defense (DoD) can more easily contract with commercial AI companies for better support in efficiently developing new capabilities and applications. 
 
 Instructs the Secretary of Defense to facilitate an increase in the number of eligible commercial AI companies to support DoD components, including cybersecurity processes.
@@ -34,7 +169,7 @@ Instructs the Secretary of Defense to facilitate an increase in the number of el
 
 ---
 
-DOC_ID: 264
+doc_265
 Requires the Commander of the United States Cyber Command and the Chief Information Officer of the Department of Defense to develop a five-year implementation plan for rapidly adopting artificial intelligence systems to support the Department of Defense. 
 
 The plan shall: 
@@ -68,7 +203,7 @@ The plan shall:
 
 ---
 
-DOC_ID: 265
+doc_266
 Instructs the Secretary of Defense to develop a plan for establishing AI-related information technology infrastructure, including a technical plan and guidance, a governance structure with relevant guidance and policies, and prototype development and platform environments.
 
 Instructs the Secretary to harmonize the required plan with various existing plans and strategies. Establishes a plan working group comprised of senior DOD officials.
@@ -77,7 +212,7 @@ Instructs the Secretary to assemble enterprise data sets in various AI applicati
 
 ---
 
-DOC_ID: 266
+doc_267
 Instructs the Director of National Intelligence to submit a single report on the workforce needs of each element of the intelligence community relating to emerging technologies, with a specific focus on artificial intelligence.
         
 Requires a list of personnel in work roles whose primary official duties include artificial intelligence responsibilities.
@@ -94,7 +229,7 @@ Requires an assessment of any gaps in authorities, resources, recruitment or ret
 
 ---
 
-DOC_ID: 267
+doc_268
 Defines "automated employment decision tools" as computational processes used in discretionary employment decision making, including AI- and machine learning-derived processes.
 
 Requires businesses using automated employment decision tools in New York City to obtain impartial bias audits of the tools from independent auditors, and to disclose the results of the audits to the public online.
@@ -105,14 +240,14 @@ Establishes civil penalties for violations of the law and empowers the city corp
 
 ---
 
-DOC_ID: 268
+doc_269
 Instructs the Deputy Secretary of Defense to establish projects for data management, artificial intelligence, and digital solutions for business efficiency and war-fighting capabilities intended to accelerate decision advantage.
 
 Instructs the Deputy Secretary to task senior DOD officials with developing an actionable plan to integrate various AI applications into government operational environments, and to boost the population of government personnel with AI expertise.
 
 ---
 
-DOC_ID: 269
+doc_270
 Amends Section 41001(6)(A) of the FAST Act to include semiconductors, artificial intelligence, machine learning, cybersecurity, and various related technology-powered infrastructure to the FAST Act permitting program.
 
 ---

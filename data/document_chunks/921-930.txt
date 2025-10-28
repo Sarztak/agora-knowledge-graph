@@ -1,4 +1,139 @@
-DOC_ID: 920
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_921
 Mandates the board of trustees of the University of Tennessee, the board of regents, and local governing boards of state universities to adopt AI usage policies for students, faculty, and staff by July 1, 2025.
 
 Encourages public higher education institutions to collaborate on policy development and implementation for AI use.
@@ -13,7 +148,7 @@ Takes effect immediately upon becoming law, citing public welfare.
 
 ---
 
-DOC_ID: 921
+doc_922
 Establishes the Talent Innovation Program in the Maryland Department of Labor to increase access to high-quality job training, with a focus on industries such as artificial intelligence.
 
 Creates the Talent Innovation Fund as a special, nonlapsing fund to support the program, including job training and talent financing mechanisms.
@@ -30,7 +165,7 @@ Compels the Department to adopt regulations and report annually on program activ
 
 ---
 
-DOC_ID: 922
+doc_923
 Defines "synthetic media" as manipulated images, audio, or video that create a false impression of a real individual's appearance, speech, or conduct.
 
 Allows candidates to seek injunctive relief or damages if their appearance, speech, or conduct is altered using synthetic media in electioneering communications.
@@ -49,7 +184,7 @@ Mandates the public disclosure commission to adopt rules supporting this chapter
 
 ---
 
-DOC_ID: 923
+doc_924
 Create the Dyslexia Research Grant Program, administered by the State Department of Education, to support research on AI-based writing assistance for individuals with dyslexia.
 
 Allow privately owned businesses in Nebraska researching AI writing tools for dyslexia to apply for grants, using a prescribed form.
@@ -64,7 +199,7 @@ Authorize the State Board of Education to adopt rules and regulations to impleme
 
 ---
 
-DOC_ID: 924
+doc_925
 Amends the Managed Care Reform and Patient Rights Act to require utilization review programs using algorithmic automated processes to ensure that only clinical peers make adverse determinations based on medical necessity.
 
 Mandates these programs to register with the Department of Insurance every two years and provide proof of compliance with Health Utilization Management Standards or equivalent standards.
@@ -81,7 +216,7 @@ Authorizes the Department to issue corrective actions or cease and desist orders
 
 ---
 
-DOC_ID: 925
+doc_926
 Amends the penal law to include the unlawful dissemination or publication of intimate images created or altered by digitization.
 
 Defines "digitization" as altering an image realistically using other persons' images or computer-generated images.
@@ -96,7 +231,7 @@ Specifies that the act takes effect on the sixtieth day after becoming law.
 
 ---
 
-DOC_ID: 926
+doc_927
 Amends the election law to require disclosure for political communications using materially deceptive media.
 
 Mandates visual disclosures to be legibly printed, stating "This (image, video, or audio) has been manipulated."
@@ -115,12 +250,12 @@ Clarifies that federal law takes precedence over state requirements for media la
 
 ---
 
-DOC_ID: 927
+doc_928
 Bans the use of artificial intelligence in the hardware or software used to (a) count, process, or adjudicate ballots, or (b) verify voters' affidavits, in Arizona. 
 
 ---
 
-DOC_ID: 928
+doc_929
 Resolves to bridge AI and digital divides globally and promote safe, secure, and trustworthy AI systems to achieve Sustainable Development Goals.
 
 Encourages Member States and stakeholders to support regulatory frameworks for responsible AI, fostering innovation and equitable access to benefits.
@@ -139,7 +274,7 @@ Calls upon UN entities to assess AI challenges and assist developing countries i
 
 ---
 
-DOC_ID: 929
+doc_930
 Prohibits entities in Washington D.C. from determining eligibility for, or access to information about, "important life opportunities" (e.g., housing or employment) on the basis of race, color, religion, national origin, sex, gender identity or expression, sexual orientation, familial status, source of income, or disability in a discriminatory manner.
 
 Requires entities to provide a public notice describing any algorithmic tools they use to determine eligibility for, or access to information about, important life opportunities. The notice must be sent to any individual about whom such a determination is made.

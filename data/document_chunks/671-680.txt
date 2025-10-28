@@ -1,4 +1,139 @@
-DOC_ID: 670
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_671
 Prohibits the production or distribution of digital forgeries of intimate visual depictions of identifiable individuals without their consent, under penalty of fines or imprisonment up to 5 years.
 
 Exempts distributions made in good faith to law enforcement, during legal proceedings, for medical purposes, or in reporting/investigating unlawful content or conduct.
@@ -13,14 +148,14 @@ Ensures severability of the Act’s provisions if any part is found unconstituti
 
 ---
 
-DOC_ID: 671
+doc_672
 Mandates the exercise of emergency sanctions authorities regarding Communist Chinese military companies.
 
 Defines affected companies as those engaged in commercial services, manufacturing, producing, or exporting in the AI sector.
 
 ---
 
-DOC_ID: 672
+doc_673
 Mandates the Secretary of Agriculture to establish at least one center of excellence to conduct research, extension, and education activities.
 
 Designates eligible host institutions, including land-grant colleges and accredited veterinary schools, and requires geographic diversity in selection.
@@ -39,7 +174,7 @@ Expands the number of centers from 3 to 8 and extends the program's authorizatio
 
 ---
 
-DOC_ID: 673
+doc_674
 Requires the Secretary of Energy to identify, analyze, and share data to improve the reliability and resilience of the electric grid.
 
 Mandates the Secretary to consider data types, temporal frequency, and spatial resolution, especially in rural, low-income, and disadvantaged communities.
@@ -56,7 +191,7 @@ Authorizes $10 million for the first fiscal year to support these activities.
 
 ---
 
-DOC_ID: 674
+doc_675
 Requires the allocation of $2,900,000,000 for democracy programs from various appropriations, including $159,240,000 for the Bureau of Democracy, Human Rights, and Labor.
 
 Mandates the submission of a comprehensive five-year strategy for democracy promotion abroad within 180 days, addressing digital security, countering disinformation, and AI-related challenges.
@@ -69,7 +204,7 @@ Requires the regular informing of the National Endowment for Democracy about pla
 
 ---
 
-DOC_ID: 675
+doc_676
 Requires the President to identify, list, and annually update categories of technologies and products in the AI sector that pose acute threats to U.S. national security if acquired by adversaries.
 
 Requires the President to prescribe regulations prohibiting U.S. persons from engaging in covered activities involving listed technologies and products in the AI development sector.
@@ -82,7 +217,7 @@ Authorizes $25 million for implementation and allows direct hiring to administer
 
 ---
 
-DOC_ID: 676
+doc_677
 Requires the Election Assistance Commission to develop and issue voluntary guidelines for election offices addressing the use and risks of artificial intelligence (AI) technologies in election administration within 60 days of enactment.
 
 Mandates inclusion of guidelines on the risks and benefits of AI in election activities, cybersecurity risks, the impact of AI-generated information on sharing accurate election information, and the spread of election disinformation.
@@ -93,7 +228,7 @@ Requires the Election Assistance Commission to review and update the voluntary g
 
 ---
 
-DOC_ID: 677
+doc_678
 Establishes a deployment and testbed pilot program for new and innovative wildfire prevention, detection, communication, and mitigation technologies.
 
 Requires incorporation of the Pilot Program into an existing interagency coordinating group on wildfires.
@@ -110,7 +245,7 @@ Expires the Pilot Program on September 30, 2029.
 
 ---
 
-DOC_ID: 678
+doc_679
 Requires the Federal Aviation Administration (FAA) Administrator to issue a final rule within 24 months mandating safety management systems for certain operators under part 135 of title 14.
 
 Prohibits, beginning three years after enactment, commercial air tours without a certificate under part 119 of title 14, unless meeting specific temporary exceptions.
@@ -127,7 +262,7 @@ Authorizes appropriations as necessary to implement the Act.
 
 ---
 
-DOC_ID: 679
+doc_680
 Mandates the Commandant to submit a report within one year outlining a plan for establishing an unmanned systems capabilities office within the Coast Guard.
 
 Requires the report to include a management strategy for the acquisition, development, and deployment of unmanned and counter-unmanned system technologies.

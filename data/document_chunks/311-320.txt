@@ -1,4 +1,139 @@
-DOC_ID: 310
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_311
 Instructs the Director of National Intelligence, in consultation with the Director of the Office of Management and Budget and other intelligence officials to maintain, develop, and annually revise various AI policies.
 
 Requires the establishment of a lexicon relating to machine learning and AI use by the intelligence community.
@@ -9,14 +144,14 @@ Requires the establishment of guidelines for tracking dependencies in related sy
 
 ---
 
-DOC_ID: 311
+doc_312
 Directs the Under Secretary of Defense for Acquisition and Sustainment to establish a pilot program enhancing the analysis, mapping, and monitoring of supply chains for covered weapons platforms using artificial intelligence and machine learning tools.
 
 Requires the Under Secretary to submit an annual report (until 2028) that specifies the vulnerabilities of the supply chains and the efficiencies achieved through using the new tools.
 
 ---
 
-DOC_ID: 312
+doc_313
 Requires the Secretary of Defense in coordination with military leaders to develop streamlined requirements of development processes for the Department of Defense, in order to modernize war fighting technology and reduce the time needed to deliver capabilities to warfighters.
 
 Requires revisions to requirements management practices that maximizes the use of commercial products or services and allow for a broader range of new or alternative technological opportunities to be incorporated without the requirement being validated again.
@@ -35,7 +170,7 @@ Requires the Secretary of Defense to submit to the congressional defense committ
 
 ---
 
-DOC_ID: 313
+doc_314
 Requires officials from the Department of Defense -- namely the Principal Cyber Advisor to the Secretary of Defense, the Chief Information Officer of the Department of Defense, the Director of Operational Test and Evaluation, and the Commander of the United States Cyber Command -- to assess the status of the implementation of recommendations made by the Secretary of Defense to enhance the capabilities of the Department of Defense's cyber red teams.
 
 Requires the same officials listed above to submit to Congress a plan for ensuring that the Department's cyber red teams possess the capabilities necessary to execute their duties, including with respect to threats stemming from artificial intelligence systems abroad.
@@ -44,7 +179,7 @@ Requires the Director of Operational Test and Evaluation to evaluate annually, f
 
 ---
 
-DOC_ID: 314
+doc_315
 Requires the Director of National Intelligence, acting through the Director of the Intelligence Advanced Research Projects Activity, to establish or oversee a program to advance microelectronics research. 
 
 Requires the program described above to focus on applications in artificial intelligence, advanced computing, advanced computing materials, optical communication networks, quantum technologies, or other emerging technologies. 
@@ -55,7 +190,7 @@ Requires the Director of the Intelligence Advanced Research Projects Activity to
 
 ---
 
-DOC_ID: 315
+doc_316
 Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission. Include key milestones, testing events, and performance goals, subdivided into six-month increments. 
 
 Provide information on technology readiness levels, design maturity, software maturity, integration maturity, manufacturing readiness levels, reliability, availability for flight operations, and maintainability.
@@ -70,7 +205,7 @@ Ensure assessment of the sufficiency of matrices by the Comptroller General, who
 
 ---
 
-DOC_ID: 316
+doc_317
 Requires the Secretary of Commerce to submit to the congressional science committees a report on the resources necessary for the National Oceanic and Atmospheric Administration to invest in emerging technologies that improve weather forecasting.
 
 Permits the 53rd Weather Reconnaissance Squadron of the Air Force Reserve Command and the Administrator of the National Oceanic and Atmospheric Administration to use aircraft, personnel, and equipment necessary to improve the accuracy and efficacy of weather monitoring and water management, including through advanced technological methods.
@@ -82,17 +217,17 @@ Requires the Secretary of the Air Force to submit to the appropriate congression
 
 ---
 
-DOC_ID: 317
+doc_318
 Requires the Secretary of Defense to brief the congressional defense committees on the nature and purpose of any modifications to Department of Defense Directive 300.09, which relates to autonomy in weapons systems, within 30 days of making the modifications.
 
 ---
 
-DOC_ID: 318
+doc_319
 Requires leaders of the Army, Navy, Air Force, Marine Corps, and Space Operations to evaluate their ability to conduct electromagnetic spectrum operations. The evaluation should include the need for AI-assisted operations.
 
 ---
 
-DOC_ID: 319
+doc_320
 Creates a new Office of Strategic Capital in the Department of Defense.
 
 Directs the new Office to invest in companies developing critical technologies, including autonomous robots, that may benefit the Department of Defense. 

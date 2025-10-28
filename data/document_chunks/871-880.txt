@@ -1,4 +1,139 @@
-DOC_ID: 870
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_871
 Improve the working mechanism to promote AI standardization through the National Information Technology Standardization Technical Committee’s AI Technical Subcommittee.
 
 Develop key AI standards based on principles such as “advantages first, maturity first,” focusing on performance benchmarks and hardware virtual interfaces.
@@ -11,7 +146,7 @@ Strengthen international exchanges by connecting with organizations like ISO/IEC
 
 ---
 
-DOC_ID: 871
+doc_872
 Prohibits the use of GenAI for data classified as SENSITIVE or higher, and personal information should not be input into external GenAI tools.
 
 Recommends agencies avoid using GenAI for business-critical information, systems, or public-facing channels due to risks of inaccuracy and bias.
@@ -32,7 +167,7 @@ This guidance serves as an interim measure while longer-term AI regulatory frame
 
 ---
 
-DOC_ID: 872
+doc_873
 Mandates embedding ethical requirements throughout scientific and technological activities, including AI, ensuring responsible innovation.
 
 Requires adherence to rule of law in ethics governance, constructing a legal system for AI ethics.
@@ -55,7 +190,7 @@ Requires education and training on AI ethics for scientific personnel, raising a
 
 ---
 
-DOC_ID: 873
+doc_874
 Regulates algorithmic recommendation services and requires services to implement guidelines and provisions including:
 
 Establish management systems and technical measures for algorithm examination, user registration, information dissemination, security monitoring, incident response, data protection, and fraud prevention;
@@ -80,7 +215,7 @@ Specifies legal liabilities and penalties for violations.
 
 ---
 
-DOC_ID: 874
+doc_875
 Regulates international and interprovincial trade in AI systems by establishing common requirements for design, development, and use.
 
 Prohibits conduct related to AI systems that may cause serious harm to individuals or their interests.
@@ -101,7 +236,7 @@ Imposes offenses for making AI systems available that cause harm or economic los
 
 ---
 
-DOC_ID: 875
+doc_876
 Commits to continually evaluating and forecasting key areas of risk along several Tracked Risk Categories and indicating current pre- and post-mitigation risk in a Scorecard.
 
 Commits to establishing safety baselines where only models with a post-mitigation score of "medium" or below can be deployed and only models with a post-mitigation score of "high" or below can be developed further.
@@ -114,7 +249,7 @@ Tasks Preparedness team with conducting research, evaluations, and forecasting o
 
 ---
 
-DOC_ID: 876
+doc_877
 Strengthens international security governance on artificial intelligence (AI) and other emerging technologies, and prevents and manages potential security risks.
 
 Issues position papers on regulating military applications and strengthening ethical governance of AI.
@@ -135,7 +270,7 @@ Calls for the formulation of global rules on digital governance that reflect all
 
 ---
 
-DOC_ID: 877
+doc_878
 Calls for countries to regulate military applications of AI to prevent strategic miscalculation and maintain global stability.
 
 Urges countries to ensure military AI is not used to start wars or pursue dominance, respecting sovereignty and territorial security.
@@ -154,7 +289,7 @@ Encourages developed countries to aid developing nations in governance capacity,
 
 ---
 
-DOC_ID: 878
+doc_879
 Calls for governments to prioritize AI ethics by establishing comprehensive rules, norms, and accountability mechanisms.
 
 Emphasizes the need for AI ethical norms, laws, and policies to address potential risks and enhance AI security.
@@ -173,7 +308,7 @@ Advocates for international agreements on AI ethics, aiming to establish a widel
 
 ---
 
-DOC_ID: 879
+doc_880
 Establishes a governmental policy framework for AI regulation, emphasizing sector-specific regulation and consistency with international approaches.
 
 Adopts a risk-based approach and promotes incremental development and regulatory experimentation.

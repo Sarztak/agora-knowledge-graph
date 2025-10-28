@@ -1,4 +1,139 @@
-DOC_ID: 230
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_231
 Requires social media platforms to verify the age of users beyond simple attestations, using current age verification technologies.
 
 Prohibits social media platforms from allowing individuals under 13 from accessing their services.
@@ -15,7 +150,7 @@ Grants extraterritorial jurisdiction for violations involving individuals in the
 
 ---
 
-DOC_ID: 231
+doc_232
 Requires the Director of the Office of Management and Budget to issue guidance for transparent automated governance, ensuring compliance with privacy, civil rights, and civil liberties protections.
 
 Mandates agencies to disclose and allow appeals when utilizing automated systems for critical decisions affecting individuals’ rights or status.
@@ -28,7 +163,7 @@ Requires the Comptroller General to report on agency compliance, with reports su
 
 ---
 
-DOC_ID: 232
+doc_233
 Directs the Department of Energy (DOE) and the National Oceanic and Atmospheric Administration (NOAA) to collaborate on AI and high-performance computing research to improve climate models and weather prediction.
 
 Requires the establishment of a memorandum of understanding to facilitate this collaboration through a competitive, merit-reviewed process.
@@ -47,7 +182,7 @@ Ensures compliance with research security provisions under the CHIPS Act of 2022
 
 ---
 
-DOC_ID: 233
+doc_234
 Requires the Department of Defense to establish a course at the Defense Information School to provide education on digital content provenance for DoD media content, covering challenges from digital content forgery, industry-open technical standards, and techniques for secure digital content documentation.
 
 Mandates a report on the curriculum development and implementation plan for the course, including resource needs.
@@ -60,7 +195,7 @@ Requires a report detailing findings, consultations, effectiveness, and recommen
 
 ---
 
-DOC_ID: 234
+doc_235
 Requires organizations in New Zealand using AI tools to comply with the Privacy Act 2020 and its Information Privacy Principles. 
 
 Mandates senior leadership approval for AI tool usage and a privacy impact assessment (PIA) to evaluate privacy risks.
@@ -75,7 +210,7 @@ Encourages organizations to secure personal information and comply with access, 
 
 ---
 
-DOC_ID: 235
+doc_236
 Requires U.S. Infrastructure as a Service (IaaS) providers to implement a Customer Identification Program (CIP) for verifying foreign customers' identities and maintaining relevant records to prevent malicious cyber activities. 
 
 Obligates foreign resellers to adhere to similar CIP standards and mandates U.S. IaaS providers to report on these. 
@@ -92,7 +227,7 @@ Mandates reporting to the Department of Commerce for violations or suspicious ac
 
 ---
 
-DOC_ID: 236
+doc_237
 Regulates ICTS transactions designed, developed, manufactured, or supplied by individuals or entities owned by, controlled by, or under the jurisdiction of foreign adversaries, assessing undue risks as per Executive Order 13873.
 
 Defines key terms such as "Covered ICTS Transaction" and "Person owned by, controlled by, or subject to the jurisdiction or direction of a foreign adversary."
@@ -109,7 +244,7 @@ Requires recordkeeping and provides interagency consultation procedures during t
 
 ---
 
-DOC_ID: 237
+doc_238
 Requires a City Entity in St. Louis to obtain Board of Aldermen approval before accepting funds, acquiring, or using surveillance technology, including AI surveillance tools.
 
 Defines surveillance technology broadly to include AI-based systems.
@@ -132,7 +267,7 @@ Seeks to balance surveillance benefits with civil rights protections, assessing 
 
 ---
 
-DOC_ID: 238
+doc_239
 Establishes guidelines for using Generative AI within the City of San José, emphasizing privacy, accuracy, transparency, equity, accountability, and beneficial use.
 
 Requires users to cite AI where substantial content is AI-generated and to verify AI output against trustworthy sources.
@@ -147,7 +282,7 @@ Encourages active participation in AI workgroups and emphasizes the importance o
 
 ---
 
-DOC_ID: 239
+doc_240
 Establishes two distinct user segments for AI tools: City Employees and IT Professionals, requiring tailored training for each group.
 
 Instructs non-technical department leadership to set clear goals before AI tool deployment.

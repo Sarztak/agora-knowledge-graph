@@ -1,0 +1,376 @@
+[
+	{
+		"document_id": "doc_551",
+		"entities": [
+			{
+				"pattern": "Secretary of Education",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "computer science education",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "Tribal schools",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "STEAM education",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "grants",
+				"label": "PROGRAM"
+			}
+		]
+	},
+	{
+		"document_id": "doc_552",
+		"entities": [
+			{
+				"pattern": "FinCEN Modernization Act of 2023",
+				"label": "LAW"
+			},
+			{
+				"pattern": "FinCEN",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "data analytics",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "financial systems",
+				"label": "FINANCE"
+			},
+			{
+				"pattern": "cryptocurrencies",
+				"label": "FINANCE"
+			},
+			{
+				"pattern": "money laundering",
+				"label": "FINANCE"
+			},
+			{
+				"pattern": "cyber threats",
+				"label": "SECURITY_HARM"
+			},
+			{
+				"pattern": "Treasury offices",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "federal departments",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Congressional committees",
+				"label": "ORGANIZATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_553",
+		"entities": [
+			{
+				"pattern": "Environmental Protection Agency",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI models",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "data centers",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "AI model design",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "National Institute of Standards and Technology",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "open-source tools",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Secretary of Energy",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "consortium",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "voluntary reporting system",
+				"label": "MECHANISM"
+			}
+		]
+	},
+	{
+		"document_id": "doc_554",
+		"entities": [
+			{
+				"pattern": "Under Secretary of Commerce for Oceans and Atmosphere",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "National Oceanic and Atmospheric Administration",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "hazard risk communication office",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "research program",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "pilot program",
+				"label": "PROGRAM"
+			}
+		]
+	},
+	{
+		"document_id": "doc_555",
+		"entities": [
+			{
+				"pattern": "Department of Energy",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Department of Transportation",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "National Institute of Standards and Technology",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "National Pipeline Modernization Center",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "pipeline systems",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "measurement research",
+				"label": "RESEARCH_STAGE"
+			},
+			{
+				"pattern": "standardization programs",
+				"label": "STANDARD"
+			},
+			{
+				"pattern": "safety",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "security",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "efficiency",
+				"label": "BENCHMARK"
+			}
+		]
+	},
+	{
+		"document_id": "doc_556",
+		"entities": [
+			{
+				"pattern": "Supply Chain Resiliency and Crisis Response Office",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Under Secretary",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "supply chain resilience",
+				"label": "REQUIREMENT"
+			},
+			{
+				"pattern": "federal agencies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "labor organizations",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "international partners",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "domestic manufacturing",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "supply chains",
+				"label": "MECHANISM"
+			}
+		]
+	},
+	{
+		"document_id": "doc_557",
+		"entities": [
+			{
+				"pattern": "Secretary of Energy",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "NOAA Administrator",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "advanced computing techniques",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "high-performance computing systems",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "scientific computing infrastructure",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "centers of excellence",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "National Laboratories",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_558",
+		"entities": [
+			{
+				"pattern": "National Defense Authorization Act for Fiscal Year 2022",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Department of Defense",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI-driven endpoint security",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "software supply chain security",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "cyber data products and services",
+				"label": "TECHNOLOGY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_559",
+		"entities": [
+			{
+				"pattern": "National Institute of Standards and Technology",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "AI workforce framework",
+				"label": "POLICY"
+			},
+			{
+				"pattern": "educational institutions",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "National Initiative for Cybersecurity Education Workforce Framework for Cybersecurity",
+				"label": "STANDARD"
+			},
+			{
+				"pattern": "quantum information science",
+				"label": "TECHNOLOGY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_560",
+		"entities": [
+			{
+				"pattern": "AI-generated audio or visual media",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Federal election activities",
+				"label": "GOVERNMENT"
+			},
+			{
+				"pattern": "broadcasters",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "streaming services",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "periodicals",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "injunctive relief",
+				"label": "PENALTY"
+			},
+			{
+				"pattern": "damages",
+				"label": "PENALTY"
+			},
+			{
+				"pattern": "attorney's fees",
+				"label": "PENALTY"
+			}
+		]
+	}
+]

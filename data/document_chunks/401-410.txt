@@ -1,4 +1,139 @@
-DOC_ID: 400
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_401
 Requires manufacturers of radiological computer-assisted diagnostic software to provide a detailed description of the image analysis algorithms including inputs, outputs, major components, and limitations.
 
 Requires disclosure of pre-specified performance testing protocols used to assess whether the device will improve reader performance as intended.
@@ -11,7 +146,7 @@ Mandates labeling that details compatible imaging hardware and imaging protocols
 
 ---
 
-DOC_ID: 401
+doc_402
 Requires that adjunctive predictive cardiovascular indicators -- medical devices used to predict cardiovascular health -- be subject to special controls in the U.S. Those controls include the following:
 
 Requires a risk assessment of the device, including full disclosure of software specs and different inputs considered when making predictions about future cardiovascular health.
@@ -24,7 +159,7 @@ Requires a clinical data assessment that specifies the clinical data used and an
 
 ---
 
-DOC_ID: 402
+doc_403
 Classifies a software algorithm device to assist users in digital pathology -- an in vitro device intended to evaluate acquired scanned pathology whole slide images to assist in diagnosis -- into the U.S. Food and Drug Administration's class II, requiring special controls. That set of special controls:
 
 Requires detailed product labeling, including instructions for use and notices of the device's limitations.
@@ -37,7 +172,7 @@ Requires a risk management plan, including mechanisms to mitigate cybersecurity 
 
 ---
 
-DOC_ID: 403
+doc_404
 Labels over-the-counter use of electrocardiograph software devices as Class II (special controls), which requires manufactures to verify, validate, and conduct hazard analysis of detection algorithms in the devices.
 
 Mandates manufactures to produce clinical performance testing results that shows the performance characteristics of the detection algorithm by sensitivity and either specificity or positive predictive value.
@@ -48,7 +183,7 @@ Requires human factors and usability testing to demonstrate that the user can co
 
 ---
 
-DOC_ID: 404
+doc_405
 Classifies the adjunctive hemodynamic indicator with decision point -- a device that monitors medical conditions relating to blood flow -- into the Food & Drug Administration's class II, requiring special controls. That set of controls:
 
 Requires a full description of the technical parameters of the device's software and sensors.
@@ -65,7 +200,7 @@ Requires detailed product labeling.
 
 ---
 
-DOC_ID: 405
+doc_406
 Clarifies Section 1002 of the Consumer Financial Protection Act of 2010's definition of "service provider" to include digital marketing providers that use algorithmic models or other analytics to commingle the targeting and delivery of advertisements to consumers, rendering those providers subject to the Act's prohibition on unfair, deceptive, or abusive acts or practices.
 
 Outlines the ways in which digital marketers provide additional services beyond "time or space" and are materially involved in the development of content strategy -- often through the use of targeting and delivering algorithms -- thus qualifying them as "service providers" under the law.
@@ -74,7 +209,7 @@ Outlines specific circumstances in which digital marketers are and are not consi
 
 ---
 
-DOC_ID: 406
+doc_407
 Classifies the Cognoa ASD Diagnosis Aid, a machine-learning software program and device used in the diagnosis of Autism Spectrum Disorder, into the U.S. Food and Drug Administration's class II regulatory category requiring special controls. The mandated special controls are as follows:
 
 Requires clinical performance testing to demonstrate that the device performs as intended under anticipated conditions of use, including an evaluation of sensitivity, specificity, positive predictive value, and negative predictive value using a reference method of diagnosis and assessment of patient behavioral symptomology.
@@ -87,7 +222,7 @@ Requires detailed product labeling that includes instructions for the device's u
 
 ---
 
-DOC_ID: 407
+doc_408
 Requires disclosure of all inputs and outputs of algorithms used in coronary artery disease risk indicators.
 
 Requires manufacturers to divulge the procedure for segmenting, characterizing, and classifying the acoustic signal.
@@ -96,7 +231,7 @@ Mandates the verification of the algorithm calculations and validation using an 
 
 ---
 
-DOC_ID: 408
+doc_409
 Requires disclosure of inputs, outputs, components, and limitations of image analysis algorithms used in medical image analyzers.
 
 Requires performance testing that demonstrates the algorithms meaningfully improve the detection of abnormalities during patient radiographs.
@@ -107,7 +242,7 @@ Requires a detailed summary of the methodology behind the performance testing.
 
 ---
 
-DOC_ID: 409
+doc_410
 Classifies the Oxehealth Vital Signs device -- which uses software to enable camera-based measurement of pulse rate, heart rate, breathing rate, and/or respiratory rate -- into the U.S. Food and Drug Administration's class II, requiring special controls. The set of special controls:
 
 Requires a full characterization of the technical parameters of the device's software, as well as documentation of a cybersecurity vulnerability and management process to assure software functionality.

@@ -1,0 +1,145 @@
+[
+{
+"document_id": "doc_411",
+"entities": [
+{ "pattern": "Saranas Early Bird Bleed Monitoring System", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. Food and Drug Administration", "label": "ORGANIZATION" },
+{ "pattern": "algorithm", "label": "TECHNOLOGY" },
+{ "pattern": "performance testing", "label": "TESTING_STAGE" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "software verification", "label": "TESTING_STAGE" },
+{ "pattern": "validation", "label": "TESTING_STAGE" },
+{ "pattern": "hazard analysis", "label": "SAFETY" },
+{ "pattern": "product labeling", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_412",
+"entities": [
+{ "pattern": "Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "information and communications technology or service", "label": "TECHNOLOGY" },
+{ "pattern": "ICTS", "label": "TECHNOLOGY" },
+{ "pattern": "autonomous systems", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning software", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity risks", "label": "SAFETY" },
+{ "pattern": "penalties", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_413",
+"entities": [
+{ "pattern": "LIFT AI Act", "label": "LAW" },
+{ "pattern": "Director of the National Science Foundation", "label": "ROLE" },
+{ "pattern": "National Science Foundation", "label": "ORGANIZATION" },
+{ "pattern": "AI literacy curricula", "label": "EDUCATION" },
+{ "pattern": "AI literacy education", "label": "EDUCATION" },
+{ "pattern": "AI literacy evaluation tools", "label": "EDUCATION" },
+{ "pattern": "professional development courses", "label": "EDUCATION" },
+{ "pattern": "AI technologies", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_414",
+"entities": [
+{ "pattern": "Executive Director", "label": "ROLE" },
+{ "pattern": "Under Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Federal Acquisition Security Council", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "AI products or services", "label": "TECHNOLOGY" },
+{ "pattern": "intelligence activities", "label": "GOVERNMENT" },
+{ "pattern": "defense intelligence", "label": "MILITARY" },
+{ "pattern": "adversarial AI research", "label": "RESEARCH_STAGE" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "Russia", "label": "GEOGRAPHIC" },
+{ "pattern": "Iran", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_415",
+"entities": [
+{ "pattern": "explicit synthetic media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI-altered images", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI-altered videos", "label": "SYNTHETIC_DATA" },
+{ "pattern": "interactive computer services", "label": "ORGANIZATION" },
+{ "pattern": "telecommunications providers", "label": "ORGANIZATION" },
+{ "pattern": "July 1, 2024", "label": "REQUIREMENT" }
+]
+},
+{
+"document_id": "doc_416",
+"entities": [
+{ "pattern": "Chief Digital and Artificial Intelligence Officer Governing Council", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "AI ethics", "label": "FAIRNESS" },
+{ "pattern": "AI governance coordination", "label": "ACCOUNTABILITY" },
+{ "pattern": "bias in AI systems", "label": "FAIRNESS" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_417",
+"entities": [
+{ "pattern": "Federal Digital Platform Commission", "label": "ORGANIZATION" },
+{ "pattern": "Code Council", "label": "ORGANIZATION" },
+{ "pattern": "digital platforms", "label": "TECHNOLOGY" },
+{ "pattern": "social media", "label": "TECHNOLOGY" },
+{ "pattern": "algorithmic processes", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "recommendation systems", "label": "TECHNOLOGY" },
+{ "pattern": "risk assessments", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_418",
+"entities": [
+{ "pattern": "Drug Enforcement Administration", "label": "ORGANIZATION" },
+{ "pattern": "DEA", "label": "ORGANIZATION" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "electronic communication service providers", "label": "ORGANIZATION" },
+{ "pattern": "remote computing services", "label": "ORGANIZATION" },
+{ "pattern": "law enforcement agencies", "label": "ORGANIZATION" },
+{ "pattern": "broadband internet access service providers", "label": "ORGANIZATION" },
+{ "pattern": "data minimization", "label": "PRIVACY" },
+{ "pattern": "criminal and civil penalties", "label": "PENALTY" },
+{ "pattern": "annual reports", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_419",
+"entities": [
+{ "pattern": "Federal Election Campaign Act of 1971", "label": "LAW" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "fraudulent misrepresentation", "label": "CRIME" },
+{ "pattern": "political campaigns", "label": "GOVERNMENT" },
+{ "pattern": "fraudulent solicitation", "label": "CRIME" }
+]
+},
+{
+"document_id": "doc_420",
+"entities": [
+{ "pattern": "Five AIs Strategic Artificial Intelligence Working Group", "label": "ORGANIZATION" },
+{ "pattern": "Five Eyes countries", "label": "ORGANIZATION" },
+{ "pattern": "Australia", "label": "GEOGRAPHIC" },
+{ "pattern": "Canada", "label": "GEOGRAPHIC" },
+{ "pattern": "New Zealand", "label": "GEOGRAPHIC" },
+{ "pattern": "UK", "label": "GEOGRAPHIC" },
+{ "pattern": "US", "label": "GEOGRAPHIC" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "AI interoperability", "label": "STANDARD" },
+{ "pattern": "ethical frameworks", "label": "POLICY" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "intelligence sharing", "label": "GOVERNMENT" },
+{ "pattern": "battlespace awareness", "label": "MILITARY" },
+{ "pattern": "commercial AI technologies", "label": "TECHNOLOGY" },
+{ "pattern": "export laws", "label": "LAW" },
+{ "pattern": "national security interests", "label": "SAFETY_HARM" }
+]
+}
+]

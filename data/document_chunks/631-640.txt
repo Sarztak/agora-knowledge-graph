@@ -1,4 +1,139 @@
-DOC_ID: 630
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_631
 Amends the Elementary and Secondary Education Act of 1965 to expand career counseling opportunities.
 
 Requires career counseling programs to leverage resources and emerging technologies, including artificial intelligence.
@@ -15,7 +150,7 @@ Mandates the evaluation of secondary and postsecondary outcomes for individuals 
 
 ---
 
-DOC_ID: 631
+doc_632
 Establishes the National Mesonet Program within the National Weather Service to improve weather observation and forecasting.
 
 Requires the program to leverage commercial, academic, and other non-Federal weather data to enhance coordination across sectors.
@@ -34,7 +169,7 @@ Allocates specified funding amounts for fiscal years 2024 through 2028 to suppor
 
 ---
 
-DOC_ID: 632
+doc_633
 Amends the duties of the Research Commissioner to include maintaining peer-review standards and supporting scientifically valid research.
 
 Requires the Commissioner to propose and implement a research plan, ensuring the research is relevant and informs decision-making.
@@ -51,7 +186,7 @@ Supports research on educational technology, including artificial intelligence, 
 
 ---
 
-DOC_ID: 633
+doc_634
 Requires the Director of the Defense Media Activity (DMA) to establish a course of education at the Defense Information School (DINFOS) on digital content provenance within one year of enactment.
 
 Mandates the course to cover digital content provenance, challenges posed by digital content forgery, and the use of industry open technical standards for authenticating digital content.
@@ -64,7 +199,7 @@ Defines key terms including "digital content forgery" and "digital content prove
 
 ---
 
-DOC_ID: 634
+doc_635
 Resumes border wall system construction, requiring the Secretary of Homeland Security to restart halted projects and honor previous agreements.
 
 Prohibits the cancellation of contracts related to border wall construction entered into before January 20, 2021.
@@ -85,7 +220,7 @@ Mandates a report within 60 days on how the Department of Homeland Security is m
 
 ---
 
-DOC_ID: 635
+doc_636
 Designates the Deputy Administrator of the Federal Aviation Administration (FAA) as the executive responsible for advanced aviation integration.
 
 Requires coordination across FAA offices to ensure safe operation and integration of advanced aviation systems, including policy, rulemaking, and workforce planning.
@@ -104,7 +239,7 @@ Authorizes the Secretary of Transportation to facilitate interagency coordinatio
 
 ---
 
-DOC_ID: 636
+doc_637
 Requires the Secretary of Homeland Security to assess the use of social media and online platforms by transnational criminal organizations for recruitment and illicit activities within 180 days.
 
 Mandates submission of a National Strategy to Combat Illicit Recruitment Activity by Transnational Criminal Organizations on Social Media and Online Platforms within one year.
@@ -121,7 +256,7 @@ Designates a specific official within U.S. Customs and Border Protection to mana
 
 ---
 
-DOC_ID: 637
+doc_638
 Requires the Secretary of Transportation to issue regulations within 12 months of enactment.
 
 Prohibits the movement of trains from switchyards before completing all required brake inspections.
@@ -132,7 +267,7 @@ Ensures that inspections using AI or camera-based systems under part 215 of titl
 
 ---
 
-DOC_ID: 638
+doc_639
 Authorize appropriations of $2,500,000 annually from fiscal years 2023 to 2027 to the Office of Science and Technology Policy for hiring specialists in AI, crypto assets, and distributed ledger technology, available until the end of the subsequent fiscal year.
 
 Require these funds to support positions coordinating Federal activities and advising the President on research and development strategies related to these technologies.
@@ -143,7 +278,7 @@ Require these funds to support positions coordinating Federal activities and adv
 
 ---
 
-DOC_ID: 639
+doc_640
 Prohibits covered entities from collecting, processing, maintaining, or disclosing personal information for behavioral personalization without affirmative express consent.
 
 Requires covered entities to obtain express affirmative consent before providing behaviorally personalized products or services, and annually thereafter.

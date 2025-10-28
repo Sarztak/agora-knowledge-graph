@@ -1,4 +1,139 @@
-DOC_ID: 820
+
+SYSTEM ROLE
+You are an expert NER annotator specializing in labeling regulatory and policy documents using a predefined taxonomy.
+Follow every instruction exactly — do not generate Python code or pseudocode.
+Your sole task is to read the provided documents, match entities according to the taxonomy below, and return a single JSON file with the labeled output.
+
+Entity Tag Schema - Listed below. Each tag defines an allowed entity type and its description.
+
+ENTITY TAG SCHEMA
+ORGANIZATION    Agencies, companies, bodies, institutions
+ROLE            People, positions, officers, officials
+LAW             Formal legislation, acts, statutes
+POLICY          Guidelines, frameworks, executive orders
+STANDARD        Technical standards, protocols
+REQUIREMENT     Specific obligations, mandates
+PROGRAM         Initiatives, projects, pilot programs
+TECHNOLOGY      Systems, platforms, tools, models
+DOCUMENT        Reports, records, assessments, inventories
+GEOGRAPHIC      Locations, jurisdictions, regions
+PRIVACY         Data protection, confidentiality, personal information
+FAIRNESS        Non-discrimination, equity, bias mitigation
+TRANSPARENCY    Explainability, disclosure, interpretability
+SAFETY          Reliability, security, robustness
+ACCOUNTABILITY  Responsibility, oversight, governance
+HUMAN_RIGHTS    Fundamental rights protection, civil liberties
+
+# Application Domains
+HEALTHCARE      Medical, health applications, clinical tools
+FINANCE         Banking, financial services, insurance
+EDUCATION       Learning, educational tools, training
+TRANSPORTATION  Autonomous vehicles, logistics, aviation
+JUSTICE         Legal, criminal justice systems, law enforcement
+EMPLOYMENT      Hiring, workplace AI, labor
+GOVERNMENT      Public sector applications, civic services
+MILITARY        Defense, national security, intelligence
+CONSUMER        Consumer-facing applications, retail
+
+# Risk and Harm Types
+DISCRIMINATION_HARM  Bias, unfair treatment, algorithmic discrimination
+PRIVACY_HARM         Data breaches, surveillance, unauthorized access
+SAFETY_HARM          Physical injury, system failures, accidents
+ECONOMIC_HARM        Job loss, financial damage, market disruption
+SECURITY_HARM        Cyber attacks, weaponization, vulnerabilities
+SOCIAL_HARM          Polarization, misinformation, manipulation
+AUTONOMY_HARM        Loss of human control, coercion
+
+# Lifecycle Stages
+RESEARCH_STAGE       Basic research, development, ideation
+TRAINING_STAGE       Model training, data collection, fine-tuning
+TESTING_STAGE        Validation, evaluation, auditing
+DEPLOYMENT_STAGE     Implementation, launch, operationalization
+MONITORING_STAGE     Ongoing oversight, auditing, tracking
+DECOMMISSION_STAGE   Retirement, sunsetting, phase-out
+
+# Risk Categories
+ALIGNMENT_RISK       Goal misalignment, value drift
+EMERGENCE_RISK       Unexpected capabilities, emergent behaviors
+MISUSE_RISK          Malicious use cases, dual-use concerns
+STRUCTURAL_RISK      Systemic impacts, cascading failures
+
+# AI System Types
+FRONTIER_AI          Highly capable, cutting-edge systems
+GENERAL_PURPOSE_AI   Broad capability systems, foundation models
+NARROW_AI            Domain-specific applications, specialized systems
+EMERGENT_CAPABILITY  Unexpected abilities, novel behaviors
+
+# Data Types
+TRAINING_DATA        Data used for model training
+PERSONAL_DATA        Individual identifiable information
+SENSITIVE_DATA       Protected category data (race, health, etc.)
+PUBLIC_DATA          Openly available data
+SYNTHETIC_DATA       AI-generated data
+
+# Other Categories
+STAKEHOLDER          Affected groups, communities, civil society, developers, users
+MECHANISM            Implementation tools, processes, enforcement methods
+BENCHMARK            Metrics, measurements, impact estimates
+PENALTY              Fines, sanctions, civil or criminal remedies
+
+
+TASK DESCRIPTION
+1. You must label all complete entity mentions in the provided documents that correspond to the definitions above.
+2. Each labeled entity must be associated with exactly one tag from the schema.
+
+ANNOTATION RULES
+1. Case-insensitive matching — “Department of Energy” and “department of energy” are treated the same.
+2. Exact phrase matching only — No partial or fuzzy matches.
+3. No guessing — Label only if the text clearly matches a known entity or fits the description.
+4. Repeatable labeling — If the same entity appears multiple times, label every occurrence.
+5. Mutual exclusivity — Each phrase can have only one label.
+6. Non-overlapping spans — Do not assign two labels to overlapping text.
+7. Precision over recall — Avoid false positives.
+
+OUTPUT FORMAT
+Return your result as a single JSON array.
+ Each item represents one document and must follow this structure:
+{
+  "document_id": "doc_001",
+  "entities": [
+    { "pattern": "Department of Energy", "label": "ORGANIZATION" },
+    { "pattern": "Executive Order 14110", "label": "LAW" },
+    { "pattern": "machine learning", "label": "TECHNOLOGY" }
+  ]
+}
+
+Document IDs in the document_id field must match the document ids given for each document in the input.
+
+EXPECTED OUTPUT
+1. Output only the JSON data — no explanations, summaries, or commentary.
+2. Include every entity that matches the schema definitions.
+3. Ensure the JSON is well-formatted and valid.
+4. The output must be complete, covering all documents in the input file.
+
+
+EXAMPLE OUTPUT
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      { "pattern": "Defense Advanced Research Projects Agency", "label": "ORGANIZATION" },
+      { "pattern": "AI Bill of Rights", "label": "POLICY" },
+      { "pattern": "reinforcement learning", "label": "TECHNOLOGY" },
+      { "pattern": "United States", "label": "GEOGRAPHIC" }
+    ]
+  }
+]
+
+
+FINAL INSTRUCTION
+1. Go through every document and identify all valid entity mentions based on the taxonomy above, and output a single JSON file exactly in the format specified.
+2. Do not provide code or intermediate explanations — only the final JSON file as your complete answer.
+3. Provide the answers in a downloadable json file with name as <start document id>-<end document id>.json
+
+NOW PROCESS THE FOLLOWING DOCUMENTS:
+
+doc_821
 Establishes common rules for non-contractual fault-based civil claims related to damages caused by high-risk AI systems.
 
 Requires disclosure of evidence from AI providers or users to substantiate claims, with courts empowered to order such disclosures.
@@ -17,7 +152,7 @@ Obligates Member States to transpose the Directive into national law within two 
 
 ---
 
-DOC_ID: 821
+doc_822
 Facilitates AI development and deployment through Amazon Web Services (AWS), offering a comprehensive suite of AI and ML services, including Amazon Bedrock and Amazon Titan Foundation Models, which support generative AI applications.
 
 Implements risk management and safety protocols, including systematic model evaluation, red teaming, and ongoing security assessments, to mitigate potential AI risks.
@@ -34,7 +169,7 @@ Monitors AI misuse post-release, employing classifier guardrails and automated a
 
 ---
 
-DOC_ID: 822
+doc_823
 States that OpenAI's is establishing a Preparedness Framework to manage risks from frontier AI models, focusing on a development process governance structure and preemption of catastrophic outcomes; this work will complement existing risk mitigation work and includes a joint Deployment Safety Board with Microsoft. 
 
 States that OpenAI is creating Superalignment and Preparedness teams within the company to align AI systems with human intent and track and prepare for frontier risks, including cybersecurity, CBRN, persuasion, and autonomous replication and adaptation. Notes that OpenAI is also increasing investment into cybersecurity and insider threat safeguards.
@@ -51,7 +186,7 @@ States that OpenAI implemented data input controls and provides mechanisms for u
 
 ---
 
-DOC_ID: 823
+doc_824
 Mandates that inventors named on U.S. patents and applications must be natural persons, reaffirming that AI systems cannot be recognized as inventors.
 
 Clarifies that AI-assisted inventions are not unpatentable due to improper inventorship, provided a natural person significantly contributed to the invention's conception.
@@ -68,7 +203,7 @@ Prohibits naming AI systems as inventors in priority claims for U.S. patents and
 
 ---
 
-DOC_ID: 824
+doc_825
 Commits Inflection to a disciplined, phased approach to scaling AI models, emphasizing pre-deployment safety, post-launch monitoring, and global governance.
 
 Requires robust evaluations and third-party red-teaming before public launch to ensure models do not provide harmful information or engage in discriminatory conduct.
@@ -89,7 +224,7 @@ Promotes cross-industry collaboration for identifying AI-generated material, foc
 
 ---
 
-DOC_ID: 825
+doc_826
 Grants agencies discretionary authority to use various pay flexibilities, incentive pay, and leave and workforce flexibility programs to recruit, relocate, and retain AI and key technical employees.
 
 Allows recruitment, relocation, and retention incentives up to 25% of basic pay, and provides for waivers to increase this limit to 50% based on critical needs.
@@ -106,7 +241,7 @@ Encourages collaboration with agency officials to design tailored recruitment an
 
 ---
 
-DOC_ID: 826
+doc_827
 Establishes a licensing regime requiring companies developing sophisticated A.I. models to register with an independent oversight body. 
 
 Requires developers to maintain risk management, pre-deployment testing, and reporting programs as part of licensing conditions.
@@ -125,7 +260,7 @@ Obliges companies to implement consumer protections, including safety brakes and
 
 ---
 
-DOC_ID: 827
+doc_828
 Amends health IT certification criteria to include "Predictive Decision Support Intervention," addressing decision-making support based on algorithms for predictions, classifications, and recommendations.
 
 Mandates that health IT systems enable recording of patient demographics, including race, ethnicity, sex, sexual orientation, gender identity, and pronouns, using specified standards.
@@ -140,7 +275,7 @@ Incorporates by reference various health information standards, including HL7, L
 
 ---
 
-DOC_ID: 828
+doc_829
 Requires recipients to address sex-based harassment within their education programs or activities, including off-campus and remote settings, aligning with recent court decisions.
 
 Clarifies that institutions are responsible for discrimination within contexts they control, such as AI technologies used in educational settings.
@@ -153,7 +288,7 @@ Deletes references to sex-based harassment occurring outside the U.S. but mainta
 
 ---
 
-DOC_ID: 829
+doc_830
 Require railroads seeking to use automation technology non-compliant with FRA safety regulations to file a petition for rulemaking or a waiver.
 
 Mandate a risk assessment before initiating operations under special approval processes.
