@@ -1,0 +1,140 @@
+[
+{
+"document_id": "doc_761",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "artificial intelligence-enabled software", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Defense Contract Management Agency", "label": "ORGANIZATION" },
+{ "pattern": "Under Secretary of Defense for Acquisition and Sustainment", "label": "ROLE" },
+{ "pattern": "Secretaries of the Army", "label": "ROLE" },
+{ "pattern": "Navy", "label": "ORGANIZATION" },
+{ "pattern": "Air Force", "label": "ORGANIZATION" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_762",
+"entities": [
+{ "pattern": "Fireshed Center", "label": "PROGRAM" },
+{ "pattern": "Forest Service", "label": "ORGANIZATION" },
+{ "pattern": "U.S. Geological Survey", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Fireshed Registry", "label": "DOCUMENT" },
+{ "pattern": "cybersecurity processes", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_763",
+"entities": [
+{ "pattern": "Artificial Intelligence Security Center", "label": "ORGANIZATION" },
+{ "pattern": "National Security Agency", "label": "ORGANIZATION" },
+{ "pattern": "Cybersecurity Collaboration Center", "label": "ORGANIZATION" },
+{ "pattern": "AI security research", "label": "RESEARCH_STAGE" },
+{ "pattern": "Artificial Intelligence Safety Institute", "label": "ORGANIZATION" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI security", "label": "SAFETY" },
+{ "pattern": "AI adoption practices", "label": "POLICY" },
+{ "pattern": "national security systems", "label": "GOVERNMENT" },
+{ "pattern": "defense industrial base", "label": "MILITARY" }
+]
+},
+{
+"document_id": "doc_764",
+"entities": [
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "National Wildfire Coordinating Group", "label": "ORGANIZATION" },
+{ "pattern": "remote sensing", "label": "TECHNOLOGY" },
+{ "pattern": "Fire Weather Testbed", "label": "PROGRAM" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "quantum sensing", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_765",
+"entities": [
+{ "pattern": "Director of the National Institute of Standards and Technology", "label": "ROLE" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "National Vulnerability Database", "label": "DOCUMENT" },
+{ "pattern": "AI security vulnerabilities", "label": "SAFETY" },
+{ "pattern": "Cybersecurity and Infrastructure Security Agency", "label": "ORGANIZATION" },
+{ "pattern": "Common Vulnerabilities and Exposures Program", "label": "PROGRAM" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "AI supply chain risks", "label": "SAFETY" },
+{ "pattern": "open-source datasets", "label": "PUBLIC_DATA" },
+{ "pattern": "proprietary datasets", "label": "TRAINING_DATA" }
+]
+},
+{
+"document_id": "doc_766",
+"entities": [
+{ "pattern": "United States", "label": "GEOGRAPHIC" },
+{ "pattern": "Government of the People's Republic of China", "label": "GOVERNMENT" },
+{ "pattern": "Chinese Communist Party", "label": "ORGANIZATION" },
+{ "pattern": "Secretary of the Treasury", "label": "ROLE" },
+{ "pattern": "Chinese government", "label": "GOVERNMENT" },
+{ "pattern": "Made in China 2025", "label": "POLICY" },
+{ "pattern": "14th Five Year Smart Manufacturing Development Plan", "label": "POLICY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "robotics", "label": "TECHNOLOGY" },
+{ "pattern": "United States financial institution", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_767",
+"entities": [
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "U.S. Government", "label": "GOVERNMENT" },
+{ "pattern": "AI-related security and biosecurity risks", "label": "SAFETY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "research", "label": "RESEARCH_STAGE" },
+{ "pattern": "risk management frameworks", "label": "POLICY" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_768",
+"entities": [
+{ "pattern": "Secretary of Health and Human Services", "label": "ROLE" },
+{ "pattern": "Medicare", "label": "PROGRAM" },
+{ "pattern": "remote monitoring devices", "label": "TECHNOLOGY" },
+{ "pattern": "AI components", "label": "TECHNOLOGY" },
+{ "pattern": "continuous glucose monitors", "label": "TECHNOLOGY" },
+{ "pattern": "healthcare providers", "label": "HEALTHCARE" }
+]
+},
+{
+"document_id": "doc_769",
+"entities": [
+{ "pattern": "National Synthetic Biology Center", "label": "ORGANIZATION" },
+{ "pattern": "synthetic biology", "label": "TECHNOLOGY" },
+{ "pattern": "agriculture", "label": "PROGRAM" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "nonprofits", "label": "ORGANIZATION" },
+{ "pattern": "national laboratories", "label": "ORGANIZATION" },
+{ "pattern": "technology transfer offices", "label": "ORGANIZATION" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_770",
+"entities": [
+{ "pattern": "SAFE Bet Act", "label": "LAW" },
+{ "pattern": "sports wagering", "label": "PROGRAM" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "sports wagering operators", "label": "STAKEHOLDER" },
+{ "pattern": "state sports wagering programs", "label": "PROGRAM" },
+{ "pattern": "consumer protections", "label": "POLICY" },
+{ "pattern": "data security", "label": "SAFETY" },
+{ "pattern": "recordkeeping", "label": "REQUIREMENT" },
+{ "pattern": "national self-exclusion list", "label": "DOCUMENT" },
+{ "pattern": "public health initiatives", "label": "PROGRAM" },
+{ "pattern": "states", "label": "GOVERNMENT" },
+{ "pattern": "tribes", "label": "STAKEHOLDER" }
+]
+}
+]

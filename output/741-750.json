@@ -1,0 +1,148 @@
+[
+{
+"document_id": "doc_741",
+"entities": [
+{ "pattern": "Federal Communications Commission", "label": "ORGANIZATION" },
+{ "pattern": "FCC", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence-generated content", "label": "TECHNOLOGY" },
+{ "pattern": "political advertisements", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_742",
+"entities": [
+{ "pattern": "Energy Independence and Security Act of 2007", "label": "LAW" },
+{ "pattern": "machine learning algorithms", "label": "TECHNOLOGY" },
+{ "pattern": "Geothermal Technologies Office", "label": "ORGANIZATION" },
+{ "pattern": "supercritical geothermal research and development program", "label": "PROGRAM" },
+{ "pattern": "geothermal data", "label": "PUBLIC_DATA" },
+{ "pattern": "Secretary of the Interior", "label": "ROLE" },
+{ "pattern": "geothermal mapping", "label": "TECHNOLOGY" },
+{ "pattern": "geothermal center of excellence", "label": "PROGRAM" },
+{ "pattern": "geothermal resource assessments", "label": "DOCUMENT" },
+{ "pattern": "geothermal resource potential", "label": "BENCHMARK" }
+]
+},
+{
+"document_id": "doc_743",
+"entities": [
+{ "pattern": "Secretaries of Education and Health & Human Services", "label": "ROLE" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "social media", "label": "TECHNOLOGY" },
+{ "pattern": "educational toolkits", "label": "DOCUMENT" },
+{ "pattern": "students", "label": "STAKEHOLDER" },
+{ "pattern": "parents & guardians", "label": "STAKEHOLDER" },
+{ "pattern": "educators", "label": "STAKEHOLDER" },
+{ "pattern": "administrators", "label": "STAKEHOLDER" },
+{ "pattern": "healthcare professionals", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_744",
+"entities": [
+{ "pattern": "Bureau of Industry and Security", "label": "ORGANIZATION" },
+{ "pattern": "AI capabilities", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "AI and machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "international partners", "label": "STAKEHOLDER" },
+{ "pattern": "Under Secretary", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "export controls", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_745",
+"entities": [
+{ "pattern": "Federal Food, Drug, and Cosmetic Act", "label": "LAW" },
+{ "pattern": "social media influencers", "label": "STAKEHOLDER" },
+{ "pattern": "healthcare providers", "label": "STAKEHOLDER" },
+{ "pattern": "telehealth providers", "label": "STAKEHOLDER" },
+{ "pattern": "Secretary of Health and Human Services", "label": "ROLE" },
+{ "pattern": "Federal Trade Commission", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "prescription drugs", "label": "HEALTHCARE" },
+{ "pattern": "civil penalties", "label": "PENALTY" },
+{ "pattern": "market surveillance", "label": "MONITORING_STAGE" }
+]
+},
+{
+"document_id": "doc_746",
+"entities": [
+{ "pattern": "Federal Reserve", "label": "ORGANIZATION" },
+{ "pattern": "FDIC", "label": "ORGANIZATION" },
+{ "pattern": "OCC", "label": "ORGANIZATION" },
+{ "pattern": "NCUA", "label": "ORGANIZATION" },
+{ "pattern": "CFPB", "label": "ORGANIZATION" },
+{ "pattern": "AI knowledge gaps", "label": "RESEARCH_STAGE" },
+{ "pattern": "financial services", "label": "FINANCE" },
+{ "pattern": "AI-assisted tasks", "label": "TECHNOLOGY" },
+{ "pattern": "AI governance and oversight standards", "label": "STANDARD" },
+{ "pattern": "regulatory authorities", "label": "GOVERNMENT" },
+{ "pattern": "agency use of AI", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_747",
+"entities": [
+{ "pattern": "Sherman Act", "label": "LAW" },
+{ "pattern": "Clayton Act", "label": "LAW" },
+{ "pattern": "Federal Trade Commission", "label": "ORGANIZATION" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "State Attorneys General", "label": "ROLE" },
+{ "pattern": "rental property owners", "label": "STAKEHOLDER" },
+{ "pattern": "coordinators", "label": "STAKEHOLDER" },
+{ "pattern": "non-competitive agreements", "label": "POLICY" },
+{ "pattern": "treble damages", "label": "PENALTY" },
+{ "pattern": "litigation costs", "label": "FINANCE" },
+{ "pattern": "State, Tribal, or local laws", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_748",
+"entities": [
+{ "pattern": "Medicare Advantage plans", "label": "PROGRAM" },
+{ "pattern": "electronic prior authorization program", "label": "PROGRAM" },
+{ "pattern": "AI technologies", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of Health and Human Services", "label": "ROLE" },
+{ "pattern": "Medicare Payment Advisory Commission", "label": "ORGANIZATION" },
+{ "pattern": "Centers for Medicare & Medicaid Services", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "prior authorization requests", "label": "DOCUMENT" },
+{ "pattern": "transparency requirements", "label": "REQUIREMENT" },
+{ "pattern": "patient access", "label": "HEALTHCARE" }
+]
+},
+{
+"document_id": "doc_749",
+"entities": [
+{ "pattern": "Public Health Service Act", "label": "LAW" },
+{ "pattern": "NIH Director", "label": "ROLE" },
+{ "pattern": "AI resources", "label": "TECHNOLOGY" },
+{ "pattern": "datasets", "label": "TRAINING_DATA" },
+{ "pattern": "National Coordinator for Health IT", "label": "ROLE" },
+{ "pattern": "electronic health records", "label": "PERSONAL_DATA" },
+{ "pattern": "national interoperability frameworks", "label": "STANDARD" },
+{ "pattern": "hospitals", "label": "HEALTHCARE" },
+{ "pattern": "National Library of Medicine", "label": "ORGANIZATION" },
+{ "pattern": "core data science program", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_750",
+"entities": [
+{ "pattern": "sports wagering operators", "label": "STAKEHOLDER" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "State regulatory entity", "label": "ORGANIZATION" },
+{ "pattern": "AI use", "label": "TECHNOLOGY" },
+{ "pattern": "consumer protections", "label": "POLICY" },
+{ "pattern": "AI-enabled fraud", "label": "ECONOMIC_HARM" },
+{ "pattern": "licensing", "label": "REQUIREMENT" },
+{ "pattern": "recordkeeping", "label": "REQUIREMENT" },
+{ "pattern": "internal controls", "label": "STANDARD" },
+{ "pattern": "regulatory authorities", "label": "GOVERNMENT" },
+{ "pattern": "sports organizations", "label": "ORGANIZATION" },
+{ "pattern": "problem gamblers", "label": "STAKEHOLDER" }
+]
+}
+]

@@ -1,0 +1,135 @@
+[
+{
+"document_id": "doc_671",
+"entities": [
+{ "pattern": "digital forgery", "label": "SYNTHETIC_DATA" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "medical purposes", "label": "HEALTHCARE" },
+{ "pattern": "Act", "label": "LAW" },
+{ "pattern": "penalty", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_672",
+"entities": [
+{ "pattern": "Communist Chinese military companies", "label": "ORGANIZATION" },
+{ "pattern": "AI sector", "label": "TECHNOLOGY" },
+{ "pattern": "emergency sanctions authorities", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_673",
+"entities": [
+{ "pattern": "Secretary of Agriculture", "label": "ROLE" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "state governments", "label": "GOVERNMENT" },
+{ "pattern": "higher education institutions", "label": "ORGANIZATION" },
+{ "pattern": "agricultural industry groups", "label": "ORGANIZATION" },
+{ "pattern": "digital agriculture", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "agricultural biosecurity", "label": "SAFETY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "precision agriculture technologies", "label": "TECHNOLOGY" },
+{ "pattern": "biotechnology", "label": "TECHNOLOGY" },
+{ "pattern": "crop protection", "label": "AGRICULTURE" },
+{ "pattern": "Congressional committees", "label": "ORGANIZATION" },
+{ "pattern": "centers of excellence", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_674",
+"entities": [
+{ "pattern": "Secretary of Energy", "label": "ROLE" },
+{ "pattern": "electric grid", "label": "TECHNOLOGY" },
+{ "pattern": "National Laboratories", "label": "ORGANIZATION" },
+{ "pattern": "NOAA", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "electric power sector", "label": "ORGANIZATION" },
+{ "pattern": "data collection", "label": "TRAINING_DATA" }
+]
+},
+{
+"document_id": "doc_675",
+"entities": [
+{ "pattern": "Bureau of Democracy, Human Rights, and Labor", "label": "ORGANIZATION" },
+{ "pattern": "National Endowment for Democracy", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "foreign governments", "label": "GOVERNMENT" },
+{ "pattern": "civil society activists", "label": "STAKEHOLDER" },
+{ "pattern": "journalists", "label": "STAKEHOLDER" },
+{ "pattern": "international freedom of expression", "label": "HUMAN_RIGHTS" },
+{ "pattern": "independent media", "label": "ORGANIZATION" },
+{ "pattern": "democracy programs", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_676",
+"entities": [
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "AI sector", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "allied countries", "label": "GEOGRAPHIC" },
+{ "pattern": "AI development sector", "label": "TECHNOLOGY" },
+{ "pattern": "regulations", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_677",
+"entities": [
+{ "pattern": "Election Assistance Commission", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "AI-generated information", "label": "SYNTHETIC_DATA" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "election offices", "label": "ORGANIZATION" },
+{ "pattern": "federal elections", "label": "GOVERNMENT" }
+]
+},
+{
+"document_id": "doc_678",
+"entities": [
+{ "pattern": "Pilot Program", "label": "PROGRAM" },
+{ "pattern": "interagency coordinating group on wildfires", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "quantum sensing", "label": "TECHNOLOGY" },
+{ "pattern": "augmented reality", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "wildfire mitigation", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_679",
+"entities": [
+{ "pattern": "Federal Aviation Administration", "label": "ORGANIZATION" },
+{ "pattern": "FAA", "label": "ORGANIZATION" },
+{ "pattern": "Administrator", "label": "ROLE" },
+{ "pattern": "aviation rulemaking committee", "label": "ORGANIZATION" },
+{ "pattern": "flight data monitoring", "label": "TECHNOLOGY" },
+{ "pattern": "terrain awareness", "label": "SAFETY" },
+{ "pattern": "traffic avoidance", "label": "SAFETY" },
+{ "pattern": "Act", "label": "LAW" },
+{ "pattern": "commercial air tour operators", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_680",
+"entities": [
+{ "pattern": "Commandant", "label": "ROLE" },
+{ "pattern": "Coast Guard", "label": "ORGANIZATION" },
+{ "pattern": "Department of Homeland Security", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "unmanned systems capabilities office", "label": "PROGRAM" },
+{ "pattern": "maritime domain awareness", "label": "SAFETY" }
+]
+}
+]
