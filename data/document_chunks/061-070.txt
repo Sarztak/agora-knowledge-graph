@@ -1,0 +1,128 @@
+DOC_ID: 60
+Appropriates $450,000,000 for the application of autonomy and artificial intelligence to naval shipbuilding.
+
+Allocates $1,534,000,000 for the expansion of small unmanned surface vessel production.
+
+Sets aside $1,800,000,000 for the expansion of medium unmanned surface vessel production.
+
+Provides $1,300,000,000 for the expansion of unmanned underwater vehicle production.
+
+Designates $188,360,000 for the development and testing of maritime robotic autonomous systems and enabling technologies.
+
+Earmarks $174,000,000 for the development of a Test Resource Management Center robotic autonomous systems proving ground.
+
+Funds $250,000,000 for the development, production, and integration of wave-powered unmanned underwater vehicles.
+
+---
+
+DOC_ID: 61
+Mandates the Secretary, with the Air National Guard Director, to study the necessity of acquiring advanced capability fighter aircraft for the Air Force.
+
+Requires consideration of plans to implement unmanned or autonomous capabilities in fighter aircraft.
+
+Includes evaluation of cost savings linked to foreign sales of F-16 variants.
+
+Identifies eligible Air Force units for recapitalization with advanced fighter aircraft.
+
+Assesses how these aircraft meet current and contingency mission needs of combatant commanders.
+
+Determines whether a multiyear contract is the optimal acquisition method.
+
+Obligates the Secretary to report findings to congressional defense committees within 180 days of enactment.
+
+---
+
+DOC_ID: 62
+Accelerates the development of autonomous agents to defend against cruise missiles and drones.
+
+Requires the Secretary to use all available authorities to achieve this goal.
+
+Aims to enhance cost-effective defense of the United States homeland and forward-deployed armed forces.
+
+---
+
+DOC_ID: 63
+Appropriates $200 million for the deployment of automation and artificial intelligence to accelerate audits of the Department of Defense's financial statements, as outlined in chapter 9A and section 2222 of title 10, United States Code. 
+
+Specifies that these funds remain available until September 30, 2029.
+
+---
+
+DOC_ID: 64
+Expresses the sense of Congress that artificial intelligence and machine learning can strengthen strategic communications, improve planning efficiency, and enhance modeling capabilities for stockpile stewardship.
+
+Emphasizes the need for caution to prevent AI from compromising critical strategic assets.
+
+Establishes U.S. policy that AI use should not undermine nuclear safeguards, affect weapon system functionality, or alter the validation of command communications.
+
+Requires positive human actions for nuclear weapon employment decisions by the President to remain intact.
+
+---
+
+DOC_ID: 65
+Encourages the Secretaries of Defense, Army, Navy, and Air Force to use AI and machine learning technologies to facilitate audits of the Department of Defense's financial statements for fiscal year 2025.
+
+Requires the Director of the Chief Digital and Artificial Intelligence Office, in coordination with the Under Secretary of Defense for Research and Engineering and the Inspector General, to oversee the adoption of AI and machine learning technologies for financial management and enterprise business operations.
+
+---
+
+DOC_ID: 66
+Regulates AI systems in Texas under the Texas Responsible Artificial Intelligence Governance Act.
+
+Prohibits AI systems from inciting harm, criminality, manipulation, or discrimination based on political viewpoints or protected classes.
+
+Establishes the Artificial Intelligence Council and a regulatory sandbox program for controlled AI testing.
+
+Requires government disclosure to consumers when AI is used in interactions.
+
+Instructs the attorney general to enforce regulations, manage complaints, and impose fines for non-compliance.
+
+Prohibits government use of AI for social scoring or capturing biometric identifiers in violation of rights.
+
+Mandates that AI must not produce certain unlawful content and must adhere to consumer protections and data privacy.
+
+---
+
+DOC_ID: 67
+Mandates the development and implementation of policies to manage and utilize digital data for maintenance of aircraft, ships, and ground vehicles within one year.
+
+Requires investment in advanced data infrastructure for efficient data processing.
+
+Instructs the development of a strategy incorporating AI and automated systems for data organization.
+
+Demands collaboration with vendors to overcome proprietary data limitations through open data approaches.
+
+Addresses enhancement of data transmission capabilities with high-speed technologies and secure methods.
+
+Mandates central compilation of maintenance data and creation of user interfaces for data analysis.
+
+Requires vendor-agnostic, interoperable tagging systems unless exceptions are justified.
+
+Calls for review of classification policies to ensure appropriate classification without limiting usability.
+
+Establishes protocols for detecting unauthorized access to vehicle or platform systems.
+
+Obligates a briefing to Senate and House Armed Services Committees on policy development and implementation status.
+
+---
+
+DOC_ID: 68
+Requires the Secretary of Defense to initiate a pilot program within 60 days to evaluate AI-enabled software for optimizing workflows and operations at Department of Defense facilities, including depots and shipyards, and in contract administration.
+
+Mandates the use of top-tier software platforms, consideration of industry best practices, implementation based on human-centered design, and connection to authoritative enterprise data sources.
+
+Obliges consultation with the Under Secretary of Defense for Acquisition and Sustainment, and the Secretaries of the Army, Navy, and Air Force.
+
+Requires a report within one year detailing software evaluations, workflow modifications, and a quantitative assessment of the software's impact.
+
+---
+
+DOC_ID: 69
+Mandates the Director of the National Security Agency to establish an Artificial Intelligence Security Center (within the Cybersecurity Collaboration Center of NSA) within 90 days of the Act's enactment.
+
+Requires the Center to develop guidance to prevent or mitigate counter-artificial intelligence techniques.
+
+Promotes secure artificial intelligence adoption practices for managers of national security systems and the defense industrial base.
+
+---
+

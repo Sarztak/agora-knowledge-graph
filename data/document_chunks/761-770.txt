@@ -1,0 +1,158 @@
+DOC_ID: 760
+Mandates the Secretary of Defense to initiate a pilot program within 60 days to evaluate artificial intelligence-enabled software for optimizing workflow and operations in Department of Defense facilities, including depots and shipyards.
+
+Requires the assessment of AI software for contract management, particularly by the Defense Contract Management Agency.
+
+Directs the use of best-in-class software platforms and consideration of industry best practices, alongside human-centered design methodologies.
+
+Obligates a minimum expenditure of $35,000,000 for the pilot program.
+
+Requires consultation with the Under Secretary of Defense for Acquisition and Sustainment and the Secretaries of the Army, Navy, and Air Force.
+
+Mandates a report to Congress within one year detailing software evaluations, workflow modifications, and quantitative impacts observed during the pilot.
+
+---
+
+DOC_ID: 761
+Establishes a Fireshed Center through collaboration between the Forest Service and the U.S. Geological Survey, involving multiple federal agencies.
+
+Appoints a Director from the U.S. Geological Survey or the Forest Service for a term of up to seven years.
+
+Utilizes artificial intelligence and data tools to assess and predict fire and smoke at the wildland-urban interface for improved management, risk reduction, and recovery.
+
+Promotes data sharing and coordination across federal, state, local, tribal, and private sectors.
+
+Reduces duplication and fragmentation in predictive services and decision support related to wildland fires.
+
+Streamlines procurement and cybersecurity processes.
+
+Develops and disseminates publicly accessible data, models, and technologies for fire risk reduction and recovery planning.
+
+Maintains the Fireshed Registry and supports its operations with personnel and services from the U.S. Geological Survey and the Forest Service.
+
+---
+
+DOC_ID: 762
+Establishes an Artificial Intelligence Security Center within the National Security Agency's Cybersecurity Collaboration Center.
+
+Requires the provision of a research test bed for AI security research to private sector and academic researchers, including secure access to proprietary third-party models with vendor consent.
+
+Develops guidance to prevent or mitigate counter-artificial intelligence techniques.
+
+Promotes secure AI adoption practices for national security systems and the defense industrial base.
+
+Coordinates with the Artificial Intelligence Safety Institute of the National Institute of Standards and Technology.
+
+Mandates terms of usage for researcher access to the test bed, ensuring limited publication to protect classified or proprietary information.
+
+Ensures test bed availability to federal agencies on a cost-recovery basis.
+
+Leverages existing infrastructure and resources for AI security research.
+
+Establishes mechanisms, including contractual incentives, for providing access to proprietary models for qualified researchers.
+
+---
+
+DOC_ID: 763
+Establishes a deployment and demonstration pilot program for innovative wildfire technologies, including AI, within one year.
+
+Incorporates the program into the National Wildfire Coordinating Group and advances key technology areas like remote sensing and interoperable data.
+
+Requires coordination between selected private entities and federal agencies for real-time technology testing during wildfire mitigation.
+
+Prioritizes entities involved in the Fire Weather Testbed or developing emerging technologies like AI and quantum sensing.
+
+Mandates public outreach to invite applications from entities to demonstrate technologies.
+
+Obligates annual reporting to Congress on program participants, technologies demonstrated, costs, outreach, and recommendations for technology adoption.
+
+Specifies the program's authority will terminate seven years after enactment.
+
+---
+
+DOC_ID: 764
+Mandates the Director of the National Institute of Standards and Technology to update the National Vulnerability Database to incorporate AI security vulnerabilities within 180 days.
+
+Requires the development of a voluntary database to track AI security and safety incidents, ensuring confidentiality and standardized reporting formats.
+
+Instructs the Director to evaluate AI incidents for potential inclusion in the database, prioritizing critical infrastructure and high-impact cases.
+
+Directs the Director of the Cybersecurity and Infrastructure Security Agency to update the Common Vulnerabilities and Exposures Program to address AI security vulnerabilities.
+
+Initiates a multi-stakeholder evaluation of consensus standards for AI vulnerability reporting, with a report due to Congress within 180 days.
+
+Requires collaboration to develop best practices for managing AI supply chain risks, focusing on data collection, documentation, and the use of open-source and proprietary datasets.
+
+---
+
+DOC_ID: 765
+Prohibits United States financial institutions from making investments benefiting the Government of the People's Republic of China or the Chinese Communist Party.
+
+Mandates the Secretary of the Treasury to enforce this prohibition within three days of a covered determination.
+
+Defines prohibited investments as monetary investments to entities owned or controlled by the Chinese government or military.
+
+Includes investments that benefit priority industrial sectors identified in Chinese strategic plans, such as "Made in China 2025" and the "14th Five Year Smart Manufacturing Development Plan."
+
+Specifies prohibited sectors including artificial intelligence, machine learning, and robotics.
+
+Defines "United States financial institution" to include investment companies, private equity firms, venture capital companies, and hedge funds that qualify as United States persons.
+
+---
+
+DOC_ID: 766
+Mandates the President to develop procedures within 180 days to enable vendors, users, and researchers to notify the U.S. Government of AI-related security and biosecurity risks, including malicious software development, system compromise, and foreign malign influence.
+
+Requires federal elements to provide threat briefings to AI vendors about foreign exploitation and threats.
+
+Obligates the President to brief Congress on the procedures, specifying responsible federal agencies and outlining industry outreach and public education plans.
+
+Utilizes existing laws and federal guidelines for research, stakeholder engagement, and risk management frameworks related to AI systems.
+
+---
+
+DOC_ID: 767
+Mandates the Secretary of Health and Human Services to issue guidance on Medicare payment requirements for remote monitoring devices with AI components by January 1, 2026. 
+
+Specifies that the devices, including continuous glucose monitors, must use AI components like continuous adjustment. 
+
+Requires that these devices transmit information to healthcare providers for management and treatment purposes.
+
+---
+
+DOC_ID: 768
+Establishes the National Synthetic Biology Center to award grants for advancing synthetic biology in agriculture.
+
+Requires the Center to prioritize research in areas like cellular biology, gene editing, and digital agriculture.
+
+Mandates the use of artificial intelligence to accelerate modeling and measurement for synthetic biological solutions.
+
+Provides grants to eligible institutions, fostering partnerships with entities such as nonprofits and national laboratories.
+
+Sets criteria for grant applications, emphasizing the promotion of synthetic biology technologies and sustainability in agriculture.
+
+Directs the Center to coordinate with technology transfer offices to commercialize innovations.
+
+Requires the Center to maintain a website for disseminating findings and facilitating collaboration.
+
+Obligates the Center to submit biennial reports to Congress on research findings and grant progress.
+
+Authorizes appropriations for the Center's operation and grant awards from 2025 to 2029.
+
+---
+
+DOC_ID: 769
+Establishes the "SAFE Bet Act," setting minimum federal standards for sports wagering, which includes restrictions on AI use by sports wagering operators. 
+
+Prohibits operators from using AI to track individual wagers, target specific individuals with promotions, or create gambling products like microbets. 
+
+Mandates state sports wagering programs to ensure compliance with standards, including consumer protections and advertising restrictions, and requires operators to maintain data security and recordkeeping. 
+
+Enforces reporting of suspicious transactions and mandates cooperation with investigations into sports wagering activities. 
+
+Creates a national self-exclusion list to prevent individuals from placing sports wagers across states, and establishes public health initiatives to monitor gambling addiction. 
+
+Permits states and tribes to enact stricter sports wagering regulations and does not preempt their authority to tax sports wagering.
+
+---
+

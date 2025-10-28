@@ -1,0 +1,147 @@
+DOC_ID: 810
+Requires commission approval for AI mental health applications and mandates licensed supervision, informed consent, and clear AI disclosure. Permits liability-free testing with specialized consent. 
+
+Mandates that licensed mental health professionals supervise AI mental health services, ensuring availability for review, communication, and intervention. Obliges providers to obtain informed consent and clearly inform users about the use of AI technology.
+Subjects AI mental health service providers to the same disciplinary actions and record-keeping requirements as licensed mental health professionals.
+
+---
+
+DOC_ID: 811
+Establishes the position of Artificial Intelligence Officer to develop and update procedures regulating automated systems used by state agencies for critical decisions.
+
+Mandates state agencies to comply with these procedures and submit inventories of their automated systems, which will be published online.
+
+Creates the New Jersey Artificial Intelligence Advisory Board to advise state agencies, hold public hearings on preliminary procedures, and issue reports and recommendations.
+
+Establishes the position of Artificial Intelligence Implementation Officer to review and approve or deny new automated systems based on compliance with procedures, and conduct periodic reevaluations.
+
+Forms a task force to study AI and create an AI Bill of Rights, with a report due within one year.
+
+Subjects officers and the board to open public records laws while protecting trade secrets and work product protections.
+
+---
+
+DOC_ID: 812
+Amends the election law to mandate disclosure of synthetic media in political communications.
+
+Requires disclosure for printed or digital political communications to state: "This political communication was created with the assistance of artificial intelligence."
+
+Mandates non-printed or digital political communications to clearly display or speak the same statement.
+
+Defines "synthetic media" as any media created or modified using artificial intelligence algorithms.
+
+Sets the effective date of this act to January 1, 2024.
+
+---
+
+DOC_ID: 813
+Regulate generative AI models, such as ChatGPT, to protect public safety, privacy, and intellectual property rights.
+
+Define "large-scale generative artificial intelligence model" as those with at least one billion parameters.
+
+Prohibit the use of AI models for discrimination or bias based on protected characteristics.
+
+Mandate AI-generated text to contain a distinctive watermark or offer an authentication process to prevent plagiarism.
+
+Require companies to implement reasonable security measures to protect training data.
+
+Obtain informed consent from individuals before collecting, using, or disclosing their data.
+
+Delete or de-identify data when no longer needed for the intended purpose.
+
+Conduct regular risk assessments to identify and mitigate foreseeable risks and harms.
+
+Mandate companies operating large-scale AI models to register with the attorney general within 90 days, including detailed model and data practices.
+
+Authorize the attorney general to adopt regulations and enforce compliance, including bringing legal action for violations.
+
+---
+
+DOC_ID: 814
+Establishes a commission within the executive office of technology services and security to study and make recommendations on the use of automated decision systems (ADS) by the Commonwealth of Massachusetts.
+
+Requires the commission to survey all uses of ADS by Massachusetts offices, including procurement, evaluation, training, validation, transparency, and accountability.
+
+Mandates the commission to consult experts on machine learning, algorithmic bias, and civil rights, and to examine research on disparate impacts of ADS based on group characteristics.
+
+Obligates the commission to examine data protection, intellectual property issues, and other opportunities and risks associated with ADS.
+
+Compels the commission to meet at least 10 times a year and hold public hearings for feedback.
+
+Requires the commission to submit an annual report detailing activities, findings, and regulatory recommendations to the governor and state legislature.
+
+---
+
+DOC_ID: 815
+Amends the state finance law to require state units to purchase only products or services containing algorithmic decision systems adhering to responsible artificial intelligence standards.
+
+Mandates the avoidance of harm, including minimizing risks of physical or mental injury, unjustified information deletion or disclosure, and unwarranted damage to property, reputation, or the environment.
+
+Emphasizes a commitment to transparency, including full disclosure of the algorithmic decision system's capabilities, limitations, and potential problems.
+
+Prioritizes fairness by eliminating discrimination, promoting equality, and providing feedback mechanisms to redress harms.
+
+Amends the executive law to define "unlawful discriminatory practice" to include actions performed through algorithmic decision systems.
+
+Require the commissioner of taxation and finance to adopt regulations to implement these provisions.
+
+---
+
+DOC_ID: 816
+Exclude productions using AI that displace employees from being considered a "qualified film" for the Empire State Film Production Credit.
+
+Carves out an exception to the above for films covered by current collective bargaining agreements that allow for AI to displace employees.
+
+---
+
+DOC_ID: 817
+Prioritizes AI systems that benefit individuals, society, and the environment throughout their lifecycle.
+
+Requires AI systems to respect human rights, diversity, and individual autonomy, promoting an equitable society.
+
+Mandates fairness by ensuring AI inclusivity and accessibility, prohibiting unfair discrimination.
+
+Demands privacy protection and data security, with ongoing data governance and vulnerability assessments.
+
+Ensures AI reliability and safety, mandating operation in line with intended purposes and risk management.
+
+Calls for transparency and explainability, necessitating timely and responsible disclosures of AI impacts.
+
+Establishes contestability, allowing challenges to AI impacts on individuals or communities through clear processes.
+
+Holds relevant parties accountable for AI outcomes, requiring identifiable responsibility and human oversight.
+
+---
+
+DOC_ID: 818
+Mandates the Federal Government to maintain U.S. leadership in AI through a coordinated strategy known as the American AI Initiative.
+
+Requires agencies to pursue strategic guidelines to prioritize AI R&D, enhance data accessibility, and reduce barriers for AI deployment, ensuring protection of civil liberties and privacy.
+
+Obligates agencies to develop technical standards to minimize vulnerabilities and foster public trust in AI systems.
+
+Directs the prioritization and training of American workers in AI-related skills to prepare them for future job markets.
+
+Instructs the development of international standards and promotes global collaboration while safeguarding critical AI technologies from foreign adversaries.
+
+Develops an action plan to protect U.S. advantages in AI technology against strategic competitors and adversaries.
+
+---
+
+DOC_ID: 819
+Mandates the federal government to mitigate misuse risks of synthetic nucleic acids by establishing a procurement screening framework.
+
+Requires synthetic nucleic acid providers and equipment manufacturers to implement comprehensive screening measures for sequences of concern (SOCs) and verify customer legitimacy.
+
+Directs the National Institute of Standards and Technology (NIST) to collaborate with industry to refine technical specifications for effective screening.
+
+Obliges federal funding agencies to ensure compliance with the framework for research funded by federal life sciences grants.
+
+Instructs providers and manufacturers to report suspicious purchase orders to relevant authorities and retain records for at least three years.
+
+Imposes cybersecurity measures to protect sensitive data and customer information, following specific security guidelines.
+
+Anticipates framework updates based on technological advancements and encourages the use of independent audits for compliance verification.
+
+---
+

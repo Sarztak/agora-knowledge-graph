@@ -1,0 +1,122 @@
+DOC_ID: 330
+Mandates the Department of Defense and the Air Force to work together in launching a pilot program that optimizes aerial refueling and fuel management using artificial intelligence and advanced digital technologies.
+
+Directs the Chief Digital and Artificial Intelligence Officer to (a) coordinate with the Commander of the United States Transportation Command and the Commander of the United States Indo-Pacific Command to align the pilot program with existing operational requirements and (b) consult relevant experts in AI.
+
+Requires the pilot program to assess the feasibility and effectiveness of artificial intelligence-driven approaches and evaluate the interoperability and compatibility of artificial intelligence-enabled systems with the existing logistics infrastructure of the Department of Defense.
+
+Requires an assessment of potential challenges and risks associated with the integration of artificial intelligence and other advanced digital technologies, including those related to cybersecurity.
+
+Requires the Chief Digital and Artificial Intelligence Officer to submit a report on the pilot program's design, progress, and results to the Committees on Armed Services of the House of Representatives and the Senate within one year.
+
+---
+
+DOC_ID: 331
+Requires hospitals, nursing homes, and certified nursing facilities to establish and implement policies for patient access to intelligent personal assistants while receiving inpatient services.
+
+Ensures policies protect health information in accordance with the federal Health Insurance Portability and Accountability Act (HIPAA).
+
+Defines "intelligent personal assistant" as a combination of an electronic device and specialized software application that assists users with tasks using natural language processing and artificial intelligence.
+
+Mandates that these facilities allow the use of intelligent personal assistants for patients, ensuring compliance with privacy and security standards.
+
+Includes intelligent personal assistants like "digital assistants" or "virtual assistants" in the definition provided.
+
+---
+
+DOC_ID: 332
+Amends the Department of Innovation and Technology Act to establish the Generative AI and Natural Language Processing Task Force.
+
+Requires the Task Force to investigate and report on generative AI and natural language processing software.
+
+Comprises the Task Force of appointed members from various government, educational, and expert backgrounds.
+
+Mandates the Task Force to hold at least five public meetings across different regions of Illinois.
+
+Tasks the Task Force with recommending legislation for consumer information protection, model policies for schools, and assessing AI's impact on public services, civil rights, employment, and cybersecurity.
+
+Obligates the Department to provide administrative and technical support to the Task Force.
+
+Requires the Task Force to file a comprehensive report by December 31, 2024, with the Governor and the General Assembly.
+
+---
+
+DOC_ID: 333
+Establishes the Alabama Council on Advanced Technology and Artificial Intelligence.
+
+Requires the council to review and advise the Governor and Legislature on the use and development of advanced technology and artificial intelligence.
+
+Composes the council of 22 members, including appointees from the Governor, Lieutenant Governor, Speaker of the House, and Senate President Pro Tempore, and ex officio members from commerce and information technology departments.
+
+Mandates that non-legislative appointees have expertise in AI, technology, ethics, privacy, workforce development, or computer science.
+
+Stipulates that the council meets at least twice a year and allows virtual participation.
+
+Obliges the council to submit an annual report with recommendations on AI and advanced technology to the Governor and Legislature.
+
+Enforces diversity in appointments regarding gender, race, and geography.
+
+Prohibits salary for non-legislative members but allows expense reimbursement; provides legislative members with regular compensation for meeting attendance.
+
+Sets the act’s effective date to one year post-approval.
+
+---
+
+DOC_ID: 334
+Requires each state agency to develop and submit an information technology modernization and improvement plan to the Chief Technology Officer within one year of request.
+
+Mandates the plan to include strategies for improving digital services using data analytics, cloud computing, electronic forms, and digitized workflows, ensuring mobile-friendly and accessible websites.
+
+Authorizes the Chief Technology Officer to review these plans in collaboration with the Chief Innovation Officer.
+
+Mandates the Chief Technology Officer to annually evaluate the feasibility of using AI, machine learning, and cloud services for public services, and to develop data analytics capabilities for policy development.
+
+Requires the development of metrics to assess each agency's implementation of a modern digital experience, updated at least every two years and reevaluated every three years.
+
+---
+
+DOC_ID: 335
+Creates the Data-Sharing and Data-Driven Decision-Making Task Force, comprised of twelve members appointed from the Senate and House of Representatives.
+
+Mandates the task force to study and recommend the implementation of a statewide data-sharing system across state agencies.
+
+Requires the task force to evaluate current data management inefficiencies, and propose necessary legislation and funding mechanisms for system implementation. Empowers the task force to hire external consultants if necessary.
+
+Requires the task force to meet at least monthly and report findings to the Governor and legislative leaders by December 31, 2019; expires the task force on January 1, 2020.
+
+---
+
+DOC_ID: 336
+Mandates the Director of National Intelligence to submit a feasibility report on establishing a cadre of experts in emerging technologies.
+
+Requires such cadre to accelerate the adoption of emerging technologies.
+
+Requires such cadre to assist with software development and develop training requirements for acquisition professionals.
+
+Requires an assessment of whether the establishment of the cadre would necessitate additional statutory authorities or resources, including to recruit, hire, and retain the talent and expertise needed to establish the cadre; and the benefits, risks, and costs of establishing a cadre.
+
+Addresses the acquisition of a plan for implementation of the cadre, including the proposed size of the cadre, its management, and organization.
+
+
+
+---
+
+DOC_ID: 337
+Requires the Secretary of Defense to demonstrate a strategic management dashboard within one year of the Act's enactment. This dashboard will automate data collection and data visualization of the Department of Defense's primary management goals, enabling real-time monitoring of DoD's performance in achieving its management goals.
+
+It will use artificial intelligence and machine learning tools to improve data analytic capabilities and decision making. The development of the dashboard will leverage commercial best practices and leading research in management and data science.
+
+
+
+---
+
+DOC_ID: 338
+Makes various technical amendments largely pertaining to modification of titles of senior officials with duties relevant to artificial intelligence.
+
+---
+
+DOC_ID: 339
+Mandates the Secretary of Defense to conduct a thorough evaluation of the curricula at Professional Military Education (PME) institutions, specifically demanding an assessment of how these curricula align with innovative technological and strategic areas, including AI. Requires report to Congress by Dec 2025.
+
+---
+

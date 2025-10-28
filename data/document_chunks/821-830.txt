@@ -1,0 +1,172 @@
+DOC_ID: 820
+Establishes common rules for non-contractual fault-based civil claims related to damages caused by high-risk AI systems.
+
+Requires disclosure of evidence from AI providers or users to substantiate claims, with courts empowered to order such disclosures.
+
+Presumes non-compliance with duty of care if defendants fail to comply with evidence disclosure orders.
+
+Presumes a causal link between defendant’s fault and AI system's output if certain conditions are met, allowing defendants to rebut the presumption.
+
+Permits Member States to adopt more favorable rules for claimants, compatibility with Union law required.
+
+Mandates evaluation and review by the European Commission within five years, considering the necessity of no-fault liability and insurance for AI operators.
+
+Amends Directive (EU) 2020/1828 to include AI Liability Directive.
+
+Obligates Member States to transpose the Directive into national law within two years and communicate relevant national legislative texts to the Commission.
+
+---
+
+DOC_ID: 821
+Facilitates AI development and deployment through Amazon Web Services (AWS), offering a comprehensive suite of AI and ML services, including Amazon Bedrock and Amazon Titan Foundation Models, which support generative AI applications.
+
+Implements risk management and safety protocols, including systematic model evaluation, red teaming, and ongoing security assessments, to mitigate potential AI risks.
+
+Protects AI models and data using robust logical and physical security measures, such as encryption, access controls, and least privilege principles.
+
+Shares AI service information transparently through AI Service Cards, detailing intended use cases, limitations, and responsible AI design considerations.
+
+Encourages responsible AI use and prohibits misuse through the AWS Responsible AI Policy, which addresses concerns like disinformation and privacy violations.
+
+Invests in research and academic partnerships to advance responsible AI practices and develop tools for bias mitigation and human oversight.
+
+Monitors AI misuse post-release, employing classifier guardrails and automated abuse detection to identify and address harmful content and misuse patterns.
+
+---
+
+DOC_ID: 822
+States that OpenAI's is establishing a Preparedness Framework to manage risks from frontier AI models, focusing on a development process governance structure and preemption of catastrophic outcomes; this work will complement existing risk mitigation work and includes a joint Deployment Safety Board with Microsoft. 
+
+States that OpenAI is creating Superalignment and Preparedness teams within the company to align AI systems with human intent and track and prepare for frontier risks, including cybersecurity, CBRN, persuasion, and autonomous replication and adaptation. Notes that OpenAI is also increasing investment into cybersecurity and insider threat safeguards.
+
+States that OpenAI implemened red-teaming and evaluations to assess new models for safety, including GPT-4 and DALL-E 3, focusing on dual-use capabilities, cybersecurity vulnerabilities, and self-replication.
+
+States that OpenAI will include the publication of a system card in every new AI system, which informs users of key factors impacting system behavior.
+
+States that OpenAI has initiated a reporting mechanism for responsible disclosure of dangerous capabilities among AI labs, focusing on national security-related risks.
+
+Details OpenAI's emphasis post-deployment monitoring for misuse, security controls to protect intellectual property and data, and the development progress provenance techniques to identify AI-generated content.
+
+States that OpenAI implemented data input controls and provides mechanisms for users to opt-out of their data being used for AI training.
+
+---
+
+DOC_ID: 823
+Mandates that inventors named on U.S. patents and applications must be natural persons, reaffirming that AI systems cannot be recognized as inventors.
+
+Clarifies that AI-assisted inventions are not unpatentable due to improper inventorship, provided a natural person significantly contributed to the invention's conception.
+
+Requires that patent applications for AI-assisted inventions name natural persons who meet the Pannu factors as inventors, ensuring each claim has a human contributor.
+
+Outlines the duty of disclosure and reasonable inquiry, emphasizing the importance of factual inventorship claims and compliance with regulations.
+
+Establishes guidelines for correcting inventorship errors and emphasizes that AI systems cannot hold inventorship rights.
+
+Applies guidance to design and plant patents, affirming that significant human contribution is necessary for patent eligibility.
+
+Prohibits naming AI systems as inventors in priority claims for U.S. patents and applications, ensuring compliance with U.S. inventorship requirements.
+
+---
+
+DOC_ID: 824
+Commits Inflection to a disciplined, phased approach to scaling AI models, emphasizing pre-deployment safety, post-launch monitoring, and global governance.
+
+Requires robust evaluations and third-party red-teaming before public launch to ensure models do not provide harmful information or engage in discriminatory conduct.
+
+Implements strict data input controls and audits, involving executive review and legal evaluations of training data for compliance with legal and ethical standards.
+
+Ensures high-level security controls to prevent unauthorized access and misuse of AI models, including internal restrictions and a bug bounty program.
+
+Maintains around-the-clock monitoring to detect and mitigate model misuse, employing frontier AI to enhance situational awareness.
+
+Publishes model capabilities and limitations, supporting transparency and enabling risk assessment by users and regulators.
+
+Advocates for standardized vulnerability reporting structures and participates in a pilot bug bounty program to encourage third-party disclosures.
+
+Prioritizes research on AI risks and supports the creation of an International Panel on AI Safety.
+
+Promotes cross-industry collaboration for identifying AI-generated material, focusing on child safety and standardized watermarking.
+
+---
+
+DOC_ID: 825
+Grants agencies discretionary authority to use various pay flexibilities, incentive pay, and leave and workforce flexibility programs to recruit, relocate, and retain AI and key technical employees.
+
+Allows recruitment, relocation, and retention incentives up to 25% of basic pay, and provides for waivers to increase this limit to 50% based on critical needs.
+
+Enables agencies to repay student loans as an incentive, with limits of $10,000 annually and $60,000 total per employee.
+
+Permits setting higher pay rates for employees with superior qualifications or special needs, and requests OPM approval for special rates and critical position pay.
+
+Authorizes alternative work schedules, telework, and remote work to enhance recruitment and retention.
+
+Provides service credit for non-Federal work experience towards higher annual leave accrual rates.
+
+Encourages collaboration with agency officials to design tailored recruitment and retention strategies utilizing available human resources tools.
+
+---
+
+DOC_ID: 826
+Establishes a licensing regime requiring companies developing sophisticated A.I. models to register with an independent oversight body. 
+
+Requires developers to maintain risk management, pre-deployment testing, and reporting programs as part of licensing conditions.
+
+Grants the oversight body authority to audit companies and cooperate with state Attorneys General.
+
+Mandates Congress to ensure A.I. companies are legally accountable for harms caused by their models, including privacy breaches and civil rights violations.
+
+Urges Congress to use export controls and sanctions to limit A.I. technology transfers to adversary nations.
+
+Promotes transparency by requiring companies to disclose A.I. model information and ensure users know they are interacting with A.I.
+
+Requires A.I. system providers to label deepfakes and maintain a public database of A.I. information.
+
+Obliges companies to implement consumer protections, including safety brakes and data usage control, especially concerning children.
+
+---
+
+DOC_ID: 827
+Amends health IT certification criteria to include "Predictive Decision Support Intervention," addressing decision-making support based on algorithms for predictions, classifications, and recommendations.
+
+Mandates that health IT systems enable recording of patient demographics, including race, ethnicity, sex, sexual orientation, gender identity, and pronouns, using specified standards.
+
+Requires health IT modules to be updated to meet new certification criteria and provide updates to customers as per defined dates.
+
+Outlines certification criteria for health IT, including decision support interventions that must be evidence-based and use specified data standards.
+
+Establishes risk management practices for predictive decision support interventions, including risk analysis, mitigation, and governance.
+
+Incorporates by reference various health information standards, including HL7, LOINC, and SNOMED CT, to ensure interoperability and accuracy in electronic health information exchange.
+
+---
+
+DOC_ID: 828
+Requires recipients to address sex-based harassment within their education programs or activities, including off-campus and remote settings, aligning with recent court decisions.
+
+Clarifies that institutions are responsible for discrimination within contexts they control, such as AI technologies used in educational settings.
+
+Acknowledges requests for examples involving AI and other specific circumstances but declines to provide additional examples or exhaustive lists.
+
+Confirms obligations for conduct during institution-sponsored events, online classes, and use of digital platforms, including AI technologies.
+
+Deletes references to sex-based harassment occurring outside the U.S. but maintains the obligation to address contributing conduct external to the program or activity.
+
+---
+
+DOC_ID: 829
+Require railroads seeking to use automation technology non-compliant with FRA safety regulations to file a petition for rulemaking or a waiver.
+
+Mandate a risk assessment before initiating operations under special approval processes.
+
+Acknowledge freight rail industry's concerns about competition with automated trucking but emphasize rail safety hazards from reduced crew sizes.
+
+Disagree with assertions that labor-saving technologies like PTC justify removal of crew members, stating such technologies are not fully developed.
+
+Support technological advancement in rail through research on AI and automation, including drones and real-time safety systems.
+
+Permit railroads to petition for rulemaking or waivers to use technology that doesn't meet existing regulatory requirements, ensuring safety justifications are provided.
+
+Clarify that the rule does not impede innovation but requires description of technology used to support tasks typically performed by a second crew member.
+
+---
+

@@ -1,0 +1,169 @@
+DOC_ID: 70
+Requires the Secretary of Defense to conduct comprehensive biodefense posture reviews by December 31, 2026, and December 31, 2029.
+
+Mandates inclusion of an inventory and assessment of existing biodefense strategies and policies, relevant biological threats, and current Department of Defense programs related to biological threats.
+
+Identifies methods using artificial intelligence and cyber capabilities to address biological attacks.
+
+Recommends strengthening biodefense capabilities and improving interagency coordination.
+
+Requires submittal of a review to congressional defense committees within 30 days of completion.
+
+Specifies that reviews must be unclassified but may include a classified annex.
+
+---
+
+DOC_ID: 71
+Mandates the Secretary of the Navy to conduct a competitive demonstration of large and extra large unmanned underwater vehicles by June 1, 2025, in coordination with relevant military entities.
+
+Requires evaluation of user feedback on these vehicles as well as vehicles' integration with mission autonomy planning, capability in contested environments, performance attributes, technical maturity, and cost to procure, operate, and sustain.
+
+Permits the use of fiscal year 2025 Navy funds for research, development, and demonstration activities.
+
+Obligates the Secretary of the Navy and the Commander of the United States Indo-Pacific Command to submit assessments to congressional defense committees by September 1, 2025, which may include recommendations and validation of underwater vehicle requirements.
+
+Defines the vehicles as capable of submerged operation while supporting one or more missions with modular payload integration and a minimum range of 1,000 nautical miles.
+
+---
+
+DOC_ID: 72
+Mandates the Secretary of Defense to expand the Digital On-Demand Program to all organizations and elements, Armed Forces members, and civilian employees within the Department of Defense.
+
+Requires active promotion of the Program throughout the Department.
+
+Obligates the Secretary of Defense to submit a progress report to the Senate and House Armed Services Committees within 180 days of enactment and annually through 2029.
+
+Defines the Digital On-Demand Program as an initiative overseen by the Chief Digital and Artificial Intelligence Officer, providing on-demand educational resources on AI, emerging technologies, and data literacy to Department of Defense personnel via a digital platform.
+
+---
+
+DOC_ID: 73
+Requires the Secretary of Defense to evaluate cybersecurity products and services for mobile devices to enhance the Department of Defense's cybersecurity.
+
+Evaluates technologies such as anonymizing-enabling technologies, network-enabled content inspection, on-device VPNs, and AI-based protection against smishing, phishing, and text/email compromises.
+
+Assesses the efficacy and scalability of these technologies within the Department of Defense and their integration with existing cybersecurity architecture.
+
+Mandates submission of a report to congressional defense committees within 270 days detailing findings and recommendations on procuring or incorporating evaluated technologies.
+
+---
+
+DOC_ID: 74
+Mandates Parties to adopt measures ensuring AI systems align with human rights, democracy, and the rule of law.
+
+Requires transparency, accountability, and non-discrimination in AI systems' lifecycle.
+
+Obligates implementation of measures to protect privacy, human dignity, and democratic processes.
+
+Demands risk assessment and mitigation strategies for AI, considering human rights impacts.
+
+Establishes a follow-up mechanism for international cooperation and compliance monitoring.
+
+Provides for accessible remedies for human rights violations arising from AI systems.
+
+Calls for public consultation and digital literacy to address AI-related impacts.
+
+Stipulates that Parties must ensure effective procedural safeguards and oversight mechanisms.
+
+Allows exceptions for artificial intelligence systems related to the protection of national security interests but insists on adherence to international human rights law and democratic processes.
+
+Facilitates international cooperation and information exchange on AI's human rights impacts.
+
+Permits amendments and dispute settlements through negotiation or the Conference of the Parties.
+
+---
+
+DOC_ID: 75
+Regulates the use of facial recognition technology for processing facial information within China, ensuring compliance with relevant laws and ethical standards.
+
+Exempts the use of facial recognition in research and development or algorithm training.
+
+Requires a specific, necessary purpose for processing, with minimized impact on individual rights.
+
+Obligates personal information processors to inform individuals transparently about processing activities, including purposes, methods, and rights.
+
+Mandates obtaining consent separately for processing, with provision for withdrawal.
+
+Requires parental consent for processing minors' facial information and formulating specific rules for handling such data.
+
+Restricts storing facial information within devices unless consent or laws allow external transmission and limits retention to what is necessary.
+
+Mandates conducting personal information protection impact assessments in advance and retaining assessment reports for three years.
+
+Prohibits using facial recognition as the sole identity verification method if alternatives exist.
+
+Requires filing procedures with local cyberspace administrations if information volume reaches 100,000 individuals.
+
+Empowers cyberspace administrations and public security authorities to supervise, inspect, and handle complaints regarding facial recognition misuse.
+
+---
+
+DOC_ID: 76
+Creates the Illinois Future of Work Task Force to proactively plan for the future of work and address current labor issues.
+
+Requires the Task Force to identify and assess emerging technologies, particularly automation and AI, that significantly impact employment, wages, and skills.
+
+Mandates the development of job standards and working conditions to build a vibrant middle class.
+
+Instructs the Task Force to identify future job opportunities and shape them to improve life in Illinois.
+
+Compiles research and best practices from other regions on deploying technology for the public good.
+
+Develops tools to evaluate the impact of proposed technologies on workers, employers, and the state.
+
+Proposes workforce development and training programs for future jobs.
+
+Requires the Task Force to submit a report with findings to the Governor and General Assembly by May 1, 2022, and dissolves upon report submission.
+
+---
+
+DOC_ID: 77
+Mandates that employers or employment agencies conduct a bias audit of Automated Employment Decision Tools (AEDTs) at least annually.
+
+Requires bias audits to calculate selection and scoring rates, and impact ratios across sex, race/ethnicity, and intersectional categories.
+
+Mandates AEDT users to publish bias audit summaries online, detailing data sources and impact ratios, accessible for at least 6 months after each AEDT use.
+
+Requires notification to candidates and employees 10 business days before AEDT use, offering options via website, job postings, mail, or email.
+
+Enforces online publication of AEDT data retention policies and types of data collected.
+
+
+---
+
+DOC_ID: 78
+Establishes basic safety requirements for generative AI services, focusing on training data safety, model safety, and safety measures.
+
+Requires service providers to conduct safety assessments and manage training data sources, ensuring data does not contain over 5% illegal content.
+
+Mandates the verification of intellectual property rights and personal information consent before using data for training.
+
+Stipulates regular security audits and monitoring of models to prevent malicious attacks and ensure content accuracy.
+
+Obliges disclosure of service limitations, models, and personal data usage to users.
+
+Demands the implementation of mechanisms for complaints and a backup strategy for service continuity.
+
+Sets specific guidelines for minors, requiring parental controls and restrictions on unsuitable content.
+
+Requires transparency in service provision, detailing applicable scenarios and user consent for data use in training.
+
+Mandates service providers to construct banks of unsafe key words and questions which AI models should and should not refuse to answer. 
+
+---
+
+DOC_ID: 79
+Sets the Ministry of Defence (MOD) Responsible Officers to ensure the ethical and safe development and use of AI in Defence.
+
+Requires MOD staff to implement this JSP in AI system lifecycles, from inception to disposal, ensuring alignment with MOD's AI Ethical Principles: Human-centricity, Responsibility, Understanding, Bias and Harm Mitigation, and Reliability.
+
+Mandates TLB Holders and Chief Executives to issue appropriate AI-related directions and ensure competent management within their areas and maintaining Governance as outlined in Section 4.
+
+Stresses the need for a holistic approach aligned with the UK National AI Strategy and addresses unique AI security risks, advocating continuous security monitoring.
+
+Obliges the assessment and mitigation of ethical risks, providing evidence of responsible AI use, and addressing novel and contentious AI applications with special attention.
+
+Emphasizes human collaboration with AI, requiring competency assessments, training, and ethical governance, particularly in human/AI teams, AI legal considerations, and supplier competence and conformance with AI-specific requirements.
+
+---
+

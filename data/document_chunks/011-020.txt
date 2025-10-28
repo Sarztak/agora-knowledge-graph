@@ -1,0 +1,153 @@
+DOC_ID: 10
+Requires committees creating or distributing qualified political advertisements to include a disclosure stating, “Ad generated or substantially altered using artificial intelligence,” in a clear and conspicuous manner.
+
+Mandates that the disclosure be displayed or spoken as specified in existing sections of the Government Code.
+
+Excludes alteration or negation of rights under Section 230 of Title 47 of the U.S. Code for interactive service providers.
+
+Authorizes the Commission to seek injunctive relief or pursue administrative or civil remedies if committees fail to comply with disclosure requirements.
+
+Defines "artificial intelligence" and specifies conditions under which media is considered "generated or substantially altered using artificial intelligence.”
+
+Clarifies that immaterial alterations, such as cosmetic adjustments or resizing, do not qualify as being substantially altered by artificial intelligence.
+
+Specifies that non-compliance does not constitute a misdemeanor.
+
+---
+
+DOC_ID: 11
+Amends the California Civil Code to impose liability on individuals using a deceased personality's likeness without consent, including AI-generated digital replicas. Requires violators to compensate for unauthorized use, with statutory minimums and profit disgorgement. Excludes certain uses such as news, satire, and fleeting references from consent requirements. 
+
+Recognizes posthumous rights as transferable property interests, extending rights to heirs or designated persons. Limits rights duration to 70 years post-death and outlines specific inheritance rules. Mandates registration with the Secretary of State for enforcing claims, making these registrations public records.
+
+Clarifies that certain artistic and informational works are exempt unless they serve commercial product promotion. Outlines exceptions for media owners unless knowingly complicit in unauthorized use. Enforces consistency with existing law by rendering remedies cumulative. Establishes retroactive application of rights back to those deceased before January 1, 1985.
+
+---
+
+DOC_ID: 12
+Establishes monthly Generative AI meetings with legislative staff to discuss Executive Order N-12-23 implementation.
+
+Requires updates on deliverable completion, proof of concept implementation, and funding source identification.
+
+Supports budget requests for generative AI technology solutions if additional resources are needed.
+
+Defines "artificial intelligence" and "generative artificial intelligence" within the provisions.
+
+Treats data collected in GenAI pilot projects as personal information per Civil Code Section 1798.3.
+
+Prohibits GenAI pilot projects from including sensitive personal information, data on minors, educational records, or medical information.
+
+Mandates compliance with California's GenAI Guidelines for departments in GenAI pilot projects.
+
+Permits the use of de-identified data for research to justify resource requests if expanding pilot program scope.
+
+---
+
+DOC_ID: 13
+Enacts the California AI Transparency Act, requiring covered providers of generative AI systems with significant user bases to offer free AI detection tools.
+
+Mandates that AI detection tools assess whether content was created or altered by the provider's AI, output system provenance data, and avoid personal provenance data.
+
+Prohibits the collection or retention of personal information from detection tool users, barring specific opt-in scenarios.
+
+Requires AI-generated content to include both manifest and latent disclosures identifying it as AI-generated, with details about the provider and system.
+
+Demands that licenses for GenAI systems include obligations for content disclosures.
+
+Imposes civil penalties of $5,000 per violation for non-compliance, with each day constituting a separate violation.
+
+Excludes specific entertainment products from applicability and sets the operative date as January 1, 2026.
+
+---
+
+DOC_ID: 14
+Mandates health care service plans and disability insurers using AI for utilization review or management to comply with specific regulations.
+
+Requires AI tools to base decisions on individual clinical data and prohibits reliance solely on group datasets.
+
+Prohibits AI tools from denying, delaying, or modifying health care services based on medical necessity; such determinations must be made by licensed professionals.
+
+Ensures AI tools do not replace human decision-making or discriminate against enrollees.
+
+Requires AI tools' criteria to comply with state and federal laws and be open for audits.
+
+Mandates regular review and revision of AI tools for accuracy and reliability.
+
+Prohibits misuse of patient data beyond intended purposes, in line with privacy laws.
+
+Stipulates that AI use should not harm enrollees and requires disclosure of AI usage policies.
+
+---
+
+DOC_ID: 15
+Mandates the commission to consider incorporating AI literacy content into the mathematics, science, and history-social science curriculum frameworks when those frameworks are next revised after January 1, 2025.
+
+Requires the commission to consider including AI literacy in the criteria for evaluating mathematics, science, and history-social science instructional materials adopted by the state board after January 1, 2025.
+
+Defines "AI literacy" as the knowledge, skills, and attitudes related to how artificial intelligence works, including its principles, concepts, applications, limitations, implications, and ethical considerations.
+
+Directs the commission to also consider including media literacy content in the curriculum frameworks and instructional materials for English language arts and English language development, mathematics, science, and history-social science when these are revised or adopted after specified dates.
+
+---
+
+DOC_ID: 16
+Amends the Communications Act of 1934 to criminalize the publication of nonconsensual intimate visual depictions, including digital forgeries created using AI, in interstate or foreign commerce.
+
+Defines digital forgeries as depictions created with AI or other technological means that are indistinguishable from authentic depictions.
+
+Prohibits the publication of such depictions for both adults and minors, with specific intent requirements such as causing harm or for sexual gratification.
+
+Imposes penalties, including fines and imprisonment, for offenses involving adults and harsher penalties for those involving minors.
+
+Mandates covered platforms, such as websites with user-generated content, to establish a process for the removal of nonconsensual depictions within 48 hours of receiving a request.
+
+Enforces compliance through the Federal Trade Commission, treating violations as unfair or deceptive acts.
+
+Provides exceptions for certain authorized law enforcement and good faith activities and outlines processes for restitution and forfeiture related to violations.
+
+---
+
+DOC_ID: 17
+The TAKE IT DOWN Act mandates covered platforms to remove nonconsensual intimate visual depictions, including those created by artificial intelligence (AI), known as digital forgeries. 
+
+Prohibits intentional disclosure of such depictions without consent, especially targeting AI-altered, identifiable images. 
+
+Imposes penalties, including fines and imprisonment, for offenses involving adults and minors. 
+
+Requires covered platforms to establish a removal process within one year of the Act’s enactment, responding promptly (within 48 hours) upon receiving a valid removal request.
+
+Mandates reasonable efforts to remove identical copies across platforms. 
+
+Exempts platforms from liability for good faith removal of purportedly nonconsensual depictions. 
+
+Empowers the Federal Trade Commission to enforce compliance, treating noncompliance as an unfair or deceptive act. 
+
+Specifies legal exceptions, including disclosures for lawful or investigative purposes. 
+
+Defines covered platforms as public websites or applications hosting user-generated content. 
+
+---
+
+DOC_ID: 18
+Defines key terms such as "artificial intelligence," "developer," "generative artificial intelligence," and "synthetic data generation" to clarify the scope and applicability of the regulations.
+
+Mandates developers of generative AI systems, including parties that release a new system or make substantial modifications to a system, released on or after January 1, 2022 to publicly disclose training data documentation on their websites by January 1, 2026, and for each subsequent release.
+
+Requires documentation to include a summary of datasets, sources, purposes, data points, intellectual property status, personal information, any data processing or modifications, and the use of synthetic data generation.
+
+Exempts AI systems solely for security, aircraft operation in national airspace, or national security and defense provided they are only available to federal entities.
+
+
+---
+
+DOC_ID: 19
+Amends the Public Utilities Code to regulate the use of automatic dialing-announcing devices in California.
+
+Requires person calling to make a natural voice announcement before using an automatic dialing-announcing device, which includes stating the nature of the call and the business or organization details; inquiring whether the called person consents to hear a prerecorded message; and informing the called person if the message uses an artificial voice.
+
+Requires person calling to disconnect the device after call termination by either party.
+
+Defines the terms “artificial intelligence” and “artificial voice."
+
+---
+

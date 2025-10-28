@@ -1,0 +1,85 @@
+DOC_ID: 360
+Requires the Director of National Intelligence to develop and submit to Congress a report and a plan to promote intelligence-related engineering, research, and development activities at institutes of higher education whose students are predominantly of minority ethnicities. 
+
+Requires the plan described above to include an analysis of (a) the opportunities for advancing engineering, research, and development in computer sciences, including artificial intelligence, quantum computing, and machine learning, and synthetic biology, and (b) the investments necessary to do so.
+
+Requires the plan to include metrics of success and actionable recommendations for the Director, Congress, and higher education institutions, and permits the Director to award contracts, grants, or other agreements to support the institutions.
+
+Instructs the Director to establish goals and incentives to encourage the 
+Intelligence Advanced Research Projects Activity to develop partnerships between itself, its partner institutions, and institutes of higher education whose students are predominantly of minority ethnicities.
+
+---
+
+DOC_ID: 361
+Directs the Secretary of Defense to assess threats posed by unmanned aerial system swarms to installations and deployed Armed Forces, the use of these swarms by adversaries and their national security implications such as autonomous intelligence and machine learning, current capabilities of the Defense Department and their effectiveness in countering these threats, and efforts by the Defense Department to develop and field technology that can counter swarms.
+
+Directs the Secretary of Defense to develop and implement a strategy to field capabilities to counter threats from unmanned aerial system swarms. The strategy should define "unmanned aerial system swarm," outline plans for developing, testing, fielding, and acquiring capabilities to counter swarms, estimate resources needed by each Armed Force to implement the strategy, and determine the legislative action necessary for the Defense Department to counter swarm threats.
+
+Directs the Secretary of Defense to consider incorporating the strategy into a comprehensive strategy to defend against unmanned aerial systems and to report the assessment findings and strategy to the congressional defense committees within 270 days.
+
+
+---
+
+DOC_ID: 362
+Establishes the Alabama Commission on Artificial Intelligence to review and advise on AI growth and use in governance, healthcare, education, transportation, and future industries.
+
+Requires the commission to consider the establishment of a permanent AI commission.
+
+Comprises members appointed by the Governor, Lieutenant Governor, House Speaker, and Senate President Pro Tempore, including experts in AI, workforce development, technology, ethics, privacy, or computer science.
+
+Requires the commission to submit a report by May 1, 2020, with findings and recommendations for administrative or policy actions related to AI, available on the website of the Office of the Governor.
+
+---
+
+DOC_ID: 363
+Amends Section 236 of the FY 2021 National Defense Authorization Act by adding the Director of National Intelligence as an official that can, with the Secretary of Defense, establish a steering committee on emerging technology and national security and receive recommendations from the committee. Amends members of the steering committee to consist of the Principal Deputy Director of National Intelligence, the Deputy Sector of Defense, the Vice Chairman of the Joint Chiefs of Staffs, and other appropriate officials. Adds that the Steering Committee shall be chaired by the Deputy Secretary of Defense, the Vice Chairman of the Joint Chiefs of Staff, and the Principal Deputy Director of National Intelligence jointly.
+
+Amends the responsibilities of the steering committee by clarifying that the committee's strategy is to maintain the technological superiority of both the US military and intelligence community according to not only the National Defense Strategy, but also the National Intelligence Strategy and the National Security Strategy. Adds that the steering committee is responsible for making recommendations on any changes to the guidance for developing the National Intelligence Program budget and determining whether sufficient resources are available for the intelligence community, in addition to the Department of Defense, to defeat threats to the US.
+
+Adds that the list of technologies classified as emerging technologies is to be determined jointly by the Secretary of Defense and the Director of National Intelligence. Adds the definition of intelligence community from the National Security Act of 1947.
+
+
+---
+
+DOC_ID: 364
+Instructs various government departments to sponsor an analysis of cybersecurity tools and capabilities. Outlines which specific departments are involved in the analysis. Describes the features and tools that must be functional and applicable to the Department. Identifies the capabilities and usage of artificial intelligence and machine learning algorithms within the government. Focuses on analyzing software at the enterprise level, which enhances the productivity and capability of the government departments.
+
+---
+
+DOC_ID: 365
+Provides guidelines for the educational goals of the U.S. Naval Community College, including by naming skills relating to artificial intelligence and other digital technologies as a key focus of the college's educational programs.
+
+Sets eligibility requirements for enrollment in, and graduation from, the college.
+
+---
+
+DOC_ID: 366
+Requires the Secretary of Defense to designate a chief digital recruiting officer.
+
+Instructs the chief digital recruiting officer to identify Department of Defense skill gaps relating to artificial intelligence, distributed ledger technologies, cybersecurity, and other digital technology fields. 
+
+Instructs the chief digital recruiting officer to lead the Department's efforts to close those skill gaps. 
+
+Requires the chief digital recruiting officer to provide the congressional defense committees with an annual briefing on the Department's efforts to close those skill gaps. 
+
+---
+
+DOC_ID: 367
+Directs the Secretary of Defense to submit an annual report to the congressional defense committees on recommendations made by the National Security Commission on AI about the Department of Defense. The report shall cover the Secretary of Defense's intent to implement recommendations, plans for implementing recommendations including timelines and resources, and justifications for not implementing recommendations, including recommendations that are already being implemented.
+
+Directs the Secretary of Defense to brief the congressional defense committees at least annually on progress in analyzing and implementing recommendations and any activities carried out in pursuit of the recommendations, including funding for each activity.
+
+---
+
+DOC_ID: 368
+Requires the Commander of Cyber Command, Under Secretary of Defense for Intelligence, and Under Secretary of Defense for Intelligence to assess offensive and defensive cyber capabilities of US adversaries and the U.S. military's plans for potential offensive cyber operations during conflict. One part of the assessment should cover the impact of emerging technologies such as AI. Requires briefing to the congressional defense committees.
+
+---
+
+DOC_ID: 369
+Requires the Secretary of the Navy to submit to the congressional defense committees a 15-year acquisition, modernization, and sustainment plan for the carrier air wings of the Navy.
+
+Requires the plan to include an analysis of how advanced technologies such as Next Generation Jammer can be utilized to maximize operational use of existing platforms, particularly the EA-18G aircraft and the E-2D aircraft.  
+
+---
+

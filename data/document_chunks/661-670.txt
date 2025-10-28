@@ -1,0 +1,150 @@
+DOC_ID: 660
+Requires the Secretary of Homeland Security to develop and submit a plan within 180 days to identify, integrate, and deploy advanced technologies, including AI and machine learning, to enhance border security operations.
+
+Mandates inclusion of information on how CBP utilizes its Innovation Teams and other mechanisms to achieve these goals.
+
+Requires assessments of technology contributions, team compositions, and coordination efforts within CBP and DHS.
+
+Identifies non-utilized technologies from other federal agencies that could enhance border security.
+
+Includes an analysis of procurement authorities and whether additional ones are needed.
+
+Demands explanations on scaling existing programs and descriptions of planned security technology programs with objectives, goals, and timelines.
+
+Assesses the privacy and security impact on border communities and legacy technology phase-outs.
+
+Requires coordination with DHS's Science and Technology Directorate to develop and incentivize new technologies.
+
+Specifies metrics for evaluating effectiveness and identifies recent technological advancements in various surveillance and inspection technologies.
+
+Authorizes CBP Innovation Teams to research and adapt commercial technologies, establishing procedures and strategic goals.
+
+Requires annual reporting on Innovation Team activities, including successful technology transitions.
+
+---
+
+DOC_ID: 661
+Establishes the Commission of Experts on Child Exploitation and Artificial Intelligence to investigate and recommend solutions for the prevention, detection, and prosecution of child exploitation crimes involving AI.
+
+Directs the Commission to assess the role of AI in child exploitation and evaluate law enforcement's current capabilities to detect and prosecute such crimes.
+
+Requires the Commission to recommend statutory or constitutional amendments to address obstacles to prosecution identified by the Commission and enhance law enforcement's ability to combat AI-facilitated child exploitation.
+
+Mandates the Commission to submit to Congress interim reports as needed and a final report within two years of member appointments.
+
+Details membership of the Commission as composed of 13 appointed experts from various fields, and outlines guidelines on membership qualifications and operational procedures.
+
+Empowers the Commission to hold hearings, obtain official data, and utilize various support services for its operations.
+
+---
+
+DOC_ID: 662
+Amends the Export Control Reform Act of 2018 to prevent foreign adversaries from exploiting U.S. artificial intelligence and other critical technologies.
+
+Defines "artificial intelligence" and "artificial intelligence system" as per the National Artificial Intelligence Initiative Act of 2020.
+
+Specifies an interim and final definition of "covered artificial intelligence system," focusing on AI systems posing serious national security risks.
+
+Authorizes the President to control the activities of U.S. persons related to critical AI systems and emerging technologies essential to national security.
+
+Empowers the President to require U.S. persons to obtain licenses for exporting or transferring critical AI systems and technologies.
+
+Amends the International Emergency Economic Powers Act to align with the updated export control provisions.
+
+---
+
+DOC_ID: 663
+Requires anyone who creates or alters a training dataset used for a generative AI system to submit a notice to the Register of Copyrights with a summary of any copyrighted works used in the dataset and the URL for the dataset.
+
+Requires the notice must be submitted 30 days before the AI system is made available to consumers or within 30 days of the Act taking effect for systems already available.
+
+Imposes a civil penalty of at least $5,000 for non-compliance.
+
+Requires the Register to establish and maintain a public database of filed notices.
+
+---
+
+DOC_ID: 664
+Establishes a private right of action against individuals who send unsolicited visual depictions of sexually explicit conduct.
+
+Defines “machine-manipulated media” as media substantially modified using machine-learning techniques.
+
+Permits recipients to bring civil actions for statutory damages up to $500, compensatory damages for emotional distress, attorney fees, and injunctive relief.
+
+Exempts third-party providers, good faith medical, educational, or law enforcement senders, and lawful adult websites from liability.
+
+Allows legal guardians to sue on behalf of minors, incompetent, or incapacitated individuals.
+
+Permits plaintiffs who were minors at the time of the incident to use initials for privacy in court documents.
+
+Ensures civil remedies do not modify or supersede criminal laws.
+
+Includes a severability clause to maintain the act’s provisions if parts are deemed unconstitutional.
+
+---
+
+DOC_ID: 665
+Directs the National Institute of Standards and Technology (NIST) to brief Congress on opportunities for U.S. participation in developing AI standards within one year.
+
+Requires the establishment of a web portal to inform U.S. industry and federal agencies about international AI standards efforts and participation opportunities.
+
+Mandates federal agencies to report their participation in AI standards activities using a mechanism developed by the NIST.
+
+Initiates a pilot program to support U.S.-based AI standards meetings through grants to eligible entities, with funding covering up to 50% of meeting costs.
+
+Authorizes $10 million for the pilot program from fiscal years 2024 through 2028.
+
+---
+
+DOC_ID: 666
+Requires the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities.
+
+Establishes a voluntary, comprehensive database to track AI security and safety incidents, ensuring confidentiality and standardized reporting.
+
+Requires the Cybersecurity and Infrastructure Security Agency (CISA) to update the Common Vulnerabilities and Exposures Program for AI vulnerabilities.
+
+Establishes an Artificial Intelligence Security Center within NSA to facilitate AI security research, develop counter-AI techniques, and promote secure AI practices.
+
+---
+
+DOC_ID: 667
+Requires the President, through the Director of the Office of Management and Budget, to submit a report to Congress on the state of economic integration between the U.S. and China, and the national security risks posed by this integration, every three years for 15 years.
+
+Mandates each report to assess the level of economic integration and its changes since 2000, with predictions for the next three years, specifically in priority sectors including artificial intelligence.
+
+Includes analysis of risks such as reliance on Chinese entities, supply chain dependencies, intellectual property theft, and impacts on the U.S. defense industrial base, particularly in the AI sector.
+
+Requires recommendations for mitigating identified risks.
+
+Permits consultation with nongovernmental entities and submission of the report in an unclassified form, potentially with a classified annex.
+
+---
+
+DOC_ID: 668
+Amends the E-Government Act of 2002 to improve the handling of mass and computer-generated comments in the regulatory review process.
+
+Requires agencies to verify whether electronic comments are submitted by humans.
+
+Mandates agencies to identify and label mass comments and allows agencies to post representative samples of these comments.
+
+Directs the Office of Management and Budget (OMB) to issue guidance on verifying human submissions and managing mass comments, including the use of technology tools.
+
+Obliges agencies to establish and publicly post policies on handling computer-generated and mass comments within one year of enactment.
+
+Compels the Government Accountability Office (GAO) to report on the identification and impact of computer-generated comments within two years.
+
+---
+
+DOC_ID: 669
+Directs the Secretary of Defense to ensure the fiscal year 2024 audit of the Department of Defense's financial statements uses AI technology.
+
+Requires the Under Secretary of Defense (Comptroller) and the Inspector General to jointly develop the necessary AI technology for facilitating these audits.
+
+Mandates the use of this AI technology to accelerate the retirement of older financial management systems without compromising essential controls or auditing standards.
+
+Orders the rescission and deposit of any identified surplus funds from the audit into the General Fund of the Treasury for deficit reduction.
+
+Obliges the Secretary of Defense to brief the Senate and House Committees on Armed Services within 180 days on the audit's progress and the AI technology development.
+
+---
+

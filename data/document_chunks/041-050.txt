@@ -1,0 +1,150 @@
+DOC_ID: 40
+Establishes a tax credit of 30% for investments in innovative agricultural technology projects under the Internal Revenue Code.
+
+Defines "innovative agricultural technology project" as technology used to produce, store, process, and package specialty crops with precision agriculture or controlled environment agriculture, effective through December 31, 2035.
+
+Specifies "qualified property" includes tangible personal property, software, and technology necessary for these projects and subject to depreciation rules.
+
+Includes provisions for specific modern technologies, such as AI, machine learning, robotics, and various sensors, under both controlled environment and precision agriculture technologies.
+
+Prohibits double benefit from using both this tax credit and specific government grants.
+
+Amends sections of the Internal Revenue Code to incorporate the innovative agricultural technology investment credit.
+
+Sets the amendment's applicability to projects starting construction after January 1, 2025.
+
+---
+
+DOC_ID: 41
+Requires the Secretary of Homeland Security, alongside TSA and CISA, to submit a report on the prevention, deterrence, and response to vehicular terrorism.
+
+Mandates the report to assess threats related to connected and autonomous vehicles and ADAS technologies, including AI-driven cybersecurity vulnerabilities.
+
+Instructs inclusion of evaluations regarding DHS's engagement with public and private stakeholders, focusing on vehicle rental and ride-sharing platforms to prevent misuse.
+
+Calls for recommendations on AI-enabled predictive analytics and vehicle immobilization technologies to detect and mitigate threats.
+
+Demands coordination with enforcement agencies to address vehicular terrorism through intelligence sharing and joint training.
+
+Ensures countermeasures and AI use respect privacy and civil liberties.
+
+Obliges publication of an unclassified report summary for public access and annual briefings to Congress on developments and recommendations.
+
+Defines “vehicular terrorism” as the use of vehicles to commit acts of terrorism.
+
+---
+
+DOC_ID: 42
+Requires the Director of the Office of Management and Budget, in consultation with the National Institute of Standards and Technology, to annually implement a process using artificial intelligence to identify redundant or outdated federal regulations.
+
+Mandates the use of an AI system that meets strict standards for accuracy, transparency, accountability, and national security risk.
+
+Obliges agencies to review identified redundant or outdated regulations within 30 days and make a final determination of their status.
+
+Commands the rescission or amendment of regulations found to be redundant or outdated within 30 days after determination.
+
+Requires the public publication of any determination with a brief explanation, with an option for a classified annex to Congress if necessary.
+
+Amends Title 5 of the United States Code to facilitate the expedited rescission and amendment of redundant or outdated regulations identified through AI review.
+
+---
+
+DOC_ID: 43
+Mandates the Secretary of Agriculture, in consultation with the National Institute of Standards and Technology and the Federal Communications Commission, to develop voluntary interconnectivity standards for precision agriculture within two years of enactment.
+
+Requires coordination with public and private stakeholders, including industry organizations and voluntary standards bodies, to create these standards.
+
+Includes the consideration of evolving demands, connectivity needs, cybersecurity challenges, and the impacts of advanced wireless technology and AI on precision agriculture.
+
+Directs the Comptroller General to conduct studies assessing these standards' development, voluntary nature, industry coordination, and adoption success, with reports due to Senate and House committees.
+
+Aims to enhance precision agriculture participation in the U.S. and promote U.S. leadership in setting standards for precision agriculture through voluntary consensus standards development organizations.
+
+---
+
+DOC_ID: 44
+Appropriates $1,076,317,000 to U.S. Customs and Border Protection (CBP) for AI, machine learning, and non-intrusive inspection equipment to combat illicit narcotics at U.S. borders.
+
+Restricts funds for certain surveillance towers unless they are tested and federally accepted for autonomous capabilities.
+
+Defines "autonomous" as systems using AI, sensors, and onboard computing to automate identification tasks traditionally performed manually by CBP personnel.
+
+---
+
+DOC_ID: 45
+Amends the Social Security Act to classify algorithm-based healthcare services under Medicare’s new technology ambulatory payment classification.
+
+Requires the Secretary of Health and Human Services to assign payment classifications based on cost data submitted by manufacturers, including diverse factors like invoice prices and overhead.
+
+Specifies that algorithm-based services cannot be removed from their payment classification until adequate claims data is available, and mandates a minimum tenure of five years within the initial classification.
+
+Adjusts the criteria for eligibility in new technology classifications to include distinct procedures that use AI, machine learning, or other software when used adjunctively with underlying services.
+
+Defines algorithm-based healthcare services as those using FDA-approved AI or software for clinical guidance.
+
+Mandates the payment system for software services as described in a 2022 Medicare rule, effective from January 2023.
+
+---
+
+DOC_ID: 46
+Amends the Public Health Service Act to mandate the Secretary of Health and Human Services to establish drug adherence guidelines aimed at 90 percent adherence for Medicare part B and D drugs.
+
+Requires incorporation of artificial intelligence and machine learning technologies in these guidelines.
+
+Promotes, to the greatest extent possible, the use of generic and biosimilar drugs.
+
+---
+
+DOC_ID: 47
+Recognizes the importance of voluntary licensing agreements for AI training and notes that these arrangements have developed in some contexts, particularly with high-volume or limited copyright owners.
+
+Suggests that voluntary collective licensing can reduce transaction complexity and cost, while offering flexibility for both copyright owners and licensees.
+
+Raises concerns that a compulsory licensing regime would inhibit market-based solutions and prove inflexible and slow to adapt.
+
+Views Extended Collective Licensing (ECL) as a potentially less intrusive solution in sectors where voluntary licensing fails.
+
+Discourages requiring copyright owners to opt out, emphasizing consent for uses within statutory rights, though acknowledges Congress may consider exceptions allowing opt-outs.
+
+Encourages the Department of Justice to clarify antitrust concerns related to collective licensing.
+
+Recommends allowing the licensing market to evolve organically, suggesting targeted interventions only if specific market failures arise.
+
+Notes the nascent state of AI law, markets, and technology, and urges reliance on collaborative market-based solutions as legal clarity evolves.
+
+---
+
+DOC_ID: 48
+Recommends that Congress establish a federal right to protect individuals from the distribution of unauthorized digital replicas during their lifetimes. 
+
+Proposes that this right be licensable and subject to guardrails but not assignable, with remedies such as monetary damages and injunctive relief available. 
+
+Requires traditional rules of secondary liability, with a safe harbor for online service providers suitably conditioned.
+
+Suggests explicit First Amendment accommodations in the law.
+
+Advises against full preemption of state laws, recognizing established state rights of publicity. 
+
+Offers the Copyright Office as a resource for Congress, the courts, and the executive branch in implementing these recommendations and addressing future developments in AI governance.
+
+---
+
+DOC_ID: 49
+Appropriates $140 million for long-range unmanned aircraft systems and related infrastructure to improve the US Coast Guard's capabilities. 
+
+Allocates $180 million for maritime domain awareness equipment and services, including $75 million specifically for autonomous maritime systems. 
+
+Allows, through 2030, for entities other than the Coast Guard to acquire, procure, or construct floating dry docks, provided they meet defined requirements. 
+
+Limits design, planning, and engineering expenses to 15% of specified funding allocations for maintenance facilities. 
+
+Exempts acquisitions funded under this act from sections 1131, 1132, and 1133 of title 14, United States Code. 
+
+Mandates compliance with reporting requirements and submission of an expenditure plan to relevant Congressional committees.
+
+Prohibits expenditure during any fiscal year if the Coast Guard is non-compliant with specified sections of title 14, United States Code. 
+
+Requires prior notification to Congress before procurement actions affecting cost or timelines.
+
+---
+

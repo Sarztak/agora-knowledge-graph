@@ -1,0 +1,158 @@
+DOC_ID: 650
+Requires the Federal Acquisition Institute to incorporate experiential learning into key acquisition certification programs within 18 months.
+
+Mandates the development and implementation of a cross-functional ICT acquisition training program, emphasizing market research, cloud computing, artificial intelligence, and cybersecurity.
+
+Encourages the use of commercially available off-the-shelf technologies and innovative procurement techniques like oral presentations and product demonstrations.
+
+Reassigns the responsibility for AI training requirements from the Office of Management and Budget to the General Services Administration.
+
+Expands the Commercial Solutions Opening Authority to include commercial services and mandates public reporting and data collection on its use.
+
+Increases the simplified acquisition threshold from $250,000 to $500,000.
+
+Requires the Administrator to issue guidance on using past performance from a broader range of projects to increase competition.
+
+Establishes a working group to address the shrinking Federal vendor base and recommends actions to remove barriers to qualified vendors.
+
+---
+
+DOC_ID: 651
+Prohibits artificial intelligence entities from being classified as artists under this act.
+
+Requires the establishment of the Artist Compensation Royalty Fund to help provide financial support to those whose employment was negatively impacted by AI.
+
+Mandates service providers to collect and deposit a living wage royalty fee and a percentage of non-subscription revenue into the Fund.
+
+Authorizes the Fund Administrator to impose penalties for violations and non-compliance by service providers.
+
+---
+
+DOC_ID: 652
+Requires the Secretary of Energy, in consultation with the EPA and other federal agencies, to implement a program for methane emissions detection and mitigation research, development, and demonstration.
+
+Mandates cooperative agreements with state/local governments, higher education institutions, and for-profit entities for technical assistance in preventing and responding to methane releases.
+
+Establishes publicly accessible resources for best practices in pipeline systems, production wells, storage facilities, and emission reduction technologies.
+
+Supports research into technologies for accurate methane emissions quantification, including improvements in data analytics, machine learning platforms, and Lidar detection technologies.
+
+Forms a Methane Emissions Measurement and Mitigation Research Consortium to prioritize research, facilitate data sharing, and develop cooperative leak detection and repair strategies.
+
+Requires annual reporting to Congress on the Consortium's activities, findings, and progress, and a merit review after five years.
+
+Authorizes specific appropriations for the Secretary of Energy and Secretary of Commerce to support these initiatives through 2029.
+
+---
+
+DOC_ID: 653
+Requires the Secretary of Veterans Affairs to submit an annual report on the average length of time remanded claims are pending.
+
+Mandates the use of technology to track and maintain information on specific claims for benefits, including those continuously pursued, in the National Work Queue, or pending a hearing.
+
+Ensures claimants can view reasons for claim deferrals or suspense dates in the National Work Queue.
+
+Authorizes the Chairman of the Board of Veterans’ Appeals to aggregate appeals with similar questions of law or fact.
+
+Obliges the Board to ensure substantial compliance with its remand decisions, allowing waivers if sufficient evidence resolves underlying issues.
+
+Grants the Court of Appeals for Veterans Claims supplemental jurisdiction to review eligible claims and remand matters for addressing unaddressed issues or inadequate decisions by the Board.
+
+Directs a study, potentially using AI, on common legal or factual questions before the Board and mandates a report on the findings.
+
+Requires the Secretary to develop a plan for timely assignment of claims and submit it to Congress.
+
+---
+
+DOC_ID: 654
+Directs the NIST to establish task forces focused on the development of technical guidelines for identifying and labeling AI-generated content, including metadata, watermarking, and digital fingerprinting.
+
+Supports the development of standards to provide cryptographically verifiable content provenance metadata and robust watermarks. 
+
+Requires providers of generative AI applications to ensure that content created or modified by such applications includes a disclosure of its AI origin, and to collaborate with providers of covered online platforms to provide these disclosures to users.
+
+Prohibits online platforms from removing such disclosures and mandates clear display of AI origin information to users.
+
+Enforces compliance under the Federal Trade Commission Act.
+
+Defines self-regulatory guidelines approved by the FTC as compliance alternatives.
+
+---
+
+DOC_ID: 655
+Establishes the National Patient Safety Board (NPSB) within the Office of the Secretary of Health and Human Services to prevent and reduce patient safety events.
+
+Empowers the NPSB to support federal agencies in monitoring patient safety, studying causes of patient safety events, and formulating preventive solutions.
+
+Grants the NPSB authority to request changes to patient safety measures, review reports, and make them publicly available within one year of study commencement.
+
+Mandates annual audits and reports to Congress on progress, including detailed solutions and unaddressed needs.
+
+Forms a Patient Safety Research and Development Division to aggregate and analyze patient-level data, identifying and anticipating safety events and disparities.
+
+Requires compliance with privacy laws and AI governance frameworks, including NIST's AI Risk Management Framework and the Blueprint for an AI Bill of Rights.
+
+Prohibits the use of NPSB reports as evidence in civil liability cases but allows their use in developing standards of care.
+
+---
+
+DOC_ID: 656
+Requires the Bureau of Consumer Financial Protection to assess the use of educational data and automated processes in creditworthiness determinations annually.
+
+Mandates coordination with executive agencies and civil rights stakeholders for these assessments.
+
+Examines the risks and disparate impacts of using automated or algorithmic underwriting processes.
+
+Obligates the Bureau to report findings and recommendations to Congress 60 days post-assessment.
+
+Requires public disclosure of assessment findings, lists of covered persons using educational data, and those employing automated or algorithmic processes.
+
+Defines key terms, including "certain educational data" and "covered person," with references to existing legislation.
+
+---
+
+DOC_ID: 657
+Redesignates the Office of NextGen as the Office of Advanced Aviation within 1 year.
+
+Appoints an Associate Administrator to oversee the Office of Advanced Aviation.
+
+Coordinates rulemaking and approval processes for advanced aviation systems' standardization, certification, safety, and integration into national airspace.
+
+Establishes an Office of Advanced Integration to manage responsibilities related to advanced aviation systems.
+
+Forms an Advanced Aviation Coordination Unit to promote safe integration and certification of advanced aviation systems.
+
+Redesignates the William J. Hughes Technical Center as the William J. Hughes Technical Center for Advanced Aviation, responsible for research, development, and integration of new aviation technologies.
+
+Establishes an Aviation Innovation Program to evaluate and integrate new aviation-related technologies into the national airspace system.
+
+Defines "advanced aviation systems" to include unmanned aircraft systems, counter-UAS systems, powered lift aircraft, and related technologies.
+
+---
+
+DOC_ID: 658
+Amends the BUILD Act of 2018 to define "transformational energy technology," including AI applications for energy efficiency and grid operation.
+
+Inserts a Chief Energy Officer position within the U.S. International Development Finance Corporation (DFC) to promote transformational energy technology exports and ensure at least 30% of DFC support targets such projects.
+
+Requires annual and quarterly reports on transformational energy technology projects and international finance of energy generation.
+
+Establishes an Office of Energy in the Export-Import Bank to promote and finance exports of eligible technologies, including those involving AI.
+
+Mandates the creation of a Joint Energy Export, Development, and Trade Database to coordinate inter-agency efforts.
+
+Increases the DFC's maximum contingent liability and adjusts the Export-Import Bank’s loan, guarantee, and insurance authority limits.
+
+---
+
+DOC_ID: 659
+Requires the Director of the Office of Management and Budget (OMB) to report on the Federal Government's progress in making agency regulations available in machine-readable format within 180 days after enactment.
+
+Mandates the OMB Director to issue guidance within 18 months on using technology, including AI, for efficient and accurate retrospective reviews of regulations.
+
+Obliges agency heads to submit a detailed plan within two years for implementing OMB guidance on retrospective reviews, identifying regulations for review, and including necessary data and analysis.
+
+Directs agency heads to implement the submitted plan within 180 days of submission, focusing on retrospective regulatory reviews.
+
+---
+

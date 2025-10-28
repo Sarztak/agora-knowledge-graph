@@ -1,0 +1,156 @@
+DOC_ID: 440
+Require the Director of the Office of Science and Technology Policy and the Director of the Office of National Drug Control Policy to develop a strategy for accelerating the research, development, and deployment of advanced inspection technologies, including AI and quantum computing, to detect illicit synthetic drugs.
+
+Mandate coordination with multiple agencies, including the National Science Foundation and the National Institute of Standards and Technology.
+
+Instruct submission of a report on the strategy to specified congressional committees within two years of the Act's enactment.
+
+---
+
+DOC_ID: 441
+Amends Section 169 of the Workforce Innovation and Opportunity Act to evaluate programs using emerging technology, including AI, for enhancing labor market information and data integration.
+
+Mandates studies to assess AI's effectiveness in workforce systems, emphasizing technology's impact on service delivery, labor market data, end-user tools, and potential biases.
+
+Requires analysis of how automation affects employment, skills development, and worker displacement.
+
+Demands evaluation of AI and machine learning adoption by States in workforce systems, assessing accuracy and identifying biases.
+
+Calls for alignment studies between workforce and education systems, using data integration to improve outcomes.
+
+Obliges reports on AI-related studies and evaluations to be submitted to relevant Senate and House Committees and published publicly.
+
+Sets limits on using authority if certain evaluations are not initiated or completed timely.
+
+Requires Secretary-conducted evaluations on the effectiveness of programs under various conditions.
+
+---
+
+DOC_ID: 442
+Amends the Inspector General Act of 1978 to require a detailed description of communications between federal establishments and internet service or content providers. 
+
+Includes communications concerning content moderation, user content such as posts, photos, and videos, and any interactions related to data inputs, algorithms, modeling, simulation processes, analysis tools, or related technologies.
+
+Aims to enhance transparency in bureaucratic communications with digital platforms.
+
+---
+
+DOC_ID: 443
+Mandates the Federal Communications Commission (FCC) to develop an artificial intelligence-based tool to help the public identify likely scams within one year of this Act's enactment.
+
+Requires the AI tool to accept various submission formats including emails, text messages, website URLs, and scans or photographs of physical materials.
+
+Obliges the tool to evaluate the likelihood of submissions being scams and provide a rating to reflect this likelihood.
+
+Defines "artificial intelligence" as per the National Artificial Intelligence Initiative Act of 2020.
+
+Defines "scam" as any scheme designed to defraud by inducing a recipient to take actions against their interest, through false or misleading information.
+
+---
+
+DOC_ID: 444
+Amends Section 116(e) of the Workforce Innovation and Opportunity Act to require the use of data for conducting analyses and ongoing evaluations of state programs.
+
+Allows states to use machine learning and other advanced analytics to enhance program operations and outcomes.
+
+Encourages identification of areas needing further evaluation through advanced data analysis techniques.
+
+---
+
+DOC_ID: 445
+Establishes a Task Force within the Cybersecurity and Infrastructure Security Agency to coordinate efforts related to AI safety and security.
+
+Requires coordination of Agency efforts to improve the safe and secure design, development, adoption, and deployment of AI.
+
+Ensures Agency collaboration in interagency and nongovernment AI-related initiatives.
+
+Mandates assessment and evaluation of Agency safety initiatives to address AI challenges.
+
+Leverages expertise to use AI in defending against cyber threats.
+
+Coordinates efforts to advise stakeholders on AI-related cyber risks.
+
+Identifies AI workforce gaps and proposes solutions.
+
+Promotes secure adoption of AI-based software.
+
+Recommends new initiatives for AI safety and security.
+
+Ensures AI efforts meet privacy, civil rights, and civil liberties standards.
+
+Supports publication and accuracy of the Agency’s AI use inventory.
+
+Mandates biannual briefings to Congress on Task Force activities.
+
+Sunsets the Act 5 years after enactment.
+
+---
+
+DOC_ID: 446
+Limits the Internal Revenue Service's (IRS) use of artificial intelligence (AI) for audits or investigations.
+
+Requires any IRS guidance on AI for audits to follow rule-making procedures under Section 553 of Title 5, U.S. Code.
+
+Prohibits the IRS from conducting audits or investigations initiated by AI unless the AI meets explainability principles set by the National Institute of Standards and Technology.
+
+Defines "artificial intelligence" according to the National Artificial Intelligence Initiative Act of 2020.
+
+Mandates the Comptroller General to audit and report on the IRS's AI use, including a cost-benefit analysis and the impact on taxpayer rights.
+
+Stipulates that IRS investigations or examinations must be initiated by a staff investigator, with documentation including the investigator's contact information.
+
+---
+
+DOC_ID: 447
+Mandates the Secretary of Defense to create a ledger of all uses by the Department of Defense of AI-enabled weapon, targeting, and decision support systems within three years.
+
+Requires the ledger to be a structured, indexed database that is regularly updated.
+
+Calls on the Secretary of Defense to develop a risk assessment process to evaluate dependability, cybersecurity, privacy, and civilian harm risk for each AI system.
+
+Mandates annual reevaluations of each system, and when an AI model receives an update, a new system is procured, or a new weapons review is conducted.
+
+Requires annotations in the ledger when AI systems are shared, exported, or used internationally, noting additional risks.
+
+Obligates annual progress reports and submissions to Congress, including the ledger and risk assessment findings, to be publicly accessible
+
+---
+
+DOC_ID: 448
+Establishes the Data Protection Agency (DPA) as an independent entity responsible for regulating high-risk data practices and the collection, processing, and sharing of personal data. 
+
+Defines high-risk data practices, which include the use of automated decision systems and processes involving biometric information, and mandates high-risk data practice risk assessments and impact evaluations.
+
+Empowers the DPA to issue rules, conduct investigations, enforce federal privacy law, and impose penalties on violators.
+
+Requires large data aggregators, those with significant revenue or who process data of many individuals, to report compliance and undergo regular examinations.
+
+Transfers certain rulemaking and enforcement powers from the Federal Trade Commission to the DPA.
+
+Mandates coordination with other federal and state agencies to ensure consistent privacy regulation.
+
+Allows states to enforce protections, provided they do not conflict with this act. 
+
+Authorizes appropriations for the DPA's operations and activities.
+
+---
+
+DOC_ID: 449
+Enacts laws addressing artificial intelligence (AI) deceptive practices to protect privacy and combat unauthorized digital alterations. 
+
+Defines "digitization" as using AI and other technologies to alter realistic images or audio. 
+
+Amends civil rights laws to establish a private right of action for false light invasion of privacy and unauthorized use of likeness or voice, including digitally altered depictions. 
+
+Requires platforms and individuals to obtain consent before disseminating digitized images or audio depicting individuals in sensitive contexts without consent.
+
+Mandates disclosures for political communications produced with digitized deceptive media within 60 days of an election, excluding satire, parody, or news reporting.
+
+Prohibits coercion or impersonation using digitization, with heightened penalties for identity theft involving AI-altered representations. 
+
+Allows legal actions against those intentionally causing emotional, financial, or social harm via AI-fabricated media. 
+
+Incorporates these provisions into criminal and election laws, with penalties for violations and the possibility for injunctive relief.
+
+---
+

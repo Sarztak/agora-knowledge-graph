@@ -1,0 +1,148 @@
+DOC_ID: 670
+Prohibits the production or distribution of digital forgeries of intimate visual depictions of identifiable individuals without their consent, under penalty of fines or imprisonment up to 5 years.
+
+Exempts distributions made in good faith to law enforcement, during legal proceedings, for medical purposes, or in reporting/investigating unlawful content or conduct.
+
+Excludes communications service providers from liability unless they knowingly or recklessly distribute such content.
+
+Defines "digital forgery" as intimate visual depictions created or altered using software, machine learning, AI, or other computer-generated means to appear authentic.
+
+Establishes extraterritorial jurisdiction if the offender or victim is a U.S. national.
+
+Ensures severability of the Act’s provisions if any part is found unconstitutional.
+
+---
+
+DOC_ID: 671
+Mandates the exercise of emergency sanctions authorities regarding Communist Chinese military companies.
+
+Defines affected companies as those engaged in commercial services, manufacturing, producing, or exporting in the AI sector.
+
+---
+
+DOC_ID: 672
+Mandates the Secretary of Agriculture to establish at least one center of excellence to conduct research, extension, and education activities.
+
+Designates eligible host institutions, including land-grant colleges and accredited veterinary schools, and requires geographic diversity in selection.
+
+Limits each institution to host or co-host only one center at a time.
+
+Requires partnerships with federal agencies, state governments, higher education institutions, and agricultural industry groups to enhance coordination and cost-effectiveness.
+
+Focuses on multiple areas, including digital agriculture, artificial intelligence, agricultural biosecurity, cybersecurity, precision agriculture technologies, biotechnology, and crop protection.
+
+Prohibits using funds for new construction or facility alterations.
+
+Requires an annual report on projects, funding, institutional participation, cost-sharing, and intellectual property actions to relevant Congressional committees.
+
+Expands the number of centers from 3 to 8 and extends the program's authorization to 2029.
+
+---
+
+DOC_ID: 673
+Requires the Secretary of Energy to identify, analyze, and share data to improve the reliability and resilience of the electric grid.
+
+Mandates the Secretary to consider data types, temporal frequency, and spatial resolution, especially in rural, low-income, and disadvantaged communities.
+
+Requires collaboration with National Laboratories, NOAA, and other agencies for weather data relevant to grid reliability and resilience.
+
+Considers the use of emerging technologies, including AI and machine learning, to enhance grid reliability and resilience.
+
+Establishes a steering committee with stakeholders from federal agencies, regulators, and the electric power sector to guide data-related activities.
+
+Mandates the submission of a report to Congress within one year, detailing findings and recommendations for data collection and sharing.
+
+Authorizes $10 million for the first fiscal year to support these activities.
+
+---
+
+DOC_ID: 674
+Requires the allocation of $2,900,000,000 for democracy programs from various appropriations, including $159,240,000 for the Bureau of Democracy, Human Rights, and Labor.
+
+Mandates the submission of a comprehensive five-year strategy for democracy promotion abroad within 180 days, addressing digital security, countering disinformation, and AI-related challenges.
+
+Prohibits foreign governments from having prior approval over the implementation of democracy programs and protects the confidentiality of implementing partners in undemocratic countries.
+
+Allocates $30,000,000 to protect civil society activists and journalists and $20,000,000 for international freedom of expression and independent media.
+
+Requires the regular informing of the National Endowment for Democracy about planned and supported democracy programs.
+
+---
+
+DOC_ID: 675
+Requires the President to identify, list, and annually update categories of technologies and products in the AI sector that pose acute threats to U.S. national security if acquired by adversaries.
+
+Requires the President to prescribe regulations prohibiting U.S. persons from engaging in covered activities involving listed technologies and products in the AI development sector.
+
+Directs the President to submit annual congressional reports on notifications of covered activities and assessing the need for regulatory amendments.
+
+Encourages multilateral engagement to align with allied countries on similar mechanisms for prohibitions and notifications on technologies in the AI sector.
+
+Authorizes $25 million for implementation and allows direct hiring to administer the entire Act.
+
+---
+
+DOC_ID: 676
+Requires the Election Assistance Commission to develop and issue voluntary guidelines for election offices addressing the use and risks of artificial intelligence (AI) technologies in election administration within 60 days of enactment.
+
+Mandates inclusion of guidelines on the risks and benefits of AI in election activities, cybersecurity risks, the impact of AI-generated information on sharing accurate election information, and the spread of election disinformation.
+
+Directs the Election Assistance Commission to study and report on the use and impacts of AI technologies in the 2024 federal elections by November 5, 2025, including the sharing of AI-generated information and the use of AI by election offices.
+
+Requires the Election Assistance Commission to review and update the voluntary guidelines based on the study's findings.
+
+---
+
+DOC_ID: 677
+Establishes a deployment and testbed pilot program for new and innovative wildfire prevention, detection, communication, and mitigation technologies.
+
+Requires incorporation of the Pilot Program into an existing interagency coordinating group on wildfires.
+
+Mandates consultation with covered agencies to identify key technology priority areas.
+
+Partners with selected covered entities for real-time and on-the-ground testing of technology during wildfire mitigation activities.
+
+Prioritizes emerging technologies, including artificial intelligence, quantum sensing, and augmented reality, for wildfire mitigation.
+
+Requires submission of annual reports to appropriate committees, detailing participating entities, tested technologies, costs, outreach efforts, and assessments.
+
+Expires the Pilot Program on September 30, 2029.
+
+---
+
+DOC_ID: 678
+Requires the Federal Aviation Administration (FAA) Administrator to issue a final rule within 24 months mandating safety management systems for certain operators under part 135 of title 14.
+
+Prohibits, beginning three years after enactment, commercial air tours without a certificate under part 119 of title 14, unless meeting specific temporary exceptions.
+
+Mandates new or revised regulations within three years to incorporate controlled flight into terrain and in-flight loss of control avoidance training for certificated commercial air tour operators.
+
+Convenes an aviation rulemaking committee to develop standards for flight data monitoring, terrain awareness, and traffic avoidance for commercial air tour operators.
+
+Directs the Administrator to submit reports and issue proposed rulemakings and final rules based on the aviation rulemaking committee's recommendations within specified timelines.
+
+Requires the FAA to improve the process for obtaining operating certificates and report on the efficiency and resource needs of this process.
+
+Authorizes appropriations as necessary to implement the Act.
+
+---
+
+DOC_ID: 679
+Mandates the Commandant to submit a report within one year outlining a plan for establishing an unmanned systems capabilities office within the Coast Guard.
+
+Requires the report to include a management strategy for the acquisition, development, and deployment of unmanned and counter-unmanned system technologies.
+
+Specifies the need for a service-wide coordination strategy to synchronize efforts across the Coast Guard.
+
+Identifies contracting and acquisition authorities necessary to expedite technology development and deployment.
+
+Lists commercially available technologies useful for the Coast Guard.
+
+Calls for a cross-agency collaboration plan with the Department of Homeland Security, the Department of Defense, and other relevant agencies.
+
+Highlights opportunities to share unmanned system data to improve maritime domain awareness.
+
+Requires the development of a concept of operations for a data ecosystem supporting unmanned systems, including AI and machine learning tools.
+
+---
+

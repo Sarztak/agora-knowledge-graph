@@ -1,0 +1,126 @@
+DOC_ID: 480
+Requires the Maryland Department of Information Technology to evaluate the potential use of artificial intelligence in developing a statewide virtual 3-1-1 portal for nonemergency government information and services.
+
+Mandates the prioritization of creating the virtual 3-1-1 portal if the AI application is deemed feasible.
+
+Sets the effective date of this Act as July 1, 2024.
+
+Receives approval from the Governor on May 9, 2024.
+
+---
+
+DOC_ID: 481
+Allocate $300,000 from the general fund for fiscal year 2024 to the city of Seattle for leasing space dedicated to nonprofit and academic institutions.
+
+Provide $500,000 for fiscal year 2025 for the same purpose.
+
+Focus efforts on incubating technology business startups with an emphasis on artificial intelligence.
+
+Support the development and teaching of curricula aimed at equipping workers with skills to utilize AI as a business resource.
+
+---
+
+DOC_ID: 482
+Outlines transparency requirements for advanced technological false personation records, requiring producers of such records to include content provenance technologies to identify alterations, as well as disclosures to detail the extent of alterations.
+
+Mandates specific disclosure formats for audiovisual, visual, and audio records.
+
+Imposes criminal penalties, including fines and imprisonment of up to 5 years, for intentionally failing to disclose or altering existing disclosures.
+
+Imposes civil penalties up to $150,000 per violation and allows for private rights of action for damages and injunctive relief.
+
+Establishes coordinators for deepfake-related violations in each U.S. Attorney’s Office.
+
+---
+
+DOC_ID: 483
+Mandates the research and recommendation of AI and machine learning solutions for efficient classification and declassification systems, to be interoperable across the Federal Government.
+
+Requires the Administrator of the Office of Electronic Government to consult with key defense and intelligence agencies for technology implementation and submit a report on the recommended solution.
+
+---
+
+DOC_ID: 484
+Amends chapter 35 of title 44, United States Code, to establish Federal AI system governance requirements.
+
+Instructs Federal actions involving AI to align with the Constitution, relevant laws, and policies, protecting civil rights and privacy.
+
+Mandates the assessment and management of AI risks before deployment, ensuring AI outcomes remain ethical and accurate.
+
+Requires transparency and explainability of AI systems' purpose, operations, and outcomes to maintain safety and security, and protect against vulnerabilities.
+
+Obligates regular testing and oversight of AI applications to ensure they align with intended purposes and create mechanisms to deactivate AI systems that do not meet standards.
+
+Instructs agencies to publicly disclose AI use to stakeholders and establish notification and appeal processes for AI-based decisions.
+
+Establishes a Federal AI System Inventory for cataloging agency AI governance charters to be publicly available and regularly updated.
+
+---
+
+DOC_ID: 485
+Establishes a grant program by the Director of the National Institutes of Health to fund research on the use of generative AI in health care.
+
+Permits research to include enhancing note-taking, reducing administrative burdens, expediting insurance claims, improving customer service efficiency, and other health care improvements.
+
+Prioritizes grants for entities promoting AI adoption in health care, investing in workforce development, mitigating workforce burnout, reducing health disparities, and improving care for medically underserved populations.
+
+Defines eligible entities to include higher education institutions, nonprofit organizations, and various governmental agencies.
+
+Defines "generative artificial intelligence" as AI producing content in response to prompts.
+
+---
+
+DOC_ID: 486
+Establishes AI Safety Level (ASL) Standards to guide safe deployment and security for current and future AI models, categorizing measures into Deployment and Security Standards.
+
+Requires all current models to meet ASL-2 standards, focusing on safe usage and protection from unauthorized access.
+
+Introduces Capability Thresholds to determine when stronger safeguards (ASL-3 or higher) are needed, specifying Required Safeguards for particular risks including Chemical, Biological, Radiological, and Nuclear (CBRN) capabilities and Autonomous AI R&D.
+
+Mandates comprehensive assessments to ensure models remain below Capability Thresholds, with stricter ASL-3 standards implemented if thresholds are surpassed.
+
+Outlines internal governance practices including a Responsible Scaling Officer role, transparency measures, and procedures for noncompliance whistleblowing.
+
+Commits to public transparency, expert input, and notifying US Government if standards beyond ASL-2 are needed.
+
+---
+
+DOC_ID: 487
+Amends the Communications Act to criminalize the non-consensual production and dissemination of pornography, especially when intended to cause harm or when involving minors.
+
+Requires covered platforms to establish a takedown process for such depictions, and mandates them to remove the content within 48 hours upon valid request.
+
+Levels criminal punishments, including imprisonment, on violators of this law.
+
+Grants enforcement authority to the Federal Trade Commission.
+
+Defines key terms relevant to the instrument, including "covered platform," "deepfake," and "intimate visual depiction."
+
+---
+
+DOC_ID: 488
+Requires developers of frontier AI models to implement comprehensive safety and security protocols, including cybersecurity protections, full shutdown capabilities, and detailed risk assessments.
+
+Mandates annual independent audits and public disclosure of redacted audit reports and obligates developers to report AI safety incidents to the Attorney General within 72 hours.
+
+Establishes policies for entities operating computer clusters to assess whether customers intend to use the clusters for training covered models.
+
+Creates the Board of Frontier Models to update AI model thresholds and auditing requirements, ensuring alignment with technological advancements and best practices.
+
+Imposes penalties for non-compliance, including civil penalties, injunctive relief, and punitive damages.
+
+Introduces CalCompute, a public cloud computing cluster to support AI research and innovation, with a framework to be developed by a consortium. 
+
+---
+
+DOC_ID: 489
+Outlines OpenAI's commits to using influence over AGI deployment to ensure it benefits all of humanity and avoids harm or power concentration.
+
+Pledges to assist other safety-conscious AGI projects nearing completion, rather than compete, under specific conditions.
+
+Strive for technical leadership within OpenAI and cooperate with other research and policy institutions.
+
+Commit to multistakeholder cooperation and publish its research while acknowledging potential safety and security constraints on traditional AI research publishing.
+
+---
+

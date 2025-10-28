@@ -1,0 +1,123 @@
+DOC_ID: 380
+Establishes an artificial intelligence advisory council -- to be disbanded at the start of 2025 -- to study and monitor AI systems developed, employed, or procured by Texas state agencies.
+
+Instructs the advisory council to assess the need for an AI code of ethics for the state government, review automated decision systems inventory reports submitted by state agencies, and recommend administrative actions as needed. 
+
+Requires the advisory council to submit a report on its activities and findings to the legislature. 
+
+Requires each state agency to submit to the legislature and advisory council an inventory report of all automated decision systems that are being developed,
+employed, or procured by the agency.
+
+Requires the inventory reports described above to assess each AI system's purpose, capabilities, data management practices, data output, and fiscal impact, as well as any information available on bias testing conducted on the system and the forms of data inputted into the system. 
+
+---
+
+DOC_ID: 381
+Directs the Secretary of Energy to establish a research program in AI and high-performance computing, focused on developing tools to improve veteran healthcare provisions.
+
+Instructs the Secretary to dedicate $27,000,000 for the construction of new data enclaves, development of new analytical methods, and use of algorithms suitable for large biomedical data sets.
+
+Mandates the Secretary to submit a report two years after the passage of this legislation summarizing the progress of the research program.
+
+Authorizes $15,000,000 for each of the fiscal years from 2021 to 2025 to coordinate and further the above research with other Federal agencies, institutions of higher education, nonprofit research organizations, and industry.
+
+---
+
+DOC_ID: 382
+Lists the findings of Congress which detail importance of the development of AI technology 
+Instructs the Director of National Intelligence to award contracts or grants to encourage microelectronics research
+Specifies that the funds awarded be used towards advanced engineering and applied research to enable the advancement of AI and machine learning, research to overcome existing challenges with engineering and applied research of microelectronics, and long-term advancements in computing technology 
+Limits the amount able to be awarded to no more than $15,000,000
+
+
+
+---
+
+DOC_ID: 383
+Instructs the Director of the National Science Foundation (Director) to develop a report on the need and feasibility as well as construct plans to implement a program to recruit and train the next generation of AI professionals in US government. Mandates that the report include statistical data on the federal AI workforce, assessments of current and future demand for AI expertise across the federal government and the ability of higher education institutions to prepare students to meet this demand, and an evaluation of the need for and feasibility of establishing a scholarship-for-service program for AI professionals in US government, as well as the possibility of leveraging existing programs such as the Federal Cyber Scholarship-for-Service Program. 
+
+Authorizes the Director and other appropriate agency heads to establish a Federal AI scholarship-for-service program to recruit and train AI professionals to achieve the missions of US government. Requires the Director, in coordination with other agency heads, to establish criteria such as excellence in AI education and the ability to attract diverse students to designate qualified institutions of higher education that shall be eligible to participate in the program. Requires the program to provide scholarships through qualified higher education institutions to students pursuing fields of study related to AI, provide scholarship recipients with temporary appointments related to work on AI in the federal government, prioritize placement of scholarship recipients in executive agencies, identify opportunities to promote multidisciplinary programs of study, support capacity building for educational institutions to enable them to train the next-generation AI workforce, create courses in technology ethics for scholarship recipients, and award fellowships to masters and doctoral students who are pursuing degrees or research in AI and related fields. Instructs scholarship amounts to cover a student’s tuition and fees for not more than 3 years with an additional stipend, and obligates scholarship recipients to work for a period of time equivalent to the length of the scholarship in the AI mission of the US government entity or affiliated entity.
+
+Instructs the Director to establish competitive awards to institutions to advance knowledge of risk assessment including the utilization of AI in our ability to understand and predict extreme events and natural hazards, create engineered system solutions and develop instrumentation for innovation in resilient infrastructure, and advance research on multidisciplinary wildfire science and behaviors related to increasing resilience.
+
+Amends Section 506(a) of the America COMPETES Reauthorization Act of 2010 by adding AI and machine learning to the list of research areas that fall under information technologies for manufacturing that the Director can award grants to.
+
+Instructs the Director to make competitive awards to institutions to support basic research to advance critical minerals mining strategies to make better use of domestic resources and eliminate national reliance on minerals subject to supply chain disruptions, including the application of AI for geological exploration of critical minerals and the application of machine learning for detection and sorting of critical minerals.
+
+Requires the Director to conduct or support the development of a study on AI research capacity at US institutions of higher education. Requires the study to, at minimum, address which universities are putting out significant peer-reviewed AI research based on quantity and number of citations, which factors of these universities such as computing power enable their research, promising practices at these universities for advancing diversity, equity, and inclusion in AI research programs, geographic diversity of universities that have AI research-enabling factors, and how universities that are not currently top producers of AI research could improve, including potential pilot programs that the federal government could develop or support to help universities produce AI research.
+
+Instructs the Director, in consultation with the Director of the Office of Management and Budget and the interagency committee established under the National AI Initiative Act of 2020, to develop and test models to inform the implementation of a government-wide data linkage and access infrastructure for statistical activities.
+
+Requires the Director to identify, and annually review and update a list of not more than 10 key technology focus areas, which includes AI, machine learning, autonomy, and related advances.
+
+---
+
+DOC_ID: 384
+Amends the Energy Independence and Security Act of 2007, instructing the Secretary of Energy to carry out a research and development program of advanced computing and data science tools for geothermal energy. Supports the use of artificial intelligence and related computing tools to assist in locating geothermal resources, to increase site characterization reliability, to increase drilling rate and efficiency, to improve induced seismicity mitigation, and to support enhanced geothermal systems technologies.
+
+Instructs the Secretary of Energy to, in carrying out these programs, ensure consultation with DOE's Office of Science and maximize coordination with DOE National Laboratories, institutes of higher education, and the private sector.
+
+---
+
+DOC_ID: 385
+Authorizes the appropriation of $200 million -- spread across FY 2023-2026 -- to the U.S. Department of Energy for its Office of Environmental Management to carry out research, development, and demonstration activities, including those relating to artificial intelligence.
+
+---
+
+DOC_ID: 386
+Directs the Secretary of Transportation to establish a grant program to advance smart city infrastructure projects that improve transportation efficiency, safety, and accessibility. 
+
+Requires eligible projects to demonstrate focus in directed areas, including the deployment of automated transportation, autonomous vehicles, and intelligent, sensor-based infrastructure. 
+
+Requires grant-receiving entities to submit to the Secretary an implementation report, supported by data describing the effectiveness of projects in meeting their specific goals.  
+
+---
+
+DOC_ID: 387
+Instructs the Director to carry out research and testing to improve the effectiveness of Artificial Intelligence-enabled cybersecurity, Artificial Intelligence defense systems and evaluating the performance of varying network architectures at strengthening network security.
+
+Requires the Director to carry out a program of measurement research for advanced communications technologies which among others would include Artificial Intelligence systems to enable internet of things networks, immersive technology, and other advanced communications technologies
+
+Instructs the Director to support the development of technical standards and guidelines that promote safe and trustworthy Artificial Intelligence systems, such as enhancing the accuracy, privacy, explanability, reliability, robustness, safety, security, and mitigation of harmful bias in Artificial Intelligence systems
+
+Instructs the Director to create a framework for managing risks associated with Artificial Intelligence systems.
+
+Instructs the Director to develop and publish cybersecurity tools, encryption methods, and best practices for Artificial Intelligence and data science. 
+
+Requires the Director to establish testbeds to support the development of robust and trustworthy Artificial Intelligence and machine learning systems, including testbeds that examine the vulnerabilities and conditions that may lead to failure in, malfunction of, or attacks on such systems.
+
+Requires the Director to conduct regular testing to improve and benchmark the accuracy, efficacy, and bias of biometric identification technologies, 
+
+
+
+
+
+---
+
+DOC_ID: 388
+Directs the Secretary of Transportation to establish a grant program to promote charging and fueling infrastructure for alternative-fuel vehicles.
+
+Allocates a maximum grant amount of $15M.
+
+Requires entities applying for grants to describe how they have considered infrastructure instillation that can accommodate autonomous vehicles and other technology advancements. 
+
+
+---
+
+DOC_ID: 389
+Authorizes the use of funds towards examining the application of artificial intelligence for geological exploration of critical minerals, including what size and diversity of data sets would be require
+
+Authorizes the use of funds towards examining the application of machine learning for detection and sorting of critical minerals, including what size and diversity of data sets would be required.
+
+Authorizes the advancement and development of reserach in AI and machine learning.
+
+Addresses government support for AI-related research and development activities.
+
+
+
+
+
+
+
+---
+

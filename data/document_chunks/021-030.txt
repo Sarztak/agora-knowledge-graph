@@ -1,0 +1,160 @@
+DOC_ID: 20
+Requires health facilities, clinics, and physician offices using generative AI for patient communications in a variety of modalities to include a disclaimer indicating AI generation.
+
+Mandates the disclaimer's prominence at the beginning, end, and/or throughout written, audio, and video communications, with instructions for contacting a human provider.
+
+Exempts communications reviewed by a licensed health care provider from disclaimer requirements.
+
+Defines key terms, including "artificial intelligence," "generative artificial intelligence," and "patient clinical information."
+
+Subjects licensed health facilities, clinics, and physicians violating these requirements to enforcement mechanisms.
+
+---
+
+DOC_ID: 21
+Amends Section 256 of the National Defense Authorization Act for Fiscal Year 2020 to mandate the development of AI and machine learning education platforms.
+
+Requires the Chief Digital and Artificial Intelligence Officer of the Department of Defense, in coordination with the Under Secretary of Defense for Personnel and Readiness, to create distance education courses on foundational AI and machine learning concepts and their ethical and responsible use.
+
+Mandates making these courses available to Armed Forces members within 180 days of the enactment of the National Defense Authorization Act for Fiscal Year 2025.
+
+Requires the Secretary of Defense to report to congressional defense committees on the progress of implementing this educational initiative within 270 days of the subsection's enactment.
+
+---
+
+DOC_ID: 22
+Mandates the Secretary of Defense to submit annual reports to congressional defense committees on lethal autonomous weapon systems by December 31, 2025, and annually until December 31, 2029.
+
+Requires inclusion of a comprehensive list of lethal autonomous weapon systems approved for use, waived from review, under review, and not approved, along with relevant dates.
+
+Specifies that the initial report should cover all relevant periods as determined by the Secretary, while subsequent reports cover periods since the last report.
+
+Allows for reports to be unclassified but permits a classified annex.
+
+---
+
+DOC_ID: 23
+Imposes sanctions on certain Chinese entities and individuals engaged in defense or surveillance sectors through the International Emergency Economic Powers Act.
+
+Requires notification for U.S. investments in prohibited technologies and establishes penalties for violations, reflecting stringent oversight on national security transactions involving China.
+
+Mandates divestment of securities by U.S. persons from entities on the Non-SDN Chinese Military-Industrial Complex Companies List, prohibiting holding after a specified period.
+
+Outlines procedures for approving exceptions to these prohibitions through waivers, subject to congressional notification and review.
+
+Establishes a framework for using collaborative reports and a public database for covered foreign persons while protecting sensitive information.
+
+Outlines regulations and processes to enforce prohibitions, commands an annual report to assess developments, and encourage multilateral cooperation to prevent China’s acquisition of sensitive technologies. 
+
+Designates Commerce and Treasury authorities to oversee implementation and allows Presidential delegation of some powers.
+
+---
+
+DOC_ID: 24
+Requires the Assistant Secretary of Commerce to promote the resilience of critical supply chains and emerging technologies vital for U.S. national security, in consultation with key government figures.
+
+Mandates the creation of a Supply Chain Resilience Working Group within 120 days, comprising multiple federal agencies, to evaluate and model critical supply chains, including those for emerging technologies such as AI.
+
+Directs the Assistant Secretary to identify vulnerabilities, develop response strategies, and assess domestic and allied manufacturing capacities within one year.
+
+Prohibits disclosure of voluntarily submitted critical supply chain information under FOIA, providing protection against unauthorized use.
+
+Necessitates annual reporting to Congress detailing strategies and evaluations of supply chain resiliency, including the role of technologies such as AI.
+
+Limits the Act’s funding to existing resources and imposes a 10-year termination period for the Act’s provisions.
+
+---
+
+DOC_ID: 25
+Assigns the Assistant Secretary of Commerce new responsibilities to promote the resilience of critical supply chains and emerging technologies, including artificial intelligence. 
+
+Establishes a Supply Chain Resilience Working Group to assess and address vulnerabilities in critical supply chains and technologies.
+
+Mandates consultations with various stakeholders, including government entities and international allies, to improve supply chain readiness and response to disruptions.
+
+Encourages domestic production and reduced reliance on countries posing national security risks for critical goods and technologies, including AI.
+
+Protects voluntarily submitted critical supply chain information from public disclosure under the Freedom of Information Act.
+
+Requires periodic assessments and strategy reports to Congress on supply chain resiliency and emerging technology impacts.
+
+Sets a 10-year term for the act's provisions and requires a public comment period for certain designations and reports.
+
+---
+
+DOC_ID: 26
+Establishes a demonstration initiative to fund advanced pipeline technologies via competitive merit reviews, focusing on AI-driven advancements in leak detection, sensor technologies, and machine learning for pipeline monitoring.
+
+Directs funding of $45 million in 2026 and $50 million annually from 2027-2030 for relevant projects, with a sunset provision five years post-enactment.
+
+Forms a Joint Research and Development Program involving the Department of Energy and other federal agencies to advance AI and machine learning models for pipeline systems, ensuring security and integrity.
+
+Creates a National Pipeline Modernization Center to commercialize AI-assisted pipeline technologies, requiring competitive selection and location adjacent to existing infrastructure.
+
+Mandates the National Institute of Standards and Technology to develop standards supporting AI in pipeline safety, with a $2.5 million annual allocation from 2026-2030.
+
+Aims to leverage and complement existing energy and pipeline safety infrastructure and programs through collaborative interagency efforts and non-federal funding matching.
+
+---
+
+DOC_ID: 27
+Mandates the Director of the National Institute of Standards and Technology (NIST), in coordination with the Secretary of State, to brief Congress about opportunities for U.S. support in developing AI standards within one year.
+
+Requires the establishment of a web portal to inform U.S. industry and federal agencies about international AI standards efforts and participation opportunities.
+
+Initiates a pilot program to support AI standards meetings in the U.S. by awarding grants to eligible entities.
+
+Specifies eligibility criteria for these grants and defines allowable costs.
+
+Requires annual briefings to Congress on the pilot program's effectiveness.
+
+Directs the development of recommendations for a permanent program if deemed feasible within two years.
+
+Authorizes a budget of $5 million for the program from fiscal years 2024 through 2028. 
+
+Ends the pilot program five years post-enactment, with consideration for permanent implementation.
+
+---
+
+DOC_ID: 28
+Establishes the LEAD for Kids Standards Board to govern AI systems affecting children in California.
+
+Requires AI developers to classify systems as "covered products" with risk assessments ranging from prohibited to low risk.
+
+Mandates developers to register covered products and submit risk assessments by July 1, 2028.
+
+Prohibits AI use that adversely impacts children's health, safety, or privacy without informed consent.
+
+Requires companion chatbots and systems that assess emotional states or collect biometric data to receive additional scrutiny.
+
+Mandates independent audits based on risk level and public incident reporting for adverse impacts.
+
+Obligates deployers to prevent unauthorized child access and adhere to usage requirements that do not increase system risk.
+
+Prohibits retaliation against employees reporting violations.
+
+Allows the Attorney General to enforce violations with penalties, and provides a private right of action for harmed children.
+
+Creates the LEAD for Kids AI Fund to support these regulatory activities.
+
+---
+
+DOC_ID: 29
+Amends the National Quantum Initiative Act to enhance quantum information science, engineering, and technology research led by the Secretary of Energy.
+
+Mandates the establishment of National Quantum Information Science Research Centers to drive breakthroughs and collaborate with industries and other entities.
+
+Directs cooperative research and commercialization efforts to advance various quantum fields, including AI, quantum computing, communications, and security.
+
+Requires the development of a strategic 10-year plan for high-performance computing systems integrating quantum and AI.
+
+Funds a new $20 million per year program for quantum high-performance computing R&D from 2026 to 2030.
+
+Establishes a university-led traineeship program and prohibits funding to entities affiliated with Confucius Institute or certain foreign entities.
+
+Prioritizes coordination with other federal agencies and entities.
+
+Allocates $175 million annually for these initiatives from 2026 to 2030 with specific restrictions.
+
+---
+

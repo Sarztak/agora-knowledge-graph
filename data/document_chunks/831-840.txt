@@ -1,0 +1,160 @@
+DOC_ID: 830
+Commits Meta to responsible AI development, prioritizing safety and transparency in AI systems, including the Llama 2 model.
+
+Demonstrates actions taken in furtherance of the White House Commitments to establish AI guardrails, focusing on safety, security, and trust.
+
+Conducted extensive model evaluations and red teaming, including external testing at DEFCON, to identify and mitigate risks in AI models including adversarial inputs like unqualified advice.
+
+Requires information sharing and reporting on AI vulnerabilities with established feedback mechanisms for continuous improvement.
+
+Implemented robust security controls for AI model weights to ensure model relliability, treating them as core intellectual property.
+
+Participated in industry initiatives like the Synthetic Media Framework to ensure identification and disclosure of AI-generated content.
+
+Invested in research on AI societal, safety, and security risks, and collaborates with policymakers through the Open Loop program.
+
+Conducted privacy reviews for AI data inputs, excluding private user data, and offers users control over data shared with generative AI features.
+
+---
+
+DOC_ID: 831
+Requires the United States Department of Health and Human Services (HHS) to promote responsible AI use in public benefits administration by State, Local, Tribal, and Territorial Governments (STLTs).
+
+Encourages STLTs to align with the principles of the National Institute of Standards and Technology AI Risk Management Framework and the Blueprint for an AI Bill of Rights.
+
+Recommends STLTs assess AI systems for equitable outcomes, notify recipients about AI use, and ensure human oversight and appeal processes.
+
+Supports STLTs in developing AI policies and practices through guidance, technical assistance, and resources.
+
+Urges STLTs to focus on safeguarding privacy, civil rights, and safety, and to provide opt-out options for AI systems.
+
+Emphasizes the need for transparency, public engagement, and governance to manage AI-associated risks.
+
+Directs HHS to work with STLTs and other agencies to ensure AI systems in public benefits programs are safe, equitable, and efficient.
+
+---
+
+DOC_ID: 832
+The framework mandates the USDA to guide states, localities, tribes, and territories in the responsible use of AI for administering USDA nutrition benefits, as per Executive Order 14110.
+
+Ensures AI systems maximize access for eligible recipients and comply with merit system requirements.
+
+Requires notification to the Secretary in cases of reliance on AI, allowing appeals to human reviewers and ensuring auditability of AI decisions.
+
+Mandates equitable outcomes from AI systems and prohibits AI from directly making adverse decisions in benefits administration.
+
+Advocates for transparency and accountability, providing opt-out options from AI systems.
+
+Encourages responsible innovation, requiring AI usage only with appropriate training and governance.
+
+Requires SLTT agencies to report AI usage and its impact, with ongoing monitoring to mitigate risks and biases.
+
+Stresses collaboration with tribes to respect data sovereignty.
+
+---
+
+DOC_ID: 833
+Announces on behalf of the UK and Republic of Korea governments companies, including Amazon, Google, and OpenAI, that have committed to the Frontier AI Safety Commitments. Mandates that companies publish a safety framework, requires transparency on evolving safety approaches, and implement various best practices.
+
+Defines outcome one as organizations identifying, assessing, and managing risks when developing and deploying frontier AI systems. Defines five sub-outcomes, including internal and external evaluations, establishment of risk thresholds and response processes for violations, and investment in risk mitigation effectiveness.
+
+Defines outcome two as organizational accountability established through the development and review of governance frameworks. 
+
+Defines outcome three as established transparency about organizational approaches to frontier AI safety for external actors, including governments. Mandates provision of information about best practice implementation to the public and explanation of how external actors are involved in risk assessment and framework adherence.
+
+---
+
+DOC_ID: 834
+Describes Google DeepMind's commitment to responsible AI development, emphasizing adherence to AI Principles to ensure technologies are socially beneficial, avoid bias, uphold safety standards, and respect privacy. 
+
+Establishes a Responsible AI Council and Responsible Development and Innovation team to assess ethics and safety risks in AI models, guiding model and product development. 
+
+Outlines a comprehensive evaluation process, including red-teaming for risk assessment, to identify and mitigate potential model risks, particularly for emerging "frontier" AI models. 
+
+Promotes transparency through model reporting and information sharing, using tools like model cards and data sheets to document AI systems. 
+
+Engages in post-deployment monitoring and employs a bug bounty program to address vulnerabilities and misuse of AI models. 
+
+Implements robust security measures to protect AI models, including a Secure AI Framework and engagement with external security experts. 
+
+Explores technical solutions like watermarking and metadata to identify AI-generated content's provenance. 
+
+Prioritizes research on societal, safety, and security risks, supporting external AI impact research through initiatives like the Digital Futures Project.
+
+---
+
+DOC_ID: 835
+Explains how the Fair Housing Act applies to housing-related advertising via AI and algorithmic systems on digital platforms.
+
+Prohibits discriminatory advertising practices based on protected characteristics such as race, color, religion, sex, national origin, familial status, or disability.
+
+Warns that audience categorization and algorithmic delivery tools can unintentionally lead to discrimination by excluding or targeting groups based on protected characteristics.
+
+Requires advertisers and platforms to avoid using AI tools that segment audiences by protected characteristics or proxies like geographic location.
+
+Urges ad platforms to disable certain targeting functions for housing ads and conduct regular audits to ensure compliance with the Act.
+
+Recommends that advertisers and platforms manage discriminatory risks by utilizing separate processes for housing-related ads and monitoring ad delivery outcomes for bias.
+
+Advises documenting and publicly sharing information on ad targeting functions to ensure transparency and accountability.
+
+---
+
+DOC_ID: 836
+Mandates Federal agencies strengthen AI safety, security, privacy, equity, civil rights, and innovation through Executive Order 14110, signed by President Biden.
+
+Launches a National AI Talent Surge to recruit AI professionals into the Federal Government, enhancing AI regulatory and policy capacity, government use of AI, and AI R&D ecosystem.
+
+Facilitates AI hiring with Direct Hire Authority and Excepted Service Appointments granted by the Office of Personnel Management (OPM).
+
+Establishes Chief AI Officers and enhances AI competencies with training programs for the Federal workforce.
+
+Recommends funding increases for AI talent, institutionalizing tech talent programs, improving USAJOBS, and piloting skills-based hiring.
+
+Proposes an AI scholarship-for-service program and public service cultivation within the tech ecosystem.
+
+Encourages global AI talent engagement and provides guidance for improving Federal hiring experiences.
+
+---
+
+DOC_ID: 837
+Mandates the U.S. Office of Personnel Management (OPM) to conduct an evidence-based review for hiring and workplace flexibility for AI and data-science roles within 60 days of the Executive Order (EO) 14110.
+
+Authorizes government-wide direct hire authority for specific AI-related positions, effective immediately through December 31, 2028, to address critical hiring needs in AI capabilities.
+
+Permits use of excepted service Schedule A appointments for temporary staffing to support the implementation of EO 14110, with appointments valid for up to two years.
+
+Requires agencies to submit quarterly reports detailing hires made under this direct hire authority, including job announcements and number of hires.
+
+Stipulates agencies must adhere to veterans’ preference and public notice requirements when filling positions under these authorities.
+
+Allows OPM to request information and assess the continued need for these authorities, with the possibility of modification or termination.
+
+---
+
+DOC_ID: 838
+Proposes strengthening existing laws and considering new legislation to address AI-related risks, particularly in high-risk settings.
+
+Considers mandatory safety guardrails for AI systems in high-risk contexts, focusing on testing, transparency, and accountability.
+
+Plans to work with industry to develop a voluntary AI Safety Standard and explore options for voluntary labelling and watermarking of AI-generated materials.
+
+Emphasizes a risk-based regulatory framework to ensure proportionality and avoid unnecessary burdens on low-risk AI applications.
+
+Commits to collaborating with international partners, aligning with global standards, and contributing to initiatives like the Bletchley Declaration on AI safety.
+
+Supports investments in AI capability development and aims to maximize AI benefits, including through initiatives funded by the 2023–24 Budget.
+
+Establishes an interim expert advisory group to explore AI guardrail options and harmonizes efforts with state and territory governments.
+
+---
+
+DOC_ID: 839
+Prohibits operators of internet-based applications, including social media platforms, from using automated decision-making (ADM) systems to suggest content for users under 18 who are residents of South Carolina.
+
+Requires operators using ADM systems to suggest content for those 18 or older to either 1) Perform age verification of users through an independent third-party service or 2) Require users to upload government-issued identification, a current photograph, and personal information so age can be verified through publicly available records. 
+
+Establishes civil penalties for violations of the above. 
+
+---
+

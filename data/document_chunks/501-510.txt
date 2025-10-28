@@ -1,0 +1,158 @@
+DOC_ID: 500
+Prohibits covered U.S. entities from engaging in scientific research or technical exchanges with Chinese entities of concern, particularly in technologies like AI, identified as priorities in China's military-civil fusion strategy.
+
+Requires the Secretary of Defense, with other officials, to maintain a website listing prohibited scientific research areas and Chinese entities of concern.
+
+Mandates covered entities to report annually on any research relationships with Chinese entities of concern and allows audits to ensure compliance.
+
+Precludes entities violating prohibitions from receiving federal financial assistance.
+
+Permits exceptions for fields not substantially contributing to military-civil fusion.
+
+Directs the Secretary of Defense to issue regulations to enforce these provisions and coordinate enforcement across federal agencies.
+
+---
+
+DOC_ID: 501
+Authorizes autonomous commercial vehicles and vehicles with teleoperation systems to operate without a conventional driver physically present in Alabama.
+
+Grants jurisdiction exclusively to the Department of Transportation over these vehicles and prohibits additional requirements by local entities.
+
+Requires automated vehicles to comply with federal motor vehicle safety standards and maintain motor vehicle liability coverage of at least $2,000,000.
+
+Establishes that the vehicle owner or lessee is considered the operator for legal compliance and that automated driving systems are licensed operators.
+
+Mandates accident protocols requiring vehicles remain on the scene with prompt law enforcement notification.
+
+Requires remote drivers to hold the appropriate licenses and obey state traffic laws, subject to alcohol and drug testing in cooperation with local law enforcement.
+
+Clarifies that this act does not alter existing liability laws for vehicle stakeholders.
+
+Specifies that the act is effective upon the Governor’s approval or enactment into law.
+
+---
+
+DOC_ID: 502
+Mandates the Department of Energy and Department of Agriculture to engage in joint research and development activities.
+
+Requires a memorandum of understanding to facilitate these activities through a competitive, merit-reviewed process.
+
+Allows collaborative research in areas including artificial intelligence, machine learning, and modeling for optimizing agriculture and energy algorithms.
+
+Promotes data integration, sharing, and secure access aligned with Federal regulations.
+
+Encourages workforce development and infrastructure support as deemed necessary by the Secretaries.
+
+Authorizes reimbursable agreements and collaboration with other Federal agencies to enhance research effectiveness.
+
+Obliges the Secretaries to report on interagency coordination, research achievements, and future opportunities within two years to relevant Congressional Committees.
+
+Ensures activities comply with research security mandates under relevant U.S. Code.
+
+---
+
+DOC_ID: 503
+Amends the Harmful Algal Blooms and Hypoxia Research and Control Act of 1998 to establish a national harmful algal bloom observing network.
+
+Requires the Under Secretary, through NCCOS and IOOS of NOAA, to monitor, detect, and forecast harmful algal blooms using emerging technologies, including artificial intelligence.
+
+Mandates the IOOS Program Office to coordinate with NCCOS on data integration and information dissemination.
+
+Establishes a Harmful Algal Bloom Data Assembly Center for data integration, dissemination, and support of ecological forecasting.
+
+---
+
+DOC_ID: 504
+Amends Title VII of the Communications Act of 1934 to enhance accessibility.
+
+Requires the Commission, in consultation with the U.S. Access Board, to submit reports to Congress every 5 years.
+
+Assesses accessibility barriers for individuals with disabilities in emerging technologies, including those using AI, augmented reality, and more.
+
+Identifies needed solutions to ensure accessibility and compatibility with peripheral devices for individuals with disabilities.
+
+Mandates consideration of effects on individuals with specific barriers and diverse backgrounds.
+
+Obliges the Commission to issue new or update existing regulations within 2 years after each report to ensure accessibility of emerging technologies.
+
+Focuses on technologies like AI and advanced computing, impacting disability accessibility policies.
+
+---
+
+DOC_ID: 505
+Establishes a business advisory board under the Americas Partnership Secretariat to meet periodically and provide guidance.
+
+Composes the board of representatives from private sector entities, civil society, and labor organizations from partner countries.
+
+Allows the board to advise on issues including regulatory hurdles, labor issues, dispute resolution, legal investment hurdles, and alignment on regulations related to emerging technologies like artificial intelligence.
+
+Requires coordination with central regulatory bodies as outlined in the USMCA.
+
+Mandates the board to submit an annual report on the business environment, highlighting opportunities and challenges to investment in partner countries.
+
+---
+
+DOC_ID: 506
+Establishes a pilot program under the Medicare program to test the use of a predictive risk-scoring algorithm for overseeing payments related to durable medical equipment and clinical diagnostic laboratory tests.
+
+Requires the pilot to run for two years, starting no later than January 1, 2025, with voluntary beneficiary participation.
+
+Mandates algorithm development in collaboration with industry representatives and modeled after real-time consumer feedback mechanisms, with scores ranging from 1 (least risky) to 99 (most risky).
+
+Conditions use of the algorithm on prior testing and evaluation considering the AI Bill of Rights and requires notifying affected beneficiaries about data processing and implications.
+
+Allows transaction review and possible suspension based on high-risk scores, offering beneficiaries the chance to dispute inaccuracies.
+
+Requires that alerts for identified fraud risks be communicated to beneficiaries, along with guidance on reporting suspected fraud to law enforcement, and authorizes determination of Medicare card termination to prevent fraud.
+
+---
+
+DOC_ID: 507
+Mandates the Secretary of Health and Human Services to arrange a study with the National Academies on technology use in maternity care.
+
+Requires examination of innovative technology, including AI, and its impact on racial or ethnic biases in maternal health.
+
+Demands analysis of patient monitoring devices and their influence on racial or ethnic biases.
+
+Calls for identification of best practices to reduce and prevent racial or ethnic biases in technology and device use.
+
+Seeks best practices for using these technologies specifically for racial and ethnic minority groups in maternity care.
+
+Instructs evaluation of privacy and security safeguards related to these technologies.
+
+Obliges the National Academies to complete the study and report results to Congress within 24 months of enactment.
+
+---
+
+DOC_ID: 508
+Define "information system" as per section 3502 of title 44, United States Code.
+
+Mandates the Director to issue guidance on AI use by agencies to enhance cybersecurity of information systems.
+
+Requires the Director and agency heads to consider AI systems where automation aids cybersecurity.
+
+Obligates the Director to report annually for 5 years to Congress on AI use in enhancing cybersecurity.
+
+Instructs the Comptroller General to report to Congress on AI-associated privacy and cybersecurity risks within 2 years.
+
+Directs the Comptroller General to study and report within 2 years on AI and automation use across the federal government for cybersecurity, including automated updates to cybersecurity tools and processes.
+
+---
+
+DOC_ID: 509
+Mandates the Comptroller General to conduct a study on online sales of fentanyl and methamphetamine, analyzing business models, supply chains, and logistics.
+
+Requires examination of the impact on individuals under 18 and federal efforts to combat these sales, including interagency and intergovernmental collaborations.
+
+Analyzes existing federal law enforcement procedures and outcomes over the past 10 years to identify patterns and improvement areas.
+
+Explores how providers use machine learning and other technologies to detect and combat sales of these substances on their platforms.
+
+Evaluates enforcement mechanisms by providers, such as user identification and account suspension.
+
+Requires assessment of referrals to the Federal Government from providers, including investigations and outcomes.
+
+Obligates submission of a report to Congress within one year detailing study findings and determinations.
+
+---
+

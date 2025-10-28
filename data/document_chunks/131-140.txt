@@ -1,0 +1,152 @@
+DOC_ID: 130
+Regulates the use of automated or virtual assessment mechanisms, including AI devices, for conducting eye assessments, requiring interaction between the patient and a licensed provider.
+
+Requires the collection of medical history and previous prescriptions and mandates acceptance of certain disclosures about the limitations of such assessments.
+
+Specifies that an assessment mechanism cannot issue initial prescriptions for contact lenses or their renewals without a prior in-person examination within 24 months.
+
+Obliges providers to follow the standard of eye care, verify patient identity and age, and confirm recent in-person examinations before issuing prescriptions.
+
+Imposes a civil penalty up to $10,000 for violations, enforceable by the department of health or attorney general, with rights to an administrative hearing and appeal.
+
+Instructs the department of health to create necessary rules and regulations.
+
+Ensures severability of the act’s provisions if any part is invalidated by a court.
+
+---
+
+DOC_ID: 131
+Define "artificial intelligence," "generative AI," "deepfake," and "state agency" in relation to AI governance.
+
+Apply provisions to all state agency computer systems, with exceptions for research and personal use systems.
+
+Prohibit uses by state agencies for classifying individuals leading to discrimination, surveillance in public spaces without a warrant, and malicious use of deepfakes.
+
+Allow AI use with human oversight on irreversible decisions, disclosure of AI-generated content, and informing users of AI interactions.
+
+Require state agencies to review AI use, modify inconsistent procedures, and document compliance within nine months, reporting to the department of information technology.
+
+Mandate annual reporting and updates on AI system compliance and procurement to key government officials and public posting on the department website.
+
+Sever provisions to ensure remaining regulations remain in effect if parts are invalidated.
+
+Enact the chapter on July 1, 2024.
+
+---
+
+DOC_ID: 132
+Creates an inventory of automated decision systems used by the government, emphasizing AI's role within human processes, to be maintained by the Division of Artificial Intelligence under the Agency of Digital Services (ADS).
+
+Requires annual updates and reviews for the inventory's accuracy and completeness.
+
+Recommends various remediation measures for systems showing problematic behavior, including process changes upstream or downstream, modifications to the AI, or decommissioning problematic systems.
+
+Advises narrowing the inventory’s scope to focus on AI systems that pose potential risks rather than encompassing all apps and tools.
+
+Highlights the importance of ongoing outcome monitoring over third-party bias testing, advising additional tracking elements for monitoring results and applied remediation.
+
+Proposes focusing on AI system autonomy rather than their decision-making capability, urging identification of agencies directly utilizing these systems.
+
+---
+
+DOC_ID: 133
+Outlines the acceptable use of generative AI by Executive Branch Cabinet and Non-Cabinet Agencies in Kansas, emphasizing safety, privacy, and intellectual property protection.
+
+Requires entities to review AI-generated content for accuracy, appropriateness, privacy, and security before dissemination.
+
+Prohibits verbatim use of AI-generated content, reliance on it for final decisions or official statements, and impersonation of individuals or organizations.
+
+Forbids input of Restricted Use Information, inappropriate, copyrighted, or proprietary material into AI systems.
+
+Directs agencies to require contractors to disclose AI usage in contracts and prohibits use of state confidential data without approval.
+
+Allows software code from AI only after risk mitigation and mandates annotation.
+
+Tasks agency heads with procedural compliance and the Office of Information Technology Services (OITS) with policy maintenance.
+
+---
+
+DOC_ID: 134
+Require jurisdictions using pretrial risk scoring instruments for determining defendants' pretrial release eligibility to conduct independent validation studies of these tools at least once every three to five years.
+
+Establish a Pretrial Services Program Grant Fund to provide grants to eligible counties for creating or improving pretrial services programs, or for conducting validations of pretrial risk scoring instruments as per § 5–103 of the Criminal Procedure Article.
+
+Require eligible counties applying for grants to provide a description of how their programs meet requirements and information deemed necessary by the Executive Director of the Governor’s Office of Crime Control and Prevention.
+
+Ensure pretrial services programs use validated, evidence-based, race-neutral risk scoring instruments following Maryland Rules, apply effective best practices, and incorporate multiple levels of supervision based on defendant risk scores, including technological and treatment provisions.
+
+---
+
+DOC_ID: 135
+Establishes a special commission to study the impact of automation and artificial intelligence on the workforce, businesses, and the economy.
+
+Charges the commission with ensuring sustainable jobs, fair benefits, and workplace safety standards.
+
+Instructs the commission to study trends in industry transformation and impacts on workers, including access to healthcare and benefits.
+
+Collaborates with the executive office of labor and workforce development to track industry trends and research best practices for the future of work.
+
+Requires the commission to gather data from various sectors, work with training organizations, and hold public hearings across different regions.
+
+Directs the commission to file a report by September 1, 2021, with analysis, recommendations, and potential legislation for securing worker benefits and updating workforce training.
+
+Ensures recommendations include support for lifelong learning, skill development, and integration of new technologies in workforce training.
+
+---
+
+DOC_ID: 136
+Urges platforms generating and disseminating deepfake and cheapfake media to voluntarily commit to preventing and removing harmful content.
+
+Defines deepfakes as media that appears to depict authentic speech or conduct through substantial technical means, and cheapfakes as any software-generated audiovisual alteration.
+
+Notes that generative AI platforms can anticipate and prevent the creation of harmful content, with social media and content-sharing forums capable of taking steps to remove such media.
+
+Recognizes the potential negative impact, including impersonation, fraud, and political misinformation, while acknowledging the promise of AI if used responsibly.
+
+Encourages the development of AI accountability and transparency standards, following examples set by the federal government and other states.
+
+Calls for New Jersey to become a leader in responsible media technology through these voluntary commitments.
+
+---
+
+DOC_ID: 137
+Urges the Joint Legislative Committee on Technology and Cybersecurity to study the impact of artificial intelligence on operations, procurement, and policy in Louisiana.
+
+Requires the committee to submit a written report of its findings to the House Committee on Commerce and the Senate Committee on Commerce, Consumer Protection and International Affairs at least sixty days before the 2024 Regular Session.
+
+Instructs the report to propose recommendations and legislative proposals to aid government and businesses in leveraging AI benefits while protecting consumers.
+
+Encourages the committee to seek input from the Department of Economic Development, the office of technology services, Division of Administration, the Department of Justice, and industry partners.
+
+Transmits a copy of the resolution to the Joint Legislative Committee on Technology and Cybersecurity.
+
+---
+
+DOC_ID: 138
+Requests the Joint Legislative Committee on Technology and Cybersecurity to study and make recommendations concerning the use and regulation of artificial intelligence.
+
+Instructs the joint committee to solicit data and testimony from relevant persons, entities, agencies, and institutions.
+
+Requires the joint committee to make annual reports with policy recommendations to the legislature.
+
+Recognizes the multifaceted potential threats of artificial intelligence in education, criminal justice, finance, health, welfare, and state fiscal health.
+
+Acknowledges the potential for beneficial uses of artificial intelligence to improve government operations and service efficiency.
+
+Emphasizes the necessity for more information before developing policies to maximize AI benefits and minimize its misuse in the state of Louisiana.
+
+---
+
+DOC_ID: 139
+Requests the Department of Administration and the RI Division of Information Technology report on the extent of algorithmic decision-making used by the State of Rhode Island.
+
+Tasks them with assessing the validation, testing, and evaluation of automated decision systems, especially regarding biases such as racial and gender biases.
+
+Instructs them to provide recommendations on regulatory or legislative action regarding the use of automated decision systems by state offices, compliance with data protection laws, and timelines for the implementation of AI technologies.
+
+Requires delivery of this information to the House of Representatives and the Chair of the House Committee on Innovation, Internet, and Technology by September 29, 2023.
+
+Authorizes the Secretary of State to transmit certified copies of this resolution to relevant state officials.
+
+---
+

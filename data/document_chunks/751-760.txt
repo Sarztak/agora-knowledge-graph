@@ -1,0 +1,140 @@
+DOC_ID: 750
+Requires the Director of the Office of Management and Budget to report on the progress of making agency regulations available in machine-readable format within 180 days.
+
+Mandates the issuance of guidance within 18 months on using technology, including AI, for conducting retrospective reviews of agency regulations.
+
+Instructs agencies to use technology to identify obsolete, ineffective, or problematic regulations and adequately train personnel in its use.
+
+Obliges agency heads to submit a detailed plan within two years for implementing the guidance, including identifying regulations for review.
+
+Compels agency heads to implement the strategy for retrospective review within 180 days after plan submission.
+
+---
+
+DOC_ID: 751
+Mandates the development of standards for content provenance and detection of synthetic and synthetically-modified content through a public-private partnership.
+
+Requires tools used commercially to create synthetic or synthetically-modified content to provide the option of including machine-readable content provenance information, with security measures to prevent tampering.
+
+Prohibits knowingly removing or altering content provenance information in furtherance of unfair or deceptive acts.
+
+Prohibits the non-consensual use of content with attached provenance information for training AI systems, requiring express consent and adherence to copyright terms.
+
+Empowers the Federal Trade Commission (FTC) and state attorneys general to enforce the Act, treating violations as unfair or deceptive acts.
+
+Permits private parties to bring civil actions for violations involving content provenance information.
+
+Ensures the Act does not alter existing copyright rights and includes provisions for severability, maintaining the Act’s effectiveness even if parts are invalidated.
+
+---
+
+DOC_ID: 752
+Prohibits non-governmental entities from designing or employing AI, or handling personal data, in a way that will:
+
+(1) Cause physical, psychological, economic, relational, or repetitional injuries to a person;
+
+(2) Discriminate on the basis of standard protected classes, including race and nationality; or
+
+(3) Discriminate in the granting of access to important services and opportunities, including employment, credit, and education.
+
+Exempts private groups not open to the public from the requirements outlined above. 
+
+---
+
+DOC_ID: 753
+Establishes the Joint Office of the Fire Environment Center within one year, under the National Oceanic and Atmospheric Administration.
+
+Requires the Data Services branch to test AI and machine learning technologies to aid fire management, suggesting resources based on real-time fire conditions.
+
+Mandates the provision of science-based, data-rich services for fire management, including predictive and decision-support tools.
+
+Develops a technological common operating environment to integrate air quality data and other public health information.
+
+Forms a 12-member board governing the Joint Office, including federal and non-federal wildfire community representatives.
+
+Empowers the Joint Office to contract with government and private entities for necessary supplies and services.
+
+Authorizes $150 million annually from fiscal years 2025 to 2034 for the Joint Office's operations.
+
+---
+
+DOC_ID: 754
+Requires operators of dominant online platforms with (a) large numbers of users and (b) ownership groups in which at least 10% of the members are citizens of foreign adversaries of the U.S. to sequester any back-end data or algorithm from agents of any foreign entity.
+
+Also regulates foreign ownership of, and the granting of licenses for foreigners to operate, online platforms featuring large numbers of users, regardless of whether the platform uses AI. 
+
+---
+
+DOC_ID: 755
+Establishes the Task Force on Preventing AI and Algorithmic Bias in Health Care within 30 days to guide the development of AI technologies that do not exacerbate health disparities.
+
+Composes the Task Force of various health and public officials, including experts on health equity and minority health.
+
+Mandates the Task Force to examine AI and algorithms in healthcare, identifying risks related to civil rights, civil liberties, and discriminatory bias.
+
+Requires submission of a report to Congress within one year detailing findings and recommendations for safe AI implementation in healthcare.
+
+Obliges the Task Force to publish the report on the Department of Health and Human Services' website.
+
+Initiates a public comment period of at least 90 days on the Task Force’s duties and activities.
+
+Allows the Chairperson to appoint additional staff without adherence to certain civil service laws, ensuring flexibility in task force operations.
+
+---
+
+DOC_ID: 756
+Mandates the Secretary of Homeland Security to conduct virtual and in-person listening sessions across the United States for discussing Federal civilian agency use of artificial intelligence.
+
+Requires inclusion of diverse groups in these discussions, such as civil rights organizations, immigrant communities, and academia.
+
+Encourages these groups to hold their own listening sessions and report back on AI development and adoption.
+
+Obligates the Secretary of Homeland Security to submit a report to Congress within 240 days of enactment, and annually thereafter, detailing public attitudes and beliefs on Federal civilian agency use of AI.
+
+---
+
+DOC_ID: 757
+Prohibits employers from making any employment-related decisions -- including to fire or discipline an employee -- based solely on the output of an automated decision system.
+
+Requires any automated decision system used to inform employment-related decisions to be tested before deployment for efficacy and compliance with relevant employment laws & the Artificial Intelligence Risk Management Framework from the National Institute of Standards & Technology. Systems must also be tested both before deployment and annually after deployment for non-discrimination on the basis of protected classes.
+
+Requires employers to disclose to employees the use of automated decision systems for employment-related decisions and information on the workings of the system and the data used to reach its decision.
+
+Establishes new roles and bodies in the Department of Labor to monitor and enforce this policy and to guide the development of future regulations on the use of automated decision systems in employment-related decision-making.
+
+Establishes protections for whistleblowers who call attention to violations of this policy.
+
+---
+
+DOC_ID: 758
+Requires the Secretary of Health and Human Services to implement the MedShield program, utilizing artificial intelligence for pandemic preparedness and response.
+
+Mandates the use of AI for developing a global pathogen surveillance system, accelerating vaccine development, and optimizing pathogen tracking and therapeutic interventions.
+
+Obligates the Secretary to integrate recommendations from the National Security Commission on Artificial Intelligence and coordinate with federal agencies and international partners.
+
+Directs the development of a plan to enhance public health and medical services as part of the National Response Framework.
+
+Sets funding authorization at increasing annual amounts from $300 million in fiscal year 2025 to $500 million in fiscal year 2029.
+
+Requires submission of a detailed report on the program's plan to relevant Congressional committees within 180 days of the Act's enactment.
+
+---
+
+DOC_ID: 759
+Prohibits developers and deployers of AI algorithms from causing or contributing to discrimination based on protected characteristics.
+
+Mandates developers and deployers to conduct pre-deployment evaluations and annual impact assessments of AI algorithms to identify potential harms or disparate impacts.
+
+Requires independent audits of AI algorithms and obligates developers to provide relevant information to deployers for compliance.
+
+Imposes transparency obligations, including public disclosures of AI practices and consumer rights, in multiple languages and accessible formats.
+
+Grants the Federal Trade Commission (FTC) enforcement authority, including rulemaking, with violations treated as unfair or deceptive acts.
+
+Provides a private right of action for individuals, enabling lawsuits for violations and barring pre-dispute arbitration agreements.
+
+Establishes federal resources for algorithm auditing, including a new occupational series and additional personnel for the FTC to handle AI-related issues.
+
+---
+

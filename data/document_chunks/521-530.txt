@@ -1,0 +1,123 @@
+DOC_ID: 520
+Requires the Secretary of Health and Human Services to develop a strategy for public health preparedness and response to artificial intelligence (AI) threats within 180 days of enactment.
+
+Mandates consultation with stakeholders, including those developing countermeasures and those with AI expertise, for strategy formulation.
+
+Includes a framework for mitigating AI misuse risks threatening national health security and outlines duties, functions, and metrics for preparedness and response.
+
+Identifies gaps in public health capabilities and proposes strategies to address these gaps and strengthen emergency preparedness against AI threats.
+
+Focuses on mitigating risks such as the development of biological weapons and drug-resistant viruses and bacteria.
+
+Requires the strategy to be submitted to relevant congressional committees without compromising national security.
+
+Amends the Public Health Service Act to integrate this AI threat strategy into the broader federal response to public health emergencies.
+
+---
+
+DOC_ID: 521
+Requires a report on artificial intelligence regulation in the financial services industry, establishes artificial intelligence bug bounty programs, requires a vulnerability analysis study for artificial intelligence-enabled military applications, and requires a report on data sharing and coordination.
+
+---
+
+DOC_ID: 522
+Requires agencies which use or oversee a covered algorithm to have an office of civil rights employing experts and technologists on bias, discrimination, and algorithmic harms.
+
+Mandates these offices to submit biennial reports to Congress detailing risks from use of algorithms using artificial intelligence techniques within the agency's jurisdiction, mitigation steps, actions taken to engage stakeholders, and recommendations for further mitigation of algorithmic bias and discrimination.
+
+Establishes an interagency working group on covered algorithms and civil rights, led by the Department of Justice's Civil Rights Division.
+
+---
+
+DOC_ID: 523
+Grants authority to the Secretary of Commerce to prohibit US persons and subsidiaries from supporting the use of remote or cloud integrated circuits listed under Export Control Classification Number 3A090 and 4A090 of the Export Administration Regulations by entities located in the People’s Republic of China or Macau.
+
+---
+
+DOC_ID: 524
+Requires the Director of the National Institute of Standards and Technology (NIST) to brief Congress within one year on federal participation opportunities in AI and emerging technology standards development.
+
+Directs federal agencies to notify NIST of their involvement in AI standards activities and mandates NIST to create a reporting mechanism for this purpose.
+
+Mandates NIST to establish a web portal to inform U.S. industry and federal agencies about international standards efforts and participation opportunities.
+
+Establishes a pilot program for supporting U.S.-based standards meetings, including prestandardization and coordination meetings, through grants to eligible entities.
+
+Obligates NIST to brief Congress annually on the pilot program’s effectiveness and provide recommendations for permanent implementation if deemed feasible.
+
+Authorizes $10 million for the pilot program from fiscal years 2024 through 2028.
+
+---
+
+DOC_ID: 525
+Amends the Financial Stability Act of 2010 to assign the Financial Stability Oversight Council duties regarding AI in the financial sector.
+
+Requires the Council to coordinate with member agencies on AI-related financial system risks and direct the Office of Financial Research to study AI use by financial institutions.
+
+Obligates the Council to identify AI-related threats to financial stability, including market manipulation and disruption by malign actors.
+
+Mandates submission of a report within 180 days identifying regulatory gaps and recommending solutions, including referencing the NSA's September 2023 Cybersecurity Information Sheet.
+
+Calls for scenario-based exercises to test AI-related financial disruption defenses.
+
+Expands authority to oversee third-party AI service providers to financial institutions.
+
+Increases penalties for securities violations involving machine-manipulated media to three times the standard amount.
+
+Imposes liability on developers for AI model outcomes under Federal securities laws, with limited potential for waivers.
+
+---
+
+DOC_ID: 526
+Require the Secretary of Defense to provide a briefing by March 30, 2024, on national security threats from Chinese autonomous ground vehicles in the U.S.
+
+Mandate the briefing to address vehicles near Department of Defense bases and sensitive U.S. Government facilities.
+
+Specify inclusion of information on data types collected by these vehicles and dual-use implications of their technologies.
+
+Include analysis of how the Chinese Communist Party or People’s Liberation Army could use collected data for military planning.
+
+---
+
+DOC_ID: 527
+Establishes the National AI Commission, an independent and bi-partisan commission in the legislative branch responsible for reviewing and recommending measures for the US to mitigate the risks and possible harms of AI, and to ensure US leadership in AI innovation and development.
+
+Directs the National AI Commission to review the Federal Government's existing approach to AI oversight and regulation, including the existing distribution of oversight and regulatory authorities across various agencies, and to recommend governmental structures that may be needed to regulate powerful general-purpose AI systems.
+
+Instruct the National AI Commission to submit an interim report to Congress and the President within six months, a final report with its findings and recommendations for a binding regulatory framework no later than six months after the interim report, and a follow-up report within one year of the final report's submission.
+
+Requires the National AI Commission to comprise twenty commissioners appointed by the President and by Congressional leadership, with ten appointed by each party and co-chaired by a Democratic appointee and a Republican appointee.
+
+---
+
+DOC_ID: 528
+Establishes property rights for individuals in their likeness and voice, treating them as intellectual property that is transferable and descendible for ten years post-mortem.
+
+Prohibits unauthorized distribution, transmission, or availability of personalized cloning services, digital voice replicas, or digital depictions without the individual’s consent, imposing liabilities for violations.
+
+Specifies that unauthorized use incurs damages of $50,000 per violation for cloning services and $5,000 per violation for voice replicas or depictions, plus actual damages and profits.
+
+Allows for punitive damages and attorney fees for injured parties and invalidates disclaimers as a defense.
+
+Provides a First Amendment defense, balancing public interest with intellectual property rights, and considers commercial use and impact on the value of the original work.
+
+Exempts negligible harm from liability and defines harm to include financial, physical, and severe emotional distress.
+
+Sets a four-year limitations period for civil actions and ensures no preemption of other rights or laws.
+
+---
+
+DOC_ID: 529
+Directs the Secretary of Defense to establish the Joint Autonomy Office in the Department of Defense, responsible for coordinating and accelerating the adoption of all-domain autonomous systems for operational users, including through the adoption of commercial and defense best practices
+
+Requires the Office to implement an all-domain enterprise autonomous systems software development and testing platform across DoD's classification levels, including an all-domain data acquisition and curation process to build and manage datasets; these datasets and platforms should be released to various services and acquisition programs as they mature.
+
+Requires the Secretary of Defense to ensure that the Office has unlimited access to existing datasets regardless of classification level, and to introduce security protocols to protect data shared with or maintained by the Office.
+
+Requires the Director of the Office must establish a Department-wide classification framework for autonomous capabilities, considering the complexity of autonomous systems, the necessity of human supervision or control, their applicability to various warfighting domains, and costs; the Director must submit this framework along with an explanation of its criteria and requirements to Congress, with updates released no less frequently than once every two years.
+
+Requires the Director to develop and implement plans to standardize planning, resource and integration of autonomous capabilities across the Department; this includes a report assessing the Department's current efforts which identifies acquisition, training and evaluation gaps, as well as recommendations to address these.
+
+
+---
+

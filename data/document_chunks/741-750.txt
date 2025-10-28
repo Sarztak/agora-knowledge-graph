@@ -1,0 +1,168 @@
+DOC_ID: 740
+Prohibits the Federal Communications Commission (FCC) from promulgating or enforcing any rules related to the disclosure of artificial intelligence-generated content in political advertisements.
+
+Restricts the FCC specifically from acting on the draft notice of proposed rulemaking circulated by the Chairwoman on May 22, 2024, concerning AI-generated content disclosure in political ads across television, radio, or other services.
+
+Bars the FCC from enacting any rules substantially similar to the aforementioned proposal.
+
+---
+
+DOC_ID: 741
+Amends the Energy Independence and Security Act of 2007 to include machine learning algorithms in geothermal research and development.
+
+Establishes a supercritical geothermal research and development program within the Geothermal Technologies Office, focusing on well completion, permeability, materials, sensors, and water-rock geochemistry.
+
+Requires the creation of a repository for geothermal data, with periodic updates for data standardization and accessibility.
+
+Mandates a memorandum of understanding for data sharing regarding geothermal development among federal departments.
+
+Directs the Secretary of the Interior to drill deep exploration boreholes for geothermal mapping.
+
+Establishes a next-generation geothermal center of excellence to coordinate research, development, and workforce initiatives.
+
+Authorizes $5 million annually from 2026 to 2030 for these activities.
+
+Updates geothermal resource assessments quadrennially to include supercritical geothermal regions.
+
+Requires progress reports on geothermal resource potential and commercialization barriers.
+
+---
+
+DOC_ID: 742
+Mandates the Secretaries of Education and Health & Human Services to develop educational toolkits about artificial intelligence (AI) and social media's impact on youth.
+
+Requires consultation with various relevant stakeholders, including students, parents & guardians, educators, administrators, and healthcare professionals, to develop the toolkits.
+
+Specifies guidelines for each different type of toolkit, to be appropriately targeted to their multiple intended audiences: students, parents & guardians, educators, administrators, and healthcare professionals.
+
+Directs the Secretaries to develop toolkit dissemination strategies, so that the resources reach their intended audiences.
+
+Authorizes $2,000,000 for facilitating the dissemination of the toolkits.
+
+---
+
+DOC_ID: 743
+Mandates the Bureau of Industry and Security to adopt advanced data fusion, analytics, and AI capabilities to enhance export control processes and identify evasive trade patterns.
+
+Requires the integration of AI and machine learning into Bureau IT systems to improve decision-making and enforce export controls effectively.
+
+Obligates the Bureau to automate and streamline data sharing with industry, federal agencies, and international partners.
+
+Demands the modernization of IT systems to support seamless data management, enhance security, and facilitate the use of cutting-edge technology.
+
+Stipulates objectives for technology adoption, including productivity enhancement, cost reduction, and improved user experience for U.S. exporters.
+
+Instructs the Under Secretary to reassess staffing needs and consult Congress on personnel adjustments during the modernization.
+
+Authorizes $25 million annually from 2025 to 2028 for these initiatives.
+
+---
+
+DOC_ID: 744
+Amends the Federal Food, Drug, and Cosmetic Act to impose civil penalties on social media influencers and healthcare providers who make false or misleading communications about prescription drugs.
+
+Mandates the issuance of guidance within 180 days to define false or misleading communications and outline compliance procedures.
+
+Expands the definition of "manufacturer, packer, or distributor" to include telehealth providers involved in drug advertising.
+
+Requires reporting of payments related to drug promotion to the Secretary of Health and Human Services.
+
+Authorizes market surveillance activities using AI to monitor prescription drug promotions on social media and coordinate efforts with the Federal Trade Commission.
+
+Allocates $15 million annually for fiscal years 2025 to 2029 to support these activities.
+
+Establishes a process for notifying drug manufacturers of non-compliant communications by influencers or healthcare providers.
+
+Ensures the severability of the Act's provisions, maintaining validity even if parts are invalidated.
+
+---
+
+DOC_ID: 745
+Require the Federal Reserve, FDIC, OCC, NCUA, and CFPB to report on AI knowledge gaps in financial services within 90 days.
+
+Mandate analysis on AI-assisted tasks in regulated institutions.
+
+Assess current AI governance and oversight standards.
+
+Identify additional regulatory authorities needed for effective mission execution.
+
+Clarify overlapping AI regulatory issues between agencies.
+
+Evaluate current and planned agency use of AI over the next three years, including fiscal and staffing impacts.
+
+Determine necessary resources to adapt to AI changes and oversee its use.
+
+Ensure reports exclude confidential or nonpublic information.
+
+---
+
+DOC_ID: 746
+Prohibits rental property owners from using coordinators for algorithmic price coordination, deeming such actions per se violations of the Sherman Act.
+
+Prohibits coordinators from facilitating non-competitive agreements among rental property owners or performing coordinating functions.
+
+Prohibits coordinators from acquiring another coordinator if it lessens competition, violating the Clayton Act.
+
+Empowers the Federal Trade Commission, the Attorney General, and State Attorneys General to enforce the Act with the same powers and duties as the FTC Act, Sherman Act, and Clayton Act.
+
+Allows civil actions by injured persons to recover treble damages and litigation costs, with the option to invalidate pre-dispute arbitration agreements.
+
+Clarifies that the Act does not preempt State, Tribal, or local laws that supplement its provisions.
+
+Ensures severability of the Act if any provision is deemed unconstitutional, maintaining the effectiveness of remaining provisions.
+
+---
+
+DOC_ID: 747
+Mandates Medicare Advantage plans, starting January 1, 2027, to implement an electronic prior authorization program for secure electronic transmission of requests and responses, excluding certain formats like facsimiles.
+
+Requires plans, beginning January 1, 2026, to meet transparency requirements, including submitting annual data on prior authorization requests, appeals, and the use of AI technologies in decision-making.
+
+Obligates plans to provide access to authorization criteria and documentation requirements to providers, suppliers, and enrollees upon request.
+
+Empowers the Secretary of Health and Human Services to establish response timeframes for prior authorization requests, potentially as short as 24 hours.
+
+Tasks the Medicare Payment Advisory Commission with analyzing and reporting on prior authorization use and recommending improvements.
+
+Directs the Centers for Medicare & Medicaid Services to study and report on real-time decision processes and the impact of AI on patient access, especially for rural and low-income beneficiaries.
+
+---
+
+DOC_ID: 748
+Amends the Public Health Service Act to mandate the NIH Director develop AI resources and datasets for health research, provide AI expertise, and maintain data access resources.
+
+Authorizes $400 million for NIH AI initiatives in fiscal year 2025.
+
+Directs the National Coordinator for Health IT to utilize electronic health records for research, establish data standards, and align with national interoperability frameworks.
+
+Appropriates $10 million for data collection and $50 million for data standards.
+
+Requires hospitals to request patient consent to use health records for research, contingent upon patient approval.
+
+Expresses the Senate's view that NIH representation is crucial in steering committees for national AI research resources.
+
+Mandates the National Library of Medicine to establish data-sharing facilities and create a core data science program.
+
+Appropriates $100 million each for these library initiatives in fiscal year 2025.
+
+---
+
+DOC_ID: 749
+Prohibits sports wagering operators from using artificial intelligence to track individual wagers, target specific individuals with offers or promotions, or create gambling products like microbets.
+
+Requires sports wagering operators to ensure data security and to take reasonable steps to prevent unauthorized access or dissemination of wagering and customer data.
+
+Mandates real-time or near-real-time sharing of anonymized sports wagering data with the State regulatory entity.
+
+Imposes strict consumer protections, including restrictions on AI use, limits on deposits, and mandatory affordability checks for high-value wagers.
+
+Establishes comprehensive standards for licensing, recordkeeping, and employee background checks to ensure the integrity and accountability of sports wagering operators.
+
+Requires cooperation with investigations by regulatory authorities and sports organizations, and mandates robust internal controls for operators.
+
+Prohibits advertising targeting problem gamblers or individuals ineligible to wager, and restricts broadcast times and content. 
+
+Enforces restrictions to maintain contest integrity and prevent betting on certain events and by prohibited individuals.
+
+---
+

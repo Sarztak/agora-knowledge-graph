@@ -1,0 +1,168 @@
+DOC_ID: 250
+Establishes the AI Authority to ensure regulators take accountability for AI, align regulatory approaches, review legislation, monitor regulatory frameworks, assess risks, support testbeds, and promote international interoperability.
+
+Mandates the AI Authority to adhere to principles ensuring AI safety, transparency, fairness, accountability, compliance with laws, and inclusivity.
+
+Requires the creation of regulatory sandboxes for testing AI innovations with consumer protections.
+
+Obligates businesses using AI to appoint AI responsible officers to ensure ethical use and unbiased data.
+
+Imposes transparency and IP obligations, requiring disclosing records of data used in AI training and independent audits.
+
+Mandates the implementation of public engagement programs on AI opportunities and risks.
+
+---
+
+DOC_ID: 251
+Prohibits the distribution of political communications containing materially deceptive AI-generated audio that impersonates a candidate’s voice, with actual malice, intended to harm the candidate’s reputation or deceive voters.
+
+Applies to communications distributed within 90 days of a general election or 60 days of a primary, special, or runoff election.
+
+Exempts certain entities from liability such as radio or television stations that air deceptive AI-generated content as part of news coverage or communications that clearly constitute satire.
+
+Defines "materially deceptive audio" as AI-generated impersonation of a candidate’s voice without approval and lacking a clear disclaimer.
+
+Imposes criminal penalties of fines or up to 2 years imprisonment for individuals who knowingly and willfully violate the prohibition.
+
+Requires the Federal Election Commission (FEC) to issue regulations to clarify disclaimer requirements and mandates the submission of annual compliance reports to Congress.
+
+---
+
+DOC_ID: 252
+Requires the Department of Homeland Security to develop a comprehensive plan within 180 days to identify, deploy, and integrate emerging and advanced technologies to enhance situational awareness along the northern and southern borders of the United States.
+
+Mandates the inclusion of artificial intelligence, machine learning, automation, fiber-optic sensing, nanotechnology, optical and cognitive radar, modeling and simulation technology, hyperspectral and LIDAR sensors, and other similar technologies.
+
+Includes an assessment of current technology utilization by U.S. Customs and Border Protection (CBP) and how capability gaps can be addressed through technology integration.
+
+Requires cost estimates for technology acquisition and maintenance, metrics for measuring technology impact, and an assessment of multi-domain awareness improvements.
+
+Mandates an analysis of other Federal technologies, procurement authorities, and the transition of new technology systems.
+
+Requires coordination with the Department of Homeland Security's Science and Technology Directorate for research, development, and incentivizing private sector innovation.
+
+---
+
+DOC_ID: 253
+Prohibits U.S. persons from engaging in investments involving covered national security transactions in prohibited technologies, with exemptions permissible by the Secretary for activities deemed in the national interest. 
+
+Allows the Secretary to issue regulations that require notifications for such transactions. 
+
+Introduces penalties for violations, including civil penalties and potential divestment requirements, with the burden of proof resting on the Secretary in enforcement actions. 
+
+Establishes processes for self-disclosure of violations and requests for non-binding feedback regarding transactions. 
+
+Mandates annual reports to Congress detailing enforcement actions and technology assessments. 
+
+Provides for confidentiality of transaction information, but outlines exceptions for disclosure relevant to U.S. national security interests. 
+
+Encourages international cooperation to prevent prohibited technology development or acquisition by countries of concern, such as China. 
+
+Defines key terms, including "prohibited technology" and "country of concern."
+
+---
+
+DOC_ID: 254
+Expands the responsibilities of the Assistant Secretary of Commerce to include promoting the resilience of supply chains related to critical and emerging technologies, including artificial intelligence.
+
+Mandates the creation of the Supply Chain Resilience Working Group composed of relevant federal agencies to assess and model supply chain stability, including those involving AI technologies.
+
+Requires the group to identify vulnerabilities and prepare for potential supply chain shocks that might impact AI and other critical technologies.
+
+Encourages domestic production and manufacturing, specifically focusing on AI and technological advancements.
+
+Obligates periodic reports and assessments to Congress regarding the resilience and capacity of AI-related supply chains and industry preparedness for shocks.
+
+Prohibits reliance on critical goods from countries identified as risks to national security, advocating for sourcing from allies.
+
+Sets a 10-year expiration for these provisions.
+
+Protects confidential data shared voluntarily under this title from disclosure, ensuring privacy concerns in relation to AI-related supply chain information.
+
+---
+
+DOC_ID: 255
+Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement.
+
+Ensures care continuity for individuals using diabetes technology when enrolling in Medicare Part B by January 2026.
+
+Requires development of a process to consider diabetes technologies not currently covered under Medicare Part B for potential inclusion.
+
+Mandates creation of new coding for insulin pump training and education by 2026, to enhance billing and reimbursement transparency.
+
+Obligates the issuance of a national coverage determination for insulin pumps within 180 days from enactment.
+
+Instructs the Comptroller General to report within a year on barriers hindering access to diabetes technologies and services in Federal healthcare programs, reviewing legal and policy issues affecting access.
+
+---
+
+DOC_ID: 256
+Establishes transparency and accountability requirements for the St. Louis Metropolitan Police Department’s (SLMPD) use of surveillance technology, including artificial intelligence (AI).
+
+Prohibits using surveillance technology to monitor political, religious, or social groups unless tied to criminal activity or public safety threats.
+
+Mandates public, written policies for SLMPD’s use of surveillance technology and AI.
+
+Requires annual transparency reports detailing the SLMPD’s surveillance technology usage, capabilities, impacts, and related complaints.
+
+Obliges vendors to protect data privacy, prohibiting unauthorized access or sale of collected data.
+
+Ensures compliance with federal and state laws regarding data storage, retention, and access.
+
+Directs cooperation with the City’s Information Technology Services for technology acquisitions.
+
+Requires adherence to 28 C.F.R. Part 23 for participation in criminal intelligence systems.
+
+Mandates policies for data sharing, following "need to know" and "right to know" standards for law enforcement agencies.
+
+---
+
+DOC_ID: 257
+Mandates the Secretary of Homeland Security to submit a plan for deploying innovative border technologies within 180 days. 
+
+Requires the plan to assess artificial intelligence’s impact on privacy, civil rights, and civil liberties, and include mitigation measures. 
+
+Directs the establishment of CBP Innovation Teams to evaluate and integrate advanced technologies, ensuring compliance with DHS policies on AI use. 
+
+Focuses on transitioning technologies to CBP programs, addressing potential negative outcomes and capability gaps. 
+
+Instructs annual reporting on Innovation Teams’ activities, technologies piloted, and their success rates. 
+
+Requires coordination with DHS's AI policies to ensure responsible AI use. 
+
+Demands cost-benefit analysis before large-scale technology deployment, ensuring security effectiveness and governmental cost-efficiency. 
+
+Emphasizes collaboration with the private sector, other government entities, and stakeholders for optimizing advanced technology deployment.
+
+---
+
+DOC_ID: 258
+Mandates the Comptroller General to conduct a technology assessment of wearable medical devices within 18 months of the Act's enactment.
+
+Requires submission of a report to Congress on the capabilities and limitations of these devices in supporting clinical decision-making.
+
+Includes a description of the potential for wearable devices to accurately prescribe treatments.
+
+Examines the benefits and challenges of using artificial intelligence to augment these capabilities.
+
+Suggests policy options to enhance the benefits and address the challenges of developing or using wearable medical devices.
+
+---
+
+DOC_ID: 259
+Establishes protocols within the Frontier Safety Framework to address severe risks from future foundation models' capabilities.
+
+Defines "Critical Capability Levels" (CCLs) to identify when AI models pose heightened risks, focusing initially on Autonomy, Biosecurity, Cybersecurity, and Machine Learning R&D.
+
+Implements periodic evaluations to detect when models approach CCLs and articulates developing mitigation plans.
+
+Proposes security mitigations to prevent model weight exfiltration and deployment mitigations to control access and expression of critical capabilities.
+
+Outlines graded mitigation and security protocols based on AI capabilities and risks from potential misuse. 
+
+Plans to implement the framework by early 2025 and expects it to evolve with emerging risks and insights.
+
+Commits to periodically reviewing and updating the framework as understanding of AI risks and benefits improves.
+
+---
+

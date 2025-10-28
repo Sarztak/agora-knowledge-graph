@@ -1,0 +1,164 @@
+DOC_ID: 560
+Authorizes the Secretary of Commerce to review and prohibit certain transactions involving information and communications technology (ICT) between U.S. persons and foreign adversaries.
+
+Empowers the Secretary to identify, deter, disrupt, prevent, prohibit, investigate, or mitigate risks arising from covered transactions.
+
+Defines "covered transactions" broadly, including those involving foreign adversaries or entities under their jurisdiction.
+
+Establishes procedures for the Secretary to refer covered holdings posing national security risks to the President, who can then compel divestment or take other actions to mitigate risks.
+
+Prioritizes critical ICT areas such as AI, quantum computing, and telecommunications for evaluation.
+
+Exempts actions from standard administrative and judicial reviews, limiting legal challenges to specific high courts.
+
+Imposes civil and criminal penalties for violations, including fines, imprisonment, and forfeiture.
+
+---
+
+DOC_ID: 561
+Requires the Administrator to carry out a research program to modernize and streamline air traffic control training, subject to available appropriations.
+
+Mandates the assessment of advanced technologies, including AI, machine learning, and virtual/augmented reality, to enhance knowledge retention and training effectiveness.
+
+Develops a timeline for deploying proven advanced technologies and processes for accreditation in training programs and facilities.
+
+Includes collaboration with labor organizations and other stakeholders in the research process.
+
+Obligates the Administrator to submit a report to Congress on the research findings within one year of the Act's enactment.
+
+---
+
+DOC_ID: 562
+Requires the Administrator to conduct a review of current and planned AI and machine learning technologies to enhance airport efficiency and safety.
+
+Mandates the review to cover applications of AI and machine learning in jet bridges, airport service vehicles, and aircraft taxiing.
+
+Allows the Administrator to include other relevant areas that can improve airport efficiency and safety.
+
+Obligates the Administrator to submit a report to Congress within one year, detailing the review's findings.
+
+Includes a required examination of China's domestic application of AI and machine learning technologies in the report.
+
+---
+
+DOC_ID: 563
+Establishes the requirement for the Under Secretary, in collaboration with the weather enterprise, to develop consistent and open data and metadata standards to support open science.
+
+Mandates the consolidation and efficient arrangement of data infrastructure, considering commercial cloud technologies, to ensure effective data transfer between National Oceanic and Atmospheric Administration (NOAA) offices.
+
+Authorizes the Under Secretary to partner with other federal agencies to support cloud architecture transitions and data collocation.
+
+Ensures the long-term management and stewardship of archival data acquired through the Commercial Data Program.
+
+Requires the Under Secretary to facilitate data sharing with the weather enterprise, making data accessible to U.S. persons under certain conditions.
+
+Instructs the establishment of a program to advance data assimilation methods, including AI and machine learning, and the creation of a university consortium to address research challenges in data assimilation.
+
+Mandates a study on NOAA's data practices and management needs, assessing costs, benefits, and recommending improvements.
+
+---
+
+DOC_ID: 564
+Establishes a program to award financial assistance for creating and supporting a network of National Drone and Advanced Air Mobility Research Institutes.
+
+Requires collaboration among public and private organizations, including Federal agencies, academic institutions, and industry, to form these Institutes.
+
+Mandates the Institutes to focus on economic or social sectors and address ethical, societal, safety, and security implications of unmanned aircraft systems.
+
+Supports interdisciplinary research, education, and workforce development, including broadening participation of underrepresented communities.
+
+Provides funds for managing data sets, developing testbeds, conducting research, and supporting AI and machine learning related to advanced air mobility systems.
+
+Imposes a competitive merit review process for awarding financial assistance and prohibits duplication of efforts.
+
+Authorizes $5 million annually for fiscal years 2024-2028 to support these activities.
+
+---
+
+DOC_ID: 565
+Amends Section 606 of the Harmful Algal Bloom and Hypoxia Research and Control Act to establish a national harmful algal bloom observing network.
+
+Requires the Under Secretary, via NCCOS and IOOS, to integrate Federal, State, regional, and local observing capabilities.
+
+Mandates the use of emerging technologies and data integration methods, including artificial intelligence, for monitoring, detecting, and forecasting harmful algal blooms.
+
+Instructs the IOOS Program Office to coordinate with NCCOS for observations, data integration, and information dissemination.
+
+Establishes a Harmful Algal Bloom Data Assembly Center to integrate, disseminate, and support ecological forecasting.
+
+---
+
+DOC_ID: 566
+Directs the Secretary of Education to award competitive grants to eligible entities to enhance data literacy education from pre-kindergarten through postsecondary levels.
+
+Requires grant applications to detail plans for increasing access to data literacy and STEM education, evaluating project activities, and continuing efforts post-grant.
+
+Mandates the use of grant funds for developing data literacy curricula, providing professional development for educators, and collaborating with industry and educational institutions.
+
+Limits equipment purchases to 15% of grant funds annually.
+
+Obligates recipients to submit biannual reports on grant fund usage, with data disaggregated by race, ethnicity, gender, and eligibility for free/reduced lunch.
+
+Tasks the Secretary with submitting a comprehensive report to Congress within five years, including recommendations for program expansion.
+
+Authorizes $10 million annually for fiscal years 2024-2028, with caps on administrative expenses and program evaluation costs.
+
+---
+
+DOC_ID: 567
+Mandates the Secretary of Energy to execute a cross-cutting research, development, and demonstration program for unmanned aircraft system (UAS) technologies, including artificial intelligence.
+
+Requires coordination across relevant DOE offices, including the Artificial Intelligence Technology Office.
+
+Formulates goals for UAS research, leveraging existing research and providing training in AI, machine learning, and related fields.
+
+Establishes a data management strategy ensuring digital access, interoperability, and machine-readability.
+
+Supports institutes to advance UAS and DOE missions.
+
+Awards financial assistance for research in areas such as AI, autonomous operation, advanced algorithms, and multi-sensor fusion.
+
+Promotes technology transfer by partnering with industry.
+
+Makes available DOE research facilities and high-performance computing infrastructure.
+
+Coordinates with other federal departments to avoid duplication and ensure complementary activities.
+
+Authorizes appropriations totaling $276,282,638 from fiscal years 2024 to 2028.
+
+---
+
+DOC_ID: 568
+Mandates the Secretary of Homeland Security to support research, development, evaluation, and testing of advanced air mobility, unmanned aircraft systems (UAS), and counter-UAS systems.
+
+Directs coordination with relevant Department of Homeland Security offices and programs, including the Cybersecurity and Infrastructure Security Agency and U.S. Customs and Border Protection.
+
+Requires production of standardized, secure, and privacy-protected data sets for advanced air mobility and UAS systems.
+
+Supports establishing one or more Institutes to advance research in these fields.
+
+Establishes a Counter-UAS Center of Excellence within the Department of Homeland Security.
+
+Specifies selection criteria for host institutions, emphasizing past performance, geographic proximity to federal facilities, and capabilities in AI and machine learning.
+
+Permits use of funds for fundamental research, evaluation, education, and training related to counter-UAS systems.
+
+Sets the federal share of grants at no more than 75% of costs.
+
+Authorizes appropriations totaling $30 million to $36.5 million from fiscal years 2024 to 2028.
+
+---
+
+DOC_ID: 569
+Amends the Trade Act of 1974 to establish a list of products supported by the Chinese government under the Made in China 2025 policy.
+
+Requires the United States Trade Representative to compile this list within 120 days of the enactment and update it annually.
+
+Mandates inclusion of products specified in key Chinese government documents related to Made in China 2025.
+
+Includes products that displace net exports of similar U.S. products.
+
+Enumerates specific industries such as civil aircraft, motor vehicles, advanced medical equipment, agricultural machinery, semiconductors, lithium batteries, artificial intelligence, high-capacity computing, quantum computing, robotics, and biotechnology for inclusion.
+
+---
+

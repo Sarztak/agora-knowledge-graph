@@ -1,0 +1,146 @@
+DOC_ID: 720
+Amends the National Institute of Standards and Technology Act to require the development of voluntary guidelines for AI system development, release, and assessment.
+
+Mandates the Director of NIST to collaborate with public and private organizations to create guidance on AI risk tolerances and communication of system characteristics.
+
+Requires categorization of practices related to security, safety, fairness, privacy, and other attributes of AI systems.
+
+Obligates the Director to update the voluntary risk management framework for trustworthy AI systems.
+
+Prohibits prescribing specific technologies; mandates reliance on international standards and industry best practices.
+
+Requires collaboration with public, industry, and academic entities for guidance development.
+
+Demands a report to Congress within 18 months on new materials or systems produced and policy recommendations for private-public sector coordination.
+
+Defines "artificial intelligence red teaming" and "artificial intelligence system" for clarity.
+
+---
+
+DOC_ID: 721
+Directs the Secretary of Health and Human Services to issue guidance by January 1, 2026, on Medicare payment requirements under part B of title XVIII of the Social Security Act for remote monitoring devices.
+
+Mandates that the guidance specifically address devices that incorporate artificial intelligence components, such as continuous adjustment features.
+
+Requires that these devices must transmit information to healthcare providers for the management and treatment of individuals to qualify for payment.
+
+---
+
+DOC_ID: 722
+Mandates the preparation of reports by the Secretary of Labor, the National Science Foundation, and the Secretary of Education on AI's workforce impact, identifying data needs, affected industries, and opportunities for stakeholder influence.
+
+Authorizes the Department of Education to award grants to enhance emerging and advanced technology education from prekindergarten through grade 12, focusing on inclusivity for underrepresented communities.
+
+Requires the Department of Labor to grant funds for upskilling workers in industries significantly impacted by AI, promoting lifelong learning and skill certifications.
+
+Prescribes continuous evaluation and monitoring of grant-funded activities, with a focus on sustaining project activities post-grant.
+
+Demands biannual reporting by grantees on fund usage, disaggregated by demographic factors, and a comprehensive report to Congress within five years.
+
+Amends existing education laws to integrate emerging technology education data, emphasizing competency in AI-related skills among students.
+
+---
+
+DOC_ID: 723
+Extends the research and development acquisition pilot program under the Homeland Security Act of 2002 to September 30, 2027.
+
+Mandates the Secretary of Homeland Security to notify and brief Congress within 72 hours regarding the use or extension of transaction authority involving artificial intelligence technology.
+
+Reduces the threshold for covered contract awards from $4,000,000 to $1,000,000 under the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023.
+
+---
+
+DOC_ID: 724
+Mandates the Secretary of Homeland Security to consult with the Director of the National Institute of Standards and Technology and the Director of the United States Patent and Trademark Office within eight months to develop an AI watermark and trademark system for identifying Federal agency-approved AI applications for civilian agency use.
+
+Authorizes the appropriation of necessary funds each fiscal year to the Secretary of Homeland Security to implement this AI watermark system.
+
+---
+
+DOC_ID: 725
+Establishes a pilot program to encourage private sector use of privacy-enhancing technologies within one year of the Act's enactment to protect covered data.
+
+Requires the Commission to develop a petition process for entities to join the pilot program and implement an auditing system using privacy-enhancing technologies for enforcement purposes.
+
+Mandates ongoing audits of participating entities to ensure compliance with privacy-enhancing technologies.
+
+Allows covered entities deemed compliant to be considered in compliance with section 109, with a rebuttable presumption in certain legal actions.
+
+Obligates the Comptroller General to study the pilot program's progress and effectiveness, with an initial briefing and a final report to Congress.
+
+Creates a new bureau within the Federal Trade Commission (FTC) to enforce the title with experts, including technologists experienced with AI.
+
+Establishes a Privacy and Security Victims Relief Fund for consumer redress and technological research.
+
+Requires the FTC to report to Congress on investigations and future plans related to the title.
+
+---
+
+DOC_ID: 726
+Establishes a grant program to promote digital citizenship and media literacy among veterans, requiring the Secretary of Veterans Affairs to award grants to eligible entities.
+
+Mandates grant recipients to develop cybersecurity best practices and improve veterans' competencies in digital and media literacy.
+
+Requires grant recipients to submit a report on their activities and effectiveness one year after receiving funds.
+
+Obliges the Secretary to report to Congress on the program's overall activities and effectiveness after receiving the last report from grant recipients.
+
+Authorizes $20 million in appropriations for fiscal years 2023, 2025, and 2027 to fund the program.
+
+Defines key terms such as "cybersecurity best practices," "digital citizenship," "media literacy," and "eligible entity."
+
+Encourages the Secretary to maintain a list of grant recipients and promote communication among them.
+
+Acknowledges the role of foreign influence campaigns and online scams targeting veterans as critical issues that need addressing.
+
+---
+
+DOC_ID: 727
+Establishes a cross-cutting AI research and development program within the Department of Energy to advance AI tools, systems, and capabilities.
+
+Mandates coordination across relevant offices such as the Office of Science and the Office of Energy Efficiency to carry out this program.
+
+Requires financial assistance for research in areas like AI application in simulations, data analysis, and energy-efficient computing.
+
+Supports technology transfer and the use of high-performance computing infrastructure to develop advanced AI systems.
+
+Establishes data center testbeds to improve energy efficiency in AI training and inference.
+
+Encourages partnerships with federal and private entities to enhance AI research and development.
+
+Emphasizes ethical considerations, cybersecurity, and data privacy in AI projects.
+
+Allocates $300 million annually from 2025 to 2030 for these initiatives.
+
+Requires an assessment of energy security related to data centers and computing resources, with recommendations for policy changes.
+
+---
+
+DOC_ID: 728
+Establishes a voluntary database to track AI security and safety incidents, requiring the National Institute of Standards and Technology (NIST) to develop mechanisms for sharing incident information while preserving confidentiality.
+
+Mandates NIST to update the National Vulnerability Database to incorporate AI security vulnerabilities and identify characteristics that make the database unsuitable for certain AI vulnerabilities.
+
+Prohibits employer retaliation against employees who report AI incidents, allowing legal recourse for aggrieved parties.
+
+Directs the establishment of best practices for addressing AI supply chain risks, involving multiple stakeholders.
+
+Established the Artificial Intelligence Security Center within the National Security Agency to facilitate AI security research, guidance development, and ensure the availability of test-beds for secure AI research.
+
+---
+
+DOC_ID: 729
+Amends the Food Security Act of 1985 to improve subseasonal-to-seasonal weather forecasting by requiring the National Oceanic and Atmospheric Administration (NOAA) to enhance research, data collection, and model development.
+
+Mandates the development of multi-model ensemble forecast systems and data management strategies, and the operationalization of new modeling technologies.
+
+Establishes an Internet clearinghouse for forecasts and related information.
+
+Creates the Weather and Earth System Modeling and Data Assimilation Workforce Innovation Program to support education, recruitment, and workforce development in weather modeling and data assimilation, emphasizing artificial intelligence and machine learning.
+
+Requires the Under Secretary to develop and update a workforce human capital plan and report on the program's effectiveness.
+
+Authorizes appropriations for these initiatives, including $40 million annually from 2025 to 2030 for the workforce program and additional funding for NOAA's weather research activities.
+
+---
+

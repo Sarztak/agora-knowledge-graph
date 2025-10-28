@@ -1,0 +1,136 @@
+DOC_ID: 550
+Requires the Secretary of Education to award grants to states, local educational agencies, and eligible Tribal schools for expanding computer science education.
+
+Mandates grant recipients to provide every high school student with access to computer science education within five years and ensure a progression of computer science education from prekindergarten through middle school.
+
+Requires the use of grant funds for teacher training, expanding access to learning materials, and reducing equity gaps in STEAM education for underrepresented groups.
+
+Permits grant funds to be used for building regional collaborations, hiring instructional personnel, and disseminating effective practices.
+
+Limits use of grant funds for equipment purchases to 15%.
+
+Authorizes $250 million for fiscal year 2024 and the following four fiscal years.
+
+Requires grant recipients to report biannually on the use of funds and student demographics.
+
+Mandates the Secretary to report to Congress within five years on program expansion recommendations.
+
+---
+
+DOC_ID: 551
+Cites the Act as the "FinCEN Modernization Act of 2023."
+
+Requires FinCEN to establish research, development, and information-sharing programs focusing on technological advances like machine learning and data analytics.
+
+Mandates FinCEN to explore and evaluate technological innovations beneficial for financial systems and detect illicit activities.
+
+Obligates FinCEN to adopt necessary technologies for monitoring cryptocurrencies and addressing money laundering and cyber threats.
+
+Enables FinCEN to exchange information with other Treasury offices and federal departments.
+
+Authorizes FinCEN to enter into non-standard transactions and accept contributions, gifts, or donations to support technological advancements.
+
+Compels FinCEN to submit an annual report detailing transactions, contributions, and their justifications and purposes to relevant Congressional committees.
+
+---
+
+DOC_ID: 552
+Requires the Administrator of the Environmental Protection Agency (EPA) to study  the environmental impacts of artificial intelligence, with a report on its findings submitted to Congress within two years of the Act's enactment.
+
+Mandates that the EPA study examine the energy, water consumption, and pollution throughout the full lifecycle of AI models, hardware, and data centers, considering the effects of location, power sources, and AI model design on these environmental impacts.
+
+Requires that the EPA study assess the positive environmental impacts associated with the use of AI, such as optimizing systems for energy efficiency or automatically monitoring environmental changes.
+
+Directs the Director of the National Institute of Standards and Technology (NIST) to work with other government officials to form a consortium comprising academic, civil society, and industry representatives to assess and report on AI's environmental impacts, including the feasibility of open-source tools for measurement and recommendations to mitigate negative environmental effects.
+
+Instructs the Director of NIST to work with other government officials and the consortium to establish a voluntary reporting system for entities to report on their AI systems' environmental impact.
+
+Requires the Administrator of EPA, Secretary of Energy and Director of NIST to submit a joint report on the consortium's findings and its proposed voluntary reporting system within four years of the Act's enactment.
+
+---
+
+DOC_ID: 553
+Requires the Under Secretary of Commerce for Oceans and Atmosphere to improve the communication system of the National Oceanic and Atmospheric Administration (NOAA) for hazardous weather and water events to prevent loss of life and property.
+
+Mandates the establishment of a hazard risk communication office to simplify and improve communication, using the latest social, behavioral, risk, and communication science research, including AI and machine learning technologies.
+
+Instructs the Under Secretary to create a research program to modernize risk-based hazard communication and establish a pilot program for tornado hazard communication. 
+
+---
+
+DOC_ID: 554
+Creates a demonstration initiative to advance next-generation pipeline technologies, awarding financial assistance to eligible entities through a competitive process.
+
+Establishes a joint research and development program within the Department of Energy, coordinated with the Department of Transportation and the National Institute of Standards and Technology, to develop advanced materials and technologies for pipeline systems.
+
+Forms the National Pipeline Modernization Center to collaborate on research, development, and demonstration projects for commercializing cost-effective pipeline products and procedures.
+
+Mandates the development of measurement research, testing, and standardization programs by the National Institute of Standards and Technology to ensure pipeline integrity and support safety, security, and efficiency.
+
+Authorizes significant appropriations for fiscal years 2024 through 2028 to support these initiatives.
+
+---
+
+DOC_ID: 555
+Establishes the Supply Chain Resiliency and Crisis Response Office within 180 days to monitor and enhance supply chain resilience, especially for critical industries and goods.
+
+Mandates the Under Secretary to map, monitor, and model supply chains, identifying gaps and vulnerabilities.
+
+Requires collaboration with federal agencies, private sector, labor organizations, and international partners to strengthen supply chains and prepare for shocks.
+
+Involves continuous monitoring of supply chain resilience, diversity, and security, and mandates quadrennial reports on supply chain resiliency and domestic manufacturing.
+
+Authorizes $500 million for fiscal years 2024-2028 to fund these activities, ensuring up to 2% per fiscal year for administrative costs.
+
+---
+
+DOC_ID: 556
+Directs the Secretary of Energy and the NOAA Administrator to conduct collaborative research using advanced computing techniques, including AI, to improve weather models.
+
+Requires establishment of a memorandum of understanding to facilitate this collaboration through a competitive, merit-reviewed process.
+
+Mandates exploration of performance portability of weather model codes between operational and high-performance computing systems.
+
+Supports maintenance and improvement of scientific computing infrastructure, data sharing, and collaboration among federal entities and institutions.
+
+Initiates a computing research initiative to develop advanced weather models, leveraging data and efforts from relevant interagency entities.
+
+Permits establishment of up to three centers of excellence at National Laboratories to support advanced weather models through public-private partnerships and high-performance computing.
+
+Prioritizes selection of Laboratories with AI-enabled computing systems and expertise in weather and climate modeling.
+
+Mandates submission of reports to Congress detailing interagency coordination, achievements, and future opportunities for collaboration in advanced computing techniques.
+
+---
+
+DOC_ID: 557
+Amends Section 1521 of the National Defense Authorization Act for Fiscal Year 2022 to expand the Department of Defense's procurement of cyber data products and services to include AI-driven endpoint security and to strengthen software supply chain security.
+
+Inserts a provision to enhance the security of the software supply chain of the Department of Defense using AI.
+
+---
+
+DOC_ID: 558
+Expands the functions of the National Institute of Standards and Technology (NIST) to include developing workforce frameworks for critical and emerging technologies, including artificial intelligence (AI).
+
+Requires the Director of NIST to develop, maintain, and update an AI workforce framework and review it at least every three years.
+
+Mandates the inclusion of professional, support, and operational skills in AI workforce frameworks, considering nontraditional backgrounds.
+
+Instructs the Director to consult with various stakeholders, including federal agencies and educational institutions, in developing these frameworks.
+
+Obliges the Director to produce multilingual resources to support global adoption of these frameworks.
+
+Requires periodic reports to Congress on updates and the process of reviewing workforce frameworks, including the National Initiative for Cybersecurity Education Workforce Framework for Cybersecurity.
+
+Directs the development and publication of additional workforce frameworks for other critical technologies, such as quantum information science.
+
+---
+
+DOC_ID: 559
+Prohibits knowingly distributing materially deceptive AI-generated audio or visual media related to Federal election activities or candidates. Exempts broadcasters, streaming services, and periodicals if they disclose authenticity concerns and covers bona fide news or satire. 
+
+Allows affected candidates to seek injunctive relief or damages, including attorney's fees, for violations. Requires plaintiffs to prove violations with clear and convincing evidence. 
+
+---
+

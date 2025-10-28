@@ -1,0 +1,172 @@
+DOC_ID: 110
+Instructs the Comptroller General of the United States to conduct a technology assessment and submit a report to Congress on wearable medical devices.
+
+Requires the report to assess the capabilities and limitations of these devices in supporting clinical decision-making.
+
+Includes an evaluation of the potential for such devices to accurately prescribe treatments.
+
+Examines the benefits and challenges of integrating artificial intelligence to enhance these devices.
+
+Provides policy options to maximize benefits and mitigate challenges associated with the development or use of wearable medical devices.
+
+---
+
+DOC_ID: 111
+Establishes a governance framework for AI use in San José, aligning with the City’s data security, privacy, and existing policies.
+
+Directs the Chief Information Officer (CIO) to manage the AI Handbook, with the City Information Security Officer (CISO) and City Digital Privacy Officer (CDPO) ensuring system security, resilience, privacy, and policy compliance.
+
+Requires users to uphold guiding principles such as effectiveness, transparency, equity, accountability, privacy, and security.
+
+Prohibits AI applications involving real-time biometric identification, emotion analysis, fully automated impactful decisions, social scoring, and cognitive manipulation.
+
+Mandates reporting AI-caused harm within 24 hours.
+
+Implements sunset procedures for outdated AI systems.
+
+Obliges compliance with public records laws and City’s transparency policies.
+
+Enforces policy adherence, with violations subject to disciplinary action.
+
+Requires Finance to obtain AI usage disclosures in procurement.
+
+Defines AI and related system terms within the policy context.
+
+---
+
+DOC_ID: 112
+Guides AI developers, sellers, and users in California on legal obligations under state consumer protection, civil rights, competition, and data privacy laws.
+
+Requires that AI systems comply with laws against unfair practices, deceptive advertising, false advertising, and any antitrust violations.
+
+Addresses risks of bias and discrimination in AI systems under civil rights laws, enforcing accountability for discriminatory outcomes.
+
+Mandates transparency about AI's use, dataset training, and impact assessment.
+
+Prohibits misuse of AI for impersonation, false representation, and creation of deceptive political content.
+
+Enforces privacy compliance under the California Consumer Privacy Act, ensuring data protection and informed consent from consumers when AI systems use personal information.
+
+Introduces new AI legislation, effective January 2025, mandating disclosures, detection tools for AI-generated content, and accountability in entertainment and election contexts.
+
+Expands prohibitions on exploitative AI uses, including specific amendments addressing child pornography and deepfake technologies.
+
+Ensures AI tools in healthcare require supervision by licensed physicians.
+
+---
+
+DOC_ID: 113
+Establishes a Frontier AI Framework at Meta to manage risks of advanced AI, focusing on models exceeding current advanced capabilities.
+
+Implements processes to prevent catastrophic outcomes by identifying threat scenarios and developing threat models.
+
+Defines risk thresholds to categorize AI models; critical threshold results in ceasing development, while high and moderate thresholds dictate further risk mitigation measures.
+
+Outlines governance and transparency processes in AI development, including stages of planning, evaluation, mitigation, and decision-making policies.
+
+Emphasizes threat modeling exercises to assess catastrophic risks and ensure models do not uniquely enable harmful scenarios.
+
+Focuses on cybersecurity and chemical/biological risks by specifying threat scenarios and enabling capabilities to guide risk assessments.
+
+Plans to update the framework by integrating evolving AI risks and research, actively engaging with AI communities, and enhancing evaluation and post-release monitoring techniques.
+
+---
+
+DOC_ID: 114
+Amends 15 CFR part 702 to introduce special reporting requirements for U.S. entities involved in advanced AI model development and computing clusters.
+
+Requires covered U.S. persons to notify the Department quarterly if engaging in AI activities exceeding specified computational thresholds.
+
+Mandates covered U.S. persons to respond to BIS inquiries within 30 days and correct incomplete submissions within 14 days.
+
+Obliges entities to report any training or development of dual-use foundation models, including security measures and model performance in AI red-team testing.
+
+Stipulates that entities submit affirmations of no applicable activities if none occur for seven consecutive quarters.
+
+Defines key terms, including AI red-teaming, dual-use foundation models, and large-scale computing clusters, to specify the scope of activities to which these requirements apply.
+
+Establishes quarterly notification deadlines and processes for requesting extensions if additional response time is needed.
+
+---
+
+DOC_ID: 115
+Enacts the Preventing Algorithmic Discrimination Act in Illinois to combat discrimination by automated decision tools. 
+
+Defines "algorithmic discrimination" as resulting from AI tool usage that causes discrimination against protected classes.
+
+Requires deployers to perform annual impact assessments on automated tools by January 2027, analyzing potential biases and preventing discrimination. 
+
+Mandates notifications to individuals affected by AI decisions, with options for alternative processes. 
+
+Requires an alternative process for those that request AI tools not be used in a decision.
+
+Obliges deployers to establish comprehensive governance programs to manage discrimination risks, requiring technical safeguards and annual compliance reviews. 
+
+Mandates public availability of policies on AI tool usage and discrimination management. 
+
+Prohibits use of tools resulting in algorithmic discrimination, with civil actions allowed from January 2028 for violations, including compensatory damages and legal fees. 
+
+Obliges deployers to submit impact assessments to the Attorney General, with fines for non-compliance. 
+
+Integrates enforcement with the Consumer Fraud and Deceptive Business Practices Act.
+
+---
+
+DOC_ID: 116
+Directs the Director of the National Institute of Standards and Technology (NIST) to update the National Vulnerability Database to include AI security vulnerabilities.
+
+Requires NIST to establish common definitions for AI security vulnerabilities and develop standards for managing these vulnerabilities.
+
+Mandates a multi-stakeholder process to assess voluntary reporting and tracking of substantial AI security and safety incidents, and to establish guidelines, best practices, and standardized mechanisms for reporting AI incidents.
+
+Obligates NIST to submit a report to Congress within three years, detailing the findings and recommendations from the multi-stakeholder process on AI incident reporting and tracking.
+
+---
+
+DOC_ID: 117
+Amends the Digital Equity Act of 2021 to include artificial intelligence (AI) literacy within the scope of digital literacy.
+
+Defines "artificial intelligence literacy" as understanding basic AI principles, applications, implications, limitations, and ethical considerations.
+
+Requires grants to support AI literacy initiatives in public elementary and secondary schools, including teacher training, professional development, and resource development.
+
+Supports higher education institutions to develop AI learning labs, virtual platforms, and educational tools for teachers and community educators.
+
+Includes grants to community anchor institutions for AI education and training programs.
+
+Mandates an annual report to Congress summarizing and analyzing the progress and impact of AI literacy initiatives, with recommendations for expansion or modification.
+
+---
+
+DOC_ID: 118
+Requires the inclusion of disclaimers on political advertisements containing content substantially generated by AI.
+
+Mandates that disclaimers must clearly state the use of AI in creating or materially altering the content.
+
+Establishes safe harbor guidelines for what constitutes a "clear and conspicuous manner" in disclaimers for image, audio, and video communications.
+
+Amends the Federal Election Campaign Act of 1971 to include penalties for violations of the disclaimer requirements, with fines up to $50,000.
+
+Directs the Federal Election Commission (FEC) to issue regulations outlining criteria for determining substantially AI-generated content and requirements for the disclosure statement. 
+
+Requires the FEC to report on compliance and enforcement within two years and biannually thereafter to Congress.
+
+---
+
+DOC_ID: 119
+Prohibits insurers from using external consumer data, algorithms, and predictive models that result in unfair discrimination based on various protected characteristics such as race, gender, or sexual orientation.
+
+Requires the Commissioner of Insurance to adopt rules ensuring insurers demonstrate their data and models do not result in unfair discrimination.
+
+Engages a stakeholder process to gather input from insurers, consumers, and other parties before rule adoption.
+
+Obliges insurers to provide detailed information about their data usage and implement risk management frameworks to minimize discrimination risks.
+
+Allows the Commissioner to examine and investigate insurers' data practices.
+
+Permits exemption for certain insurance types such as title insurance and high-premium commercial insurance policies.
+
+Defines key terms like "algorithm" and "predictive model" as related to insurance practices, emphasizing consumer data's impact on discrimination.
+
+---
+

@@ -1,0 +1,140 @@
+DOC_ID: 460
+Establishes a pilot program for testing fully autonomous vehicles in up to four municipalities, requiring participation from autonomous vehicle testers and compliance with specific operational constraints.
+
+Mandates that autonomous vehicle testers register vehicles, provide liability insurance, and ensure a licensed operator is present who can take manual control if needed.
+
+Prohibits testing on limited access highways and allows the Secretary of the Office of Policy and Management to halt testing if public safety is at risk or compliance issues arise.
+
+Creates a task force to study autonomous vehicle regulation, evaluate national and state standards, and assess the pilot program, providing reports on findings and recommendations for potential legislation.
+
+Requires the Secretary to submit annual reports on the pilot program's progress to the General Assembly’s transportation committee.
+
+Stipulates the task force composition, appointment deadlines, and reporting requirements, with a final report due by January 1, 2019.
+
+---
+
+DOC_ID: 461
+Mandates the Commissioner of Internal Revenue to use artificial intelligence, including neural machine learning, to reduce taxpayer burden during National Research Program audits and improve the accuracy of tax gap projections.
+
+Requires use of AI and data analysis tools to calculate and project the tax gap, which is the difference between taxes owed and taxes collected.
+
+Prohibits conducting more National Research Program audits in any fiscal year than the number conducted in fiscal year 2022. 
+
+Obligates the Commissioner to submit an annual tax gap projection to Congress, detailing the estimate using the latest data available, by July 31 each year.
+
+Defines the term "tax gap" as the difference between tax liabilities owed under the Internal Revenue Code and those actually collected by the IRS.
+
+---
+
+DOC_ID: 462
+Appropriates $290,000 for the purchase of artificial intelligence equipment and to contract with consultants at the ASK Academy Charter School in Sandoval County.
+
+---
+
+DOC_ID: 463
+Amends Oklahoma laws to enhance penalties for offenses involving child pornography, specifically targeting AI-generated images. 
+
+Defines "child pornography" to include computer-generated images and altered images that depict minors in sexually explicit conduct, regardless of whether the image is real or synthetic. 
+
+Establishes that possessing, distributing, or creating such images, including those utilizing AI technology, is a felony with penalties up to 20 years imprisonment and a $25,000 fine. 
+
+Specifies that possession of 100 or more images constitutes aggravated possession, punishable by life imprisonment and a $10,000 fine, with required sex offender registration.  
+
+Clarifies that AI-generated and computer-altered images count as independent offenses. 
+
+Mandates that this act becomes effective on November 1, 2024.
+
+---
+
+DOC_ID: 464
+Amends Minnesota law to criminalize the dissemination of deep fakes intended to influence elections.
+
+Prohibits the distribution of deep fakes within 90 days before elections or political conventions without consent if intended to harm a candidate or influence election outcomes.
+
+Excludes broadcasters following federal law from these prohibitions.
+
+Imposes penalties for violations, including imprisonment up to five years and fines up to $10,000 based on prior offenses or intent to cause harm.
+
+Requires that candidates convicted under this law forfeit their nomination or office.
+
+Disqualifies individuals convicted under this law from holding certain public offices.
+
+Sets the effective date for July 1, 2024, applicable to crimes committed thereafter.
+
+---
+
+DOC_ID: 465
+Requires the superintendent to prepare an annual report on the Minnesota Fusion Center (MNFC), detailing its general activities and monitored types, including AI or social media analysis tools.
+
+Mandates inclusion of the MNFC's budget, staffing, and the technological tools utilized, specifically AI and data analysis technologies.
+
+Obliges reporting on audit findings, data requests, suspicious activity reports (SARs), and the impact of AI tools in processing these reports.
+
+Specifies the report must contain information on the MNFC's collaborations with local, state, and federal agencies, including data sharing and investigations aided by SARs and requests for information (RFIs).
+
+Ensures the report's availability to relevant legislative committees and online by February 15 each year, starting in 2024.
+
+---
+
+DOC_ID: 466
+Authorize the Livermore Amador Valley Transit Authority to conduct a shared autonomous vehicle (SAV) demonstration project in the City of Dublin, California, for vehicles lacking traditional controls such as a steering wheel or pedals.
+
+Require vehicles to operate below 35 miles per hour.
+
+Mandate obtaining insurance or self-insurance of five million dollars and approval from local authorities.
+
+Certify compliance with federal safety standards and National Highway Traffic Safety Administration guidance, ensuring vehicles operate only in approved conditions.
+
+Require disclosure of personal data collection to participants and establish a law enforcement interaction plan.
+
+Oblige reporting of accidents and disengagements during testing to the Department of Motor Vehicles (DMV).
+
+Allow the DMV to require data collection for safety evaluations.
+
+Specify that the section becomes inoperative on May 1, 2018, and repeals on January 1, 2019.
+
+Clarify that this project does not influence statewide autonomous vehicle regulations.
+
+---
+
+DOC_ID: 467
+Calls for adherence to ethical principles in AI development, emphasizing people-oriented AI and the need to establish ethical norms and regulatory systems tailored to national conditions.
+
+Stresses safety and controllability, urging the international community to establish risk control mechanisms and accountability structures to prevent AI misuse and autonomous lethal technologies.
+
+Advocates for fairness and inclusiveness, highlighting the importance of ensuring equal access to AI benefits for developing countries and opposing technological hegemony and exclusionary practices.
+
+Promotes openness and inclusivity, encouraging international cooperation across disciplines, regions, and organizations under the UN framework to create a non-discriminatory environment for AI.
+
+Emphasizes peaceful utilization of AI, underscoring the necessity of AI for sustainable development and responsible defense policies to prevent its misuse in military contexts.
+
+Underlines China's commitment to international cooperation in AI governance, referencing past initiatives and ongoing efforts to establish a global framework for AI security governance.
+
+---
+
+DOC_ID: 468
+Define "artificial intelligence" as a machine-based system capable of making predictions, recommendations, or decisions for human-defined objectives, affecting real or virtual environments, using both machine and human inputs.
+
+Mandate AI systems to perceive environments, abstract perceptions into models through automated analysis, and use model inference for decision-making.
+
+Condition enactment of this amendment on the passage of House Bill No. 5141.
+
+---
+
+DOC_ID: 469
+Prohibits dealers or manufacturers in California from selling or upgrading vehicles with partial driving automation features without providing a distinct notice, including the feature's name, functions, and limitations.
+
+Prevents manufacturers or dealers from using language in marketing materials that implies partial driving automation features make a vehicle autonomous when it does not.
+
+Defines "partial driving automation feature" according to the Society of Automotive Engineers' Level 2 partial driving automation.
+
+Affirms that compliance with these provisions does not alter existing duty of care or civil liability for manufacturers or dealers.
+
+Obligates manufacturers to provide dealers with necessary information to comply with notice requirements.
+
+Exempts manufacturers from violation if they provide required information to dealers and dealers fail to notify buyers.
+
+States that no reimbursement is needed under California's constitutional provisions due to changes in crime definition or penalties.
+
+---
+

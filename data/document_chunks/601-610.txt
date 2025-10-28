@@ -1,0 +1,166 @@
+DOC_ID: 600
+Mandates the President develop a national strategy for utilizing microreactors to assist with natural disaster response efforts.
+
+Requires consultation with FEMA, DOE, National Guard, Army Corps of Engineers, and Nuclear Regulatory Commission.
+
+Obligates submission of the strategy to Congress within one year and biennially thereafter.
+
+Includes an assessment of current diesel generator usage and environmental impacts compared to microreactors.
+
+Outlines goals and objectives for replacing diesel generators with microreactors.
+
+Calls for a Department of Defense analysis on translating operational microreactor technology for disaster response.
+
+Recommends expedited design approval and licensing for microreactors.
+
+Assesses strategic considerations, including storage, transportation, and integration into existing grids.
+
+Evaluates partnership opportunities for effective deployment.
+
+Encourages the use of AI and predictive tools for disaster preparation involving microreactors.
+
+---
+
+DOC_ID: 601
+Establishes a Countering AI-Enabled Disinformation Task Force within 180 days to identify responses to AI-enabled disinformation threats.
+
+Requires the Task Force to collaborate with private industry and academia to develop digital content provenance detection techniques.
+
+Mandates internal coordination within the Department on AI-enabled disinformation issues.
+
+Directs the Task Force to create a unified international approach for standards and frameworks to counter AI-enabled disinformation.
+
+Requires the Task Force to identify necessary tools and resources for detecting AI-enabled disinformation, producing counter-messaging, expanding digital literacy, and coordinating with various stakeholders.
+
+Mandates a report to Congress within one year on the Task Force’s establishment and progress.
+
+Involves representatives from various relevant offices in the Task Force.
+
+Defines key terms including "artificial intelligence" and "digital content provenance."
+
+---
+
+DOC_ID: 602
+Prioritizes nonanimal methods in NIH-supported research proposals.
+
+Establishes the National Center for Alternatives to Animals in Research and Testing within NIH.
+
+Requires the new center to develop, promote, and fund nonanimal research methods, including AI.
+
+Mandates the center to provide training and resources to researchers on nonanimal methods.
+
+Obligates federally funded research entities to report the number and species of animals used and plans to reduce their use.
+
+Ensures research proposals are reviewed by experts in nonanimal methods.
+
+Implements a system of incentives to encourage the use of humane and scientifically satisfactory nonanimal methods.
+
+Requires thorough searches for nonanimal alternatives before approving animal use in research.
+
+---
+
+DOC_ID: 603
+Establishes a Tech Industry Diversity, Equity, Inclusion, and Accessibility (DEIA) Task Force within the Department of Commerce.
+
+Mandates the Task Force to conduct audits on minority representation, hiring policies, and layoff trends in the tech industry.
+
+Requires submission of an initial audit report to Congress within 60 days of the Task Force’s establishment.
+
+Obliges the Task Force to promote DEIA, offer guidance to tech entities, and consult with stakeholders on DEIA issues.
+
+Tasks the Task Force with advising on outreach programs and encouraging venture capital investment in minority-owned startups.
+
+Mandates annual reports evaluating tech industry progress on DEIA goals, the impact of AI on discrimination, and proposing policy solutions for accountability.
+
+Requires a special report on how 2023 tech layoffs affected DEIA, including potential violations of federal laws.
+
+---
+
+DOC_ID: 604
+Requires the Secretary of Energy to conduct a research, development, and demonstration program for advanced vehicle technologies, focusing on reducing greenhouse gas emissions and vehicle manufacturing costs.
+
+Mandates coordination with other federal agencies and existing programs on electric vehicle integration and critical material recycling.
+
+Supports the development of advanced batteries, power electronics, electric drive systems, and vehicle electrification technologies.
+
+Includes provisions for cybersecurity and physical security of vehicle interconnections with the electric grid and other infrastructure.
+
+Establishes a program for medium- and heavy-duty commercial and transit vehicles, emphasizing advanced energy technologies and efficiency improvements.
+
+Authorizes the creation of Graduate Automotive Technology Education Centers of Research Excellence to foster advancements in automotive energy technologies.
+
+Allocates substantial funding for these initiatives through fiscal year 2028, with a total authorization exceeding $2.9 billion.
+
+---
+
+DOC_ID: 605
+Mandates the President to submit the text of any non-binding instrument related to the AUKUS partnership to appropriate congressional committees within 30 days of finalization.
+
+Excludes the need to resubmit texts already submitted under other legal provisions, while not relieving other legal submission requirements.
+
+Defines "text" to include all related annexes, appendices, side agreements, and implementing documents.
+
+Requires the Secretary, in coordination with other officials, to submit a biennial report on the AUKUS partnership starting one year after enactment.
+
+Specifies that reports must cover defensive capability gaps, costs, industrial base contributions, military benefits, and assessments of Australia’s nuclear submarine contributions.
+
+Demands updates on progress for Australia’s nuclear submarine development, infrastructure, workforce training, and support facilities.
+
+Requires assessments of trilateral collaboration efforts in areas including underseas capabilities, quantum technologies, AI and autonomy, advanced cyber capabilities, hypersonic technologies, electronic warfare, innovation, and information sharing.
+
+---
+
+DOC_ID: 606
+Establishes a food and agriculture cybersecurity clearinghouse within the NTIA to provide publicly available online resources focused on cybersecurity for the food and agriculture industry.
+
+Requires the clearinghouse to offer in-person or virtual support, updated FAQs, and materials for small businesses on critical cybersecurity protections and ransomware response.
+
+Mandates the consolidation of public and private sector best practices into voluntary cybersecurity recommendations for the food and agriculture industry, including continuous monitoring and ransomware attack responses.
+
+Instructs the Assistant Secretary to consult with private sector, federal agencies, trade groups, and civil society organizations in implementing the clearinghouse.
+
+Directs the Comptroller General to study and report on federal efforts to improve cybersecurity in the food and agriculture industry, evaluating effectiveness, resources, coordination, and potential risks of coordinated attacks.
+
+Sunsets the section seven years after enactment.
+
+---
+
+DOC_ID: 607
+Requires mandatory notification by U.S. persons engaging in specific foreign investments related to advanced sectors, including artificial intelligence, to the Secretary of the Treasury.
+
+Defines covered activities involving equity interests, debt obligations with governance rights, and joint ventures in countries of concern, with specific focus on AI and other advanced technologies.
+
+Establishes penalties for non-compliance, including failure to notify or providing false information.
+
+Mandates the creation of regulations to ensure clarity and minimize compliance burdens, with a focus on transparency and stakeholder involvement.
+
+Directs the Secretary of State to engage with allied countries to coordinate investment screening mechanisms and share information on covered activities.
+
+Requires annual reporting to Congress on trends, national security risks, and recommendations related to these foreign investments in AI and other sectors.
+
+---
+
+DOC_ID: 608
+Requires Medicare Advantage plans to establish an electronic prior authorization program by the third plan year after the enactment date.
+
+Mandates that plans meet enrollee protection standards and transparency requirements by the fourth plan year.
+
+Establishes a secure electronic transmission system for prior authorization requests and responses, excluding certain forms like facsimiles and non-compliant payer portals.
+
+Specifies that real-time decisions must be made for certain prior authorization requests, with exceptions for extenuating circumstances.
+
+Demands detailed annual reporting of prior authorization data, including the use of AI and decision-support technologies, and the publication of this information by the Secretary.
+
+Calls for GAO and HHS to submit reports to Congress evaluating the implementation and impact of these requirements.
+
+---
+
+DOC_ID: 609
+Requires social media companies to make their terms of service publicly available.
+
+Requires social media companies to disclose content moderation data, including the total number of flagged items, actioned items, user engagement, and how artificial intelligence is used to support content moderation efforts.
+
+Allows Attorney General's office to bring a civil penalty of $5,000,000 per violation per day against social media companies who fail to meet these requirements
+
+---
+

@@ -1,0 +1,155 @@
+DOC_ID: 800
+Bans banks, mortgage companies and other lending institutions from using AI systems which discriminate against members of a protected class; systems are deemed discriminatory if these disproportionately favor or disfavor members of a protected class in the provision of loans and credit terms.
+
+Bans insurance companies from using AI systems which discriminate against members of a protected class; systems are deemed discriminatory if these disproportionately favor or disfavor members of a protected class in providing insurance coverage and setting the terms and rates of such coverage.
+
+Bans health care providers from using AI systems to discriminate against members of a protected class; systems are deemed discriminatory if these disproportionately favor or disfavor members of a protected class in assessing eligibility for healthcare services.
+
+Categorizes the above use of AI systems which discriminate against members of protected classes as unlawful discrimination; such companies and service providers are subject to fines not exceeding $10,000 on the first instance, if these companies have not committed prior violations within five years of the charge, and permits victims to file civil lawsuits against such companies.
+
+
+
+---
+
+DOC_ID: 801
+Requires any entity in New York that uses AI or another automated process as the sole basis of a decision that denies access to financial services, insurance, housing, public accommodation, healthcare, or basic necessities to:
+
+(a) Clearly and conspicuously disclose that the decision was made solely on the basis of an automated process; and
+
+(b) Enable any affected individual to appeal the decision, including by giving them the right to have a human review it.
+
+Requires the above entities, and additionally those that use an automated decision systems to determine access to employment and education, to annually solicit an outside auditor to conduct, and make publicly available, an impact assessment of the system that:
+
+(a) Evaluates the system's objectives, design, and training data, as well as how the system was tested for accuracy and discrimination; and 
+
+(b) Assesses whether the system produces discriminatory results on the basis of race, color, ethnicity, religion, national origin, sex, gender, gender identity, sexual orientation, familial status, biometric information, lawful source of income, or disability.
+
+
+---
+
+DOC_ID: 802
+Acknowledges the voluntary commitments received from Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI to the Biden-Harris Administration to help move toward the safe, secure, and transparent development of AI technology.   
+
+Specifies various actionable commitments that will support three broad goals: ensuring products are safe before public release, building systems that put security first, and earning public trust. Commitments include internal and external security testing, sharing information across the industry and with governments, civil society, and academia, and investing in cybersecurity and insider threat safeguards.
+
+Announces the Biden-Harris Administration's development of an executive order and intent to pursue bipartisan legislation in these matters. 
+
+---
+
+DOC_ID: 803
+Requires automated systems to undergo pre-deployment testing, risk identification, mitigation, and ongoing monitoring to ensure safety and effectiveness.
+
+Requires that systems avoid the use of inappropriate or irrelevant data and that independent evaluations and public reporting confirm system safety and effectiveness.
+
+Imposes protections against algorithmic discrimination by incorporating proactive equity assessments, representative data usage, and continuous disparity testing and mitigation.
+
+Enforces data privacy through built-in protections, user consent for data collection, and limitations on data use and sharing, particularly in sensitive domains such as health, education, and finance.
+
+Institutes heightened oversight and limits on surveillance technologies to protect civil liberties, privacy, and democratic values, with specific restrictions on continuous surveillance in sensitive contexts.
+
+Requires designers and deployers of automated systems to provide clear, timely, and accessible notice and explanations of system use, including the rationale behind decisions impacting individuals.
+
+Calls for independent evaluations and public reporting to ensure transparency and accountability in the use of automated systems, with detailed documentation and assessments.
+
+---
+
+DOC_ID: 804
+Authorizes the department to utilize data analytics and artificial intelligence for eligibility verification and fraud detection in public assistance programs.
+
+Permits the department to access data from other state agencies to verify residency and eligibility of applicants.
+
+Empowers the department to establish rules, regulations, and standards for assistance program administration, including eligibility criteria and benefit modifications.
+
+Requires the department to ensure expenditures do not exceed appropriations and to seek necessary federal waivers or approvals.
+
+Allows the establishment of health savings accounts and medical assistance premiums to aid residents transitioning out of assistance programs.
+
+Mandates physical health managed care organizations to share medical assistance claims data with providers.
+
+---
+
+DOC_ID: 805
+Require automobile insurers using automated or predictive underwriting systems to annually provide the Department of Banking and Insurance with documentation demonstrating no discriminatory outcomes in pricing based on race, ethnicity, sexual orientation, or religion.
+
+Mandate insurers to show that each pricing segment is balanced and not disproportionate to the overall policyholder population.
+
+Define ‚Äúautomated or predictive underwriting system‚Äù as a computer-generated process, including robotic process automation, artificial intelligence, or other specialized technology, used to evaluate risk and determine insurance rates.
+
+Authorize the Commissioner of Banking and Insurance to adopt rules and regulations to implement the act.
+
+Specify that the act takes effect on the first day of the sixth month following enactment and applies to automobile insurance policies initiated or renewed from that date.
+
+---
+
+DOC_ID: 806
+Establishes a registry of businesses operating artificial intelligence (AI) systems in Pennsylvania.
+
+Requires the Department of State to coordinate with other state agencies to create paper and online registry forms.
+
+Mandates the collection of specific information from businesses, including business name, IP address, type of AI code, software intent, and contact details.
+
+Prohibits the sale or commercial use of collected information and exempts it from Right-to-Know Law disclosure.
+
+Maintains a searchable online database for businesses operating AI systems.
+
+Obligates the Department of State to submit an annual report on the registry to legislative committees, detailing the number of registered businesses, registrant distribution by agency, and incurred expenses.
+
+Defines "artificial intelligence" as computer systems performing tasks requiring human intelligence.
+
+Sets the act to take effect 60 days post-enactment.
+
+---
+
+DOC_ID: 807
+Prohibits companies from using large-scale generative AI models to engage in targeted bias and discrimination.
+
+Mandates companies to label outputs created using large-scale generative AI models with a distinctive watermark.
+
+Requires companies to secure informed consent from consumers before using their data for training models.
+
+Requires companies, to the best of the their extent, to protect the security of collected data from individuals and shield their identities.
+
+Requires companies to conduct regular risk assessments that identify and mitigate reasonably foreseeable risks and harms.
+
+Mandates companies using large-scale generative AI models to register them with the Rhode Island Attorney General's Office. 
+
+Requires the Rhode Island Attorney General's Office to maintain a public registry of all companies that have registered under the above stipulation.
+
+---
+
+DOC_ID: 808
+Establishes the Study Committee on Automation and the Workforce to analyze the impact of automation on North Carolina's workforce, with a focus on low-income and minority workers.
+
+Requires the Committee to include 11 voting members representing labor organizations, employers, and state legislators, appointed by the Governor and legislative leaders.
+
+Designates seven nonvoting ex officio members from key state departments and educational institutions.
+
+Mandates the Committee to review the effects of automation technologies such as AI, industrial robotics, and self-service technologies on employment.
+
+Instructs the Committee to assess educational and training requirements for workers to adapt to automation.
+
+Requires the Committee to report its findings and recommendations to the Governor and Joint Legislative Commission on Governmental Operations before the 2025 General Assembly and biennially thereafter.
+
+---
+
+DOC_ID: 809
+Requests the Attorney General to convene a task force to study the Children, Youth, and Families Department's use of structured decision-making tools and philosophy.
+
+Mandates the task force to assess the efficacy, impact, and results of these AI-based tools.
+
+Requires the task force to determine if structured decision-making tools lead to better decisions in child abuse and neglect cases.
+
+Directs the task force to analyze staff training, understanding, and data on repeat maltreatment rates since the tool’s introduction.
+
+Instructs the task force to review the outcomes of voluntary placement agreements and safety plans under this new philosophy.
+
+Obligates the task force to make recommendations for improvements and the future use of these tools.
+
+Involves input from diverse stakeholders, including experts in law enforcement, child maltreatment, behavioral health, and representatives from various departments and communities.
+
+Requires collaboration with a post-secondary institution for research.
+
+Demands findings and recommendations be presented to the legislative health and human services committee by August 1, 2024.
+
+---
+

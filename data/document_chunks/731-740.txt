@@ -1,0 +1,180 @@
+DOC_ID: 730
+Mandates the development of comprehensive weather forecasting training datasets using AI to improve Earth system modeling and weather forecasts.
+
+Requires collaboration with federal agencies and experts to enhance AI weather models and explore AI's role in public preparedness and resilience.
+
+Directs the use of AI for fire environment modeling to predict, detect, and forecast wildfires and associated hazards.
+
+Establishes an emissions monitoring program using AI to analyze global atmospheric data and improve greenhouse gas emission models.
+
+Encourages partnerships with private and academic entities to advance AI in weather forecasting and environmental predictions.
+
+Calls for recruitment and development of a diverse workforce skilled in AI applications for weather forecasting.
+
+Allows public access to data and code developed under this Act, with safeguards for national security and intellectual property.
+
+Supports ongoing research and data acquisition for AI and numerical weather models, ensuring continued advancement in weather prediction technologies.
+
+---
+
+DOC_ID: 731
+Mandates digital social companies to post terms of service for each platform within 180 days, detailing contact information, content flagging processes, and potential actions like banning or demonetization.
+
+Requires translation of terms into all supported languages.
+
+Obligates companies to submit semiannual terms of service reports to the Attorney General, detailing content moderation practices and AI involvement, including flagged content statistics and appeal outcomes.
+
+Establishes penalties up to $15,000 per day for non-compliance, managed by the Attorney General, who can take legal action.
+
+Specifies the creation of a public repository of reports for transparency.
+
+Excludes platforms limited to direct messaging or transactions from the Act's scope and protects end-to-end encryption.
+
+Defines key terms and grants the Attorney General interpretive authority.
+
+Ensures Act's obligations and penalties are additional to existing laws.
+
+---
+
+DOC_ID: 732
+Mandates the Secretary of Agriculture and the Director of the National Science Foundation to conduct collaborative research and development activities, including those involving artificial intelligence and digital agriculture, to advance their mission priorities.
+
+Requires the establishment of memoranda of understanding to coordinate these activities through competitive, merit-based processes.
+
+Permits collaborative research in key areas, such as AI, machine learning, automation, and digital agriculture.
+
+Encourages data sharing and collaboration among federal agencies, educational institutions, and nonprofit entities.
+
+Supports research infrastructure and the development of translational technologies for commercial use.
+
+Facilitates public-private partnerships and awards grants to educational institutions to establish a Center for Agricultural Research, Education, and Workforce Development.
+
+Authorizes reimbursable agreements to enhance research effectiveness and mandates a report to Congress on interagency coordination and future collaboration opportunities.
+
+Ensures research security consistent with the CHIPS Act of 2022.
+
+---
+
+DOC_ID: 733
+Amends section 3520A of title 44, United States Code, to extend the Chief Data Officer Council's authority to improve Federal data governance.
+
+Requires the Council to identify opportunities to enhance data governance for reliable and secure adoption of emerging technologies and AI.
+
+Mandates appointment of a representative from Chief Artificial Intelligence Officers to the Council.
+
+Obligates the Council to submit biennial reports detailing recommendations for developing datasets and data governance policies to support AI adoption.
+
+Instructs the Council to assess data governance challenges, clarify roles among senior agency leaders, and recommend best practices for AI data use.
+
+Requires recommendations for data ownership policies to ensure government rights and pre-procurement AI reviews.
+
+Directs the Director to issue guidance based on Council reports.
+
+Mandates an annual data management report to Congress clarifying Chief Data Officers' roles in AI governance.
+
+Sunsets the amendments seven years after enactment.
+
+---
+
+DOC_ID: 734
+Prohibits the distribution of false AI-generated election media containing materially false information about election details or voter eligibility with the intent to impede voting in federal elections.
+
+Prohibits the distribution of false AI-generated depictions of election officials intended to intimidate or harass officials or deter voting.
+
+Exempts bona fide news entities from these prohibitions if they clearly disclose the falsity of the AI-generated content.
+
+Empowers the Attorney General to enforce these prohibitions through civil actions in U.S. District Courts.
+
+Amends the National Voter Registration Act to prevent states from using unverified databases to remove voters from official lists, requiring government-verified information approved by the Attorney General.
+
+Sets criteria for source information, including monthly updates and non-violation of the Computer Fraud and Abuse Act.
+
+Ensures severability of the Act’s provisions, maintaining the validity of remaining sections if any part is invalidated.
+
+---
+
+DOC_ID: 735
+Amends the National Windstorm Impact Reduction Act of 2004 to include provisions for understanding climate variability and its impact on windstorms, aiming to inform future building codes.
+
+Supports the integration of emerging technologies, such as machine learning, in research and engineering activities related to windstorm mitigation.
+
+Encourages interdisciplinary research, including collaborations between social scientists and engineers, to enhance atmospheric measurements relevant to building engineering.
+
+Promotes the use of advanced construction methods and materials to strengthen properties against windstorms and related impacts.
+
+Mandates an analysis of the need for a tornado research facility to study tornado impacts on buildings.
+
+Requires research into public response to windstorm risks and factors influencing risk communication and reduction measures.
+
+Allocates specific funding amounts for the program from fiscal years 2025 to 2029.
+
+Sets deadlines for reports and analyses, including future research infrastructure needs, to be completed by specified dates.
+
+---
+
+DOC_ID: 736
+Mandates the Under Secretary of Defense for Research and Engineering to develop a plan for a secure computing and data storage environment, termed the "AIxBio sandbox," to facilitate the testing of AI models trained on biological data.
+
+Requires the AIxBio sandbox to utilize existing Department of Defense infrastructure when feasible and designates the Under Secretary of Defense for managing and overseeing its activities.
+
+Directs the Under Secretary to select projects for the sandbox that demonstrate potential defense applications at the intersection of AI and biotechnology, such as medical countermeasures and biomanufacturing.
+
+Establishes mechanisms for collaboration between Department of Defense laboratories and academic institutions to support AIxBio projects, with streamlined processes for efficient partnerships.
+
+Obligates the Under Secretary to report and brief Congress on the plan within one year of the Act's enactment.
+
+---
+
+DOC_ID: 737
+Amends the Homeland Security Act of 2002 to enhance the detection and disruption of drugs like fentanyl and xylazine using advanced technologies.
+
+Mandates research and development of equipment for drug detection and trafficking disruption, emphasizing minimal handling and separation of complex mixtures.
+
+Incorporates machine learning and artificial intelligence to predict controlled substance analogues and new psychoactive substances.
+
+Requires the Under Secretary for Science and Technology to adhere to the NIST AI Risk Management Framework or its successor.
+
+Establishes research and evaluation priorities using the latest information from reports on drug threats by the Drug Enforcement Administration.
+
+Ensures federal, state, local, tribal, and territorial law enforcement agencies have access to improved detection technologies.
+
+---
+
+DOC_ID: 738
+Amends the Energy Policy and Conservation Act to establish the Flex-Tech Energy Program aimed at enhancing manufacturing competitiveness.
+
+Requires the Secretary to provide financial assistance to State energy agencies or Indian Tribes for developing and implementing flex-tech programs, including measures related to advanced manufacturing technologies and artificial intelligence.
+
+Mandates that energy studies of manufacturing facilities evaluate systems, emissions, and potential efficiency measures, including AI applications.
+
+Allocates at least 5% of funds specifically for Indian Tribes or manufacturers in Indian Country.
+
+Limits financial assistance usage, capping administrative expenses at 10% and individual facility funding at $100,000 or 5% of total assistance.
+
+Encourages the use of both public and private financing in program implementation.
+
+Authorizes $100 million annually from 2025 to 2029 for the program.
+
+---
+
+DOC_ID: 739
+Mandates the Secretary of Commerce to conduct a public awareness and education campaign on artificial intelligence within 180 days of the Act's enactment, in coordination with relevant Federal agencies.
+
+Requires determination of key performance indicators for evaluating the AI Campaign’s effectiveness and gathering baseline data for comparison.
+
+Facilitates information exchange on AI to promote knowledge and rights awareness, and identifies best practices for detecting AI-generated media like deepfakes.
+
+Conducts outreach to the public about AI's prevalence and applications in daily life and commercial settings.
+
+Targets outreach to vulnerable groups, such as senior citizens, to prevent AI-enabled fraud.
+
+Promotes workforce opportunities in AI, including Federal Government roles, and engages with educational institutions.
+
+Consults with stakeholders from academia, industry, and community organizations on AI usage.
+
+Requires a report to Congress within one year on the AI Campaign’s activities, key performance indicators, and recommendations for future actions.
+
+Prohibits authorization of additional funds for implementing this Act.
+
+---
+

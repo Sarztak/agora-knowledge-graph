@@ -1,0 +1,178 @@
+DOC_ID: 620
+Requires the Administrator of the Office of Electronic Government to research a technology-based solution using machine learning and artificial intelligence for efficient classification and declassification systems within 1 year.
+
+Mandates consultation with various key agencies, including the Secretary of Defense and CIA Director, to ensure a comprehensive approach.
+
+Calls for the solution to be interoperable and federated across the Federal Government.
+
+Obligates the Administrator to submit a recommendation to the President regarding the adoption of the researched technology-based solution.
+
+Permits the Administrator to hire sufficient staff to execute the tasks outlined.
+
+Directs the President to submit a classified report to Congress within 540 days, detailing the recommended solution and the decision on its adoption.
+
+---
+
+DOC_ID: 621
+Directs the Assistant Secretary of Commerce for Communications and Information to support the establishment, prototyping, and implementation of common models and methodologies to inform electromagnetic spectrum management decisions.
+
+Requires the development of technologies and techniques to control radio frequency emissions and interference.
+
+Mandates the prototyping of artificial intelligence systems and technologies capable of operating advanced antenna arrays and dynamic spectrum access.
+
+Encourages the development and participation of a skilled workforce to prototype advanced communications technologies.
+
+Supports partnerships among institutions for workforce development in advanced communications technologies.
+
+Identifies and implements technologies that promote dynamic spectrum access, network sensing, monitoring, and optical and quantum communications.
+
+Amends section 104 of the National Telecommunications and Information Administration Organization Act to include these additional responsibilities for the Assistant Secretary.
+
+---
+
+DOC_ID: 622
+Defines "national critical capabilities sector" as sectors, including artificial intelligence, subject to regulation described in the bill.
+
+Establishes the "Committee on National Critical Capabilities" to review U.S. investments in foreign countries that may threaten national security.
+
+Requires U.S. persons to notify the Committee of covered activities in critical sectors, including artificial intelligence, at least 90 days before initiation.
+
+Instructs the Committee to review and potentially mitigate risks posed by such activities, with authority to prohibit or regulate investments.
+
+Defines "covered activities" broadly to include acquisitions, joint ventures, and other engagements with foreign entities in critical sectors.
+
+Identifies countries of concern, including China, Russia, and North Korea, where such investments are scrutinized more closely.
+
+Grants the Committee authority to enforce compliance, including imposing civil penalties up to $250,000 or twice the amount of the covered activity.
+
+---
+
+DOC_ID: 623
+Mandates the Secretary of Health and Human Services to enter an agreement with the National Academies of Sciences, Engineering, and Medicine to study the use of technology in maternity care.
+
+Requires the study to examine the use of innovative technology, including artificial intelligence, and its impact on racial or ethnic biases in maternal health care.
+
+Includes patient monitoring devices, such as pulse oximeters, in the scope of the study, with a focus on their effect on racial or ethnic biases.
+
+Outlines identification of best practices for reducing and preventing biases in the use of technology and monitoring devices in maternity care.
+
+Requires the study to recommend best practices for using technology and monitoring devices for pregnant and postpartum individuals from minority groups.
+
+Mandates the inclusion of best practices regarding privacy and security safeguards in the use of such technologies.
+
+Directs the National Academies to complete the study and submit a report to Congress within 24 months of the Act's enactment.
+
+---
+
+DOC_ID: 624
+Establishes a wildfire technology testbed pilot program within 60 days of the Act's enactment, coordinated by the Secretaries of Agriculture and the Interior.
+
+Incorporates the program into an existing interagency coordinating group on wildfires.
+
+Identifies key technology priority areas, including hazardous fuels reduction, dispatch communications, remote sensing, safety equipment, and operational dashboards.
+
+Partners selected private entities, nonprofits, and higher education institutions with federal agencies for real-time testing during wildfire mitigation.
+
+Prioritizes emerging technologies such as artificial intelligence, quantum sensing, augmented reality, and advanced communications for wildfire mitigation.
+
+Requires covered entities to submit applications, including technology testing proposals.
+
+Mandates annual reports to Congress on participating entities, tested technologies, costs, outreach efforts, and technology assessments.
+
+Terminates the program four years after establishment.
+
+---
+
+DOC_ID: 625
+Establishes national data privacy standards for covered entities handling personal data.
+
+Requires covered entities to post clear, accessible privacy notices detailing data collection, processing, storage, and disclosure practices.
+
+Mandates the FTC to create regulations within one year for reasonable, equitable, and non-deceptive data practices, including opt-out and affirmative consent mechanisms.
+
+Imposes data minimization requirements, limiting data collection to what is necessary for specified purposes and ensuring timely deletion.
+
+Empowers individuals with rights to access, correct, delete, and transfer their data.
+
+Mandates large entities to appoint privacy protection officers to oversee compliance and advocate for privacy policies.
+
+Directs the National Science Foundation to support research on privacy-enhancing technologies.
+
+Grants enforcement authority to the FTC and state attorneys general, with civil penalties for violations.
+
+Allocates resources to the FTC for enforcement and compliance activities.
+
+---
+
+DOC_ID: 626
+Establishes a Value-Based Insurance Design Model (VBID) demonstration program to provide Medicare beneficiaries with assistive telehealth consultations and home-based care.
+
+Requires eligible Medicare Advantage (MA) plans to cover medical tests, including those utilizing adaptive AI and machine learning, for various diseases and conditions.
+
+Limits the VBID program to a maximum of 25 MA plans, with at least 10 plans serving rural or underserved areas.
+
+Mandates demographic data collection for reimbursement claims, including age, race, ethnicity, gender, and chronic conditions.
+
+Administers a grant program for state Medicaid programs to cover similar tests and telehealth consultations, with grants awarded to 5-10 states or territories for a 4-year period, not exceeding $12 million per state.
+
+---
+
+DOC_ID: 627
+Amends the National Quantum Initiative Act to mandate the Secretary of Energy to implement a quantum information science, engineering, and technology research program.
+
+Establishes National Quantum Information Science Research Centers to enhance quantum technology and infrastructure.
+
+Requires cooperative research initiatives with industry, National Laboratories, and academic institutions, covering AI, machine learning, quantum communications, sensing, and other quantum technologies.
+
+Mandates providing research experiences and training for students in quantum fields.
+
+Directs the creation of a 10-year strategic plan for quantum high-performance computing, integrating AI and machine learning, to be submitted to Congress.
+
+Supports industry outreach to promote quantum technology commercialization and advancements in the energy sector.
+
+Allocates up to $130 million annually from 2024 to 2027 for these activities.
+
+---
+
+DOC_ID: 628
+Requires the Under Secretary, in coordination with the Commission and in consultation with other relevant Federal agencies, to develop, establish, prototype, and support the implementation of models, methodologies, and inputs for spectrum management decisions involving AI systems, advanced antenna arrays, and dynamic spectrum access technologies.
+
+Mandates the development of AI systems to enable dynamic spectrum access, Internet of Things networks, and other advanced communications technologies.
+
+Amends Section 104 of the National Telecommunications and Information Administration Organization Act to require the identification and facilitation of technologies that promote dynamic spectrum access, network sensing and monitoring, and optical and quantum communications.
+
+Encourages the development of a skilled workforce for prototyping advanced communications technologies.
+
+Supports partnerships among institutions for workforce development in advanced communications technology prototyping.
+
+---
+
+DOC_ID: 629
+**Subtitle B—Next-Generation Energy, Biotechnology, And Artificial Intelligence**
+
+**SEC. 511. Expanded Annual Assessment of Economic and Technological Capabilities of the People's Republic of China.**
+
+Requires a detailed assessment of China’s investments in AI, next-generation energy technologies, and biotechnology.
+
+Identifies competitive practices and opportunities to counter them.
+
+Determines U.S. vulnerabilities in the supply chain of these technologies.
+
+**SEC. 514. Policies Established by Director of National Intelligence for Artificial Intelligence Capabilities.**
+
+Mandates the establishment of policies for AI acquisition, adoption, development, use, coordination, and maintenance.
+
+Requires guidelines for evaluating AI model performance, continuous monitoring, and documentation.
+
+Calls for standards on imputed, augmented, or synthetic data used in AI training.
+
+**SEC. 515. Strategy for Submittal of Notice by Private Persons to Federal Agencies Regarding Certain Risks and Threats Relating to Artificial Intelligence.**
+
+Directs the President to establish a strategy for vendors and users to notify the government of AI-related risks.
+
+Includes information security, biosecurity risks, foreign malign influence, and other unlawful activities related to AI.
+
+Outlines a plan for Federal agencies to engage in public education on AI risks.
+
+---
+

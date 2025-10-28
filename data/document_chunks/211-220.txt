@@ -1,0 +1,168 @@
+DOC_ID: 210
+Defines "artificial intelligence" as a machine-based system generating outputs to influence environments, recognizing variations in autonomy and adaptiveness post-deployment. 
+
+Mandates businesses to conduct risk assessments for using AI and automated decision-making technology when handling consumer data, especially for decisions impacting financial, employment, or educational opportunities.
+
+Requires transparency through Pre-use Notices for consumers, detailing the use of AI in decision-making and providing opt-out or appeal options.
+
+Specifies exceptions where consumers cannot opt-out, relying on the necessity of the use, with provisions for human review.
+
+Demands businesses to ensure AI does not discriminate against protected classes through evaluations and safeguards.
+
+Obliges businesses to disclose AI processes upon consumer request and prohibits retaliatory actions against consumers exercising their rights.
+
+Mandates comprehensive documentation and regular updates for risk assessments, maintaining consumer privacy as a priority.
+
+---
+
+DOC_ID: 211
+Implements Executive Order 14105 by requiring U.S. persons to notify the Department of the Treasury about transactions involving national security technologies in "countries of concern," and prohibits certain transactions that pose acute national security threats.
+
+Defines AI systems as machine-based systems capable of making predictions, recommendations, or decisions that affect environments, thereby impacting transactions involving AI development and deployment.
+
+Specifies which transactions are notifiable or prohibited, including those involving AI systems intended for military, intelligence, or surveillance uses as well as those of a specified computing power.
+
+Mandates U.S. persons to file notifications and prohibits knowingly directing others to undertake prohibited transactions.
+
+Details civil and criminal penalties for violations, including fines up to $250,000 or imprisonment up to 20 years.
+
+Outlines exceptions, including certain public securities transactions and specific national interest exemptions.
+
+Permits the Secretary of the Treasury to compel divestment of any prohibited transaction, with the aid of the Attorney General.
+
+---
+
+DOC_ID: 212
+Ensure the safe, ethical, and fair use of AI technologies to protect personal data and privacy rights.
+
+Apply to all stakeholders, including providers, users, importers, and distributors of AI systems.
+
+Mandate adherence to principles of safety, transparency, fairness, accountability, and privacy in AI systems.
+
+Require risk assessments and registration for high-risk AI systems with supervisory authorities.
+
+Obligate AI operators to comply with the Law and allow supervisory authorities to monitor compliance and detect violations.
+
+Impose fines up to 35 million Turkish Liras or 7% of annual turnover for violations, with varying penalties based on the nature of the breach.
+
+Enforce the Law upon publication, with the President executing its provisions.
+
+---
+
+DOC_ID: 213
+Establishes a consortium to create CalCompute, a public cloud computing framework promoting safe and ethical AI.
+
+Mandates CalCompute to foster research benefiting the public and expanding access to computational resources.
+
+Obligates submission of a report by January 1, 2027, detailing CalCompute's framework, including infrastructure analysis, costs, governance, and workforce recommendations.
+
+Introduces whistleblower protections for employees disclosing critical AI risks, including practices leading to severe harm, damage, or misinformation.
+
+Mandates developers to establish anonymous internal reporting processes and ensures responsive investigation.
+
+Authorizes courts to grant attorney’s fees, shift burdens of proof to developers, and issue injunctive relief in whistleblower cases, prioritizing employee protections.
+
+---
+
+DOC_ID: 214
+Establishes that work units engaged in sensitive areas, including AI, must form ethics committees to conduct thorough ethical reviews of S&T activities.
+
+Requires these reviews to ensure AI activities comply with ethics principles, such as fairness and controllability.
+
+Stipulates review committees to include diverse experts and provide training on ethics reviews.
+
+Mandates reviews of AI systems and algorithms adhere to national data security and ethical norms, ensuring transparency and reliability.
+
+Grants committees the authority to approve, revise, or reject AI projects based on ethical evaluations.
+
+Introduces simplified and emergency review procedures for low-risk or urgent situations, with detailed conditions.
+
+Calls for procedures to handle violations within AI ethics reviews, including potential penalties.
+
+Insists on a national ethics management registry for committee activities and checklisted high-risk AI activities.
+
+Implies that the Ministry of Science and Technology oversees interpretation and enforcement of these measures, which include significant provisions for governance of AI research and its ethical implications.
+
+---
+
+DOC_ID: 215
+Establishes the National Science and Technology Ethics Commission to guide and coordinate the governance of S&T ethics, with the Ministry of Science and Technology handling day-to-day affairs.
+
+Requires institutions in life sciences, medicine, and AI to create S&T ethics (review) committees.
+
+Mandates comprehensive ethics reviews for S&T activities with high ethical risks, ensuring adherence to principles of independence and transparency.
+
+Instructs local governments and relevant departments to oversee S&T ethics, including risk assessment and emergency handling in high-ethics-risk fields.
+
+Promotes legislative development for S&T ethics, focusing on transforming norms into regulations and ensuring accountability for violations.
+
+Encourages S&T personnel to enhance ethical awareness and report violations.
+
+Supports educational initiatives in S&T ethics for students and professionals.
+
+Urges transparent communication with the public about S&T ethics issues.
+
+Outlines punitive measures for S&T ethics violations, including restrictions on government-funded activities and legal consequences for violators.
+
+---
+
+DOC_ID: 216
+Mandates IT Department approval before accessing or acquiring AI products, with a maintained list of approved AI technologies.
+
+Requires fact-checking and reviewing AI-generated content, especially for public communications, to ensure accuracy, proper attribution, and absence of bias or harmful material.
+
+Stipulates disclosure of AI usage in significant public communications to build trust and transparency.
+
+Prohibits sharing sensitive or private information in AI prompts to prevent unintended data exposure.
+
+Directs annual reviews and updates of the regulation to align with technological advancements and best practices.
+
+Tasks the Information Technology department with overseeing AI initiatives, compliance, and periodic audits for effectiveness and ethical considerations.
+
+Aims to govern AI use responsibly and ethically, enhancing public services and fostering innovation for community benefit.
+
+---
+
+DOC_ID: 217
+Requires the head of each covered federal agency engaged in emerging technologies to appoint or designate a Senior Executive Service individual or equivalent as an emerging technology lead.
+
+Mandates that these leads advise agencies on the responsible use of emerging technologies, including artificial intelligence.
+
+Obliges these leads to provide expertise on responsible policies and practices, collaborate with interagency bodies, and input on procurement policies.
+
+Instructs the President to inform Congress within 180 days of enactment about the appointed leads and their authorities and responsibilities.
+
+---
+
+DOC_ID: 218
+Establishes a program within the National Oceanic and Atmospheric Administration (NOAA) to improve precipitation forecasts.
+
+Requires the use of fully coupled Earth System Models to enhance precipitation prediction.
+
+Mandates the utilization of high performance computing and other technologies, including machine learning and artificial intelligence, to advance precipitation forecasts.
+
+Supports research and development in collaboration with academic and private sector partners to test and evaluate emerging technologies.
+
+Improves the accuracy, reliability, and timeliness of precipitation predictions across various timescales.
+
+Incorporates social and behavioral sciences to enhance precipitation forecast products and communication.
+
+Coordinates efforts with Federal, State, local, Tribal, and academic entities.
+
+Authorizes appropriations of $15 million annually from fiscal year 2024 through fiscal year 2028 for the program.
+
+---
+
+DOC_ID: 219
+Establishes the AI Grand Challenges Program to stimulate AI research, development, and commercialization through prize competitions addressing grand challenges in various sectors like national security, health, and environment.
+
+Requires the Director of the National Science Foundation, in coordination with public and private entities, to identify AI grand challenges and develop problem statements.
+
+Mandates the creation of a specific grand challenge for AI-enabled cancer breakthroughs.
+
+Sets eligibility criteria for participants, requiring private entities to be U.S.-based and individuals to be U.S. citizens or permanent residents.
+
+Requires submission of a report within 60 days of awarding a prize, detailing the winning submission and its benefits, as well as biennial reports to Congress on program activities and public outreach, to be made publicly accessible.
+
+---
+

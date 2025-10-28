@@ -1,0 +1,136 @@
+DOC_ID: 770
+Amends the Food, Agriculture, Conservation, and Trade Act of 1990 to allow research and extension grants to be made for developing and evaluating agricultural applications of AI, with an emphasis on the use of AI to improve specialty crop production.
+
+---
+
+DOC_ID: 771
+Establishes a 30% tax credit for investments in innovative agricultural technology projects.
+
+Defines qualified property to include tangible personal property, software, and computer systems used in such projects.
+
+Specifies that projects must be placed in service before December 31, 2035, and focus on precision or controlled environment agriculture.
+
+Includes technologies such as AI, machine learning, robotics, and automated systems within the scope of eligible projects.
+
+Allows taxpayers to elect a payment in lieu of the credit for qualifying projects.
+
+Prohibits double benefits for projects also funded by certain federal grants.
+
+Applies the amendments to property construction beginning after January 1, 2023.
+
+---
+
+DOC_ID: 772
+Prohibits the Department of State from entering, renewing, or extending a contract to contractors that, in the past year, have consulted for foreign entities that pose national security or foreign policy concerns, including any entity under China’s control engaged in national security industries, such as producing AI-related products and services. 
+
+Requires companies seeking to provide consulting services for the Department of State to disclose any conflict of interest with foreign entities above, or they may face a debarment of up to five years.
+
+Requires the Secretary of the Department of State to issue procurement policies for the Department to implement the above prohibition, clarify disclosure requirements and penalties when soliciting contracts, and share best practices for how companies can avoid accidentally contracting with foreign entities that pose national security or foreign policy concerns. 
+
+---
+
+DOC_ID: 773
+Amends the Defense Production Act to add Title VIII, focusing on protecting sectors like AI.
+
+Defines "covered activities" involving U.S. persons and foreign entities in countries of concern, including AI-related investments and collaborations.
+
+Mandates the President to publish and annually update a list of technologies posing national security risks.
+
+Empowers the President to prohibit U.S. persons from engaging in certain activities with foreign entities in critical sectors, including AI.
+
+Requires mandatory notifications for covered activities not prohibited, with confidentiality protections for submitted information.
+
+Obligates annual reporting to Congress on notifications, trends, and effectiveness of measures.
+
+Directs the President to issue regulations specifying covered activities and technologies.
+
+Encourages multilateral engagement with U.S. allies to develop comparable mechanisms for managing risks in covered sectors.
+
+Authorizes penalties, including fines and imprisonment, for violations.
+
+Provides for national interest waivers, requiring notification to Congress.
+
+---
+
+DOC_ID: 774
+Requires the Administrator of the Federal Aviation Administration to adopt a performance and risk-based approach when reviewing requests for certificates of waiver under Section 107 of Title 14, Code of Federal Regulations, which establishes rules for the operation of small unmanned aircraft systems (sUAS) for commercial purposes. 
+
+Requires the Administrator to use big data analytics and machine learning to conduct the performance and risk-based approach and refrain from using open-ended descriptive prompts in the waiver application.
+
+---
+
+DOC_ID: 775
+Authorizes the Secretary of Labor to award competitive grants to support projects addressing the training needs of workers likely to be displaced by automation.
+
+Prioritizes grants for partnerships in areas with high concentrations of affected populations or industries susceptible to automation.
+
+Requires eligible partnerships to provide training services, develop curricula, and offer employment benefits, such as transportation stipends and paid leave.
+
+Mandates grant recipients to submit comprehensive reports on training outcomes, including transitions to new positions and earnings data.
+
+Expands the Workforce Innovation and Opportunity Act to include training for workers impacted by automation.
+
+Allocates $40 million annually from 2024 to 2028 for national dislocated worker grants to address impacts of automation.
+
+Ensures grant usage aligns with labor standards and nondiscrimination provisions under the Workforce Innovation and Opportunity Act.
+
+---
+
+DOC_ID: 776
+Requires platforms to make available public repositories of highly disseminated content and major public accounts, including content samples and metadata.
+
+Obligates platforms to disclose advertising information, including ad content, targeting parameters, and dissemination metrics, while protecting user privacy.
+
+Requires disclosure of the use of platform algorithms in the recommendation, amplification, or restriction of content and advertising
+
+Compels platforms to report on recommender and ranking algorithms, detailing inputs, objectives, and significant changes, without revealing trade secrets.
+
+Demands transparency in content moderation, with statistics on policy violations, identification methods (including artificial intelligence), and government orders.
+
+---
+
+DOC_ID: 777
+Amends the Homeland Security Act of 2002 to establish the "PIVOTT Program" for expanding cybersecurity education and training.
+
+Requires CISA to partner with community colleges and technical schools to offer programs and internships aiming to build a skills-based cyber workforce.
+
+Provides full scholarships to eligible students, covering all educational and associated costs.
+
+Mandates a two-year service obligation in a cyber role for program participants, with exceptions for military service.
+
+Specifies eligible institutions and program components, including skills-based exercises and internships.
+
+Directs CISA to conduct outreach initiatives and host recruitment fairs.
+
+Establishes program completion benefits, including access to a cyber training database and additional certification opportunities.
+
+Sets terms for scholarship repayment if obligations are not met and allows for waiver of repayments in cases of hardship.
+
+Outlines enrollment targets and requires reporting on program enrollment and CISA's education and training initiatives.
+
+---
+
+DOC_ID: 778
+Mandates the use of electronic monitoring and other technologies in fisheries data collection, allowing vessels to avoid carrying observers if conditions are unsafe.
+
+Requires the Secretary to integrate electronic monitoring and reporting technologies into fishery information collection programs and review these systems every five years.
+
+Directs the Comptroller General to assess the National Marine Fisheries Service's electronic monitoring capabilities and recommend improvements.
+
+Establishes an electronic technologies innovation prize to encourage advancements in AI, machine learning, and data management for fisheries.
+
+Creates an advisory panel to guide the development and deployment of electronic technologies in fisheries, including performance standards and data ownership.
+
+Exempts the advisory panel from the Federal Advisory Committee Act.
+
+Allows Councils to independently develop electronic technologies for data collection and management.
+
+---
+
+DOC_ID: 779
+Amends the Workforce Innovation and Opportunity Act to require states to use data for analyses and ongoing evaluations of programs.
+
+Allows states to use machine learning or other advanced analytics to enhance program operations, outcomes, and identify areas needing further evaluation.
+
+---
+

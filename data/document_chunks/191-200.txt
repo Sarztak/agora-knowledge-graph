@@ -1,0 +1,141 @@
+DOC_ID: 190
+Establishes an initiative to improve the usability of AI systems, that are used by Department of Defense personnel, by considering human factors and cognitive ergonomics. It mandates the development of a guidance plan for their inclusion and evaluation in current and future programs. 
+
+Establishes a program for high-performance computing infrastructure to support advanced AI capabilities, ensuring non-duplication with Department of Energy efforts. The instrument mandates the development of a roadmap that assesses the anticipated compute requirements, security standards, and relevant resources for the infrastructure required to enable advanced AI capabilities. 
+
+Mandates developing a plan for costs and budgeting related to data used for various stages in the AI development and deployment lifecycle. This plan must include budgets for current programs and programs established by the enactment of this Act, as well as, costs related to data procurement, preparation, protection, and analysis. 
+
+Requires the Secretary of Defense to evaluate the feasibility of centers of excellence for AI-enabled weapon systems, focusing on national and international collaboration, training of personnel, and best practices. Requires a report and briefing to Congress.
+
+---
+
+DOC_ID: 191
+Appoints a civilian official as the Chief Digital Engineering Recruitment and Management Officer by April 30, 2025, responsible for AI workforce policy and planning in the Department of Defense.
+
+Requires the Officer to define and identify the AI workforce, clarify roles, code roles in workforce data systems, and develop qualification programs.
+
+Mandates updating the Department's Human Capital Operating Plan to align with strategic goals and ensure consistent AI terminology.
+
+Sets the expiration of the Officer's appointment on September 30, 2030.
+
+Demands a briefing to congressional defense committees within 240 days, detailing AI workforce positions, required skills, current workforce state, and future requirements.
+
+---
+
+DOC_ID: 192
+Demands the Secretary of Defense to establish a Department of Defense working group to coordinate AI initiatives with U.S. allies and partners within 90 days of the Act's enactment.
+
+Designates a senior civilian or military officer to lead the group and determines allied participation.
+
+Requires the group to develop AI strategies and interoperability for intelligence sharing, battlespace awareness, and other defense operations.
+
+Mandates managing AI data security and evaluating defense industrial capabilities for AI integration.
+
+Ensures knowledge and technical data remain under the control of the originating country’s export laws.
+
+Terminates the group on September 30, 2028, unless extended for national security reasons by the Secretary.
+
+Defines key terms such as "battlespace awareness" and "covered operational use."
+
+---
+
+DOC_ID: 193
+Mandates the Secretary of Defense to implement a pilot program demonstrating artificial intelligence in national security-related biotechnology applications.
+
+Requires collaboration through public-private partnerships to execute the program.
+
+Permits the use of Department of Defense laboratory facilities and computing infrastructure to support biotechnology experimentation and AI model validation.
+
+Stipulates the program's commencement within one year of enactment and its termination five years after starting.
+
+Obligates the Secretary to submit annual reports to congressional defense committees, detailing program progress, data resource assessments, cybersecurity measures, collaboration mechanisms, and AI roles in biotechnology.
+
+Requires a transition plan to be submitted one year before program termination, outlining steps for operationalization, including costs, infrastructure needs, and ecosystem analysis.
+
+Aims to assess the viability of transitioning technology developed in the pilot into operational use within the Department.
+
+---
+
+DOC_ID: 194
+Amends the John S. McCain National Defense Authorization Act to include duties for the Chief Digital and Artificial Intelligence Officer Governing Council.
+
+Requires the Chief Digital and Artificial Intelligence Officer Governing Counci to evaluate and assesses AI models and technologies that could pose national security risks if accessed by U.S. adversaries.
+
+Calls for the development of strategies to prevent unauthorized access and use of powerful AI models by adversarial countries.
+
+
+---
+
+DOC_ID: 195
+Amends section 5306 to require public-private talent exchanges in intelligence or counterintelligence to focus on fields including artificial intelligence.
+
+Extends the duration of temporary details for such exchanges from 3 years to 5 years.
+
+Prohibits private-sector employees detailed to the intelligence community from accessing trade secrets or proprietary information.
+
+Clarifies that participation in the exchange program does not create an organizational conflict of interest solely by virtue of involvement.
+
+Requires implementation of systems to address any identified conflicts of interest.
+
+Mandates the Director of National Intelligence to submit annual reports to Congress on the implementation and use of the exchange program, including recommendations for improvements, for three consecutive years.
+
+---
+
+DOC_ID: 196
+Mandates the Secretary of Defense to develop a multi-cloud management and cybersecurity strategy within 180 days.
+
+Requires the strategy to include the assessment of means to increase AI adoption in multi-cloud environments and the identification of opportunities for better data use and storage planning, enforcing government data protection in AI training.
+
+Requires a briefing to congressional defense committees within 240 days.
+
+---
+
+DOC_ID: 197
+Mandates the Secretary of Defense to study the use of unmanned ground vehicle systems by the Department of Defense manufactured by certain foreign entities.
+
+Requires submission of a report to congressional defense committees within 180 days, assessing usage, national security threats, and identifying foreign manufacturers.
+
+Calls for the evaluation of cybersecurity risks, technological vulnerabilities, and the foreign entities' military-civil nexus.
+
+Demands an assessment of the feasibility of the Defense Innovation Unit developing a list of U.S. manufacturers.
+
+Mandates an evaluation of whether a prohibition on procuring and operating these systems is advisable for U.S. national security.
+
+Prohibits procurement and operation of these systems by the Department of Defense one year after the report submission, unless deemed in the national interest.
+
+Exempts this prohibition if recommended as not in the best national security interest.
+
+Defines "covered foreign countries" including China, Russia, Iran, and North Korea.
+
+---
+
+DOC_ID: 198
+Require the Secretary of the Navy to provide a forum and resources for industry participation in developing a vendor-agnostic and platform-agnostic modular open systems architecture for maritime unmanned systems.
+
+Adopt or join a governance model that includes both Government and industry for the maritime unmanned systems standards.
+
+Implement a process for incorporating industry feedback into these standards and align them with leading industry practices.
+
+Tailor the standards for each Navy program or contract to meet the minimum requirements necessary for desired operational capabilities.
+
+Label and distribute the standards as open and publicly releasable information to the greatest extent possible.
+
+---
+
+DOC_ID: 199
+Requires federal agencies to identify, solicit proposals for, and lease federal lands suitable for AI data centers and related clean energy projects, aiming for full-capacity operation by the end of 2027.
+
+Emphasizes high labor standards and community collaboration, among other factors, in the selection of projects to account for health, safety, and ecological risks/harms.
+
+Mandates cybersecurity, model evaluation, supply-chain protection, and other requirements for AI infrastructure developed pursuant to the executive order.  
+
+Requires the Secretary of Energy to facilitate grid interconnection for AI infrastructure developed pursuant to the executive order. 
+
+Directs expedited permit processing for federal sites hosting the infrastructure.  
+
+Requires relevant agencies to take additional enumerated measures to expedite permitting and power procurement for AI infrastructure nationwide.
+
+Directs creation of a plan for robust engagement with allies to encourage global AI infrastructure development including the necessary workforce, ensuring security and resilience in international supply chains.
+
+---
+

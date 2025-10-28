@@ -1,0 +1,186 @@
+DOC_ID: 150
+Adopts an ambitious approach to AI-enabled capabilities in defense, aiming for comprehensive exploitation to enhance efficiency and effectiveness.
+
+Emphasizes ethical, legal, and responsible development of AI, incorporating human oversight, particularly in AI-enabled weapons systems.
+
+Addresses key challenges such as algorithmic bias, accountability, unpredictability, and safety concerns to maintain public trust and stakeholder collaboration.
+
+Implements a governance framework involving senior defense officials and specialized units to ensure compliance with national and international laws, including International Humanitarian Law.
+
+Establishes ethical principles focused on human-centricity, responsibility, understanding, bias mitigation, and reliability for AI in defense.
+
+Collaborates with the Centre for Data Ethics and Innovation and forms an AI Ethics Advisory Panel to guide ethical implementation.
+
+Reaffirms commitment against fully autonomous weapon systems, advocating for human control and accountability in AI-empowered defense systems, and participates in international discourse on lethal autonomous weapons systems.
+
+---
+
+DOC_ID: 151
+Establishes a stand-alone competitive research and extension grant program under the Department of Agriculture to advance mechanization and automation for specialty crops.
+
+Mandates projects to create or improve cost-effective technologies that reduce manual labor and increase efficiency in crop production, resource management, and processing.
+
+Requires projects to promote the adoption of mechanization and automation technologies by emphasizing factors such as connectivity, autonomy, and cost-effectiveness.
+
+Specifies projects to accelerate automation through prototype development, in-field trials, and rapid commercialization.
+
+Allows grants to be awarded to federal agencies, universities, research institutions, private organizations, and other eligible entities.
+
+Mandates a competitive grant process based on scientific peer review and industry relevance.
+
+Requires annual consultations with the specialty crops committee to review procedures, objectives, and grant awards.
+
+Allocates $20 million annually from the Commodity Credit Corporation to fund the program starting fiscal year 2024.
+
+---
+
+DOC_ID: 152
+Establishes international artificial intelligence research partnerships between U.S. cities and their international counterparts to promote AI leadership, economic cooperation, and workforce development.
+
+Encourages public-private partnerships, including nonprofits and academic institutions, to support these AI research collaborations.
+
+Requires coordination with the National Science Foundation to align activities with U.S. AI research priorities and leverage existing resources.
+
+Prohibits partnerships with cities in countries deemed a national security concern or detrimental to U.S. foreign policy.
+
+Limits research to non-national security AI areas and mandates adherence to export control regulations.
+
+Authorizes the Secretary of State to enter contracts to facilitate partnerships and allocates $20 million annually from 2025 to 2028 for implementation.
+
+Mandates annual reporting on partnerships, research scope, city participation, coordination efforts, and implementation challenges to relevant congressional committees.
+
+---
+
+DOC_ID: 153
+Amends the National AI Initiative Act by introducing a new subsection focused on expanding AI capacity.
+
+Mandates the Director of the National Science Foundation to competitively award eligible higher education institutions and nonprofit organizations to enhance AI research, education, and workforce development.
+
+Specifies eligibility for institutions not among the top 100 in federal R&D spending, historically Black colleges, minority-serving institutions, Tribal colleges, and their consortia.
+
+Encourages collaborations with various stakeholders, including AI research institutes and private sector entities.
+
+Allows use of funds for AI research programs, faculty development, resource access, community building, workshops, and ethical AI education.
+
+Requires outreach to eligible entities, emphasizing underserved and underrepresented communities.
+
+Ensures awarded projects complement existing programs without duplication.
+
+Considers diversity, geographic distribution, and resource constraints in award decisions.
+
+---
+
+DOC_ID: 154
+Proposes the Artificial Intelligence and Data Act (AIDA) to regulate AI in Canada, focusing on high-impact AI systems.
+
+Empowers the Minister of Innovation, Science, and Industry to enforce AIDA, supported by a new AI and Data Commissioner.
+
+Prohibits the reckless and malicious use of AI that causes harm, introducing new criminal law provisions.
+
+Aligns with international norms, such as the EU AI Act, and integrates with existing Canadian laws.
+
+Mandates businesses to identify, assess, and mitigate risks associated with high-impact AI systems.
+
+Requires transparency, fairness, safety, and accountability in AI systems.
+
+Introduces administrative penalties and criminal offences for non-compliance.
+
+Plans a consultation process for the development of regulations, seeking input from stakeholders.
+
+Establishes mechanisms for human oversight and monitoring of AI systems.
+
+Targets AI systems impacting services, biometric identification, behavior influence, and health and safety.
+
+---
+
+DOC_ID: 155
+Establishes Chapter 93M regarding AI accountability and consumer protection in Massachusetts, defining key terms such as algorithmic discrimination and high-risk AI systems. 
+
+Mandates developers to identify, mitigate, and disclose risks of algorithmic discrimination, and requires public summaries of AI systems and biases.
+
+Compels deployers of high-risk AI systems to implement risk management programs and conduct annual impact assessments, with mandatory consumer notifications on consequential AI decisions.
+
+Requires corporations to disclose their use of AI in consumer targeting and behavior influence, ensuring transparency and consumer rights protection.
+
+Exempts small businesses, low-risk systems, and federally compliant entities from certain provisions.
+
+Empowers the Attorney General to enforce regulations, categorizing violations under unfair trade practices, while providing a defense for proactive compliance.
+
+Permits rulemaking authority for the Attorney General to set compliance and notification standards and mandates a public education campaign on AI consumer rights. 
+
+Specifies varying effective dates for sections within 180 days to one year post-passage.
+
+---
+
+DOC_ID: 156
+Instructs all City department personnel to thoroughly review and fact-check AI-generated content and disclose AI use in output.
+
+Prohibits entering sensitive information into public Generative AI tools and mandates using AI tools with caution to avoid misleading the public or making inappropriate decisions.
+
+Encourages experimentation with AI tools for drafting and image generation but requires human review and explicit disclosure of AI usage in communications.
+
+Advises IT leaders to track AI use, ensure transparency, and work with vendors to ensure AI components are explainable and auditable.
+
+Requires consulting the Office of Cybersecurity when developing or procuring AI applications.
+
+Tasks the City Administrator’s Office with updating guidelines and working with external experts to manage AI risks and protect data, while evolving policies in line with new legislative frameworks.
+
+---
+
+DOC_ID: 157
+Establishes statewide governance for AI implementation, emphasizing data protection and quality in Ohio.
+
+Requires state agencies to document and approve AI use cases and submit them to the AI Council for approval.
+
+Mandates testing and ongoing monitoring to prevent bias and errors in AI outputs.
+
+Requires human oversight to verify AI decisions, especially those impacting legal or regulatory areas.
+
+Dictates AI procurement procedures, ensuring security, privacy, and proper data licensing.
+
+Charges the Ohio Department of Administrative Services with developing AI training for state workers, emphasizing ethical considerations and the responsible use of generative AI.
+
+Mandates security and privacy controls, prohibiting the input of sensitive data into generative AI without consent.
+
+Instructs the Chief Data Officer Council to establish data governance for AI, focusing on data integrity and regulation.
+
+Assigns the multi-agency AI Council with overseeing AI use, evaluating societal impacts, and maintaining AI solution repositories.
+
+---
+
+DOC_ID: 158
+Establishes an AI Subcabinet to oversee AI use in Maryland state government, fostering principles such as fairness, innovation, privacy, safety, and transparency.
+
+Directs the AI Subcabinet to create an AI Action Plan incorporating NIST’s AI Risk Management Framework to ensure adherence to AI principles.
+
+Instructs the Subcabinet to upskill the state workforce in AI and explore partnerships with external AI talent for targeted projects.
+
+Mandates the study of AI's impact on critical domains, including workforce and economic development, and the provision of recommendations to the Governor and legislature.
+
+Requires the Department of Information Technology to assess infrastructure for safely testing AI prototypes and collaborate with the Department of General Services to create procedures for AI pilots.
+
+Ensures AI initiatives align with state and federal laws and does not impair existing authorities, remaining severable if parts are invalidated.
+
+---
+
+DOC_ID: 159
+Outlines protocols for the responsible use of AI within Georgia state agencies, focusing on ethics, transparency, and accountability.
+
+Requires agencies to align AI use with legal standards and agency objectives and to report AI tools to the Georgia Technology Authority (GTA).
+
+Mandates testing and monitoring of AI solutions to ensure safety and accuracy, while addressing ethical, legal, and societal implications.
+
+Specifies guidelines for contracting third-party AI services, emphasizing adherence to GTA and NIST standards and practices for responsible AI.
+
+Instructs agencies to identify and mitigate biases and inaccuracies in AI-generated outputs.
+
+Ensures data protection by adhering to Enterprise's Data Protection Policies and obtaining consent for data use.
+
+Stipulates training and awareness for responsible AI use and a system for reporting AI misuse or unintended impacts.
+
+Requires rigorous testing and ongoing monitoring for AI development and collaboration.
+
+Allows State CIO or GTA OIS to terminate the use of AI tools posing risks.
+
+---
+

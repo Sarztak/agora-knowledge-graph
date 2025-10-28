@@ -1,0 +1,196 @@
+DOC_ID: 870
+Improve the working mechanism to promote AI standardization through the National Information Technology Standardization Technical Committee’s AI Technical Subcommittee.
+
+Develop key AI standards based on principles such as “advantages first, maturity first,” focusing on performance benchmarks and hardware virtual interfaces.
+
+Carry out pilot demonstrations to strengthen AI standardization promotion by selecting national innovation zones for standard application demonstrations.
+
+Create de facto standards to enhance industry competitiveness by promoting AI standards through large-scale applications and integrating them into major projects and open-source communities.
+
+Strengthen international exchanges by connecting with organizations like ISO/IEC JTC 1, participating in international AI standards formulation, and hosting AI-related conferences to promote Chinese contributions globally.
+
+---
+
+DOC_ID: 871
+Prohibits the use of GenAI for data classified as SENSITIVE or higher, and personal information should not be input into external GenAI tools.
+
+Recommends agencies avoid using GenAI for business-critical information, systems, or public-facing channels due to risks of inaccuracy and bias.
+
+Advises against using GenAI as Shadow IT, emphasizing the need for robust governance and accountability in AI application.
+
+Encourages agencies to develop GenAI policies, ensuring ethical use, and promoting transparency and accountability.
+
+Emphasizes the importance of considering privacy risks, recommending privacy impact assessments and engagement with Māori communities regarding Māori data.
+
+Warns of security risks, including insecure code generation and data spills, advising strong cybersecurity practices.
+
+Urges agencies to remain transparent about GenAI usage, ensure human oversight, and validate AI outputs for accuracy.
+
+Suggests using sandboxes for testing GenAI safely and advises on procurement principles to mitigate vendor-related risks. 
+
+This guidance serves as an interim measure while longer-term AI regulatory frameworks are developed.
+
+---
+
+DOC_ID: 872
+Mandates embedding ethical requirements throughout scientific and technological activities, including AI, ensuring responsible innovation.
+
+Requires adherence to rule of law in ethics governance, constructing a legal system for AI ethics.
+
+Promotes agile governance for AI, dynamically adjusting to ethical challenges and risks.
+
+Emphasizes the importance of openness and cooperation in global AI ethics governance.
+
+Directs institutions to establish ethics committees for AI and sensitive areas, ensuring compliance with ethical standards.
+
+Urges development of norms and guidelines for AI ethics, enhancing transparency and stakeholder participation.
+
+Establishes the National Committee for Ethics in Science and Technology to guide AI ethics governance.
+
+Mandates strict review and regulation of AI ethics, including risk assessment and compliance with international standards.
+
+Calls for monitoring and early-warning systems for ethical risks in AI, ensuring rapid response to challenges.
+
+Requires education and training on AI ethics for scientific personnel, raising awareness and ensuring adherence to ethical standards.
+
+---
+
+DOC_ID: 873
+Regulates algorithmic recommendation services and requires services to implement guidelines and provisions including:
+
+Establish management systems and technical measures for algorithm examination, user registration, information dissemination, security monitoring, incident response, data protection, and fraud prevention;
+
+Conduct regular assessments of algorithms, models, data and application outcomes; 
+
+Strengthen information security management and identify unlawful/harmful information;
+
+Implement tactics to avoid user harms and prohibit dissemination of misinformation; 
+
+Ban false account registration, trading, manipulation and anti-competitive practices; 
+
+Implement specific guidelines for services targeting minors, the elderly, workers and consumers; 
+
+Implement transparent and efficient complaint handling processes; 
+
+Establishes graded/categorized algorithm management system and filing procedures for relevant department authorities charged with oversight of algorithmic recommendation services;
+
+Authorizes relevant departments to carry out security assessments and inspections and;  
+
+Specifies legal liabilities and penalties for violations.
+
+---
+
+DOC_ID: 874
+Regulates international and interprovincial trade in AI systems by establishing common requirements for design, development, and use.
+
+Prohibits conduct related to AI systems that may cause serious harm to individuals or their interests.
+
+Defines a "high-impact system" as an AI system meeting criteria established by regulations, requiring special assessments and risk mitigation measures.
+
+Mandates responsible persons to assess AI systems, establish risk mitigation measures, and keep records, particularly for high-impact systems.
+
+Requires publication of system descriptions and risk mitigation measures on publicly available websites for high-impact systems.
+
+Obligates notification to the Minister if a high-impact system causes or likely causes material harm.
+
+Empowers the Minister to order audits, require implementation of measures, and impose administrative penalties for non-compliance.
+
+Prohibits possession or use of personal information for AI purposes if obtained unlawfully.
+
+Imposes offenses for making AI systems available that cause harm or economic loss with severe penalties.
+
+---
+
+DOC_ID: 875
+Commits to continually evaluating and forecasting key areas of risk along several Tracked Risk Categories and indicating current pre- and post-mitigation risk in a Scorecard.
+
+Commits to establishing safety baselines where only models with a post-mitigation score of "medium" or below can be deployed and only models with a post-mitigation score of "high" or below can be developed further.
+
+Announces creation of a Safety Advisory Group to assist OpenAI leadership and Board of Directors with making safety decisions by overseeing risk assessments and handling emergency scenarios via fast-track process.
+
+Tasks Preparedness team with conducting research, evaluations, and forecasting of risks, submitting regular reports to the Safety Advisory Group, coordinating with other OpenAI teams on recommended mitigations, and managing safety drills and third-party auditing.
+
+
+
+---
+
+DOC_ID: 876
+Strengthens international security governance on artificial intelligence (AI) and other emerging technologies, and prevents and manages potential security risks.
+
+Issues position papers on regulating military applications and strengthening ethical governance of AI.
+
+Stands ready to strengthen communication and exchange with the international community on AI security governance.
+
+Promotes the establishment of an international mechanism for AI governance with broad participation.
+
+Develops governance frameworks, standards, and norms for AI based on extensive consensus.
+
+Encourages responsible bioscience research and adherence to biosecurity guidelines.
+
+Deepens international cooperation in information security, including data security initiatives.
+
+Enhances studies on the impact of emerging technologies on global counter-terrorism efforts.
+
+Calls for the formulation of global rules on digital governance that reflect all parties' interests.
+
+---
+
+DOC_ID: 877
+Calls for countries to regulate military applications of AI to prevent strategic miscalculation and maintain global stability.
+
+Urges countries to ensure military AI is not used to start wars or pursue dominance, respecting sovereignty and territorial security.
+
+Emphasizes compliance with international humanitarian law, minimizing collateral damage, and preventing misuse of AI weapons.
+
+Requires human control over AI weapon systems, ensuring data security, and restricting military use of AI data.
+
+Recommends enhancing self-restraint in AI R&D, with accountability mechanisms and operator training.
+
+Stresses the necessity of tiered regulation and risk management to prevent premature use of risky technologies.
+
+Advocates for multilateral dialogue and cooperation to establish a universal governance regime for military AI.
+
+Encourages developed countries to aid developing nations in governance capacity, opposing ideological divides and ensuring equitable technological advancement.
+
+---
+
+DOC_ID: 878
+Calls for governments to prioritize AI ethics by establishing comprehensive rules, norms, and accountability mechanisms.
+
+Emphasizes the need for AI ethical norms, laws, and policies to address potential risks and enhance AI security.
+
+Urges governments to require R&D entities to integrate ethics throughout AI development, ensuring algorithm security, transparency, and data quality.
+
+Prohibits the use of AI technologies that conflict with laws, regulations, and ethical standards; mandates quality monitoring and emergency measures for AI products.
+
+Stresses safeguarding privacy and data security, advocating adherence to international norms for personal information handling.
+
+Encourages public education on AI ethics and emphasizes the importance of public participation and awareness.
+
+Promotes international cooperation to share AI benefits globally, participate in rule-making, and oppose exclusivity in technological development.
+
+Advocates for international agreements on AI ethics, aiming to establish a widely accepted governance framework and standards respecting national practices.
+
+---
+
+DOC_ID: 879
+Establishes a governmental policy framework for AI regulation, emphasizing sector-specific regulation and consistency with international approaches.
+
+Adopts a risk-based approach and promotes incremental development and regulatory experimentation.
+
+Encourages the use of "soft" regulatory tools and multistakeholder cooperation.
+
+Recommends adopting ethical AI principles based on the OECD AI Principles, focusing on growth, human-centric AI, equality, transparency, reliability, and accountability.
+
+Proposes the creation of an AI Policy Coordination Center to advise regulators, promote inter-agency coordination, and lead international representation.
+
+Mandates mapping AI uses and associated challenges in regulated sectors.
+
+Calls for the establishment of forums for regulators and public participation to ensure coordination and open discussions.
+
+Urges active involvement in international forums to develop AI regulation and standards.
+
+Advocates developing tools for responsible AI, including a risk management framework.
+
+---
+

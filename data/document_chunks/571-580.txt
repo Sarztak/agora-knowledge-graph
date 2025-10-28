@@ -1,0 +1,168 @@
+DOC_ID: 570
+Amends Section 406 of the Weather Research and Forecasting Innovation Act of 2017 to enhance communication about hazardous weather or water events.
+
+Requires the Under Secretary to maintain and improve NOAA's system for communicating risks of hazardous weather or water events to the public.
+
+Mandates the creation of a social, behavioral, risk, communication, and economic sciences program to simplify and improve communication of hazardous weather or water events.
+
+Directs the program to eliminate or modify confusing terms and improve communication methods.
+
+Instructs the program to develop metrics for evaluating the effectiveness of these communications.
+
+Mandates the development of a support plan informed by research and communications evaluation.
+
+Requires recommendations to be based on the latest social, behavioral, economic, risk, and communications science research, validated using rigorous methods, including AI and machine learning.
+
+Ensures coordination with federal, state, local, tribal, educational, and media partners.
+
+Establishes best practices for timely and consistent communications across public platforms.
+
+---
+
+DOC_ID: 571
+Amends the Weather Research and Forecasting Innovation Act to mandate collaboration between the Under Secretary and the Secretary of Energy in leveraging high-performance computing and AI for advanced weather forecasting.
+
+Requires a competitive, merit-reviewed process for initiative applications, including Federal agencies, National Laboratories, and higher education institutions.
+
+Mandates coordination of AI and computing research across NOAA to avoid duplication and enhance predictive analysis.
+
+Directs sharing of model innovations through community-based activities and interagency coordination.
+
+Authorizes leveraging AI to enhance NOAA’s computing infrastructure for critical missions.
+
+Allows establishment of centers of excellence for AI and machine learning in weather forecasting.
+
+Permits multi-year contracts for high-performance and cloud computing systems.
+
+Requires a report to Congress evaluating the initiative’s effectiveness and future computing needs within two years.
+
+---
+
+DOC_ID: 572
+Amends the National Integrated Drought Information System Act of 2006 to advance and deploy next-generation technologies related to drought, including artificial intelligence, machine learning, and cloud technologies.
+
+Requires incorporation of flash drought research and tools to enhance timely response.
+
+Mandates utilization of observational networks and refinement of drought indicators for decision-support products by optimizing data from across the Federal Government.
+
+Establishes memoranda of understanding with the National Mesonet Program to provide coordinated, high-quality, nationwide drought information.
+
+Directs the transition of existing drought products to probabilistic forecasts and incorporation of new dynamical and statistical forecast modeling tools.
+
+Authorizes appropriations increasing annually from $15,000,000 in fiscal year 2024 to $17,000,000 in fiscal year 2028.
+
+---
+
+DOC_ID: 573
+Mandates the National Science Foundation (NSF) to support research and STEM education in advanced air mobility and unmanned aircraft systems.
+
+Supports fundamental research on technologies including AI, safety, autonomous control, materials, and communications systems.
+
+Funds research on practical applications such as weather prediction, disaster response, and infrastructure monitoring.
+
+Supports research on data modeling, validation, security, and ethical use, including privacy concerns.
+
+Encourages middle and high school STEM education related to unmanned aircraft systems through curriculum development and student engagement activities.
+
+Promotes undergraduate and graduate education through curriculum development, hands-on research opportunities, and scholarships.
+
+Develops a skilled technical workforce, including veterans, through national centers and community college programs.
+
+Facilitates public-private partnerships and interagency coordination to avoid research duplication.
+
+Authorizes appropriations increasing from $50 million in 2024 to nearly $61 million in 2028.
+
+---
+
+DOC_ID: 574
+Requires providers of covered internet platforms that use opaque algorithms to notify users about their use and provide detailed information about their operation, including their features, user-specific data collection, and algorithmic inputs in an easily accessible form.
+
+Mandates platforms to offer an easily accessible input-transparent algorithm alternative and prohibits discrimination, via methods like differential pricing, against users who choose the alternative.
+
+Empowers enforcement by the Federal Trade Commission to treat violations as unfair or deceptive acts under the Federal Trade Commission Act.
+
+Exempts small downstream providers and non-profit organizations from certain enforcement provisions.
+
+---
+
+DOC_ID: 575
+Prohibits the Secretary of Commerce from exporting any national security sensitive technology or intellectual property to the People's Republic of China.
+
+Defines "intellectual property" to include patents, copyrights, trademarks, or trade secrets.
+
+Defines "national security sensitive technology or intellectual property" to include contributions to China's military, protection of U.S. economic security, and components of key products listed under the Trade Act of 1974.
+
+Includes in "technology" goods or services related to information systems, internet-based services, production-enhancing logistics, robotics, artificial intelligence, biotechnology, or computing.
+
+---
+
+DOC_ID: 576
+Establishes an Office of Manufacturing Security and Resilience within the Department of Commerce to oversee the Manufacturing Security and Resilience Program.
+
+Mandates the Under Secretary to develop and implement a strategy to strengthen supply chains for critical goods, reducing reliance on concentrated supply chains, particularly from countries of concern.
+
+Requires collaboration with other federal agencies to support allies and key international partners in building manufacturing capacity for critical goods.
+
+Incentivizes domestic manufacturers to relocate production from countries of concern and increase production capacity, using loans, loan guarantees, and other financial supports.
+
+Prioritizes support for activities that enhance the resilience, security, and diversity of supply chains and address supply chain shocks.
+
+Mandates periodic submission of strategy reports and program evaluations to Congress, with updates every four years.
+
+Allocates $35 billion for fiscal years 2024-2028 to fund the program, with specific allocations for loans, loan guarantees, and administrative costs.
+
+---
+
+DOC_ID: 577
+Grants Independent Music Creator Owners immunity from antitrust liability for collectively negotiating music licensing terms with Dominant Online Music Distribution Platforms or companies using generative AI.
+
+Defines "Dominant Online Music Distribution Platform" as entities with over $100 million in annual music-related revenue and specifies exclusions.
+
+Defines "generative artificial intelligence" as AI systems generating novel media based on prompts.
+
+Requires that collective negotiations among Independent Music Creator Owners be nondiscriminatory, not limited to price, and directly related to negotiations with Dominant Online Music Distribution Platforms.
+
+Ensures that collective negotiations do not involve parties other than Independent Music Creator Owners or Dominant Online Music Distribution Platforms.
+
+Stipulates that the Act does not modify, impair, or supersede existing antitrust laws beyond the specified provisions.
+
+---
+
+DOC_ID: 578
+Requires the Director of National Intelligence, in consultation with the Secretary of Defense, to identify Chinese institutions of higher education supporting the People's Liberation Army and Military-Civil Fusion strategy.
+
+Mandates submission of an annual list of these identified entities to Congress.
+
+Prohibits Department of Defense funding for research, development, testing, and evaluation to entities contracting with identified Chinese institutions.
+
+Restricts facilities from hosting or storing classified information unless they certify no active research partnership with identified institutions.
+
+Allows the Secretary of State to deny visas to students or employees of identified institutions.
+
+Prohibits Department of Education funds for K-12 schools contracting with entities domiciled in China.
+
+Authorizes grants to U.S. schools to support Mandarin language instruction and Chinese cultural programming in partnership with Taiwan.
+
+Prohibits federal research funds for entities contracting with listed Chinese entities.
+
+Lowers the reporting threshold for foreign gifts to institutions of higher education from $250,000 to $50,000.
+
+---
+
+DOC_ID: 579
+Mandates the Secretary of State, in coordination with the Secretaries of Defense, Commerce, and Energy, to report on the Department of State's implementation of the AUKUS partnership within 90 days of enactment.
+
+Requires the report to detail Australia's progress on various submarine-related goals, including infrastructure, workforce training, and basing support.
+
+Instructs the report to assess Australia's submarine contributions to U.S. defense objectives and provide a strategy for integrating AUKUS and U.S. submarines.
+
+Mandates reporting on U.S. export control processes and recommendations for improvements to facilitate the AUKUS partnership.
+
+Demands an interagency report on changes to ITAR and export control regimes to enable defense item exchanges among AUKUS members and Canada.
+
+Requires an assessment of efforts to enhance collaboration in AI, quantum technologies, cyber capabilities, and other advanced defense areas.
+
+Obligates the President to brief Congress annually for seven years on AUKUS implementation progress.
+
+---
+

@@ -1,0 +1,182 @@
+DOC_ID: 450
+Amends offenses related to sexual extortion by making it a criminal act to use threats involving private images, including those modified by AI, to coerce victims, punishable as felonies depending on the circumstances.
+
+Enhances definitions related to minors in sexual content, including AI-modified images, and escalates penalties for various degrees of exploitation, employing AI tools.
+
+Mandates reporting to authorities if AI technology is used to distribute unlawful material depicting minors, extending jurisdiction over such offenses.
+
+Incorporates AI-generated images into existing laws against the unauthorized disclosure of private images, classifying violations as felonies and establishing a civil cause of action.
+
+Updates sex offender registration guidelines, emphasizing offenses involving digital or AI-enhanced sexual exploits of minors.
+
+Sets effective date for enforcement of these provisions as December 1, 2024.
+
+---
+
+DOC_ID: 451
+Proposes a Model AI Governance Framework for Generative AI emphasizing accountability, data quality, trusted development, and deployment, aligning with global best practices.
+
+Establishes accountability by encouraging clear responsibility allocation among stakeholders within AI development chains and calls for extending cloud shared responsibility models to AI.
+
+Emphasizes data quality, including the use of trusted data sources and addressing issues around personal data and copyright material for model training.
+
+Calls for transparency in AI model safety measures, akin to "food labels," and suggests industry-standard practices for development, safety evaluation, and disclosure.
+
+Proposes implementing incident reporting and third-party testing frameworks for AI safety and assurance.
+
+Advocates for security measures specifically adapted for generative AI, including new tools and methods.
+
+Highlights the importance of research in AI safety and alignment, international cooperation, and the use of AI for public good, including democratization of access and responsible AI adoption in public services.
+
+---
+
+DOC_ID: 452
+Allocates up to $500,000 to enhance awareness and responsible use of artificial intelligence in schools.
+
+Requires Michigan Virtual University to integrate AI principles in its training programs for educational personnel.
+
+Mandates the Michigan Virtual Learning Research Institute to research and recommend virtual education delivery models leveraging AI.
+
+Instructs the institute to analyze and report on AI-enhanced virtual learning effectiveness by reviewing data from virtual course providers.
+
+Encourages partnerships with districts to study AI-driven competency-based virtual learning models.
+
+Tasks the institute with policy recommendations to the governor on AI and virtual learning implementation.
+
+Designates funds for AI-related professional development programs for educators and stakeholders.
+
+Requires ongoing reports on the implementation of AI in virtual education, including its effectiveness, with a focus on elevating education delivery models in Michigan.
+
+Supports the dissemination of best practices and standards for AI-integrated virtual learning across the state.
+
+---
+
+DOC_ID: 453
+Establishes the "Next New Jersey Program" to drive investment into New Jersey’s AI sector, creating jobs and economic opportunities.
+
+Requires businesses to invest a minimum of $100 million in capital and create at least 100 new full-time jobs to be eligible for tax credits.
+
+Mandates businesses or divisions engaged in AI or large-scale AI data centers, demonstrating over 50% of revenue or employment in AI activities.
+
+Stipulates collaboration with New Jersey-based research entities or startups.
+
+Enforces compliance with environmental and labor standards, including prevailing wage for construction workers.
+
+Enables businesses meeting criteria to apply for tax credits valid until March 1, 2029.
+
+Empowers the New Jersey Economic Development Authority to oversee eligibility and award decisions, ensuring businesses remain compliant to retain credits.
+
+Allows tax credit transfer certificates, with conditions on their sale and application.
+
+Caps overall tax credits under the act at $250 million annually from a broader $11.5 billion limit across various programs over nine years.
+
+---
+
+DOC_ID: 454
+Appropriates $2.5 million for building artificial intelligence expertise at the University of Wyoming, requiring a matching ratio of 1:1 from non-public sources.
+
+Specifies that the AI-related funding should not be included in the university's standard budget for the next fiscal biennium.
+
+Conditions the use of AI funds upon securing matched contributions from individuals, partnerships, corporations, or other entities.
+
+Prohibits the transfer or expenditure of AI appropriation for any purpose other than building AI expertise.
+
+Includes intent for developing AI expertise funding to be temporary and contingent on nonstate matching funds.
+
+States that the appropriation's intent is not to support any office or program related to diversity, equity, and inclusion.
+
+Overall, emphasizes the development of AI expertise through matched funding, with specific conditions and limitations on its use and future budget inclusion.
+
+---
+
+DOC_ID: 455
+Amends legislation to define "deep technology" to include artificial intelligence and other emerging technologies.
+
+Mandates the development and oversight of a deep technology talent initiative by the board, effective May 1, 2024.
+
+Requires institutions of higher education to submit proposals for partnering with employers to create programs in deep technology fields.
+
+Stipulates proposal criteria must include program responsiveness to state needs, partnerships, and employer involvement.
+
+Obligates the advisory council to review and prioritize program proposals based on capacity expansion, integration, and cost-effectiveness.
+
+Directs the board to fund approved programs by evaluating recommendations from the advisory council and considering legislative appropriations.
+
+Requires funded institutions to report annually on program activities and outcomes, including student enrollment and employment metrics.
+
+Compels the board to provide an annual report on program successes and challenges to legislative committees.
+
+---
+
+DOC_ID: 456
+Mobilizes commercial computing resources to meet the requirements of the AGI sector, showcasing cooperation with cloud service providers to enhance access to diverse and high-quality computing power.
+
+Promotes the construction of new computing facilities, including the Beijing AI Public Computing Power Center, to advance computing capabilities.
+
+Establishes an integrated multi-cloud computing management platform to optimize computing power management and operations.
+
+Collects high-quality training datasets, ensuring legal compliance and promoting the trading of data through legitimate channels.
+
+Plans to set up data training bases and a crowdsourcing service platform for dataset annotation, enhancing data quality and collaboration.
+
+Explores innovative algorithms for large models, supporting an open-source technical ecosystem and developing governance tools for data management.
+
+Facilitates the practical application of AGI in various sectors, including government, medicine, finance, and urban governance.
+
+Innovates regulatory policies, promoting inclusive and prudent supervision systems while strengthening network and data security.
+
+---
+
+DOC_ID: 457
+Defines "child pornography" to include sexually explicit visual material involving identifiable or depicted minors, affecting both real and digitally created images.
+
+Establishes penalties for production, solicitation, and financing of child pornography, escalating based on the minor’s age and the offender's age difference, with mandatory minimum sentences.
+
+Infers depicted individuals presented as minors under 18 in visual material are minors for the purposes of prosecution.
+
+Allows prosecution in the jurisdiction where the act occurs, the offender resides, or where the material is associated.
+
+Notes potential increases in imprisonment periods, requiring a minimum fiscal impact assignment of $50,000 due to unknown appropriations for adult and juvenile facilities.
+
+---
+
+DOC_ID: 458
+Support the responsible stewardship of trustworthy AI by engaging stakeholders to achieve inclusive growth, sustainable development, and well-being.
+
+Require AI actors to respect human-centered values, including the rule of law, human rights, and democratic values, throughout the AI lifecycle, supported by appropriate safeguards.
+
+Commit AI actors to transparency and explainability, providing clear information to foster AI understanding and accountability.
+
+Ensure robustness, security, and safety of AI systems, with traceability and systematic risk management throughout their lifecycle.
+
+Hold AI actors accountable for aligning with the principles based on roles and context.
+
+Encourage governments to invest in AI R&D, supporting open, unbiased datasets, and fostering a digital AI ecosystem.
+
+Promote an enabling policy environment for AI, ensuring policy adaptation, assessment mechanisms, and readiness for labor market transformation.
+
+Engage in international cooperation to advance AI principles, share AI knowledge, and develop global technical standards.
+
+Encourage multi-stakeholder collaboration to monitor AI developments and ensure adherence to these principles.
+
+---
+
+DOC_ID: 459
+Requires Deployers and Operators of autonomous and semi-autonomous systems to adhere to personal data processing principles.
+
+Mandates clear notification to users of such systems about underlying technology and data processing purposes, with detailed descriptions of system capabilities and safeguards.
+
+Obligates the provision of evidence of compliance with audit and certification requirements, and human intervention algorithms in cases of bias or legal non-compliance.
+
+Imposes design requirements focused on ethics, fairness, transparency, security, and accountability.
+
+Prohibits systems from processing personal data unless in compliance with human-defined purposes and legal frameworks.
+
+Forbids use in high-risk processing without compliance with certification requirements and appointment of an Autonomous Systems Officer.
+
+Deems Deployers as Controllers and Operators as Processors of personal data.
+
+Allows data subjects to challenge processing outcomes per applicable law.
+
+---
+

@@ -1,0 +1,119 @@
+DOC_ID: 260
+Creates a law enforcement crime victims notification system to automatically update crime victims on their crime reports, investigations, and cases.
+
+Requires the notification system to provide a virtual agent that employs artificial intelligence to answer citizens' questions and respond to their comments through voice, text, or email. 
+
+Appropriates funds for the creation of the notification system.
+
+---
+
+DOC_ID: 261
+Requires the Commandant of the Coast Guard to coordinate activities and data related to identifying, demonstrating and deploying AI technology.
+
+Requires the Commandant to designate a senior Coast Guard official responsible for identifying, demonstrating and deploying AI technology and for convening other Coast Guard officials for AI-related purposes.
+
+Requires the designated official to develop, and submit within two years, a strategic plan for identifying, demonstrating and deploying AI technology.
+
+---
+
+DOC_ID: 262
+Directs the Secretary of Defense to study potential applications of artificial intelligence to Department of Defense platforms, processes, and operations, and to establish related metrics and objectives.
+
+Specifies study and metric requirements related to AI-related skill gaps; modernization activities; exercises, wargames, and experimentation; logistics and sustainment; and business operations.
+
+Requires the Secretary to report to Congress within 120 days after completion of the required study.
+
+---
+
+DOC_ID: 263
+Instructs the Secretary of Defense to modify the Joint Common Foundation Program and to ensure that the Department of Defense (DoD) can more easily contract with commercial AI companies for better support in efficiently developing new capabilities and applications. 
+
+Instructs the Secretary of Defense to facilitate an increase in the number of eligible commercial AI companies to support DoD components, including cybersecurity processes.
+
+
+
+---
+
+DOC_ID: 264
+Requires the Commander of the United States Cyber Command and the Chief Information Officer of the Department of Defense to develop a five-year implementation plan for rapidly adopting artificial intelligence systems to support the Department of Defense. 
+
+The plan shall: 
+
+(a) Identify and prioritize AI systems and data that currently affect, or may benefit in the future, the Department's cybersecurity and cyber operations. 
+
+(b) Lay out a plan to acquire AI systems and data identified in part (a).
+
+(c) Identify relevant skill deficiencies.
+
+(d) Identify opportunities to solicit AI system operator feedback.
+
+(e) Identify and address long term technology gaps for the Department's cyber war fighting mission.
+
+(f) Evaluate the risks posed by adversary AI-based attacks.
+
+(g) Furnish a timeline with target milestones, investments, and required expenditures.
+ 
+(h) Incorporate metrics to evaluate AI adoption.
+
+(i) Identify further funding, authorities, and policies that may be necessary.
+
+(j) Define a maturity model describing desired cyber capabilities independent of specific technology solutions.
+
+
+
+
+
+
+
+
+---
+
+DOC_ID: 265
+Instructs the Secretary of Defense to develop a plan for establishing AI-related information technology infrastructure, including a technical plan and guidance, a governance structure with relevant guidance and policies, and prototype development and platform environments.
+
+Instructs the Secretary to harmonize the required plan with various existing plans and strategies. Establishes a plan working group comprised of senior DOD officials.
+
+Instructs the Secretary to assemble enterprise data sets in various AI application domains.
+
+---
+
+DOC_ID: 266
+Instructs the Director of National Intelligence to submit a single report on the workforce needs of each element of the intelligence community relating to emerging technologies, with a specific focus on artificial intelligence.
+        
+Requires a list of personnel in work roles whose primary official duties include artificial intelligence responsibilities.
+          
+Requires an assessment of the quality and sustainability of the talent pipeline of the intelligence community with respect to talent in emerging technologies, including artificial intelligence. 
+
+Requires a description of the education, recruitment, and retention programs personnel of the intelligence community.
+
+Requires an assessment of any gaps in authorities, resources, recruitment or retention incentives, skills-based training, or educational programs, that may negatively affect the quality or sustainability of such talent pipeline.
+            
+
+
+
+
+---
+
+DOC_ID: 267
+Defines "automated employment decision tools" as computational processes used in discretionary employment decision making, including AI- and machine learning-derived processes.
+
+Requires businesses using automated employment decision tools in New York City to obtain impartial bias audits of the tools from independent auditors, and to disclose the results of the audits to the public online.
+
+Requires businesses using automated employment decision tools in New York City to notify and disclose specified information to job candidates for whom such tools are used.
+
+Establishes civil penalties for violations of the law and empowers the city corporation counsel to enforce the law.
+
+---
+
+DOC_ID: 268
+Instructs the Deputy Secretary of Defense to establish projects for data management, artificial intelligence, and digital solutions for business efficiency and war-fighting capabilities intended to accelerate decision advantage.
+
+Instructs the Deputy Secretary to task senior DOD officials with developing an actionable plan to integrate various AI applications into government operational environments, and to boost the population of government personnel with AI expertise.
+
+---
+
+DOC_ID: 269
+Amends Section 41001(6)(A) of the FAST Act to include semiconductors, artificial intelligence, machine learning, cybersecurity, and various related technology-powered infrastructure to the FAST Act permitting program.
+
+---
+

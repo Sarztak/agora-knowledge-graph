@@ -1,0 +1,168 @@
+DOC_ID: 930
+Amends Tennessee Code to include computer-generated images created, adapted, or modified by artificial intelligence under the definition of materials related to the sexual exploitation of children.
+
+Defines "artificial intelligence" as a machine-based system capable of making predictions, recommendations, or decisions, influencing environments, or learning autonomously, developed in any context, including software or hardware, and solving tasks requiring human-like abilities.
+
+Includes "generative artificial intelligence" as a system capable of creating new content or data, such as text, images, audio, or video when prompted.
+
+Takes effect on July 1, 2024, for the purpose of public welfare.
+
+---
+
+DOC_ID: 931
+Amends the Right of Publicity Act in Illinois to define "artificial intelligence" as systems that generate outputs influencing environments, including generative AI.
+
+Defines "digital replica" as an electronic representation of an individual created using AI without their actual participation.
+
+Prohibits the use of an individual's identity or digital replica for commercial purposes without consent during their lifetime and for 50 years posthumously.
+
+Restricts the distribution of works containing unauthorized digital replicas without consent.
+
+Exempts certain uses, such as in news, political campaigns, or works of public interest, unless they falsely create the impression of authenticity.
+
+Incorporates elements from federal law to exempt certain service providers from liability if they act to remove unauthorized replicas upon gaining knowledge.
+
+Applies to acts occurring after January 1, 2025, excluding ongoing or prior legal actions.
+
+---
+
+DOC_ID: 932
+Establishes the Office of Artificial Intelligence Policy to oversee the AI Learning Laboratory Program, which analyzes AI technologies' risks, benefits, and regulatory implications.
+
+Mandates the creation of regulatory mitigation agreements, allowing participants to operate under modified regulations while testing AI technologies.
+
+Sets eligibility requirements for regulatory mitigation, including technical expertise, financial resources, and risk management plans.
+
+Requires participants to report consumer harm, privacy breaches, or unauthorized data usage, with potential removal from the program for violations.
+
+Allows an initial 12-month regulatory mitigation period, with a possible 12-month extension.
+
+Defines using generative AI to commit offenses as a punishable act.
+
+Specifies the program's repeal on May 1, 2025.
+
+Takes effect on May 1, 2024.
+
+---
+
+DOC_ID: 933
+Establishes that using generative artificial intelligence (AI) is not a defense against violations of consumer protection laws.
+
+Mandates disclosure when generative AI interacts with a person, requiring clear communication that the interaction is with AI, not a human.
+
+Requires providers of regulated occupations to disclose when generative AI is used in service provision.
+
+Prohibits service provision of regulated occupations via generative AI without meeting legal requirements.
+
+Stipulates that disclosures be made verbally at the start of oral interactions and electronically before written exchanges.
+
+Empowers the Division of Consumer Protection to enforce these provisions, including imposing fines up to $2,500 per violation.
+
+Allows the division to seek court actions, which may result in injunctions, disgorgement of funds, or additional fines.
+
+Permits civil penalties up to $5,000 for violating administrative or court orders, enforceable by the attorney general.
+
+---
+
+DOC_ID: 934
+Create the Innovation in Artificial Intelligence Grant Pilot Program to award grants to business entities.
+
+Require the development of AI courses and curricula for K-12 students, emphasizing practical training and career preparation.
+
+Mandate business entities to partner with public or private schools when awarded grants.
+
+Specify application requirements, including program details, school partnerships, and other collaborations.
+
+Evaluate applications based on their potential to achieve program goals and overall viability.
+
+Obligate business entities to enter a written agreement with the office detailing grant specifics before receiving funds.
+
+Authorize the office to establish rules for application procedures, grant awarding, and post-award reporting.
+
+Include an annual written update on the program in the report outlined in Section 63N-1a-306.
+
+---
+
+DOC_ID: 935
+Creates the "Road Optimization and Assessment Data Road Pilot Program" to study alternative methods for assessing and financing road maintenance. 
+
+Mandates the use of Machine Learning (ML) and Artificial Intelligence (AI) to evaluate road conditions in Monongalia and Preston Counties.
+
+Requires the Commissioner of Highways to promulgate rules for legislative approval concerning data collection and road assessment.
+
+Instructs the Division of Highways employees to drive all roads in the pilot counties for data capture.
+
+Utilizes GPS, geotagged positioning, and laser measuring systems to assess road geometry and conditions.
+
+Employs video documentation and reflectometer systems for comprehensive road condition analysis.
+
+Requires biannual data capture and processing over three years to track road condition changes and provide predictive maintenance analysis.
+
+---
+
+DOC_ID: 936
+Establishes a special legislative commission to study emerging firearm technology, including personalized and microstamp technologies.
+
+Requires the commission to evaluate the risks associated with using digital firearm manufacturing codes for machine learning and artificial intelligence.
+
+Mandates the investigation of the accuracy, effectiveness, and utility of personalized firearm and microstamp technologies.
+
+Instructs the commission to review any legal or constitutional issues relating to these technologies.
+
+Tasks the commission with evaluating the commercial availability of these technologies for new and existing firearms.
+
+Directs the commission to assess the feasibility and utility of a tax incentive program for personalized firearm technology.
+
+Obliges the commission to submit its study and recommendations, including legislative suggestions, by March 1, 2025.
+
+---
+
+DOC_ID: 937
+Administers an artificial intelligence education tool pilot program by the Department of Education for the fiscal year ending June 30, 2025.
+
+Awards a grant by the Commissioner of Education for implementing an AI tool in classrooms, involving five selected school districts.
+
+Requires the inclusion of at least one rural, suburban, and urban district, reflecting state diversity.
+
+Mandates compliance of the AI tool with laws on AI use and student data privacy, including the Family Educational Rights and Privacy Act.
+
+Defines "artificial intelligence" as technology using data to train algorithms for tasks usually associated with human intelligence.
+
+Provides professional development for educators in the pilot program, covering AI tool utilization and privacy laws.
+
+Trains educators on AI benefits for instruction, student learning, academic achievement, and workforce development.
+
+---
+
+DOC_ID: 938
+Amends definitions related to child and vulnerable adult sexual abuse material, including depictions created or modified using computer-generated images.
+
+Defines "distribute" and "produce" in the context of such materials, emphasizing the inclusion of electronic and computer-generated methods.
+
+Criminalizes the distribution of intimate images without consent, outlining penalties, including misdemeanors and felonies for repeat offenses.
+
+Exempts certain entities like law enforcement, legal proceedings, and internet service providers from liability if they incidentally transmit or store such images without intentional engagement.
+
+Addresses sexual extortion, detailing offenses involving coercion through threats to distribute intimate images, with enhanced penalties for aggravated offenses involving children or vulnerable adults.
+
+Prohibits unlawful distribution of counterfeit intimate images, specifying penalties and exemptions for certain entities and situations.
+
+Specifies that the act takes effect on May 1, 2024, providing ample time for stakeholders to comply with the new regulations.
+
+---
+
+DOC_ID: 939
+Amends the Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act to define terms such as "depicted individual," "consent," and "dissemination."
+
+Establishes a cause of action for depicted individuals against those who intentionally disseminate or threaten to disseminate private sexual images without consent, knowing or disregarding the individual's lack of consent and identifiability.
+
+Clarifies that consent to creation or previous disclosure of an image does not imply consent to further dissemination.
+
+Specifies exceptions to liability, including good faith actions by law enforcement, legal proceedings, and medical contexts, and outlines conditions under which parents or guardians are not liable.
+
+Allows prevailing plaintiffs to recover damages, attorney's fees, and seek injunctive relief, while considering factors like age and dissemination scope.
+
+States that disclosure of digitally altered images is not a defense and does not impose liability on interactive computer services for third-party content.
+
+---
+

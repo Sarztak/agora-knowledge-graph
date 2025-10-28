@@ -1,0 +1,162 @@
+DOC_ID: 610
+Amends the Public Health Service Act to prohibit health care entities and their debt collectors from initiating extraordinary collection actions if a health insurance appeal is pending.
+
+Mandates health care entities to determine patients' eligibility for assistance programs before commencing extraordinary collection actions.
+
+Prohibits extraordinary collection actions until 180 days after the initial bill is sent to the patient.
+
+Requires health care entities to provide patients with itemized statements and detailed payment receipts, and information on language assistance services.
+
+Establishes a public database for medical debt collection, requiring health care entities to submit detailed annual reports, including data on debt collection practices and patient demographics.
+
+Imposes penalties for non-compliance, including actual damages and additional court-permitted amounts.
+
+Requires the Consumer Financial Protection Bureau to report on medical debt collections, incorporating data from the public database and other sources.
+
+---
+
+DOC_ID: 611
+Establishes the White House Task Force on Workplace Surveillance and Technologies within 180 days of enactment.
+
+Mandates the Task Force to study and evaluate the use of workplace surveillance and automated decision systems by employers.
+
+Requires the Task Force to analyze the prevalence, types, and impacts of workplace surveillance across industries, including data collection, storage, security, and transfer practices.
+
+Necessitates examination of the effects of workplace surveillance on worker compensation, performance reviews, scheduling, career advancement, safety, health coverage, and discipline.
+
+Obligates the Task Force to consider the impact on vulnerable populations, including workers with disabilities, low-wage workers, and workers of color.
+
+Orders the Task Force to submit initial, interim, and final reports to Congress, detailing findings and providing recommendations on addressing workplace surveillance and related technologies.
+
+Terminates the Task Force 60 days after submitting the final report.
+
+---
+
+DOC_ID: 612
+Requires the Department of Defense to refrain from awarding contracts to any individual or entity, including those producing AI-powered products and services, that has worked with any organization from a blacklist of national security threats.
+
+Authorizes the DOD to punish any contractor of the Department who has a proven conflict of interest with the DOD and fails to disclose that conflict of interest.
+
+---
+
+DOC_ID: 613
+Prohibits U.S. persons from engaging in covered activities involving certain technologies and products in countries of concern, particularly in sectors like AI, if they pose acute national security threats.
+
+Requires the President to annually identify and publish lists of such critical technologies and products.
+
+Mandates U.S. persons to notify the President of any covered activities that may threaten national security.
+
+Empowers the President to impose civil penalties for violations and to delegate enforcement authority to federal agencies.
+
+Encourages bilateral and multilateral engagements to promote compliance with these prohibitions and notifications.
+
+Allocates $25 million annually for implementation and allows direct hiring to support administration.
+
+Permits the President to issue waivers for activities deemed in the national interest, with required congressional notification.
+
+---
+
+DOC_ID: 614
+Establishes within the Department of State a Chief Artificial Intelligence Officer (CAIO), potentially dual-hatted as the Department’s Chief Data Officer, and a member of the Senior Executive Service.
+
+Requires the CAIO to evaluate, oversee, and facilitate the responsible adoption of AI and machine learning to inform decisions and support programs and operations.
+
+Designates the CAIO as the principal advisor to the Secretary of State on the ethical use of AI and advanced analytics in diplomacy.
+
+Mandates the CAIO to possess skills in data analytics, AI, machine learning, and organizational change management.
+
+Requires the Chief Information Officer to consult with the CAIO on scaling AI capabilities across software applications.
+
+Defines “artificial intelligence” as per section 238(g) of the National Defense Authorization Act for Fiscal Year 2019.
+
+---
+
+DOC_ID: 615
+Amends the Federal Water Pollution Control Act and the Safe Drinking Water Act to authorize grants for smart water infrastructure technology.
+
+Requires the Environmental Protection Agency (EPA) to provide grants for intelligent wastewater treatment systems using AI for predictive maintenance and real-time monitoring.
+
+Mandates grants for smart drinking water systems with AI tools to reduce water loss, improve decision-making, and enhance operational efficiency.
+
+Specifies that 25% of the grant funds are set aside for rural communities and 10% for Tribal communities.
+
+Obligates the EPA to issue guidance for grant applications within 30 days of enactment and make funding decisions within 60 days.
+
+Requires annual reports to Congress on the projects funded and their impacts.
+
+Authorizes $25 million for fiscal years 2024 through 2028 for both wastewater and drinking water infrastructure projects.
+
+---
+
+DOC_ID: 616
+Requires the National Academy of Sciences to establish a grant program for the development of safe AI models and AI research.
+
+Mandates the development of guiding principles and ethical considerations for the grant program.
+
+Directs the Director of the National Academy of Sciences to submit a detailed proposal of the grant program to relevant Congressional committees within one year, including a budget, proposed appropriation request, and an evaluation of existing AI models and methodologies.
+
+---
+
+DOC_ID: 617
+Requires the Department of Energy (DOE) and NASA to coordinate research and development activities, including AI-related areas such as machine learning, data analytics, and predictive analysis.
+
+Mandates the use of memoranda of understanding for coordination.
+
+Allows for competitive awards to support collaborative R&D activities.
+
+Directs the development of methods to handle large data sets on high-performance computing systems.
+
+Promotes data sharing between DOE, NASA, National Laboratories, and other entities, ensuring secure data transfer.
+
+Authorizes reimbursable and non-reimbursable agreements between DOE and NASA.
+
+Ensures competitive awards follow merit-review processes and consider applications from various entities.
+
+Obligates a report within two years on coordination activities, achievements, and future plans.
+
+Requires consistency with research security laws.
+
+---
+
+DOC_ID: 618
+Requires the Commandant to submit a report within one year outlining a plan for establishing an unmanned systems capabilities office within the Coast Guard.
+
+Mandates inclusion of a management strategy for acquiring, developing, and deploying unmanned system and counter-unmanned system technologies.
+
+Demands a coordination strategy to synchronize efforts across the Coast Guard and pursue expanded research, development, testing, and evaluation opportunities.
+
+Requires identification of contracting and acquisition authorities needed for expedited technology development and deployment.
+
+Lists the need for a detailed inventory of commercially available unmanned and counter-unmanned systems useful to the Coast Guard.
+
+Calls for a cross-agency collaboration plan with the Department of Homeland Security, Department of Defense, and other relevant agencies.
+
+Encourages opportunities to obtain and share unmanned system data to enhance maritime domain awareness.
+
+Mandates the development of a concept of operations for a data ecosystem integrating unmanned system technologies with AI, machine learning, and information-sharing capabilities.
+
+---
+
+DOC_ID: 619
+Reauthorizes the National Integrated Drought Information System.
+
+Requires advancement and deployment of AI, machine learning, and cloud technologies for drought forecasting.
+
+Mandates strengthening observational networks and drought indicators, addressing gaps in snowpack and soil moisture monitoring.
+
+Establishes memoranda of understanding with the National Mesonet Program for coordinated drought information.
+
+Requires migration to probabilistic forecasts and incorporation of new modeling tools with the Climate Prediction Center.
+
+Authorizes appropriations from $15,000,000 in fiscal year 2024 to $17,000,000 in fiscal year 2028 for these activities.
+
+Mandates development, deployment, and maintenance of the National Coordinated Soil Moisture Monitoring Network.
+
+Requires establishment of a user-friendly website, high-quality data criteria, and increased in situ soil moisture monitoring stations.
+
+Promotes research, data sharing, and engagement with the citizen science community for soil moisture monitoring.
+
+Allows partnerships to provide nationwide soil moisture information.
+
+---
+

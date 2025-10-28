@@ -1,0 +1,164 @@
+DOC_ID: 430
+Mandates the Secretary of Defense to require competitive awards for cloud computing, data infrastructure, and foundation model solutions to promote security, resiliency, and competition.
+
+Ensures that the Government retains exclusive data access and use rights.
+
+Requires prioritization of intellectual property, data rights, and interoperability during procurement processes, with consideration for multi-cloud technology where suitable.
+
+Directs updates to the Defense Federal Acquisition Regulation Supplement to protect government-furnished data used in AI development and prevent unauthorized disclosure.
+
+Imposes penalties for violations, including fines and contract termination, but allows exemptions where national security is not compromised.
+
+Obliges annual reports from the Chairman of the Joint Chiefs of Staff assessing competition and market dynamics in the AI industry, with recommendations for legislative and administrative actions.
+
+Ensures public accessibility of these reports through the Department of Defense's website and other no-cost methods.
+
+---
+
+DOC_ID: 431
+Enacts the "Transparency and Responsibility for Artificial Intelligence Networks Act" or "TRAIN Act."
+
+Requires the United States district court clerk to issue a subpoena to AI model developers or deployers upon request from copyright owners.
+
+Defines artificial intelligence terms including AI models and generative AI models used in the legal context.
+
+Allows copyright owners, with a good faith belief of infringement, to request AI training data records.
+
+Mandates that a subpoena requires model developers or deployers to disclose records of copyrighted works used in AI model training.
+
+Details the procedure for the issuance and execution of subpoenas under the Federal Rules of Civil Procedure.
+
+Creates a rebuttable presumption of copyright copying if the subpoenaed party fails to comply.
+
+Implements the new rules on the date of enactment.
+
+---
+
+DOC_ID: 432
+Defines key terms like "automated driving system" and "driverless-capable vehicle" relevant to motor vehicles operated by autonomous systems.
+
+Allows the operation of driverless-capable vehicles on public highways without a human driver present, provided they meet safety and compliance standards.
+
+Requires system-equipped vehicles to operate within designated operational domains and comply with state traffic and safety laws unless exempted.
+
+Mandates financial liability coverage for system-equipped vehicles before they can operate on public highways.
+
+Stipulates that automated vehicles involved in accidents must remain at the scene and report to law enforcement, holding vehicle owners accountable for compliance.
+
+Permits the operation of on-demand driverless-capable vehicle networks for transporting persons or goods, integrating with digital transport services.
+
+Grants exclusive governance and regulatory authority over automated systems to the state department, prohibiting additional local regulations or taxes on such systems.
+
+---
+
+DOC_ID: 433
+Requires the United States to prioritize digital freedom in foreign policy and diplomatic engagements.
+
+Mandates cooperation with countries committed to democratic technology use and development.
+
+Appoints a Coordinator for Digital Freedom within the Bureau of Cyberspace and Digital Policy to advance global digital freedom.
+
+Directs the Coordinator to engage with international actors to counter digital authoritarianism and support human rights-compliant technology governance.
+
+Instructs the Coordinator to promote democratic governance of artificial intelligence, emphasizing human rights and democracy.
+
+Requires ongoing publication of guidelines for protecting digital freedom in cyberspace, including the AI Risk Management Profile.
+
+Obliges annual reporting on global digital freedom, analyzing threats like digital authoritarianism, censorship, and AI governance risks.
+
+Advises on improving digital inclusion and information integrity.
+
+Tasks the Coordinator with making recommendations to enhance digital freedom through diplomatic channels.
+
+---
+
+DOC_ID: 434
+Mandates the prohibition of federal grant awards to applicants submitting duplicative or fraudulent applications, with an exception for institutions of higher education.
+
+Requires the joint determination of appropriate agencies to award grants when duplicative applications are identified.
+
+Obliges the Office of Management and Budget (OMB) to establish an electronic system to track federal grant applications, preventing awards for identical purposes across executive agencies.
+
+Includes specific system requirements, such as storing awardee details and facilitating identification of essentially equivalent work.
+
+Directs the OMB, along with specific federal bodies, to report to Congress on the feasibility of using artificial intelligence to identify duplicative grant applications and detect waste, fraud, and abuse.
+
+Defines terms essential for the Act's implementation, including covered applications and executive agencies.
+
+---
+
+DOC_ID: 435
+Encourages the intelligence community to form private sector capital partnerships and consult with federal partners to improve technological advantages.
+
+Amends public-private talent exchange authority to focus on fields including artificial intelligence, computing, and cybersecurity.
+
+Extends the duration for temporary detail exchanges from 3 to 5 years.
+
+Prohibits detailed private-sector employees from accessing trade secrets or proprietary information of commercial value.
+
+Excludes private-sector organizations involved in employee detail exchanges from being considered as having organizational conflicts of interest by default.
+
+Requires identification and mitigation of conflicts of interest based on specific participation details.
+
+Mandates the Director of National Intelligence to submit annual reports to appropriate Congressional committees on program implementation and recommendations for enhancing the use of authorities.
+
+---
+
+DOC_ID: 436
+Enacts the "Responsible AI Disclosure Act of 2024".
+
+Mandates a study by covered agencies to establish and recommend standards for AI data categorization, AI model training practices, and data source identification.
+
+Requires assessment of AI model design, functionality, and compliance with federal laws including anti-discrimination and consumer protection.
+
+Obligates the issuance of a report within six months from enactment, detailing study findings and advising on potential legislative or regulatory revisions regarding AI disclosures.
+
+Empowers covered agencies, post-report, to mandate AI data reporting and disclosure by regulated entities and vendors, including data sources and model training specifics.
+
+Urges implementation of such requirements prior to report completion if deemed necessary.
+
+Defines "covered agencies" as key financial regulatory bodies, and "regulated entities" as those overseen by these agencies, including credit unions and financially regulated persons.
+
+---
+
+DOC_ID: 437
+Require international affairs agencies to employ experts, including technologists, social scientists, and legal experts, to develop a risk-mitigation framework for trustworthy AI systems, addressing bias in AI training data and applications.
+
+Mandate reports from each agency to appropriate congressional committees, describing efforts to ensure safe, secure, and trustworthy AI development and use, including testing and correcting for bias, starting one year after the enactment of the Act and every two years for the following eight years.
+
+Impose a congressional expectation to implement measures addressing AI bias to prevent negative or discriminatory outcomes in agency operations.
+
+---
+
+DOC_ID: 438
+Mandates the Comptroller General to conduct a study and report to Congress on the IRS's use of commercial-off-the-shelf products and AI technologies within 12 months of the Act's enactment.
+
+Identifies the IRS's use of such technologies to enhance operational efficiency, improve taxpayer services, generate cost savings, ensure fair enforcement, and improve tax collection efforts.
+
+Requires the study to assess how the IRS manages AI-related risks, including errors, bias in audit selection, and data security.
+
+Includes information on IT modernization projects, detailing contractors, project scope, costs, and contracting approaches.
+
+Analyzes the allocation of expenses between contractors and IRS employees and compares costs between customized projects and commercial product alternatives.
+
+---
+
+DOC_ID: 439
+Prohibits the Secretary of Defense from entering, renewing, or extending IT contracts with entities involved with certain AI-related operations in China.
+
+Forbids contracts with entities controlling facilities in China focused on AI research or development.
+
+Restricts contracts with entities that have allowed Chinese entities access to U.S. government software source codes.
+
+Bans contracts with entities providing military, law enforcement, or dual-use software to Chinese entities.
+
+Prohibits contracts with entities operating data centers in China.
+
+Allows the Secretary to waive these prohibitions if necessary for U.S. national security.
+
+Applies these prohibitions to contracts during three years post-enactment.
+
+Defines “covered Chinese entity” and “material interest” for clarity and enforcement.
+
+---
+

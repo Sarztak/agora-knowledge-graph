@@ -1,0 +1,144 @@
+DOC_ID: 100
+Prohibits United States persons from importing AI technology from China and exporting AI technology to China after 180 days of enactment.
+
+Establishes penalties for individuals and entities violating these prohibitions, including fines and forfeiture of federal contracts.
+
+Requires the Secretary of Commerce to issue regulations implementing these prohibitions within 90 days of enactment.
+
+Prohibits United States persons from conducting AI research and development for or with Chinese entities or nationals of concern.
+
+Enforces penalties for these violations, including fines and federal benefits forfeiture.
+
+Emphasizes penalties disqualifying violators from federal financial assistance for five years.
+
+Restricts U.S. persons from having financial interests in Chinese AI research entities involved in military or surveillance activities.
+
+Permits the President to use emergency economic powers for enforcing these prohibitions.
+
+Involves multiple federal departments in enforcing these regulations.
+
+---
+
+DOC_ID: 101
+Establishes the National Center for Alternatives to Animals in Research and Testing to promote and fund nonanimal research methods, including artificial intelligence, within one year of the Act's enactment, under the National Institutes of Health (NIH).
+
+Requires the NIH to prioritize nonanimal methods in research proposals, assess the feasibility of nonanimal methods before approving research, and ensure proposals are reviewed by experts in nonanimal techniques.
+
+Instructs the Director of the National Center to support federally funded researchers in developing and adopting alternatives to animal testing, including AI, and report on animal usage publicly.
+
+Mandates each federally funded research entity using animals to report biannually on the number and species of animals used and submit and update plans to reduce these numbers. 
+
+Defines "animal" to include any live nonhuman vertebrate or cephalopod used in research or testing.
+
+---
+
+DOC_ID: 102
+Require the Secretary of Agriculture, in consultation with the Director of the National Institute of Standards and Technology and the Federal Communications Commission, to develop voluntary, consensus-based interconnectivity standards for precision agriculture within two years.
+
+Direct the Secretary to coordinate with relevant stakeholders, including public, private, and industry organizations, while considering factors such as the evolving demands and connectivity needs of precision agriculture, cybersecurity challenges, and the impact of AI and advanced wireless communications technology.
+
+Instruct the Comptroller General of the United States to conduct a study one year after the standards' development and every two years thereafter for eight years, assessing these standards for their voluntariness and effectiveness in fostering precision agriculture.
+
+Require submission of a report to relevant Senate and House Committees summarizing the findings from each study.
+
+---
+
+DOC_ID: 103
+Requires the Secretary of Homeland Security to conduct annual assessments, in consultation with the Director of National Intelligence, on terrorism threats posed by terrorist organizations using generative AI applications.
+
+Instructs inclusion of analysis on incidents involving extremist messaging, recruitment, and WMD capabilities linked to generative AI in these assessments, plus recommendations for countermeasures.
+
+Ensures these assessments are coordinated with DHS legal and rights offices to protect privacy and civil liberties, and shared in unclassified form publicly, with classified annexes if necessary.
+
+Mandates a briefing to congressional committees within 30 days of assessment submission.
+
+Directs the Secretary to incorporate and disseminate terrorism threat information from fusion centers into DHS systems.
+
+Defines "generative AI applications" as AI models generating synthetic content and clarifies terms for fusion centers and terrorist organizations.
+
+---
+
+DOC_ID: 104
+Amends title 18, United States Code, to prohibit the production or distribution of digital forgeries of intimate visual depictions without the consent of the identifiable individual involved.
+
+Defines digital forgery as an intimate visual depiction created or altered using software, machine learning, artificial intelligence, or other computer-generated means that appears authentic to a reasonable person.
+
+Exempts actions taken in good faith during legal proceedings, medical applications, law enforcement, or investigations of unlawful content or conduct.
+
+Excludes communications service providers from liability unless they recklessly distribute the content.
+
+Applies regulations if either the offender or the victim is a U.S. national.
+
+Defines terms such as consent, digital forgery, identifiable individual, intimate visual depiction, and communications service.
+
+Provides severability to ensure the statute's provisions remain effective even if parts are judged unconstitutional.
+
+---
+
+DOC_ID: 105
+Control the export, re-export, and transfer of certain national interest technology and intellectual property, including AI, to China, starting 180 days after the Act's enactment.
+
+Require the Secretary of State and the Secretary of Commerce to report within 90 days on the necessity of controls under specific export regulations.
+
+Prescribe regulations within 180 days to enforce these controls.
+
+Impose sanctions under the International Emergency Economic Powers Act on entities engaging in the unlawful transfer or use of controlled technologies with China, excluding goods importation.
+
+Empower the President to waive sanctions if deemed in U.S. national security interests.
+
+Instruct the United States Trade Representative to annually list Chinese products, including AI, that receive government support or assist in human rights violations.
+
+Include AI technologies in products receiving Chinese support under its industrial policy, "Made in China 2025."
+
+---
+
+DOC_ID: 106
+Require the Secretary of the Treasury, Secretary of Homeland Security, and Secretary of Commerce, in consultation with specified officials, to jointly submit annual reports to Congress on defending against financial crime risks posed by AI, including fraud and misinformation.
+
+Describe interagency policies and procedures to protect against these risks, listing available and needed resources, technologies, and budget estimates.
+
+Consider risks such as deepfakes, voice cloning, and foreign election interference.
+
+List officials consulted as the U.S. Trade Representative, Attorney General, Federal Reserve Chairman, NIST Director, Undersecretary of Commerce for Industry and Security, and SEC Chairman.
+
+Submit recommendations to Congress within 90 days post-report, including legislative suggestions and best practices for risk mitigation related to AI-driven financial crimes.
+
+---
+
+DOC_ID: 107
+Authorize the Small Business Administration to provide loans for business software, cloud computing services, and technology that utilize artificial intelligence.
+
+Permit these loans to support business operations, including the processing, payment, or tracking of payroll expenses, human resources, sales and billing functions, and accounting or tracking of supplies, inventory, records, and expenses.
+
+Clarify that this provision does not invalidate prior loans made for similar purposes under the Small Business Act.
+
+Prohibit the use of these loans for research and development activities.
+
+Ensure the amendment does not alter the definition of working capital in the context of the Small Business Act.
+
+---
+
+DOC_ID: 108
+Amends title 18 of the United States Code to prohibit child pornography produced using artificial intelligence.
+
+Eliminates the affirmative defense in prosecutions involving AI-generated child pornography by removing certain clauses in Section 2252A(c).
+
+Expands the definition of sexually explicit conduct in Section 2256(2)(B) to include actual or simulated obscene exhibition of the clothed or unclothed genitals, pubic area, buttocks, or female nipple.
+
+Ensures that if any provision of the Act is held unconstitutional, the remaining provisions continue to have effect.
+
+---
+
+DOC_ID: 109
+Leverages artificial intelligence and other emerging technologies to approximate the resources in transboundary hydrocarbon reservoirs.
+
+Requires the application of data analysis tools, AI, quantum computing, and modeling to refine resource estimates and reduce uncertainty.
+
+Instructs the Secretaries to prioritize advanced geophysical, geological, and geotechnical data in the report.
+
+Encourages partnerships with federal agencies such as the National Science Foundation and the National Oceanic and Atmospheric Administration to utilize existing maritime technologies.
+
+Tasks the report preparation with addressing uncertainties using AI and other technologies for informed decision-making on transboundary hydrocarbon reservoirs.
+
+---
+

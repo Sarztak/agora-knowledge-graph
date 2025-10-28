@@ -1,0 +1,138 @@
+DOC_ID: 590
+Requires the Secretary of Health and Human Services to seek a contract with the National Academies of Sciences, Engineering, and Medicine to conduct a study on AI-related health security vulnerabilities within 45 days of enactment.
+
+Mandates the study to assess risks posed by AI advancements, including chemical, biological, radiological, and nuclear threats.
+
+Describes roles and capabilities of HHS agencies and other Federal entities in identifying and mitigating these vulnerabilities.
+
+Summarizes ongoing Federal activities related to these risks.
+
+Identifies current or anticipated gaps in roles, responsibilities, and capabilities regarding AI-related health security.
+
+Provides recommendations for improving Federal efforts to address these vulnerabilities.
+
+Requires the National Academies to submit a report on the study to relevant Senate and House committees within 2 years.
+
+Mandates the Secretary of HHS to submit a follow-up report on actions taken to mitigate AI-related health security risks within 1 year after the National Academies' report.
+
+---
+
+DOC_ID: 591
+Establishes a program to advance microelectronics research, overseen by the Director of National Intelligence through the Intelligence Advanced Research Projects Activity.
+
+Focuses research on next-generation computing models, materials, devices, architectures, and algorithms to enhance artificial intelligence and machine learning.
+
+Addresses challenges in microelectronics engineering, including physical limits on transistors, interconnects, and memory elements.
+
+Promotes advancements in computing technologies through multidisciplinary research, encompassing algorithm design, compute capability, generative AI, photonics-based microprocessors, new materials, optical networks, and AI safety for the intelligence community.
+
+Requires active collaboration with government agencies, academic institutions, and private industry.
+
+Authorizes appropriations for contracts, grants, and other transactions to support the program.
+
+Mandates regular briefings to congressional intelligence committees on program progress, partnerships, and future research priorities.
+
+---
+
+DOC_ID: 592
+Requires the Nuclear Regulatory Commission (NRC) to report to Congress within 180 days on regulatory changes made during the COVID-19 emergency, examining their impact on licensing and safety.
+
+Mandates the NRC to develop and submit a report within one year identifying specific improvements in oversight and inspection programs, emphasizing risk-informed, performance-based procedures and the use of advanced technologies, including AI and machine learning.
+
+Instructs the NRC to seek input from stakeholders including the Secretary of Energy, National Laboratories, the nuclear energy industry, and relevant NGOs in developing the report.
+
+Requires assessment of potential modifications to oversight and inspections, improvement measures, and incorporation of advanced technologies to enhance operational efficiency and safety.
+
+Obligates the NRC to identify and implement actions based on assessments and recommendations to improve training, inspection, oversight, and licensing activities without compromising its mission.
+
+---
+
+DOC_ID: 593
+Requires all AI-generated materials to be labeled with a watermark. 
+
+Authorizes the federal government to establish requirements and standards for watermarks.
+
+Enables the federal government to levy penalties against entities that violate the above stipulation.
+
+Defines key terms including AI-generating entity, AI-generated material, and covered AI-generated material, specifying criteria for materials that must be watermarked.
+
+---
+
+DOC_ID: 594
+Requires public companies and exchange-traded funds (ETFs) investing in companies with ties to the People’s Republic of China (PRC) to disclose whether senior officials of the PRC government or Communist Party of China (CPC) sit on their boards or have executive roles.
+
+Mandates disclosure of cash held in PRC operations, restrictions on cash repatriation, and details of assets, liabilities, and technology transfers.
+
+Obligates reporting on interactions with CPC officials, expenditures on PRC operations, and any lobbying activities in the United States.
+
+Compels ETFs to reveal ownership, CPC branches, contractual agreements, and involvement in PRC industrial policies or military contracts of invested PRC companies.
+
+Requires disclosure of PRC companies’ products and services, U.S. defense contracts, and involvement in sectors like AI, telecommunications, and semiconductors.
+
+---
+
+DOC_ID: 595
+Authorizes $4,000,000 annually for fiscal years 2024 through 2026 to fund a bilateral cooperative program with Israel for developing health technologies. Emphasizes advancing technology, personalized medicine, and data usage in relation to emerging infectious diseases.
+
+Includes artificial intelligence, drugs, vaccinations, respiratory assist devices, diagnostic tests, and telemedicine as eligible health technologies. Requires matching contributions from the Government of Israel to access funding. Allows funding for existing bilateral programs or the establishment of new programs in consultation with the Secretary of State under the 2008 Science and Technology Cooperation Agreement.
+
+---
+
+DOC_ID: 596
+Requires the President to institute expedited policies for defense article and service requests from Australia and the United Kingdom under the AUKUS partnership.
+
+Mandates prioritization of these requests over all others, except those from Taiwan and Ukraine.
+
+Instructs the Secretary, in consultation with the Secretary of Defense, to establish an anticipatory release policy for technology transfers to Australia, the UK, and Canada.
+
+Specifies the inclusion of technologies related to submarines, combat systems, hypersonic missiles, cyber capabilities, artificial intelligence, quantum technologies, and other advanced technologies.
+
+Subjects technology transfer reviews to an expedited decision-making process.
+
+Directs the Secretary and the Secretary of Defense to update interagency policies and guidance to incorporate these anticipatory release provisions.
+
+---
+
+DOC_ID: 597
+Requires disclosure at the beginning of robocalls or text messages if artificial intelligence is used to emulate a human being.
+
+Enhances penalties for robocall and telemarketing violations involving AI impersonation, doubling fines for fraudulent or harmful AI-generated calls or messages.
+
+Mandates the Federal Communications Commission (FCC) to offer robocall-blocking services at no charge and to develop a tracking system for the top 100 illegal robocall campaigns.
+
+Obligates Voice over Internet Protocol (VoIP) providers to verify customer identities, monitor robocall patterns, and report violations.
+
+Directs both the FCC and Federal Trade Commission (FTC) to study and regulate AI usage in robocalls and telemarketing, including text message authentication and inbound call restrictions.
+
+---
+
+DOC_ID: 598
+Requires the Assistant Secretary of Commerce to promote U.S. leadership in emerging technologies, including artificial intelligence (AI), and strengthen critical supply chains and national security.
+
+Mandates the establishment of a critical supply chain resiliency and crisis response program within the Department of Commerce, which includes mapping and monitoring AI supply chains.
+
+Requires coordination with other agencies, industry, and international partners to identify vulnerabilities and prepare for supply chain shocks affecting AI technologies.
+
+Promotes the growth of domestic manufacturing capacities for AI and other emerging technologies and encourages the relocation of manufacturing facilities to the U.S. or allied countries.
+
+Supports the development and dissemination of best practices for supply chain resilience, including the use of blockchain and other technologies to authenticate and trace critical goods.
+
+Mandates regular reporting on the state of AI and other emerging technology supply chains, including assessments of vulnerabilities and recommendations for enhancing resilience.
+
+---
+
+DOC_ID: 599
+Introduces the "Promoting Digital Privacy Technologies Act."
+
+Requires the National Science Foundation to support research on privacy enhancing technologies, including de-identification, pseudonymization, and algorithms for data privacy.
+
+Mandates integration of privacy enhancing technologies into the Computer and Network Security Program as per the Cyber Security Research and Development Act.
+
+Obliges coordination among the Office of Science and Technology Policy, National Science Foundation, National Institute of Standards and Technology, and Federal Trade Commission to expedite development and use of privacy enhancing technologies.
+
+Demands outreach by the National Institute of Standards and Technology to gather stakeholder input and promote private and public sector engagement.
+
+Requires submission of a report within three years on research progress, development of voluntary resources, and policy recommendations to improve communication and coordination among stakeholders.
+
+---
+

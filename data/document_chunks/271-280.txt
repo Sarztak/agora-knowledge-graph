@@ -1,0 +1,98 @@
+DOC_ID: 270
+Directs the Commandant of the Coast Guard to study potential applications of artificial intelligence and to identify resources necessary to improve the use of artificial intelligence in Coast Guard platforms, processes, and operations; instructs the Commandant to establish related metrics and objectives.
+
+Requires that the Commandant assess AI-related skill gaps and civilian and military personnel qualification and establish related metrics.
+
+Requires that the Commandant establish performance objectives and accompanying metrics of specified AI-related modernization activities.
+ 
+Requires the Commandant to report to Congress within 180 days after completion of the required review.
+
+---
+
+DOC_ID: 271
+Instructs the administrator of general services to establish the Information Technology Modernization Centers of Excellence Program.
+
+Requires this program to assist executive agencies with planning and adoption of technology in Artificial Intelligence, cybersecurity and cloud computing.
+
+Promotes modernization of information technology and consumer interactions with executive agencies.
+
+Requires the program to improve cooperation of Information Technology sectors between executive agencies and the commercial sector.
+
+---
+
+DOC_ID: 272
+Instructs the President, acting through the Office of Science and Technology Policy, to support the development of artificial intelligence tools aimed at facilitating research and innovation in the field of engineering biology. The AI tools would analyze omics data, which is data on genomics and the other fields that explore the functions of the various types of molecules that make up organisms' cells and systems. 
+
+---
+
+DOC_ID: 273
+Directs the Director of the National Science Foundation to support research on manipulated or synthesized content and information authenticity.
+
+Directs the Director of the National Institute of Standards and Technology to support research for the development of measurements and standards on generative adversarial networks and other technologies that synthesize or manipulate content.
+
+Requires the Directors to submit a report within a year to Congress of research findings and policy recommendations.
+
+---
+
+DOC_ID: 274
+Outlines the criteria and expectations for a Fellow in the Hydrologic Research Fellowship Program with NOAA.
+
+Explains that activities Fellows may engage in include applying AI and machine-learning capabilities to advance existing hydrologic modeling capabilities. 
+
+---
+
+DOC_ID: 275
+Requires devices that used advanced algorithms to help detect gastrointestinal lesions ("gastrointestinal lesion software detection systems") to undergo specified clinical and non-clinical performance tests and to demonstrate reliability and safety.
+
+Requires gastrointestinal lesion software detection systems to be labeled with use instructions, warnings, and summaries of testing.
+
+---
+
+DOC_ID: 276
+Instructs the Secretary of Energy to develop a national plan for the development and deployment of "smart manufacturing" technologies, including relevant AI technologies. Defines representative functions of "smart manufacturing" technology including manufacturing simulation, energy efficiency modeling, digital prototyping, and networking.
+
+Requires that the plan includes an assessment of previous actions of the Department, an establishment of performance standards, actions to increase cybersecurity, and a consideration of the impact on manufacturing jobs.
+
+Requires that the plan be submitted within 3 years and revised every two years after initial submission. 
+
+---
+
+DOC_ID: 277
+Allows the Secretary of Defense to carry out a pilot program under which the Secretary establishes repositories of Department of Defense datasets relevant to AI development.
+
+Requires data in the potential repositories to be accessible to appropriate public and private organizations for purposes of software and AI technology development for DoD procurement.
+
+Requires repositories to include tools for correcting errors and gaps in data and evaluate model performance.
+
+Requires the Secretary to report to Congress within 270 days after enactment whether the Secretary will, will not, or already has carried out the program.
+
+---
+
+DOC_ID: 278
+Requires federal government to develop and apply standards to ensure the safety and security of AI systems and minimize their risks, including biological risks, cybersecurity risks, and deceptive content risks.
+
+Orders the development of a National Security Memorandum that directs further actions on AI and security.
+
+Directs federal government to support privacy-preserving research and technologies and develop guidance on the collection and usage of commercially available information by federal agencies.
+
+Instructs federal government to prevent algorithmic discrimination by developing guidance and best practices in order to ensure fairness.
+
+Calls for federal government to support the safe, responsible deployment of AI in healthcare, transportation, education, and communications networks.
+
+Requires a report on AI's potential labor-market impacts and the identification of options for strengthening federal support for workers facing labor disruptions
+
+Urges federal government to facilitate the immigration of AI talent to the U.S., catalyze AI research and innovation through a pilot of the National AI Research Resource, and promote competition in the AI ecosystem by providing resources to small businesses.
+
+Directs federal government to maintain U.S. leadership in global AI efforts by expanding multilateral engagements, implementing international standards, and developing guidelines to secure critical infrastructure.
+
+Calls for the advancement of federal government use of AI through the issuance of guidance for agency use of AI, support for agency acquisition of AI products/services, and authorization of rapid hiring of AI professionals.
+
+---
+
+DOC_ID: 279
+Requires employers that rely solely on AI to analyze video interviews to collect information on the race and ethnicity of candidates who are and are not consequently interviewed in person or hired and to report this information annually to the Illinois Department of Commerce and Economic Opportunity.
+
+Requires the Department to analyze the data reported and report annually to the Governor and General Assembly on whether the data discloses a racial bias in using AI.
+
+---
+

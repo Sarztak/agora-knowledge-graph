@@ -1,0 +1,146 @@
+DOC_ID: 410
+Requires that the Saranas Early Bird Bleed Monitoring System -- a device that uses measurements of the body's electrical conductivity and an algorithm to monitor potential internal bleeding complications -- be subject to special controls from the U.S. Food and Drug Administration. Those controls include the following:
+
+Requires performance testing demonstrating that the device meets standards for efficacy, safety, sterility, and usability.
+
+Requires software verification, validation, and hazard analysis to be performed. 
+
+Requires detailed product labeling to include instructions for use and storage, among other product details.
+
+---
+
+DOC_ID: 411
+Establishes procedures by which the Secretary of Commerce may determine whether any information and communications technology or service (ICTS) transaction that has been produced or supplied by foreign adversaries poses certain undue or unacceptable cybersecurity risks. Relevant ICTS include drones or any other unmanned aerial systems, autonomous systems, and artificial intelligence and machine learning software.
+
+Establishes procedures by which the Secretary may prohibit and/or direct the timing and manner of the cessation of an ICTS transaction.
+
+Establishes procedures by which the Secretary may consider factors that may mitigate the risks posed by the ICTS transaction. 
+
+Details penalties for entities that violate any issued final determination or direction. 
+
+---
+
+DOC_ID: 412
+Establishes the "LIFT AI Act" to advance AI literacy in K–12 education.
+
+Empowers the Director of the National Science Foundation to award competitive grants to higher education institutions or nonprofits for developing AI literacy curricula and evaluation methods.
+
+Endorses AI literacy education to prepare a skilled workforce and maintain U.S. leadership in AI.
+
+Recognizes the importance of AI literacy in mitigating ethical challenges and adapting to rapidly evolving AI technologies.
+
+Supports the development of curricula focussed on AI competency, AI literacy evaluation tools, and professional development courses in AI literacy for educators.
+
+Encourages incorporating AI literacy in existing curricula, emphasizing responsible AI use.
+
+---
+
+DOC_ID: 413
+Mandates the development of a list of artificial intelligence products or services posing national security risks, focusing on those associated with foreign entities of concern.
+
+Requires the Executive Director, alongside the Under Secretary of Commerce and the Federal Acquisition Security Council, to publish and annually update this list.
+
+Prohibits federal agencies from purchasing or procuring AI products or services included on this list.
+
+Obligates contractors with federal agencies to divest from listed AI products within specified timeframes.
+
+Allows exceptions for intelligence activities and specific Department of Defense operations related to defense intelligence and adversarial AI research.
+
+Defines key terms including "artificial intelligence," "foreign person of concern," and "country of concern," specifying entities like China, Russia, and Iran as countries of concern.
+
+Sets a timeline for initial list publication within one year of the Act's enactment and mandates public notification if no updates are made annually.
+
+---
+
+DOC_ID: 414
+Establishes the crime of disclosing or threatening to disclose explicit synthetic media without consent, intending to cause distress or obtain valuables, punishable as a misdemeanor or felony for repeat offenders.
+
+Defines "explicit synthetic media" as AI-altered images or videos depicting sexual conduct involving identifiable individuals without their engagement.
+
+Exempts disclosures for lawful purposes, such as criminal investigations, public interest reporting, scientific research, or legal proceedings.
+
+Excludes liability for interactive computer services and telecommunications providers for third-party content, unless they intentionally aid disclosures.
+
+Declares provisions severable, ensuring unaffected sections remain valid if parts are invalidated.
+
+Declares an emergency and sets the effective date for July 1, 2024.
+
+---
+
+DOC_ID: 415
+Establishes the Chief Digital and Artificial Intelligence Officer Governing Council to oversee and ensure ethical AI and data policies within the Department of Defense.
+
+Requires the Council to oversee AI ethics, governance, and operational usage, with the aim of improving AI governance coordination and mitigating bias in AI systems. 
+
+Mandates the Council to submit reports to the Secretary of Defense and congressional defense committees every 180 days initially and at least every 18 months thereafter. 
+
+---
+
+DOC_ID: 416
+Defines algorithmic processes as including artificial intelligence techniques and refers to processes that can make decisions, generate content, or provide information, especially as used in social media
+
+Establishes the Federal Digital Platform Commission to regulate digital platforms, including social media.
+
+Provides for the creation of a Code Council to develop voluntary or enforceable behavioral codes, technical standards, and other policies related to digital platforms and AI processes.
+
+Mandates oversight of algorithmic processes, including those using AI, for fairness, transparency, and safety.
+
+Obligates platforms to ensure recommendation systems and other algorithmic processes are free from harmful, abusive, anticompetitive, or deceptive biases.
+
+Imposes regular public risk assessments for harmful content distribution and steps to mitigate such harms, including those from algorithmic processes..
+
+---
+
+DOC_ID: 417
+Requires electronic communication service providers and remote computing services to report to the Drug Enforcement Administration (DEA) any knowledge of crimes involving fentanyl, methamphetamine, or counterfeit substances.
+
+Mandates the report to be filed within 60 days of obtaining such knowledge, including detailed contact and relevant information about the involved accounts.
+
+Allows reports based on reasonable belief and includes optional additional information like geographic location and complete communication data.
+
+Subjects providers to criminal and civil penalties for failing to report or submitting false reports.
+
+States that providers are not required to monitor users or the content of communications proactively.
+
+Obliges DEA to review and potentially investigate reports, sharing them with other law enforcement agencies as needed.
+
+Mandates the Attorney General to enforce these requirements and take measures for data minimization.
+
+Requires DEA to publish annual reports on the number and outcomes of reports received.
+
+Exempts broadband internet access service providers from these reporting requirements.
+
+---
+
+DOC_ID: 418
+Amends the Federal Election Campaign Act of 1971 to include fraudulent misrepresentation through content generated with artificial intelligence (AI) under its prohibitions.
+
+Clarifies that fraudulent misrepresentation of campaign authority or solicitation of funds includes the use of AI-generated content.
+
+Extends the prohibition against fraudulent misrepresentation beyond candidates to any person misrepresenting candidates, political parties, or committees for any purpose.
+
+Broadens the scope of prohibited fraudulent solicitation to encompass any candidate, political party, or fictitious political organization, not just those directly involving a candidate or party employee.
+
+Expands the provisions to cover AI-generated content used in misrepresentation or solicitation within political campaigns, ensuring comprehensive regulation of AI's role in electoral fraud.
+
+---
+
+DOC_ID: 419
+Establishes the "Five AIs Strategic Artificial Intelligence Working Group" within 90 days to coordinate AI initiatives among the Five Eyes countries (Australia, Canada, New Zealand, the UK, and the US).
+
+Requires the Secretary of Defense and Director of National Intelligence to lead and designate a head for the Working Group.
+
+Mandates the Working Group to develop strategies for AI interoperability, ethical frameworks, and innovation among the Five Eyes countries.
+
+Instructs testing and evaluation of AI systems for intelligence sharing and battlespace awareness.
+
+Emphasizes leveraging commercial AI technologies and managing data-informed AI systems.
+
+Requires submission of a plan within 60 days and biannual reports on the Working Group's activities.
+
+Specifies control of knowledge and technical data by individual countries under their export laws.
+
+Allows termination of the Working Group on September 30, 2028, with possible extension for national security interests.
+
+---
+

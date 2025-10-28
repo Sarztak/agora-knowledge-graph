@@ -1,0 +1,146 @@
+DOC_ID: 780
+Amends the Communications Act of 1934 to establish standards for artificial or prerecorded voice systems created through generative AI.
+
+Includes technologies such as voice cloning and other subsequent technologies as deemed appropriate by the Commission.
+
+Inserts these standards into Section 227(d)(3) to ensure compliance with the updated regulatory framework.
+
+---
+
+DOC_ID: 781
+Prohibits employers from using workplace surveillance to monitor labor activities, ascertain political or religious views, or determine health or immigration status unrelated to job duties.
+
+Requires employers to disclose details about workplace surveillance practices, including data collection methods, frequency, storage locations, business purposes, and third-party transfers, to employees and applicants.
+
+Establishes a Privacy and Technology Division within the Department of Labor to oversee compliance and issue regulations.
+
+Allows employees to access, correct, and request data collected about them and prohibits data transfer to third parties without disclosure and cybersecurity measures.
+
+Grants employees and labor organizations the right to bring civil actions against violations, with potential damages and injunctive relief.
+
+Prohibits predispute arbitration agreements regarding surveillance-related disputes.
+
+Mandates annual reports to Congress on workplace surveillance impacts and recommendations for mitigating harms.
+
+Coordinates with federal and state agencies to ensure consistent regulatory treatment of workplace surveillance.
+
+---
+
+DOC_ID: 782
+Aligns the national strategic plan for fisheries data with the National Oceanic and Atmospheric Administration's (NOAA) Artificial Intelligence Strategy to enhance efficiency and interoperability.
+
+Requires the Secretary, through the Assistant Administrator for Fisheries, to provide a strategic plan to Congress within 180 days, detailing goals, implementation schedules, budgets, stakeholder engagement, and system development.
+
+Solicits expertise from data management and technology experts both within and outside the government to support the strategic plan.
+
+Mandates the Secretary to report annually to Congress on progress in implementing the fisheries data modernization efforts.
+
+---
+
+DOC_ID: 783
+Establishes the right for individuals and right holders to authorize the use of their voice or visual likeness in digital replicas, treating it as a property right that is licensable but not assignable during the individual's life.
+
+Allows post-mortem transfer and licensing, enabling rights to be inherited and renewed under specific conditions.
+
+Imposes liability for unauthorized production, distribution, or public display of digital replicas without consent, with certain exclusions for news, historical, and public interest uses.
+
+Provides safe harbors for online services that act promptly to remove unauthorized replicas upon notification.
+
+Preempts conflicting state laws, except for those existing before January 2, 2025, or those addressing sexually explicit or election-related replicas.
+
+Applies only to conduct and contracts occurring after the enactment date, while granting rights retroactively to deceased individuals' estates.
+
+---
+
+DOC_ID: 784
+Requires the Administrator to submit strategies within one year to reduce patdowns and the need for item divestiture during passenger screening without compromising security.
+
+Considers technological improvements, discrimination reduction among passenger populations, and next-generation screening technologies in developing these strategies.
+
+Mandates a feasibility study on allowing increased volumes of liquids, aerosols, gels, and powders on aircraft without reducing security.
+
+Permits deployment of detection at range technology for screening, subject to feasibility assessments and prioritizes reducing patdowns and enhancing security for vulnerable populations.
+
+Obligates collection and publication of anonymized screening statistics, considering privacy and civil rights, utilizing AI and noninvasive technologies.
+
+Allocates $20 million for fiscal year 2024 to research and deploy improved screening technologies.
+
+Requires annual briefings to congressional committees and a Comptroller General review within two years on the Act's implementation.
+
+---
+
+DOC_ID: 785
+Amends Section 1851(d)(4) of the Social Security Act to include provisions for behavioral health information starting in 2025.
+
+Requires the provision of information on access to in-network behavioral health providers, including average wait times for new patient appointments and data on provider participation agreements.
+
+Mandates disclosure of payment request statistics for mental health or substance use disorder services, specifying the percentage handled by in-network versus out-of-network providers.
+
+Requires reporting on the number and percentage of denials for prior authorization or payment for mental health services compared to non-mental health services, categorized by denial type and service type.
+
+Specifies the use of decision support, AI, machine learning, clinical decision-making, or other technologies in denial processes, with comparisons to similar physical health conditions.
+
+Aims to promote informed choice by enhancing transparency in behavioral health service coverage.
+
+---
+
+DOC_ID: 786
+Amends Medicare Advantage plans to require parity in mental health and substance use disorder benefits, ensuring financial and treatment limitations are no more restrictive than those for medical benefits.
+
+Mandates MA organizations to determine medical necessity for mental health and substance use benefits based on generally accepted standards.
+
+Requires MA organizations to conduct and submit comparative analyses of nonquantitative treatment limitations (NQTLs) for mental health and substance use disorder benefits.
+
+Imposes penalties for failing to comply with the mental health parity requirements.
+
+Extends parity provisions to prescription drug plans, ensuring consistent application across Medicare Advantage and prescription drug plans.
+
+Directs the Secretary of Health and Human Services to issue implementing regulations within 18 months.
+
+Sets the effective date for amendments to plan years beginning two years post-enactment, with $10 million allocated for implementation funding through the Centers for Medicare & Medicaid Services.
+
+---
+
+DOC_ID: 787
+Mandates the Secretary of Agriculture to prioritize national security alongside homeland security within the Department of Agriculture, including increasing staff with security clearances.
+
+Establishes the position of Senior Advisor for National Security to advise the Secretary and coordinate with the National Security Council on national security matters related to food and agriculture.
+
+Authorizes the Secretary to exchange personnel with defense, national security, law enforcement, and intelligence agencies to improve information sharing and risk mitigation.
+
+Requires biennial reports to Congress and the National Security Council assessing national security gaps in the food and agriculture sector, including cybersecurity and AI, and detailing actions taken and recommendations for policy changes.
+
+Addresses vulnerabilities concerning agricultural data, foreign influence, and emerging technologies.
+
+---
+
+DOC_ID: 788
+Amends penalties for financial crimes committed with the assistance of artificial intelligence, increasing fines to $1,000,000 and imprisonment terms.
+
+Mandates fines for AI-assisted money laundering to be not more than $1,000,000 or thrice the value of the funds involved, with imprisonment terms up to 20 years.
+
+Defines "artificial intelligence" according to the National Artificial Intelligence Initiative Act of 2020 definition.
+
+Codifies increased penalties and definitions within the United States Code to deter AI-assisted financial crimes.
+
+---
+
+DOC_ID: 789
+Amends the National Defense Authorization Act to require the Department of Defense to develop and provide distance education courses on artificial intelligence (AI) and machine learning for Armed Forces personnel.
+
+Mandates these courses to cover AI literacy, ethical use, data protection, and awareness of AI-generated content.
+
+Requires military departments to ensure access and notify personnel about these courses.
+
+Obligates the Secretary of Defense to report to Congress on the progress of these activities.
+
+Expands participation in the Digital On-Demand Program to all Department of Defense entities and personnel, promoting AI education.
+
+Incorporates AI risks and threats into annual cybersecurity training for Armed Forces and civilian Department of Defense employees.
+
+Requires annual reporting to Congress on the expansion and promotion of the Digital On-Demand Program. 
+
+Defines key terms, including "artificial intelligence" and "Digital On-Demand Program."
+
+---
+

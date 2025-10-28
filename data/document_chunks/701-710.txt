@@ -1,0 +1,174 @@
+DOC_ID: 700
+Establishes the NSF AI Education Act of 2024 to provide scholarships and fellowships for AI education at various educational levels, including undergraduate and graduate studies. 
+
+Mandates the Director of the National Science Foundation (NSF) to award scholarships for AI studies in fields such as agriculture, education, and advanced manufacturing, prioritizing institutions in underserved areas.
+
+Directs the NSF to create professional development fellowships for AI and related emerging technologies, fostering collaboration between academia and industry.
+
+Requires grants for AI training at land-grant colleges and universities, focusing on agricultural applications.
+
+Authorizes the establishment of Centers of AI Excellence at community colleges and vocational schools to advance AI education and training.
+
+Advises on guidelines for AI use in primary and secondary education and supports AI education research.
+
+Prohibits funding to institutions in violation of anti-discrimination laws.
+
+Directs the development of workforce frameworks for AI and other emerging technologies.
+
+---
+
+DOC_ID: 701
+Cites the Act as the “Preparing Election Administrators for AI Act”.
+
+Requires the Election Assistance Commission to submit a report with voluntary guidelines to Congress, State and local election offices, and the public within 60 days of enactment.
+
+Includes guidelines addressing the risks and benefits of using AI in election administration.
+
+Addresses the cybersecurity risks posed by AI technologies in elections.
+
+Guides on managing AI-generated information to ensure the sharing of accurate election information.
+
+Provides strategies for countering AI-driven election disinformation that undermines public trust.
+
+---
+
+DOC_ID: 702
+Establishes the Center for AI Advancement and Reliability to ensure U.S. leadership in AI research, development, and evaluation.
+
+Outlines activities of the Center including conducting measurement research to develop best practices for AI reliability and safety, evaluating AI capabilities and developing methods for risk management.
+
+Mandates the Under Secretary of Commerce for Standards and Technology to coordinate with federal agencies in establishing the Center.
+
+Creates a consortium of stakeholders to support the Center and the National Institute of Standards and Technology in AI-related activities.
+
+Authorizes $10 million for fiscal year 2025 for the establishment of the Center.
+
+---
+
+DOC_ID: 703
+Prohibits any person from issuing, creating, or originating an algorithmic payment stablecoin in the United States.
+
+Mandates that payment stablecoins can only be issued by a registered non-depository trust company with a limit on nominal value or an authorized depository institution as a national payment stablecoin issuer.
+
+Prohibits the offer or sale of payment stablecoins in the United States except by a U.S. person living in the U.S.
+
+Requires the Board to adjust the issuance threshold for inflation every four years.
+
+Directs the Board to establish safe harbor regulations, allowing limited issuance of payment stablecoins under specific conditions and fostering innovation and competition.
+
+Allows safe harbor status for issuers regulated by equivalent foreign authorities.
+
+Intends the section to have extraterritorial effect, extending its reach beyond U.S. borders.
+
+---
+
+DOC_ID: 704
+Establishes the "VET Artificial Intelligence Act" to create voluntary guidelines for the testing, evaluation, validation, and verification of AI systems, aiming to enhance trust, adoption, and governance.
+
+Mandates the Director of the National Institute of Standards and Technology to develop and update these guidelines, addressing consumer privacy, harm mitigation, dataset quality, and governance.
+
+Requires the establishment of an Artificial Intelligence Assurance Qualifications Advisory Committee to provide recommendations on qualifications and accreditation for AI assurance processes.
+
+Directs a study to evaluate the capabilities of entities conducting AI assurances, assessing their resources, methodologies, and market demand, and exploring the use of existing accredited facilities for these purposes.
+
+Obliges the publication of guidelines and recommendations for assurance qualifications, ensuring alignment with international standards, without mandating specific technologies. 
+
+Involves stakeholder outreach, public comment, and collaboration with various sectors to refine guidelines.
+
+---
+
+DOC_ID: 705
+Mandates the National Science Foundation Director to support research on AI-enabled efficient technologies through merit-reviewed and competitively awarded projects.
+
+Requires consideration of projects focusing on smart technologies for infrastructure efficiency, pollution minimization, and upgrading existing constructions.
+
+Obliges researchers to conduct impact assessments of energy consumption for AI-enabled technologies.
+
+Prioritizes research conducted at EPSCoR institutions.
+
+Directs the Director to report findings and recommendations on research opportunities and coordination with federal agencies and the private sector within 18 months of enactment.
+
+Requires a report on research results within four years to relevant Senate and House committees.
+
+---
+
+DOC_ID: 706
+Mandates the Secretary of Commerce, in coordination with various agencies, to develop AI training resources for small businesses, including those in rural, Tribal, or underserved areas.
+
+Requires these resources to cover topics such as prompt engineering, financial management, cybersecurity, and government contracting.
+
+Obligates the review and update of these resources every year to ensure relevance and effectiveness.
+
+Coordinates with the Small Business Administration for the distribution of these resources through its network, including development centers and business opportunity centers.
+
+Allows for a grants program to fund training providers using the developed resources.
+
+Demands initial and annual reports to Congress on the progress and impact of the training resources.
+
+Establishes a sunset clause terminating the program three years after the Act's enactment.
+
+---
+
+DOC_ID: 707
+Establishes regulatory sandboxes allowing financial entities to experiment with AI test projects under reduced regulatory burdens.
+
+Requires financial entities to apply for sandbox participation by detailing their AI project, compliance strategies, and potential public benefits.
+
+Mandates applications include risk assessments for systemic financial stability and national security.
+
+Obligates financial regulatory agencies to review applications within 90 days, with provisions for approval, denial, or extension.
+
+Allows joint applications by multiple entities and necessitates notification to all relevant regulatory bodies.
+
+Stipulates data security measures for information provided by AI project sponsors.
+
+Directs each financial regulatory agency to promulgate regulations, including modification procedures and confidentiality protocols, within 180 days of the Act’s enactment.
+
+Mandates annual reporting to Congress on AI test project outcomes.
+
+Permits regulatory agencies to establish additional AI projects as qualifying test projects after public consultation.
+
+---
+
+DOC_ID: 708
+Establishes the "Department of Energy AI Act" to advance AI capabilities within the Department of Energy (DOE).
+
+Requires the Secretary of Energy to create a centralized AI program focused on research and deployment of AI for science, security, and technology.
+
+Mandates the development of AI training datasets, next-generation computing infrastructure, and safe AI models.
+
+Directs the establishment of at least eight multidisciplinary AI Research and Development Centers to enhance U.S. leadership in AI.
+
+Implements an AI Risk Evaluation and Mitigation Program to address safety and security concerns.
+
+Allocates funds for STEM education and workforce development, emphasizing AI skill training and diversity.
+
+Establishes a program to use AI to improve federal permitting processes for energy projects.
+
+Initiates rulemaking to standardize AI use in grid interconnection.
+
+Requires a report on the impact of AI on data centers and energy security.
+
+Creates the Office of Critical and Emerging Technology to coordinate AI efforts across the DOE and assess technological impacts on national security.
+
+---
+
+DOC_ID: 709
+Requires the establishment of a Chief Artificial Intelligence Officers Council to coordinate AI use in federal agencies.
+
+Mandates agencies to develop risk classification systems for AI use cases, categorizing them as unacceptable, high, medium, or low risk.
+
+Prohibits AI use for certain activities, such as mapping facial features for emotion detection or categorizing individuals based on biometric data for sensitive traits.
+
+Directs updates to the Federal Acquisition Regulation to ensure AI procurement includes risk and impact assessments.
+
+Requires agencies to implement processes for evaluating AI risks and to conduct ongoing monitoring, especially for high-risk use cases.
+
+Stipulates comprehensive documentation and transparency requirements for AI models and data.
+
+Establishes annual reporting protocols for obstacles in AI testing and evaluation, promoting interagency collaboration to address challenges.
+
+Prohibits the use of AI for certain high-risk applications and mandates public disclosure of AI inventories and risk classifications.
+
+---
+

@@ -1,0 +1,162 @@
+DOC_ID: 630
+Amends the Elementary and Secondary Education Act of 1965 to expand career counseling opportunities.
+
+Requires career counseling programs to leverage resources and emerging technologies, including artificial intelligence.
+
+Mandates the development of professional development or career development training certification programs for counselors and educators.
+
+Encourages partnerships with one-stop centers and integration with local and state workforce entities.
+
+Promotes the establishment and coordination of postsecondary opportunities such as internships, apprenticeships, and dual enrollment programs.
+
+Requires the identification and assessment of school counseling activities and postsecondary options within and outside the state.
+
+Mandates the evaluation of secondary and postsecondary outcomes for individuals served by career counseling programs.
+
+---
+
+DOC_ID: 631
+Establishes the National Mesonet Program within the National Weather Service to improve weather observation and forecasting.
+
+Requires the program to leverage commercial, academic, and other non-Federal weather data to enhance coordination across sectors.
+
+Targets improved environmental observations to support baseline forecasts and warnings, and to enhance numerical weather prediction performance.
+
+Mandates integration of greater density and types of weather observations, including local and regional networks and satellite constellations.
+
+Provides financial and technical assistance for State, Tribal, private, and academic entities to build or upgrade mesonet systems, contingent on agreements to share data.
+
+Forms an advisory committee to recommend improvements and expansions of available data.
+
+Obligates regular briefings to relevant Congressional committees on program activities and progress.
+
+Allocates specified funding amounts for fiscal years 2024 through 2028 to support the program's implementation and expansion.
+
+---
+
+DOC_ID: 632
+Amends the duties of the Research Commissioner to include maintaining peer-review standards and supporting scientifically valid research.
+
+Requires the Commissioner to propose and implement a research plan, ensuring the research is relevant and informs decision-making.
+
+Mandates the support of evidence-based practices and the dissemination of research findings.
+
+Grants authority to conduct research on underrepresented student populations and to support research-practice partnerships.
+
+Obligates the Commissioner to ensure research is reviewed for inclusion in the National Education Research Database.
+
+Allows for the provision of technical assistance to underrepresented researchers and institutions.
+
+Supports research on educational technology, including artificial intelligence, digital literacy, and other significant educational topics.
+
+---
+
+DOC_ID: 633
+Requires the Director of the Defense Media Activity (DMA) to establish a course of education at the Defense Information School (DINFOS) on digital content provenance within one year of enactment.
+
+Mandates the course to cover digital content provenance, challenges posed by digital content forgery, and the use of industry open technical standards for authenticating digital content.
+
+Obligates the Director to start a pilot program within one year to assess the implementation of industry standards for digital content provenance for official Department media.
+
+Sets termination date for the pilot program on January 1, 2027, with an interim report due by January 1, 2026, to assess effectiveness and feasibility.
+
+Defines key terms including "digital content forgery" and "digital content provenance" to ensure clarity in implementation.
+
+---
+
+DOC_ID: 634
+Resumes border wall system construction, requiring the Secretary of Homeland Security to restart halted projects and honor previous agreements.
+
+Prohibits the cancellation of contracts related to border wall construction entered into before January 20, 2021.
+
+Requires the lifting of COVID-19 related suspension of entries and imports not earlier than 120 days after the termination of the public health emergency.
+
+Mandates submission of plans to manage possible influxes related to the termination of COVID-19 suspensions.
+
+Disapproves the rule allowing asylum officers to adjudicate credible fear claims, maintaining exclusive authority for immigration judges.
+
+Amends the Immigration and Nationality Act to require the return of aliens to contiguous territory or detain them for further asylum consideration.
+
+Establishes minimum staffing levels for various immigration and border enforcement offices, including 25,000 U.S. Border Patrol agents.
+
+Ensures funding for sufficient detention facilities to comply with mandatory detention requirements.
+
+Mandates a report within 60 days on how the Department of Homeland Security is mitigating border encounters.
+
+---
+
+DOC_ID: 635
+Designates the Deputy Administrator of the Federal Aviation Administration (FAA) as the executive responsible for advanced aviation integration.
+
+Requires coordination across FAA offices to ensure safe operation and integration of advanced aviation systems, including policy, rulemaking, and workforce planning.
+
+Mandates the Deputy Administrator to report biannually on workforce requirements and recommend staffing and budget resources.
+
+Establishes the Office of Advanced Integration, headed by a Director, to oversee advanced aviation system responsibilities.
+
+Creates the Advanced Aviation Coordination Unit to promote safe integration, improve certification processes, and develop standards for advanced aviation systems.
+
+Forms working groups on unmanned aircraft systems, advanced air mobility, and safety technology integration within the Coordination Unit.
+
+Defines "advanced aviation system" broadly to include unmanned aircraft, powered lift aircraft, and various advanced aviation technologies.
+
+Authorizes the Secretary of Transportation to facilitate interagency coordination to support advanced aviation integration.
+
+---
+
+DOC_ID: 636
+Requires the Secretary of Homeland Security to assess the use of social media and online platforms by transnational criminal organizations for recruitment and illicit activities within 180 days.
+
+Mandates submission of a National Strategy to Combat Illicit Recruitment Activity by Transnational Criminal Organizations on Social Media and Online Platforms within one year.
+
+Proposes improvements in cooperation between government entities and social media operators, enhanced intelligence analysis, and proactive law enforcement efforts.
+
+Requires establishment of a centralized mechanism for reporting recruitment efforts by transnational criminal organizations to the Department of Homeland Security.
+
+Instructs the Secretary to consult with various federal, state, and local entities, as well as social media companies and experts during strategy development and implementation.
+
+Mandates semiannual reporting on the implementation of the strategy and its progress to appropriate congressional committees for five years.
+
+Designates a specific official within U.S. Customs and Border Protection to manage intelligence related to recruitment activities and to facilitate voluntary information reporting from social media operators.
+
+---
+
+DOC_ID: 637
+Requires the Secretary of Transportation to issue regulations within 12 months of enactment.
+
+Prohibits the movement of trains from switchyards before completing all required brake inspections.
+
+Allows only Qualified Mechanical Inspectors to sign off on inspection forms for locomotives and rail cars.
+
+Ensures that inspections using AI or camera-based systems under part 215 of title 49, Code of Federal Regulations, require verification by a Qualified Mechanical Inspector.
+
+---
+
+DOC_ID: 638
+Authorize appropriations of $2,500,000 annually from fiscal years 2023 to 2027 to the Office of Science and Technology Policy for hiring specialists in AI, crypto assets, and distributed ledger technology, available until the end of the subsequent fiscal year.
+
+Require these funds to support positions coordinating Federal activities and advising the President on research and development strategies related to these technologies.
+
+Authorize similar appropriations of $2,500,000 annually from fiscal years 2023 to 2027 to the National Economic Council for hiring specialists in AI, crypto assets, and distributed ledger technology, also available until the end of the subsequent fiscal year.
+
+Require these funds to support positions coordinating Federal activities and advising the President on financial and economic policies related to these technologies.
+
+---
+
+DOC_ID: 639
+Prohibits covered entities from collecting, processing, maintaining, or disclosing personal information for behavioral personalization without affirmative express consent.
+
+Requires covered entities to obtain express affirmative consent before providing behaviorally personalized products or services, and annually thereafter.
+
+Mandates providing non-personalized versions of products or services if consent is denied, or core aspects if full functionality without personalization is infeasible.
+
+Allows denial of products or services if no core aspect can function without personalization and consent is not given.
+
+Permits processing personal information for usability improvements using aggregated data, provided the output is uniform and independent of individual characteristics.
+
+Excludes optimizations aimed primarily at increasing user engagement time from the definition of "usability."
+
+Exempts small businesses from these requirements.
+
+---
+

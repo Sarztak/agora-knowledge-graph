@@ -1,0 +1,146 @@
+DOC_ID: 50
+Mandates the Secretary of Homeland Security to submit a plan within 180 days to integrate and deploy emerging technologies, such as AI and machine learning, for border security.
+
+Specifies the contents of the plan, including assessment of privacy impacts, coordination with private and public sectors, and scaling of current programs.
+
+Authorizes CBP Innovation Teams to research and adapt commercial technologies for border security, setting strategic goals and operating procedures.
+
+Requires annual reporting by CBP on Innovation Teams' activities, including descriptions of piloted technologies and their effectiveness.
+
+Promotes identifying and phasing out obsolete technologies in favor of advanced systems, with cost assessments.
+
+Encourages collaboration across sectors to leverage innovative technologies and incentivizes private sector participation. 
+
+Obligates CBP to evaluate authorities and potential needs for new authorization to facilitate technology acquisition and integration, ensuring effective border security operations.
+
+---
+
+DOC_ID: 51
+Require the Secretaries to conduct a study on modernizing wildfire response technologies.
+
+Include in the study necessary improvements to radio communications systems and infrastructure during wildland fire or prescribed fire operations, assessing the quality, reliability, failure impacts, and improvement options.
+
+Assess real-time or near-real-time situational awareness tools for operational firefighters, ensuring interoperability and evaluating additional remote sensing and mapping capabilities.
+
+Conduct a cost analysis of commercially available systems versus internally developed systems.
+
+Analyze wildland fire predictive modeling, focusing on data requirements, computing needs, and the feasibility of using artificial intelligence for more accurate predictions.
+
+Require the submission and public availability of the study results within one year of the Act's enactment to congressional committees and the public.
+
+---
+
+DOC_ID: 52
+Amends the Federal Food, Drug, and Cosmetic Act to include artificial intelligence and machine learning technologies as practitioners eligible to prescribe drugs.
+
+Requires that such AI and machine learning technologies be authorized by state statutes to prescribe the specific drug involved.
+
+Mandates that these technologies be approved, cleared, or authorized by the Food and Drug Administration under sections 510(k), 513, 515, or 564.
+
+---
+
+DOC_ID: 53
+Extends the use of other transaction authority for research and development acquisition under the Homeland Security Act of 2002 from September 30, 2024, to September 30, 2028.  
+   
+Mandates notification to congressional committees within 72 hours after the use or extension of transaction authority involving artificial intelligence (AI) technology.  
+   
+Requires the Secretary of Homeland Security to offer a briefing explaining the reason for using or extending AI-related transaction authority.  
+   
+Reduces the maximum amount for covered contract awards under the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023 from $4,000,000 to $1,000,000.  
+
+---
+
+DOC_ID: 54
+Appropriates $400 million for accelerated one-way attack unmanned aerial systems with advanced autonomy, emphasizing AI capabilities for defense.
+
+Allocates $1 billion to expand the industrial base for one-way attack unmanned aerial systems, further enhancing AI-driven military operations.
+
+Provides $58 million for development, production, and integration of counter-unmanned aerial systems programs, highlighting AI's role in defense against drone threats.
+
+Designates $350 million for non-kinetic counter-unmanned aerial systems programs, demonstrating focus on AI-based alternatives to traditional munitions.
+
+Earmarks $250 million for land-based, and $200 million for ship-based counter-unmanned aerial systems programs, underscoring AI use in diverse defense environments.
+
+Allocates $62 million for AI-enhanced hypersonic strike programs, underscoring importance of AI in cutting-edge military technology.
+
+Requests $500 million for Department of Defense Credit Program to support critical mineral industries, indirectly promoting AI technology development by ensuring material availability.
+
+Permits up to $100 billion in loans and guarantees, indicating a strategic commitment to fortifying supply chains essential for AI advancements within the defense sector.
+
+---
+
+DOC_ID: 55
+Appropriates $124 million to enhance the Test Resource Management Center's AI capabilities.
+
+Allocates $145 million for developing AI to support one-way attack unmanned aerial systems and naval systems.
+
+Assigns $250 million to advance the AI ecosystem and another $250 million to expand Cyber Command's AI initiatives.
+
+Provides $250 million to develop the Test Resource Management Center's digital test environment.
+
+Designates $1 billion for expanding programs to accelerate innovative technology procurement, affecting AI initiatives.
+
+Directs $2 billion to scale commercially developed technology, including AI, for military use through the Defense Innovation Unit.
+
+Supports the acceleration of Quantum Benchmarking Initiative with $250 million.
+
+Earmarks $500 million to avoid delays in delivering autonomous military capabilities that involve AI technologies.
+
+Includes a $1 billion appropriation for a capital assistance program, including loans and guarantees, aiding AI projects.
+
+Ensures these appropriations and initiatives remain available until September 30, 2029, supporting ongoing AI and technology development in defense.
+
+---
+
+DOC_ID: 56
+Mandates the implementation of artificial intelligence tools by January 1, 2027, to reduce and identify improper payments under Medicare Parts A and B.
+
+Directs the Secretary to contract with AI vendors and data scientists to support the implementation.
+
+Requires the recoupment, where practicable, of improper payments identified through AI tools.
+
+Obliges the Secretary to report to Congress by January 1, 2029, and annually thereafter on AI implementation and payment recoupment, including potential improvements and recoupment statistics.
+
+Allocates $12.5 million each from the Federal Hospital Insurance Trust Fund and the Federal Supplementary Medical Insurance Trust Fund to fund these AI initiatives for fiscal year 2025, with funds available until expended.
+
+---
+
+DOC_ID: 57
+Mandates the Director of the Office of Management and Budget to submit a report to Congressional committees.
+
+Requires consultation with the Secretary of Energy, the Director of the National Science Foundation, and the Director of the National Institute of Standards and Technology.
+
+Focuses on assessing the feasibility of using AI to identify duplicative Federal grant applications.
+
+Seeks to determine whether an applicant has received or submitted another grant application for the same purpose.
+
+Aims to identify waste, fraud, and abuse in the grant application process through AI technology.
+
+---
+
+DOC_ID: 58
+Prohibits covered entities from discriminating based on race, color, national origin, sex, age, or disability through the use of patient care decision support tools in health programs or activities.
+
+Requires covered entities to make reasonable efforts to identify uses of such tools that employ input variables or factors measuring race, color, national origin, sex, age, or disability.
+
+Mandates covered entities to make reasonable efforts to mitigate discrimination risks from identified tools in their health programs or activities.
+
+---
+
+DOC_ID: 59
+Supports and encourages defense collaboration between the United States and Israel in emerging technologies, specifically artificial intelligence, cybersecurity, robotics, quantum, and automation. 
+
+Authorizes the Secretary of Defense, in coordination with the Secretary of State and the Director of National Intelligence, to jointly conduct research, development, testing, and evaluation with Israel in these areas. 
+
+Requires protection of sensitive information and national security interests during any activities carried out under this authority. 
+
+Prohibits activities from commencing until a report is submitted detailing a memorandum of agreement for cost-sharing and intellectual property rights, and ensuring semiannual expenditure reporting by Israel.
+
+Designates the Irregular Warfare Technology Support Directorate as the lead agency once the report is submitted. 
+
+Mandates semiannual reports to Congress on program developments. 
+
+Authorizes $50,000,000 annually from 2026 to 2030 for this program.
+
+---
+

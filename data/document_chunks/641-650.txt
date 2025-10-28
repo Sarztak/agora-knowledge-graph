@@ -1,0 +1,130 @@
+DOC_ID: 640
+Establishes a National Commission on Online Child Sexual Exploitation Prevention. Tasks the Commission with developing recommended best practices for interactive computer service providers to prevent, reduce, and respond to online child sexual exploitation. 
+
+Composes the Commission of 19 members, including federal officials and appointees with specific expertise in law enforcement, prosecution, victim services, consumer protection, civil liberties, privacy, computer science, and industry representation. Requires two members to have experience in cryptography, data security, or artificial intelligence. Designates the Attorney General or their representative as the Chairperson.
+
+---
+
+DOC_ID: 641
+Requires covered companies to publicly list the primary country of origin of each application on the app store page with prominent display.
+
+Mandates that covered companies provide an option to filter out apps from countries of concern and display disclaimers if data could be accessed by a foreign government.
+
+Obligates developers to notify covered companies of changes in country of origin or beneficial ownership and certify the accuracy of displayed information annually.
+
+Enforces a series of warnings and potential removal of apps for non-compliance by developers.
+
+Establishes a reporting mechanism for potential violations and provides an appeals process for app removals.
+
+Directs the Treasury and Commerce Secretaries to annually list countries with laws enabling government control over applications, making the list publicly available.
+
+Limits enforcement and regulatory authority to provisions explicitly stated in the Act.
+
+Authorizes the Attorney General to enforce compliance through civil action.
+
+---
+
+DOC_ID: 642
+Defines "process" as an operation, potentially automated, performed on "covered information" including collecting, disclosing, inferring, etc.
+
+Mandates obtaining "verifiable consent" from teenagers or parents before processing their data.
+
+Requires operators to minimize data collection and retain data only as necessary.
+
+Obligates transparency and the provision of a clear privacy policy detailing data practices.
+
+Prohibits targeted advertising and harmful data processing practices.
+
+Establishes rights for teenagers and parents to access, correct, and delete data.
+
+Imposes strict security measures for processing children's and teenagers' data.
+
+---
+
+DOC_ID: 643
+Mandates the Secretary of Homeland Security, through the CBP Innovation Team, to establish pilot projects within one year to test and assess technologies enhancing nonintrusive inspection systems at land ports of entry.
+
+Requires testing of at least five technology types, including artificial intelligence, machine learning, and quantum information sciences, to detect contraband, illegal drugs, and threats.
+
+Identifies effective enhancements based on detection accuracy, efficiency, integration capability, cost, safety, and mobility.
+
+Allows private sector input on commercially viable technologies.
+
+Sets termination of pilot projects five years post-enactment.
+
+Requires reporting to Congress within three years and after project termination, detailing effectiveness, recommendations, cost plans, and performance analysis of tested technologies.
+
+---
+
+DOC_ID: 644
+Expands sanctions under the Comprehensive Iran Sanctions, Accountability, and Divestment Act of 2010 to include unmanned aerial systems (UAS).
+
+Incorporates UAS under arms embargos of the Countering America’s Adversaries Through Sanctions Act and Iran-Iraq Arms Non-Proliferation Act of 1992.
+
+Requires the President to submit a strategy to counter Iran's UAS program including export controls of US materials, identification of actors supporting Iran's UAS program, assessment of compliance with such restrictions, and coordination with US allies in furtherance of these actions
+
+Mandates a report on support for Iran’s UAS program from domestic industries, individuals, or entities in Iran and related technology transfers to foreign actors, to be updated as necessary.
+
+---
+
+DOC_ID: 645
+Prohibits private passenger automobile insurers from considering certain factors, such as gender, education level, and ZIP Code, in determining insurance eligibility or rates.
+
+Requires insurers to submit information to the FTC within one year of enactment and biennially thereafter to demonstrate that their practices and algorithms do not disproportionately impact any customer group based on protected characteristics.
+
+Mandates public availability of underwriting rules and rate filings, disallowing them from being proprietary trade secrets.
+
+Exempts individuals from liability if they prove they maintained reasonable compliance procedures.
+
+Clarifies that using prohibited factors to influence insurance premiums constitutes a violation, affecting eligibility, rebates, discounts, and other policy terms.
+
+Preserves the authority of Federal and State agencies to enforce prohibitions against unfair or deceptive practices.
+
+---
+
+DOC_ID: 646
+Mandates the Comptroller General to conduct a technology assessment of wearable medical devices within 18 months of the Act's enactment.
+
+Requires the report to include an analysis of the devices' potential to accurately prescribe treatments.
+
+Examines the benefits and challenges of using artificial intelligence to augment wearable medical devices.
+
+Proposes policy options to enhance benefits and mitigate challenges in developing or using such devices.
+
+---
+
+DOC_ID: 647
+Mandates the Secretary, the Federal Trade Commission, and the Bureau of Consumer Financial Protection to jointly collect information on unfair practices in tenant and applicant screenings, including the use of algorithms.
+
+Requires the identification of practices that prevent access to or retention of rental housing, focusing on tenant background checks, adverse action notices, and tenant income sources.
+
+Obliges the submission of an annual report to Congress detailing the information collected under the program.
+
+---
+
+DOC_ID: 648
+Mandates the National Coordinator to Counter Antisemitism to conduct a study on online antisemitism, including Holocaust denial and distortion, within 180 days of the Act's enactment and annually for 10 years.
+
+Requires the study to analyze the prevalence of antisemitic content online.
+
+Recommends to Congress measures to counter online antisemitism, focusing on transparency in algorithmic systems, content moderation, enforcement of community standards, and accountability for individuals and platforms.
+
+Obligates the National Coordinator to submit the report to specific Senate and House committees.
+
+---
+
+DOC_ID: 649
+Mandates the Government Accountability Office (GAO) to study the impact of Sections 101(a) and 101(b) on employee coverage under the National Labor Relations Act, focusing on union formation and collective bargaining.
+
+Requires the study to analyze impacts on employee flexibility, compensation, grievance resolution, and technology use, including AI and algorithms.
+
+Directs the GAO to gather input from stakeholders, including business enterprises and labor organizations, consulting relevant congressional committees.
+
+Obliges the GAO to report its findings to the House and Senate committees six months after the study begins and make the report public.
+
+Instructs the President, after the report's release, to consider its findings and potentially recommend modifications to Sections 101(a) or 101(b) within 60 days.
+
+Expresses the House's intent to evaluate any presidential recommendations regarding the modifications.
+
+---
+

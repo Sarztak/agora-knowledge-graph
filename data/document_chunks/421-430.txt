@@ -1,0 +1,176 @@
+DOC_ID: 420
+Prohibits U.S. persons from engaging in certain transactions with entities associated with China that involve "prohibited technologies," focusing on national security concerns.
+
+Requires authorities to issue non-binding feedback on covered transactions and imposes civil penalties for violations.
+
+Mandates U.S. persons provide written notification within 30 days post-transaction involving "notifiable technologies."
+
+Establishes a process for identifying transactions lacking notifications and mandates confidentiality of submitted transaction information.
+
+Obliges the Secretary of the Treasury to annually report to Congress on enforcement actions, updates to prohibited technologies, and assessment of national security threats.
+
+Encourages multilateral engagement with U.S. allies to curb prohibited technology development/acquisition by countries of concern, including China.
+
+Potentially establishes a public database for identifying covered foreign persons involved in prohibited technologies.
+
+Exempts certain transactions deemed de minimis or in the national interest, and enables updates to prohibited or notifiable technologies to address national security needs.
+
+---
+
+DOC_ID: 421
+Establishes the Artificial Intelligence Safety Review Office to oversee national security risks from advanced AI, particularly chemical, biological, radiological, nuclear, and cyber threats.
+
+Mandates developers of AI models with significant computational power to report red-teaming and cybersecurity practices.
+
+Requires evaluations and pre-deployment reviews for AI models posing potential threats, overseen by an Under Secretary of Commerce for AI Safety.
+
+Orders creation of standards for know-your-customer protocols and red-teaming techniques to mitigate advanced AI risks.
+
+Permits the Attorney General to enforce compliance, with civil fines up to $1,000,000 daily and potential imprisonment for violations.
+
+Allocates $50,000,000 for implementing these measures to ensure AI advancements remain secure and beneficial for U.S. interests.
+
+---
+
+DOC_ID: 422
+Mandates financial regulators to submit reports within 180 days assessing the benefits and risks of AI in their sectors.
+
+Requires banking regulators to examine AI's role in banking operations, fraud detection, cybersecurity, and fair lending practices, with a focus on smaller and community financial institutions.
+
+Directs the Securities and Exchange Commission to explore AI's use in market research, portfolio management, and fraud detection in securities markets.
+
+Instructs housing and mortgage regulators to evaluate AI's impact on mortgage efficiency, credit decisions, and real estate practices, particularly for underserved communities.
+
+Requests the Treasury Department to report on AI's application in compliance with the Bank Secrecy Act, cybersecurity, and protection against national security threats.
+
+Mandates inclusion of legislative recommendations to responsibly adopt AI across these sectors.
+
+Requires public consultation to gather input for each report, involving self-regulatory organizations and relevant agencies.
+
+---
+
+DOC_ID: 423
+Mandates the Director of the National Institute of Standards and Technology to develop guidelines for evaluating the trustworthiness of AI systems within one year, covering models, data, and human-AI interactions.
+
+Requires periodic updates of these guidelines, addressing elements like safety, security, privacy, and bias, especially concerning protected classes under Federal law.
+
+Obliges Federal agencies to ensure new AI systems conform to guidelines before deployment and evaluate existing systems within two years to ensure compliance.
+
+Specifies designation of a Chief AI Officer in each Federal agency responsible for AI governance and guideline implementation.
+
+Requires transparency in labeling AI systems as compliant and mandates agencies to report noncompliance and barriers to Congress within specific timelines.
+
+Encourages collaboration with developers and stakeholders to verify elements of trustworthiness throughout the AI lifecycle. 
+
+Sets the guidelines' effective date as the trigger for these provisions.
+
+---
+
+DOC_ID: 424
+Mandates the imposition of sanctions on foreign persons engaged in China's defense, military-civil fusion, or surveillance technology sectors, effective 180 days post-enactment.
+
+Prohibits U.S. jurisdictional foreign exchange transactions involving sanctioned entities.
+
+Requires strict conditions or bans on U.S. accounts for foreign financial institutions conducting significant transactions with these entities.
+
+Obliges the President to respond to congressional queries regarding sanction eligibility within 30 days.
+
+Instructs the Secretary of the Treasury to annually assess sanction criteria compliance for specified entities and report to Congress.
+
+Encourages focus on sectors like AI, quantum tech, robotics, and others in sanction assessments.
+
+Implements penalties under the International Emergency Economic Powers Act for violations.
+
+Allows waiver of sanctions if deemed necessary for U.S. national security.
+
+Excludes intelligence, law enforcement, and humanitarian activities from sanctions.
+
+Sunsets authority to impose sanctions 7 years after enactment.
+
+---
+
+DOC_ID: 425
+Establishes a grant program under the amended Workforce Innovation and Opportunity Act for a workforce data quality initiative aimed at integrating and improving statewide longitudinal data systems.
+
+Requires the Secretary to allocate up to 10% of specific funds to eligible entities, mainly state agencies, for enhancing data integration from education and workforce systems to strengthen program quality.
+
+Mandates that eligible entities submit detailed applications describing proposed improvements, expected outcomes, and privacy measures.
+
+Prioritizes grants to entities with multistate collaboration or those focusing on advancing interoperable data, private partnerships, and real-time data reporting, especially concerning emerging technologies like AI.
+
+Permits grant use for developing state data systems, enhancing data standardization, and fostering data-driven decision-making.
+
+Specifies requirements for a maximum three-year grant duration, supplemental funding use, and post-grant reporting on achievements.
+
+Amends funding source provisions to include these new initiatives.
+
+---
+
+DOC_ID: 426
+Establishes research and extension grants for developing and evaluating the agricultural application of artificial intelligence.
+
+Emphasizes the use of AI to improve specialty crop production.
+
+Authorizes these initiatives under the amendments to the Food, Agriculture, Conservation, and Trade Act of 1990.
+
+Encourages research projects that focus on innovative methods and technologies enhancing agricultural efficiency.
+
+Places potential emphasis on mechanizing agricultural processes, though AI-specific focus is primarily on specialty crop production.
+
+---
+
+DOC_ID: 427
+Mandates the Department of Agriculture, Department of Energy, and National Science Foundation to conduct joint R&D activities.
+
+Requires establishing memoranda of understanding to coordinate efforts.
+
+Authorizes collaborative research in AI, machine learning, large-scale data analytics, and predictive analysis to optimize agricultural and rural energy systems.
+
+Facilitates development of methods for handling large data sets related to agriculture, environment, and supply chain.
+
+Promotes open data sharing and collaboration between federal agencies, labs, educational and nonprofit institutions, industry, and more, ensuring compliance with federal regulations.
+
+Supports infrastructure and workforce development for research identified as necessary by the involved agencies.
+
+Permits reimbursable agreements and collaborations with other federal agencies to enhance R&D effectiveness.
+
+Requires a report within two years detailing interagency coordination, achievements, future opportunities, and ongoing coordination efforts.
+
+Stipulates consistency with existing research security regulations.
+
+---
+
+DOC_ID: 428
+Establishes a pilot program for expediting patent applications related to critical and emerging technologies, including AI, microelectronics, and quantum information science.
+
+Requires the Director of the United States Patent and Trademark Office to expedite patent processing through petitions.
+
+Permits waiver of certain fees and requirements for accelerated examination processes.
+
+Limits eligibility to U.S.-based entities or inventors and restricts applications to original, nonprovisional patents.
+
+Terminates the program after issuing a patent within five years or upon accepting 10,000 applications, with a potential renewal for the same criteria.
+
+Mandates public availability of information regarding application numbers, acceptance, and issued patents on the Office's website.
+
+Requires a report to Congress assessing the pilot program's effectiveness post-termination, exempting this data collection from the Paperwork Reduction Act.
+
+---
+
+DOC_ID: 429
+Mandates the establishment of an atmospheric river forecast improvement program aimed at reducing loss of life and property due to atmospheric river events.
+
+Requires development of quantitative forecast metrics, incorporating machine learning and data assimilation for improved landfall predictions of atmospheric rivers and associated extreme weather conditions.
+
+Directs the enhancement of dynamic modeling systems to provide detailed forecasts, including snow accumulation and hydrological impacts.
+
+Encourages the integration of innovative observation technologies and AI methods to refine forecasting and improve water resource management.
+
+Supports atmospheric river reconnaissance efforts, ensuring data availability and integration into forecasting systems, and mandates the establishment of observatories along the U.S. West Coast.
+
+Focuses on improved communication and categorization of atmospheric river hazards to aid public understanding and preparedness.
+
+Obliges submission of a comprehensive program plan detailing research activities and resources within 270 days of enactment.
+
+---
+

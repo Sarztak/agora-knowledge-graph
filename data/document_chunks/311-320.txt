@@ -1,0 +1,107 @@
+DOC_ID: 310
+Instructs the Director of National Intelligence, in consultation with the Director of the Office of Management and Budget and other intelligence officials to maintain, develop, and annually revise various AI policies.
+
+Requires the establishment of a lexicon relating to machine learning and AI use by the intelligence community.
+
+Requires the establishment of guidelines for evaluating model performance by specifying conditions for AI capability monitoring, documenting performance objectives, specifying model auditing processes, and specifying conditions for vulnerability testing and privacy evaluations.
+
+Requires the establishment of guidelines for tracking dependencies in related systems, documentation requirements for capabilities procured from third-party and training data usage, and guidance on the usage of third-party-trained models.
+
+---
+
+DOC_ID: 311
+Directs the Under Secretary of Defense for Acquisition and Sustainment to establish a pilot program enhancing the analysis, mapping, and monitoring of supply chains for covered weapons platforms using artificial intelligence and machine learning tools.
+
+Requires the Under Secretary to submit an annual report (until 2028) that specifies the vulnerabilities of the supply chains and the efficiencies achieved through using the new tools.
+
+---
+
+DOC_ID: 312
+Requires the Secretary of Defense in coordination with military leaders to develop streamlined requirements of development processes for the Department of Defense, in order to modernize war fighting technology and reduce the time needed to deliver capabilities to warfighters.
+
+Requires revisions to requirements management practices that maximizes the use of commercial products or services and allow for a broader range of new or alternative technological opportunities to be incorporated without the requirement being validated again.
+
+Establishes a process to rapidly validate the ability of commercial products and services to meet capability needs or opportunities.
+
+Requires retiring and replacing the Department of Defense Architecture Framework with a new structure focused on enabling interoperability  through application program interfaces, enterprise architectures and platforms, and government and commercial standards.
+
+Requires the secretary to develop a formal career path, training, and structure for requirements managers.
+
+Establishes the required processes for software, artificial intelligence, data, and related capability areas to be more rapid and iterative than the requirements processes for traditional hardware systems.
+
+Requires the Vice Chairman of the Joint Chiefs of Staff to collaborate with industry partners, contractors, and Department of Defense science and technology reinvention laboratories in designing the new requirements development process.
+
+Requires the Secretary of Defense to submit to the congressional defense committees an interim report and a final report on the development and implementation of the new requirements development process.
+
+---
+
+DOC_ID: 313
+Requires officials from the Department of Defense -- namely the Principal Cyber Advisor to the Secretary of Defense, the Chief Information Officer of the Department of Defense, the Director of Operational Test and Evaluation, and the Commander of the United States Cyber Command -- to assess the status of the implementation of recommendations made by the Secretary of Defense to enhance the capabilities of the Department of Defense's cyber red teams.
+
+Requires the same officials listed above to submit to Congress a plan for ensuring that the Department's cyber red teams possess the capabilities necessary to execute their duties, including with respect to threats stemming from artificial intelligence systems abroad.
+
+Requires the Director of Operational Test and Evaluation to evaluate annually, from 2025 through 2031, the status of the implementation of the plan described in the paragraph above. 
+
+---
+
+DOC_ID: 314
+Requires the Director of National Intelligence, acting through the Director of the Intelligence Advanced Research Projects Activity, to establish or oversee a program to advance microelectronics research. 
+
+Requires the program described above to focus on applications in artificial intelligence, advanced computing, advanced computing materials, optical communication networks, quantum technologies, or other emerging technologies. 
+
+Requires the Director of National Intelligence to consider a variety of factors when crafting the research program, including input from the Secretary of Commerce and from an array of stakeholders including representatives of industry and academia.
+
+Requires the Director of the Intelligence Advanced Research Projects Activity to brief the congressional intelligence, appropriations, and commerce committees on the progress of the research program described above and recommendations for future research priorities. 
+
+---
+
+DOC_ID: 315
+Submit goals for Next Generation Air Dominance and Collaborative Combat Aircraft programs to congressional defense committees and the Comptroller General concurrent with the President's budget submission. Include key milestones, testing events, and performance goals, subdivided into six-month increments. 
+
+Provide information on technology readiness levels, design maturity, software maturity, integration maturity, manufacturing readiness levels, reliability, availability for flight operations, and maintainability.
+
+Provide updates on progress and cost estimates for the program every 6 months. It details progress made toward the goals identified in the matrices and provides updated cost estimates for air vehicles, propulsion, mission systems, software, program management, system test and evaluation, support and training systems, and more.
+
+Develop key performance parameters (cost KPPs) for cost thresholds and objectives for the programs. Specify threshold and objective values for categories such as unit recurring flyaway cost, average procurement unit cost, gross/weapon system unit cost, aircraft cost-per-tail-per-year, and aircraft cost-per-flight-hour. 
+
+Ensure that each Secretary concerned works on these parameters for the respective programs and includes them in the related documents.
+
+Ensure assessment of the sufficiency of matrices by the Comptroller General, who will review them and submit assessments to congressional defense committees, identifying any cost, schedule, or performance trends.
+
+---
+
+DOC_ID: 316
+Requires the Secretary of Commerce to submit to the congressional science committees a report on the resources necessary for the National Oceanic and Atmospheric Administration to invest in emerging technologies that improve weather forecasting.
+
+Permits the 53rd Weather Reconnaissance Squadron of the Air Force Reserve Command and the Administrator of the National Oceanic and Atmospheric Administration to use aircraft, personnel, and equipment necessary to improve the accuracy and efficacy of weather monitoring and water management, including through advanced technological methods.
+
+Instructs the Squadron to use autonomous platform observations to improve water management decision-making and flood forecasting, if it uses the resources named in the above paragraph.
+
+Requires the Secretary of the Air Force to submit to the appropriate congressional committees a report on the resources used and required by the Air Force and the National Oceanic and Atmospheric Administration to improve weather monitoring and water management. 
+
+
+---
+
+DOC_ID: 317
+Requires the Secretary of Defense to brief the congressional defense committees on the nature and purpose of any modifications to Department of Defense Directive 300.09, which relates to autonomy in weapons systems, within 30 days of making the modifications.
+
+---
+
+DOC_ID: 318
+Requires leaders of the Army, Navy, Air Force, Marine Corps, and Space Operations to evaluate their ability to conduct electromagnetic spectrum operations. The evaluation should include the need for AI-assisted operations.
+
+---
+
+DOC_ID: 319
+Creates a new Office of Strategic Capital in the Department of Defense.
+
+Directs the new Office to invest in companies developing critical technologies, including autonomous robots, that may benefit the Department of Defense. 
+
+Permits the Office to launch a pilot program for providing capital assistance that supports the defense industrial base. 
+
+Requires the Office's investments to meet certain criteria, including restrictions on interest rates and loan repayment periods as well as requirements for non-Federal investments in selected companies, subject to various exceptions. 
+
+Requires the Secretary of Defense to submit to the congressional defense committees an annual report on the Office's activities, in addition to notifying the congressional defense committees whenever it provides capital assistance. 
+
+---
+

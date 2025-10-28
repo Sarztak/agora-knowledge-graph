@@ -1,0 +1,142 @@
+DOC_ID: 680
+Establishes the National Advisory Committee on Autonomous Maritime Systems.
+
+Advises the Secretary on regulation and use of Autonomous Systems within U.S. territorial waters.
+
+Comprises 9 members appointed by the Secretary with relevant expertise.
+
+Ensures representation from various groups, including marine safety, vessel design, unmanned vehicle production, port authorities, vessel operators, labor unions, maritime pilots, commercial space operators, and academic institutions.
+
+Mandates establishment of the Committee within 90 days post-enactment.
+
+---
+
+DOC_ID: 681
+Prohibits entities from distributing, maintaining, or updating foreign adversary controlled applications within the U.S.
+
+Requires data portability for users before prohibitions apply, enabling users to access their data in a machine-readable format.
+
+Exempts applications undergoing "qualified divestiture" from prohibitions.
+
+Enforces penalties up to $5,000 per user for distribution violations and $500 per user for data portability violations.
+
+Mandates the Attorney General to investigate and enforce compliance through civil penalties or court actions.
+
+Defines "foreign adversary controlled applications" and "qualified divestiture" to ensure clarity in application and exemptions.
+
+Grants judicial review exclusively to the U.S. Court of Appeals for the District of Columbia Circuit, with specified time limits for challenges.
+
+---
+
+DOC_ID: 682
+Promotes United States leadership in developing standards for precision agriculture.
+
+Mandates the Secretary to develop voluntary, consensus-based interconnectivity standards for precision agriculture within two years.
+
+Requires consultation with NIST, FCC, public, and private stakeholders, including voluntary consensus standards development organizations.
+
+Considers the impact of advanced wireless communications technology and artificial intelligence on precision agriculture.
+
+Addresses cybersecurity challenges and connectivity needs of precision agriculture technology.
+
+Directs the Comptroller General to assess the developed standards one year after implementation and biennially for eight years.
+
+Obligates the Comptroller General to report findings to relevant Senate and House committees.
+
+---
+
+DOC_ID: 683
+Prohibits U.S. persons from engaging in transactions involving sensitive personal data with entities subject to Chinese influence.
+
+Requires the President to impose sanctions on foreign persons dealing in connected software applications under Chinese control, facilitating military, espionage, or malicious cyber activities.
+
+Mandates sanctions for foreign persons involved in election interference against the U.S. or its allies, or influencing U.S. policy in favor of China.
+
+Directs the President to determine and report on whether entities like ByteDance and TikTok meet criteria for sanctions.
+
+Empowers the President to block all transactions involving property of sanctioned foreign persons within U.S. jurisdiction.
+
+Allows the President to waive sanctions on a case-by-case basis if vital to U.S. national security interests.
+
+Terminates the section's authorities five years after enactment.
+
+---
+
+DOC_ID: 684
+Requires companies to obtain informed consent from consumers before using their data to train AI systems.
+
+Requires companies to explain clearly and concisely how consumer data will be used for AI training.
+
+Mandates disclosure of further data usage, including transfers to third-party entities.
+
+Directs the FTC to issue a report on the progress of converting covered data to de-identified data (for Congress' evaluation).
+
+Treats violations as unfair or deceptive acts under the Federal Trade Commission Act and subjects violators to penalties.
+
+---
+
+DOC_ID: 685
+Establishes an Office of Technology for Peace within the Department, headed by the Assistant Secretary for Technology for Peace.
+
+Tasks the Assistant Secretary with overseeing awareness, study, and ethical implications of technologies, including artificial intelligence, on domestic and international peace.
+
+Mandates the dissemination of applicable policies and research in consultation with the Department of State.
+
+Requires the Assistant Secretary to provide grants for technologies in transportation, communications, agriculture, medicine, and energy that are nonviolent.
+
+Encourages grants that promote conservation and sustainability of natural resources to prevent future conflicts.
+
+Promotes the development of a green, peaceful economy through these grants.
+
+---
+
+DOC_ID: 686
+Establishes the Export Enforcement Coordination Center within the Department of Homeland Security to coordinate export enforcement among various federal departments and agencies.
+
+Focuses the Center's efforts on sensitive technologies, including advanced artificial intelligence capabilities, semiconductors, and quantum technology.
+
+Designates the Center as the primary forum for coordinating efforts against unlawful transshipment and diversion of exports, particularly to countries like China, Russia, Iran, and North Korea.
+
+Requires the Center to develop best practices and disseminate actionable information to the private sector about export control risks.
+
+Mandates the submission of reports to Congress on the value and logistics of posting U.S. and foreign law enforcement officials to enhance export control enforcement. 
+
+Authorizes $25,000,000 for the establishment of the Center for fiscal year 2025.
+
+---
+
+DOC_ID: 687
+Requires the President to impose sanctions on foreign persons engaged in significant operations in China's defense or surveillance technology sectors.
+
+Focuses particular attention on foreign persons engaged in AI, machine learning, robotics, quantum information science, and other advanced technologies.
+
+Utilizes the International Emergency Economic Powers Act to block and prohibit transactions involving sanctioned foreign persons' property within U.S. jurisdiction.
+
+---
+
+DOC_ID: 688
+Requires the Secretary of the Treasury, Secretary of Homeland Security, and Secretary of Commerce to submit a joint report to Congress on the risks of use of AI in financial crimes, including fraud and misinformation, within 180 days of enactment and annually thereafter.
+
+Mandates the inclusion in the report of interagency policies, procedures, and resources needed to defend against AI-driven financial crimes.
+
+Directs the report to include the consideration of risks such as deepfakes, voice cloning, foreign election interference, synthetic identities, false market signals, and overall digital fraud.
+
+Requires the subsequent submission of legislative recommendations and best practices to address risks identified within 90 days of each report.
+
+---
+
+DOC_ID: 689
+Mandates federal agencies to use AI to adapt to extreme weather, improving weather forecasts, electrical grid resilience, resource deployment, and public-private partnerships.
+
+Requires NOAA to develop and curate an Earth system reanalysis dataset, build on existing datasets, and develop AI weather models.
+
+Directs NOAA to explore advanced AI applications for weather forecasting, including data assimilation and model emulation.
+
+Tasks NOAA with providing technical assistance on AI weather models and developing best practices and public datasets.
+
+Establishes programs using AI for wildfire detection, emissions monitoring, and illegal wood product tracking, requiring dataset curation and public access to AI code and data.
+
+Instructs the Department of Energy to optimize energy grids using AI, develop environmental review documents, and ensure public access to AI models and training datasets, while protecting national security interests.
+
+---
+

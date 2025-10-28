@@ -1,0 +1,172 @@
+DOC_ID: 220
+Establishes federal civilian agency laboratories for AI testing and certification under the Secretary of Homeland Security through FEMA.
+
+Mandates development of AI training and testing centers to evaluate AI systems for federal use, prioritizing privacy, transparency, accountability, and protection of individual rights.
+
+Prohibits automated decision-making that threatens due process and constitutional rights.
+
+Requires real-world use cases to inform AI system outcomes in federal settings, ensuring no personal data is used.
+
+Creates a digital repository for use cases, ensuring Federal agencies can train and test AI systems appropriately.
+
+Establishes an Office of Artificial Intelligence Incident Reporting within the Department of Homeland Security for agency collaboration and reporting on AI experiences.
+
+Requires biannual reports from DHS to Congress on implementation, challenges, and resource needs, and agency reports on adverse AI experiences.
+
+Authorizes $20 billion in appropriations to implement these measures.
+
+---
+
+DOC_ID: 221
+Aims to harness AI for public good and position Singapore as a leader in AI innovation. 
+
+Sets two primary goals: achieving excellence in AI to maximize value creation and empowering communities to use AI with confidence. 
+
+Outlines a focus on three systems: Activity Drivers, People & Communities, and Infrastructure & Environment, supported by 10 enablers. 
+
+Plans to establish AI Centers of Excellence, strengthen the AI start-up ecosystem, and drive public sector AI adoption. 
+
+Aims to attract global AI talent and boost its AI practitioner pool to support AI demand. 
+
+Emphasizes building a trusted AI environment through updated regulatory frameworks, security measures, and international collaboration. 
+
+Seeks to enhance data management and privacy technologies for responsible AI development and position Singapore as a global AI governance leader.
+
+Encourages making more public sector data available for AI development that serves the Public Good.
+
+---
+
+DOC_ID: 222
+Requires the Administrator of the Federal Aviation Administration to leverage big data analytics and machine learning in reviewing requests for certificates of waiver under section 107.200 of title 14, Code of Federal Regulations.Adopts a performance- and risk-based approach for reviewing waiver requests under section 107.200 of title 14, CFR.
+
+Improves the waiver application process and prohibits the use of open-ended descriptive prompts, except for unusual or irregular operations.
+
+Leverages data, including big data analytics and machine learning, from previous waiver requests.
+
+Requires consideration of control over access to real property within the operation area and recognizes safety enhancements from such control.
+
+Publishes all issued certificates of waiver on the FAA website, including terms, conditions, limitations, and airspace class, while protecting proprietary information.
+
+Allows streamlined approval for waiver applications substantially similar to previously approved ones.
+
+Establishes an expedited review process for modifying or renewing previously issued waivers.
+
+---
+
+DOC_ID: 223
+Proposes a voluntary code of practice for generative AI systems in Canada to ensure safety, security, and trust ahead of binding regulation.
+
+Requires developers, deployers, and operators to identify and prevent malicious and inappropriate uses, mitigating safety risks of AI systems throughout their lifecycle.
+
+Mandates assessment and curation of datasets to avoid biases and ensure fairness.
+
+Emphasizes transparency through methods like watermarking AI-generated content and explaining system development processes.
+
+Encourages human oversight and monitoring, including mechanisms to report adverse impacts and routine model updates.
+
+Calls for accountability with internal governance, independent audits, and defined roles and responsibilities.
+
+---
+
+DOC_ID: 224
+Directs the Secretary of Defense to establish the Five AIs Strategic Artificial Intelligence Working Group to develop and coordinate AI initiatives among Five Eyes countries. 
+
+Outlines the organization of the working group, designating a senior civilian or military officer as head, and encouraging participation of Five Eyes Intelligence Oversight and Review Council members. 
+
+Tasks the working group with comparing AI systems, identifying interoperability solutions, and testing AI model redundancy.
+
+Instructs the development of shared strategies for AI research, development, and data management.
+
+Requires the submission of a plan for the establishment and activities of the working group within 60 days and biannual reports to congressional committees.
+
+---
+
+DOC_ID: 225
+Creates the Governor’s Task Force on Workforce and Artificial Intelligence, chaired by the Secretary of the Department of Workforce Development or a designee.
+
+Appoints additional members from key state departments, educational institutions, and other stakeholders, as determined by the Governor.
+
+Instructs the Task Force to gather and analyze information to produce an advisory action plan for the Governor.
+
+Requires the plan to assess generative AI’s impact on Wisconsin’s labor market, predict future impacts, and identify effects on key industries and skillsets.
+
+Explores initiatives to advance equity and economic opportunity related to AI-driven changes.
+
+Recommends solutions, including policy changes in workforce development and education, based on identified impacts.
+
+Attaches the Task Force to the Department of Workforce Development.
+
+---
+
+DOC_ID: 226
+Establishes a study commission named the "Commission on Artificial Intelligence Development" to review and analyze the City and County's current use of artificial intelligence.
+
+Requires the commission to gather insights from AI experts, industry leaders, and community members on future AI applications to improve city services.
+
+Mandates the commission to recommend policies for trustworthy and transparent AI usage to the Mayor and City-County Council.
+
+Directs the commission to suggest modifications or new ordinances for AI usage.
+
+Composes the commission of nine members, including Councillors, IT directors, and citizen members, all residents of Marion County.
+
+Requires city departments to share information and cooperate with the commission.
+
+Obligates the commission to present a final report by the July 2024 meeting, available on the City’s website.
+
+Initiates operations as soon as practical and outlines a meeting and research timeline. 
+
+Permits public comment under commission-devised rules.
+
+---
+
+DOC_ID: 227
+Mandates the Department of Labor to begin a study on the long-term impact of artificial intelligence on the state workforce within six months.
+
+Requires consultation with the Department of Civil Service and the Office of Information Technology Services.
+
+Calls for examination of job performance, productivity, training, education requirements, privacy, and security.
+
+Obligates the Department of Labor to issue an interim report every five years and a final report by January 1, 2035, with recommendations for legislative action.
+
+Prohibits all state departments and governmental entities from using AI to displace any natural person from their employment until the final report and recommendations are received.
+
+Ensures immediate effect upon enactment.
+
+---
+
+DOC_ID: 228
+Prohibits the use of facial recognition technology and biometric recognition programs in video-lottery terminals and online betting applications.
+
+Prohibits the use of algorithmic programs that modify gaming based on a consumer's betting history to increase wagers.
+
+Prohibits the use of artificial intelligence or automated decision systems to promote increased play through intermittent reinforcement based on cognitive-behavioral algorithms and prior gaming data.
+
+Applies these prohibitions to sports betting applications and vendors of gambling products licensed by Rhode Island.
+
+Excludes standardized rewards programs from these prohibitions.
+
+Takes effect upon passage.
+
+---
+
+DOC_ID: 229
+Directs the Joint State Government Commission to establish an advisory committee to study artificial intelligence's impact in Pennsylvania.
+
+Mandates an assessment of AI development and use, including benefits, risks, and fiscal impacts on the state.
+
+Proposes legislation for state AI regulation and a definition for AI.
+
+Recommends evaluating AI's effects on students' academic performance and addressing AI-driven disinformation.
+
+Urges studying potential job displacement due to AI automation and assessing implications for organized labor.
+
+Calls for a proposal on ethical and responsible AI development in Pennsylvania.
+
+Advises considering the creation of a permanent commission for AI study.
+
+Allows the Joint State Government Commission to request information from state agencies for the study.
+
+Requires a report with findings and recommendations within 18 months to various governmental leaders and committees.
+
+---
+

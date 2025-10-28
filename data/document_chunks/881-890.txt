@@ -1,0 +1,193 @@
+DOC_ID: 880
+Affirms the need for AI to be developed and used safely, human-centrically, and responsibly.
+
+Recognizes AI's transformative potential in public sectors like health and education while addressing risks such as disinformation and misuse.
+
+Welcomes international cooperation to tackle AI risks, emphasizing transparency, fairness, accountability, and human rights protection.
+
+Identifies particular risks with frontier AI, including potential catastrophic harm and manipulation of content.
+
+Resolves to intensify cooperation on AI safety, especially regarding frontier AI, through international collaboration and future AI Safety Summits.
+
+Encourages actors, including nations and companies, to ensure AI safety through testing and monitoring harmful capabilities.
+
+Calls for building risk-based policies and enhancing AI capacity in developing countries.
+
+Supports an international network of scientific research on AI safety and sustains a global dialogue to harness AI benefits responsibly.
+
+Commits to further meetings and cooperation to address AI governance, involving countries like the US, EU, China, and others.
+
+---
+
+DOC_ID: 881
+Specifies safety requirements for generative AI services in China, focusing on corpus safety, model safety, and safety measures.
+
+Applies to service providers conducting safety assessments and the main oversight department for evaluating generative AI services' safety levels.
+
+Mandates safety assessments and reporting, adherence to cybersecurity, data security, and personal information protection laws.
+
+Requires corpus source safety management, verification, and traceability, including avoiding illegal content and ensuring intellectual property rights compliance.
+
+Demands annotators follow strict training and rule adherence for data annotation and review.
+
+Stipulates model safety, including foundation model registration, content safety monitoring, and ensuring generated content accuracy and reliability.
+
+Outlines safety measures for service transparency, user data collection, and complaint handling.
+
+Imposes rigorous safety assessment procedures and compliance for corpus, generated content, and question refusal rates.
+
+---
+
+DOC_ID: 882
+Promotes the high-quality development of the AI industry in the municipality by integrating AI with the economy, everyday life, and urban governance.
+
+Defines AI as systems using computers to simulate and expand human intelligence and specifies the AI industry including software and hardware development and application.
+
+Applies regulations to AI-related activities such as innovation, development, and governance within the municipality.
+
+Mandates the Municipal People's Government to lead AI development and integrate AI plans into national economic plans.
+
+Establishes a Municipal Artificial Intelligence Strategy Advisory Expert Committee for strategic advice on AI industry development.
+
+Encourages innovation by citizens and organizations and explores a negative checklist for AI activities.
+
+Supports international cooperation and participation in AI governance.
+
+Encourages AI infrastructure development, including compute resources and big data centers.
+
+Supports algorithm innovation and promotes the trading of algorithm models.
+
+Strengthens AI talent cultivation and promotes AI technology standardization and intellectual property protection.
+
+Implements regulatory measures for AI products, emphasizing ethics and security compliance.
+
+---
+
+DOC_ID: 883
+Clarifies that 52 U.S.C. 30124 and 11 CFR 110.16 apply to fraudulent misrepresentation in federal election campaigns, regardless of the technology used, including AI.
+
+Emphasizes that the statute is technology neutral and covers AI-assisted media, forged signatures, and other means of fraudulent activity.
+
+States that the legal focus is on whether individuals fraudulently represent themselves as acting for a candidate or political party.
+
+Announces that this interpretation will guide the Commission's future actions concerning evolving technologies.
+
+Specifies that this interpretive rule does not require notice and comment procedures, nor does it bind the Commission or public.
+
+Excludes the applicability of the Regulatory Flexibility Act, as the interpretive rule does not involve binding agency action.
+
+---
+
+DOC_ID: 884
+Develop advanced AI computational infrastructure and adopt measures to attract top technical talent to work in the United States to ensure innovation and technological superiority in AI.
+
+Instructs relevant agencies to protect AI intellectual property from foreign threats. 
+
+Issue guidance on testing and evaluating frontier foundational AI systems to manage safety and security risks.
+
+Directs national security institutions to harness AI to advance national security objectives through clear policies, strategies and coordination, while safeguarding human rights, civil liberties, and privacy.
+
+Produce a strategy for the advancement of international AI governance norms in line with safe, secure, and trustworthy AI, and democratic values.
+
+Requires covered agencies to appoint Chief AI Officer to managing risks and opportunities of AI
+
+Requires the formation of an interagency National Security Coordination Group to harmonize polices related to AI in National Security 
+
+
+
+
+---
+
+DOC_ID: 885
+Mandates agencies to identify prohibited and high-impact AI use cases, emphasizing risks to national security, human rights, and civil liberties. 
+
+Restricts the use of AI whose output serves as the primary basis for decisions that could pose significant risks to human rights or national security, unless accompanied by human oversight.
+
+Requires agencies to conduct risk assessments and implement minimum risk management practices for high-impact AI uses, ensuring human oversight and accountability.
+
+Mandates annual inventories of high-impact AI use cases and establishes data management policies prioritizing AI systems.
+
+Obligates agencies to appoint Chief AI Officers and establish AI Governance Boards to oversee AI activities and compliance. 
+
+Stipulates standardized training for responsible AI use and development, ensuring accountability and documentation.
+
+Allows waivers for certain risk management practices under strict conditions and oversight.
+
+Ensures transparency and public trust through periodic reporting on AI oversight activities, with unclassified information made publicly available where possible.
+
+---
+
+DOC_ID: 886
+Amends the title of statute 11.1303 to include synthetic media in political contexts.
+
+Defines "synthetic media" as audio or video content substantially produced by generative AI.
+
+Mandates disclosure in audio communications with synthetic media, stating "Contains content generated by AI" at the start and end.
+
+Requires video communications with synthetic media to display readable notices throughout, indicating AI-generated content.
+
+Authorizes the commission to implement rules, including possible exceptions to disclosure requirements.
+
+Specifies that compliance does not exempt from other civil or criminal liabilities.
+
+Establishes penalties up to $1,000 for intentional violations of disclosure requirements.
+
+Exempts broadcasters from liability unless they are responsible committees.
+
+Clarifies that the act does not alter the rights or obligations under 47 USC 230.
+
+Applies disclosure requirements to communications created on or after the act's effective date.
+
+---
+
+DOC_ID: 887
+Establishes the West Virginia Task Force on Artificial Intelligence within the Office of the Governor. 
+
+Specifies membership including representatives from government, industry, education, and health sectors, appointed by various authorities. 
+
+Charges the Task Force with responsibilities such as recommending AI definitions for legislation, identifying relevant state agencies for AI policy oversight, and developing best practices for public sector AI use. 
+
+Mandates recommendations on AI's impact on employment, protecting individual rights and data, and addressing AI use in education. 
+
+Requires the Task Force to assess current AI use in state agencies and consider extending its mandate to keep pace with AI advancements. 
+
+Obligates submission of a comprehensive report by July 1, 2025, after which the Task Force terminates. 
+
+Requires initial appointments within 90 days and quarterly meetings, with administrative support provided by the Office of Technology.
+
+---
+
+DOC_ID: 888
+Prohibits the distribution of materially deceptive media produced by artificial intelligence within 90 days of an election if intended to harm a candidate's reputation or alter voting behavior.
+
+Exempts media with a clear disclaimer that it has been manipulated and includes a citation to the original source.
+
+Classifies violations as a misdemeanor for the first offense and a felony for subsequent offenses within five years.
+
+Allows the attorney general, affected individuals, candidates, or voter organizations to seek permanent injunctive relief in certain courts.
+
+Requires that injunctive relief complaints be non-frivolous and supported by clear and convincing evidence.
+
+Defines "materially deceptive media" as AI-generated content that falsely depicts individuals in misleading ways.
+
+Conditions the act's effectiveness on the enactment of House Bill No. 5143.
+
+---
+
+DOC_ID: 889
+Amends the Campaign Reporting Act to require disclaimers on advertisements containing materially deceptive media created through artificial intelligence (AI).
+
+Defines "materially deceptive media" as content using AI to falsely depict individuals without consent.
+
+Mandates disclaimers stating the content is AI-manipulated, specifying whether it is an image, video, or audio.
+
+Prohibits the distribution of materially deceptive media within 90 days before an election if intended to mislead voters, unless accompanied by the required disclaimer.
+
+Establishes penalties for violations: a misdemeanor for a first offense and a fourth-degree felony for subsequent offenses.
+
+Allows enforcement and injunctive relief by the attorney general, district attorneys, affected individuals, candidates, or organizations representing voters' interests.
+
+Excludes certain media types from disclaimer requirements and clarifies non-violation conditions for broadcasting stations and distribution platforms.
+
+---
+

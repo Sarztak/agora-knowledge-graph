@@ -1,0 +1,138 @@
+DOC_ID: 710
+Amends the Communications Act of 1934 to extend E-rate support to local parks, allowing them to access discounted telecommunications services for technology training programs.
+
+Requires the creation of internet safety regulations for parks receiving such services to ensure cybersecurity standards similar to those for schools and libraries.
+
+Mandates the Secretary of Labor to initiate a grant program for technology training directed towards needy families in local parks, focusing on topics like artificial intelligence, cybersecurity, and web development.
+
+Limits grant coverage to 10% of the training programs' operating costs and to a duration of no longer than two years.
+
+---
+
+DOC_ID: 711
+Prohibits developers and deployers from using AI to intentionally deceive or defraud individuals of their voting rights in federal, state, or local elections.
+
+Requires election-related AI-generated content to include disclaimers, informing the public that the content was created using AI.
+
+Mandates developers to provide mechanisms ensuring such disclaimers are permanent or difficult to remove.
+
+Directs the Federal Trade Commission (FTC) to issue regulations on disclaimer requirements and enforce compliance.
+
+Obliges developers and deployers to ensure their algorithms meet safety and efficiency standards as outlined. 
+
+---
+
+DOC_ID: 712
+Requires the Administrator of the Office of Electronic Government of the Office of Management and Budget, in consultation with various federal actors, to research a technology-based solution to reform the classification system employed by the federal government.
+
+Requires a submission of recommendations to the President.
+
+Mandates the President to submit a report on technology-based solutions to Congress no later than 540 days after the date of the enactment of this Act.
+
+---
+
+DOC_ID: 713
+Amends the National Institute of Standards and Technology Act to mandate the development and dissemination of AI resources for small businesses.
+
+Requires these resources to include technical standards, best practices, benchmarks, methodologies, and case studies, ensuring they are widely applicable and technology-neutral.
+
+Mandates that resources promote understanding and adoption of AI, adhere to international standards, and incorporate federal educational resources.
+
+Obligates the Director to review and update these resources every two years.
+
+Coordinates with the Small Business Administration for the distribution and utilization of AI resources through its partners, emphasizing voluntary use.
+
+Compels a report to Congress within four years, detailing resources, feedback, and recommendations for enhancing AI utilization by small businesses.
+
+---
+
+DOC_ID: 714
+Establishes the Chief Artificial Intelligence Officers Council to promote AI innovation, oversee compliance, and advise on best practices for AI technologies.
+
+Requires each agency to designate a Chief Artificial Intelligence Officer responsible for promoting AI use, managing risks, and ensuring transparency and privacy.
+
+Mandates the creation of Artificial Intelligence Coordination Boards within agencies to address AI issues and publish guiding principles and goals.
+
+Directs agencies to develop an AI strategy focused on responsible and trustworthy adoption, public trust, risk mitigation, and interagency coordination.
+
+Requires the Comptroller General to report on the effectiveness of AI Coordination Boards, evaluate Chief AI Officers, and assess AI costs, benefits, and risks, including job impacts.
+
+Directs the Office of Management and Budget Director to issue updated AI governance guidance within five years.
+
+---
+
+DOC_ID: 715
+Amends the Research and Development, Competition, and Innovation Act to include best practices and technical standards for managing risks in engineering biology and biomanufacturing, specifically addressing artificial intelligence.
+
+Requires the Director, in consultation with Federal agencies, to conduct measurement research supporting biosecurity measures related to nucleic acid synthesis.
+
+Mandates testing to improve screening accuracy, efficacy, and reliability, along with best practices for operational security and database management.
+
+Directs the development of technical guidance for effective and secure screening and conformity-assessment standards.
+
+Establishes a consortium of stakeholders to develop and update best practices and roadmaps for synthetic nucleic acid procurement screening.
+
+Requires the consortium to report its findings to Congress within 18 months of its first meeting.
+
+Authorizes $5,000,000 annually for fiscal years 2025 through 2029 for scientific and technical research activities under this initiative.
+
+---
+
+DOC_ID: 716
+Directs the Secretary of Commerce to develop a national strategy and and conduct a public service campaign to enhance artificial intelligence consumer literacy.
+
+Requires the strategy to promote understanding of AI capabilities and limitations, and support informed decisions on AI use.
+
+Instructs the Secretary to coordinate with various federal agencies, local governments, and private organizations to ensure comprehensive strategy development.
+
+Requires the creation of specialized use cases for AI literacy in domains like healthcare, finance, and communication.
+ 
+Mandates the dissemination of educational materials through multiple communication channels, including a dedicated website, and requires periodic updates to these materials.
+
+Obliges the Government Accountability Office to report on existing federal AI literacy programs and the Secretary to annually report on the strategy's progress and effectiveness.
+
+Authorizes necessary appropriations for fiscal years 2025 through 2034 to implement the Act's activities.
+
+---
+
+DOC_ID: 717
+Mandates the Secretary of Defense to submit a strategy to Congress within 180 days to enhance cooperation with Middle Eastern allies using partner-sharing network capabilities for joint defense.
+
+Requires the strategy to include a summary of ongoing efforts, challenges, and recommended actions for implementing joint partner-sharing networks.
+
+Directs the Chief Data and Artificial Intelligence Officer of the Department of Defense to establish a forum for warfighters to coordinate on AI tools, methodologies, and training within 180 days.
+
+Specifies that the forum should identify AI use cases, categorize risks, and prioritize AI tools while considering training shortfalls and opportunities for cooperation with allies.
+
+Obligates the Secretary of Defense to report progress on the forum's establishment and recommend legislative actions to Congress within one year.
+
+---
+
+DOC_ID: 718
+Amends the Federal Election Campaign Act to require disclaimers on political advertisements containing content generated by AI.
+
+Outlines requirements for clear disclosure in ads using AI-generated images, audio, or video, specifying format requirements for visibility and audibility.
+
+Imposes penalties for non-compliance, with fines up to $50,000 per violation, and establishes enforcement mechanisms.
+
+Obliges the Federal Election Commission to issue regulations within 90 days, outlining criteria for AI content identification and disclosure requirements.
+
+Requires the FEC to report biannually on compliance and enforcement, providing recommendations for improvements.
+
+---
+
+DOC_ID: 719
+Mandates the Secretary of Energy to evaluate the U.S. nuclear supply chain within 270 days, including past efforts, future needs, and lessons from projects like Vogtle 3 and 4.
+
+Analyzes regulatory challenges, including the necessity of N-stamps for nuclear components, cost implications, and potential certification streamlining.
+
+Considers advanced manufacturing and innovative technologies like AI, 3D printing, and robotics for enhancing the nuclear supply chain, with attention to cybersecurity, efficiency, and workforce training.
+
+Describes U.S.-Canada cooperation on nuclear components, assessing competitiveness and recommending collaboration to enhance North American nuclear leadership.
+
+Assesses the impact of anticipated demand for advanced nuclear technology on the supply chain, proposing strategies for resilience.
+
+Establishes U.S. policy to prioritize a robust HALEU market to strengthen energy independence and national security, addressing risks associated with increased nuclear technology demand.
+
+---
+

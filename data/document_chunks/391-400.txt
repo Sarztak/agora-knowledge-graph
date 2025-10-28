@@ -1,0 +1,107 @@
+DOC_ID: 390
+Defines "smart manufacturing" as advanced technologies in artificial intelligence, computation, and modeling that streamline manufacturing production lines.
+
+Directs the Secretary of Energy the conduct a study on how to increase access to the computing facilities of the National Laboratories for small and medium manufacturers.
+
+Instructs the Secretary to make the National Laboratories' high-performance computing resources available to small and medium manufacturers to increase their manufacturing competitiveness.
+
+Authorizes the Secretary to distribute financial assistance to programs that support the  implementation of smart manufacturing technologies, based on technical merit and research record.
+
+Requires the Secretary to submit an annual report to Congress about the status of smart manufacturing in the United States.
+
+---
+
+DOC_ID: 391
+Amends previous legislation that directs the Secretary of Transportation to make grants to establish university transportation centers at eligible nonprofit institutions of high education. 
+
+Modifies previously established objectives of the university transportation centers program to include research on the cybersecurity implications of autonomous vehicles, as well as of any other technologies relating to connected vehicles and connected infrastructure. 
+
+---
+
+DOC_ID: 392
+Directs the Secretary of Transportation to establish an emerging technology research pilot program that will:
+
+Authorizes research and development activities related to using advanced and additive manufacturing technologies to support the integrity and cost-effectiveness of surface transportation infrastructure
+
+Authorizes research and development activities and pavement testing to reduce the impact of automated driving and advanced driver-assistance systems on pavement and infrastructure, and improve the design of transportation infrastructure to accommodate increasing numbers of automated and advanced driving systems
+
+Authorized to be appropriated $5,000,000 to carry this out for fiscal years 2022 to 2026
+
+---
+
+DOC_ID: 393
+Instructs the Secretary of Energy to carry out a program of research, development, and demonstration of microelectronics, including leveraging artificial intelligence to enhance microelectronics applications. Appropriates $75M-$100M for the microelectronics research program for each fiscal year from 2023 to 2027.
+
+Instructs the Director of the Office of Science to establish 4 Microelectronic Science Research Centers, whose missions include advancing knowledge and experimental capabilities in AI and other computational and theoretical methods.
+
+Promotes coordination of microelectronic research and development across DOE efforts, other Federal agencies, other research centers, and the private sector. 
+
+---
+
+DOC_ID: 394
+Directs the Director of National Intelligence to assess export controls and other technology transfer measures by partner countries on artificial intelligence enabled technologies critical to US supply chains.
+
+Mandates the Director to identify opportunities for cooperation with partner countries to address technology transfer threats.
+
+Instructs the Director to investigate the effect of computing power trends on global artificial intelligence development and implementation and deliver the report no later than 180 days after the enactment of this piece of legislation.
+
+---
+
+DOC_ID: 395
+Instructs the Secretary of the Advanced Computing Program to maintain foundational research programs in mathematical and computational sciences, including new and emerging computing needs within the mission of the Department like novel approaches to modelling and simulation, artificial intelligence, and machine learning.
+
+Instructs the Secretary to issue and ensure adherence to guidance for the Department, the National Laboratories, and users. This guidance pertains to how high-performance computing systems, including machine learning algorithms for data analysis and artificial intelligence, should be employed. 
+
+Instructed the Director to prioritize research and development of sustainable chemistry, autonomous chemistry, and materials synthesis, leveraging  advances in artificial intelligence.
+
+Instructs the Director to carry out research and testing to improve the effectiveness of artificial intelligence-enabled cybersecurity. 
+
+Instructs the Director to support the development of artificial intelligence and data science. 
+
+Instructs the Director to support the development of technical standards and guidelines- creating a framework for managing risks associated with artificial intelligence systems. 
+
+Instructs the Director to establish testbeds to support the development of robust and trustworthy artificial intelligence and machine learning systems. These testbeds will examine the vulnerabilities and conditions that may lead to failure, malfunction, or attacks on such systems.
+
+Instructs the Director to establish a report on the need, feasibility, and plans to implement a program to recruit and train the next generation of artificial intelligence professionals. This program is meant to meet the needs of Federal, State, local, and Tribal governments.
+
+Provides scholarships through qualified institutions of higher education to students enrolled in programs related to artificial intelligence. Provides fellowships to masters and doctoral students pursuing degrees or research in artificial intelligence and related fields.
+
+Necessitates research and testing to improve the accuracy, efficacy, and bias of biometric identification technologies.
+
+
+
+
+---
+
+DOC_ID: 396
+Directs the Secretary of Energy to support the development of new and emerging technologies to increase the resilience of electrical grid design, planning, and operation.
+
+Mandates the Secretary to bolster the usage of computational tools and technologies in improving the sensing, monitoring, and visualization of the electric grid; models must be able to predict the effects of adverse physical and cyber events on the electric grid.
+
+Instructs the Secretary to research the potential deployment of new and emerging technologies, including artificial intelligence, with existing electrical grid infrastructure.
+
+---
+
+DOC_ID: 397
+Defines digital climate solutions as those that use artificial intelligence, blockchain technologies, and the Internet of Things. 
+
+Directs the Secretary of Energy to create a report that contains a full inventory of digital climate solutions, an analysis of how the private sector can use the digital climate solutions, and a summary of opportunities to enhance the standardization of regulatory climate protocols.
+
+---
+
+DOC_ID: 398
+Establishes an AI advisory committee in Hawaii to investigate how to implement, develop, and regulate AI in the state; the committee will be composed of government, academic, and industry stakeholders.
+
+Requires the committee to evaluate and make recommendations on AI applications in other governments, competitive advantages to be gained by integrating AI into Hawaii’s economy, methods for encouraging AI R&D in universities and private sector, the potential danger of integrating AI into state operations, and potential regulatory systems for AI. 
+
+Requires the committee to submit a report of findings and proposed legislation to the Legislature before its convening in 2020. 
+
+---
+
+DOC_ID: 399
+Requires manufacturers of photoplethysmograph analysis software to conduct clinical performance testing that reveals the performance characteristics of the detection algorithms under anticipated use cases.
+
+Requires manufactures to perform verification, validation, and hazard analysis of the software, as well as divulge the software's technical specs including the detection algorithm and its inputs and outputs.
+
+---
+

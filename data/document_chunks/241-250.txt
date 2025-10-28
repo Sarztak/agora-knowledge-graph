@@ -1,0 +1,192 @@
+DOC_ID: 240
+Instructs the City agencies and departments of Boston, excluding Boston Public Schools, to use generative AI responsibly, with guidelines focusing on transparency, accountability, and inclusiveness.
+
+Requires fact-checking and reviewing AI-generated content for public communication to avoid inaccuracies and biases.
+
+Emphasizes disclosing AI usage, including model type and version, to promote trust and transparency.
+
+Prohibits sharing of sensitive or private information in AI prompts to protect residents' data privacy.
+
+Encourages responsible experimentation with generative AI to support efficient, equitable city services while managing risks.
+
+Directs the Department of Innovation and Technology to facilitate learning events and workshops on generative AI.
+
+Advises consultation with relevant city offices and community organizations before publicizing AI-created content to ensure accessibility, accuracy, and sensitivity.
+
+Promotes AI use in drafting documents, summarizing text, coding, and creating multimedia, while highlighting the importance of human oversight and editing.
+
+Encourages engaging stakeholders for potential impacts on arts and society.
+
+---
+
+DOC_ID: 241
+Guides Miami-Dade County employees in the responsible and ethical use of AI, focusing on transparency, data security, and privacy.
+
+Requires adherence to public records laws and ethical guidelines.
+
+Instructs the Human Resources and Information Technology Departments to provide AI training, emphasizing ethical use, bias recognition, and data management.
+
+Mandates risk assessments prior to AI implementation.
+
+Tasks the Information Technology Department with overseeing AI procurement, deployment, and system security.
+
+Establishes protocols for data governance, encryption, and privacy.
+
+Defines roles for directors, supervisors, and employees in AI project management, ethical leadership, and compliance.
+
+Implements regular audits, assessments, and vendor evaluations to maintain AI system integrity.
+
+Encourages community engagement and stakeholder discussions on AI deployment.
+
+Commits to continuous improvement with annual assessments and updates by the IT Department, involving multidisciplinary teams and beta testing initiatives.
+
+Provides resources through the IT Department’s website.
+
+---
+
+DOC_ID: 242
+Amends the National Quantum Initiative Act to mandate the Secretary of Energy to conduct a program focusing on quantum information science research, development, and commercialization.
+
+Operates National Quantum Information Science Research Centers to facilitate breakthroughs in quantum technologies.
+
+Requires collaboration with industry, National Laboratories, and educational institutions for technology development.
+
+Engages with the quantum technology industry to promote the commercialization of applications relevant to the Department of Energy's activities.
+
+Submits a 10-year strategic plan to integrate quantum and AI with high-performance computing systems.
+
+Establishes an early-stage quantum high-performance computing research program.
+
+Conducts a study on the quantum supply chain to identify growth obstacles and recommends strategies to bolster domestic manufacturing and workforce development.
+
+Launches a university-led traineeship program to develop the quantum workforce.
+
+Coordinates activities with other federal entities to prevent duplication.
+
+Restricts funding from foreign countries of concern and entities deemed harmful to U.S. national security.
+
+---
+
+DOC_ID: 243
+Establishes the Open Translation Center (OTC) to translate and analyze foreign language materials from designated countries for public dissemination, enhancing understanding of foreign governments, economies, and cultures.
+
+Administers OTC either as a separate entity or a nonprofit and requires a governing board of five appointed members with relevant expertise, independent of the U.S. Government.
+
+Tasks OTC with translating documents into English, providing analyses, and making materials publicly available while respecting copyright laws.
+
+Requires cooperation with federal agencies and stakeholders, and authorizes consultation with foreign governments after certification by the Secretary of State.
+
+Designates the Secretary of State as the primary sponsor, with potential sponsorship from other federal agencies such as the CIA.
+
+Allocates funding of $85 million for fiscal year 2024 and $80 million for subsequent years through 2028 for OTC operations.
+
+---
+
+DOC_ID: 244
+Regulates City departments' acquisition and use of generative AI, requiring adherence to principles of innovation, transparency, and bias reduction.
+
+Requires Seattle IT to evaluate generative AI acquisition requests and has authority to approve, deny, or revoke use based on risk assessments.
+
+Mandates human review of AI-generated outputs before official use with documentation of review processes.
+
+Requires attribution for AI-generated content, specifying inclusion of system names and review assertions.
+
+Obliges the use of Racial Equity Toolkit prior to using generative AI tools to combat bias and discrimination.
+
+Prohibits submission of confidential City data to AI systems without adequate enterprise controls and data protection.
+
+Classifies AI-generated records as public and mandates retention and disclosure compliance.
+
+Assigns the Chief Technology Officer responsibility for policy enforcement, with potential penalties for non-compliance.
+
+Specifies the Director of DPAC and Chief Privacy Officer maintain risk criteria and exception processes.
+
+---
+
+DOC_ID: 245
+Establishes the City of Tempe's commitment to ethical AI use, emphasizing transparency, fairness, accountability, and protection of rights.
+
+Applies this policy to all AI technologies in city operations, including predictive analytics, machine learning, and automated decision-making.
+
+Requires defined objectives, data privacy, and human-AI collaboration, while ensuring human control.
+
+Tasks departments with setting AI objectives, conducting reviews, and collaborating with IT for oversight.
+
+Instructs the Technology and Innovation Steering Committee to monitor AI compliance, develop reporting mechanisms, and define non-compliance consequences.
+
+Mandates Information Technology to develop a review process, conduct training, and support compliance.
+
+Commits to ongoing monitoring, stakeholder engagement, and ethical improvement of AI practices.
+
+Promotes public engagement and awareness campaigns about AI activities.
+
+Requires compliance with applicable laws and regulations and supports ethical AI frameworks development. 
+
+Commits to periodic policy reviews to address emerging AI challenges and advancements.
+
+---
+
+DOC_ID: 246
+Establishes the County of Santa Cruz's principles for responsible use of generative AI by employees, contractors, and third parties, ensuring alignment with ethical and legal standards.
+
+Requires compliance with data privacy laws, such as HIPAA and CCPA, and informs the public of AI tool interactions, offering alternatives.
+
+Prohibits the use of AI for unauthorized access, handling of personally identifiable information, unlawful activities, hiring decisions, and entering sensitive data into AI systems.
+
+Permits only approved AI tools like Google Bard, OpenAI's ChatGPT, Anthropic's Claude, and Scribe.
+
+Requires employees to exercise judgment, report concerns, and use County email for AI tool accounts.
+
+Encourages comprehension of AI policies and participation in workgroups while emphasizing responsible, ethical, and transparent AI usage, avoiding bias, and not relying on AI for significant decision-making.
+
+---
+
+DOC_ID: 247
+Outlines the use of generative AI chatbots, like ChatGPT and Bard, for Kendall County employees. 
+
+Prohibits using county email addresses and submitting proprietary or confidential data into these platforms. 
+
+Requires employees to consult with Executives regarding chatbot use, who may approve, deny, or modify usage parameters. 
+
+Mandates proper citation and accuracy checks for AI-generated content. 
+
+Enforces disciplinary actions, including termination, for policy violations or inappropriate use, ensuring ethical compliance with conduct and antidiscrimination policies. 
+
+Instructs employees to undergo training on proper chatbot use. 
+
+Applies Technology and Record Retention Policies when using AI with County equipment. 
+
+Addresses training queries with Human Resources or the Information, Communication and Technology Department Director.
+
+---
+
+DOC_ID: 248
+Require any attorney, pro se defendant, victim, or other party using generative AI in drafting documents for the Municipal Criminal Court to disclose the use of such AI.
+
+Specify the name of the generative AI tool used in the filing.
+
+Include ChatGPT, Bing AI, and Google Bard under the definition of generative AI.
+
+Maintain the applicability of 12 O.S. §2011 to all filings, ensuring compliance is certified by the person signing the document.
+
+---
+
+DOC_ID: 249
+Instructs City employees to adhere to the Information Technology Acceptable Use Policy when using generative AI tools.
+
+Requires ITSA to vet the purchase of AI-related technology and software.
+
+Prohibits the use of City passwords for logging onto AI platforms and advises caution due to evolving malware threats.
+
+Forbids the upload of sensitive or confidential information when using AI systems.
+
+Advises a review and validation of AI-generated content due to potential bias or inaccuracies.
+
+Cautions that AI-generated content might be copyright-protected and requires proper attribution.
+
+Warns that content generated by AI may be subject to disclosure under Sunshine Law.
+
+Indicates that ITSA and the Mayor’s Office will continue to evaluate the use of AI and develop policies accordingly.
+
+---
+

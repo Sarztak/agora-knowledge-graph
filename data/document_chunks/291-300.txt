@@ -1,0 +1,109 @@
+DOC_ID: 290
+Requires each Department of Defense service acquisition executive to submit to the Secretary of Defense, the Under Secretary of Defense for Acquisition and Sustainment, the Under Secretary of Defense for Research and Engineering, and the Chief Information Officer a report on how they are assessing, mitigating, and reporting risks in acquisition programs.
+
+Requires the reports described above to cover, among other risk categories, technical risks in engineering, software, manufacturing and testing; integration and interoperability risks posed by changes to Department systems created by artificial intelligence; and supply chain risks, including those related to cybersecurity and the defense industrial base's potential inability to produce technology and systems as needed.
+
+Requires the Under Secretary of Defense for Acquisition and Sustainment to submit to the congressional defense committees a report on their own views, and the views of the service acquisition executives, with regard to the risk mitigation measures covered herein.
+
+---
+
+DOC_ID: 291
+Instructs the Secretary of Defense to execute a pilot program that offers online courses related to advanced technologies for civilian employees of the Department of Defense and members of the Armed Forces.
+
+Requires the Secretary to develop procedures to document course completion, incentivize course completion, and evaluate course quality and effectiveness.
+
+Requires the Secretary to carry out the program within a year after enactment, and decrees that the program terminate on October 1, 2024. 
+
+---
+
+DOC_ID: 292
+Instructs the Secretary of Defense to establish a program to offer Defense science and technology employment opportunities to selected faculty and students of higher education institutions to carry out research projects. 
+
+Specifies that no fewer than five positions must be given to faculty who conduct research in artificial intelligence and machine learning.
+
+Requires the Secretary to carry out the program within 180 days of enactment and submit three annual reports of program results to Congress.
+
+---
+
+DOC_ID: 293
+Instructs the Secretary of the Navy, in coordination with the Secretary of the department in which the Coast Guard is operating and with the Secretary of Commerce, to assess the available commercial solutions relating to illegal maritime activities.
+
+Requires the assessment to build on the ongoing Coast Guard assessment related to autonomous vehicles, and to consider other appropriate commercially and available technological solutions.
+
+Requires the Secretary of the Navy to submit the report to the specified congressional Committees.
+
+---
+
+DOC_ID: 294
+Instructs the Secretary of Defense to transfer all the responsibilities of the Commander of the US Strategic Command that are germane to electromagnetic spectrum operations (EMSO).
+
+Instructs the Secretary to develop a transfer plan with consideration of all appropriate entities, while considering whether the receiving electromagnetic spectrum operations organization should have a unitary structure or hybrid structure.
+
+Requires the Secretary to develop the transfer plan while considering the resources required by the receiving electromagnetic spectrum operations organization to fulfill the responsibilities and functions as well as the results of the evaluations carried out.
+
+Requires an evaluation and assessment of the need for automated and machine learning- or artificial intelligence-assisted electronic warfare capabilities. 
+
+
+
+---
+
+DOC_ID: 295
+Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies.
+
+Identifies potential areas of study, including examining previous PRC practices in international standards setting organizations to predict future international standardization engagement in critical technologies like artificial intelligence and quantum information science. 
+
+Requires the entity conducting the study to submit a report on its findings to the Committees on Science, Space, and Technology, on Foreign Affairs, on Commerce, Science, and Transportation, and on Foreign Relations.
+
+---
+
+DOC_ID: 296
+Instructs the Secretary and Secretary of Education to create and support grants to fund STEM education programs for students specifically in the Junior Reserve Corps. 
+Instructs different departments of the government, such as the National Science foundation, as well as local governments to carry out programs that are supported by said grants.
+Outlines what activities are allowed under the grants, and what specific area of studies and subjects that they would work under. 
+Details subjects that are eligible for said grants, which include science, technology, engineering, mathematics, computer science, and more.
+Allows for the Secretary of Defense to determine which additional subjects and areas of studies could be applicable to the grant. 
+
+
+---
+
+DOC_ID: 297
+
+
+
+Instructs the Comptroller General of the United States to carry out a study in consultation with law enforcement, relevant federal agencies, private sector stakeholders (such as financial institutions, data and technology companies), to investigate major trafficking routes used by transnational criminal organizations and to what extent the trafficking routes are related.
+
+Directs the study to include commonly used methods to launder and move the proceeds of trafficking; the types of suspicious financial activity that are associated with illicit trafficking networks, and how financial institutions identify and report such activity.
+
+Directs the study to include steps financial institutions are taking to detect and prevent bad actors who are laundering the proceeds of illicit trafficking, including data analysis, policies, training procedures, rules, and guidance,
+
+Necessitates the study to include the role those emerging technologies, including artificial intelligence, digital identity technologies, distributed ledger technologies, virtual assets and online marketplaces can play in enabling the laundering of proceeds from trafficking. 
+
+Requires the Comptroller General of the United States to submit a report to the congres, summarizing the results of the study and any recommendations for regulatory action.
+
+
+---
+
+DOC_ID: 298
+Requires the Secretary of the Treasury to periodically convene a global anti-money laundering and financial crime symposium -- attended by domestic and international financial regulators, senior executives from regulated firms, technology providers, representatives from law enforcement and national security agencies, and experts -- focused on how new technology can be used to more effectively combat financial crimes and other illicit activities.
+
+Requires the Director of the Financial Crimes Enforcement Network -- a bureau of the Treasury Department -- to brief the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives on the current and potential future use of artificial intelligence and other emerging technologies in its work, along with policy recommendations for enhancing the efficacy of utilizing such technologies in combating financial crimes.
+
+---
+
+DOC_ID: 299
+Instructs the Secretary of the Department of Homeland Security to submit annually, for a period of 5 years, a report to Congress on the state of digital content forgery technology. 
+
+Requires the report to include an assessment of the underlying technologies used to create or propagate digital content forgeries, including the evolution of such technologies and patterns of dissemination of such technologies. 
+
+Requires the report to include a description of the types of digital content forgeries, including those used to commit fraud, cause harm, harass, coerce, or silence vulnerable groups or individuals, or violate civil rights.
+
+Requires the report to include an assessment of how foreign governments, proxies and networks thereof, and non-governmental entities use, or could use, digital content forgeries to harm national security. 
+
+Requires the report to include an assessment of the uses, applications, dangers, benefits, and impact on individuals of deep learning or digital content forgery technologies used to generate realistic depictions of events that did not occur. 
+
+Requires the report to include a description of the methods and technological countermeasures that are, or could be, used to identify forgeries and address concerns with digital content forgery technology.
+
+
+
+---
+

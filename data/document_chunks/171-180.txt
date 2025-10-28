@@ -1,0 +1,170 @@
+DOC_ID: 170
+Directs agencies to improve responsible AI acquisition, emphasizing cross-functional and interagency collaboration, risk management, and market competitiveness.
+
+Requires agencies to update acquisition policies to reflect AI governance responsibilities and share AI acquisition information across the executive branch.
+
+Mandates compliance with risk management practices for AI impacting rights or safety, including managing privacy, security, and discrimination risks.
+
+Urges agencies to prevent vendor lock-in by prioritizing interoperability, transparency, and innovative acquisition practices.
+
+Encourages the acquisition of generative AI for experimentation, while emphasizing transparency, risk mitigation, and environmental considerations.
+
+Applies to all federal agencies, excluding the Intelligence Community and National Security Systems, and sets specific deadlines for compliance and reporting. 
+
+Fosters a diverse AI marketplace by minimizing vendor lock-in and promoting competition through strategic contractual requirements.
+
+---
+
+DOC_ID: 171
+Mandates developers to produce, implement, and publish a "safety and security protocol" to respond to critical risks, along with quarterly risk assessment reports.
+
+Defines "critical risk" as deriving from the development or deployment of foundation models in a manner which could cause serious injury, death, or financial loss.
+
+Defines "foundation model" as an AI model applicable to many different contexts and capable of self-supervision in training.
+
+Requires an annual third-party audit to assess compliance with these protocols.
+
+Allows redactions in published documents for protecting trade secrets or public safety, with unredacted versions available to the Attorney General.
+
+Imposes civil penalties up to $1,000,000 for violations, with consideration of the severity and potential materialization of critical risks.
+
+Establishes whistleblower protections and procedures for reporting internal risks related to AI development.
+
+Authorizes the Attorney General to seek injunctive relief if a developer's activities pose imminent threats to public safety.
+
+Emphasizes the cumulative nature of this Act, not limiting duties or remedies under other laws.
+
+---
+
+DOC_ID: 172
+Establishes the National Science and Technology Ethics Commission to guide and promote S&T ethics governance, with the Ministry of Science and Technology overseeing daily operations.
+
+Instructs institutes engaged in AI and other sensitive fields to form S&T ethics review committees to address ethical risks independently.
+
+Mandates that stakeholders comply with ethics requirements and enforce rigorous review procedures for S&T involving human and animal subjects.
+
+Requires strict governance and dynamic regulation aligning with China’s national conditions and international trends.
+
+Directs entities, such as local oversight departments and innovation entities, to manage, monitor, and report S&T ethics risks, ensuring agile responses to emerging challenges.
+
+Prompts legislative actions to strengthen legal provisions related to S&T ethics, particularly in AI, by the end of the 14th Five-Year Plan.
+
+Encourages public and local awareness of S&T ethics through education, laying emphasis on both stakeholder compliance and societal benefit.
+
+---
+
+DOC_ID: 173
+Establishes an AI Strategic Task Force within the Office of the Governor of Massachusetts to study AI and Generative AI (GenAI) technologies and their impacts on the state.
+
+Charges the Task Force with advising the Governor on making Massachusetts a leader in AI research and development.
+
+Requires the Task Force to identify collaboration opportunities in key industries such as life sciences, healthcare, and finance, and explore public investments in AI.
+
+Advises on AI-related job creation, assessing workforce impacts, and suggesting workforce training.
+
+Recommends policies for responsible AI development, addressing ethical concerns like bias, privacy, and security.
+
+Empowers the Task Force to convene subcommittees for addressing specific AI issues.
+
+Obligates the Task Force to submit a report summarizing its work and recommendations to the Governor.
+
+Specifies an effective date immediately after issuance until 30 days post-report submission.
+
+---
+
+DOC_ID: 174
+Recommends that AI actors and stakeholders promote principles for responsible AI, including inclusive growth, respect for human rights, transparency, robustness, and accountability.
+
+Calls on governments and AI actors to invest in AI research and development, focusing on ethics, privacy, and reducing bias.
+
+Advises governments to develop flexible governance environments and adapt policies to facilitate the deployment of AI systems.
+
+Promotes building human capacity and preparing for labor market changes through skills training and fair transitions for workers as AI is deployed.
+
+Urges governments to cooperate internationally to share AI knowledge, establish global technical standards, and promote use of internationally comparable indicators for AI progress.
+
+Instructs the Digital Policy Committee to continue advancing AI governance by developing practical guidance and reporting on the implementation of these recommendations.
+
+---
+
+DOC_ID: 175
+Defines a US strategy emphasizing national competitiveness, model safeguards, and national security for AI, with the federal government leading and consulting with industry.
+
+Promotes export policies to securely share frontier AI models with allies while limiting exports to adversary nations.
+
+Encourages federal support for AI companies, including sharing national security insights and reducing bureaucratic obstacles for collaboration.
+
+Advocates infrastructure development to support AI, emphasizing chips, data, energy, and talent to maintain US leadership.
+
+Proposes common-sense rules for AI safeguarding public safety while fostering innovation, emphasizing provenance data in AI-generated content, and AI user personalization.
+
+Suggests creating AI Economic Zones and a nationwide AI education strategy to enhance AI ecosystem support and competitiveness.
+
+Envisions a Compact for AI among allies for capital and supply chain access, contrasting Chinese-backed infrastructure projects.
+
+Engages in developing training programs for future AI talent, promoting collaboration between government and industry.
+
+---
+
+DOC_ID: 176
+Regulates S&T ethics reviews for activities with ethical risks, including AI research, under China's ethics laws. 
+
+Requires committees in life sciences, medicine, and AI to manage ethics reviews independently and transparently.
+
+Obliges these committees to guide risk assessments, conduct ethics reviews, and manage interdisciplinary membership for unbiased decision-making.
+
+Stipulates S&T ethics reviews to cover data handling, ensuring compliance with relevant data security and personal information laws.
+
+Mandates expert reconsiderations for high-risk emerging technologies, including algorithms and automated decision-making systems.
+
+Empowers MOST to guide overall S&T ethics oversight and manage the information registration platform for ethical review activities.
+
+Allows simplified procedures for low-risk S&T activities and establishes emergency procedures for rapid ethics review during urgent public incidents.
+
+Authorizes corrective measures for violations, including possible penalties and liability for misconduct in S&T ethics. 
+
+Implements from December 1, 2023.
+
+---
+
+DOC_ID: 177
+Amends the National Artificial Intelligence Initiative Act of 2020 to authorize the National Science Foundation (NSF) to support interdisciplinary AI fellowships, encouraging ethical AI practices.
+
+Mandates the NSF to conduct outreach to diverse institutions and groups underrepresented in STEM fields for fellowship applicants.
+
+Directs the NSF to promote AI-based training and workshops across STEM fields to accelerate scientific discovery and technology development.
+
+Requires the integration of diverse disciplinary perspectives in AI research peer review panels.
+
+Instructs the National Institute of Standards and Technology (NIST) to support education and workforce development to expand the AI governance workforce, focusing on managing AI-related risks.
+
+Mandates NIST to develop technical standards and guidance for AI risk management careers, including mapping, measuring, and validating AI systems.
+
+---
+
+DOC_ID: 178
+Enacts the Artificial Intelligence Act to regulate the use of AI in New Mexico, focusing on high-risk AI systems that make consequential decisions.  
+
+Requires developers to use reasonable care to prevent algorithmic discrimination and disclose known risks to recipients and the state.  
+
+Mandates impact assessments for deployers, updating them annually or upon modification of AI systems.  
+
+Obliges deployers to notify consumers of AI's role in consequential decisions and provide appeal opportunities for adverse outcomes.  
+
+Exempts trade secrets from mandatory disclosure, but requires consumer notification when information is withheld.  
+
+Confers enforcement authority to the state department of justice, allowing consumer civil actions for violations.  
+
+Sets the effective date for July 1, 2026, with rulemaking by the state department of justice due by January 1, 2027.
+
+---
+
+DOC_ID: 179
+Defines Artificial Intelligence as machines that have the ability to "learn" and "problem solve".
+
+Mandates human review of algorithmic and AI decisions to avoid discrimination, using evidence-based evaluation of potential discriminatory consequences.
+
+Requires training input informed by outcomes from AI or related technologies.
+
+---
+

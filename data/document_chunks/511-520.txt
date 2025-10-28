@@ -1,0 +1,115 @@
+DOC_ID: 510
+Mandates a study by the Secretaries on the effectiveness and limitations of wildfire detection technologies in various aspects of wildfire management.
+
+Requires examination of how each technology, if deployed timely and properly, can effectively and efficiently address wildland fire threats.
+
+Examines the integration of artificial intelligence with real-time imagery and weather data in wildfire detection technologies.
+
+Explores how AI integration can enhance the value of these technologies, both individually and collectively.
+
+Requires submission of the study results to congressional committees and public release within two years of the Act's enactment.
+
+---
+
+DOC_ID: 511
+Mandates the Institute to promote international collaboration on e-governance systems with Americas partner countries.
+
+Requires assistance in developing e-governance systems under the framework from section 102, including creating technical standards and reference implementations.
+
+Facilitates shared infrastructure and technical assistance, including service development and contracts with partner countries.
+
+Allows procurement or licensing of commercial technology for shared use and certifies audit organizations.
+
+Permits partnerships with private entities and provides financial support for system development.
+
+Accounts for emerging technologies, such as AI, advising on their integration or regulation.
+
+Restricts procurement and data sharing under the e-governance framework with specific countries, including Russia and China, to ensure privacy and security.
+
+Grants authority to exclude individuals, entities, or products not from approved countries to protect citizens’ privacy and security.
+
+---
+
+DOC_ID: 512
+Requires the Assistant Secretary for Preparedness and Response to conduct risk assessments and implement strategic initiatives that address whether AI can develop novel pathogens, viruses, bioweapons, or chemical weapons, including monitoring and researching the global biological catastrophic risk landscape.
+
+Requires the Assistant Secretary for Preparedness and Response to include a summary of the risk assessment above in the National Health Security Strategy.
+
+---
+
+DOC_ID: 513
+Requires the Assistant Secretary of Commerce for Communications and Information to study accountability mechanisms (e.g., audits, certifications, and assessments) that provide assurances that an AI system is trustworthy. This includes defining terms around AI “trustworthiness,” examining how mechanisms are incorporated into AI systems, and assessing their ability to reduce risks related to AI systems, such as cybersecurity threats. 
+
+Requires the Assistant Secretary to solicit stakeholder feedback through public meetings while carrying out the study above and to report the study’s findings to Congress, including recommendations on effective accountability measures for AI systems. 
+
+Requires the Assistant Secretary to consult with stakeholders through public meetings and report to Congress on what information should be disclosed to those who interact with, are affected by, or study AI systems, and the most effective methods for doing so.
+
+---
+
+DOC_ID: 514
+Requires the Under Secretary of Commerce to develop standards for online content verification. Mandates best practices for detecting AI outputs. Directs review of AI usage in government. Prohibits generative AI without user notification. 
+Requires AI transparency reports. Instructs NIST on AI oversight. Obligates risk assessments for critical-impact AI. Establishes AI Certification Advisory Committee. Empowers enforcement of compliance. Establishes consumer education working group.
+
+---
+
+DOC_ID: 515
+Requires the Director of the National Institute of Standards and Technology (NIST) to establish a program (“Testing Standards”) to create and maintain testing standards for computational forensic software, which includes software that relies on AI-enabled automated or semiautomated computational processes to analyze or interpret evidence.
+
+Requires Testing Standards to solicit public input, address the potential for disparate impacts on protected groups, and specify requirements for publicly available documentation by developers, validation processes by those using computational forensic software, reports provided to defendants regarding software used, and how to test software and report results. 
+
+Requires the Director of the National Institute of Standards and Technology (NIST) to establish a program (“Testing Program”) that tests computational forensic algorithms according to the testing standards, using realistic and representative sample data and adversarial examples, and publishing results. Requires software to be re-tested after significant changes. 
+
+Requires Federal law enforcement agencies only to use computational forensic software tested by NIST’s Testing Program and only after conducting an internal validation and making results publicly available. 
+
+Requires evidence from computational forensic software to be admissible only if it has been submitted to NIST’s Testing Program and the developers waive legal claims against the defense analyzing or testing it. Requires information about the software (e.g., source code) and results from analyses by the software to be shared with the defendant. 
+
+---
+
+DOC_ID: 516
+Amends Section 230 of the Communications Act of 1934 (which prevents providers of an interactive computer service from being held legally liable for third-party content) to remove this protection for claims involving the use or provision of generative artificial intelligence.
+
+---
+
+DOC_ID: 517
+Requires the Director of the National Institute of Standards and Technology (NIST) and Director of the Office of Management and Budget (OMB) to issue guidance on how federal agencies can use NIST’s AI Risk Management Framework (RMF) to reduce risks, covering cybersecurity for AI systems, requirements for AI suppliers, and training for agencies.
+
+Requires the Comptroller General of the United States to assess the impact of NIST's AI RMF on agencies' AI use within a year, and requires the Director of OMB to report to Congress on agency implementation and adherence to NIST’s AI RMF within a year, and subsequently, at least once every three years.
+
+Excludes national security systems from the requirements above to adhere to NIST’s AI RMF.
+
+Requires the Federal Acquisition Regulatory Council to issue guidance on agency AI procurement within a year, to ensure compliance with NIST’s AI RMF.
+
+Requires the Director of OMB to establish an initiative to build agencies’ AI expertise, focusing on hiring interdisciplinary experts and incorporating best practices from existing initiatives.
+
+Requires the Director of NIST to conduct a study on and convene stakeholders to develop voluntary consensus standards to test and evaluate AI acquisitions, develop methods and conduct evaluations, monitor evaluations and adjust methods, and make recommendations to each agency on risks from relevant AI acquisitions. 
+
+---
+
+DOC_ID: 518
+Amends the definition of 'practitioner licensed by law to administer such a drug' in Section 503(b) of the Federal Food, Drug and Cosmetic Act, to include artificial intelligence and machine learning technology
+
+Authorizes AI and ML technology to prescribe pharmaceutical drugs if approved by the State in question, and if approved by the Food and Drug Administration 
+
+Requires such AI and ML technology to be approved by the Food and Drug Administration through conventional channels, including having to provide 90 days' premarket notification if this is deemed a new device
+
+---
+
+DOC_ID: 519
+Prohibits the use of pricing algorithms incorporating nonpublic competitor data.
+
+Requires entities using or distributing pricing algorithms to submit detailed reports to the Federal Trade Commission (FTC) or Attorney General upon request, detailing development, data usage, and algorithmic rules.
+
+Mandates certification of report accuracy by a high-level corporate officer.
+
+Ensures confidentiality of submitted reports, allowing information sharing only between the Department of Justice, FTC, and National Institute of Standards and Technology.
+
+Imposes civil penalties for violations, including fines and injunctive relief.
+
+Presumes collusive behavior in antitrust cases involving certain uses of pricing algorithms, allowing for rebuttal and assigning joint liability.
+
+Obligates disclosure to customers and employees when prices or terms are set by algorithms, including specifics on price discrimination and third-party algorithm developers.
+
+Directs the FTC to study and report on the impact and prevalence of pricing algorithms within two years, including potential consumer harm and benefits.
+
+---
+

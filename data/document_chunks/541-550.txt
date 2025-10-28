@@ -1,0 +1,108 @@
+DOC_ID: 540
+Establishes a robust human capital infrastructure for computer programming, coding, and AI skills within the U.S. Armed Forces.
+
+Requires the development of career field occupational codes aligned with AI and coding competencies under the Department of Defense Cyber Workforce Framework.
+
+Mandates the assessment and tracking of personnel with AI and coding skills.
+
+Obliges the military departments to develop and execute a coherent strategy for presenting these skills to combatant commands.
+
+Tasks the Secretary of each military department, in consultation with relevant officials, to implement the policy and submit implementation plans within 180 days.
+
+Calls for similar policies for reserve components to leverage civilian-acquired AI and coding skills.
+
+Requires updates on policy implementation in the Department of Defense's budget justification materials until all milestones are met.
+
+---
+
+DOC_ID: 541
+Authorizes the Environmental Protection Agency's (EPA) Administrator to award grants and contracts for projects using emerging technologies to address water quality threats.
+
+Establishes the Water Quality and Environmental Innovation Fund, funding it through fiscal years 2024-2028 using fees from the EPA's Motor Vehicle and Engine Compliance Program.
+
+Mandates the use of technologies, including artificial intelligence, quantum information science, and robotics, among others, for water quality projects.
+
+Requires that project results, including data and statistics, be publicly accessible.
+
+Directs the EPA Administrator to report annually to Congress on the benefits, recipients, goals, and effectiveness of funded projects, starting one year after the Act's enactment.
+
+---
+
+DOC_ID: 542
+Requires the Secretary of Defense to conduct a pilot program to outsource the calculation of monthly Basic Allowance for Housing (BAH) rates using machine learning and artificial intelligence algorithms by engaging a covered entity.
+
+Mandates the submission of a report to the Senate and House Armed Services Committees evaluating the AI-calculated rates.
+
+---
+
+DOC_ID: 543
+Requires the Director of the National Institute on Standards and Technology (NIST) to work with other heads of federal agencies and private/public sector stakeholders to build testbeds for supporting the development of trustworthy AI systems and AI guardrails.
+
+Mandates the Secretary of Commerce and Secretary of Energy to enter into a memorandum of understanding that allows relevant agencies across the federal government access to AI-related personnel, facilities, and research at the Department of Energy.
+
+---
+
+DOC_ID: 544
+Directs Congress to amend the Communications Act of 1934 to mandate the disclosure of artificial intelligence usage in voice call or text message impersonations.
+
+Mandates the imposition of financial penalties on those who fail to complete the required disclosure of artificial intelligence usage during robocalls.
+
+---
+
+DOC_ID: 545
+Mandates the Secretary of Agriculture to establish a program to certify AI software for the production of agricultural products. 
+
+Bases the certification program on the  National Institute of Standards and Technology's Artificial Intelligence Risk Management Framework.
+
+Permits certification only if the software performs accurately and meets or exceeds relevant Federal and State standards for licensure, certification, and permitting.
+
+Details specific licensure and certification requirements for various tasks, including commercial driving, manure application, pesticide application and handling hazardous materials.
+
+---
+
+DOC_ID: 546
+Requires the Secretary of Labor and the Director of the National Science Foundation to submit interim and final reports on AI's impact on the U.S. workforce.
+
+Mandates these reports to identify data necessary for analyzing AI's workforce impact, industries most affected by AI, and demographics vulnerable to job displacement.
+
+Requires analysis of skills, expertise, and education needed to work alongside AI and methods to deliver these to the workforce.
+
+Demands recommendations to mitigate workforce displacement, promote knowledge sharing, and ensure underserved demographics have access to necessary AI-related education.
+
+Requires collaboration with educational institutions, industry stakeholders, and federal agencies in preparing the reports.
+
+---
+
+DOC_ID: 547
+Directs the Department of Commerce to establish a Supply Chain Resiliency and Crisis Response Office, responsible for awarding grants, loans, and loan guarantees to critical industry and supply chain stakeholders that integrate artificial intelligence into manufacturing.
+
+Mandates the DOC to improve the competitiveness of the advanced tech manufacturing sector, minimize supply chain shocks, and support the creation of related jobs in key technology focus areas such as artificial intelligence, machine learning, and quantum computing.
+
+Directs the Inspector General of the DOC to audit activities supported by the Supply Chain Resiliency and Crisis Response Office's grants, loans, and loan guarantees every four years.
+
+---
+
+DOC_ID: 548
+Designates a senior employee of the Office of Investment and Innovation as the broadband and emerging information technology coordinator to assist small businesses in adopting broadband and emerging technologies.
+
+Requires the coordinator to work with the SBA's chief information officer, chief technology officer, and other relevant federal agencies.
+
+Mandates the coordinator to identify best practices and catalog tools and training for small businesses on broadband and emerging technologies.
+
+Obligates the coordinator to provide training to SBA employees on these technologies and relevant federal programs.
+
+Requires biennial reports on the SBA's activities related to broadband and emerging technologies.
+
+Instructs the Chief Counsel for Advocacy to study and report on the impact of broadband availability, speed, and price, and the deployment of emerging technologies on small businesses.
+
+Amends the Small Business Act to include provisions for increasing small business access to broadband and emerging technologies.
+
+---
+
+DOC_ID: 549
+Amends the Artificial Intelligence Training for the Acquisition Workforce Act to expand artificial intelligence training within the executive branch.
+
+Requires the training program to cover capabilities, risks and benefits, and mitigation strategies associated with AI.
+
+---
+

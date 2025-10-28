@@ -1,0 +1,174 @@
+DOC_ID: 230
+Requires social media platforms to verify the age of users beyond simple attestations, using current age verification technologies.
+
+Prohibits social media platforms from allowing individuals under 13 from accessing their services.
+
+Mandates parental or guardian consent for users under 18, requiring platforms to take reasonable steps to verify this consent.
+
+Prohibits the use of algorithmic recommendation systems on individuals under 18, except for contextual suggestions or advertising.
+
+Establishes a Pilot Program for secure digital identification credentials to facilitate age and parental consent verification, overseen by the Secretary of Commerce.
+
+Empowers the Federal Trade Commission (FTC) and state attorneys general to enforce compliance, with civil penalties for violations.
+
+Grants extraterritorial jurisdiction for violations involving individuals in the United States.
+
+---
+
+DOC_ID: 231
+Requires the Director of the Office of Management and Budget to issue guidance for transparent automated governance, ensuring compliance with privacy, civil rights, and civil liberties protections.
+
+Mandates agencies to disclose and allow appeals when utilizing automated systems for critical decisions affecting individuals’ rights or status.
+
+Instructs agencies to design systems providing plain language notifications and establish appeals processes for decisions made using AI-augmented processes.
+
+Obligates agencies to track the accuracy and reliability of AI systems, and share data with relevant authorities; encourages consultation with governmental and private sectors for guidance development.
+
+Requires the Comptroller General to report on agency compliance, with reports submitted biennially.
+
+---
+
+DOC_ID: 232
+Directs the Department of Energy (DOE) and the National Oceanic and Atmospheric Administration (NOAA) to collaborate on AI and high-performance computing research to improve climate models and weather prediction.
+
+Requires the establishment of a memorandum of understanding to facilitate this collaboration through a competitive, merit-reviewed process.
+
+Authorizes the Secretary of Energy and NOAA Administrator to conduct research on modeling, simulation, machine learning, data assimilation, and predictive analysis techniques.
+
+Mandates the promotion of collaboration and data sharing among federal agencies, National Laboratories, educational institutions, and nonprofits, while ensuring compliance with national security policies.
+
+Instructs the submission of a report within two years detailing interagency coordination, research achievements, and future opportunities.
+
+Initiates a high-performance computing project to enhance weather prediction models, requiring a comparative analysis with current forecasts.
+
+Sunsets the authority for this initiative five years post-enactment.
+
+Ensures compliance with research security provisions under the CHIPS Act of 2022.
+
+---
+
+DOC_ID: 233
+Requires the Department of Defense to establish a course at the Defense Information School to provide education on digital content provenance for DoD media content, covering challenges from digital content forgery, industry-open technical standards, and techniques for secure digital content documentation.
+
+Mandates a report on the curriculum development and implementation plan for the course, including resource needs.
+
+Initiates a pilot program to assess the feasibility of using industry-open technical standards for digital content provenance in DoD media.
+
+Directs the pilot program to verify digital content provenance, apply technology solutions, assess historical records, and develop effectiveness measures.
+
+Requires a report detailing findings, consultations, effectiveness, and recommendations on the pilot program's permanence.
+
+---
+
+DOC_ID: 234
+Requires organizations in New Zealand using AI tools to comply with the Privacy Act 2020 and its Information Privacy Principles. 
+
+Mandates senior leadership approval for AI tool usage and a privacy impact assessment (PIA) to evaluate privacy risks.
+
+Demands transparency about AI tool usage, including engaging with Māori on potential impacts, assessing the necessity and proportionality of AI tools, and considering privacy implications.
+
+Advises on proactive privacy measures, including developing privacy policies, engaging with affected communities, and evaluating training data provenance.
+
+Highlights potential privacy issues with AI, such as automation blindness and overseas data disclosure risks.
+
+Encourages organizations to secure personal information and comply with access, correction, and disclosure requirements.
+
+---
+
+DOC_ID: 235
+Requires U.S. Infrastructure as a Service (IaaS) providers to implement a Customer Identification Program (CIP) for verifying foreign customers' identities and maintaining relevant records to prevent malicious cyber activities. 
+
+Obligates foreign resellers to adhere to similar CIP standards and mandates U.S. IaaS providers to report on these. 
+
+Obligates reporting on transactions involving training of large AI models that could be misused for cyber activities. 
+
+Authorizes the Secretary of Commerce to enforce special measures against foreign jurisdictions or persons using U.S. IaaS for cyber threats. 
+
+Ensures compliance by conducting assessments and requiring annual certification of CIPs by IaaS providers. 
+
+Institutes penalties for non-compliance, including civil and criminal liabilities. 
+
+Mandates reporting to the Department of Commerce for violations or suspicious activities associated with AI model training.
+
+---
+
+DOC_ID: 236
+Regulates ICTS transactions designed, developed, manufactured, or supplied by individuals or entities owned by, controlled by, or under the jurisdiction of foreign adversaries, assessing undue risks as per Executive Order 13873.
+
+Defines key terms such as "Covered ICTS Transaction" and "Person owned by, controlled by, or subject to the jurisdiction or direction of a foreign adversary."
+
+Charges the Secretary of Commerce with determining transaction risks, involving consultation with agency heads like the Secretary of Defense and Director of National Intelligence.
+
+Outlines procedures for initial and final determinations on ICTS transactions, including conditions for prohibitions or mitigation measures.
+
+Establishes penalties, both civil and criminal, for engaging in prohibited ICTS transactions, aiding violations, or providing false information during assessments.
+
+Mandates confidentiality of sensitive information and allows disclosure to government entities under national security considerations. 
+
+Requires recordkeeping and provides interagency consultation procedures during transaction reviews.
+
+---
+
+DOC_ID: 237
+Requires a City Entity in St. Louis to obtain Board of Aldermen approval before accepting funds, acquiring, or using surveillance technology, including AI surveillance tools.
+
+Defines surveillance technology broadly to include AI-based systems.
+
+Mandates public availability and Board approval of a Surveillance Use Plan (SUP) before technology use.
+
+Prohibits unauthorized surveillance use that discriminates or infringes civil rights.
+
+Obligates annual reporting on surveillance technology use, data sharing, and impacts.
+
+Protects whistleblowers disclosing ordinance violations.
+
+Allows temporary use of surveillance technology in exigent circumstances with strict limits and reporting requirements.
+
+Establishes remedies and disciplinary actions for ordinance violations.
+
+Ensures public participation and transparency in the surveillance approval process.
+
+Seeks to balance surveillance benefits with civil rights protections, assessing potential discriminatory impacts.
+
+---
+
+DOC_ID: 238
+Establishes guidelines for using Generative AI within the City of San José, emphasizing privacy, accuracy, transparency, equity, accountability, and beneficial use.
+
+Requires users to cite AI where substantial content is AI-generated and to verify AI output against trustworthy sources.
+
+Prohibits submission of personal or confidential information into Generative AI platforms and mandates the creation of separate accounts for City-related work using Generative AI.
+
+Subjects AI usage to public records laws, recommending users to opt out of data collection where possible and verify AI-generated content for copyright compliance.
+
+Offers collaborative working groups to enhance AI governance and provides risk assessment criteria for Generative AI use cases.
+
+Encourages active participation in AI workgroups and emphasizes the importance of adapting guidelines as technology and laws evolve.
+
+---
+
+DOC_ID: 239
+Establishes two distinct user segments for AI tools: City Employees and IT Professionals, requiring tailored training for each group.
+
+Instructs non-technical department leadership to set clear goals before AI tool deployment.
+
+Encourages piloting AI tools to understand their strengths and weaknesses before widespread use.
+
+Anticipates most AI tools will be accessed through existing software platforms.
+
+Emphasizes the need for adaptable AI tools that align with evolving data and requirements.
+
+Advises staying current on AI tools and frameworks for maximized effectiveness.
+
+Requires comprehensive AI training for both users and developers, highlighting security and ethical considerations.
+
+Insists on cybersecurity and data privacy for AI implementation.
+
+Highlights AI as a long-term investment needing high-quality data and data transparency.
+
+Asserts City data ownership and the need for ethical, transparent, and human-centered AI tools.
+
+Outlines a roadmap for training, deploying AI tools, and developing ethics guidelines for the City.
+
+---
+

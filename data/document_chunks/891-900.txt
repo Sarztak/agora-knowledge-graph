@@ -1,0 +1,172 @@
+DOC_ID: 890
+Establishes a cause of action for the nonconsensual dissemination of deep fake sexual images in Minnesota, allowing plaintiffs to seek damages, including financial losses and mental anguish.
+
+Defines the crime of using deep fake technology to influence elections, with penalties including imprisonment and fines for violations committed within 90 days before an election.
+
+Criminalizes the intentional dissemination of deep fake images depicting intimate parts or sexual acts without consent, with increased penalties for aggravating factors such as intent to profit or harass.
+
+Allows for injunctions and restraining orders to prevent further harm and includes confidentiality measures for plaintiffs.
+
+Provides exemptions for lawful purposes, such as criminal investigations, reporting unlawful conduct, or scientific research, while ensuring compliance with federal law.
+
+Specifies that these provisions are effective from August 1, 2023, and outlines jurisdiction and venue rules for related legal actions.
+
+---
+
+DOC_ID: 891
+Amends campaign finance law to require that political advertisements generated substantially by artificial intelligence include a clear and conspicuous statement indicating AI involvement.
+
+Mandates that AI-generated political advertisements in graphic form display the statement in large text, while audio communications must audibly disclose AI use at the beginning or end.
+
+Requires video advertisements to display the statement for at least four seconds and include an audible disclosure.
+
+Imposes fines for violations, with $250 for the first offense and up to $1,000 for subsequent offenses.
+
+Exempts bona fide news coverage and platforms with clear policies on AI content disclosure from these requirements.
+
+Defines "qualified political advertisement" as including various advertising formats related to elections or ballot questions using AI-generated content.
+
+Conditions the act’s effectiveness on the enactment of House Bill No. 5143.
+
+---
+
+DOC_ID: 892
+Enacts the "Freedom From AI-Rigged (FAIR) Elections Act" to regulate synthetic media in electioneering communications.
+
+Defines "synthetic media" as altered audio or video intended to mislead about real events or speech through advanced digital techniques.
+
+Allows candidates misrepresented by synthetic media to seek injunctive relief and damages against the creators or distributors.
+
+Requires disclosures on synthetic media: a visible text or audible notice stating the media is manipulated.
+
+Places the burden on plaintiffs to prove synthetic media use by clear and convincing evidence.
+
+Holds information content providers liable, not the medium, unless disclosures are altered or removed.
+
+Encourages courts to resolve cases swiftly.
+
+Declares provisions severable to maintain the act's enforceability if parts are invalidated.
+
+Implements the act immediately upon passage due to an emergency declaration.
+
+---
+
+DOC_ID: 893
+Prohibits governmental entities in Utah from granting or recognizing legal personhood for artificial intelligence.
+
+Restricts legal personhood to human beings and excludes inanimate objects, bodies of water, land, real property, atmospheric gases, astronomical objects, weather, plants, nonhuman animals, or any non-human taxonomic domain.
+
+Applies these restrictions regardless of other legal provisions.
+
+Enacts the bill with an effective date of May 1, 2024.
+
+---
+
+DOC_ID: 894
+Prohibits the distribution of materially deceptive media, produced by AI, within 90 days before an election if intended to harm a candidate's reputation or influence voting patterns.
+
+Defines "materially deceptive media" as AI-generated content falsely depicting individuals in actions or speech they did not partake in.
+
+Allows exceptions if disclaimers clearly state the media's manipulation and provide source citations for edited content.
+
+Classifies violations as Class A misdemeanors, with repeat offenses within five years as Class D felonies.
+
+Permits the Attorney General, depicted individuals, candidates, and voter-representing entities to seek permanent injunctive relief against violators.
+
+Excludes distributors without knowledge of deception or intent to harm from violations, including media entities distributing content as part of legitimate news coverage.
+
+Protects satire and parody, provided they don't rely on AI for impersonation.
+
+Effective October 1, 2024.
+
+---
+
+DOC_ID: 895
+Establishes a task force in Washington State to assess current AI uses and trends and recommend guidelines and potential legislation for AI systems.
+
+Composes the task force of an executive committee with appointed members from legislative bodies, the attorney general's office, technology experts, industry representatives, and community advocates.
+
+Charges the task force with examining AI development and use, focusing on safety, privacy, and civil rights, and submitting recommendations to the legislature.
+
+Mandates a literature review on AI public policy issues, analysis of existing legal protections, and proposals for ethical AI guidelines and high-risk AI use identification.
+
+Tasks the office of the attorney general with administering the task force, retaining consultants, and supporting subcommittee formation.
+
+Requires the task force to deliver reports to the governor and legislature, with a final report due by July 1, 2026.
+
+Expires the task force on June 30, 2027.
+
+---
+
+DOC_ID: 896
+Mandates that campaign communications using synthetic media include a disclosure stating the manipulation of images, audio, or video.
+
+Allows the Secretary of State and the Attorney General to initiate legal proceedings to prevent violations of the requirement for disclosure in campaign communications using synthetic media.
+
+Imposes a civil penalty of up to $10,000 for violations, with penalties directed to the State Treasury's General Fund.
+
+Excludes certain media providers, broadcasters, and publications from the disclosure requirement, provided they acknowledge potential authenticity issues or involve satire or parody.
+
+Adds the new provisions to Oregon Revised Statutes chapter 260 and amends ORS 260.345 to incorporate enforcement mechanisms for violations involving synthetic media in campaign communications.
+
+Permits the Secretary of State to establish rules to implement these provisions.
+
+Declares an emergency for immediate enactment to preserve public peace, health, and safety.
+
+---
+
+DOC_ID: 897
+Enacts requirements for disclosure of synthetic media generated by AI in election-related communications, effective May 1, 2024. 
+
+Mandates audio communications with synthetic audio to state, "Contains content generated by AI," at both the beginning and end. 
+
+Requires visual communications with synthetic media to display phrases such as "This content generated by AI" throughout the video or image. 
+
+Imposes a requirement for creators and sponsors to include tamper-evident digital content provenance in online advertisements, detailing the creators, edits, and AI usage.
+
+Allows civil penalties up to $1,000 per violation.
+
+Considers the intentional use of AI as an aggravating factor in criminal sentencing, effective July 1, 2024. 
+
+Permits judges and parole boards to regard AI-assisted crime as an aggravating factor during sentencing. 
+
+Maintains judicial discretion in sentencing decisions despite AI-related aggravating factors.
+
+---
+
+DOC_ID: 898
+Create the Government Technology Modernization Council within Florida's Department of Management Services to study and monitor new technologies, including artificial intelligence (AI).
+
+Require the council to recommend legislative and administrative actions to promote data modernization and AI system deployment, and establish AI safety standards.
+
+Mandate the council to assess AI's impact on legal rights and its use by governmental and private entities, focusing on potential exploitation by bad actors.
+
+Direct the council to evaluate the need for digital literacy curricula and submit annual recommendations for government technology modernization.
+
+Prohibit knowingly possessing, controlling, or intentionally viewing generated child pornography, with violations constituting a third-degree felony.
+
+Forbid intentionally creating generated child pornography, imposing similar felony penalties.
+
+Prohibit reproduction of generated child pornography in criminal proceedings, ensuring secure custody by law enforcement.
+
+Specify the act's effective date as July 1, 2024.
+
+---
+
+DOC_ID: 899
+Establishes the Artificial Intelligence Impact Task Force in Colorado to propose recommendations for protecting consumers and workers from AI systems and automated decision systems.
+
+Defines key terms, including "artificial intelligence system," "automated decision system," and "algorithmic discrimination."
+
+Requires the task force to consider transparency, disclosure, and protection measures against algorithmic discrimination, and to recommend best practices for ethical and equitable AI usage.
+
+Mandates the task force to include diverse representation and expertise in AI and related fields.
+
+Obligates the task force to meet regularly, with an initial meeting by September 1, 2024, and to submit a report by February 1, 2025.
+
+Permits the task force to continue meeting as needed until its repeal on September 1, 2027, subject to review.
+
+Specifies that non-legislative task force members serve without compensation, but legislative members receive compensation.
+
+---
+

@@ -1,0 +1,180 @@
+DOC_ID: 120
+Establishes the right of publicity, allowing individuals to control the use of their name, voice, signature, photograph, or likeness, especially for deceased performers and personalities. 
+
+Prohibits unauthorized use of digital replicas in fictional works without clear disclaimers or consent from rights holders. 
+
+Defines penalties for illicit use, including compensatory and punitive damages, and requires proof of unauthorized profits for damages calculation. 
+
+Clarifies exceptions for newsworthy, educational, or political contexts where rights protection does not apply.
+
+Allows a private right of action for individuals depicted in non-consensual, sexually explicit material, prohibiting dissemination.
+
+Requires disclaimers be insufficient defense in unauthorized explicit material cases.
+
+Enables registration of deceased personalities' rights with the Secretary of State.
+
+Establishes a 40-year post-mortem protection limit for these rights.
+
+Specifies severability and additional legal recourse without superseding existing legal protections.
+
+---
+
+DOC_ID: 121
+Establishes a work group led by the Office of the Chief Information Officer (OCIO) to develop recommendations for automated decision systems, including AI-enabled profiling, focusing on fairness, transparency, and non-discrimination.
+
+Requires the OCIO to oversee procurement and contracting for IT goods and services, ensuring cloud technology fee recovery and project data posting on the statewide IT dashboard.
+
+Provides $12,000 for examining and auditing automated decision-making systems to ensure fairness and transparency.
+
+Allocates $23,150,000 for Microsoft's 365 licenses with advanced security features, alongside distribution and annual license reporting requirements.
+
+Designates $12,393,000 for cybersecurity efforts, $4,303,000 for small agency IT services, and $1,493,000 for cybersecurity implementation, pending bill enactment.
+
+Involves various state departments in creating a health and human services enterprise coalition led by the Health Care Authority.
+
+Directs collaborative data management efforts for a state-operated geospatial data portal related to natural hazards.
+
+---
+
+DOC_ID: 122
+Creates the Generative AI Governing Board to oversee the ethical and effective use of Generative Artificial Intelligence (AI) by Commonwealth of Pennsylvania agencies.
+
+Requires agencies to apply core values such as accuracy, adaptability, equity, innovation, mission alignment, privacy, proportionality, safety, security, and transparency in using Generative AI technologies.
+
+Charges the Office of Administration (OA) with developing policies to ensure responsible AI use, including auditing outputs for accuracy and protecting user privacy.
+
+Instructs the Board to recommend guidelines and assess agency requests to utilize Generative AI, ensuring adherence to core values, bias testing, and aligning applications with governmental missions.
+
+Composes the Board of key government officials and mandates monthly meetings.
+
+Encourages collaboration with external AI experts and stakeholders for feedback on AI usage.
+
+Orders OA to provide training for employees on using Generative AI tools effectively.
+
+---
+
+DOC_ID: 123
+Establishes six core AI Values that District of Columbia agencies must assess before deploying AI tools, specifically focusing on benefits, safety, accountability, transparency, sustainability, and privacy.
+
+Forms an AI Advisory Group and an AI Taskforce to align AI Values, conduct community engagement, support governance, and advise the Mayor on AI use.
+
+Instructs the Office of the Chief Technology Officer, Department of Human Resources, and other agencies to develop privacy, cybersecurity, recruitment, and procurement benchmarks by specified deadlines.
+
+Requires agencies to submit AI strategic plans addressing potential improvements, risks, and stakeholder engagement by designated dates.
+
+Charges the AI Taskforce with providing technical advice, reporting on progress, and ensuring compliance with strategic benchmarks.
+
+Mandates that the Advisory Group and AI Taskforce sunset on December 31, 2026. 
+
+Requires these bodies to provide ongoing guidance, review AI tools, and align technology use with the District's stated AI Values.
+
+---
+
+DOC_ID: 124
+Establishes the New York State Artificial Intelligence, Robotics and Automation Commission to study and determine regulations for AI, robotics, and automation.
+
+Tasks the commission with examining current state laws, comparative policies, liability issues, employment impact, confidentiality, restrictions on AI weaponry use, regulatory impacts on the technology industry, and public sector AI applications.
+
+Comprises thirteen members appointed by state government officials and university chancellors.
+
+Authorizes the commission to conduct hearings and gather testimonies to thoroughly analyze relevant AI issues.
+
+Requires the commission to publish a final report for state leadership at least thirty days before the act's expiration.
+
+Sets the act's expiration and repeal date as December 31, 2020.
+
+---
+
+DOC_ID: 125
+Define "assessment mechanism" to include AI and technology used for remote or in-person eye assessments.
+
+Require such mechanisms to offer patient-provider interaction, gather patient history, and acknowledge limitations, including not replacing in-person exams or issuing initial contact lens prescriptions.
+
+Instruct providers using assessment mechanisms to adhere to traditional care standards, verify patient identity and age, ensure recent in-person exams, and maintain patient records.
+
+Establish that using eye assessment data alone for prescriptions is prohibited, and providers must certify prescriptions with their signature and license.
+
+Impose civil penalties up to $10,000 for violations, with rights to hearings and appeals.
+
+Authorize the department of health to implement rules and regulations for enforcement.
+
+Include severability to maintain chapter validity if parts are invalidated.
+
+---
+
+DOC_ID: 126
+Establishes a Deep Technology Talent Initiative to develop and oversee funding for programs related to deep technology, including artificial intelligence.
+
+Requires institutions of higher education to collaborate with employers to create programs that address workforce needs in deep technology sectors.
+
+Mandates submission and review of program proposals by institutions seeking funding, emphasizing workforce relevance, partnerships, and the integration of deep technology skills.
+
+Instructs the Deep Technology Talent Advisory Council to prioritize and recommend proposals for funding based on specified criteria including workforce impact and cost-effectiveness.
+
+Allocates $5 million from the Workforce Development Restricted Account to the Deep Technology Talent Initiative for fiscal year 2021.
+
+Requires annual reports from funded programs on performance and outcomes, which the board must submit to relevant legislative committees.
+
+Defines the composition and responsibilities of the Deep Technology Talent Advisory Council in supporting the initiatives.
+
+---
+
+DOC_ID: 127
+Defines "high technology manufacturing businesses" to include entities involved in manufacturing activities incorporating artificial intelligence, autonomous vehicles, drones, and related AI-operated machinery. 
+
+Allows these businesses a tax credit against state taxes equal to 100% of the tax attributable to their qualified investment in expanding or establishing AI-related operations, providing they create at least 20 new jobs within 12 months.
+
+Ensures that the median compensation for these new jobs exceeds $45,000, adjusted annually for inflation.
+
+Precludes businesses claiming this credit from simultaneously claiming other tax credits for the same investment.
+
+Empowers the commissioner to establish rules and require notices for monitoring the application and eligibility of the credit. 
+
+Tasks the commissioner with overseeing compliance and verifying ongoing eligibility for the credit throughout the 20-year period.
+
+---
+
+DOC_ID: 128
+Directs the Office of Regulatory Management, with the Chief Information Officer and relevant Secretariats, to establish AI usage standards for Virginia's state government.
+
+Requires reviewing laws and regulations affecting AI, including privacy and intellectual property laws, to ensure public protection.
+
+Ensures AI usage is transparent, secure, and impartial with adequate privacy safeguards.
+
+Recommends uniform AI standards across state agencies, including education and IT guidelines.
+
+Collaborates with educational institutions to integrate AI in curricula and promote responsible AI usage in learning environments.
+
+Prepares students and the workforce for careers involving AI through partnerships with colleges and industry.
+
+Identifies opportunities for AI to enhance state government efficiency and ethical decision-making.
+
+Explores AI's economic impacts, encouraging industry innovation and supporting displaced workers.
+
+Works with the Virginia Department of Energy to assess AI's impact on power requirements.
+
+Requires completion of these actions and recommendations by December 15, 2023.
+
+---
+
+DOC_ID: 129
+Orders WaTech, with cabinet agencies, to report on generative AI initiatives by September 2024, assessing feasibility, benefits, and challenges.
+
+Directs WaTech and DES to issue guidelines for AI procurement focusing on safety, equity, and privacy by September 2024.
+
+Requires DES and WaTech to develop an AI training plan for government workers by January 2025.
+
+Instructs WaTech to create guidelines for AI's community impact, focusing on equity and algorithmic bias by December 2024.
+
+Mandates DES and WaTech to update procurement templates to include equity and risk considerations by January 2025.
+
+Tasks the Office of Equity to develop an accountability framework for AI equity and ethics by September 2024.
+
+Ensures WaTech provides risk assessment guidance for high-risk AI systems by December 2024.
+
+Commands the State Human Resources Division to assess AI's workforce impact and mitigate negative effects by December 2024.
+
+Charges the Workforce Training Board with fostering AI education and research by January 2025.
+
+---
+

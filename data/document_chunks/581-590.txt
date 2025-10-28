@@ -1,0 +1,145 @@
+DOC_ID: 580
+Prohibits large online operators from manipulating user interfaces to obscure, subvert, or impair user autonomy, decision making, or consent.
+
+Requires affirmative express consent from users for covered research and prohibits manipulation aimed at children or teens to encourage compulsive usage.
+
+Mandates large online operators to disclose the purpose of covered research to users every 90 days and ensure transparency.
+
+Obligates large online operators to establish independent review boards to oversee user interface design and research, ensuring compliance and preventing exploitative practices.
+
+Directs the National Institute of Standards and Technology to develop resources for user interface design promoting user autonomy, choice, and decision making.
+
+Empowers the Federal Trade Commission to enforce compliance, establish regulations for independent review boards, and define acceptable conduct for large online operators.
+
+Provides safe harbor for operators acting in good faith per established guidelines.
+
+
+---
+
+DOC_ID: 581
+Establishes a new research and development program by the FAA’s NEXTOR III to develop new data analysis approaches for aviation safety.
+
+Includes use of new algorithms and AI methods for analyzing various data sets such as weather, equipment performance, flight delays, safety incidents, and communications.
+
+Requires collaboration among Consortium member institutions, aviation industry partners, FAA units, and NASA’s Aviation Safety Reporting System for data sharing and testing.
+
+Prioritizes understanding human factors contributing to aviation safety risk, including fatigue, distraction, workload, organizational culture, communication, and adherence to safety procedures.
+
+Seeks to improve the design of highly automated aircraft to reduce mode confusion and increase awareness of flight parameters.
+
+Authorizes $20,000,000 annually from 2024 to 2029 for program execution, including grants to participating institutions and FAA units.
+
+Terminates the program 6 years after establishment.
+
+---
+
+DOC_ID: 582
+Amends Section 230 of the Communications Act of 1934 to limit liability protections for dominant interactive computer service providers based on their content management practices.
+
+Deems providers as content creators if they engage in content moderation or use targeted algorithmic amplification that expresses, promotes, or suppresses a discernible viewpoint.
+
+Excludes liability protections for actions against religious material that burden the exercise of religion.
+
+Mandates public disclosure of content management mechanisms and practices by providers to enable informed consumer choices and entrepreneurial activities.
+
+Reclassifies immunity under Section 230 as an affirmative defense, requiring providers or users to prove they are not information content providers in legal actions.
+
+---
+
+DOC_ID: 583
+Cites the Act as the “Autonomous Vehicle Accessibility Act” or the “AV Accessibility Act”.
+
+Defines key terms including “disability,” “public transportation,” and “ride-hail ADS-equipped vehicle.”
+
+Prohibits states from issuing licenses for Level 4 or Level 5 ADS-equipped vehicles in a manner that discriminates against individuals with disabilities, in accordance with the ADA.
+
+Mandates the Secretary of Transportation to commission a study through the National Academies to identify changes needed in public transportation infrastructure to improve accessibility for individuals with disabilities using ride-hail ADS-equipped vehicles.
+
+Authorizes $5,000,000 for the completion of the accessibility infrastructure study, available until expended.
+
+---
+
+DOC_ID: 584
+Amends the Consolidated Appropriations Act, 2022, to include "digital forgery" as any intimate visual depiction created via AI or other technological means to appear indistinguishable from an authentic visual depiction.
+
+Allows identifiable individuals to bring civil action against those who produce, possess, disclose, or solicit digital forgeries without consent, with knowledge or reckless disregard of the lack of consent.
+
+Specifies relief for plaintiffs, including actual or liquidated damages of $150,000, attorney’s fees, and equitable relief such as injunctions.
+
+Permits courts to issue orders to protect plaintiffs' privacy, including the use of pseudonyms and sealing personal identifying information.
+
+Establishes a 10-year statute of limitations for actions, starting from the discovery of the violation or the individual reaching 18 years of age.
+
+Ensures the Act does not preempt state, federal, or tribal laws that provide at least as much protection.
+
+---
+
+DOC_ID: 585
+Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter.
+
+Expedites the processing of Foreign Military Sales requests from Australia, Canada, and the UK.
+
+Mandates the creation of an anticipatory release policy for key Foreign Military Sales capabilities, including AI, hypersonic missiles, cyber capabilities, and quantum technologies, with a presumption of approval.
+
+Requires the review and update of interagency policies to incorporate these anticipatory release provisions.
+
+---
+
+DOC_ID: 586
+Requires the Director of National Intelligence to brief congressional intelligence committees within 120 days on whether current intelligence community directives provide sufficient guidance on the use of AI and machine learning tools in intelligence products.
+
+Mandates the briefing to include a determination of whether Intelligence Community Directives 203 and 206, and other relevant directives, offer adequate guidance on using, sourcing, and providing transparency for AI and machine learning tools.
+
+Requires the Director to assess if these directives need updates to enhance guidance and direction.
+
+Obligates the Director to explain why no updates are needed if deemed sufficient, or to provide a plan and timeline for necessary updates if improvements are required.
+
+---
+
+DOC_ID: 587
+Requires the Nuclear Regulatory Commission (NRC) to report to Congress on actions taken during the COVID-19 emergency, including revised or suspended regulatory policies and their impacts.
+
+Mandates NRC to develop a report within one year identifying improvements in nuclear oversight and inspections using risk-informed, performance-based procedures, information technologies, and AI.
+
+Obligates NRC to seek input from stakeholders like the Secretary of Energy, National Laboratories, and the nuclear energy industry.
+
+Directs NRC to assess the use of AI and machine learning to enhance oversight and inspection decisions.
+
+Instructs NRC to identify specific actions for incorporating advanced technologies into their activities without compromising their mission.
+
+---
+
+DOC_ID: 588
+Appropriates $1,090,000,000 to U.S. Customs and Border Protection for technology improvements, including non-intrusive inspection scanning systems and anomaly detection algorithms, to enhance fentanyl interdiction at land borders.
+
+Appropriates $223,000,000 to U.S. Immigration and Customs Enforcement to expand efforts to interdict fentanyl and disrupt transnational criminal networks, including funds for additional special agents and joint surge operations.
+
+Mandates submission of reports by March 31, 2028, detailing impacts of Border Patrol Processing Coordinator positions, equipment needs for outbound inspections, and summaries of non-intrusive inspection technology at land ports of entry.
+
+Creates penalties for knowingly damaging or evading border controls, with fines and imprisonment up to 5 years for violations aimed at securing financial gain or furthering criminal organizations.
+
+---
+
+DOC_ID: 589
+Amends the Forest and Rangeland Renewable Resources Research Act to include forest carbon in resource assessments.
+
+Requires the Secretary to conduct timber products output studies and national woodland owner surveys.
+
+Mandates the integration of forest carbon data in bi-decadal reviews.
+
+Specifies the need for clear definitions of "forest" in reporting data.
+
+Updates strategic plan to include consistent data collection protocols, integration of new technologies, and enhanced transparency.
+
+Ensures collected data is accessible while maintaining confidentiality of sensitive information.
+
+Compiles and publishes biennial national forest statistics.
+
+Establishes an office or platform to handle complex data requests, with possible fees imposed on requestors.
+
+Publishes annual reports detailing progress on strategic plan implementation, including costs and priorities.
+
+Amends Agriculture Improvement Act to utilize advanced remote sensing and machine learning technologies for data collection and modeling.
+
+---
+

@@ -1,0 +1,169 @@
+DOC_ID: 160
+Establishes the Governor’s Task Force on Generative Artificial Intelligence to evaluate and promote the responsible use of GenAI in Alabama's executive-branch agencies.
+
+Requires the Task Force to submit a report by November 30, 2024, detailing GenAI use, risks, and recommendations for its governance framework within state government, including data management, model monitoring, and human oversight.
+
+Instructs each state executive-branch agency to submit an inventory of their GenAI use by May 1, 2024, detailing vendor information, capabilities, and safety measures.
+
+Directs the Office of Information Technology to establish a secure cloud infrastructure for GenAI pilot projects, encouraging state agencies to test and utilize GenAI responsibly.
+
+Encourages state executive-branch agencies to explore GenAI applications in collaboration with experts for improving government services and employee performance.
+
+Specifies that the order affects executive-branch entities and does not create private enforceable rights.
+
+---
+
+DOC_ID: 161
+Requires entities in North Dakota’s executive branch to ensure AI technologies are reliable, valid, and transparent, with clear explanations of AI use and marked AI decision-making involving medium to high-risk data.
+
+Mandates accountability for secure AI development, compliance with laws and standards, and prohibits using state-managed passwords for third-party apps.
+
+Incorporates NDIT’s Security Risk Management Program in AI operations, mandates regular risk assessments, and restricts inputting moderate/high-risk data into public AI/ML services.
+
+Requires NDIT to offer AI training and workshops, maintain an AI technology inventory, and ensure entities use vetted technologies.
+
+Demands compliance with data protection laws, ethical AI use, and fairness without bias.
+
+Stipulates AI must adhere to legal standards, including copyright, with review of licensing agreements and recognition that AI-generated content lacks copyright protection.
+
+---
+
+DOC_ID: 162
+Establishes the North Carolina State Government Responsible Use of Artificial Intelligence Framework to ensure ethical AI application across state agencies.
+
+Requires state agencies to follow guidelines which emphasize human-centered AI with oversight ensuring AI use benefits citizens without negatively impacting rights or access to services.
+
+Stipulates transparency, requiring agencies to notify individuals of AI use and its impacts in accessible language.
+
+Mandates robust security measures, ongoing monitoring, and risk assessments to ensure the safety and effectiveness of AI systems.
+
+Demands strict data privacy controls throughout AI lifecycle stages and promotes equitable AI development free from biases.
+
+Insists on accountability where agencies must audit AI use and provide necessary training to personnel.
+
+Empowers staff through AI training to maximize public service effectiveness.
+
+Requires agencies to maintain an AI inventory, report it for transparency, and conduct risk assessments using NIST AI RMF guided by state offices for comprehensive risk management.
+
+---
+
+DOC_ID: 163
+Requires all New Hampshire State Employees to adhere to ethical guidelines for AI use, emphasizing protection of Personal Identifying Information (PII) and sensitive data.
+
+Dictates a human-centric approach, transparency, fairness, privacy, and continuous monitoring in AI deployment for government services.
+
+Allows AI for decision support, public engagement, predictive analytics, image and video analysis, natural language processing, generative content, healthcare, environmental monitoring, and transportation, subject to stringent data protection and human oversight.
+
+Mandates AI systems to explain decisions and actions and undergo ethical reviews when high-risk.
+
+Instructs employees to ensure data protection and adhere to cybersecurity measures per the Statewide Information Security Manual and NIST-800-53 standard.
+
+Requires informing users about AI interactions and data handling.
+
+Assigns Agency heads responsibility for policy adherence, with AI technologies reported to the Business Relationship Management Division.
+
+References New Hampshire AI ethics code and laws related to deepfakes and AI use.
+
+---
+
+DOC_ID: 164
+Establishes the Artificial Intelligence Task Force responsible for studying AI technologies' societal impacts and recommending government actions for ethical use.
+
+Includes the Chief Technology Officer, Chief Innovation Officer, Chief Executive Officer of the Economic Development Authority, and other key officials as members.
+
+Authorizes the Task Force to gather data from state departments and agencies.
+
+Requires executive branch cooperation and assistance to fulfill the Task Force's objectives.
+
+Directs the Task Force to consult with academics, industry professionals, and consumer advocates.
+
+Issues a reporting requirement to the Governor within 12 months of the Order’s enactment, to be shared with the Legislature and public.
+
+Permits additional appointments by the Governor as necessary.
+
+Clarifies the Task Force’s advisory nature in providing advice to the Governor and executive branches. 
+
+Takes effect immediately upon issuance.
+
+---
+
+DOC_ID: 165
+Establishes a single state data governance structure, creating a federated data platform to manage data effectively across Rhode Island state agencies.
+
+Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration.
+
+Creates an AI Center of Excellence to formulate AI policies and ethics, minimizing bias and guiding AI implementation in state operations.
+
+Directs all state agencies to participate in the federated data system, sharing data for policy analysis and exploring AI applications to improve operations.
+
+Forms an AI Task Force to assess AI risks and opportunities, providing advice to policymakers.
+
+Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula.
+
+---
+
+DOC_ID: 166
+Establishes an Artificial Intelligence in Education Task Force in Mississippi to evaluate and recommend AI applications in K-12 education.
+
+Requires the State Superintendent of Education to chair the task force, with administrative support provided by the Department of Education.
+
+Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy.
+
+Instructs the task force to assess AI's ethical, legal, and data privacy implications, develop policy recommendations, and propose guidelines for AI integration in education.
+
+Tasks the force with identifying workforce needs and strategies for data protection, and fostering collaboration between educational sectors and industries.
+
+Requires submission of interim and final reports detailing findings and recommendations to state officials and public posting of the final report.
+
+Dissolves the task force on January 1, 2025, and takes effect on July 1, 2024.
+
+---
+
+DOC_ID: 167
+Requires healthcare entities in California using AI to comply with existing state laws related to consumer protection, civil rights, competition, and data privacy.
+
+Prohibits the use of AI to deny health insurance claims or make medical decisions that override licensed care providers’ determinations.
+
+Prohibits the use of AI systems that discriminate against patients based on historical access to healthcare.
+
+Demands transparency and auditing of AI systems, ensuring they do not introduce bias or replicate human error.
+
+Insists that entities uphold patient privacy, especially regarding sensitive information like reproductive and genetic data.
+
+Mandates informed consent from patients when AI tools impact their healthcare.
+
+Outlines existing protections under laws like California’s Unfair Competition Law, Unruh Civil Rights Act, and Confidentiality of Medical Information Act.
+
+Instructs healthcare AI developers to prevent discriminatory impacts and consider the effects of training data.
+
+Emphasizes the need for compliance with both state and federal regulations with no exceptions for AI-related practices.
+
+Prohibits the involvement of AI as a defense to liability under any law.
+
+---
+
+DOC_ID: 168
+Enacts the New York Artificial Intelligence Consumer Protection Act to manage risks of  AI decision systems. 
+
+Requires developers to ensure systems do not cause algorithmic discrimination through regular audits, starting January 2027. 
+
+Mandates developers provide comprehensive technical documentation and risk assessments to deployers. 
+
+Obligates deployers to notify consumers when high-risk AI systems make significant decisions affecting them and to offer explanation and recourse for adverse decisions. 
+
+Imposes a risk management program for deployers to identify and mitigate potential discrimination. 
+
+Allows the attorney general to enforce compliance through audits and penalties, with the possibility of corrective actions to avoid litigation. 
+
+Establishes exceptions for preempting federal law compliance and protects trade secrets from disclosure. 
+
+---
+
+DOC_ID: 169
+Requires federal agencies to appoint a Chief AI Officer (CAIO) within 60 days to enhance AI governance and innovation while managing risks, particularly those affecting public rights and safety.
+Requires agencies to develop AI strategies to responsibly adopt AI, including generative AI, and to facilitate sharing and reuse of AI models, code, and data.
+
+Imposes new requirements for agencies to manage AI-related risks, including following minimum risk management practices for AI impacting public rights and safety. Obligates agencies to annually inventory AI use cases, identifying those impacting rights and safety, and to report on associated risks and mitigation strategies. Encourages removing barriers to AI innovation related to IT infrastructure, data, and workforce while ensuring compliance with existing federal policies and risk management practices.
+
+---
+

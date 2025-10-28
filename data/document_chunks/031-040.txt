@@ -1,0 +1,176 @@
+DOC_ID: 30
+Directs the National Oceanic and Atmospheric Administration (NOAA) to use artificial intelligence (AI) for adapting to extreme weather and wildfires.
+
+Mandates the development of comprehensive weather forecasting training datasets and AI weather models.
+
+Requires NOAA to explore advanced AI applications to enhance weather forecasts and improve information delivery.
+
+Instructs NOAA to provide technical assistance for AI weather model usage and establish best practices.
+
+Directs the creation of an AI-driven program to predict, detect, and analyze wildfires.
+
+Advocates for partnerships with private and academic entities for innovation in environmental forecasting.
+
+Obligates NOAA to strengthen its workforce expertise in AI applications for weather forecasting.
+
+Allows public access to data and code developed under the Act, with considerations for national security and intellectual property.
+
+Provides guidance on minimizing environmental impacts when using AI technologies in these initiatives.
+
+---
+
+DOC_ID: 31
+Amends New York's general business law to introduce the Responsible AI Safety and Education (RAISE) Act, implementing transparency requirements for deploying AI frontier models.
+
+Requires large AI developers to implement and retain a written safety and security protocol that must be published with redactions and submitted to the Attorney General and Homeland Security.
+
+Stipulates annual reviews of the protocol to accommodate any advancements.
+
+Requires prompt reporting of safety incidents to authorities within 72 hours.
+
+Prohibits knowingly making false or misleading statements concerning AI documentation.
+
+Empowers the Attorney General to bring civil actions for violations, with penalties up to $30 million for repeated offenses.
+
+Confirms that the Act applies exclusively to frontier AI models developed or operating in New York State.
+
+Clarifies that this Act doesn't establish a private right of action and is cumulative with other legal obligations.
+
+---
+
+DOC_ID: 32
+Expands the functions of the National Institute of Standards and Technology (NIST) to include the development of workforce frameworks for critical and emerging technologies, including artificial intelligence.
+
+Mandates the Director of NIST to develop, publish, and periodically update a workforce framework specifically for artificial intelligence within 540 days of the Act's enactment.
+
+Requires the inclusion of competencies, workforce categories, and work roles relevant to AI in the workforce framework, highlighting career pathways for individuals with nontraditional backgrounds.
+
+Obligates consultation with federal agencies, industry, and educational institutions to develop these frameworks.
+
+Demands reports to Congress on the updates and practical applications of the frameworks, with a focus on increasing employer and educational adoption.
+
+Promotes global adoption by producing resources in multiple languages.
+
+Incorporates professional and employability skills relevant to AI workforce frameworks and assesses additional framework needs for emerging technologies, such as quantum information science.
+
+---
+
+DOC_ID: 33
+Amends U.S. Code to increase the required minimum number of fighter aircraft in the Air Force to 1,900, extending compliance to 2030, but allows temporary reductions for transitions, provided levels don't fall below 1,800.
+
+Mandates annual reports by the Secretary of the Air Force to Congress on the status of fighter aircraft inventory, including new acquisitions, unit assignments, and any legacy retirements, with penalties for late submission.
+
+Requires prioritization of recapitalized fighter allocations to existing Air Force squadrons, allowing one-for-one legacy aircraft retirement.
+
+Obligates the Air National Guard to maintain 25 fighter squadrons and restricts retiring legacy or fifth-generation aircraft unless unserviceable.
+
+Directs an annual recapitalization plan for Air National Guard squadrons, assessing financial and readiness impacts, with a focus on acquiring F–16 Block 70 aircraft.
+
+Defines terms such as "advanced capability fighter aircraft," "fifth-generation fighter aircraft," and "next-generation air dominance fighter aircraft."
+
+---
+
+DOC_ID: 34
+Mandates the establishment of pilot projects by the Secretary of Homeland Security within one year to evaluate technologies for enhancing inspection processes at U.S. land ports of entry.
+
+Requires testing of at least five types of nonintrusive inspection technology enhancements, including artificial intelligence and machine learning, to aid in detecting contraband and threats.
+
+Ensures private sector involvement and emphasizes cost-effectiveness in technology selection.
+
+Obligates safeguarding data privacy during inspections, with adherence to laws, data anonymization techniques, and regular audits.
+
+Demands reports analyzing effectiveness, recommendations for widespread technology use, and cost breakdowns.
+
+Includes necessary privacy and civil liberties impact assessments and reports before implementation and post-pilot.
+
+Prohibits new appropriations, relying on existing resources for implementation.
+
+---
+
+DOC_ID: 35
+Establishes a White House Task Force on Artificial Intelligence Education to promote AI literacy and proficiency in the United States, chaired by the Director of the Office of Science and Technology Policy.
+
+Requires the Task Force to coordinate Federal efforts on AI education, including organizing the Presidential Artificial Intelligence Challenge to encourage collaboration and innovation in AI.
+
+Mandates public-private partnerships to provide K-12 AI education resources and calls for increased funding and resources to develop AI literacy.
+
+Prioritizes AI-focused training for educators and the integration of AI tools in classrooms through grants and public-private partnerships.
+
+Instructs the Secretary of Education and other Federal entities to support the use of AI in educational settings to improve outcomes.
+
+Directs the Secretary of Labor to increase AI-related Registered Apprenticeships and promote AI skill development through the Workforce Innovation and Opportunity Act (WIOA).
+
+Encourages agencies to prioritize AI in educational grant programs.
+
+---
+
+DOC_ID: 36
+Mandates the improvement of weather, water, and wildfire forecast accuracy through artificial intelligence (AI) by federal agencies.
+
+Promotes public-private partnerships to expedite AI adoption for mitigating environmental hazards.
+
+Directs the development and curation of comprehensive weather forecasting training datasets in consultation with various federal and research entities within four years.
+
+Permits exploration of AI weather models for global, regional, and local forecasting.
+
+Encourages the use of AI to enhance communication and public understanding of weather risks.
+
+Mandates regular reporting to Congress on activities and potential risks of foreign access to U.S. weather data.
+
+Allows the Under Secretary to enter partnerships, including co-investment strategies, for AI and environmental forecasting innovation.
+
+Provides for public access to operational AI weather models, subject to national security and intellectual property considerations.
+
+Authorizes appropriations to support these initiatives through fiscal years 2026 to 2030.
+
+---
+
+DOC_ID: 37
+Prohibits food producers from using algorithmic systems to artificially inflate prices or reduce supply through coordinating functions or tacit agreements.
+
+Deems any such use as a per se violation of the Sherman Act.
+
+Mandates the Federal Trade Commission and the Attorney General to enforce this prohibition using applicable antitrust laws.
+
+Authorizes civil actions by the FTC, state attorneys general, and aggrieved persons to recover damages and seek penalties.
+
+Invalidates pre-dispute arbitration agreements and joint action waivers related to violations of this Act at the plaintiff’s election.
+
+Ensures that this Act does not modify existing antitrust laws or preempt state or local laws.
+
+Includes a severability clause to uphold remaining provisions if any part is deemed unconstitutional.
+
+---
+
+DOC_ID: 38
+Establishes a National Advisory Committee on Autonomous Maritime Systems to advise the Secretary on regulation and use within U.S. territorial waters, comprising 15 expert members representing diverse maritime sectors.
+
+Implements a two-year pilot program exempting small uncrewed maritime systems from certain regulatory requirements when operated by the National Oceanic and Atmospheric Administration, unless immediate safety concerns arise.
+
+Mandates the Coast Guard to develop a training course on small uncrewed maritime systems, addressing operations, safety, and communication aspects over three years.
+
+Incorporates National Oceanic and Atmospheric Administration representation into the Automated and Autonomous Vessel Policy Council.
+
+Requires the Coast Guard to submit a report within one year establishing an uncrewed systems capabilities office, detailing strategies for technology acquisition, coordination, collaboration, and expanding capabilities using AI and machine learning.
+
+Defines relevant terms, including "counter-uncrewed system" and "small uncrewed maritime systems."
+
+---
+
+DOC_ID: 39
+Establishes a deployment and testbed pilot program for new and innovative wildfire technologies within 60 days of enactment.
+
+Requires coordination among the Secretaries of Agriculture and Interior and covered agencies to identify technology priority areas like AI, quantum sensing, and augmented reality for wildfire prevention and mitigation.
+
+Prioritizes covered entities with emerging technologies that address identified issues for participation in the pilot program.
+
+Mandates real-time testing and on-the-ground coordination between selected entities and covered agencies.
+
+Requires public outreach to invite applications from entities for technology testing and demonstration in key priority areas.
+
+Obligates annual reporting to appropriate committees, detailing participating entities, tested technologies, cost estimates, and outreach efforts.
+
+Sets the program's expiration at 7 years after enactment, with annual assessments and recommendations to foster the adoption of promising technologies.
+
+---
+

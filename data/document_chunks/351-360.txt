@@ -1,0 +1,136 @@
+DOC_ID: 350
+Requires the Secretary of State to submit to the appropriate congressional committees a report that describes and justifies any changes made during FY 2022 and 2023 to the Foreign Service entry process.
+
+Includes the use of artificial intelligence, including deep textual analysis, and its impact on recruitment in the scope of the report.
+
+---
+
+DOC_ID: 351
+Requires the Director of National Intelligence to create an annual report to Congress for five years that includes a list of Chinese AI businesses that are involved with or are supporting concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of China.
+
+Directs the Director of National Intelligence to work in consultation with the heads of elements of the intelligence community to create the list of Chinese AI businesses for the report.
+
+
+---
+
+DOC_ID: 352
+Establishes an independent Commission on the Future of the Navy within the legislative branch, whose duties include studying opportunities to incorporate advanced technologies, including artificial intelligence, in the fleet.
+
+Requires the Commission to consider specific changes to the Navy's Shipyard Infrastructure Optimization Program and ship depot maintenance program, in order to expand the use of advanced technologies in shipyard infrastructure and ship operations.
+
+Requires the Commission to submit to the congressional armed services committees an unclassified report on the findings of its study. 
+
+
+
+
+
+
+
+---
+
+DOC_ID: 353
+Authorizes government support for AI-related activities
+
+Instructs the Director of National Intelligence to establish a policy regarding user adoption metrics for contracts and other agreements for the procurement AI and emerging technology software products.
+
+Requires an evaluation of AI systems, or of broader systems or processes that involve AI.
+
+Requires each contract or agreement to include an understanding of the anticipated use of the covered AI or emerging technology product with a clear metric for success, for collecting user adoption metrics and for assessing the adoption of the covered product by such users.
+
+Requires that prior to the procurement of, or the continuation of the use of, any AI and emerging technology product procured by the head of an element of the intelligence community, the head must determine a method for assessing the success of the covered product from user adoption metrics.
+
+
+
+---
+
+DOC_ID: 354
+Instructs the heads of the elements of the intelligence community to draft a policy to promote the intelligence community-wide use of code-free artificial intelligence enablement tools.
+
+Requires the given policy to include the objectives and a set of incentives for using code-free artificial intelligence enablement tools.
+
+Instructs the intelligence community to devise a plan to ensure coordination and consideration in designating an official of each element of the intelligence community to oversee implementation of the policy.
+
+Requires an assessment of the personnel and funding requirements, and any other resource requirements, that would be necessary to implement the draft policy in the given timeline.
+
+---
+
+DOC_ID: 355
+Requires the Secretary of State to establish positions within the Bureau of Global Talent Management that are solely dedicated to the recruitment and retention of Department personnel with backgrounds in cybersecurity, engineering, data science, application development, artificial intelligence, critical and emerging technology, and technology and digital policy.
+
+Requires the Secretary to submit a plan to the appropriate congressional committees that describes how the initiative described above will be implemented. 
+
+Authorizes the appropriation of $750,000 for each of the fiscal years 2023 through 2027 to carry out this initiative.
+
+Requires the Secretary to submit to the appropriate congressional committees an annual report, for a period of 5 years, on the implementation of the initiative, including the hiring authorities used to implement it, the number of employees hired through it, and recommendations to enhance the efficacy of the initiative.
+
+Requires the Secretary to include computer programming languages within the Recruitment Language Program and provide appropriate language incentive pay.
+
+Requires the Secretary to provide a list to the appropriate 
+congressional committees that identifies (a) the computer programming languages included within the Recruitment Language Program and the language incentive pay 
+rate and (b) the number of individuals benefitting from the inclusion of such computer programming languages in the Recruitment Language Program and language incentive pay.
+
+
+---
+
+DOC_ID: 356
+Mandates compatibility of information technology or software systems with new and emerging technologies, such as artificial intelligence.
+
+Incentivizes adoption and integration of new technologies and decommissioning outdated systems, including potential funding enhancements.
+
+Holds intelligence community personnel accountable for integrating new technologies, supported by training programs and evaluations.
+
+---
+
+DOC_ID: 357
+Begins discussing the phrase “appropriate committees of Congress” and what organizations are actually a part of this phrase when benign referred. Also defines the term “legacy semiconductor” in terms of the definition given in another legislation document.
+
+Annually for 3 years after this act is passed, the Director of National Intelligence must submit an unclassified assessment report regarding China’s production of semiconductors through China’s firms and business sectors to the appropriate committees of Congress.
+
+The Director of National Intelligence must meet with the heads of federal agencies to discuss the elements of the assessment. They must discuss the self-sufficiency of China in the fields of artificial intelligence, cloud computing, autonomous vehicles, and other newer-technological areas. They must discuss China’s access to intellectual property related to leading edge process nodes, including electronic design automation technology. They must discuss Chinese firms’s production of semiconductors that are not legacy conductors and stockpiling efforts of semiconductor manufacturing equipment. They must discuss the relative market share and its trends of Chinese semiconductor manufacturers at different process nodes. They must discuss the outside recruitment activity into Chinese semiconductors firms and the capability of the Chinese workforce in developing semiconductors that are not legacy semiconductors and relevant equipment.
+
+---
+
+DOC_ID: 358
+Creates a new institution to govern, investigate, advise, produce, or otherwise act in relation to AI.
+
+Requires the Director of National Intelligence and intelligence heads, to review and establish AI-related policies, aiming to boost AI adoption in the intelligence community.
+
+Requires the heads of the elements of the Intelligence Community to ensure established or updated policies are consistent with the principles outlined in the guidance of the Office of the Director of National Intelligence.
+
+Avails budget guidance to the heads of the intelligence community for developing the National Intelligence Program budget to facilitate the acquisition, development, use, and maintenance of element-specific artificial intelligence capabilities.
+
+Instructs each lead and the Director of National Intelligence to identify a senior official within the element to serve as the designated element lead responsible for coordinating AI efforts.
+
+Addresses government support for AI-related development activities.
+
+---
+
+DOC_ID: 359
+
+Addresses government support for AI-related research and development activities, the development of the AI workforce, including education and training in AI-related disciplines.
+
+Requires a description of all authorities related to artificial intelligence use.
+
+Requires a stipulation of element’s roles, responsibilities, and authorities for accelerating AI adoption.
+
+Requires an evaluation of efforts to enhance intelligence capabilities through AI.
+
+Requires a progress of each intelligence element in AI adoption.
+
+Requires details of contracts with small or medium-sized emerging tech companies for AI products.
+
+Requires details of positions established or filled within the element.
+
+Requires a description of Intelligence community policies related to AI adoption and compliance assessments by elements.
+
+Necessitates recommendations for efficient AI adoption in the intelligence community, considering technological advances.
+
+Requires an overview of foreign adversaries' AI advances and steps to ensure U.S. outpaces them.
+
+Requires an identification of resource or authority gaps and administrative or technical barriers to AI adoption.
+require
+
+
+
+---
+

@@ -1,0 +1,162 @@
+DOC_ID: 180
+Directs the Mississippi Department of Information Technology Services (ITS) to inventory all AI technologies across state agencies by providing a standardized form.
+
+Mandates ITS to evaluate current AI processes and guidelines at state agencies.
+
+Instructs ITS to develop policy recommendations for the responsible use of AI, emphasizing fairness, privacy, security, transparency, and accountability.
+
+Encourages statewide coordination on AI use, enabling ITS to engage with government stakeholders and industry experts for best practices and strategies.
+
+Requires state agencies to cooperate with ITS by completing AI inventories and designating a staff member for AI coordination.
+
+Implements the Executive Order immediately, with provisions to remain effective until amended, superseded, or rescinded.
+
+---
+
+DOC_ID: 181
+Establishes the "Frontier Safety Framework" for managing risks of advanced AI, focusing on Critical Capability Levels (CCLs) related to misuse and deceptive alignment.
+
+Outlines CCLs for high-risk domains, including chemical, biological, radiological, nuclear attacks (CBRN), cyber threats, and machine learning R&D, needing security and deployment mitigations.
+
+Mandates regular evaluations of frontier AI models to assess approaching CCLs, employing "early warning evaluations" for proactive risk management.
+
+Specifies mitigations when models near CCLs, using internal and external expertise to develop response plans, emphasizing automated monitoring for deceptive alignment risks.
+
+Describes governance protocols, involving review and approval by corporate bodies like the Google DeepMind AGI Safety Council, and outlines disclosure criteria to government authorities and external organizations.
+
+Plans continual updates to risk modeling, capability assessments, and risk-appropriate actions as AI capabilities evolve.
+
+---
+
+DOC_ID: 182
+Implements mechanisms under the TechVisa Program to attract AI talents to Turkey.
+
+Increases support for international research and doctoral programs to bolster AI workforce competence.
+
+Coordinates curriculum updates to include AI and data science across non-AI scientific fields.
+
+Establishes associate, undergraduate, and graduate AI degree programs based on workforce analysis.
+
+Provides AI training post-education tailored to sectoral applications for workforce development.
+
+Sets standards for private AI certification training programs.
+
+Launches advanced analytics and AI training for public personnel competence.
+
+Develops national occupational standards and qualifications in AI with relevant infrastructure.
+
+Establishes ethical and technical standards for locally developed generative AI models.
+
+Supports the development of a Turkish large language model in collaboration with the international community.
+
+Creates a "Legal Assessment Guide for AI Applications" to ensure legal compliance of AI. 
+
+Designs a customized AI education model to support workforce transformation.
+
+---
+
+DOC_ID: 183
+Establishes an Artificial Intelligence Task Force to study AI technologies used by Indiana state agencies, assessing their benefits, risks, and impacts on privacy, civil rights, and legal protections.
+
+Requires the Task Force to produce annual reports with findings and recommendations for policies or legislation to govern AI use by state agencies.
+
+Mandates state agencies compile and submit inventories of AI technologies in use or development, detailing vendors, intended use, data security measures, benefits, risks, and financial implications.
+
+---
+
+DOC_ID: 184
+Promotes the safe, secure, and trustworthy development of AI by providing voluntary guidance for organizations developing advanced AI systems.
+
+Encourages organizations to identify, evaluate, and mitigate risks across the AI lifecycle, employing diverse testing methods and ensuring traceability through documented development practices.
+
+Urges ongoing monitoring of AI systems post-deployment to identify vulnerabilities and misuse, through collaboration with stakeholders to mitigate risks, while advocating for public reporting and enhanced transparency regarding identified limitations.
+
+Encourages information sharing and incident reporting, as well as the development and disclosure of AI governance and risk management policies among stakeholders to promote safety and trustworthiness.
+
+Recommends robust security controls, including cybersecurity measures and insider threat safeguards, to protect AI system components from unauthorized access.
+
+Promotes the development of content authentication mechanisms to identify AI-generated content and the creation of international technical standards for AI development.
+
+---
+
+DOC_ID: 185
+Establishes international guiding principles around the safe, secure, and trustworthy development and deployment of artificial intelligence worldwide.
+
+Recommends proactive mitigation of risks across the AI lifecycle and investment in physical, cyber, and insider threat security controls.
+
+Recommends the public disclosure of advanced AI systems' capabilities, limitations, and appropriate or inappropriate uses.
+
+Recommends information sharing and reporting of incidents among relevant industry, government, and civil society stakeholders
+
+Recommends the deployment of content authentication and provenance mechanisms to enable users to identify AI-generated content.
+
+Encourages development of advanced AI systems foremost to address key global challenge in alignment with the UN SDG goals.
+
+Recommends the development and adoption of international technical standards.
+
+Recommends the implementation of personal data privacy and IP protection measures.
+
+---
+
+DOC_ID: 186
+Require States to ensure military AI use complies with international law, particularly international humanitarian law.
+
+Mandate accountability through a responsible human command chain.
+
+Impose legal reviews to align military AI with international obligations and enhance civilian protection.
+
+Demand oversight by senior officials for high-consequence AI applications.
+
+Advocate minimizing unintended bias in military AI.
+
+Insist on transparent, auditable methodologies and documentation for military AI development.
+
+Oblige training for personnel to understand AI capabilities and limitations, preventing automation bias.
+
+Prescribe explicit, well-defined uses for military AI, with rigorous testing for safety and effectiveness.
+
+Implement safeguards to detect and mitigate AI failures, with the ability to deactivate systems if needed.
+
+Encourage States to publicly commit to these measures, support responsible AI use, and engage internationally to refine and promote these standards.
+
+---
+
+DOC_ID: 187
+Expands the "Personal Rights Protection Act of 1984," renaming it the "Ensuring Likeness, Voice, and Image Security Act of 2024."
+
+Grants individuals property rights over their name, photograph, voice, or likeness across all mediums.
+
+Defines "voice" to include both actual and simulated sounds identifiable to an individual.
+
+Terminates exclusive commercial rights after two years of non-use, beginning ten years after death.
+
+Imposes civil liability for the unauthorized commercial use of an individual's name, photograph, voice, or likeness.
+
+Prohibits distribution of technology primarily used to produce unauthorized likenesses. 
+
+Allows individuals or parties with exclusive contracts for personal services or sound recordings to enforce rights. 
+
+Exempts certain uses protected by the First Amendment as fair use, including news, commentary, and satire. 
+
+Mandates that employees or owners of any medium used for advertising be liable if they publish or disseminate an advertisement in violation of this act, and if they should have known about the violation.
+
+---
+
+DOC_ID: 188
+Require the Chief Digital and Artificial Intelligence Officer of the Department of Defense to establish a venue and processes for testing automated target recognition algorithms by June 1, 2025.
+
+Mandate the testing of mission capability for at least two programs in the Replicator initiative using the developed venue by September 1, 2025.
+
+Oblige the Secretary of Defense to brief the Senate and House Armed Services Committees on activities under this section within one year of the Act's enactment.
+
+---
+
+DOC_ID: 189
+Obliges the Chief Data and Artificial Intelligence Officer to develop policies for a combatant command warfighter forum on AI, considering purposes such as AI tool use cases, risk categorization, and training needs.
+
+Demands identification of opportunities for AI cooperation with regional partners and allies.
+
+Directs the Secretary of Defense to submit a report to congressional defense committees detailing the initiatives, challenges, and policy needs for a combatant command warfighter forum on AI.
+
+---
+

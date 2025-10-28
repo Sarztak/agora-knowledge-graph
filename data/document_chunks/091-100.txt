@@ -1,0 +1,182 @@
+DOC_ID: 90
+Enacts stringent frameworks for the development and deployment of high-risk AI systems in Virginia.
+
+Defines consequential decisions as those which may affect access to the justice system, education, employment, and financial or other such services.
+
+Defines high-risk AI systems as those used in a consequential decision, excluding systems restricted to narrows tasks, pattern detection, and human assistance.
+
+Mandates developers to disclose intended uses, data inputs, potential risks of algorithmic discrimination, and performance evaluations to deployers.
+
+Requires deployers to implement risk management policies, conduct pre and post deployment impact assessments, and disclose AI system interactions to consumers, especially when making consequential decisions.
+
+Establishes a duty of care for developers and deployers to protect against algorithmic discrimination.
+
+Outlines civil penalties for violations, including a fine up to $1,000, with enforcement authority granted exclusively to the Attorney General.
+
+Provides exemptions for various sectors and situations, including federal compliance and actions in the public interest.
+
+Allows for updates post-modification of AI systems and sets guidelines for consumer notifications and appeal processes in case of adverse decisions due to AI use.
+
+---
+
+DOC_ID: 91
+Mandates the Washington State Transportation Commission to establish a work group to develop policy recommendations for autonomous vehicle operation on public roadways.
+
+Requires executive branch membership from various state departments and branches, alongside legislative members and additional stakeholders from sectors including technology and motor vehicle manufacturing.
+
+Directs the work group to monitor advancements in autonomous vehicle technology, including federal and state regulatory frameworks, and to prepare state policies for autonomous commercial and passenger vehicles.
+
+Necessitates consideration of diverse policy areas, such as vehicle testing, registration, driver's license requirements, traffic laws, cybersecurity, and impacts on labor and businesses.
+
+Instructs the commission to report annually to the governor and legislature on progress and propose legal modifications.
+
+Sets an expiration date of December 31, 2023, for sections detailing the establishment and function of the work group.
+
+---
+
+DOC_ID: 92
+Amends requirements for testing autonomous vehicles on public roads in Washington State.
+
+Mandates that self-certifying entities provide contact information, test locations, vehicle identification numbers, and proof of insurance for testing.
+
+Requires assignment of a unique identification number for autonomous vehicles lacking a vehicle ID as mandated by law.
+
+Obliges reporting of collisions and moving violations involving autonomous vehicles on public roads, including whether the autonomous system was active during incidents.
+
+Demands advance written notice to relevant law enforcement agencies before testing, detailing the expected testing period, vehicle description, and contact information.
+
+Allows the Department of Licensing to charge a fee to offset administrative costs of the self-certification testing program.
+
+Ensures public access to information submitted by testing entities, with annual legislative reporting.
+
+Defines "autonomous" vehicle levels per Society of Automotive Engineers standards J3016.
+
+Prohibits autonomous vehicle testing without fulfilling initial information requirements.
+
+---
+
+DOC_ID: 93
+Establishes requirements for disclaimers on political advertisements using generative artificial intelligence in Florida.
+
+Defines "generative artificial intelligence" as a system emulating input data to create synthetic content.
+
+Requires advertisements with AI-generated content depicting actions that did not occur to include a prominent disclaimer stating "Created in whole or in part with the use of generative artificial intelligence (AI)."
+
+Specifies format requirements for disclaimers across various media, including print, television, internet, and audio.
+
+Imposes first-degree misdemeanor penalties for failure to include required disclaimers, in addition to other civil penalties.
+
+Authorizes any person to file complaints with the Florida Elections Commission for violations of this requirement.
+
+Mandates expedited hearings for such complaints.
+
+Sets an effective date of July 1, 2024.
+
+---
+
+DOC_ID: 94
+Prohibits law enforcement from using facial recognition without a court order, except in defined emergency circumstances. 
+
+Mandates regular removal of photos from databases used for facial recognition, including minors and individuals not charged or acquitted.
+
+Requires detailed applications from prosecutors and approval from courts for authorized use of facial recognition.
+
+Prohibits the use of facial recognition with body cameras, for face surveillance, or for immigration enforcement.
+
+Enforces annual accuracy and bias testing by independent entities and prohibits systems that fail to meet minimum standards. 
+
+Requires public reporting and logging of facial recognition use, including demographic data.
+
+Mandates audits of law enforcement agencies' use of facial recognition to ensure compliance and prevent misuse.
+
+---
+
+DOC_ID: 95
+Requires online information service providers to label AI-generated synthetic content with both explicit and implicit labels, ensuring that users can easily recognize AI-generated content.
+
+Instructs service providers to embed implicit labels in digital file metadata, indicating the content’s origin and attributes.
+
+Mandates content transmission platforms to verify metadata for implicit labels and add notifications if AI-origin is detected or suspected.
+
+Obligates application distribution platforms to assess apps for compliance with generative AI services and labeling.
+
+Permits exceptions for omitting explicit labels if users assume responsibility, with logs stored for a period of six months.
+
+Sets penalties for non-compliance to be enforced by the relevant regulatory authorities.
+
+---
+
+DOC_ID: 96
+Enacts the "Responsible Deployment of AI Systems Act," mandating comprehensive governance structures for AI deployment in Oklahoma and requiring classification of all AI systems by risk level based on their potential impact on safety, civil liberties, and fundamental rights.
+
+Prohibits the development and deployment of Unacceptable Risk AI systems, such as social scoring or AI-driven misinformation, while imposing strict oversight, audits, and transparency requirements on high-risk systems.
+
+Requires deployers to assess AI systems for biases, safety risks, and rights violations before deployment, implement mitigation strategies, and ensure qualified human oversight that can override system decisions.
+
+Requires public notification and appeal mechanisms when high-risk AI systems are used to make decisions that impact individuals, ensuring transparency and recourse.
+
+Establishes the Artificial Intelligence Council (AI Council) to regulate ethical AI use, including the AI Regulatory Sandbox Program and Workforce Development Program, to allow controlled testing of AI systems. 
+
+Launches the AI Workforce Development Program to expand AI literacy and skills in underserved communities, prioritizing affordable training through grants to small businesses and educational institutions.
+
+Permits the AI Council to issue penalties for noncompliance and requires deployers to disclose related incidents.
+
+---
+
+DOC_ID: 97
+Directs all Executive Branch departments and agencies to adopt AI by accelerating AI use and innovation while ensuring responsible deployment and governance.  
+
+Requires removal of barriers to AI innovation, focusing on delivering value for taxpayers and improving public services.  
+
+Instructs agencies to develop and share AI strategies, prioritize American AI products, and enhance workforce AI readiness.  
+
+Directs agencies to designate a Chief AI Officer (CAIO) to oversee AI efforts and improve public accountability.  
+
+Mandates implementation of minimum risk management practices for high-impact AI and provides guidance on AI governance, including creating AI impact assessments and ensuring human oversight.  
+
+Encourages sharing and reusing of AI resources across federal agencies to prevent redundancy and foster collaboration.  
+
+Implements public trust in AI use by requiring performance monitoring and mechanisms for public consultation and feedback.  
+
+Excludes specific domains like national security systems from AI governance requirements.
+
+---
+
+DOC_ID: 98
+Promotes the competitive American AI marketplace by mandating federal agencies to procure AI systems that enhance efficiency and mission effectiveness while avoiding dependence on single vendors.
+
+Ensures taxpayer dollars are safeguarded by tracking AI performance and managing risks as outlined in Executive Order 13960.
+
+Directs agencies to update internal procedures within 270 days to align with this memorandum and OMB Memorandum M-25-21, requiring cross-functional teams for AI acquisitions and addressing intellectual property rights.
+
+Mandates the protection of privacy and intellectual property, emphasizing compliance with federal law and policy.
+
+Specifies that future AI contracts comply with new guidelines by establishing a clear timeline for implementation.
+
+Excludes certain AI acquisitions and activities, such as national security systems and incidental AI use by contractors.
+
+Requires GSA to develop AI acquisition guides within 100 days and establish a shared repository of best practices within 200 days.
+
+---
+
+DOC_ID: 99
+Establishes a National Artificial Intelligence Research Resource (NAIRR) to enhance AI research accessibility and spur innovation.
+
+Requires the Director of the National Science Foundation, in coordination with a NAIRR Steering Subcommittee, to oversee NAIRR’s establishment and governance.
+
+Forms a Program Management Office to manage NAIRR’s daily operations, select an Operating Entity, and oversee asset allocation.
+
+Defines user eligibility criteria for accessing NAIRR, including U.S.-based researchers and institutions.
+
+Mandates policies for privacy, ethics, scientific integrity, and system security, with input from various advisory committees.
+
+Authorizes the establishment of a fee schedule for NAIRR access, ensuring a free tier for research purposes.
+
+Permits acceptance of donations to support NAIRR’s operation from the private sector.
+
+Coordinates with relevant federal entities to integrate AI testbeds and educational resources.
+
+Emphasizes research security compliance, aligning with national security guidelines on research integrity.
+
+---
+

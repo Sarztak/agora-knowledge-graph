@@ -1,0 +1,111 @@
+DOC_ID: 300
+Mandates that the Commandant, acting through the Blue Technology Center of Expertise, biennially assess unmanned maritime systems and satellite vessel tracking technologies for potential use to support the Coast Guard.
+
+Requires that the Commandant submit a report to Congress on the actual and potential effects of such technologies on the mission effectiveness of the Coast Guard.
+
+Requires that the report include an overview of current system and technology usage and a list of mission requirements that could be met with additional systems and technologies.
+
+---
+
+DOC_ID: 301
+Instructs the Secretary of the Navy to designate an existing Navy program executive officer as the acquisition executive agent for autonomy by February 1, 2022.
+
+Requires that the acquisition executive agent for autonomy be responsible for the acquisition of autonomous technology, along with the officer's current executive duties.
+
+---
+
+DOC_ID: 302
+Instructs the Secretary of Defense to delegate acquisition authority to the Director of the Joint Artificial Intelligence Center, and outlines responsibilities of an acquisition executive in the execution, supervision, discussion, and coordination of relevant acquisition activities.
+
+Allocates personnel and funding to support Center missions and the transition of artificial intelligence capabilities into appropriate acquisition programs or into operational use. 
+
+Requires the Secretary of Defense to provide to congressional defense committees a demonstration of operational capability and an implementation plan that describes relevant acquisition activities, plans the oversight of an acquisition executive, and assesses the acquisition workforce, tools, and infrastructure needs of the Center. 
+
+
+
+
+---
+
+DOC_ID: 303
+
+
+Requires the Secretary of Defense to use their authority for personnel exchanges with private sector entities focusing on Department of Defence modernization priorities.  Including exchanges in Research and Engineering, the Chief Information Officer, and each Armed Force under the jurisdiction of a military department.
+
+Insructs the Secretary of Defense to develop a system to identify, mitigate, and manage public-private talent exchange conflicts of interest.
+
+Requires the Secretary of Defense to brief the Senate and House Armed Services Committees on Public-Private Exchange programmes. This briefing should highlight seeking opportunities for exchanges with private sector entities working on Department of Defense modernization priorities, including Artificial Intelligence.
+
+Requires such briefing to explain barriers preventing supervisors from nominating staff for and encouraging participation in public-private exchange programmes; ways to incentivize senior leaders for programme encouragement, and the Department's conflict of interest requirements.
+
+
+---
+
+DOC_ID: 304
+Instructs the Director of the Space Development Agency of the Department of Defense to lead the development of a resilient military space-based sensing, tracking, and data transport architecture.
+
+Instructs the Director to lead the integration of next-generation space capabilities, including novel sensors and autonomous battle features.
+
+Instructs the Director to lead the procurement of relevant commercial capabilities and services, including low-Earth orbit or innovative capabilities. 
+
+Instructs the Secretary of Defense to transfer the Space Development Agency from the Office of the Secretary of Defense to the Space Force by October 1, 2022.
+
+---
+
+DOC_ID: 305
+
+Authorizes resources for managing government support for AI-related education and proficiency
+
+Instructs the Secretary of Defense to leverage existing civilian software development and architecture certification programmes to implement DOD coding language proficiency and AI competency tests.
+
+Requires the Secretary of Defense to update record keeping systems to track artificial intelligence and programming certification testing results just like the foreign language competency system.
+
+Instructs the secretary of Defense to share information with the heads of other intelligence agencies about the coding language proficiency and artificial intelligence competency tests and encourages them to implement tracking and reward systems. 
+
+Requires the Secretary of Defense to implement a system of rewards for Department of Defense employees who perform successfully on specific language coding proficiency and artificial intelligence competency tests.
+
+Advocates for special pay for a Department of Defense employee who is certified and proficient in a computer or digital programming language but may not exceed 20% of basic pay.
+
+
+
+
+
+
+---
+
+DOC_ID: 306
+Instructs the Secretary of Defense to review existing guidance and create new guidance for secretaries of military departments and heads of defense on the direct hiring processes for AI professionals and other software and data science personnel.
+
+Requires that the guidance instructs HR to utilize direct hiring authorities.
+
+Instructs hiring authorities to use a panel of subject matter experts to review qualifications, authorizes the use of ePortfolio reviews, and encourages the use of referral bonuses for recruitment.
+
+Instructs the Secretary of Defense to submit a report of the guidance issues to Congress within one year of the issuance of the guidance and highlights the requirements of the report.
+
+---
+
+DOC_ID: 307
+Instructs the Secretary of Defense to assess threats posed by foreign actors with malicious intent that use machine learning techniques to generate or modify media featuring members of the Armed Forces and their families.
+
+Instructs the Secretary to assess the maturity of the machine learning technology used and how the media could be used to conduct information warfare.
+
+Instructs the Secretary to present policy recommendations to reduce individuals' vulnerability to cyberexploitation and deception.
+
+---
+
+DOC_ID: 308
+Instructs the Executive Agent of the Joint Counter Small Unmanned Aircraft Systems Office to develop a plan to develop and produce a counter unmanned aircraft system that can be deployed by 2021.
+
+Requires that the selected systems use autonomous and semi-autonomous systems and
+processes and meet current military and operational requirements.
+
+Instructs the Executive Agent to ensure the developed plan will guide future programmatic and funding decisions for counter unmanned aircraft systems.
+
+---
+
+DOC_ID: 309
+Requires the Director of National Intelligence to brief the congressional appropriations and intelligence committees on whether intelligence community directives provide sufficient guidance on how to use, document, and disclose AI and machine learning tools in intelligence. 
+
+Requires the Director to either (a) justify the assertion that existing intelligence community directives do sufficiently provide such guidance or (b) provide a plan and timeline for updating the directives as necessary.
+
+---
+

@@ -1,0 +1,135 @@
+DOC_ID: 940
+Establishes criminal penalties for wrongful dissemination of deepfakes, defined as realistic digital alterations of images or audio using AI or other technologies, particularly if used to influence elections.
+
+Criminalizes dissemination within 90 days of an election without consent and with intent to harm a candidate or election outcome.
+
+Imposes penalties of up to five years imprisonment or $10,000 fines for violations intended to incite violence or deter voting, with lesser penalties for other cases.
+
+Allows injunctive relief actions by various parties, including the Attorney General and affected candidates, to prevent violations and remove disseminated deepfakes.
+
+Exempts certain broadcasters and publishers, including those involved in bona fide news reporting or satire, from liability.
+
+Requires clear labeling of deepfakes as a defense to prosecution.
+
+Takes effect on July 1, 2024.
+
+---
+
+DOC_ID: 941
+Amends Indiana law to define "computer generated image" as images created or modified through artificial intelligence or software.
+
+Prohibits distribution of intimate images without consent, including AI-generated images, categorizing such distribution as a Class A misdemeanor or Level 6 felony for repeat offenders.
+
+Criminalizes voyeurism involving AI or cameras, with enhanced penalties for repeat offenses or distribution of recorded images.
+
+Establishes that using unmanned aerial vehicles to capture private images without consent constitutes remote aerial voyeurism, punishable as a Class A misdemeanor or Level 6 felony for repeat offenses or distribution.
+
+Exempts certain distributions of images for criminal investigations or under court orders.
+
+Requires commencement of actions for child sexual abuse before certain deadlines or conditions, with exceptions for specific bankruptcy proceedings.
+
+Declares an emergency for the enactment of these provisions.
+
+---
+
+DOC_ID: 942
+Amends Washington state law to address the creation, possession, and dissemination of fabricated intimate or sexually explicit images using digitization, including artificial intelligence.
+
+Defines "fabricated depiction" as images altered to show minors or adults engaging in sexual conduct that did not occur.
+
+Criminalizes disclosing fabricated intimate images without consent, establishing it as a gross misdemeanor or a class C felony for repeat offenders.
+
+Specifies exemptions for disclosures made in the public interest, such as legal, law enforcement, or medical contexts.
+
+Clarifies that interactive computer services and telecommunications providers are not liable for third-party content.
+
+Establishes civil remedies for victims of unauthorized disclosures, including economic, noneconomic, and punitive damages.
+
+Mandates that fabricated depictions remain in law enforcement custody and are not duplicated during legal proceedings.
+
+Specifies timelines for filing civil actions related to unauthorized disclosures, especially for minors.
+
+---
+
+DOC_ID: 943
+Amends the Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act to include "digitally altered sexual image" as a defined term, expanding the scope of protection to cover images that are substantially altered to falsely appear authentic.
+
+Specifies that exceptions to liability apply to both private sexual images and digitally altered sexual images, maintaining exceptions for good faith actions by law enforcement, legal proceedings, medical education, and reports of unlawful or unwelcome conduct.
+
+Clarifies that the dissemination of a private or digitally altered sexual image is not a matter of public concern solely because it involves a public figure or is accompanied by a political message.
+
+Retains provisions that a parent or guardian is not liable for dissemination unless done for prohibited purposes, such as sexual gratification or commercial gain. 
+
+Establishes that the Act takes effect upon becoming law, without acceleration or delay from previous or other legislative changes.
+
+---
+
+DOC_ID: 944
+Recognizes AI safety as a global public good, urging global governance to mitigate risks from advanced AI systems.
+
+Encourages states and AI developers to commit to foundational principles for responsible AI development, fostering cooperation at intergovernmental summits.
+
+Calls for states to establish and resource AI Safety Institutes to advance testing, research, and standards-setting.
+
+Urges development of domestic authorities to detect and respond to AI incidents, coordinating globally for contingency planning.
+
+Proposes Emergency Preparedness Agreements and Institutions for model registration, incident reporting, and contingency plans.
+
+Establishes a Safety Assurance Framework requiring developers to demonstrate AI safety before deployment.
+
+Calls for post-deployment monitoring and independent audits to ensure AI systems' safety.
+
+Calls for independent global AI safety and verification research, funded by a diverse range of stakeholders.
+
+Encourages international collaboration to develop verification methods, enabling credible safety claims and fostering trust.
+
+---
+
+DOC_ID: 945
+Proposes red lines in AI development and governance development as an international coordination mechanism to prevent catastrophic risks.
+
+Prohibits AI systems from self-replication or improvement without human approval.
+
+Restricts AI from taking actions to increase its power or influence unduly.
+
+Forbids AI systems from aiding in the development of weapons of mass destruction.
+
+Prohibits AI from autonomously executing cyberattacks causing significant harm.
+
+Prevents AI from deceiving designers or regulators about its capabilities.
+
+Calls for comprehensive governance regimes to prevent crossing of red lines.
+
+Requires domestic registration of advanced AI models for government oversight.
+
+Conditions global market access on compliance with internationally aligned regulations.
+
+Encourages multilateral institutions to govern AGI development safely.
+
+Mandates developers demonstrate adherence to red lines through evaluations and proofs.
+
+Urges international collaboration on AI safety research and funding. 
+
+Emphasizes decisive action combining technical research and governance to mitigate risks.
+
+---
+
+DOC_ID: 946
+Encourages governments worldwide to develop measures to prevent worst-case AI outcomes from malicious or careless actors and manage AI safety risks.
+
+Recommends mandatory registration for creating, selling, or using AI models above a certain capability threshold to enhance government visibility into emerging risks.
+
+Encourages governments to implement requirements to monitor large-scale data centers, track AI incidents, and mandate independent third-party audits for AI developers concerning information security and model safety.
+
+Proposes defining clear red lines that, if crossed, mandate immediate termination of an AI system through rapid and safe shut-down procedures.
+
+Urges international cooperation to establish and maintain the capacity to shut down AI systems crossing red lines.
+
+Calls for AI developers to demonstrate to regulators that their systems will not cross defined red lines before deployment.
+
+Advocates for substantial research progress to ensure advanced AI alignment with designers' intent and robustness against malicious actors.
+
+Encourages a global network of AI safety research and governance institutions, with leading developers committing significant resources to AI safety.
+
+---
+

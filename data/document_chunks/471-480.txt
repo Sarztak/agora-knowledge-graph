@@ -1,0 +1,126 @@
+DOC_ID: 470
+Commit to developing AI responsibly, focusing on social benefits by evaluating potential applications for transformative impacts in various fields.
+
+Seek to avoid creating or reinforcing unfair biases, particularly concerning sensitive characteristics.
+
+Ensure AI systems are designed and tested for safety, applying strong security practices and closely monitoring post-deployment.
+
+Maintain accountability to people by allowing for feedback, explanations, and human control over AI technologies.
+
+Incorporate privacy principles, offering notice, consent, and transparency, while upholding privacy safeguards in AI architecture.
+
+Aspire to scientific excellence, leveraging AI for advancements in critical scientific areas.
+
+Limit use to applications adhering to these principles, considering factors like purpose, uniqueness, scale, and Google's role.
+
+Prohibit AI involvement in technologies causing harm, weapons, surveillance violating norms, or contravening international law. 
+
+Adapt the prohibitions list as AI experience grows.
+
+---
+
+DOC_ID: 471
+Directs the Interagency Commission on School Construction to report to the General Assembly by December 15, 2024.
+
+Requires the report to assess the eligibility for school construction funding for artificial intelligence weapon detection systems.
+
+---
+
+DOC_ID: 472
+Amends the Department of Innovation and Technology Act by establishing the Generative AI and Natural Language Processing Task Force.
+
+Mandates the Task Force to investigate and report on generative AI and natural language processing software.
+
+Comprises the Task Force of government officials, educators, cybersecurity experts, AI experts, business and labor association members, and other stakeholders.
+
+Requires the Task Force to hold at least five public meetings across various Illinois regions in a hybrid format.
+
+Obligates the Task Force to recommend legislation to protect consumer information, suggest model policies for AI use in schools, and assess AI's impact on public services, civil rights, the workforce, and cybersecurity.
+
+Instructs the Department to provide administrative and technical support to the Task Force.
+
+Requires the Task Force to file a report by December 31, 2024, with the Governor and the General Assembly summarizing its findings and recommendations.
+
+---
+
+DOC_ID: 473
+Establishes the "New Jersey Advanced Autonomous Vehicle Task Force" to study and recommend policies for the safe integration of autonomous vehicles on state roads.
+
+Comprises 11 members, including key state officials and public experts appointed by the Governor.
+
+Mandates the task force to hold its initial meeting within 90 days of the law's effective date and to elect a chair from among its members.
+
+Requires the task force to issue a report within 180 days after its first meeting, evaluating existing laws, proposing pilot programs, and suggesting legislative measures.
+
+Entitles the task force to utilize the services of state employees and receive assistance from the New Jersey Motor Vehicle Commission, Department of Transportation, and Alan M. Voorhees Transportation Center.
+
+Defines "advanced autonomous vehicle" as one with a driving automation level of 3, 4, or 5, per SAE J3016 standards.
+
+Expires the act upon the report's submission.
+
+---
+
+DOC_ID: 474
+Amends existing law to make it unlawful to knowingly purchase or possess visual depictions of a minor engaging in a prohibited sexual act or its simulation.
+
+Requires separate prosecution and punishment for each different minor depicted in such visual content, though multiple depictions of the same minor are treated as a single offense.
+
+Classifies a first offense as a class "D" felony and a second or subsequent offense as a class "C" felony.
+
+Establishes that prior convictions or deferred judgments under this law, or similar laws in other jurisdictions, constitute second or subsequent offenses.
+
+---
+
+DOC_ID: 475
+Amends Article 7, Chapter 57, Title 40 of the S.C. Code by adding Section 40-57-820.
+
+Holds a licensee accountable for all work produced with the assistance of artificial intelligence, machine learning, or similar programs.
+
+Treats violations committed through the use of these technologies as if committed directly by the licensee.
+
+---
+
+DOC_ID: 476
+Increases the General Fund appropriation to the Higher Education Coordinating Commission for public university programs by $100,000.
+
+Allocates this increased funding to the University of Oregon Labor Education and Research Center.
+
+Directs the Center to research the potential workforce impacts of automation and artificial intelligence across Oregon’s key economic industries.
+
+---
+
+DOC_ID: 477
+Endeavors to create an enabling environment for human-centered AI that fosters innovation, investment, digital entrepreneurship, and adoption of AI by MSMEs.
+
+Recognizes AI's potential to promote inclusive economic growth and societal benefits, advancing sustainable and inclusive societies while empowering individuals.
+
+Commits to addressing societal challenges posed by AI, such as transitions in the labor market, privacy, security, and ethical issues, through a human-centered approach guided by the G20 AI Principles.
+
+Stipulates principles of inclusive growth, human-centered values, transparency, robustness, and accountability to maximize AI benefits while minimizing risks, with a focus on international cooperation and inclusion of developing countries.
+
+Affirms the need to promote privacy protection, AI capacity building, and skills development.
+
+Commits to international cooperation in research, policy development, and information sharing through the G20 Repository of Digital Policies and collaborative efforts.
+
+---
+
+DOC_ID: 478
+Allocates $3.2 million to New Hanover County Schools and $2 million to Davidson County Schools for an AI School Safety Pilot Program.
+
+Requires use of funds to implement AI technology into existing school safety systems, including access controls, alerting protocols, and intercom systems.
+
+Mandates participating public school units to report to the Joint Legislative Education Oversight Committee by January 15, 2025.
+
+Directs reports to include details on school participation, fund usage, impact on safety outcomes, AI system capabilities compared to traditional safety measures, and any additional relevant information.
+
+---
+
+DOC_ID: 479
+Adds $500,000 in general funds to support the Center for Equitable Artificial Intelligence and Machine Learning Systems at Morgan State University.
+
+Prohibits the transfer of unexpended funds to any other purpose.
+
+Requires unspent funds to revert to the General Fund.
+
+---
+

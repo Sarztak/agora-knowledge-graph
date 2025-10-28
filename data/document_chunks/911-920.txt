@@ -1,0 +1,158 @@
+DOC_ID: 910
+Prohibits the creation, distribution, or presentation of deepfakes intended to embarrass, harass, entrap, defame, extort, or harm reputations or finances, categorizing such acts as a class B felony.
+
+Establishes an additional offense and liability for legal expenses if the deepfake results in an individual's arrest.
+
+Exempts interactive services, media entities engaged in bona fide news reporting, election communications with appropriate disclaimers, and satire or parody from these prohibitions.
+
+Allows individuals to sue those who knowingly create harmful deepfakes for damages.
+
+Mandates that the secretary of state reject lobbyist registrations from entities convicted of deepfake-related offenses.
+
+Specifies that provisions are severable, ensuring unaffected provisions remain enforceable if any part is invalidated.
+
+Sets the act's effective date as January 1, 2025, following its approval on July 19, 2024.
+
+---
+
+DOC_ID: 911
+Enacts R.S. 14:73.14 to criminalize the unlawful dissemination or sale of AI-generated images depicting nudity without authorization, with intent to coerce, harass, or intimidate.
+
+Defines the crime as involving images where the distributor knows they lack the authority to distribute or sell the images.
+
+Exempts interactive computer services and providers of telecommunications or information services from liability if their systems are used for such acts by others.
+
+Defines "another person" as someone whose recognizable image is used in creating AI-generated content meant to depict a real individual.
+
+---
+
+DOC_ID: 912
+Establishes the Delaware Artificial Intelligence (AI) Commission to make legislative and executive recommendations on AI.
+
+Mandates the development of statewide AI processes, principles, and guidelines for government agencies.
+
+Encourages the use of AI in agencies to improve service delivery and ensures AI usage does not violate individual rights.
+
+Requires an inventory of Generative AI use within state agencies to identify high-risk areas.
+
+Comprises a 19-member commission, with appointments from state officials, academia, and the private sector.
+
+Requires the commission to submit an annual report on activities, goals, and policy recommendations.
+
+Places the commission within the Department of Technology and Information, with staffing support from the Chief Information Officer.
+
+Sets an expiration of the Act 10 years after enactment unless extended by the General Assembly.
+
+---
+
+DOC_ID: 913
+Establishes the Tennessee Artificial Intelligence Advisory Council to guide AI awareness, education, and usage in state government.
+
+Requires the council to submit an action plan to the governor for leveraging AI to improve government service efficiency and capture economic benefits.
+
+Mandates the council to report annually on AI's impact on the labor market, propose legal and policy changes, and recommend workforce development strategies.
+
+Directs the council to submit a final report by December 31, 2028, outlining AI governance frameworks, risk analyses, and recommendations for AI deployment in government.
+
+Requires all state departments to cooperate with the council and allows the council to consult with AI experts.
+
+Specifies that the council members will not receive compensation but will be reimbursed for travel expenses.
+
+Repeals the act on December 31, 2028, and takes effect upon becoming law.
+
+---
+
+DOC_ID: 914
+Reappropriates $53,478,000 from the Education Enhancement Fund for fiscal year 2023-2024 to Institutions of Higher Learning, maintaining original funding purposes.
+
+Allocates $15,000,000 to the University of Mississippi for expenses in Data Science and Artificial Intelligence, Healthcare Innovation, and related infrastructure.
+
+Limits expenditure to the unexpended balance of funds as of June 30, 2023, and maintains the original purpose of the funds.
+
+Allocates additional funds to Delta State University for flight simulators, Mississippi State University for computing infrastructure, and Alcorn State University for STEM programs, among other specified projects.
+
+Ensures funds support technology transfer and entrepreneurial programs potentially linked to the Department of Defense and related federal research in Mississippi.
+
+Requires consistency with the original authorization in Senate Bill 3002 from the 2022 Regular Session.
+
+---
+
+DOC_ID: 915
+Mandates the Joint Commission on Technology and Science (JCOTS) to conduct an analysis of artificial intelligence use by public bodies in Virginia.
+
+Requires examination of policies for AI procurement, implementation, and assessment to prevent unlawful discrimination or disparate impact.
+
+Requires public bodies to assess and continually review the impact of AI systems to avoid unlawful outcomes.
+
+Mandates consideration of establishing a Commission on Artificial Intelligence to advise the General Assembly on AI-related issues.
+
+Requires JCOTS to evaluate the composition and duties of this commission based on specified criteria.
+
+Obligates JCOTS to report findings and recommendations to relevant House and Senate committees by December 1, 2024.
+
+---
+
+DOC_ID: 916
+Allocate $2.8 million to Iowa State University of Science and Technology to address workforce needs in science, technology, engineering, and mathematics (STEM) by expanding degree and certificate programs in artificial intelligence, cybersecurity, computer science, and related fields.
+
+Promote innovation in areas such as digital agriculture, manufacturing, water quality, vaccine delivery technologies, and biosciences with the allocated funds.
+
+Ensure that the state board of regents and the institutions of higher learning governed by them do not reduce budgeted funds for their police departments for the fiscal year 2024-2025.
+
+Require the state board of regents to submit a quarterly financial report to the general assembly, including details on five-year graduation rates for the regents universities in the report for the quarter ending December 31, 2024.
+
+---
+
+DOC_ID: 917
+Prohibits the distribution of deepfake content created using artificial intelligence or generative AI within 90 days of an election if it involves candidates, election officials, or parties.
+
+Exempts from the prohibition any media that includes a clear disclosure indicating manipulation by AI, specifying whether it is an image, video, or audio.
+
+Allows affected candidates or election officials to seek legal action for injunctive relief or damages.
+
+Excludes liability for platforms providing content from third parties, individuals unaware of deepfake nature, and bona fide news reports questioning the authenticity of materials.
+
+Excludes satire or parody content that doesn't rely on AI.
+
+Requires disclosures to be easily readable or audible based on the media type.
+
+Specifies the act takes effect on August 1, 2024, with severability of provisions if any are found invalid.
+
+---
+
+DOC_ID: 918
+Prohibits the reckless distribution of materially deceptive media, including deepfake and generative AI content, during election periods, to protect candidates' reputations and electoral prospects.
+
+Establishes criminal penalties for violations, including petty misdemeanors, misdemeanors for repeat offenses, and class C felonies for intent to cause violence or harm.
+
+Allows exceptions for broadcasters and online services that did not create the deceptive media, or if disclaimers indicate manipulation.
+
+Mandates that disclaimers must be clearly visible and in the same language as the media, with specific requirements for video, image, and audio content.
+
+Provides civil remedies for individuals or organizations harmed by deceptive media, including damages, attorney's fees, and injunctive relief.
+
+Empowers the attorney general, campaign spending commission, and other authorities to enforce these provisions and seek injunctions.
+
+Defines "artificial intelligence" and "materially deceptive media" for clarity and enforcement purposes.
+
+---
+
+DOC_ID: 919
+Prohibits the distribution of deepfakes concerning candidates for elective office without a clear disclosure, within 60 days before a primary or 90 days before a general election.
+
+Requires a disclosure stating the content has been falsified if a deepfake is distributed.
+
+Mandates that disclosures in visual and audio communications meet specific size and clarity standards.
+
+Allows candidates affected by deepfakes to seek injunctive relief, damages, and other remedies against violators.
+
+Exempts bona fide news, satire, and parody from the prohibition, as well as certain media and technology providers.
+
+Obligates the Secretary of State to promulgate rules to enforce these provisions.
+
+Permits civil penalties and administrative complaints for violations.
+
+Establishes the act's effective date as July 1, 2024, with applicability to communications distributed thereafter.
+
+---
+

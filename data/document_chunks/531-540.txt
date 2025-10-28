@@ -1,0 +1,120 @@
+DOC_ID: 530
+Directs the Federal Communications Commission (FCC), in consultation with the Federal Trade Commission (FTC), to issue rules prohibiting the offer of artificial intelligence products to minors without parental consent.
+
+Mandates the rule to include a provision allowing parents and guardians to revoke consent at any time.
+
+---
+
+DOC_ID: 531
+Establishes a task force examining the fraudulent use of artificial intelligence in the financial services sector.
+
+Instruct the task force to solicit public feedback from industry and expert stakeholders, including depository institutions, credit unions, third-party vendors, and AI experts.
+
+Directs the task force to produce a report for Congress within one year that identifies potential risks from AI misuse, and proposes AI fraud detection measures, among other legislative recommendations.
+
+Terminates the task force 90 days after the final report's issue.
+
+---
+
+DOC_ID: 532
+Establishes an AI leadership training program for management officials, supervisors, and other designated employees in executive agencies, to be developed and implemented within 18 months.
+
+Requires annual training to cover AI capabilities, risks, safety, ethics, Federal Government requirements, and best practices related to AI procurement, use, testing, evaluation, and auditing.
+
+Mandates program topics include AI basics, benefits, risks, data significance, AI system failures, continuous refinement, risk mitigation, organizational considerations, and constitutional risks related to AI use.
+
+Obligates updates to the program every two years to incorporate new AI information and ensure compliance with training requirements.
+
+Demands metrics to measure participation and feedback for program improvements.
+
+Permits Congress to request detailed information about the program materials and responsible personnel.
+
+Encourages interaction with experts from various sectors as part of the training.
+
+Sets a sunset clause for the program 10 years after enactment.
+
+---
+
+DOC_ID: 533
+Requires the Department of Energy (DOE) and the National Science Foundation (NSF) to coordinate research and development activities.
+
+Mandates the establishment of a memorandum of understanding between the DOE and NSF, utilizing a competitive, merit-reviewed process for project applications.
+
+Authorizes collaborative research in key areas including artificial intelligence, machine learning, data analytics, quantum computing, and computational sciences.
+
+Promotes interagency collaboration and data sharing among Federal agencies, National Laboratories, and other institutions.
+
+Supports research infrastructure development and STEM education initiatives, including internships and professional development.
+
+Allows reimbursable agreements between the DOE and NSF to enhance research effectiveness.
+
+Obligates the DOE and NSF to report on interagency coordination, research achievements, and future opportunities within two years of enactment.
+
+Ensures activities comply with research security provisions under existing law.
+
+---
+
+DOC_ID: 534
+Prohibits email service providers from using filtering algorithms to flag emails from political campaigns that consumers have elected to receive as spam without user direction.
+
+Requires providers to publish quarterly transparency reports detailing instances of political emails flagged as spam, including breakdowns by political party and filtering algorithm usage.
+
+Mandates email providers to disclose specific spam-filtering data to political campaigns upon request, with limitations on request frequency.
+
+Obliges providers to offer best practices to political campaigns for improving email deliverability to primary inboxes.
+
+Enforces these provisions through the Federal Trade Commission, treating violations as unfair or deceptive acts under the Federal Trade Commission Act.
+
+Defines key terms including “filtering algorithm,” “operator,” and “political campaign.”
+
+---
+
+DOC_ID: 535
+Establishes a task force to assess privacy, civil rights, and civil liberties implications of artificial intelligence. 
+
+Charges the task force to evaluate existing policy, regulatory, and legal gaps for AI applications and make legislative and regulatory recommendations.
+
+Directs the task force to address the application of federal antidiscrimination laws, disparate impact standards, AI validation, and auditing in federal use of AI.
+
+Instructs the task force to consider institutional changes for ongoing AI governance and the potential creation of a new oversight organization.
+
+Requires the task force to submit an interim report within one year and a final report within 18 months.
+
+---
+
+DOC_ID: 536
+Requires generative artificial intelligence to include a disclaimer on any output. Mandates the Federal Trade Commission (FTC) to enforce this disclosure requirement.
+
+Classifies violations of the disclosure requirement as unfair or deceptive acts or practices under the Federal Trade Commission Act.Empowers the FTC to enforce the disclosure requirement using the same means, jurisdiction, powers, and duties as provided in the Federal Trade Commission Act. Subjects violators to penalties and grants them privileges and immunities in accordance with the Federal Trade Commission Act.
+
+---
+
+DOC_ID: 537
+Directs the FTC to revise the Telemarketing Sales Rule to require the disclosure of AI usage to impersonate a human being in telemarketing.
+
+Mandates the FTC to impose financial penalties on violators of this new rule, especially towards individuals and entities with the intent to defraud, cause harm, or wrongfully obtain anything of value through AI telemarketing techniques.
+
+---
+
+DOC_ID: 538
+Establishes the Chief Artificial Intelligence Officers (CAIO) Council to coordinate federal AI practices, interagency activities, and risk management. Mandates each federal agency to appoint a Chief Artificial Intelligence Officer responsible for promoting AI innovation, policy development, and risk management.
+
+Requires the creation of Artificial Intelligence Governance Boards within each agency to oversee AI issues and ensure compliance with relevant laws and standards. Obligates agencies to develop AI strategies emphasizing trustworthy adoption, risk mitigation, transparency, and the protection of individual rights. Directs the Comptroller General to report on the effectiveness of the AI Governance Boards and CAIOs within two years of enactment.
+
+
+
+---
+
+DOC_ID: 539
+Directs the Federal Trade Commission (FTC) to establish and routinely update standards for making training data and algorithms of AI foundation models publicly available.
+
+Requires the FTC to promulgate regulations within 9 months and specifies information to be disclosed, including sources of training data and model performance evaluations.
+
+Mandates consultation with relevant stakeholders, including NIST, OSTP, and the Register of Copyrights, in establishing these standards.
+
+Treats violations of these regulations as violations under the FTC Act regarding unfair or deceptive acts or practices.
+
+Authorizes $10 million for fiscal year 2025 and $3 million annually thereafter for implementation.
+
+---
+

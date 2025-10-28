@@ -1,0 +1,168 @@
+DOC_ID: 860
+Defines an automated decision tool as any tool that uses artificial intelligence to make consequential decisions relating to employment, education, housing, utilities, healthcare and family planning, financial services, criminal justice, legal services, voting, or government benefits.
+
+Bans the use of automated decision tools in ways that result in algorithmic discrimination on the basis of classes protected by state law. 
+
+Requires any entity that develops or deploys an automated decision tool to perform an impact assessment on the tool, covering its purpose, outputs, use cases, inputted data, and potential discriminatory impacts, and the monitoring, safeguard measures, and testing conducted to mitigate adverse consequences. The impact assessment must be updated annually and after any significant update to the tool, and be provided to the state's Civil Rights Department. 
+
+Requires any entity that deploys an automated decision tool to provide individuals affected by the tool's decisions with a notice that the tool was used and information on the tool's purpose. 
+
+Grants all individuals subject to an automated decision tool's decisions the right to instead have those decisions be made by a human, if technically feasible. 
+
+Requires automated decision tool developers to provide the tool's deployers with documentation of the tool's limitations, training data, and testing. 
+
+Requires the developer or deployer of an automated decision tool to implement a program that governs the foreseeable risks of the tool's use, including designating an employee to monitor the tool and report concerns. 
+
+Permits individuals and public attorneys to bring civil action against entities that violate this law, and makes violation of the law punishable by fines.
+
+Exempts entities with fewer than 25 employees using automated decision tools that affect less than 1,000 people per year from some of this law's provisions. 
+
+---
+
+DOC_ID: 861
+Outlines six general principles to guide ethical AI development in China, i.e. enhancing human well-being, fairness and justice, privacy and security, controllability, accountability, and improving ethical literacy.
+
+Outlines 18 specific ethical requirements for AI development, which fall under categories of management and governance, R&D, supply, and usage.
+
+---
+
+DOC_ID: 862
+Establishes a U.S.-EU Joint Roadmap to advance trustworthy AI and risk management, promoting shared democratic values and human rights.
+
+Encourages risk-based approaches, aligning EU and U.S. methodologies, including the EU AI Act and the U.S. AI Bill of Rights.
+
+Advances shared terminologies and taxonomies to foster interoperability and consistent application of AI risk management concepts.
+
+Promotes leadership and cooperation in international technical standards, supporting transparency, inclusiveness, and innovation.
+
+Develops a shared repository for metrics and methodologies to assess AI trustworthiness and risk management tools.
+
+Analyzes existing tools to identify gaps and support AI standards development.
+
+Implements mechanisms to monitor and measure existing and emerging AI risks, providing a tracker and interoperable tests.
+
+Establishes expert working groups and consultation plans to advance short-term and long-term objectives in AI governance.
+
+---
+
+DOC_ID: 863
+Launch AI security standardization work by coordinating a system of AI security standards, focusing on foundational and application-specific research.
+
+Accelerate development of AI security standards in key areas, driven by urgent needs and safety incidents, to address security risks and ethical issues.
+
+Promote the application of AI security standards through pilot mechanisms and collaboration between academia, industry, and research institutions.
+
+Strengthen training for AI security standardization talent by establishing multi-level training programs and fostering collaboration among universities, research institutes, and enterprises.
+
+Participate actively in international AI security standardization by aligning Chinese efforts with global achievements, enhancing China's influence, and facilitating international cooperation.
+
+Establish an early warning mechanism for high-security-risk AI technologies and products, including a catalog of risks and management standards.
+
+Improve AI security supervision by developing an index evaluation system, enhancing AI supply chain security management, and formulating supportive standards.
+
+---
+
+DOC_ID: 864
+Mandates the regulation of AI development and use activities within and outside China if they affect Chinese national interests.
+
+Establishes principles of ethics, fairness, transparency, safety, and accountability in AI development and use.
+
+Establishes aims and support measures for AI adoption, infrastructure development and supports data sharing, compute resources, and algorithmic innovation.
+
+Protects intellectual property laws, user privacy rights and encourages applications of energy efficient AI products.
+
+Implements a comprehensive oversight and coordination framework involving multiple government agencies. Mandate compliance with safety and security assessments, especially for critical AI systems.
+
+Provides legal liability structures for violations, including administrative penalties, tort liability, and public interest litigation.
+
+Promotes international cooperation in AI governance and allows for countermeasures against discriminatory foreign actions.
+
+---
+
+DOC_ID: 865
+Classifies AI systems into unacceptable, high, limited, and minimal risk categories, defining specific regulatory requirements for each category. Requires strict monitoring and quality management for high-risk systems. 
+
+Establishes transparency and cooperation requirements for general-purpose AI models. Imposes additional risk management and evaluation obligations for general-purpose models with systemic risks.
+
+Applies to AI developers and deployers whose systems are used in the EU market, regardless of their physical location, with certain exceptions.
+
+Defines regulatory exemptions for free and open-source AI systems, subject to transparency and licensing requirements.
+
+Establishes the European Commission’s AI Office to lead implementation efforts and enforce compliance. Allows significant penalties for violations. Defines additional AI regulatory roles for advisory boards and national-level authorities.
+
+---
+
+DOC_ID: 866
+Establishes Department of Defense policy on the development and use of autonomous and semi-autonomous weapons systems, including armed platforms that are remotely operated or operated by onboard personnel. Those policies include:
+
+Requires  testing and evaluation requirements that must be met before a weapons system is deployed, including testing designed to ensure that weapons systems operate as intended even when subject to actions from adversaries. Outlines requirements that humans be able to intervene should weapons systems begin to operate in unintended ways. Establishes guidelines for the use of autonomous weapons systems designed to mitigate the probability and consequences of weapons systems acting in unintended ways.
+
+
+
+---
+
+DOC_ID: 867
+Establishes legal framework for the use and governance of generative AI services in mainland China, promoting innovation while ensuring security and compliance with national values.
+
+Applies to public generative AI services generating text, images, audio, video, but excludes non-public research and development.
+
+Mandates adherence to laws, ethical standards, and the protection of intellectual property, personal information, and societal values.
+
+Encourages independent innovation and international cooperation in AI technology, emphasizing lawful data handling and quality improvement.
+
+Requires providers to ensure information security, sign service agreements with users, and prevent misuse by minors and illegal activities.
+
+Obligates providers to label AI-generated content, maintain service stability, and establish complaint mechanisms.
+
+Imposes oversight by relevant state departments, requiring security assessments for AI with social mobilization potential.
+
+Specifies penalties for non-compliance, including warnings, service suspension, and legal action for serious violations.
+
+Takes effect on August 15, 2023, with provisions for foreign investment compliance.
+
+---
+
+DOC_ID: 868
+Calls on countries to enhance information exchange and technological cooperation for AI governance, focusing on security, reliability, and equity.
+
+Opposes using AI for manipulating public opinion, spreading disinformation, or interfering in other nations' affairs.
+
+Urges adherence to international laws and prevention of AI misuse by malicious actors.
+
+Emphasizes global collaboration to make AI technologies open-source and accessible, resisting technological monopolies.
+
+Promotes testing and assessment systems for AI based on risk levels, ensuring AI remains under human control.
+
+Advocates for laws ensuring privacy and data security, opposing illegal data practices.
+
+Stresses fairness and non-discrimination in AI development processes.
+
+Calls for ethical principles and accountability mechanisms, addressing ethical concerns timely.
+
+Encourages wide participation and consensus-based decision-making in AI governance.
+
+Seeks increased representation of developing countries in global AI governance.
+
+Supports UN discussions for an international AI governing institution.
+
+---
+
+DOC_ID: 869
+Establishes the European Artificial Intelligence Office within the Directorate-General for Communication Networks, Content and Technology to oversee AI advancements and enforce the forthcoming Regulation on AI.
+
+Mandates the Office to develop tools and methodologies for evaluating general-purpose AI models, monitor AI market evolution, and investigate potential regulation infringements.
+
+Requires collaboration with stakeholders, including the scientific community and AI developers, to advance best practices and codes of conduct.
+
+Coordinates with national authorities and EU bodies to ensure uniform application and enforcement of AI regulations.
+
+Supports international cooperation and the promotion of the EU's approach to trustworthy AI.
+
+Tasks the Office with assisting the Commission in preparing relevant decisions and facilitating the uniform application of AI regulations.
+
+Finances the Office through redeployment of resources from the Directorate-General and the Digital Europe Programme. 
+
+Enters into force on 21 February 2024.
+
+---
+

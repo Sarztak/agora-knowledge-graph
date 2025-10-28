@@ -1,0 +1,139 @@
+DOC_ID: 690
+Mandates NIST to conduct research on wildland fire impacts, firebrands, novel materials, and performance-based mitigation tools.
+
+Requires NIST to coordinate federal wildland-urban interface fire investigations and develop methodologies for assessing fire impacts on communities.
+
+Directs NSF to support research on wildland fire risks, tools, technologies, and the social and economic factors influencing fire risk reduction.
+
+Instructs NOAA to improve wildland fire understanding through research, weather forecasting, data interoperability, and high-performance computing.
+
+Tasks NOAA with establishing a Fire Weather Testbed and supporting extramural research on wildland fires.
+
+Requires FEMA to support community risk assessment tools, public outreach, and best practices for fire-resistant construction and response.
+
+Directs NASA to support wildland fire research, modeling, data systems, and the development of novel monitoring tools.
+
+Instructs EPA to research wildland fire smoke characteristics, impacts on air and water quality, and communication of risk reduction strategies.
+
+Mandates DOE to develop tools for energy sector resilience to wildland fires and coordinate data resources for improved fire understanding and prevention.
+
+---
+
+DOC_ID: 691
+Expands the definitions of "credit score" and "educational credit score" under the Fair Credit Reporting Act (FCRA).
+
+Requires consumer reporting agencies (CRAs) to provide consumers with detailed explanations of credit score calculations, including key factors affecting scores.
+
+Mandates CRAs to disclose prominently the differences and limitations of credit scores and educational credit scores on their websites and in related materials.
+
+Provides consumers with free credit score disclosures along with their free annual consumer reports upon request.
+
+Requires private educational lenders, motor vehicle lenders, and residential mortgage lenders to provide consumers with free copies of any consumer reports and credit scores used for underwriting before signing loan agreements.
+
+Mandates the Consumer Financial Protection Bureau (CFPB) to issue final rules to implement these amendments within two years of enactment.
+
+---
+
+DOC_ID: 692
+Requires online platforms using opaque algorithms to provide users with clear notice about the use of such algorithms and how user-specific data is utilized. 
+
+Mandates platforms to allow users to easily switch between opaque algorithms and input-transparent algorithms. Prohibits differential pricing or service denial based on a user's choice to use an input-transparent algorithm.
+
+Empowers the Federal Trade Commission (FTC) to enforce these requirements as violations of unfair or deceptive practices under the Federal Trade Commission Act. 
+
+Ensures that trade secrets, confidential business information, or privileged data are not required to be disclosed. Preserves the ability of platforms to allow users to personalize content restrictions and interactions.
+
+---
+
+DOC_ID: 693
+Prohibits law enforcement from accessing vehicle data without a warrant, except with operator consent or in emergencies. 
+
+Defines "covered vehicle data" to include all onboard and telematics data in noncommercial vehicles, excluding certain data types like automotive software and geolocation data for traffic enforcement.
+Prohibits the use of any vehicle data obtained in violation of these provisions as evidence in any legal proceedings. Amends the Driver Privacy Act of 2015 to align with these new restrictions on accessing vehicle data.
+
+---
+
+DOC_ID: 694
+Designates the Secretary of Commerce as the principal advisor to the President on blockchain technology and related applications.
+
+Requires the Secretary to develop policies and recommendations addressing issues such as decentralized identity, cybersecurity, AI, regulatory compliance, and fraud reduction.
+
+Instructs the Secretary to promote U.S. leadership and competitiveness in blockchain technology through a Blockchain Deployment Program.
+
+Mandates the establishment of advisory committees with diverse stakeholders to support blockchain adoption.
+
+Directs the Secretary to facilitate the development and dissemination of best practices for blockchain technology.
+
+Obligates the Secretary to consult with private sector stakeholders and disseminate research on blockchain technology.
+
+Requires annual reports to Congress on activities, recommendations for legislation, and emerging risks and trends in blockchain technology.
+
+Terminates the Blockchain Deployment Program seven years after enactment.
+
+---
+
+DOC_ID: 695
+Allocates $170,000,000 for the procurement and deployment of autonomous surveillance tower systems using AI for border security.
+
+Prohibits the use of funds for non-autonomous border security technology.
+
+Defines "autonomous" systems as those utilizing sensors, onboard computing, and AI for identification.
+
+Mandates quarterly reports on the performance and impact of border security technologies, including AI-driven non-intrusive inspection technology.
+
+Requires acquisition of innovative technologies through open competition, integrating AI and machine learning to improve performance.
+
+Obliges U.S. Customs and Border Protection to submit detailed expenditure plans for autonomous systems, including deployment timelines and sustainment costs.
+
+Instructs the Secretary of Homeland Security to conduct cost-benefit analyses before requesting Department of Defense assistance for border operations, including AI technology impacts.
+
+---
+
+DOC_ID: 696
+Amends Section 2403 of the Energy Policy Act of 1992 to enhance environmental review procedures.
+
+Requires the Federal Energy Regulatory Commission (FERC) to cooperate with federal, state, local agencies, and Indian Tribes in preparing environmental assessments or impact statements.
+
+Mandates consideration of ongoing and reasonably foreseeable environmental effects of projects, excluding nonrecurring past effects.
+
+Obliges FERC and cooperating entities to evaluate impacts on fish species and consider appropriate mitigation strategies.
+
+Encourages the use of open-sourced technical models for environmental impact assessments, ensuring their validity and accessibility while protecting intellectual property and proprietary data.
+
+Directs FERC to account for hydrologic alterations over the project license term and assess their impacts on public uses and regional benefits.
+
+Necessitates consideration of innovative solutions and emerging technologies to meet regulatory responsibilities cost-effectively.
+
+Requires periodic technical conferences to evaluate new methodologies and technologies for environmental impact quantification.
+
+Stipulates precise citation of evidence in environmental review records to support findings on material facts.
+
+---
+
+DOC_ID: 697
+Establishes the "Artificial Intelligence Safety Institute" to assist private and public sectors in developing best practices for AI assessment, provide technical assistance, and promote AI innovation, with a director appointed by the Under Secretary of Commerce for Standards and Technology.
+Requires the Institute to conduct AI research, develop standards, and create guidelines for safe AI development and deployment, including generative AI and foundation models.
+
+Mandates the formation of an international coalition to harmonize AI standards and support bilateral and multilateral AI research collaborations. Directs the Comptroller General to report on regulatory barriers affecting AI innovation and recommend legislative or administrative actions to enhance AI development.
+Orders the development of prioritized public data sets for AI training and evaluation, and the establishment of Federal grand challenges in AI to stimulate research and commercialization in key areas.
+
+---
+
+DOC_ID: 698
+Amends the Workforce Innovation and Opportunity Act to allow states to use machine learning and advanced analytics in the improvement of state program operations and outcomes.
+
+---
+
+DOC_ID: 699
+Establishes the AI Grand Challenges Program to incentivize AI research, development, and commercialization through prize competitions addressing grand challenges in various sectors like national security, health, and environment.
+
+Mandates the Director of the National Science Foundation to coordinate with federal agencies and stakeholders, and public input, to identify and select AI grand challenges.
+
+Designates a specific grand challenge for AI-enabled cancer breakthroughs.
+
+Sets eligibility criteria for participants, requiring private entities to be U.S.-based and individuals to be U.S. citizens or permanent residents.
+
+Requires regular reporting to Congress on the program’s progress and results, ensuring public accessibility of reports and competition information.
+
+---
+

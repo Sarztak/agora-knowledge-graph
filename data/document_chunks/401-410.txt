@@ -1,0 +1,124 @@
+DOC_ID: 400
+Requires manufacturers of radiological computer-assisted diagnostic software to provide a detailed description of the image analysis algorithms including inputs, outputs, major components, and limitations.
+
+Requires disclosure of pre-specified performance testing protocols used to assess whether the device will improve reader performance as intended.
+
+Requires disclosure of results from performance testing that follows pre-specified protocols.
+
+Requires manufacturers to provide appropriate software documentation including device hazard analysis, software design specs, traceability analysis, and cybersecurity features.
+
+Mandates labeling that details compatible imaging hardware and imaging protocols, as well as the intended reading protocol.
+
+---
+
+DOC_ID: 401
+Requires that adjunctive predictive cardiovascular indicators -- medical devices used to predict cardiovascular health -- be subject to special controls in the U.S. Those controls include the following:
+
+Requires a risk assessment of the device, including full disclosure of software specs and different inputs considered when making predictions about future cardiovascular health.
+
+Requires scientific justification for the device's efficacy, including verification of algorithm calculations and validation using an independent data set.
+
+Requires a human factors and usability engineering assessment to evaluate the risk of misinterpretation of device output.
+
+Requires a clinical data assessment that specifies the clinical data used and an evaluation of output consistency.
+
+---
+
+DOC_ID: 402
+Classifies a software algorithm device to assist users in digital pathology -- an in vitro device intended to evaluate acquired scanned pathology whole slide images to assist in diagnosis -- into the U.S. Food and Drug Administration's class II, requiring special controls. That set of special controls:
+
+Requires detailed product labeling, including instructions for use and notices of the device's limitations.
+
+Requires performance assessments of the device that meets pre-set standards for rigor, evaluate the device's performance when used by its intended users, and cover the entire spectrum of challenging cases likely to be encountered in the device's operation. 
+
+Requires a detailed description of the workings of the device's software.
+
+Requires a risk management plan, including mechanisms to mitigate cybersecurity risks. 
+
+---
+
+DOC_ID: 403
+Labels over-the-counter use of electrocardiograph software devices as Class II (special controls), which requires manufactures to verify, validate, and conduct hazard analysis of detection algorithms in the devices.
+
+Mandates manufactures to produce clinical performance testing results that shows the performance characteristics of the detection algorithm by sensitivity and either specificity or positive predictive value.
+
+Requires manufacturers who fail to conduct non-clinical performance testing to validate detection algorithm performance using a previously adjudicated data set.
+
+Requires human factors and usability testing to demonstrate that the user can correctly interpret the device output and understand when to seek medical care.
+
+---
+
+DOC_ID: 404
+Classifies the adjunctive hemodynamic indicator with decision point -- a device that monitors medical conditions relating to blood flow -- into the Food & Drug Administration's class II, requiring special controls. That set of controls:
+
+Requires a full description of the technical parameters of the device's software and sensors.
+
+Requires a risk assessment for the device.
+
+Requires mechanisms designed to mitigate the impact of user error or failure of any subsystem components (signal detection and analysis, data display, and storage) on the accuracy of the device's output.
+
+Requires statistical documentation, based on robust clinical data, of the device's efficacy. The accuracy of the device's algorithm must be tested using an independent dataset. 
+
+Requires a usability assessment to demonstrate that the risk of misinterpretation of the status indicator is appropriately mitigated.
+
+Requires detailed product labeling. 
+
+---
+
+DOC_ID: 405
+Clarifies Section 1002 of the Consumer Financial Protection Act of 2010's definition of "service provider" to include digital marketing providers that use algorithmic models or other analytics to commingle the targeting and delivery of advertisements to consumers, rendering those providers subject to the Act's prohibition on unfair, deceptive, or abusive acts or practices.
+
+Outlines the ways in which digital marketers provide additional services beyond "time or space" and are materially involved in the development of content strategy -- often through the use of targeting and delivering algorithms -- thus qualifying them as "service providers" under the law.
+
+Outlines specific circumstances in which digital marketers are and are not considered service providers under the CFPA; they qualify as service providers when using algorithms and data to target and deliver advertisements with certain characteristics, or when using algorithms and business-specific data to determine when to display specific advertisements to specific consumers. 
+
+---
+
+DOC_ID: 406
+Classifies the Cognoa ASD Diagnosis Aid, a machine-learning software program and device used in the diagnosis of Autism Spectrum Disorder, into the U.S. Food and Drug Administration's class II regulatory category requiring special controls. The mandated special controls are as follows:
+
+Requires clinical performance testing to demonstrate that the device performs as intended under anticipated conditions of use, including an evaluation of sensitivity, specificity, positive predictive value, and negative predictive value using a reference method of diagnosis and assessment of patient behavioral symptomology.
+
+Requires software verification, validation, and hazard analysis to be provided for the device. Software documentation must include a detailed, technical description of the algorithm(s) used to generate device output(s), and a cybersecurity assessment of the impact of threats and vulnerabilities on device functionality and user(s).
+
+Requires a usability assessment that must demonstrate that the intended user(s) can safely and correctly use the device.
+
+Requires detailed product labeling that includes instructions for the device's use and a summary of any clinical testing done to demonstrate the device's functionality.
+
+---
+
+DOC_ID: 407
+Requires disclosure of all inputs and outputs of algorithms used in coronary artery disease risk indicators.
+
+Requires manufacturers to divulge the procedure for segmenting, characterizing, and classifying the acoustic signal.
+
+Mandates the verification of the algorithm calculations and validation using an independent data set.
+
+---
+
+DOC_ID: 408
+Requires disclosure of inputs, outputs, components, and limitations of image analysis algorithms used in medical image analyzers.
+
+Requires performance testing that demonstrates the algorithms meaningfully improve the detection of abnormalities during patient radiographs.
+
+Requires appropriate software documentation including device hazard analysis, software specs, traceability analysis, pass/fail criteria, and cybersecurity.
+
+Requires a detailed summary of the methodology behind the performance testing.
+
+---
+
+DOC_ID: 409
+Classifies the Oxehealth Vital Signs device -- which uses software to enable camera-based measurement of pulse rate, heart rate, breathing rate, and/or respiratory rate -- into the U.S. Food and Drug Administration's class II, requiring special controls. The set of special controls:
+
+Requires a full characterization of the technical parameters of the device's software, as well as documentation of a cybersecurity vulnerability and management process to assure software functionality.
+
+Requires the results of verification and validation testing based on a comprehensive hazard analysis and risk assessment of the software and associated device, to include a description of all mitigations for user error or failure of any subsystem components (including signal detection, signal analysis, data display, and storage) on output accuracy.
+
+Requires clinical data demonstrating the software and device's efficacy, including comparing the device's output with a clinically accurate patient-contacting relevant comparator device in an accurate and reproducible manner.
+
+Requires a human factors and usability engineering assessment that evaluates the risk of improper measurement.
+
+Requires detailed product labeling, to include instructions for using the device and interpreting its output; warnings of factors that may impede proper functionality; and a description of the measurements the device takes.
+
+---
+
