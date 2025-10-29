@@ -1,0 +1,155 @@
+[
+{
+"document_id": "doc_181",
+"entities": [
+{ "pattern": "Mississippi Department of Information Technology Services", "label": "ORGANIZATION" },
+{ "pattern": "Executive Order", "label": "LAW" },
+{ "pattern": "AI technologies", "label": "TECHNOLOGY" },
+{ "pattern": "AI processes", "label": "TECHNOLOGY" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "security", "label": "SAFETY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "government stakeholders", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_182",
+"entities": [
+{ "pattern": "Frontier Safety Framework", "label": "POLICY" },
+{ "pattern": "Critical Capability Levels", "label": "BENCHMARK" },
+{ "pattern": "CCLs", "label": "BENCHMARK" },
+{ "pattern": "misuse", "label": "MISUSE_RISK" },
+{ "pattern": "deceptive alignment", "label": "ALIGNMENT_RISK" },
+{ "pattern": "chemical, biological, radiological, nuclear attacks", "label": "SAFETY_HARM" },
+{ "pattern": "CBRN", "label": "SAFETY_HARM" },
+{ "pattern": "cyber threats", "label": "SECURITY_HARM" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "deployment mitigations", "label": "REQUIREMENT" },
+{ "pattern": "early warning evaluations", "label": "BENCHMARK" },
+{ "pattern": "frontier AI models", "label": "FRONTIER_AI" },
+{ "pattern": "Google DeepMind AGI Safety Council", "label": "ORGANIZATION" },
+{ "pattern": "governance protocols", "label": "ACCOUNTABILITY" },
+{ "pattern": "risk modeling", "label": "BENCHMARK" },
+{ "pattern": "capability assessments", "label": "BENCHMARK" }
+]
+},
+{
+"document_id": "doc_183",
+"entities": [
+{ "pattern": "TechVisa Program", "label": "PROGRAM" },
+{ "pattern": "Turkey", "label": "GEOGRAPHIC" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "AI certification training programs", "label": "STANDARD" },
+{ "pattern": "national occupational standards", "label": "STANDARD" },
+{ "pattern": "generative AI models", "label": "TECHNOLOGY" },
+{ "pattern": "Turkish large language model", "label": "TECHNOLOGY" },
+{ "pattern": "Legal Assessment Guide for AI Applications", "label": "DOCUMENT" },
+{ "pattern": "AI education model", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_184",
+"entities": [
+{ "pattern": "Artificial Intelligence Task Force", "label": "PROGRAM" },
+{ "pattern": "Indiana", "label": "GEOGRAPHIC" },
+{ "pattern": "AI technologies", "label": "TECHNOLOGY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "legal protections", "label": "HUMAN_RIGHTS" },
+{ "pattern": "policies", "label": "POLICY" },
+{ "pattern": "legislation", "label": "LAW" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "data security", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_185",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI lifecycle", "label": "MECHANISM" },
+{ "pattern": "traceability", "label": "TRANSPARENCY" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "AI governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "risk management policies", "label": "POLICY" },
+{ "pattern": "security controls", "label": "SAFETY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "content authentication mechanisms", "label": "TECHNOLOGY" },
+{ "pattern": "technical standards", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_186",
+"entities": [
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AI lifecycle", "label": "MECHANISM" },
+{ "pattern": "security controls", "label": "SAFETY" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" },
+{ "pattern": "content authentication and provenance mechanisms", "label": "TECHNOLOGY" },
+{ "pattern": "UN SDG goals", "label": "POLICY" },
+{ "pattern": "technical standards", "label": "STANDARD" },
+{ "pattern": "personal data privacy", "label": "PRIVACY" },
+{ "pattern": "IP protection", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_187",
+"entities": [
+{ "pattern": "military AI", "label": "TECHNOLOGY" },
+{ "pattern": "international law", "label": "LAW" },
+{ "pattern": "international humanitarian law", "label": "LAW" },
+{ "pattern": "human command chain", "label": "ACCOUNTABILITY" },
+{ "pattern": "civilian protection", "label": "HUMAN_RIGHTS" },
+{ "pattern": "senior officials", "label": "ROLE" },
+{ "pattern": "bias", "label": "FAIRNESS" },
+{ "pattern": "transparent", "label": "TRANSPARENCY" },
+{ "pattern": "auditable methodologies", "label": "TRANSPARENCY" },
+{ "pattern": "documentation", "label": "TRANSPARENCY" },
+{ "pattern": "training", "label": "EDUCATION" },
+{ "pattern": "AI capabilities", "label": "TECHNOLOGY" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "standards", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_188",
+"entities": [
+{ "pattern": "Personal Rights Protection Act of 1984", "label": "LAW" },
+{ "pattern": "Ensuring Likeness, Voice, and Image Security Act of 2024", "label": "LAW" },
+{ "pattern": "property rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "First Amendment", "label": "LAW" },
+{ "pattern": "civil liability", "label": "PENALTY" },
+{ "pattern": "unauthorized commercial use", "label": "PRIVACY_HARM" },
+{ "pattern": "technology", "label": "TECHNOLOGY" },
+{ "pattern": "advertisement", "label": "CONSUMER" }
+]
+},
+{
+"document_id": "doc_189",
+"entities": [
+{ "pattern": "Chief Digital and Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "automated target recognition algorithms", "label": "TECHNOLOGY" },
+{ "pattern": "Replicator initiative", "label": "PROGRAM" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Senate Armed Services Committee", "label": "ORGANIZATION" },
+{ "pattern": "House Armed Services Committee", "label": "ORGANIZATION" },
+{ "pattern": "Act", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_190",
+"entities": [
+{ "pattern": "Chief Data and Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "combatant command warfighter forum on AI", "label": "PROGRAM" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" },
+{ "pattern": "policies", "label": "POLICY" }
+]
+}
+]

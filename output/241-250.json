@@ -1,0 +1,141 @@
+[
+{
+"document_id": "doc_241",
+"entities": [
+{ "pattern": "City agencies and departments of Boston", "label": "ORGANIZATION" },
+{ "pattern": "Boston Public Schools", "label": "ORGANIZATION" },
+{ "pattern": "Department of Innovation and Technology", "label": "ORGANIZATION" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "generative AI", "label": "TECHNOLOGY" },
+{ "pattern": "AI-generated content", "label": "TECHNOLOGY" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_242",
+"entities": [
+{ "pattern": "Miami-Dade County", "label": "GEOGRAPHIC" },
+{ "pattern": "Human Resources Department", "label": "ORGANIZATION" },
+{ "pattern": "Information Technology Department", "label": "ORGANIZATION" },
+{ "pattern": "IT Department", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "data governance", "label": "POLICY" },
+{ "pattern": "encryption", "label": "TECHNOLOGY" },
+{ "pattern": "risk assessments", "label": "REQUIREMENT" },
+{ "pattern": "community engagement", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_243",
+"entities": [
+{ "pattern": "National Quantum Initiative Act", "label": "LAW" },
+{ "pattern": "Secretary of Energy", "label": "ROLE" },
+{ "pattern": "Department of Energy", "label": "ORGANIZATION" },
+{ "pattern": "National Quantum Information Science Research Centers", "label": "PROGRAM" },
+{ "pattern": "National Laboratories", "label": "ORGANIZATION" },
+{ "pattern": "quantum technology industry", "label": "TECHNOLOGY" },
+{ "pattern": "high-performance computing systems", "label": "TECHNOLOGY" },
+{ "pattern": "quantum supply chain", "label": "PROGRAM" },
+{ "pattern": "university-led traineeship program", "label": "PROGRAM" },
+{ "pattern": "foreign countries of concern", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_244",
+"entities": [
+{ "pattern": "Open Translation Center", "label": "ORGANIZATION" },
+{ "pattern": "OTC", "label": "ORGANIZATION" },
+{ "pattern": "U.S. Government", "label": "ORGANIZATION" },
+{ "pattern": "Secretary of State", "label": "ROLE" },
+{ "pattern": "CIA", "label": "ORGANIZATION" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "foreign governments", "label": "GEOGRAPHIC" },
+{ "pattern": "governing board", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_245",
+"entities": [
+{ "pattern": "City departments", "label": "ORGANIZATION" },
+{ "pattern": "Seattle IT", "label": "ORGANIZATION" },
+{ "pattern": "Racial Equity Toolkit", "label": "FAIRNESS" },
+{ "pattern": "Chief Technology Officer", "label": "ROLE" },
+{ "pattern": "Director of DPAC", "label": "ROLE" },
+{ "pattern": "Chief Privacy Officer", "label": "ROLE" },
+{ "pattern": "confidential City data", "label": "SENSITIVE_DATA" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI-generated content", "label": "TECHNOLOGY" },
+{ "pattern": "generative AI", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_246",
+"entities": [
+{ "pattern": "City of Tempe", "label": "GEOGRAPHIC" },
+{ "pattern": "Technology and Innovation Steering Committee", "label": "ORGANIZATION" },
+{ "pattern": "Information Technology", "label": "ORGANIZATION" },
+{ "pattern": "predictive analytics", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "automated decision-making", "label": "TECHNOLOGY" },
+{ "pattern": "data privacy", "label": "PRIVACY" },
+{ "pattern": "ethical AI frameworks", "label": "POLICY" },
+{ "pattern": "stakeholder engagement", "label": "STAKEHOLDER" },
+{ "pattern": "policy reviews", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_247",
+"entities": [
+{ "pattern": "County of Santa Cruz", "label": "GEOGRAPHIC" },
+{ "pattern": "HIPAA", "label": "LAW" },
+{ "pattern": "CCPA", "label": "LAW" },
+{ "pattern": "Google Bard", "label": "TECHNOLOGY" },
+{ "pattern": "OpenAI's ChatGPT", "label": "TECHNOLOGY" },
+{ "pattern": "Anthropic's Claude", "label": "TECHNOLOGY" },
+{ "pattern": "Scribe", "label": "TECHNOLOGY" },
+{ "pattern": "personally identifiable information", "label": "PERSONAL_DATA" },
+{ "pattern": "AI policies", "label": "POLICY" },
+{ "pattern": "bias", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_248",
+"entities": [
+{ "pattern": "Kendall County", "label": "GEOGRAPHIC" },
+{ "pattern": "ChatGPT", "label": "TECHNOLOGY" },
+{ "pattern": "Bard", "label": "TECHNOLOGY" },
+{ "pattern": "Executives", "label": "ROLE" },
+{ "pattern": "Human Resources", "label": "ORGANIZATION" },
+{ "pattern": "Information, Communication and Technology Department", "label": "ORGANIZATION" },
+{ "pattern": "Technology and Record Retention Policies", "label": "POLICY" },
+{ "pattern": "policy violations", "label": "REQUIREMENT" }
+]
+},
+{
+"document_id": "doc_249",
+"entities": [
+{ "pattern": "Municipal Criminal Court", "label": "ORGANIZATION" },
+{ "pattern": "ChatGPT", "label": "TECHNOLOGY" },
+{ "pattern": "Bing AI", "label": "TECHNOLOGY" },
+{ "pattern": "Google Bard", "label": "TECHNOLOGY" },
+{ "pattern": "12 O.S. §2011", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_250",
+"entities": [
+{ "pattern": "Information Technology Acceptable Use Policy", "label": "POLICY" },
+{ "pattern": "ITSA", "label": "ORGANIZATION" },
+{ "pattern": "Sunshine Law", "label": "LAW" },
+{ "pattern": "Mayor’s Office", "label": "ORGANIZATION" },
+{ "pattern": "generative AI tools", "label": "TECHNOLOGY" },
+{ "pattern": "AI-related technology", "label": "TECHNOLOGY" },
+{ "pattern": "sensitive or confidential information", "label": "SENSITIVE_DATA" },
+{ "pattern": "malware threats", "label": "SAFETY_HARM" },
+{ "pattern": "copyright-protected", "label": "POLICY" }
+]
+}
+]

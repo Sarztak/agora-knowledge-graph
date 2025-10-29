@@ -1,0 +1,146 @@
+[
+{
+"document_id": "doc_091",
+"entities": [
+{ "pattern": "Virginia", "label": "GEOGRAPHIC" },
+{ "pattern": "justice system", "label": "JUSTICE" },
+{ "pattern": "education", "label": "EDUCATION" },
+{ "pattern": "employment", "label": "EMPLOYMENT" },
+{ "pattern": "financial services", "label": "FINANCE" },
+{ "pattern": "algorithmic discrimination", "label": "FAIRNESS" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "civil penalties", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_092",
+"entities": [
+{ "pattern": "Washington State Transportation Commission", "label": "ORGANIZATION" },
+{ "pattern": "autonomous vehicle", "label": "TECHNOLOGY" },
+{ "pattern": "executive branch", "label": "ORGANIZATION" },
+{ "pattern": "state departments", "label": "ORGANIZATION" },
+{ "pattern": "federal", "label": "GOVERNMENT" },
+{ "pattern": "state regulatory frameworks", "label": "POLICY" },
+{ "pattern": "governor", "label": "ROLE" },
+{ "pattern": "legislature", "label": "ORGANIZATION" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "labor", "label": "EMPLOYMENT" }
+]
+},
+{
+"document_id": "doc_093",
+"entities": [
+{ "pattern": "Washington State", "label": "GEOGRAPHIC" },
+{ "pattern": "autonomous vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Licensing", "label": "ORGANIZATION" },
+{ "pattern": "self-certification testing program", "label": "PROGRAM" },
+{ "pattern": "Society of Automotive Engineers", "label": "ORGANIZATION" },
+{ "pattern": "standards J3016", "label": "STANDARD" },
+{ "pattern": "law enforcement agencies", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_094",
+"entities": [
+{ "pattern": "Florida", "label": "GEOGRAPHIC" },
+{ "pattern": "generative artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AI-generated content", "label": "TECHNOLOGY" },
+{ "pattern": "Florida Elections Commission", "label": "ORGANIZATION" },
+{ "pattern": "first-degree misdemeanor penalties", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_095",
+"entities": [
+{ "pattern": "facial recognition", "label": "TECHNOLOGY" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "prosecutors", "label": "ROLE" },
+{ "pattern": "courts", "label": "ORGANIZATION" },
+{ "pattern": "body cameras", "label": "TECHNOLOGY" },
+{ "pattern": "immigration enforcement", "label": "JUSTICE" },
+{ "pattern": "accuracy and bias testing", "label": "FAIRNESS" },
+{ "pattern": "independent entities", "label": "ORGANIZATION" },
+{ "pattern": "audits", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_096",
+"entities": [
+{ "pattern": "online information service providers", "label": "ORGANIZATION" },
+{ "pattern": "AI-generated synthetic content", "label": "TECHNOLOGY" },
+{ "pattern": "digital file metadata", "label": "TECHNOLOGY" },
+{ "pattern": "content transmission platforms", "label": "ORGANIZATION" },
+{ "pattern": "application distribution platforms", "label": "ORGANIZATION" },
+{ "pattern": "generative AI services", "label": "TECHNOLOGY" },
+{ "pattern": "regulatory authorities", "label": "ORGANIZATION" },
+{ "pattern": "penalties", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_097",
+"entities": [
+{ "pattern": "Responsible Deployment of AI Systems Act", "label": "LAW" },
+{ "pattern": "Oklahoma", "label": "GEOGRAPHIC" },
+{ "pattern": "Unacceptable Risk AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "social scoring", "label": "TECHNOLOGY" },
+{ "pattern": "AI-driven misinformation", "label": "SOCIAL_HARM" },
+{ "pattern": "AI Council", "label": "ORGANIZATION" },
+{ "pattern": "AI Regulatory Sandbox Program", "label": "PROGRAM" },
+{ "pattern": "Workforce Development Program", "label": "PROGRAM" },
+{ "pattern": "AI Workforce Development Program", "label": "PROGRAM" },
+{ "pattern": "AI literacy", "label": "EDUCATION" },
+{ "pattern": "penalties", "label": "PENALTY" },
+{ "pattern": "fundamental rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" }
+]
+},
+{
+"document_id": "doc_098",
+"entities": [
+{ "pattern": "Executive Branch", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Chief AI Officer", "label": "ROLE" },
+{ "pattern": "public accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "risk management practices", "label": "REQUIREMENT" },
+{ "pattern": "AI impact assessments", "label": "DOCUMENT" },
+{ "pattern": "human oversight", "label": "ACCOUNTABILITY" },
+{ "pattern": "public consultation", "label": "TRANSPARENCY" },
+{ "pattern": "national security systems", "label": "MILITARY" }
+]
+},
+{
+"document_id": "doc_099",
+"entities": [
+{ "pattern": "Executive Order 13960", "label": "LAW" },
+{ "pattern": "OMB Memorandum M-25-21", "label": "DOCUMENT" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "intellectual property", "label": "REQUIREMENT" },
+{ "pattern": "federal law", "label": "LAW" },
+{ "pattern": "GSA", "label": "ORGANIZATION" },
+{ "pattern": "AI acquisition guides", "label": "DOCUMENT" },
+{ "pattern": "shared repository", "label": "TECHNOLOGY" },
+{ "pattern": "national security systems", "label": "MILITARY" }
+]
+},
+{
+"document_id": "doc_100",
+"entities": [
+{ "pattern": "National Artificial Intelligence Research Resource", "label": "PROGRAM" },
+{ "pattern": "NAIRR", "label": "PROGRAM" },
+{ "pattern": "Director of the National Science Foundation", "label": "ROLE" },
+{ "pattern": "National Science Foundation", "label": "ORGANIZATION" },
+{ "pattern": "NAIRR Steering Subcommittee", "label": "ORGANIZATION" },
+{ "pattern": "Program Management Office", "label": "ORGANIZATION" },
+{ "pattern": "Operating Entity", "label": "ORGANIZATION" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "ethics", "label": "ACCOUNTABILITY" },
+{ "pattern": "scientific integrity", "label": "STANDARD" },
+{ "pattern": "system security", "label": "SAFETY" },
+{ "pattern": "research security compliance", "label": "REQUIREMENT" },
+{ "pattern": "national security guidelines", "label": "POLICY" },
+{ "pattern": "research integrity", "label": "ACCOUNTABILITY" }
+]
+}
+]

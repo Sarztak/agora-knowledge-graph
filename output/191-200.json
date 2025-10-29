@@ -1,0 +1,152 @@
+[
+{
+"document_id": "doc_191",
+"entities": [
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Department of Energy", "label": "ORGANIZATION" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "centers of excellence", "label": "PROGRAM" },
+{ "pattern": "AI-enabled weapon systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI capabilities", "label": "TECHNOLOGY" },
+{ "pattern": "high-performance computing infrastructure", "label": "TECHNOLOGY" },
+{ "pattern": "security standards", "label": "STANDARD" },
+{ "pattern": "Act", "label": "LAW" },
+{ "pattern": "data procurement", "label": "REQUIREMENT" },
+{ "pattern": "data protection", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_192",
+"entities": [
+{ "pattern": "Chief Digital Engineering Recruitment and Management Officer", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "AI workforce policy", "label": "POLICY" },
+{ "pattern": "AI workforce", "label": "PROGRAM" },
+{ "pattern": "Human Capital Operating Plan", "label": "DOCUMENT" },
+{ "pattern": "AI terminology", "label": "STANDARD" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_193",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "AI initiatives", "label": "PROGRAM" },
+{ "pattern": "AI strategies", "label": "POLICY" },
+{ "pattern": "intelligence sharing", "label": "PROGRAM" },
+{ "pattern": "defense operations", "label": "PROGRAM" },
+{ "pattern": "AI data security", "label": "PRIVACY" },
+{ "pattern": "export laws", "label": "LAW" },
+{ "pattern": "national security", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_194",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "biotechnology", "label": "HEALTHCARE" },
+{ "pattern": "public-private partnerships", "label": "PROGRAM" },
+{ "pattern": "computing infrastructure", "label": "TECHNOLOGY" },
+{ "pattern": "AI model validation", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity measures", "label": "SAFETY" },
+{ "pattern": "transition plan", "label": "DOCUMENT" },
+{ "pattern": "ecosystem analysis", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_195",
+"entities": [
+{ "pattern": "John S. McCain National Defense Authorization Act", "label": "LAW" },
+{ "pattern": "Chief Digital and Artificial Intelligence Officer Governing Council", "label": "ORGANIZATION" },
+{ "pattern": "Chief Digital and Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "AI models", "label": "TECHNOLOGY" },
+{ "pattern": "AI technologies", "label": "TECHNOLOGY" },
+{ "pattern": "national security", "label": "SAFETY" },
+{ "pattern": "adversarial countries", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_196",
+"entities": [
+{ "pattern": "section 5306", "label": "LAW" },
+{ "pattern": "intelligence community", "label": "ORGANIZATION" },
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "exchange program", "label": "PROGRAM" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "trade secrets", "label": "PRIVACY" },
+{ "pattern": "proprietary information", "label": "PRIVACY" },
+{ "pattern": "conflicts of interest", "label": "ACCOUNTABILITY" },
+{ "pattern": "annual reports", "label": "DOCUMENT" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_197",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "multi-cloud management", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity strategy", "label": "POLICY" },
+{ "pattern": "AI adoption", "label": "PROGRAM" },
+{ "pattern": "multi-cloud environments", "label": "TECHNOLOGY" },
+{ "pattern": "government data protection", "label": "PRIVACY" },
+{ "pattern": "AI training", "label": "TRAINING_STAGE" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_198",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "unmanned ground vehicle systems", "label": "TECHNOLOGY" },
+{ "pattern": "Defense Innovation Unit", "label": "ORGANIZATION" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "national security", "label": "SAFETY" },
+{ "pattern": "cybersecurity risks", "label": "SAFETY" },
+{ "pattern": "technological vulnerabilities", "label": "SAFETY" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "Russia", "label": "GEOGRAPHIC" },
+{ "pattern": "Iran", "label": "GEOGRAPHIC" },
+{ "pattern": "North Korea", "label": "GEOGRAPHIC" },
+{ "pattern": "covered foreign countries", "label": "REQUIREMENT" }
+]
+},
+{
+"document_id": "doc_199",
+"entities": [
+{ "pattern": "Secretary of the Navy", "label": "ROLE" },
+{ "pattern": "modular open systems architecture", "label": "STANDARD" },
+{ "pattern": "maritime unmanned systems", "label": "TECHNOLOGY" },
+{ "pattern": "Government", "label": "ORGANIZATION" },
+{ "pattern": "standards", "label": "STANDARD" },
+{ "pattern": "Navy program", "label": "PROGRAM" },
+{ "pattern": "contract", "label": "REQUIREMENT" },
+{ "pattern": "industry practices", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_200",
+"entities": [
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "AI data centers", "label": "TECHNOLOGY" },
+{ "pattern": "clean energy projects", "label": "PROGRAM" },
+{ "pattern": "Secretary of Energy", "label": "ROLE" },
+{ "pattern": "executive order", "label": "POLICY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "model evaluation", "label": "BENCHMARK" },
+{ "pattern": "supply-chain protection", "label": "SAFETY" },
+{ "pattern": "AI infrastructure", "label": "TECHNOLOGY" },
+{ "pattern": "permit processing", "label": "MECHANISM" },
+{ "pattern": "federal sites", "label": "GEOGRAPHIC" },
+{ "pattern": "global AI infrastructure development", "label": "PROGRAM" },
+{ "pattern": "international supply chains", "label": "PROGRAM" },
+{ "pattern": "national security", "label": "SAFETY" }
+]
+}
+]
