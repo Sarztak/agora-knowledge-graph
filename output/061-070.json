@@ -1,0 +1,144 @@
+[
+{
+"document_id": "doc_061",
+"entities": [
+{ "pattern": "autonomy", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "naval shipbuilding", "label": "MILITARY" },
+{ "pattern": "unmanned surface vessel", "label": "TECHNOLOGY" },
+{ "pattern": "unmanned underwater vehicle", "label": "TECHNOLOGY" },
+{ "pattern": "maritime robotic autonomous systems", "label": "TECHNOLOGY" },
+{ "pattern": "Test Resource Management Center", "label": "ORGANIZATION" },
+{ "pattern": "robotic autonomous systems proving ground", "label": "PROGRAM" },
+{ "pattern": "wave-powered unmanned underwater vehicles", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_062",
+"entities": [
+{ "pattern": "Air National Guard Director", "label": "ROLE" },
+{ "pattern": "Air Force", "label": "ORGANIZATION" },
+{ "pattern": "fighter aircraft", "label": "TECHNOLOGY" },
+{ "pattern": "unmanned or autonomous capabilities", "label": "TECHNOLOGY" },
+{ "pattern": "F-16", "label": "TECHNOLOGY" },
+{ "pattern": "combatant commanders", "label": "ROLE" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_063",
+"entities": [
+{ "pattern": "autonomous agents", "label": "TECHNOLOGY" },
+{ "pattern": "cruise missiles", "label": "TECHNOLOGY" },
+{ "pattern": "drones", "label": "TECHNOLOGY" },
+{ "pattern": "United States", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_064",
+"entities": [
+{ "pattern": "automation", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "financial statements", "label": "DOCUMENT" },
+{ "pattern": "chapter 9A", "label": "LAW" },
+{ "pattern": "section 2222 of title 10, United States Code", "label": "LAW" },
+{ "pattern": "United States", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_065",
+"entities": [
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. policy", "label": "POLICY" },
+{ "pattern": "AI use", "label": "POLICY" },
+{ "pattern": "nuclear safeguards", "label": "SAFETY" },
+{ "pattern": "weapon system functionality", "label": "SAFETY" },
+{ "pattern": "command communications", "label": "TECHNOLOGY" },
+{ "pattern": "President", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_066",
+"entities": [
+{ "pattern": "Secretaries of Defense", "label": "ROLE" },
+{ "pattern": "Army", "label": "ORGANIZATION" },
+{ "pattern": "Navy", "label": "ORGANIZATION" },
+{ "pattern": "Air Force", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Director of the Chief Digital and Artificial Intelligence Office", "label": "ROLE" },
+{ "pattern": "Under Secretary of Defense for Research and Engineering", "label": "ROLE" },
+{ "pattern": "Inspector General", "label": "ROLE" },
+{ "pattern": "financial management", "label": "PROGRAM" },
+{ "pattern": "enterprise business operations", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_067",
+"entities": [
+{ "pattern": "Texas", "label": "GEOGRAPHIC" },
+{ "pattern": "Texas Responsible Artificial Intelligence Governance Act", "label": "LAW" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "Artificial Intelligence Council", "label": "ORGANIZATION" },
+{ "pattern": "regulatory sandbox program", "label": "PROGRAM" },
+{ "pattern": "attorney general", "label": "ROLE" },
+{ "pattern": "data privacy", "label": "PRIVACY" },
+{ "pattern": "consumer protections", "label": "POLICY" },
+{ "pattern": "social scoring", "label": "FAIRNESS" },
+{ "pattern": "biometric identifiers", "label": "PRIVACY" },
+{ "pattern": "rights", "label": "HUMAN_RIGHTS" }
+]
+},
+{
+"document_id": "doc_068",
+"entities": [
+{ "pattern": "digital data", "label": "DATA_TYPE" },
+{ "pattern": "aircraft", "label": "TECHNOLOGY" },
+{ "pattern": "ships", "label": "TECHNOLOGY" },
+{ "pattern": "ground vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "data infrastructure", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "automated systems", "label": "TECHNOLOGY" },
+{ "pattern": "open data", "label": "PUBLIC_DATA" },
+{ "pattern": "data transmission", "label": "TECHNOLOGY" },
+{ "pattern": "high-speed technologies", "label": "TECHNOLOGY" },
+{ "pattern": "secure methods", "label": "SAFETY" },
+{ "pattern": "user interfaces", "label": "TECHNOLOGY" },
+{ "pattern": "tagging systems", "label": "STANDARD" },
+{ "pattern": "classification policies", "label": "POLICY" },
+{ "pattern": "unauthorized access", "label": "PRIVACY_HARM" },
+{ "pattern": "Senate and House Armed Services Committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_069",
+"entities": [
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "AI-enabled software", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "depots", "label": "ORGANIZATION" },
+{ "pattern": "shipyards", "label": "ORGANIZATION" },
+{ "pattern": "software platforms", "label": "TECHNOLOGY" },
+{ "pattern": "enterprise data sources", "label": "DATA_TYPE" },
+{ "pattern": "Under Secretary of Defense for Acquisition and Sustainment", "label": "ROLE" },
+{ "pattern": "Secretaries of the Army, Navy, and Air Force", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_070",
+"entities": [
+{ "pattern": "Director of the National Security Agency", "label": "ROLE" },
+{ "pattern": "Artificial Intelligence Security Center", "label": "ORGANIZATION" },
+{ "pattern": "Cybersecurity Collaboration Center", "label": "ORGANIZATION" },
+{ "pattern": "NSA", "label": "ORGANIZATION" },
+{ "pattern": "Act", "label": "LAW" },
+{ "pattern": "counter-artificial intelligence techniques", "label": "SAFETY" },
+{ "pattern": "artificial intelligence adoption practices", "label": "POLICY" },
+{ "pattern": "national security systems", "label": "MILITARY" },
+{ "pattern": "defense industrial base", "label": "ORGANIZATION" }
+]
+}
+]

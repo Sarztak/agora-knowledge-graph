@@ -1,0 +1,153 @@
+[
+{
+"document_id": "doc_251",
+"entities": [
+{ "pattern": "AI Authority", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "regulatory sandboxes", "label": "PROGRAM" },
+{ "pattern": "consumer protections", "label": "PRIVACY" },
+{ "pattern": "AI responsible officers", "label": "ROLE" },
+{ "pattern": "public engagement programs", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_252",
+"entities": [
+{ "pattern": "Federal Election Commission", "label": "ORGANIZATION" },
+{ "pattern": "AI-generated audio", "label": "TECHNOLOGY" },
+{ "pattern": "political communications", "label": "PROGRAM" },
+{ "pattern": "criminal penalties", "label": "PENALTY" },
+{ "pattern": "regulations", "label": "POLICY" },
+{ "pattern": "compliance reports", "label": "DOCUMENT" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "general election", "label": "PROGRAM" },
+{ "pattern": "primary", "label": "PROGRAM" },
+{ "pattern": "radio or television stations", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_253",
+"entities": [
+{ "pattern": "Department of Homeland Security", "label": "ORGANIZATION" },
+{ "pattern": "United States", "label": "GEOGRAPHIC" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "automation", "label": "TECHNOLOGY" },
+{ "pattern": "fiber-optic sensing", "label": "TECHNOLOGY" },
+{ "pattern": "nanotechnology", "label": "TECHNOLOGY" },
+{ "pattern": "optical and cognitive radar", "label": "TECHNOLOGY" },
+{ "pattern": "modeling and simulation technology", "label": "TECHNOLOGY" },
+{ "pattern": "hyperspectral and LIDAR sensors", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. Customs and Border Protection", "label": "ORGANIZATION" },
+{ "pattern": "Science and Technology Directorate", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_254",
+"entities": [
+{ "pattern": "Secretary", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "prohibited technology", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. national security", "label": "GEOGRAPHIC" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "civil penalties", "label": "PENALTY" },
+{ "pattern": "divestment requirements", "label": "REQUIREMENT" },
+{ "pattern": "enforcement actions", "label": "ACCOUNTABILITY" },
+{ "pattern": "international cooperation", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_255",
+"entities": [
+{ "pattern": "Assistant Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Supply Chain Resilience Working Group", "label": "PROGRAM" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "AI technologies", "label": "TECHNOLOGY" },
+{ "pattern": "AI-related supply chains", "label": "TECHNOLOGY" },
+{ "pattern": "countries identified as risks to national security", "label": "GEOGRAPHIC" },
+{ "pattern": "privacy concerns", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_256",
+"entities": [
+{ "pattern": "Secretary of Health and Human Services", "label": "ROLE" },
+{ "pattern": "algorithms", "label": "TECHNOLOGY" },
+{ "pattern": "automated insulin delivery systems", "label": "TECHNOLOGY" },
+{ "pattern": "Medicare", "label": "PROGRAM" },
+{ "pattern": "Medicare Part B", "label": "PROGRAM" },
+{ "pattern": "Comptroller General", "label": "ROLE" },
+{ "pattern": "Federal healthcare programs", "label": "PROGRAM" },
+{ "pattern": "diabetes technologies", "label": "TECHNOLOGY" },
+{ "pattern": "insulin pumps", "label": "TECHNOLOGY" },
+{ "pattern": "billing and reimbursement transparency", "label": "TRANSPARENCY" },
+{ "pattern": "legal and policy issues", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_257",
+"entities": [
+{ "pattern": "St. Louis Metropolitan Police Department", "label": "ORGANIZATION" },
+{ "pattern": "SLMPD", "label": "ORGANIZATION" },
+{ "pattern": "surveillance technology", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "public safety", "label": "SAFETY" },
+{ "pattern": "transparency reports", "label": "DOCUMENT" },
+{ "pattern": "data privacy", "label": "PRIVACY" },
+{ "pattern": "City’s Information Technology Services", "label": "ORGANIZATION" },
+{ "pattern": "28 C.F.R. Part 23", "label": "LAW" },
+{ "pattern": "law enforcement agencies", "label": "ORGANIZATION" },
+{ "pattern": "federal and state laws", "label": "LAW" },
+{ "pattern": "right to know", "label": "ACCOUNTABILITY" },
+{ "pattern": "need to know", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_258",
+"entities": [
+{ "pattern": "Secretary of Homeland Security", "label": "ROLE" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" },
+{ "pattern": "CBP Innovation Teams", "label": "PROGRAM" },
+{ "pattern": "DHS policies", "label": "POLICY" },
+{ "pattern": "cost-benefit analysis", "label": "BENCHMARK" },
+{ "pattern": "security effectiveness", "label": "SAFETY" },
+{ "pattern": "private sector", "label": "STAKEHOLDER" },
+{ "pattern": "government entities", "label": "STAKEHOLDER" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_259",
+"entities": [
+{ "pattern": "Comptroller General", "label": "ROLE" },
+{ "pattern": "wearable medical devices", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "clinical decision-making", "label": "HEALTHCARE" },
+{ "pattern": "policy options", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_260",
+"entities": [
+{ "pattern": "Frontier Safety Framework", "label": "STANDARD" },
+{ "pattern": "Critical Capability Levels", "label": "STANDARD" },
+{ "pattern": "foundation models", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "Autonomy", "label": "TECHNOLOGY" },
+{ "pattern": "Biosecurity", "label": "SAFETY" },
+{ "pattern": "Cybersecurity", "label": "SAFETY" },
+{ "pattern": "Machine Learning R&D", "label": "TECHNOLOGY" },
+{ "pattern": "security mitigations", "label": "SAFETY" },
+{ "pattern": "deployment mitigations", "label": "SAFETY" },
+{ "pattern": "model weight exfiltration", "label": "SECURITY_HARM" },
+{ "pattern": "misuse", "label": "MISUSE_RISK" }
+]
+}
+]
