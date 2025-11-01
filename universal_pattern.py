@@ -3,7 +3,7 @@ import json
 from collections import defaultdict
 
 # === 1. Folder path ===
-folder_path = "/Users/blag/Documents/UChicago MS/2025 Fall/agora-knowledge-graph/output"
+folder_path = "./output"
 
 # === 2. Containers ===
 pattern_to_labels = defaultdict(set)  # collect all labels for each pattern
