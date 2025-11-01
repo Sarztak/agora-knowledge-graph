@@ -1,7 +1,50 @@
 import spacy
 import json
 import networkx as nx
+import pandas as pd
 
+# === 1. Load your universal pattern dictionary ===
+with open("./universal_pattern_output/unique_entities_first_label.json", "r", encoding="utf-8") as f:
+    patterns = json.load(f)
+
+# === 2. Initialize spaCy model ===
+# You can start with a blank English pipeline or a pretrained model
+nlp = spacy.blank("en")
+
+# === 3. Add the EntityRuler ===
+ruler = nlp.add_pipe("entity_ruler")
+ruler.add_patterns(patterns)
+
+# === 4. Load documents.csv ===
+df = pd.read_csv("/Users/blag/Documents/UChicago MS/2025 Fall/agora-knowledge-graph/data/documents.csv")
+if "Long summary" not in df.columns:
+    raise ValueError("Could not find column 'Long summary' in documents.csv")
+
+# === 5. Apply NER to each document ===
+results = []
+
+for i, text in enumerate(df["Long summary"].fillna("")):
+    doc = nlp(text)
+    entities = [
+        {"text": ent.text, "label": ent.label_}
+        for ent in doc.ents
+    ]
+    results.append({
+        "index": i,
+        "text": text,
+        "entities": entities
+    })
+
+# === 6. Save results ===
+output_path = "ner_results.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(results, f, indent=2, ensure_ascii=False)
+
+print(f"Finished processing {len(df)} documents.")
+print(f"Results saved to {output_path}")
+
+
+# === 7. Knowledge graph construction ===
 # Load English model (medium or large recommended)
 nlp = spacy.load("en_core_web_md")
 
@@ -11,7 +54,6 @@ with open("ner_results.json") as f:
 
 G = nx.DiGraph()
 
-counter = 0
 for item in data:
 
     doc = nlp(item["text"]) # doc sentence
@@ -29,10 +71,6 @@ for item in data:
                     G.add_node(s, label=entities[s])
                     G.add_node(o, label=entities[o])
                     G.add_edge(s, o, relation=token.lemma_, context=item["index"])
-                    if counter == 1:
-                        print("token lemma:\n")
-                        print(token.lemma_)
-                        print("\n")
-            counter += 1
 
 nx.write_gexf(G, "ai_policy_kg_with_dependencies.gexf")
+# View graph at https://lite.gephi.org/v1.0.0/#/
