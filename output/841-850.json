@@ -1,0 +1,139 @@
+[
+{
+"document_id": "doc_841",
+"entities": [
+{ "pattern": "Rhode Island state government", "label": "GOVERNMENT" },
+{ "pattern": "automated decision-making (ADM) systems", "label": "TECHNOLOGY" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "state legislature", "label": "ORGANIZATION" },
+{ "pattern": "algorithmic decision-making", "label": "TECHNOLOGY" },
+{ "pattern": "protected characteristics", "label": "SENSITIVE_DATA" },
+{ "pattern": "data security", "label": "SAFETY" },
+{ "pattern": "intellectual property", "label": "POLICY" },
+{ "pattern": "academic institutions", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_842",
+"entities": [
+{ "pattern": "New York", "label": "GEOGRAPHIC" },
+{ "pattern": "automated decision tool", "label": "TECHNOLOGY" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "Commissioner", "label": "ROLE" },
+{ "pattern": "disparate impact analysis", "label": "DOCUMENT" },
+{ "pattern": "employment candidates", "label": "EMPLOYMENT" }
+]
+},
+{
+"document_id": "doc_843",
+"entities": [
+{ "pattern": "Texas House of Representatives", "label": "ORGANIZATION" },
+{ "pattern": "Texas Workforce Commission", "label": "ORGANIZATION" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "Lieutenant Governor", "label": "ROLE" },
+{ "pattern": "Speaker of the House", "label": "ROLE" },
+{ "pattern": "Senate", "label": "ORGANIZATION" },
+{ "pattern": "workforce training program", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_844",
+"entities": [
+{ "pattern": "Automated Decision Systems (ADS)", "label": "TECHNOLOGY" },
+{ "pattern": "worker data", "label": "PERSONAL_DATA" },
+{ "pattern": "third-party impact assessments", "label": "DOCUMENT" },
+{ "pattern": "bias", "label": "FAIRNESS" },
+{ "pattern": "discrimination", "label": "DISCRIMINATION_HARM" },
+{ "pattern": "employment decisions", "label": "EMPLOYMENT" },
+{ "pattern": "security measures", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_845",
+"entities": [
+{ "pattern": "Illinois Human Rights Act", "label": "LAW" },
+{ "pattern": "artificial intelligence (AI)", "label": "TECHNOLOGY" },
+{ "pattern": "Illinois Department of Human Rights", "label": "ORGANIZATION" },
+{ "pattern": "employees", "label": "STAKEHOLDER" },
+{ "pattern": "protected classes", "label": "SENSITIVE_DATA" },
+{ "pattern": "generative artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "employment practices", "label": "EMPLOYMENT" }
+]
+},
+{
+"document_id": "doc_846",
+"entities": [
+{ "pattern": "United States", "label": "GEOGRAPHIC" },
+{ "pattern": "Office of Science and Technology Policy", "label": "ORGANIZATION" },
+{ "pattern": "Artificial Intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Quantum Information Science", "label": "TECHNOLOGY" },
+{ "pattern": "Industries of the Future Coordination Council", "label": "ORGANIZATION" },
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "Director", "label": "ROLE" },
+{ "pattern": "national security", "label": "MILITARY" },
+{ "pattern": "policy", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_847",
+"entities": [
+{ "pattern": "Microsoft", "label": "ORGANIZATION" },
+{ "pattern": "OpenAI", "label": "ORGANIZATION" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI Risk Management Framework", "label": "STANDARD" },
+{ "pattern": "Microsoft-OpenAI Deployment Safety Board", "label": "ORGANIZATION" },
+{ "pattern": "AI model", "label": "TECHNOLOGY" },
+{ "pattern": "AI governance", "label": "POLICY" },
+{ "pattern": "risk evaluation", "label": "MONITORING_STAGE" },
+{ "pattern": "red teaming", "label": "TESTING_STAGE" },
+{ "pattern": "AI safety research", "label": "RESEARCH_STAGE" },
+{ "pattern": "frontier models", "label": "FRONTIER_AI" },
+{ "pattern": "watermarking", "label": "STANDARD" },
+{ "pattern": "metadata-based provenance", "label": "STANDARD" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "bug bounty programs", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_848",
+"entities": [
+{ "pattern": "California Department of Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI chatbots/assistance", "label": "TECHNOLOGY" },
+{ "pattern": "government benefit and welfare programs", "label": "GOVERNMENT" },
+{ "pattern": "disability insurance", "label": "PROGRAM" },
+{ "pattern": "affordable housing", "label": "PROGRAM" },
+{ "pattern": "risk management", "label": "SAFETY" },
+{ "pattern": "monitoring and evaluation", "label": "MONITORING_STAGE" },
+{ "pattern": "privacy issues", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_849",
+"entities": [
+{ "pattern": "New Jersey", "label": "GEOGRAPHIC" },
+{ "pattern": "Commissioner of Labor and Workforce Development", "label": "ROLE" },
+{ "pattern": "AI-powered technology", "label": "TECHNOLOGY" },
+{ "pattern": "automation", "label": "TECHNOLOGY" },
+{ "pattern": "State’s economy", "label": "GOVERNMENT" },
+{ "pattern": "labor market", "label": "EMPLOYMENT" },
+{ "pattern": "education", "label": "EDUCATION" },
+{ "pattern": "workforce", "label": "EMPLOYMENT" }
+]
+},
+{
+"document_id": "doc_850",
+"entities": [
+{ "pattern": "New York state commission", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "robotics", "label": "TECHNOLOGY" },
+{ "pattern": "automation", "label": "TECHNOLOGY" },
+{ "pattern": "data privacy", "label": "PRIVACY" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "criminal and civil liability", "label": "POLICY" },
+{ "pattern": "AI-enabled violations", "label": "MISUSE_RISK" },
+{ "pattern": "AI regulation", "label": "POLICY" },
+{ "pattern": "weaponry", "label": "MILITARY" }
+]
+}
+]

@@ -1,0 +1,102 @@
+[
+{
+"document_id": "doc_941",
+"entities": [
+{ "pattern": "deepfakes", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "bona fide news reporting", "label": "POLICY" },
+{ "pattern": "satire", "label": "SOCIAL_HARM" },
+{ "pattern": "July 1, 2024", "label": "POLICY" },
+{ "pattern": "injunctive relief", "label": "MECHANISM" },
+{ "pattern": "fines", "label": "PENALTY" },
+{ "pattern": "imprisonment", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_942",
+"entities": [
+{ "pattern": "Indiana law", "label": "LAW" },
+{ "pattern": "computer generated image", "label": "SYNTHETIC_DATA" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "unmanned aerial vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "remote aerial voyeurism", "label": "SOCIAL_HARM" },
+{ "pattern": "court orders", "label": "MECHANISM" },
+{ "pattern": "criminal investigations", "label": "JUSTICE" },
+{ "pattern": "child sexual abuse", "label": "SOCIAL_HARM" },
+{ "pattern": "bankruptcy proceedings", "label": "MECHANISM" }
+]
+},
+{
+"document_id": "doc_943",
+"entities": [
+{ "pattern": "Washington state law", "label": "LAW" },
+{ "pattern": "digitization", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "fabricated depiction", "label": "SYNTHETIC_DATA" },
+{ "pattern": "interactive computer services", "label": "TECHNOLOGY" },
+{ "pattern": "telecommunications providers", "label": "ORGANIZATION" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "civil remedies", "label": "MECHANISM" },
+{ "pattern": "economic damages", "label": "ECONOMIC_HARM" },
+{ "pattern": "punitive damages", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_944",
+"entities": [
+{ "pattern": "Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act", "label": "LAW" },
+{ "pattern": "digitally altered sexual image", "label": "SYNTHETIC_DATA" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "medical education", "label": "EDUCATION" },
+{ "pattern": "public figure", "label": "STAKEHOLDER" },
+{ "pattern": "political message", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_945",
+"entities": [
+{ "pattern": "AI safety", "label": "SAFETY" },
+{ "pattern": "AI Safety Institutes", "label": "ORGANIZATION" },
+{ "pattern": "Safety Assurance Framework", "label": "STANDARD" },
+{ "pattern": "AI incidents", "label": "SAFETY_HARM" },
+{ "pattern": "post-deployment monitoring", "label": "MONITORING_STAGE" },
+{ "pattern": "independent audits", "label": "MONITORING_STAGE" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "Emergency Preparedness Agreements", "label": "POLICY" },
+{ "pattern": "AI developers", "label": "STAKEHOLDER" },
+{ "pattern": "global AI safety and verification research", "label": "RESEARCH_STAGE" }
+]
+},
+{
+"document_id": "doc_946",
+"entities": [
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI development", "label": "RESEARCH_STAGE" },
+{ "pattern": "AI governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "weapons of mass destruction", "label": "MILITARY" },
+{ "pattern": "cyberattacks", "label": "SECURITY_HARM" },
+{ "pattern": "advanced AI models", "label": "FRONTIER_AI" },
+{ "pattern": "government oversight", "label": "ACCOUNTABILITY" },
+{ "pattern": "multilateral institutions", "label": "ORGANIZATION" },
+{ "pattern": "AGI development", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "AI safety research", "label": "RESEARCH_STAGE" }
+]
+},
+{
+"document_id": "doc_947",
+"entities": [
+{ "pattern": "AI models", "label": "TECHNOLOGY" },
+{ "pattern": "government visibility", "label": "ACCOUNTABILITY" },
+{ "pattern": "AI incidents", "label": "SAFETY_HARM" },
+{ "pattern": "AI developers", "label": "STAKEHOLDER" },
+{ "pattern": "information security", "label": "SECURITY_HARM" },
+{ "pattern": "model safety", "label": "SAFETY" },
+{ "pattern": "rapid and safe shut-down procedures", "label": "MECHANISM" },
+{ "pattern": "AI alignment", "label": "ALIGNMENT_RISK" },
+{ "pattern": "malicious actors", "label": "MISUSE_RISK" },
+{ "pattern": "AI safety research", "label": "RESEARCH_STAGE" },
+{ "pattern": "governance institutions", "label": "ORGANIZATION" }
+]
+}
+]

@@ -1,0 +1,149 @@
+[
+{
+"document_id": "doc_831",
+"entities": [
+{ "pattern": "Meta", "label": "ORGANIZATION" },
+{ "pattern": "Llama 2", "label": "TECHNOLOGY" },
+{ "pattern": "White House Commitments", "label": "POLICY" },
+{ "pattern": "DEFCON", "label": "PROGRAM" },
+{ "pattern": "Synthetic Media Framework", "label": "STANDARD" },
+{ "pattern": "Open Loop", "label": "PROGRAM" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI model weights", "label": "SENSITIVE_DATA" },
+{ "pattern": "AI vulnerabilities", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_832",
+"entities": [
+{ "pattern": "United States Department of Health and Human Services", "label": "ORGANIZATION" },
+{ "pattern": "HHS", "label": "ORGANIZATION" },
+{ "pattern": "State, Local, Tribal, and Territorial Governments", "label": "GOVERNMENT" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI Risk Management Framework", "label": "STANDARD" },
+{ "pattern": "Blueprint for an AI Bill of Rights", "label": "POLICY" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "human oversight", "label": "ACCOUNTABILITY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "governance", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_833",
+"entities": [
+{ "pattern": "USDA", "label": "ORGANIZATION" },
+{ "pattern": "Executive Order 14110", "label": "LAW" },
+{ "pattern": "Secretary", "label": "ROLE" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "benefits administration", "label": "GOVERNMENT" },
+{ "pattern": "SLTT agencies", "label": "ORGANIZATION" },
+{ "pattern": "data sovereignty", "label": "POLICY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_834",
+"entities": [
+{ "pattern": "UK", "label": "GEOGRAPHIC" },
+{ "pattern": "Republic of Korea", "label": "GEOGRAPHIC" },
+{ "pattern": "Amazon", "label": "ORGANIZATION" },
+{ "pattern": "Google", "label": "ORGANIZATION" },
+{ "pattern": "OpenAI", "label": "ORGANIZATION" },
+{ "pattern": "Frontier AI Safety Commitments", "label": "POLICY" },
+{ "pattern": "frontier AI systems", "label": "FRONTIER_AI" },
+{ "pattern": "risk thresholds", "label": "REQUIREMENT" },
+{ "pattern": "risk mitigation", "label": "SAFETY" },
+{ "pattern": "governance frameworks", "label": "POLICY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "risk assessment", "label": "TESTING_STAGE" }
+]
+},
+{
+"document_id": "doc_835",
+"entities": [
+{ "pattern": "Google DeepMind", "label": "ORGANIZATION" },
+{ "pattern": "AI Principles", "label": "POLICY" },
+{ "pattern": "Responsible AI Council", "label": "ORGANIZATION" },
+{ "pattern": "Responsible Development and Innovation team", "label": "ORGANIZATION" },
+{ "pattern": "frontier AI models", "label": "FRONTIER_AI" },
+{ "pattern": "model cards", "label": "DOCUMENT" },
+{ "pattern": "data sheets", "label": "DOCUMENT" },
+{ "pattern": "bug bounty program", "label": "PROGRAM" },
+{ "pattern": "Secure AI Framework", "label": "STANDARD" },
+{ "pattern": "watermarking", "label": "STANDARD" },
+{ "pattern": "metadata", "label": "SENSITIVE_DATA" },
+{ "pattern": "Digital Futures Project", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_836",
+"entities": [
+{ "pattern": "Fair Housing Act", "label": "LAW" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "algorithmic systems", "label": "TECHNOLOGY" },
+{ "pattern": "digital platforms", "label": "TECHNOLOGY" },
+{ "pattern": "protected characteristics", "label": "SENSITIVE_DATA" },
+{ "pattern": "advertisers", "label": "STAKEHOLDER" },
+{ "pattern": "platforms", "label": "STAKEHOLDER" },
+{ "pattern": "audience categorization", "label": "MECHANISM" },
+{ "pattern": "algorithmic delivery tools", "label": "TECHNOLOGY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_837",
+"entities": [
+{ "pattern": "Federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "Executive Order 14110", "label": "LAW" },
+{ "pattern": "President Biden", "label": "ROLE" },
+{ "pattern": "National AI Talent Surge", "label": "PROGRAM" },
+{ "pattern": "Federal Government", "label": "ORGANIZATION" },
+{ "pattern": "Direct Hire Authority", "label": "POLICY" },
+{ "pattern": "Excepted Service Appointments", "label": "POLICY" },
+{ "pattern": "Office of Personnel Management", "label": "ORGANIZATION" },
+{ "pattern": "OPM", "label": "ORGANIZATION" },
+{ "pattern": "Chief AI Officers", "label": "ROLE" },
+{ "pattern": "USAJOBS", "label": "PROGRAM" },
+{ "pattern": "AI scholarship-for-service program", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_838",
+"entities": [
+{ "pattern": "U.S. Office of Personnel Management", "label": "ORGANIZATION" },
+{ "pattern": "OPM", "label": "ORGANIZATION" },
+{ "pattern": "Executive Order 14110", "label": "LAW" },
+{ "pattern": "direct hire authority", "label": "POLICY" },
+{ "pattern": "Schedule A appointments", "label": "POLICY" },
+{ "pattern": "veterans’ preference", "label": "POLICY" },
+{ "pattern": "public notice requirements", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_839",
+"entities": [
+{ "pattern": "AI Safety Standard", "label": "STANDARD" },
+{ "pattern": "Bletchley Declaration", "label": "POLICY" },
+{ "pattern": "2023–24 Budget", "label": "DOCUMENT" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI guardrails", "label": "POLICY" },
+{ "pattern": "AI-generated materials", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI capability development", "label": "RESEARCH_STAGE" }
+]
+},
+{
+"document_id": "doc_840",
+"entities": [
+{ "pattern": "automated decision-making (ADM) systems", "label": "TECHNOLOGY" },
+{ "pattern": "social media platforms", "label": "TECHNOLOGY" },
+{ "pattern": "South Carolina", "label": "GEOGRAPHIC" },
+{ "pattern": "government-issued identification", "label": "PERSONAL_DATA" },
+{ "pattern": "civil penalties", "label": "PENALTY" }
+]
+}
+]

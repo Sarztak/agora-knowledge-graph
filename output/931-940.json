@@ -1,0 +1,122 @@
+[
+{
+"document_id": "doc_931",
+"entities": [
+{ "pattern": "Tennessee Code", "label": "LAW" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "generative artificial intelligence", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "July 1, 2024", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_932",
+"entities": [
+{ "pattern": "Right of Publicity Act", "label": "LAW" },
+{ "pattern": "Illinois", "label": "GEOGRAPHIC" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "digital replica", "label": "SYNTHETIC_DATA" },
+{ "pattern": "federal law", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_933",
+"entities": [
+{ "pattern": "Office of Artificial Intelligence Policy", "label": "ORGANIZATION" },
+{ "pattern": "AI Learning Laboratory Program", "label": "PROGRAM" },
+{ "pattern": "regulatory mitigation agreements", "label": "MECHANISM" },
+{ "pattern": "generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "consumer harm", "label": "ECONOMIC_HARM" },
+{ "pattern": "privacy breaches", "label": "PRIVACY_HARM" },
+{ "pattern": "unauthorized data usage", "label": "PRIVACY_HARM" },
+{ "pattern": "May 1, 2024", "label": "POLICY" },
+{ "pattern": "May 1, 2025", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_934",
+"entities": [
+{ "pattern": "generative artificial intelligence", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "Division of Consumer Protection", "label": "ORGANIZATION" },
+{ "pattern": "attorney general", "label": "ROLE" },
+{ "pattern": "disclosure", "label": "TRANSPARENCY" },
+{ "pattern": "consumer protection laws", "label": "LAW" },
+{ "pattern": "civil penalties", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_935",
+"entities": [
+{ "pattern": "Innovation in Artificial Intelligence Grant Pilot Program", "label": "PROGRAM" },
+{ "pattern": "AI courses", "label": "EDUCATION" },
+{ "pattern": "K-12 students", "label": "STAKEHOLDER" },
+{ "pattern": "public or private schools", "label": "ORGANIZATION" },
+{ "pattern": "Section 63N-1a-306", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_936",
+"entities": [
+{ "pattern": "Road Optimization and Assessment Data Road Pilot Program", "label": "PROGRAM" },
+{ "pattern": "Machine Learning", "label": "TECHNOLOGY" },
+{ "pattern": "Artificial Intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Monongalia", "label": "GEOGRAPHIC" },
+{ "pattern": "Preston Counties", "label": "GEOGRAPHIC" },
+{ "pattern": "Commissioner of Highways", "label": "ROLE" },
+{ "pattern": "Division of Highways", "label": "ORGANIZATION" },
+{ "pattern": "GPS", "label": "TECHNOLOGY" },
+{ "pattern": "laser measuring systems", "label": "TECHNOLOGY" },
+{ "pattern": "reflectometer systems", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_937",
+"entities": [
+{ "pattern": "legislative commission", "label": "ORGANIZATION" },
+{ "pattern": "firearm technology", "label": "TECHNOLOGY" },
+{ "pattern": "personalized technologies", "label": "TECHNOLOGY" },
+{ "pattern": "microstamp technologies", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "tax incentive program", "label": "POLICY" },
+{ "pattern": "March 1, 2025", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_938",
+"entities": [
+{ "pattern": "Department of Education", "label": "ORGANIZATION" },
+{ "pattern": "Commissioner of Education", "label": "ROLE" },
+{ "pattern": "AI education tool pilot program", "label": "PROGRAM" },
+{ "pattern": "AI tool", "label": "TECHNOLOGY" },
+{ "pattern": "Family Educational Rights and Privacy Act", "label": "LAW" },
+{ "pattern": "student data privacy", "label": "PRIVACY" },
+{ "pattern": "educators", "label": "STAKEHOLDER" },
+{ "pattern": "workforce development", "label": "EDUCATION" }
+]
+},
+{
+"document_id": "doc_939",
+"entities": [
+{ "pattern": "computer-generated images", "label": "SYNTHETIC_DATA" },
+{ "pattern": "intimate images", "label": "SENSITIVE_DATA" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "internet service providers", "label": "ORGANIZATION" },
+{ "pattern": "sexual extortion", "label": "SOCIAL_HARM" },
+{ "pattern": "counterfeit intimate images", "label": "SYNTHETIC_DATA" },
+{ "pattern": "May 1, 2024", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_940",
+"entities": [
+{ "pattern": "Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act", "label": "LAW" },
+{ "pattern": "depicted individual", "label": "STAKEHOLDER" },
+{ "pattern": "consent", "label": "PRIVACY" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "interactive computer services", "label": "TECHNOLOGY" },
+{ "pattern": "injunctive relief", "label": "MECHANISM" },
+{ "pattern": "digitally altered images", "label": "SYNTHETIC_DATA" }
+]
+}
+]

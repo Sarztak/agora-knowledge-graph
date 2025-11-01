@@ -1,0 +1,136 @@
+[
+{
+"document_id": "doc_811",
+"entities": [
+{ "pattern": "AI mental health applications", "label": "TECHNOLOGY" },
+{ "pattern": "licensed mental health professionals", "label": "HEALTHCARE" },
+{ "pattern": "AI mental health services", "label": "HEALTHCARE" },
+{ "pattern": "informed consent", "label": "PRIVACY" },
+{ "pattern": "AI technology", "label": "TECHNOLOGY" },
+{ "pattern": "record-keeping requirements", "label": "REQUIREMENT" }
+]
+},
+{
+"document_id": "doc_812",
+"entities": [
+{ "pattern": "Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "automated systems", "label": "TECHNOLOGY" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "New Jersey Artificial Intelligence Advisory Board", "label": "ORGANIZATION" },
+{ "pattern": "Artificial Intelligence Implementation Officer", "label": "ROLE" },
+{ "pattern": "task force", "label": "PROGRAM" },
+{ "pattern": "AI Bill of Rights", "label": "POLICY" },
+{ "pattern": "public records laws", "label": "LAW" },
+{ "pattern": "trade secrets", "label": "SENSITIVE_DATA" }
+]
+},
+{
+"document_id": "doc_813",
+"entities": [
+{ "pattern": "synthetic media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "political communications", "label": "DOCUMENT" },
+{ "pattern": "act", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_814",
+"entities": [
+{ "pattern": "generative AI models", "label": "TECHNOLOGY" },
+{ "pattern": "ChatGPT", "label": "TECHNOLOGY" },
+{ "pattern": "large-scale generative artificial intelligence model", "label": "TECHNOLOGY" },
+{ "pattern": "AI models", "label": "TECHNOLOGY" },
+{ "pattern": "watermark", "label": "STANDARD" },
+{ "pattern": "training data", "label": "TRAINING_DATA" },
+{ "pattern": "attorney general", "label": "ROLE" },
+{ "pattern": "risk assessments", "label": "MONITORING_STAGE" },
+{ "pattern": "security measures", "label": "SAFETY" },
+{ "pattern": "informed consent", "label": "PRIVACY" },
+{ "pattern": "regulations", "label": "POLICY" },
+{ "pattern": "legal action", "label": "MECHANISM" }
+]
+},
+{
+"document_id": "doc_815",
+"entities": [
+{ "pattern": "executive office of technology services and security", "label": "ORGANIZATION" },
+{ "pattern": "automated decision systems", "label": "TECHNOLOGY" },
+{ "pattern": "Commonwealth of Massachusetts", "label": "GEOGRAPHIC" },
+{ "pattern": "commission", "label": "ORGANIZATION" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "algorithmic bias", "label": "FAIRNESS" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "data protection", "label": "PRIVACY" },
+{ "pattern": "intellectual property", "label": "POLICY" },
+{ "pattern": "annual report", "label": "DOCUMENT" },
+{ "pattern": "state legislature", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_816",
+"entities": [
+{ "pattern": "state finance law", "label": "LAW" },
+{ "pattern": "algorithmic decision systems", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence standards", "label": "STANDARD" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "executive law", "label": "LAW" },
+{ "pattern": "unlawful discriminatory practice", "label": "FAIRNESS" },
+{ "pattern": "commissioner of taxation and finance", "label": "ROLE" },
+{ "pattern": "regulations", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_817",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Empire State Film Production Credit", "label": "PROGRAM" },
+{ "pattern": "collective bargaining agreements", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_818",
+"entities": [
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "human rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "data security", "label": "SAFETY" },
+{ "pattern": "risk management", "label": "SAFETY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountable", "label": "ACCOUNTABILITY" },
+{ "pattern": "human oversight", "label": "ACCOUNTABILITY" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "equitable society", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_819",
+"entities": [
+{ "pattern": "Federal Government", "label": "ORGANIZATION" },
+{ "pattern": "American AI Initiative", "label": "POLICY" },
+{ "pattern": "AI R&D", "label": "RESEARCH_STAGE" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "technical standards", "label": "STANDARD" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "American workers", "label": "STAKEHOLDER" },
+{ "pattern": "international standards", "label": "STANDARD" },
+{ "pattern": "AI technology", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_820",
+"entities": [
+{ "pattern": "synthetic nucleic acids", "label": "TECHNOLOGY" },
+{ "pattern": "procurement screening framework", "label": "POLICY" },
+{ "pattern": "synthetic nucleic acid providers", "label": "STAKEHOLDER" },
+{ "pattern": "equipment manufacturers", "label": "STAKEHOLDER" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "technical specifications", "label": "STANDARD" },
+{ "pattern": "federal funding agencies", "label": "ORGANIZATION" },
+{ "pattern": "cybersecurity measures", "label": "SAFETY" },
+{ "pattern": "sensitive data", "label": "SENSITIVE_DATA" },
+{ "pattern": "independent audits", "label": "MONITORING_STAGE" }
+]
+}
+]
