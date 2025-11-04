@@ -1,7 +1,6 @@
 import pandas as pd 
 from pathlib import Path
-from helper import prefix_zero, prompt 
-
+from helper import prompt 
 
 
 if __name__ == "__main__":
@@ -17,12 +16,12 @@ if __name__ == "__main__":
 
     for i in range(0, len(docs_df), 10):
         chunk = docs_df.iloc[i: i + 10]
-        filename = f"{prefix_zero(i+1, 3)}-{prefix_zero(i+10, 3)}.txt"         
+        filename = f"{str(i+1).zfill(3)}-{str(i+10).zfill(3)}.txt"         
         with open(doc_chunk_write_path / filename, 'w', encoding='utf-8') as w:
             w.write(prompt())
             arr = chunk.long_summary.values
             for j, text in enumerate(arr):
-                w.write(f'doc_{prefix_zero(i + 1 + j)}\n')
+                w.write(f'doc_{str(i + 1 + j).zfill(3)}\n')
                 w.write(text)
                 w.write('\n\n---\n\n')
 

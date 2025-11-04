@@ -1,328 +1,136 @@
 [
-  {
-    "document_id": "doc_340",
-    "entities": [
-      {
-        "pattern": "DoD Management Reform Framework",
-        "label": "POLICY"
-      },
-      {
-        "pattern": "Secretary of Defense",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "DoD",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "AI tools",
-        "label": "TECHNOLOGY"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_341",
-    "entities": [
-      {
-        "pattern": "Secretary of Defense",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "U.S.",
-        "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "AI",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "machine learning",
-        "label": "TECHNOLOGY"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_342",
-    "entities": [
-      {
-        "pattern": "Defense Acquisition University President",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "AI",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "machine learning",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Secretary of Defense",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Congress",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "cost-benefit assessment",
-        "label": "DOCUMENT"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_343",
-    "entities": [
-      {
-        "pattern": "Director of National Intelligence",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "intelligence community",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Iran-origin unmanned aircraft systems",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Congress",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "United States",
-        "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "Five Eyes Partnership",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Israel",
-        "label": "GEOGRAPHIC"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_344",
-    "entities": [
-      {
-        "pattern": "Federal Government",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "privacy",
-        "label": "PRIVACY"
-      },
-      {
-        "pattern": "civil rights",
-        "label": "HUMAN_RIGHTS"
-      },
-      {
-        "pattern": "civil liberties",
-        "label": "HUMAN_RIGHTS"
-      },
-      {
-        "pattern": "artificial intelligence system",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Secretary of Homeland Security",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Chief Procurement Officer",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Chief Information Officer",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Chief Privacy Officer",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Officer for Civil Rights and Civil Liberties",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Department of Homeland Security",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Inspector General",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Office of the Inspector General",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Director of the Office of Management and Budget",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Office of Management and Budget",
-        "label": "ORGANIZATION"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_345",
-    "entities": [
-      {
-        "pattern": "Secretary of a military department",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Service Chief",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "service acquisition executive",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Department of Defense",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "autonomous systems",
-        "label": "TECHNOLOGY"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_346",
-    "entities": [
-      {
-        "pattern": "U.S. Coast Guard",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "unmanned vehicles",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Commandant of the Coast Guard",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "sensors",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "communication systems",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "computer vision systems",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "autonomous control technology",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Coast Guard",
-        "label": "ORGANIZATION"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_347",
-    "entities": [
-      {
-        "pattern": "Secretary of the Department of Homeland Security",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Coast Guard",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Committee on Commerce, Science, and Transportation of the Senate",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Committee on Transportation and Infrastructure",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Committee on Science, Space, and Technology of the House of Representatives",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "House of Representatives",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Senate",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Comptroller General of the United States",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "United States",
-        "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "autonomous and remote technologies",
-        "label": "TECHNOLOGY"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_348",
-    "entities": [
-      {
-        "pattern": "Secretary of Defense",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "Department of Defense Cyber and Digital Service Academy",
-        "label": "PROGRAM"
-      },
-      {
-        "pattern": "Department of Defense",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Congress",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "AI",
-        "label": "TECHNOLOGY"
-      }
-    ]
-  },
-  {
-    "document_id": "doc_349",
-    "entities": [
-      {
-        "pattern": "Administrator of the National Oceanic and Atmospheric Administration",
-        "label": "ROLE"
-      },
-      {
-        "pattern": "National Oceanic and Atmospheric Administration",
-        "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "sensors",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "autonomous vehicles",
-        "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "national ocean exploration program",
-        "label": "PROGRAM"
-      }
-    ]
-  }
+{
+"document_id": "doc_341",
+"entities": [
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "AI tools", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_342",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_343",
+"entities": [
+{ "pattern": "Defense Acquisition University", "label": "ORGANIZATION" },
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "software", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "hardware acquisition", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_344",
+"entities": [
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "intelligence community", "label": "ORGANIZATION" },
+{ "pattern": "Iran-origin unmanned aircraft systems", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "United States", "label": "GEOGRAPHIC" },
+{ "pattern": "Five Eyes Partnership", "label": "ORGANIZATION" },
+{ "pattern": "Israel", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_345",
+"entities": [
+{ "pattern": "AI-related programs", "label": "PROGRAM" },
+{ "pattern": "Federal Government", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence system", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of Homeland Security", "label": "ROLE" },
+{ "pattern": "Chief Procurement Officer", "label": "ROLE" },
+{ "pattern": "Chief Information Officer", "label": "ROLE" },
+{ "pattern": "Chief Privacy Officer", "label": "ROLE" },
+{ "pattern": "Officer for Civil Rights and Civil Liberties", "label": "ROLE" },
+{ "pattern": "Department", "label": "ORGANIZATION" },
+{ "pattern": "Inspector General", "label": "ROLE" },
+{ "pattern": "Office of the Inspector General", "label": "ORGANIZATION" },
+{ "pattern": "Director of the Office of Management and Budget", "label": "ROLE" },
+{ "pattern": "Office of Management and Budget", "label": "ORGANIZATION" },
+{ "pattern": "congressional committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_346",
+"entities": [
+{ "pattern": "Secretary of a military department", "label": "ROLE" },
+{ "pattern": "private sector", "label": "STAKEHOLDER" },
+{ "pattern": "autonomous systems", "label": "TECHNOLOGY" },
+{ "pattern": "military applications", "label": "MILITARY" },
+{ "pattern": "Service Chief", "label": "ROLE" },
+{ "pattern": "military department", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_347",
+"entities": [
+{ "pattern": "U.S. Coast Guard", "label": "ORGANIZATION" },
+{ "pattern": "unmanned vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "Commandant of the Coast Guard", "label": "ROLE" },
+{ "pattern": "sensors", "label": "TECHNOLOGY" },
+{ "pattern": "communication systems", "label": "TECHNOLOGY" },
+{ "pattern": "computer vision systems", "label": "TECHNOLOGY" },
+{ "pattern": "autonomous control technology", "label": "TECHNOLOGY" },
+{ "pattern": "unmanned search and rescue", "label": "PROGRAM" },
+{ "pattern": "surveillance", "label": "PROGRAM" },
+{ "pattern": "interdiction missions", "label": "PROGRAM" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "Coast Guard", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_348",
+"entities": [
+{ "pattern": "Department of Homeland Security", "label": "ORGANIZATION" },
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "autonomous", "label": "TECHNOLOGY" },
+{ "pattern": "remotely controlled", "label": "TECHNOLOGY" },
+{ "pattern": "Coast Guard vessels", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary", "label": "ROLE" },
+{ "pattern": "unmanned spaceflight vessels", "label": "TECHNOLOGY" },
+{ "pattern": "Committee on Commerce, Science, and Transportation of the Senate", "label": "ORGANIZATION" },
+{ "pattern": "Committee on Transportation and Infrastructure", "label": "ORGANIZATION" },
+{ "pattern": "Committee on Science, Space, and Technology of the House of Representatives", "label": "ORGANIZATION" },
+{ "pattern": "Comptroller General of the United States", "label": "ROLE" },
+{ "pattern": "Senate", "label": "ORGANIZATION" },
+{ "pattern": "House of Representatives", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_349",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Department of Defense Cyber and Digital Service Academy", "label": "PROGRAM" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "federal departments and agencies", "label": "ORGANIZATION" },
+{ "pattern": "institution of higher education", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_350",
+"entities": [
+{ "pattern": "Administrator of the National Oceanic and Atmospheric Administration", "label": "ROLE" },
+{ "pattern": "National Oceanic and Atmospheric Administration", "label": "ORGANIZATION" },
+{ "pattern": "emerging technologies", "label": "TECHNOLOGY" },
+{ "pattern": "sensors", "label": "TECHNOLOGY" },
+{ "pattern": "autonomous vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "data collection", "label": "TECHNOLOGY" },
+{ "pattern": "marine science", "label": "RESEARCH_STAGE" },
+{ "pattern": "national ocean exploration program", "label": "PROGRAM" },
+{ "pattern": "data sharing practices", "label": "POLICY" }
+]
+}
 ]

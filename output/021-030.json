@@ -2,136 +2,121 @@
 {
 "document_id": "doc_021",
 "entities": [
-{ "pattern": "National Defense Authorization Act for Fiscal Year 2020", "label": "LAW" },
-{ "pattern": "Chief Digital and Artificial Intelligence Officer", "label": "ROLE" },
-{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
-{ "pattern": "Under Secretary of Defense for Personnel and Readiness", "label": "ROLE" },
-{ "pattern": "Armed Forces", "label": "ORGANIZATION" },
-{ "pattern": "National Defense Authorization Act for Fiscal Year 2025", "label": "LAW" },
-{ "pattern": "Secretary of Defense", "label": "ROLE" },
-{ "pattern": "congressional defense committees", "label": "ORGANIZATION" },
-{ "pattern": "AI and machine learning education platforms", "label": "PROGRAM" },
-{ "pattern": "AI and machine learning", "label": "TECHNOLOGY" },
-{ "pattern": "distance education courses", "label": "PROGRAM" },
-{ "pattern": "ethical and responsible use", "label": "FAIRNESS" }
+{ "pattern": "generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "licensed health care provider", "label": "HEALTHCARE" }
 ]
 },
 {
 "document_id": "doc_022",
 "entities": [
+{ "pattern": "National Defense Authorization Act for Fiscal Year 2020", "label": "LAW" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Chief Digital and Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Under Secretary of Defense for Personnel and Readiness", "label": "ROLE" },
+{ "pattern": "Armed Forces", "label": "MILITARY" },
+{ "pattern": "National Defense Authorization Act for Fiscal Year 2025", "label": "LAW" },
 { "pattern": "Secretary of Defense", "label": "ROLE" },
-{ "pattern": "congressional defense committees", "label": "ORGANIZATION" },
-{ "pattern": "lethal autonomous weapon systems", "label": "TECHNOLOGY" },
-{ "pattern": "classified annex", "label": "DOCUMENT" }
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
 ]
 },
 {
 "document_id": "doc_023",
 "entities": [
-{ "pattern": "International Emergency Economic Powers Act", "label": "LAW" },
-{ "pattern": "Chinese entities and individuals", "label": "STAKEHOLDER" },
-{ "pattern": "Commerce", "label": "ORGANIZATION" },
-{ "pattern": "Treasury", "label": "ORGANIZATION" },
-{ "pattern": "Non-SDN Chinese Military-Industrial Complex Companies List", "label": "DOCUMENT" },
-{ "pattern": "United States", "label": "GEOGRAPHIC" },
-{ "pattern": "China", "label": "GEOGRAPHIC" },
-{ "pattern": "U.S. persons", "label": "STAKEHOLDER" },
-{ "pattern": "national security transactions", "label": "REQUIREMENT" },
-{ "pattern": "foreign persons", "label": "STAKEHOLDER" },
-{ "pattern": "sensitive technologies", "label": "TECHNOLOGY" },
-{ "pattern": "President", "label": "ROLE" },
-{ "pattern": "sanctions", "label": "PENALTY" },
-{ "pattern": "public database", "label": "DOCUMENT" }
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" },
+{ "pattern": "lethal autonomous weapon systems", "label": "TECHNOLOGY" }
 ]
 },
 {
 "document_id": "doc_024",
 "entities": [
-{ "pattern": "Assistant Secretary of Commerce", "label": "ROLE" },
-{ "pattern": "Supply Chain Resilience Working Group", "label": "PROGRAM" },
-{ "pattern": "emerging technologies", "label": "TECHNOLOGY" },
-{ "pattern": "AI", "label": "TECHNOLOGY" },
-{ "pattern": "Freedom of Information Act", "label": "LAW" },
-{ "pattern": "Congress", "label": "ORGANIZATION" },
-{ "pattern": "critical supply chains", "label": "PROGRAM" },
-{ "pattern": "national security", "label": "SAFETY" }
+{ "pattern": "International Emergency Economic Powers Act", "label": "LAW" },
+{ "pattern": "Chinese entities", "label": "STAKEHOLDER" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "Commerce", "label": "ORGANIZATION" },
+{ "pattern": "Treasury", "label": "ORGANIZATION" },
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "Non-SDN Chinese Military-Industrial Complex Companies List", "label": "DOCUMENT" },
+{ "pattern": "national security", "label": "MILITARY" }
 ]
 },
 {
 "document_id": "doc_025",
 "entities": [
 { "pattern": "Assistant Secretary of Commerce", "label": "ROLE" },
-{ "pattern": "Supply Chain Resilience Working Group", "label": "PROGRAM" },
+{ "pattern": "Supply Chain Resilience Working Group", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
 { "pattern": "Freedom of Information Act", "label": "LAW" },
-{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
-{ "pattern": "Congress", "label": "ORGANIZATION" },
-{ "pattern": "domestic production", "label": "REQUIREMENT" },
-{ "pattern": "critical supply chains", "label": "PROGRAM" },
-{ "pattern": "national security risks", "label": "SAFETY" }
+{ "pattern": "Congress", "label": "ORGANIZATION" }
 ]
 },
 {
 "document_id": "doc_026",
 "entities": [
-{ "pattern": "Department of Energy", "label": "ORGANIZATION" },
-{ "pattern": "National Pipeline Modernization Center", "label": "PROGRAM" },
-{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
-{ "pattern": "AI and machine learning models", "label": "TECHNOLOGY" },
-{ "pattern": "pipeline monitoring", "label": "PROGRAM" },
-{ "pattern": "pipeline safety", "label": "SAFETY" },
-{ "pattern": "Joint Research and Development Program", "label": "PROGRAM" },
-{ "pattern": "sensor technologies", "label": "TECHNOLOGY" },
-{ "pattern": "leak detection", "label": "TECHNOLOGY" }
+{ "pattern": "Assistant Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Supply Chain Resilience Working Group", "label": "ORGANIZATION" },
+{ "pattern": "Freedom of Information Act", "label": "LAW" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" }
 ]
 },
 {
 "document_id": "doc_027",
 "entities": [
-{ "pattern": "Director of the National Institute of Standards and Technology", "label": "ROLE" },
-{ "pattern": "Secretary of State", "label": "ROLE" },
-{ "pattern": "Congress", "label": "ORGANIZATION" },
-{ "pattern": "AI standards", "label": "STANDARD" },
-{ "pattern": "U.S. industry", "label": "STAKEHOLDER" },
-{ "pattern": "federal agencies", "label": "ORGANIZATION" },
-{ "pattern": "pilot program", "label": "PROGRAM" },
-{ "pattern": "grants", "label": "PROGRAM" },
-{ "pattern": "budget", "label": "REQUIREMENT" }
+{ "pattern": "AI-driven advancements", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Energy", "label": "ORGANIZATION" },
+{ "pattern": "National Pipeline Modernization Center", "label": "ORGANIZATION" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI-assisted pipeline technologies", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "pipeline safety", "label": "SAFETY" }
 ]
 },
 {
 "document_id": "doc_028",
 "entities": [
-{ "pattern": "LEAD for Kids Standards Board", "label": "ORGANIZATION" },
-{ "pattern": "AI systems", "label": "TECHNOLOGY" },
-{ "pattern": "California", "label": "GEOGRAPHIC" },
-{ "pattern": "Attorney General", "label": "ROLE" },
-{ "pattern": "LEAD for Kids AI Fund", "label": "PROGRAM" },
-{ "pattern": "children", "label": "STAKEHOLDER" },
-{ "pattern": "health, safety, or privacy", "label": "PRIVACY" },
-{ "pattern": "risk assessments", "label": "REQUIREMENT" },
-{ "pattern": "informed consent", "label": "REQUIREMENT" },
-{ "pattern": "chatbots", "label": "TECHNOLOGY" },
-{ "pattern": "biometric data", "label": "PERSONAL_DATA" },
-{ "pattern": "independent audits", "label": "ACCOUNTABILITY" },
-{ "pattern": "public incident reporting", "label": "TRANSPARENCY" },
-{ "pattern": "private right of action", "label": "LAW" }
+{ "pattern": "Director of the National Institute of Standards and Technology", "label": "ROLE" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "Secretary of State", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "AI standards", "label": "STANDARD" },
+{ "pattern": "U.S. industry", "label": "STAKEHOLDER" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" }
 ]
 },
 {
 "document_id": "doc_029",
 "entities": [
+{ "pattern": "LEAD for Kids Standards Board", "label": "ORGANIZATION" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "California", "label": "GEOGRAPHIC" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "LEAD for Kids AI Fund", "label": "FINANCE" },
+{ "pattern": "AI developers", "label": "STAKEHOLDER" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "children's health", "label": "HEALTHCARE" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "biometric data", "label": "SENSITIVE_DATA" }
+]
+},
+{
+"document_id": "doc_030",
+"entities": [
 { "pattern": "National Quantum Initiative Act", "label": "LAW" },
 { "pattern": "Secretary of Energy", "label": "ROLE" },
 { "pattern": "National Quantum Information Science Research Centers", "label": "ORGANIZATION" },
-{ "pattern": "quantum information science", "label": "TECHNOLOGY" },
 { "pattern": "AI", "label": "TECHNOLOGY" },
 { "pattern": "quantum computing", "label": "TECHNOLOGY" },
+{ "pattern": "quantum information science", "label": "TECHNOLOGY" },
 { "pattern": "communications", "label": "TECHNOLOGY" },
 { "pattern": "security", "label": "SAFETY" },
-{ "pattern": "high-performance computing systems", "label": "TECHNOLOGY" },
-{ "pattern": "university-led traineeship program", "label": "PROGRAM" },
 { "pattern": "Confucius Institute", "label": "ORGANIZATION" },
-{ "pattern": "foreign entities", "label": "STAKEHOLDER" },
 { "pattern": "federal agencies", "label": "ORGANIZATION" }
 ]
 }

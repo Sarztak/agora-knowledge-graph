@@ -1,7 +1,61 @@
-def prefix_zero(n, width=3):
-    n_str = str(n)
-    n_str = '0'* (width - len(n_str)) + n_str
-    return n_str 
+import pandas as pd 
+import os 
+from pathlib import Path
+import json
+from rich.traceback import install 
+import pandas as pd
+install()
+
+def map_doc_id_to_agora_id(path):
+    """Add doc_index column which maps to AGORA Document ID and return a new df. This is used to map the extracted entities to the document from which they were extracted"""
+
+    docs_df = (
+        pd.read_csv(path)
+        .rename(columns={'Long summary': 'long_summary'})
+        .dropna(subset='long_summary')
+    )
+    
+    docs_df['doc_index'] = [f"{str(i + 1).zfill(3)}" for i in range(len(docs_df))]
+    
+    return docs_df
+
+def tabulate_extracted_entities():
+    """Save the extracted entities pattern and label as a tabular data in a parquet format"""
+    docs_path = Path('./data/documents.csv')
+    docs_df = map_doc_id_to_agora_id(docs_path)
+    output = Path('output')
+    ent_label_list = []
+    for filename in os.listdir(output):
+        if not filename.endswith('.json'):
+            continue
+        try:
+            with open(output / filename, 'r', encoding='utf-8') as file:
+                docs_entities = json.load(file)
+                for ent_dict in docs_entities:
+                    doc_index = ent_dict.get('document_id').split('_')[1]
+                    entity_list = ent_dict.get('entities')
+                    ent_label_df = pd.DataFrame(entity_list)
+                    ent_label_df['doc_index'] = doc_index
+                    ent_label_list.append(ent_label_df)
+        except json.JSONDecodeError as e:
+            print(f"{e}: Something wrong with file: {filename}")
+            break
+    ent_label_df = pd.concat(ent_label_list)
+    
+    doc_idx1 = set(docs_df.doc_index.values)
+    doc_idx2 = set(ent_label_df.doc_index.values)
+    flag_idx = doc_idx1.difference(doc_idx2)
+    assert len(flag_idx) == 0 # check if all the doc index match exactly
+    ent_label_df = ent_label_df[['doc_index', 'label', 'pattern']]
+    ent_label_df = pd.merge(
+        ent_label_df,
+        docs_df[['doc_index', 'AGORA ID']],
+        on='doc_index',
+        how='left'
+    )[['doc_index', 'AGORA ID', 'label', 'pattern']]
+
+    ent_label_df.to_parquet(output / 'entity_label.parquet')
+
 
 def prompt():
     return """
@@ -142,4 +196,7 @@ NOW PROCESS THE FOLLOWING DOCUMENTS:
 """
 
 if __name__ == "__main__":
-    pass
+    
+    tabulate_extracted_entities()
+    ent_df = pd.read_parquet('./output/entity_label.parquet')
+    
