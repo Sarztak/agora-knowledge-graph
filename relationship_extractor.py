@@ -1,3 +1,5 @@
+import spacy
+
 class RelationExtractor:
     def __init__(self, nlp):
         self.nlp = nlp
@@ -70,7 +72,7 @@ class RelationExtractor:
 
 
 if __name__ == "__main__":
-    import spacy
+    
     # Example usage:
     nlp = spacy.load("en_core_web_sm")
     ruler = nlp.add_pipe("entity_ruler", before="ner")
