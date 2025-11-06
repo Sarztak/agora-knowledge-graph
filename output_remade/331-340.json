@@ -1,0 +1,492 @@
+[
+  {
+    "document_id": "doc_331",
+    "entities": [
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Air Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "pilot program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced digital technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Chief Digital and Artificial Intelligence Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Commander of the United States Transportation Command",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "United States Transportation Command",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Commander of the United States Indo-Pacific Command",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "United States Indo-Pacific Command",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Chief Digital and Artificial Intelligence Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Committees on Armed Services",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "House of Representatives",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Senate",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Title XV, Subtitle C (\"Cyberspace-Related Matters: Information Technology and Data Management\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 346 (\"Pilot program on optimization of aerial refueling and fuel management in contested logistics environments through use of artificial intelligence\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_332",
+    "entities": [
+      {
+        "pattern": "intelligent personal assistants",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Health Insurance Portability and Accountability Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "HIPAA",
+        "label": "LAW"
+      },
+      {
+        "pattern": "health information",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "intelligent personal assistant",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "natural language processing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "digital assistants",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "virtual assistants",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 346 (\"Pilot program on optimization of aerial refueling and fuel management in contested logistics environments through use of artificial intelligence\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Virginia HB 2154",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_333",
+    "entities": [
+      {
+        "pattern": "Department of Innovation and Technology Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Generative AI and Natural Language Processing Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "natural language processing software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Illinois",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "consumer information protection",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "model policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "civil rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "employment",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "General Assembly",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Virginia HB 2154",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Illinois HB 3563",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_334",
+    "entities": [
+      {
+        "pattern": "Alabama Council on Advanced Technology and Artificial Intelligence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Legislature",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Lieutenant Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Speaker of the House",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Senate President Pro Tempore",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "computer science",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "annual report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "diversity",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Illinois HB 3563",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Alabama SB 78",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_335",
+    "entities": [
+      {
+        "pattern": "information technology modernization and improvement plan",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Chief Technology Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Innovation Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "data analytics",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cloud computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "electronic forms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "digitized workflows",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cloud services",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "metrics",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "Alabama SB 78",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "New Jersey S 2723",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_336",
+    "entities": [
+      {
+        "pattern": "Data-Sharing and Data-Driven Decision-Making Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Senate",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "House of Representatives",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "statewide data-sharing system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "external consultants",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "New Jersey S 2723",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Arkansas SB 656",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_337",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "feasibility report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "cadre of experts in emerging technologies",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "emerging technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "software development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "acquisition professionals",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "plan for implementation",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Arkansas SB 656",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_338",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "strategic management dashboard",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "DoD",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data analytic capabilities",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "commercial best practices",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "data science",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 916 (\"Strategic management dashboard demonstration\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_339",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 916 (\"Strategic management dashboard demonstration\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 212 (\"Clarification of role of senior official with principal responsibility for artificial intelligence and machine learning\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_340",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Professional Military Education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "PME",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 212 (\"Clarification of role of senior official with principal responsibility for artificial intelligence and machine learning\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 557 (\"Study and report on professional military education\")",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

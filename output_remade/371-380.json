@@ -1,0 +1,616 @@
+[
+  {
+    "document_id": "doc_371",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "congressional defense committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "GPS",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomy software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "safety and security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Department policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "testing, evaluation, verification, and validation",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 126 (\"Acquisition, modernization, and sustainment plan for carrier air wings\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 246 (\"Report on autonomy integration in major weapon systems\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_372",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "traditional standards of in-person care",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "medical professional",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "automated system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "medical record",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "medical information",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 246 (\"Report on autonomy integration in major weapon systems\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An act to amend Chapter 12 of Title 31 of the Official Code of Georgia Annotated, relating to the control of hazardous conditions, preventable diseases, and metabolic disorders [...]",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_373",
+    "entities": [
+      {
+        "pattern": "Director of the Office of Management and Budget",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Office of Management and Budget",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence training program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "risks mitigation",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "trustworthy AI",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "homeland and national security",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "Director of the AI program",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "interactive learning portfolio",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "technologists",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "scholars",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "experts",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "private, public and non profit sectors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "evaluation system",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "An act to amend Chapter 12 of Title 31 of the Official Code of Georgia Annotated, relating to the control of hazardous conditions, preventable diseases, and metabolic disorders [...]",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Training for the Acquisition Workforce Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_374",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "artificial intelligence applications",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "common interfaces",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "authentication",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "governance structure",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "federal standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "community standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "Artificial Intelligence Training for the Acquisition Workforce Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Intelligence Authorization Act for Fiscal Year 2022, Section 834 (\"Plan for Artificial Intelligence Digital Ecosystem\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_375",
+    "entities": [
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Artificial Intelligence Initiative",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "interagency coordinating committee",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "external advisory committee",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "task force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National AI Research Resource",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "strategic plan",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "National Academies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Director of the National Science Foundation",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI research institutes",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "NIST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Administrator of the National Oceanic and Atmospheric Administration",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Oceanic and Atmospheric Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Center for Artificial Intelligence",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Secretary of Energy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI research and development program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "trustworthy AI",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Intelligence Authorization Act for Fiscal Year 2022, Section 834 (\"Plan for Artificial Intelligence Digital Ecosystem\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division E (\"National Artificial Intelligence Initiative Act\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_376",
+    "entities": [
+      {
+        "pattern": "department of Homeland security",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "center for countering human trafficking",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Science and Technology Directorate Office of Science and Engineering",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "CCHT Director",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "analytics",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "reliability",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "verifiability",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "comparability",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division E (\"National Artificial Intelligence Initiative Act\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Countering Human Trafficking Act of 2021, Section 4 (\"Specialized Initiatives\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_377",
+    "entities": [
+      {
+        "pattern": "Secretary of Commerce",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "US economy",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "third parties",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "bias",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "online harms",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "harmful content",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "disinformation",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "crime",
+        "label": "SECURITY_HARM"
+      },
+      {
+        "pattern": "Countering Human Trafficking Act of 2021, Section 4 (\"Specialized Initiatives\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "American Competitiveness Of a More Productive Emerging Tech Economy Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_378",
+    "entities": [
+      {
+        "pattern": "Secretary of Commerce",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Information Officer of the Department of Commerce",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Commerce",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "manufacturing.gov website",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "manufacturing.gov hub",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "the public",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "American Competitiveness Of a More Productive Emerging Tech Economy Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Consolidated Appropriations Act, 2023, Section 101 (\"Manufacturing.gov Hub\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_379",
+    "entities": [
+      {
+        "pattern": "Secretary of Health and Human Services",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "research agendas",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "infants",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "children",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "adolescents",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "mental health",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "physical health",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "Consolidated Appropriations Act, 2023, Section 101 (\"Manufacturing.gov Hub\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Health Extenders, Improving Access to Medicare, Medicaid, and CHIP, and Strengthening Public Health Act of 2022, Section 1432 (\"Research on the Health and Development Effects of Media and Related Technology on Infants, Children, and Adolescents\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_380",
+    "entities": [
+      {
+        "pattern": "Artificial Intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI Center of Excellence",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Federal Government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Federal policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Commerce",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Energy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Homeland Security",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Office of Management and Budget",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Office of the Director of National Intelligence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Director of the CoE",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Director of the AI CoE",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "civil rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "economic and national security",
+        "label": "SECURITY_HARM"
+      },
+      {
+        "pattern": "economic and national security",
+        "label": "ECONOMIC_HARM"
+      },
+      {
+        "pattern": "discriminatory impact",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "bias",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Federal nondiscrimination laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Committee on Homeland Security and Governmental Affairs",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Committee on Oversight and Reform",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Health Extenders, Improving Access to Medicare, Medicaid, and CHIP, and Strengthening Public Health Act of 2022, Section 1432 (\"Research on the Health and Development Effects of Media and Related Technology on Infants, Children, and Adolescents\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI in Government Act of 2020",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

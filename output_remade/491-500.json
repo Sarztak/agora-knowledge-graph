@@ -1,0 +1,476 @@
+[
+  {
+    "document_id": "doc_491",
+    "entities": [
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "deep synthesis systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "biometric information",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "national security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "social order",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "cybersecurity attributes",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "relevant authorities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "OpenAI Charter",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Provisions on the Administration of Deep Synthesis Internet Information Services",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_492",
+    "entities": [
+      {
+        "pattern": "People's Republic of China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "People's Liberation Army",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "Taiwan",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Chinese officials",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "International Emergency Economic Powers Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "U.S. financial institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chinese government-controlled entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Provisions on the Administration of Deep Synthesis Internet Information Services",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "STAND with Taiwan Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_493",
+    "entities": [
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "trustworthy AI",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "explainability",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "privacy enhancement",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "AI risk management framework",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "GOVERN",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "MAP",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "MEASURE",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "MANAGE",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "STAND with Taiwan Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "NIST AI Risk Management Framework 1.0",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_494",
+    "entities": [
+      {
+        "pattern": "Chief Data and Artificial Intelligence Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "bug bounty program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI products",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "congressional defense committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NIST AI Risk Management Framework 1.0",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Bug Bounty Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_495",
+    "entities": [
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Federal Trade Commission Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "working group",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-generated content detection standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "report to Congress",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "framework",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Artificial Intelligence Bug Bounty Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI Labeling Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_496",
+    "entities": [
+      {
+        "pattern": "high-risk AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "training data",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "Colorado Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "DISCRIMINATION_HARM"
+      },
+      {
+        "pattern": "personal data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "Colorado AI Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "rulemaking",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "AI Labeling Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An Act concerning consumer protections in interactions with artificial intelligence systems.",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_497",
+    "entities": [
+      {
+        "pattern": "Microsoft",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Impact Assessments",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Privacy, Security, and Accessibility Standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "automation bias",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "reliability",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "An Act concerning consumer protections in interactions with artificial intelligence systems.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Microsoft Responsible AI Standard, v2",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_498",
+    "entities": [
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "impact assessments",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "automated decision systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "employment",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "consumer protection",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Bureau of Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "FTC Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Microsoft Responsible AI Standard, v2",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Algorithmic Accountability Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_499",
+    "entities": [
+      {
+        "pattern": "large online platforms",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "content moderation",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "state attorneys general",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Advisory Group on Language-Sensitive Technologies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "language-based technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "USAID",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "misinformation",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "Algorithmic Accountability Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "LISTOS Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_500",
+    "entities": [
+      {
+        "pattern": "Secretary of Agriculture",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Federal Communications Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "precision agriculture",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced wireless technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Comptroller General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congressional committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "LISTOS Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Promoting Precision Agriculture Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

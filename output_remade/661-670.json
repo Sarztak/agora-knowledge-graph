@@ -1,0 +1,420 @@
+[
+  {
+    "document_id": "doc_661",
+    "entities": [
+      {
+        "pattern": "Secretary of Homeland Security",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "CBP Innovation Teams",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "DHS",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Science and Technology Directorate",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "border security operations",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Modernizing Retrospective Regulatory Review",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Emerging Innovative Border Technologies Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_662",
+    "entities": [
+      {
+        "pattern": "Commission of Experts on Child Exploitation and Artificial Intelligence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "law enforcement",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "Emerging Innovative Border Technologies Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Child Exploitation and Artificial Intelligence Expert Commission Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_663",
+    "entities": [
+      {
+        "pattern": "Export Control Reform Act of 2018",
+        "label": "LAW"
+      },
+      {
+        "pattern": "National Artificial Intelligence Initiative Act of 2020",
+        "label": "LAW"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "International Emergency Economic Powers Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Child Exploitation and Artificial Intelligence Expert Commission Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "ENFORCE Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_664",
+    "entities": [
+      {
+        "pattern": "Register of Copyrights",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "generative AI system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "public database",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "civil penalty",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "copyrighted works",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "ENFORCE Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Generative AI Copyright Disclosure Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_665",
+    "entities": [
+      {
+        "pattern": "machine-manipulated media",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "civil actions",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "attorney fees",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "court documents",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Generative AI Copyright Disclosure Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "CONSENT Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_666",
+    "entities": [
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NIST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "pilot program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "CONSENT Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Promoting United States Leadership in Standards Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_667",
+    "entities": [
+      {
+        "pattern": "Director of the National Institute of Standards and Technology",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NIST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Vulnerability Database",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Cybersecurity and Infrastructure Security Agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "CISA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Common Vulnerabilities and Exposures Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Artificial Intelligence Security Center",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NSA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "counter-AI techniques",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Promoting United States Leadership in Standards Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Secure Artificial Intelligence Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_668",
+    "entities": [
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Director of the Office of Management and Budget",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Office of Management and Budget",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "national security",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "classified annex",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Secure Artificial Intelligence Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "American Economic Independence Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_669",
+    "entities": [
+      {
+        "pattern": "E-Government Act of 2002",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Office of Management and Budget",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "OMB",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Government Accountability Office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "GAO",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "mass and computer-generated comments",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "electronic comments",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "technology tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "regulatory review process",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "American Economic Independence Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Comment Integrity and Management Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_670",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Under Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Inspector General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "General Fund of the Treasury",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Senate and House Committees on Armed Services",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Comment Integrity and Management Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Department of Defense Financial Audits Using Artificial Intelligence Act",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

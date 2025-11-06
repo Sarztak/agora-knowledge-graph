@@ -1,0 +1,520 @@
+[
+  {
+    "document_id": "doc_111",
+    "entities": [
+      {
+        "pattern": "Comptroller General of the United States",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "wearable medical devices",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "clinical decision-making",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "policy options",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Bipartisan Health Care Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_112",
+    "entities": [
+      {
+        "pattern": "San José",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "City",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Chief Information Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "CIO",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "City Information Security Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "CISO",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "City Digital Privacy Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "CDPO",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI Handbook",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "governance framework",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "biometric identification",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "emotion analysis",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "social scoring",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cognitive manipulation",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "transparency policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "equity",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "City of San Jose Artificial Intelligence Policy 1.7.12",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_113",
+    "entities": [
+      {
+        "pattern": "California",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "civil rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "California Consumer Privacy Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI legislation",
+        "label": "LAW"
+      },
+      {
+        "pattern": "consumer protection",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "competition",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "data privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "antitrust violations",
+        "label": "LAW"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "deepfake technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "child pornography",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "licensed physicians",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "California Attorney General’s Legal Advisory on the Application of Existing California Laws to Artificial Intelligence",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_114",
+    "entities": [
+      {
+        "pattern": "Frontier AI Framework",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Meta",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "chemical/biological risks",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "post-release monitoring",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "AI communities",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "risk mitigation measures",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Meta Frontier AI Framework (Version 1.1)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_115",
+    "entities": [
+      {
+        "pattern": "15 CFR part 702",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "BIS",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI red-teaming",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "dual-use foundation models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "computing clusters",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "security measures",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "model performance",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "AI red-team testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "notification deadlines",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Establishment of Reporting Requirements for the Development of Advanced Artificial Intelligence Models and Computing Clusters ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_116",
+    "entities": [
+      {
+        "pattern": "Preventing Algorithmic Discrimination Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Illinois",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "AI tool",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Consumer Fraud and Deceptive Business Practices Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "impact assessments",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "governance programs",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "technical safeguards",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "civil actions",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "Illinois SB2203",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_117",
+    "entities": [
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NIST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Vulnerability Database",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "AI security vulnerabilities",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "multi-stakeholder process",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "AI incident reporting",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "AI incident tracking",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI Incident Reporting and Security Enhancement Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_118",
+    "entities": [
+      {
+        "pattern": "Digital Equity Act of 2021",
+        "label": "LAW"
+      },
+      {
+        "pattern": "artificial intelligence literacy",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI literacy",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI learning labs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "virtual platforms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "educational tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "community anchor institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI education and training programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Artificial Intelligence Literacy Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_119",
+    "entities": [
+      {
+        "pattern": "Federal Election Campaign Act of 1971",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Federal Election Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "FEC",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "disclaimers",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "political advertisements",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "disclosure statement",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI Transparency in Elections Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_120",
+    "entities": [
+      {
+        "pattern": "Commissioner of Insurance",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "insurers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "predictive models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "consumer data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "rule adoption",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "risk management frameworks",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "title insurance",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "high-premium commercial insurance policies",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "unfair discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Colorado SB21-169",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

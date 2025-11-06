@@ -1,0 +1,532 @@
+[
+  {
+    "document_id": "doc_161",
+    "entities": [
+      {
+        "pattern": "Governor’s Task Force on Generative Artificial Intelligence",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "GenAI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Alabama",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Office of Information Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "secure cloud infrastructure",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "state government",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "state executive-branch agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "governance framework",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Alabama Executive Order No. 738",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_162",
+    "entities": [
+      {
+        "pattern": "North Dakota",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "NDIT",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Security Risk Management Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI/ML services",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI technology inventory",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "data protection laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "ethical AI use",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "legal standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "copyright",
+        "label": "LAW"
+      },
+      {
+        "pattern": "licensing agreements",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "State of North Dakota Artificial Intelligence Policy",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_163",
+    "entities": [
+      {
+        "pattern": "North Carolina",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "State Government Responsible Use of Artificial Intelligence Framework",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "NIST AI RMF",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "state offices",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "data privacy controls",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "AI inventory",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "risk assessments",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "ethical AI application",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "human-centered AI",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "security measures",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "monitoring",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "North Carolina State Government Responsible Use of Artificial Intelligence Framework",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_164",
+    "entities": [
+      {
+        "pattern": "New Hampshire",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Personal Identifying Information",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "PII",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "Statewide Information Security Manual",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "NIST-800-53",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI ethics code",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "cybersecurity measures",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "deepfakes",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Agency heads",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Business Relationship Management Division",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "State of New Hampshire Use of Artificial Intelligence Technologies Policy",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_165",
+    "entities": [
+      {
+        "pattern": "Artificial Intelligence Task Force",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Chief Technology Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Innovation Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Executive Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Economic Development Authority",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Legislature",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "executive branch",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "New Jersey Executive Order No. 346 ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_166",
+    "entities": [
+      {
+        "pattern": "Rhode Island",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Department of Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Chief Data Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Data Center of Excellence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI Center of Excellence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI policies and ethics",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI Task Force",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Department of Labor and Training",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Rhode Island Department of Education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Office of Post Secondary Commissioner",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI training programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "federated data platform",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Rhode Island Executive Order 24-06",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_167",
+    "entities": [
+      {
+        "pattern": "Mississippi",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Artificial Intelligence in Education Task Force",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "State Superintendent of Education",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Lieutenant Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Speaker of the House",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "data privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "policy recommendations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "final report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Mississippi Senate Bill 2062",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_168",
+    "entities": [
+      {
+        "pattern": "California",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "healthcare entities",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "health insurance claims",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "reproductive and genetic data",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "Unfair Competition Law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Unruh Civil Rights Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Confidentiality of Medical Information Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "informed consent",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "discriminate against patients",
+        "label": "DISCRIMINATION_HARM"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "auditing",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "data privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "training data",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "Legal Advisory on the Application of Existing California Law to Artificial Intelligence in Healthcare (California Attorney General)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_169",
+    "entities": [
+      {
+        "pattern": "New York",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Artificial Intelligence Consumer Protection Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI decision systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "DISCRIMINATION_HARM"
+      },
+      {
+        "pattern": "risk assessments",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "risk management program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "attorney general",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "federal law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "trade secrets",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "New York 2025-A768",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_170",
+    "entities": [
+      {
+        "pattern": "Chief AI Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "CAIO",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI strategies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI-related risks",
+        "label": "RISK_CATEGORIES"
+      },
+      {
+        "pattern": "risk management practices",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "public rights and safety",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "IT infrastructure",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

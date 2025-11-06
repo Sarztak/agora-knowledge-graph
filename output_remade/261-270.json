@@ -1,0 +1,380 @@
+[
+  {
+    "document_id": "doc_261",
+    "entities": [
+      {
+        "pattern": "law enforcement",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "crime victims notification system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "citizens",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Google DeepMind Frontier Safety Framework Version 1.0",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An Act Providing for Transferring and Renumbering; Amending Section 41-2414, Arizona Revised Statutes, as Transferred and Renumbered; Relating to Crime Victims",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_262",
+    "entities": [
+      {
+        "pattern": "Commandant of the Coast Guard",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Coast Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "strategic plan",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "An Act Providing for Transferring and Renumbering; Amending Section 41-2414, Arizona Revised Statutes, as Transferred and Renumbered; Relating to Crime Victims",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11226 (\"Artificial intelligence strategy\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_263",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11226 (\"Artificial intelligence strategy\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 226 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_264",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Joint Common Foundation Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI companies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cybersecurity processes",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 226 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 227 (\"Modification of the joint common foundation program\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_265",
+    "entities": [
+      {
+        "pattern": "Commander of the United States Cyber Command",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Information Officer of the Department of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "cyber operations",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI system operator",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI-based attacks",
+        "label": "SAFETY_HARM"
+      },
+      {
+        "pattern": "maturity model",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 227 (\"Modification of the joint common foundation program\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1554 (\"Roadmap and implementation plan for cyber adoption of artificial intelligence\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_266",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI-related information technology infrastructure",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "plan working group",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "DOD",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI application domains",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1554 (\"Roadmap and implementation plan for cyber adoption of artificial intelligence\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 1531 (\"Digital development infrastructure plan and working group\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_267",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "emerging technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "education, recruitment, and retention programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "skills-based training",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "educational programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 1531 (\"Digital development infrastructure plan and working group\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6723 (\"Requirements and report on workforce needs of intelligence community relating to science, technology, engineering, and math, and related areas\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_268",
+    "entities": [
+      {
+        "pattern": "automated employment decision tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "employment decision making",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "New York City",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "bias audits",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "independent auditors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "job candidates",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "city corporation counsel",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6723 (\"Requirements and report on workforce needs of intelligence community relating to science, technology, engineering, and math, and related areas\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "A Local Law to amend the administrative code of the city of New York, in relation to automated employment decision tools",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_269",
+    "entities": [
+      {
+        "pattern": "Deputy Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "DOD",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI applications",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "government operational environments",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "AI expertise",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "A Local Law to amend the administrative code of the city of New York, in relation to automated employment decision tools",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1513 (\"Establishing projects for data management, artificial intelligence, and digital solutions\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_270",
+    "entities": [
+      {
+        "pattern": "Section 41001(6)(A)",
+        "label": "LAW"
+      },
+      {
+        "pattern": "FAST Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "semiconductors",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "FAST Act permitting program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1513 (\"Establishing projects for data management, artificial intelligence, and digital solutions\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An act to include certain computer-related projects in the Federal permitting program under title XLI of the FAST Act, and for other purposes",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

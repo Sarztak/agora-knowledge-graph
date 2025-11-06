@@ -1,0 +1,580 @@
+[
+  {
+    "document_id": "doc_621",
+    "entities": [
+      {
+        "pattern": "Administrator of the Office of Electronic Government",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "CIA Director",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Federal Government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Weather Information for Agriculture Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 758 (\"Implementation of Technology for Classification and Declassification\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_622",
+    "entities": [
+      {
+        "pattern": "Assistant Secretary of Commerce for Communications and Information",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "electromagnetic spectrum management",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "radio frequency emissions",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced antenna arrays",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "dynamic spectrum access",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "communications technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "optical and quantum communications",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Telecommunications and Information Administration Organization Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 758 (\"Implementation of Technology for Classification and Declassification\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Novel, Advanced Spectrum and Communications Technology Networks Promotion Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_623",
+    "entities": [
+      {
+        "pattern": "Committee on National Critical Capabilities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Russia",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "North Korea",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Novel, Advanced Spectrum and Communications Technology Networks Promotion Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Critical Capabilities Defense Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_624",
+    "entities": [
+      {
+        "pattern": "Secretary of Health and Human Services",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Academies of Sciences, Engineering, and Medicine",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "maternity care",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "maternal health care",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "patient monitoring devices",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "pulse oximeters",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "racial or ethnic biases",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security safeguards",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Critical Capabilities Defense Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Black Maternal Health Omnibus Act, Sec. 904 (Report on the Use of Technology in Maternity Care)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_625",
+    "entities": [
+      {
+        "pattern": "wildfire technology testbed pilot program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Secretaries of Agriculture and the Interior",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "interagency coordinating group on wildfires",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "hazardous fuels reduction",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "dispatch communications",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "remote sensing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "safety equipment",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "operational dashboards",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "quantum sensing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "augmented reality",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced communications",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Black Maternal Health Omnibus Act, Sec. 904 (Report on the Use of Technology in Maternity Care)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Wildfire Technology Demonstration, Evaluation, Modernization, and Optimization Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_626",
+    "entities": [
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "FTC",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "privacy notices",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "data minimization",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "opt-out",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "affirmative consent",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "privacy protection officers",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "privacy policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "personal data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "data collection",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "Wildfire Technology Demonstration, Evaluation, Modernization, and Optimization Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "DATA Privacy Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_627",
+    "entities": [
+      {
+        "pattern": "Value-Based Insurance Design Model",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "VBID",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Medicare",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Medicare Advantage",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "MA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "adaptive AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "telehealth consultations",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "Medicaid programs",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "grant program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "DATA Privacy Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Advanced Safe Testing at Residence Telehealth Act of 2023, Sec. 2 (\"Coverage and Payment for Certain Tests and Assistive Telehealth Consultations; Demonstration Program Under Certain State Medicaid Programs\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_628",
+    "entities": [
+      {
+        "pattern": "National Quantum Initiative Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Secretary of Energy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "quantum information science",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "engineering",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "technology research program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "National Quantum Information Science Research Centers",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Laboratories",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "quantum communications",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "quantum high-performance computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "energy sector",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Advanced Safe Testing at Residence Telehealth Act of 2023, Sec. 2 (\"Coverage and Payment for Certain Tests and Assistive Telehealth Consultations; Demonstration Program Under Certain State Medicaid Programs\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Quantum Initiative Reauthorization Act, Sec. 16 (\"Department of Energy Quantum Information Science Research Program\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_629",
+    "entities": [
+      {
+        "pattern": "Under Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "spectrum management",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "dynamic spectrum access",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Internet of Things networks",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "communications technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Telecommunications and Information Administration Organization Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "optical and quantum communications",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced communications technology prototyping",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Quantum Initiative Reauthorization Act, Sec. 16 (\"Department of Energy Quantum Information Science Research Program\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "NTIA Reauthorization Act of 2023, Sec. 203 (\"Spectrum management improvements\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_630",
+    "entities": [
+      {
+        "pattern": "People's Republic of China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "biotechnology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "next-generation energy technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI acquisition",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI model performance",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "continuous monitoring",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "synthetic data",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "AI training",
+        "label": "TRAINING_STAGE"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "information security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "biosecurity risks",
+        "label": "SAFETY_HARM"
+      },
+      {
+        "pattern": "foreign malign influence",
+        "label": "MISUSE_RISK"
+      },
+      {
+        "pattern": "Federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI risks",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "NTIA Reauthorization Act of 2023, Sec. 203 (\"Spectrum management improvements\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Title V (\"Matters Pertaining to United States Economic and Emerging Technology Competition with United States Adversaries\"), Subtitle B (\"Next Generation Energy, Biotechnology, and Artificial Intelligence\")",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

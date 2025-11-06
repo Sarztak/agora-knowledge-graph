@@ -1,0 +1,556 @@
+[
+  {
+    "document_id": "doc_861",
+    "entities": [
+      {
+        "pattern": "automated decision tool",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "employment",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "financial services",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "criminal justice",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "government benefits",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Civil Rights Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "impact assessment",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "training data",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "monitoring",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "civil action",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "fines",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "National Artificial Intelligence Research and Development Strategic Plan 2023 Update",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An act to add Chapter 25 (commencing with Section 22756) to Division 8 of the Business and Professions Code, relating to artificial intelligence.",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_862",
+    "entities": [
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "ethical requirements",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "R&D",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "An act to add Chapter 25 (commencing with Section 22756) to Division 8 of the Business and Professions Code, relating to artificial intelligence.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Ethical Norms for the New Generation Artificial Intelligence",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_863",
+    "entities": [
+      {
+        "pattern": "U.S.-EU Joint Roadmap",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "trustworthy AI",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "EU AI Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "U.S. AI Bill of Rights",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "international technical standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "AI governance",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "AI trustworthiness",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Ethical Norms for the New Generation Artificial Intelligence",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "TTC Joint Roadmap on Evaluation and Measurement Tools for Trustworthy AI and Risk Management ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_864",
+    "entities": [
+      {
+        "pattern": "AI security standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "AI security standardization",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI products",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "universities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "research institutes",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "enterprises",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "early warning mechanism",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "AI supply chain security management",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "index evaluation system",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "TTC Joint Roadmap on Evaluation and Measurement Tools for Trustworthy AI and Risk Management ",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Security Standardization White Paper, Section 5 (\"Recommendations for AI security standardization work\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_865",
+    "entities": [
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI use",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "data sharing",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "compute resources",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "algorithmic innovation",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "intellectual property laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "privacy rights",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "AI governance",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "public interest litigation",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "administrative penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Artificial Intelligence Security Standardization White Paper, Section 5 (\"Recommendations for AI security standardization work\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Law of the People’s Republic of China (Draft for Suggestions from Scholars)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_866",
+    "entities": [
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "general-purpose AI models",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "European Commission’s AI Office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "EU",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI developers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI deployers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "high-risk systems",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "free and open-source AI systems",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "advisory boards",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "national-level authorities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Artificial Intelligence Law of the People’s Republic of China (Draft for Suggestions from Scholars)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_867",
+    "entities": [
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "autonomous weapons systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "semi-autonomous weapons systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "armed platforms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "testing and evaluation",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "weapons systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "humans",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "guidelines",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Department of Defense Directive 3000.09 (\"Autonomy in weapon systems\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_868",
+    "entities": [
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "generative AI services",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "AI-generated content",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "intellectual property",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "personal information",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "AI technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "information security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "service agreements",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "complaint mechanisms",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "security assessments",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "foreign investment compliance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Department of Defense Directive 3000.09 (\"Autonomy in weapon systems\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Interim Measures for the Management of Generative Artificial Intelligence Services",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_869",
+    "entities": [
+      {
+        "pattern": "AI governance",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI misuse",
+        "label": "MISUSE_RISK"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "data security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "accountability mechanisms",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "ethical principles",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "UN",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "international AI governing institution",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Interim Measures for the Management of Generative Artificial Intelligence Services",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Global AI Governance Initiative",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_870",
+    "entities": [
+      {
+        "pattern": "European Artificial Intelligence Office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Directorate-General for Communication Networks, Content and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Regulation on AI",
+        "label": "LAW"
+      },
+      {
+        "pattern": "general-purpose AI models",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "AI developers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI regulations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Digital Europe Programme",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "EU",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Global AI Governance Initiative",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Commission Decision Establishing the European AI Office",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

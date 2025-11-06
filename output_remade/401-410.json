@@ -1,0 +1,432 @@
+[
+  {
+    "document_id": "doc_401",
+    "entities": [
+      {
+        "pattern": "radiological computer-assisted diagnostic software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "image analysis algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "performance testing protocols",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "software documentation",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "cybersecurity features",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "hazard analysis",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "software design specs",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "traceability analysis",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "imaging hardware",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "imaging protocols",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "reading protocol",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "21 CFR § 870.2790 (\"Photoplethysmograph analysis software for over-the-counter use\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 892.2060 (\"Radiological computer-assisted diagnostic software for lesions suspicious of cancer\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_402",
+    "entities": [
+      {
+        "pattern": "predictive cardiovascular indicators",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "risk assessment",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "algorithm calculations",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "independent data set",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "human factors and usability engineering assessment",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "clinical data assessment",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "21 CFR § 892.2060 (\"Radiological computer-assisted diagnostic software for lesions suspicious of cancer\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 870.2210 (\"Adjunctive predictive cardiovascular indicator\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_403",
+    "entities": [
+      {
+        "pattern": "software algorithm device",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "digital pathology",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "Food and Drug Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "risk management plan",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "cybersecurity risks",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "product labeling",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "performance assessments",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "21 CFR § 870.2210 (\"Adjunctive predictive cardiovascular indicator\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 864.3750 (\"Software algorithm device to assist users in digital pathology\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_404",
+    "entities": [
+      {
+        "pattern": "electrocardiograph software devices",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "detection algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "hazard analysis",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "clinical performance testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "previously adjudicated data set",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "human factors and usability testing",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "21 CFR § 864.3750 (\"Software algorithm device to assist users in digital pathology\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 870.2345 (\"Electrocardiograph software for over-the-counter use\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_405",
+    "entities": [
+      {
+        "pattern": "hemodynamic indicator with decision point",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Food & Drug Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "risk assessment",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "clinical data",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "independent dataset",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "usability assessment",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "21 CFR § 870.2345 (\"Electrocardiograph software for over-the-counter use\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 864.3750 (\"Adjunctive hemodynamic indicator with decision point\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_406",
+    "entities": [
+      {
+        "pattern": "Consumer Financial Protection Act of 2010",
+        "label": "LAW"
+      },
+      {
+        "pattern": "digital marketing providers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "algorithmic models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "analytics",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "service provider",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "CFPA",
+        "label": "LAW"
+      },
+      {
+        "pattern": "advertisements",
+        "label": "CONSUMER"
+      },
+      {
+        "pattern": "content strategy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "21 CFR § 864.3750 (\"Adjunctive hemodynamic indicator with decision point\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Limited Applicability of Consumer Financial Protection Act's “Time or Space” Exception With Respect to Digital Marketing Providers",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_407",
+    "entities": [
+      {
+        "pattern": "Cognoa ASD Diagnosis Aid",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine-learning software program",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Autism Spectrum Disorder",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "Food and Drug Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "clinical performance testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "hazard analysis",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "cybersecurity assessment",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "usability assessment",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "product labeling",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Limited Applicability of Consumer Financial Protection Act's “Time or Space” Exception With Respect to Digital Marketing Providers",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 882.1491 (\"Pediatric Autism Spectrum Disorder diagnosis aid\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_408",
+    "entities": [
+      {
+        "pattern": "algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "coronary artery disease risk indicators",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "algorithm calculations",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "independent data set",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "21 CFR § 882.1491 (\"Pediatric Autism Spectrum Disorder diagnosis aid\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 870.1420 (\"Coronary artery disease risk indicator using acoustic heart signals\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_409",
+    "entities": [
+      {
+        "pattern": "image analysis algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "medical image analyzers",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "performance testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "hazard analysis",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "software specs",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "traceability analysis",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "21 CFR § 870.1420 (\"Coronary artery disease risk indicator using acoustic heart signals\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 892.2070 (\"Medical image analyzer\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_410",
+    "entities": [
+      {
+        "pattern": "Oxehealth Vital Signs device",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Food and Drug Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cybersecurity vulnerability and management process",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "hazard analysis",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "risk assessment",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "clinical data",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "human factors and usability engineering assessment",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "product labeling",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "21 CFR § 892.2070 (\"Medical image analyzer\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 870.2785 (\"Software for optical camera-based measurement of pulse rate, heart rate, breathing rate, and/or respiratory rate\")",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

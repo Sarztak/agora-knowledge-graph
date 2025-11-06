@@ -1,0 +1,480 @@
+[
+  {
+    "document_id": "doc_271",
+    "entities": [
+      {
+        "pattern": "Commandant of the Coast Guard",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Coast Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "military personnel",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "An act to include certain computer-related projects in the Federal permitting program under title XLI of the FAST Act, and for other purposes",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11227 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_272",
+    "entities": [
+      {
+        "pattern": "administrator of general services",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Information Technology Modernization Centers of Excellence Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "executive agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Artificial Intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cloud computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Information Technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "consumer interactions",
+        "label": "CONSUMER"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11227 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Information Technology Modernization Centers of Excellence Program Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_273",
+    "entities": [
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Office of Science and Technology Policy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "engineering biology",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "omics data",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "genomics",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "Information Technology Modernization Centers of Excellence Program Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Research and Development, Competition, and Innovation Act, Title IV, Section 10402 (\"National engineering biology research and development initiative\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_274",
+    "entities": [
+      {
+        "pattern": "Director of the National Science Foundation",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Director of the National Institute of Standards and Technology",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "measurements and standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "generative adversarial networks",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "policy recommendations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Research and Development, Competition, and Innovation Act, Title IV, Section 10402 (\"National engineering biology research and development initiative\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Identifying Outputs of Generative Adversarial Networks Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_275",
+    "entities": [
+      {
+        "pattern": "Hydrologic Research Fellowship Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "NOAA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine-learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "hydrologic modeling",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Identifying Outputs of Generative Adversarial Networks Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Flood Level Observation, Operations, and Decision Support Act, Section 14 (\"National Weather Service hydrologic research fellowship program\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_276",
+    "entities": [
+      {
+        "pattern": "gastrointestinal lesion software detection systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "clinical and non-clinical performance tests",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "reliability",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "use instructions",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "warnings",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "summaries of testing",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Flood Level Observation, Operations, and Decision Support Act, Section 14 (\"National Weather Service hydrologic research fellowship program\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "21 CFR § 876.1520 (\"Gastrointestinal lesion software detection system\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_277",
+    "entities": [
+      {
+        "pattern": "Secretary of Energy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "smart manufacturing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "performance standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "manufacturing jobs",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "21 CFR § 876.1520 (\"Gastrointestinal lesion software detection system\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Energy Act of 2020, Title VI, Section 6006 (\"Development of National Smart Manufacturing Plan\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_278",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI technology development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "DoD procurement",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "repositories",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Energy Act of 2020, Title VI, Section 6006 (\"Development of National Smart Manufacturing Plan\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 232 (\"Pilot program on data repositories to facilitate the development of artificial intelligence capabilities for the Department of Defense\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_279",
+    "entities": [
+      {
+        "pattern": "federal government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "biological risks",
+        "label": "SAFETY_HARM"
+      },
+      {
+        "pattern": "cybersecurity risks",
+        "label": "SECURITY_HARM"
+      },
+      {
+        "pattern": "deceptive content risks",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "National Security Memorandum",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "privacy-preserving research",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "commercially available information",
+        "label": "PUBLIC_DATA"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "DISCRIMINATION_HARM"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "transportation",
+        "label": "TRANSPORTATION"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "communications networks",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "labor-market impacts",
+        "label": "ECONOMIC_HARM"
+      },
+      {
+        "pattern": "workers",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "immigration of AI talent",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "National AI Research Resource",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "small businesses",
+        "label": "CONSUMER"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "international standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "critical infrastructure",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "agency use of AI",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "AI professionals",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 232 (\"Pilot program on data repositories to facilitate the development of artificial intelligence capabilities for the Department of Defense\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_280",
+    "entities": [
+      {
+        "pattern": "employers",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "video interviews",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Illinois Department of Commerce and Economic Opportunity",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "General Assembly",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "racial bias",
+        "label": "DISCRIMINATION_HARM"
+      },
+      {
+        "pattern": "Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Illinois HB53 2021",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

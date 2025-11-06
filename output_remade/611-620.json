@@ -1,0 +1,516 @@
+[
+  {
+    "document_id": "doc_611",
+    "entities": [
+      {
+        "pattern": "Public Health Service Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "health care entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Consumer Financial Protection Bureau",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "public database",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "medical debt collection",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "assistance programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "language assistance services",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "patients",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "STOP HATE Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Strengthening Consumer Protections and Medical Debt Transparency Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_612",
+    "entities": [
+      {
+        "pattern": "White House Task Force on Workplace Surveillance and Technologies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "workplace surveillance",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "automated decision systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "workers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "employers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "vulnerable populations",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Strengthening Consumer Protections and Medical Debt Transparency Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Exploitative Workplace Surveillance and Technologies Task Force Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_613",
+    "entities": [
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-powered products and services",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "blacklist of national security threats",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "contractors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "conflict of interest",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Exploitative Workplace Surveillance and Technologies Task Force Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "CONSULT Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_614",
+    "entities": [
+      {
+        "pattern": "U.S. persons",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "critical technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "national security threats",
+        "label": "SECURITY_HARM"
+      },
+      {
+        "pattern": "congressional notification",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "CONSULT Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Preventing Adversaries from Developing Critical Capabilities Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_615",
+    "entities": [
+      {
+        "pattern": "Department of State",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Chief Artificial Intelligence Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Data Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Senior Executive Service",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Information Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced analytics",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2019",
+        "label": "LAW"
+      },
+      {
+        "pattern": "diplomacy",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Preventing Adversaries from Developing Critical Capabilities Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Department of State Authorization Act of 2023, Sec. 304 (\"Establishment of the Chief Artificial Intelligence Officer of the Department of State\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_616",
+    "entities": [
+      {
+        "pattern": "Federal Water Pollution Control Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Safe Drinking Water Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Environmental Protection Agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "EPA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "smart water infrastructure technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "intelligent wastewater treatment systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "smart drinking water systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "rural communities",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Tribal communities",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of State Authorization Act of 2023, Sec. 304 (\"Establishment of the Chief Artificial Intelligence Officer of the Department of State\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Water Infrastructure Modernization Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_617",
+    "entities": [
+      {
+        "pattern": "National Academy of Sciences",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "grant program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "Director of the National Academy of Sciences",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congressional committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "budget",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "appropriation request",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "ethical considerations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Water Infrastructure Modernization Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Ensuring Safe and Ethical AI Development Through SAFE AI Research Grants",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_618",
+    "entities": [
+      {
+        "pattern": "Department of Energy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "DOE",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NASA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data analytics",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "predictive analysis",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "memoranda of understanding",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "high-performance computing systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Laboratories",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "research security laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "merit-review processes",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Ensuring Safe and Ethical AI Development Through SAFE AI Research Grants",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "DOE and NASA Interagency Research Coordination Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_619",
+    "entities": [
+      {
+        "pattern": "Commandant",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Coast Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "unmanned systems capabilities office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Homeland Security",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "unmanned system technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "counter-unmanned system technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "information-sharing capabilities",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data ecosystem",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "concept of operations",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "cross-agency collaboration plan",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "DOE and NASA Interagency Research Coordination Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Coast Guard Authorization Act of 2023, Sec. 212 (\"Report on Establishment of an Unmanned Systems Capabilities Office\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_620",
+    "entities": [
+      {
+        "pattern": "National Integrated Drought Information System",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cloud technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Mesonet Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Climate Prediction Center",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Coordinated Soil Moisture Monitoring Network",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "user-friendly website",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "citizen science community",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Coast Guard Authorization Act of 2023, Sec. 212 (\"Report on Establishment of an Unmanned Systems Capabilities Office\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Weather Information for Agriculture Act",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

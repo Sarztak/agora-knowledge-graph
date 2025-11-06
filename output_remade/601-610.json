@@ -1,0 +1,504 @@
+[
+  {
+    "document_id": "doc_601",
+    "entities": [
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "microreactors",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "FEMA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "DOE",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Army Corps of Engineers",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Nuclear Regulatory Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "predictive tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Promoting Digital Privacy Technologies Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_602",
+    "entities": [
+      {
+        "pattern": "Countering AI-Enabled Disinformation Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-enabled disinformation",
+        "label": "MISUSE_RISK"
+      },
+      {
+        "pattern": "private industry",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "academia",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "digital content provenance detection techniques",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "standards and frameworks",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "digital content provenance",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Department of State Authorization Act of 2023, Sec. 303 (\"Task force to address artificial intelligence-enabled influence operations\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_603",
+    "entities": [
+      {
+        "pattern": "NIH",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Center for Alternatives to Animals in Research and Testing",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "researchers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "research proposals",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "nonanimal methods",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federally funded research entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of State Authorization Act of 2023, Sec. 303 (\"Task force to address artificial intelligence-enabled influence operations\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "HEARTS Act of 2022",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_604",
+    "entities": [
+      {
+        "pattern": "Tech Industry Diversity, Equity, Inclusion, and Accessibility Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Commerce",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "stakeholders",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "DEIA",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "HEARTS Act of 2022",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Diversify Tech Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_605",
+    "entities": [
+      {
+        "pattern": "Secretary of Energy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "research, development, and demonstration program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "electric vehicle integration",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "critical material recycling",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced batteries",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "power electronics",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "electric drive systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "vehicle electrification technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "physical security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "electric grid",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Graduate Automotive Technology Education Centers of Research Excellence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Diversify Tech Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Shifting Forward Vehicle Technologies Research and Development Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_606",
+    "entities": [
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AUKUS partnership",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Australia",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomy",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced cyber capabilities",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "hypersonic technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "electronic warfare",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "quantum technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "information sharing",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "Shifting Forward Vehicle Technologies Research and Development Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Department of State Authorization Act of 2023, Sec. 941 (\"Reporting Related to the AUKUS Partnership\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_607",
+    "entities": [
+      {
+        "pattern": "food and agriculture cybersecurity clearinghouse",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "NTIA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Assistant Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "private sector",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "trade groups",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "civil society organizations",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Comptroller General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of State Authorization Act of 2023, Sec. 941 (\"Reporting Related to the AUKUS Partnership\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Food and Agriculture Industry Cybersecurity Support Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_608",
+    "entities": [
+      {
+        "pattern": "U.S. persons",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Secretary of the Treasury",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "foreign investments",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "countries of concern",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "stakeholder involvement",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "national security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Food and Agriculture Industry Cybersecurity Support Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Outbound Investment Transparency Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_609",
+    "entities": [
+      {
+        "pattern": "Medicare Advantage",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "electronic prior authorization program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "decision-support technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "GAO",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "HHS",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "prior authorization data",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Outbound Investment Transparency Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Health Care Price Transparency Act of 2023, Sec. 301 (\"Establishing Requirements With Respect to the Use of Prior Authorization Under Medicare Advantage Plans\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_610",
+    "entities": [
+      {
+        "pattern": "social media companies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "content moderation",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "civil penalty",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Health Care Price Transparency Act of 2023, Sec. 301 (\"Establishing Requirements With Respect to the Use of Prior Authorization Under Medicare Advantage Plans\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "STOP HATE Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-01">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="relation" type="string" />
+      <attribute id="1" title="context" type="long" />
+    </attributes>
+    <nodes>
+      <node id="CSAM" label="HUMAN_RIGHTS" />
+      <node id="minors" label="STAKEHOLDER" />
+      <node id="compliance" label="REQUIREMENT" />
+      <node id="misdemeanor" label="PENALTY" />
+      <node id="Act" label="LAW" />
+      <node id="laws" label="LAW" />
+      <node id="AI" label="TECHNOLOGY" />
+      <node id="efficiency" label="BENCHMARK" />
+      <node id="communication" label="TECHNOLOGY" />
+      <node id="deepfake" label="SYNTHETIC_DATA" />
+      <node id="developers" label="STAKEHOLDER" />
+      <node id="documentation" label="DOCUMENT" />
+      <node id="businesses" label="STAKEHOLDER" />
+      <node id="transparency" label="TRANSPARENCY" />
+      <node id="regulators" label="STAKEHOLDER" />
+      <node id="accountability" label="ACCOUNTABILITY" />
+      <node id="Secretary" label="ROLE" />
+      <node id="regulations" label="POLICY" />
+      <node id="models" label="TECHNOLOGY" />
+      <node id="CCLs" label="BENCHMARK" />
+      <node id="program" label="PROGRAM" />
+      <node id="repositories" label="DOCUMENT" />
+      <node id="report" label="DOCUMENT" />
+      <node id="Commandant" label="ROLE" />
+      <node id="plan" label="DOCUMENT" />
+      <node id="policies" label="POLICY" />
+      <node id="data" label="TRAINING_DATA" />
+      <node id="Director" label="ROLE" />
+      <node id="grants" label="PROGRAM" />
+      <node id="universities" label="ORGANIZATION" />
+      <node id="research" label="RESEARCH_STAGE" />
+      <node id="ICTS" label="TECHNOLOGY" />
+      <node id="drones" label="TECHNOLOGY" />
+      <node id="evaluations" label="TESTING_STAGE" />
+      <node id="automation" label="TECHNOLOGY" />
+      <node id="employment" label="EMPLOYMENT" />
+      <node id="testing" label="TESTING_STAGE" />
+      <node id="audits" label="ACCOUNTABILITY" />
+      <node id="act" label="LAW" />
+      <node id="pathogens" label="HEALTHCARE" />
+      <node id="certification" label="REQUIREMENT" />
+      <node id="confidentiality" label="PRIVACY" />
+      <node id="providers" label="STAKEHOLDER" />
+      <node id="Administrator" label="ROLE" />
+      <node id="NRC" label="ORGANIZATION" />
+      <node id="vendors" label="STAKEHOLDER" />
+      <node id="government" label="STAKEHOLDER" />
+      <node id="President" label="ROLE" />
+      <node id="sanctions" label="PENALTY" />
+      <node id="NIST" label="ORGANIZATION" />
+      <node id="safety" label="SAFETY" />
+      <node id="employees" label="STAKEHOLDER" />
+      <node id="framework" label="POLICY" />
+      <node id="USDA" label="ORGANIZATION" />
+      <node id="employers" label="EMPLOYMENT" />
+      <node id="workers" label="EMPLOYMENT" />
+      <node id="governments" label="STAKEHOLDER" />
+      <node id="ethics" label="POLICY" />
+      <node id="rights" label="HUMAN_RIGHTS" />
+      <node id="disclosure" label="TRANSPARENCY" />
+      <node id="technology" label="EDUCATION" />
+    </nodes>
+    <edges>
+      <edge source="CSAM" target="minors" id="0">
+        <attvalues>
+          <attvalue for="0" value="depict" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="compliance" target="misdemeanor" id="1">
+        <attvalues>
+          <attvalue for="0" value="constitute" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="Act" target="laws" id="2">
+        <attvalues>
+          <attvalue for="0" value="preempt" />
+          <attvalue for="1" value="587" />
+        </attvalues>
+      </edge>
+      <edge source="AI" target="efficiency" id="3">
+        <attvalues>
+          <attvalue for="0" value="enhance" />
+          <attvalue for="1" value="128" />
+        </attvalues>
+      </edge>
+      <edge source="AI" target="pathogens" id="4">
+        <attvalues>
+          <attvalue for="0" value="develop" />
+          <attvalue for="1" value="513" />
+        </attvalues>
+      </edge>
+      <edge source="AI" target="employees" id="5">
+        <attvalues>
+          <attvalue for="0" value="displace" />
+          <attvalue for="1" value="820" />
+        </attvalues>
+      </edge>
+      <edge source="communication" target="deepfake" id="6">
+        <attvalues>
+          <attvalue for="0" value="include" />
+          <attvalue for="1" value="144" />
+        </attvalues>
+      </edge>
+      <edge source="developers" target="documentation" id="7">
+        <attvalues>
+          <attvalue for="0" value="provide" />
+          <attvalue for="1" value="168" />
+        </attvalues>
+      </edge>
+      <edge source="developers" target="evaluations" id="8">
+        <attvalues>
+          <attvalue for="0" value="require" />
+          <attvalue for="1" value="422" />
+        </attvalues>
+      </edge>
+      <edge source="businesses" target="transparency" id="9">
+        <attvalues>
+          <attvalue for="0" value="require" />
+          <attvalue for="1" value="211" />
+        </attvalues>
+      </edge>
+      <edge source="regulators" target="accountability" id="10">
+        <attvalues>
+          <attvalue for="0" value="take" />
+          <attvalue for="1" value="251" />
+        </attvalues>
+      </edge>
+      <edge source="Secretary" target="regulations" id="11">
+        <attvalues>
+          <attvalue for="0" value="issue" />
+          <attvalue for="1" value="254" />
+        </attvalues>
+      </edge>
+      <edge source="Secretary" target="program" id="12">
+        <attvalues>
+          <attvalue for="0" value="carry" />
+          <attvalue for="1" value="278" />
+        </attvalues>
+      </edge>
+      <edge source="Secretary" target="repositories" id="13">
+        <attvalues>
+          <attvalue for="0" value="establish" />
+          <attvalue for="1" value="278" />
+        </attvalues>
+      </edge>
+      <edge source="Secretary" target="report" id="14">
+        <attvalues>
+          <attvalue for="0" value="submit" />
+          <attvalue for="1" value="290" />
+        </attvalues>
+      </edge>
+      <edge source="Secretary" target="testing" id="15">
+        <attvalues>
+          <attvalue for="0" value="halt" />
+          <attvalue for="1" value="461" />
+        </attvalues>
+      </edge>
+      <edge source="models" target="CCLs" id="16">
+        <attvalues>
+          <attvalue for="0" value="approach" />
+          <attvalue for="1" value="260" />
+        </attvalues>
+      </edge>
+      <edge source="report" target="plan" id="17">
+        <attvalues>
+          <attvalue for="0" value="include" />
+          <attvalue for="1" value="321" />
+        </attvalues>
+      </edge>
+      <edge source="report" target="data" id="18">
+        <attvalues>
+          <attvalue for="0" value="include" />
+          <attvalue for="1" value="384" />
+        </attvalues>
+      </edge>
+      <edge source="Commandant" target="report" id="19">
+        <attvalues>
+          <attvalue for="0" value="submit" />
+          <attvalue for="1" value="301" />
+        </attvalues>
+      </edge>
+      <edge source="plan" target="policies" id="20">
+        <attvalues>
+          <attvalue for="0" value="include" />
+          <attvalue for="1" value="374" />
+        </attvalues>
+      </edge>
+      <edge source="Director" target="grants" id="21">
+        <attvalues>
+          <attvalue for="0" value="award" />
+          <attvalue for="1" value="384" />
+        </attvalues>
+      </edge>
+      <edge source="universities" target="research" id="22">
+        <attvalues>
+          <attvalue for="0" value="produce" />
+          <attvalue for="1" value="384" />
+        </attvalues>
+      </edge>
+      <edge source="ICTS" target="drones" id="23">
+        <attvalues>
+          <attvalue for="0" value="include" />
+          <attvalue for="1" value="412" />
+        </attvalues>
+      </edge>
+      <edge source="evaluations" target="safety" id="24">
+        <attvalues>
+          <attvalue for="0" value="confirm" />
+          <attvalue for="1" value="807" />
+        </attvalues>
+      </edge>
+      <edge source="automation" target="employment" id="25">
+        <attvalues>
+          <attvalue for="0" value="affect" />
+          <attvalue for="1" value="442" />
+        </attvalues>
+      </edge>
+      <edge source="audits" target="compliance" id="26">
+        <attvalues>
+          <attvalue for="0" value="ensure" />
+          <attvalue for="1" value="501" />
+        </attvalues>
+      </edge>
+      <edge source="act" target="laws" id="27">
+        <attvalues>
+          <attvalue for="0" value="alter" />
+          <attvalue for="1" value="502" />
+        </attvalues>
+      </edge>
+      <edge source="act" target="rights" id="28">
+        <attvalues>
+          <attvalue for="0" value="alter" />
+          <attvalue for="1" value="890" />
+        </attvalues>
+      </edge>
+      <edge source="certification" target="confidentiality" id="29">
+        <attvalues>
+          <attvalue for="0" value="ensure" />
+          <attvalue for="1" value="521" />
+        </attvalues>
+      </edge>
+      <edge source="providers" target="data" id="30">
+        <attvalues>
+          <attvalue for="0" value="disclose" />
+          <attvalue for="1" value="536" />
+        </attvalues>
+      </edge>
+      <edge source="Administrator" target="grants" id="31">
+        <attvalues>
+          <attvalue for="0" value="award" />
+          <attvalue for="1" value="543" />
+        </attvalues>
+      </edge>
+      <edge source="NRC" target="NRC" id="32">
+        <attvalues>
+          <attvalue for="0" value="obligate" />
+          <attvalue for="1" value="590" />
+        </attvalues>
+      </edge>
+      <edge source="vendors" target="government" id="33">
+        <attvalues>
+          <attvalue for="0" value="notify" />
+          <attvalue for="1" value="632" />
+        </attvalues>
+      </edge>
+      <edge source="President" target="sanctions" id="34">
+        <attvalues>
+          <attvalue for="0" value="waive" />
+          <attvalue for="1" value="686" />
+        </attvalues>
+      </edge>
+      <edge source="NIST" target="NIST" id="35">
+        <attvalues>
+          <attvalue for="0" value="require" />
+          <attvalue for="1" value="693" />
+        </attvalues>
+      </edge>
+      <edge source="framework" target="USDA" id="36">
+        <attvalues>
+          <attvalue for="0" value="mandate" />
+          <attvalue for="1" value="836" />
+        </attvalues>
+      </edge>
+      <edge source="employers" target="workers" id="37">
+        <attvalues>
+          <attvalue for="0" value="inform" />
+          <attvalue for="1" value="847" />
+        </attvalues>
+      </edge>
+      <edge source="governments" target="ethics" id="38">
+        <attvalues>
+          <attvalue for="0" value="prioritize" />
+          <attvalue for="1" value="882" />
+        </attvalues>
+      </edge>
+      <edge source="disclosure" target="providers" id="39">
+        <attvalues>
+          <attvalue for="0" value="require" />
+          <attvalue for="1" value="937" />
+        </attvalues>
+      </edge>
+      <edge source="technology" target="data" id="40">
+        <attvalues>
+          <attvalue for="0" value="use" />
+          <attvalue for="1" value="941" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

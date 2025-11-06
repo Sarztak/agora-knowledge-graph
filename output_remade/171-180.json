@@ -1,0 +1,452 @@
+[
+  {
+    "document_id": "doc_171",
+    "entities": [
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Intelligence Community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Security Systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "risk management",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "interoperability",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Advancing the Responsible Acquisition of Artificial Intelligence in Government ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_172",
+    "entities": [
+      {
+        "pattern": "safety and security protocol",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "risk assessment reports",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "foundation models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "third-party audit",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "whistleblower protections",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "public safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Illinois HB 3506",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_173",
+    "entities": [
+      {
+        "pattern": "National Science and Technology Ethics Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Ministry of Science and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "S&T ethics review committees",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "stakeholders",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "14th Five-Year Plan",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Opinions on Strengthening the Governance of Science and Technology Ethics",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_174",
+    "entities": [
+      {
+        "pattern": "AI Strategic Task Force",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Office of the Governor of Massachusetts",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Massachusetts",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI research and development",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "finance",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "bias",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Massachusetts Executive Order 629",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_175",
+    "entities": [
+      {
+        "pattern": "AI actors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "human rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "robustness",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "governments",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI research and development",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "ethics",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "bias",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "governance environments",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "skills training",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "labor market",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "Digital Policy Committee",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Recommendation of the Council on Artificial Intelligence (5/2/2024)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_176",
+    "entities": [
+      {
+        "pattern": "federal government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "frontier AI models",
+        "label": "FRONTIER_AI"
+      },
+      {
+        "pattern": "national security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI companies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "public safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI Economic Zones",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI education strategy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Compact for AI",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Chinese-backed infrastructure projects",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "training programs",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI in America: OpenAI's Economic Blueprint",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_177",
+    "entities": [
+      {
+        "pattern": "S&T ethics reviews",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "MOST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "data security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "personal information",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "automated decision-making systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "December 1, 2023",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "(Trial) Measures for Science and Technology Ethics Reviews",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_178",
+    "entities": [
+      {
+        "pattern": "National Artificial Intelligence Initiative Act of 2020",
+        "label": "LAW"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI fellowships",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "STEM fields",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI governance workforce",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "technical standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "AI risk management",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Workforce for AI Trust Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_179",
+    "entities": [
+      {
+        "pattern": "Artificial Intelligence Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "New Mexico",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "state department of justice",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "consumer civil actions",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "rulemaking",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "New Mexico 2025 HB 60",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_180",
+    "entities": [
+      {
+        "pattern": "Artificial Intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "human review",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "AI or related technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "City of Long Beach Data Privacy Guidelines (2021)",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

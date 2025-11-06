@@ -1,0 +1,408 @@
+[
+  {
+    "document_id": "doc_791",
+    "entities": [
+      {
+        "pattern": "Assistant Attorney General of the Civil Rights Division",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "congressional committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "civil rights offices",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Next Generation Military Education Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Eliminating Bias in Algorithmic Systems Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_792",
+    "entities": [
+      {
+        "pattern": "United States Code",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Chief Data Officers",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Data Officer Council",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Comptroller General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "data transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "Eliminating Bias in Algorithmic Systems Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Modernizing Data Practices to Improve Government Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_793",
+    "entities": [
+      {
+        "pattern": "State Department Basic Authorities Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Deputy Secretary of State for Economic Security",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Assistant Secretary for Technology and Innovation Security",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Office of Economic Analysis and Targeting",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Foreign Service officers",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal database",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Modernizing Data Practices to Improve Government Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Economic Security and Diplomacy Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_794",
+    "entities": [
+      {
+        "pattern": "Public Health Service Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Chief Artificial Intelligence Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Interagency Council on Improving Diagnosis in Health Care",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "diagnostic safety and quality",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "strategic federal plan",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Economic Security and Diplomacy Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Improving Diagnosis in Medicine Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_795",
+    "entities": [
+      {
+        "pattern": "Environmental Protection Agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "EPA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "supercomputing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Consortium",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "toxic substances",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "Improving Diagnosis in Medicine Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Supercomputing for Safer Chemicals Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_796",
+    "entities": [
+      {
+        "pattern": "autonomous weapons systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "nuclear weapons",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal funds",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "meaningful human control",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Supercomputing for Safer Chemicals Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_797",
+    "entities": [
+      {
+        "pattern": "NAIRR",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National AI Research Resource",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Program Management Office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Operating Entity",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "ethical",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "scientific integrity requirements",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "security requirements",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Creating Resources for Every American To Experiment with Artificial Intelligence Act of 2023 ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_798",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "shared responsibility",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "open collaboration",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "agile governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "fairness and justice",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Creating Resources for Every American To Experiment with Artificial Intelligence Act of 2023 ",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Governance Principles for a New Generation of Artificial Intelligence: Develop Responsible Artificial Intelligence",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_799",
+    "entities": [
+      {
+        "pattern": "Automated Decision System",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "ADS Impact Assessments",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "open-source software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "protected classes",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "public comments",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "human review",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "neutral third party",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Governance Principles for a New Generation of Artificial Intelligence: Develop Responsible Artificial Intelligence",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An Act to amend the general business law, the executive law, the state finance law and the education law, in relation to enacting the \"digital fairness act\" - Sections 7-9 (\"AUTOMATED DECISION SYSTEM IMPACT ASSESSMENTS,\" etc.)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_800",
+    "entities": [
+      {
+        "pattern": "New Jersey",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "automated decision tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "bias audit",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "automated employment decision tool",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "fines",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "An Act to amend the general business law, the executive law, the state finance law and the education law, in relation to enacting the \"digital fairness act\" - Sections 7-9 (\"AUTOMATED DECISION SYSTEM IMPACT ASSESSMENTS,\" etc.)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An Act concerning the use of automated tools to assist with hiring decisions and supplementing Title 34 of the Revised Statutes.",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

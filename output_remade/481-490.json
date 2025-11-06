@@ -1,0 +1,448 @@
+[
+  {
+    "document_id": "doc_481",
+    "entities": [
+      {
+        "pattern": "Maryland Department of Information Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "virtual 3-1-1 portal",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "government information and services",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "July 1, 2024",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "May 9, 2024",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Maryland Senate Bill 360",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Maryland Senate Bill 1068",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_482",
+    "entities": [
+      {
+        "pattern": "city of Seattle",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "technology business startups",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "curricula",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "workers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Maryland Senate Bill 1068",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Washington Senate Bill 5950",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_483",
+    "entities": [
+      {
+        "pattern": "content provenance technologies",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "disclosures",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "audiovisual, visual, and audio records",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "criminal penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "U.S. Attorney’s Office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "deepfake-related violations",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "Washington Senate Bill 5950",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "DEEPFAKES Accountability Act, Sec. 2 (\"Transparency Requirements\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_484",
+    "entities": [
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Federal Government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Administrator of the Office of Electronic Government",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "defense and intelligence agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "technology implementation",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "DEEPFAKES Accountability Act, Sec. 2 (\"Transparency Requirements\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Sensible Classification Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_485",
+    "entities": [
+      {
+        "pattern": "chapter 35 of title 44, United States Code",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Federal AI system governance requirements",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "civil rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI System Inventory",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "stakeholders",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Sensible Classification Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Federal AI Governance and Transparency Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_486",
+    "entities": [
+      {
+        "pattern": "Director of the National Institutes of Health",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Institutes of Health",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "health care",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "workforce development",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "higher education institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "nonprofit organizations",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "governmental agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Federal AI Governance and Transparency Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "To direct the Director of the National Institutes of Health to establish a grant program to facilitate research regarding the use of generative artificial intelligence in health care, and for other purposes.",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_487",
+    "entities": [
+      {
+        "pattern": "AI Safety Level (ASL) Standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "Deployment and Security Standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "ASL-2 standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "ASL-3 standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "Capability Thresholds",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "Required Safeguards",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Chemical, Biological, Radiological, and Nuclear (CBRN) capabilities",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Autonomous AI R&D",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Responsible Scaling Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "US Government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "To direct the Director of the National Institutes of Health to establish a grant program to facilitate research regarding the use of generative artificial intelligence in health care, and for other purposes.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Anthropic Responsible Scaling Policy",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_488",
+    "entities": [
+      {
+        "pattern": "Communications Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "pornography",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "covered platforms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "deepfake",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "intimate visual depiction",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "Anthropic Responsible Scaling Policy",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_489",
+    "entities": [
+      {
+        "pattern": "frontier AI models",
+        "label": "FRONTIER_AI"
+      },
+      {
+        "pattern": "cybersecurity protections",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Board of Frontier Models",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "CalCompute",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "public cloud computing cluster",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI research and innovation",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "consortium",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act (SB 1047)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_490",
+    "entities": [
+      {
+        "pattern": "OpenAI",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AGI",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "humanity",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "safety-conscious AGI projects",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "research and policy institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "multistakeholder cooperation",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "AI research publishing",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act (SB 1047)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "OpenAI Charter",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

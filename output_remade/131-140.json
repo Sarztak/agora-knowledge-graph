@@ -1,0 +1,448 @@
+[
+  {
+    "document_id": "doc_131",
+    "entities": [
+      {
+        "pattern": "AI devices",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "patient",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "department of health",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "attorney general",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "civil penalty",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "rules and regulations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Rhode Island HB 6654 (2022)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_132",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "deepfake",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "state agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "state agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "department of information technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI interactions",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI system compliance",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "surveillance",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "New Hampshire H1688 (2024)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_133",
+    "entities": [
+      {
+        "pattern": "automated decision systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Division of Artificial Intelligence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Agency of Digital Services",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "inventory",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "outcome monitoring",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "bias testing",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Vermont Agency of Digital Services Report regarding Inventory of Artificial Intelligence Usage, pursuant to 3 V.S.A. § 3305",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_134",
+    "entities": [
+      {
+        "pattern": "generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Executive Branch Cabinet and Non-Cabinet Agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Kansas",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Restricted Use Information",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "Office of Information Technology Services",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "policy maintenance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Kansas Policy and Procedures Memorandum 8200.00",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_135",
+    "entities": [
+      {
+        "pattern": "pretrial risk scoring instruments",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Pretrial Services Program Grant Fund",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Executive Director",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Governor’s Office of Crime Control and Prevention",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Criminal Procedure Article",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Maryland Rules",
+        "label": "LAW"
+      },
+      {
+        "pattern": "risk scoring instruments",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "race-neutral",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Maryland 2020 HB49",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_136",
+    "entities": [
+      {
+        "pattern": "commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "automation",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "executive office of labor and workforce development",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "workplace safety standards",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "workforce training",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "Massachusetts (2020) House Bill 5250, Section 92 ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_137",
+    "entities": [
+      {
+        "pattern": "deepfake",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cheapfake",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "generative AI platforms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "social media",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "content-sharing forums",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "transparency standards",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "federal government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "New Jersey",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "media technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "New Jersey Assembly Resolution 141 (2024)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_138",
+    "entities": [
+      {
+        "pattern": "Joint Legislative Committee on Technology and Cybersecurity",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Louisiana",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "House Committee on Commerce",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Senate Committee on Commerce, Consumer Protection and International Affairs",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Economic Development",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "office of technology services",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Division of Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Justice",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "consumers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Louisiana SCR 49",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_139",
+    "entities": [
+      {
+        "pattern": "Joint Legislative Committee on Technology and Cybersecurity",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "criminal justice",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "finance",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "health",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "Louisiana",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "policy recommendations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "misuse",
+        "label": "MISUSE_RISK"
+      },
+      {
+        "pattern": "Louisiana (2024) HCR 66",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_140",
+    "entities": [
+      {
+        "pattern": "Department of Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "RI Division of Information Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "State of Rhode Island",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "algorithmic decision-making",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "automated decision systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "House of Representatives",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "House Committee on Innovation, Internet, and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "data protection laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "racial and gender biases",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Rhode Island House Resolution 6423",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

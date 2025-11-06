@@ -1,0 +1,468 @@
+[
+  {
+    "document_id": "doc_341",
+    "entities": [
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 557 (\"Study and report on professional military education\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 911 (\"Updates to management reform framework\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_342",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 911 (\"Updates to management reform framework\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 861 (\"Strategy for increasing competitive opportunities for certain critical technologies\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_343",
+    "entities": [
+      {
+        "pattern": "Defense Acquisition University",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "hardware acquisition",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 861 (\"Strategy for increasing competitive opportunities for certain critical technologies\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 835 (\"Curricula on software acquisitions and cybersecurity software or hardware acquisitions for covered individuals\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_344",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Iran-origin unmanned aircraft systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "United States",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Five Eyes Partnership",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Israel",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 835 (\"Curricula on software acquisitions and cybersecurity software or hardware acquisitions for covered individuals\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6513 (\"Lead intelligence community coordinator for countering and neutralizing proliferation of Iran-origin unmanned aircraft systems\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_345",
+    "entities": [
+      {
+        "pattern": "AI-related programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Federal Government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Secretary of Homeland Security",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Procurement Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Information Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Chief Privacy Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Officer for Civil Rights and Civil Liberties",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Inspector General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Office of the Inspector General",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Director of the Office of Management and Budget",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Office of Management and Budget",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "congressional committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6513 (\"Lead intelligence community coordinator for countering and neutralizing proliferation of Iran-origin unmanned aircraft systems\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Advancing American Artificial Intelligence Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_346",
+    "entities": [
+      {
+        "pattern": "Secretary of a military department",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "private sector",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "autonomous systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "military applications",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "Service Chief",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "military department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Advancing American Artificial Intelligence Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 862 (\"Key advanced system development industry days\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_347",
+    "entities": [
+      {
+        "pattern": "U.S. Coast Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "unmanned vehicles",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Commandant of the Coast Guard",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "sensors",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "communication systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "computer vision systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomous control technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "unmanned search and rescue",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "surveillance",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "interdiction missions",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Coast Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 862 (\"Key advanced system development industry days\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11225 (\"Establishment of unmanned system program and autonomous control and computer vision technology project\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_348",
+    "entities": [
+      {
+        "pattern": "Department of Homeland Security",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "pilot program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "autonomous",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "remotely controlled",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Coast Guard vessels",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "unmanned spaceflight vessels",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Committee on Commerce, Science, and Transportation of the Senate",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Committee on Transportation and Infrastructure",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Committee on Science, Space, and Technology of the House of Representatives",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Comptroller General of the United States",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Senate",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "House of Representatives",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11225 (\"Establishment of unmanned system program and autonomous control and computer vision technology project\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11504 (\"At-sea recovery operations pilot program\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_349",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense Cyber and Digital Service Academy",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "federal departments and agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "institution of higher education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11504 (\"At-sea recovery operations pilot program\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1535 (\"Department of Defense Cyber and Digital Service Academy\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_350",
+    "entities": [
+      {
+        "pattern": "Administrator of the National Oceanic and Atmospheric Administration",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Oceanic and Atmospheric Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "emerging technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "sensors",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomous vehicles",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data collection",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "marine science",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "national ocean exploration program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "data sharing practices",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1535 (\"Department of Defense Cyber and Digital Service Academy\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 10305 (\"Modifications to the ocean exploration program of the National Oceanic and Atmospheric Administration\")",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

@@ -1,0 +1,412 @@
+[
+  {
+    "document_id": "doc_931",
+    "entities": [
+      {
+        "pattern": "Tennessee Code",
+        "label": "LAW"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "generative artificial intelligence",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "July 1, 2024",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "A Bill in the District of Columbia to prohibit users of algorithmic decision-making from utilizing algorithmic eligibility determinations in a discriminatory manner, to require corresponding notices to individuals whose personal information is used, and to provide for appropriate means of civil enforcement.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Tennessee House Bill 2163 (Sexual Exploitation of Children)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_932",
+    "entities": [
+      {
+        "pattern": "Right of Publicity Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Illinois",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "digital replica",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "federal law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Tennessee House Bill 2163 (Sexual Exploitation of Children)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Illinois House Bill 4875",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_933",
+    "entities": [
+      {
+        "pattern": "Office of Artificial Intelligence Policy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI Learning Laboratory Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "regulatory mitigation agreements",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "consumer harm",
+        "label": "ECONOMIC_HARM"
+      },
+      {
+        "pattern": "privacy breaches",
+        "label": "PRIVACY_HARM"
+      },
+      {
+        "pattern": "unauthorized data usage",
+        "label": "PRIVACY_HARM"
+      },
+      {
+        "pattern": "May 1, 2024",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "May 1, 2025",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Illinois House Bill 4875",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Utah Senate Bill 149, Chapter 70",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_934",
+    "entities": [
+      {
+        "pattern": "generative artificial intelligence",
+        "label": "GENERAL_PURPOSE_AI"
+      },
+      {
+        "pattern": "Division of Consumer Protection",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "attorney general",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "disclosure",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "consumer protection laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Utah Senate Bill 149, Chapter 70",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Utah Senate Bill 149, Section 13-2-12",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_935",
+    "entities": [
+      {
+        "pattern": "Innovation in Artificial Intelligence Grant Pilot Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI courses",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "K-12 students",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "public or private schools",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Section 63N-1a-306",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Utah Senate Bill 149, Section 13-2-12",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Utah Senate Bill 84, Part 13",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_936",
+    "entities": [
+      {
+        "pattern": "Road Optimization and Assessment Data Road Pilot Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Machine Learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Artificial Intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Monongalia",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Preston Counties",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Commissioner of Highways",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Division of Highways",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "GPS",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "laser measuring systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "reflectometer systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Utah Senate Bill 84, Part 13",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "West Virginia House Bill 3214",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_937",
+    "entities": [
+      {
+        "pattern": "legislative commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "firearm technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "personalized technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "microstamp technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "tax incentive program",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "March 1, 2025",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "West Virginia House Bill 3214",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Massachusetts House Bill 4885 ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_938",
+    "entities": [
+      {
+        "pattern": "Department of Education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Commissioner of Education",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI education tool pilot program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI tool",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Family Educational Rights and Privacy Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "student data privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "educators",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "workforce development",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "Massachusetts House Bill 4885 ",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "An Act Authorizing And Adjusting Bonds Of The State And Concerning Provisions Related To State And Municipal Tax Administration, General Government And School Building Projects",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_939",
+    "entities": [
+      {
+        "pattern": "computer-generated images",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "intimate images",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "law enforcement",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "internet service providers",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "sexual extortion",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "counterfeit intimate images",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "May 1, 2024",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "An Act Authorizing And Adjusting Bonds Of The State And Concerning Provisions Related To State And Municipal Tax Administration, General Government And School Building Projects",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Utah House Bill 148",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_940",
+    "entities": [
+      {
+        "pattern": "Civil Remedies for Nonconsensual Dissemination of Private Sexual Images Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "depicted individual",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "consent",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "law enforcement",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "interactive computer services",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "injunctive relief",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "digitally altered images",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "Utah House Bill 148",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Illinois House Bill 2123",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

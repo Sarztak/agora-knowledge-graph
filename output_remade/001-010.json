@@ -1,0 +1,544 @@
+[
+  {
+    "document_id": "doc_001",
+    "entities": [
+      {
+        "pattern": "Department of Commerce",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary of Commerce",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "automation technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "state and local governments",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "federally mandated",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "One Big Beautiful Bill Act 2025, Section 43201 (\"Artificial intelligence and information technology modernization initiative\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_002",
+    "entities": [
+      {
+        "pattern": "California's Government Operations Agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "GenAI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "California Cybersecurity Integration Center",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "energy infrastructure",
+        "label": "TRANSPORTATION"
+      },
+      {
+        "pattern": "UC Berkeley",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Stanford",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "civil society",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "academia",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "industry experts",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "pilot project infrastructure",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "training guidelines",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "California Executive Order N-12-23 ",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Oklahoma House Bill 1916",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_003",
+    "entities": [
+      {
+        "pattern": "Superintendent of Public Instruction",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "public schools",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "model policy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "stakeholders",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "public school teachers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "schoolsite administrators",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Legislature",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "communities of practice",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "California Senate Bill 1288 (2024)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Meta Frontier AI Framework (Version 1.1)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_004",
+    "entities": [
+      {
+        "pattern": "public transit employers",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "California",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "autonomous transit vehicle technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "exclusive employee representative",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "collective bargaining",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Public Employment Relations Board",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "unfair practice charges",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "emergency regulations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "California (2023-2024) AB 96",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Advancing the Responsible Acquisition of Artificial Intelligence in Government ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_005",
+    "entities": [
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Artificial Intelligence Advisory Committee",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "artificial intelligence policy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "federal government",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "employment",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "ethical standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "AI development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "California",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "regulatory response",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "California SJR 6",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Recommendation of the Council on Artificial Intelligence (5/2/2024)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_006",
+    "entities": [
+      {
+        "pattern": "child sexual assault material",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "CSAM",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "California",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Penal Code",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI-generated CSAM",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "felony",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "fines",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "law enforcement",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "medical",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "educational",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "scientific",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "Senate Bill 1381",
+        "label": "LAW"
+      },
+      {
+        "pattern": "California Assembly Bill 1831 (2024)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Google DeepMind Frontier Safety Framework Version 2.0",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_007",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI-generated depictions",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "city",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "county",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "state officials",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "law enforcement",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "medical",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "educational",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "scientific",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "AB 1831",
+        "label": "LAW"
+      },
+      {
+        "pattern": "California Senate Bill 1381 (2024)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Safety Commitments (China AI Industry Alliance)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_008",
+    "entities": [
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "deepfakes",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "California",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "disclosures",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "elections",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "candidates",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "election officials",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "injunctive relief",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "broadcasting stations",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "federal laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "urgency clause",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "California AB 2839 (2024)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI Safety Governance Framework v1.0 (National Technical Committee 260 on Cybersecurity of SAC)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_009",
+    "entities": [
+      {
+        "pattern": "California Legislature",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "President Biden",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Blueprint for an AI Bill of Rights",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Safe and Effective Systems",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Algorithmic Discrimination Protections",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Data Privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "Notice and Explanation",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "Human Alternatives",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "Secretary of the Senate",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "California 2023 SCR 17 (Relative to AI)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Singapore National AI Strategy 2.0",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_010",
+    "entities": [
+      {
+        "pattern": "California Department of Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "high-risk automated decision systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "state agencies",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "housing",
+        "label": "CONSUMER"
+      },
+      {
+        "pattern": "employment",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "deepfake technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "economic development subsidies",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "warehouse distribution centers",
+        "label": "TRANSPORTATION"
+      },
+      {
+        "pattern": "job effects",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "public access",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "automation",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "California AB 2885 (2024)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Google DeepMind Frontier Safety Framework Version 1.0",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

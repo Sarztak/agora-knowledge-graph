@@ -1,0 +1,476 @@
+[
+  {
+    "document_id": "doc_031",
+    "entities": [
+      {
+        "pattern": "National Oceanic and Atmospheric Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NOAA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "environmental forecasting",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "national security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "intellectual property",
+        "label": "LAW"
+      },
+      {
+        "pattern": "TAME Extreme Weather and Wildfires Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_032",
+    "entities": [
+      {
+        "pattern": "New York",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Responsible AI Safety and Education (RAISE) Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Homeland Security",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI frontier models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "frontier AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "New York State",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "civil actions",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "penalties up to $30 million",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "written safety and security protocol",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "transparency requirements",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "Responsible AI safety and education act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_033",
+    "entities": [
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NIST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Director of NIST",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI workforce frameworks",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "quantum information science",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "industry",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "educational institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_034",
+    "entities": [
+      {
+        "pattern": "Air Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary of the Air Force",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Air National Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "F–16 Block 70",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "fighter aircraft",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "U.S. Code",
+        "label": "LAW"
+      },
+      {
+        "pattern": "2030",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "H.R.1851 Fighter Force Preservation and Recapitalization Act of 2025",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_035",
+    "entities": [
+      {
+        "pattern": "Secretary of Homeland Security",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "U.S. land ports of entry",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "nonintrusive inspection technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "civil liberties",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "cost-effectiveness",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "data anonymization",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "H.R.1569 CATCH Fentanyl Act ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_036",
+    "entities": [
+      {
+        "pattern": "White House Task Force on Artificial Intelligence Education",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Office of Science and Technology Policy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Director of the Office of Science and Technology Policy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Presidential Artificial Intelligence Challenge",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Secretary of Education",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Secretary of Labor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Workforce Innovation and Opportunity Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI literacy",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "K-12 AI education resources",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI skill development",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "public-private partnerships",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Advancing Artificial Intelligence Education for American Youth",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_037",
+    "entities": [
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Under Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "environmental forecasting",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "national security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "intellectual property",
+        "label": "LAW"
+      },
+      {
+        "pattern": "fiscal years 2026 to 2030",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather and Wildfires Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_038",
+    "entities": [
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "FTC",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Sherman Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "antitrust laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "civil actions",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "arbitration agreements",
+        "label": "LAW"
+      },
+      {
+        "pattern": "joint action waivers",
+        "label": "LAW"
+      },
+      {
+        "pattern": "food producers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "algorithmic systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "state attorneys general",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Fair Grocery Pricing Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_039",
+    "entities": [
+      {
+        "pattern": "National Advisory Committee on Autonomous Maritime Systems",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Oceanic and Atmospheric Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Automated and Autonomous Vessel Policy Council",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Coast Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "U.S. territorial waters",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "counter-uncrewed system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "small uncrewed maritime systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "uncrewed systems capabilities office",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Coast Guard Authorization Act of 2025, Subtitle C--\"Matters Involving Uncrewed Systems\"",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_040",
+    "entities": [
+      {
+        "pattern": "Secretaries of Agriculture and Interior",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "quantum sensing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "augmented reality",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "wildfire prevention and mitigation",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "pilot program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "covered agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "appropriate committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "technology testing and demonstration",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Wildfire Prevention Act of 2025, Section 302 \"Public-private wildfire technology deployment and testbed partnership.\"",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

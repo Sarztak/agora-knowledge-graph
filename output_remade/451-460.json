@@ -1,0 +1,616 @@
+[
+  {
+    "document_id": "doc_451",
+    "entities": [
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "private images",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "authorities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-generated images",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "sex offender registration guidelines",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "December 1, 2024",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "New York Assembly Bill A8808A",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "North Carolina House Bill 591",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_452",
+    "entities": [
+      {
+        "pattern": "Model AI Governance Framework",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "cloud shared responsibility models",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "personal data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "copyright material",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "model training",
+        "label": "TRAINING_STAGE"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "AI model safety measures",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "third-party testing frameworks",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "security measures",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "research in AI safety and alignment",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "public services",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "North Carolina House Bill 591",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Proposed Model AI Governance Framework for Generative AI",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_453",
+    "entities": [
+      {
+        "pattern": "Michigan Virtual University",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Michigan Virtual Learning Research Institute",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "virtual education delivery models",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI-enhanced virtual learning",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "districts",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI-driven competency-based virtual learning models",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "policy recommendations",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI-related professional development programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "educators",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI-integrated virtual learning",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "Michigan",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Proposed Model AI Governance Framework for Generative AI",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Michigan House Bill 5507",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_454",
+    "entities": [
+      {
+        "pattern": "Next New Jersey Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "New Jersey",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI sector",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "tax credits",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "AI data centers",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "research entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "startups",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "environmental and labor standards",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "New Jersey Economic Development Authority",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "March 1, 2029",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Michigan House Bill 5507",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "New Jersey Senate Bill 3432",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_455",
+    "entities": [
+      {
+        "pattern": "University of Wyoming",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI expertise",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "non-public sources",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI-related funding",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "partnerships",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI appropriation",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "AI expertise funding",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "diversity, equity, and inclusion",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "AI expertise",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "New Jersey Senate Bill 3432",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Wyoming House Bill 1",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_456",
+    "entities": [
+      {
+        "pattern": "deep technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "board",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "May 1, 2024",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "institutions of higher education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "employers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "advisory council",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "legislative appropriations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "student enrollment",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "employment metrics",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "legislative committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Wyoming House Bill 1",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Utah House Bill 534",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_457",
+    "entities": [
+      {
+        "pattern": "AGI sector",
+        "label": "FRONTIER_AI"
+      },
+      {
+        "pattern": "cloud service providers",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Beijing AI Public Computing Power Center",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "multi-cloud computing management platform",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "training datasets",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "crowdsourcing service platform",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "dataset annotation",
+        "label": "TRAINING_STAGE"
+      },
+      {
+        "pattern": "open-source technical ecosystem",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data management",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "AGI",
+        "label": "FRONTIER_AI"
+      },
+      {
+        "pattern": "government",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "medicine",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "finance",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "urban governance",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "regulatory policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "network and data security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Utah House Bill 534",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Measures of Beijing Municipality on Promoting the Innovative Development of Artificial General Intelligence",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_458",
+    "entities": [
+      {
+        "pattern": "child pornography",
+        "label": "LAW"
+      },
+      {
+        "pattern": "minors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "jurisdiction",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "prosecution",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "adult and juvenile facilities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Measures of Beijing Municipality on Promoting the Innovative Development of Artificial General Intelligence",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Virginia 2024 SB 731",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_459",
+    "entities": [
+      {
+        "pattern": "trustworthy AI",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI actors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "rule of law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "human rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "democratic values",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "explainability",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "robustness",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "risk management",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "governments",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "AI R&D",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "datasets",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "digital AI ecosystem",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "labor market transformation",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "international cooperation",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "global technical standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "multi-stakeholder collaboration",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Virginia 2024 SB 731",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Annex \"G20 AI Principles\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_460",
+    "entities": [
+      {
+        "pattern": "Deployers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Operators",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "autonomous and semi-autonomous systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "personal data processing principles",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "users",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "audit and certification requirements",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "human intervention algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "bias",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "ethics",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "Controllers",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Processors",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "data subjects",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Autonomous Systems Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Annex \"G20 AI Principles\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Dubai International Financial Centre Data Protection Regulations, Regulation 10 (\"Personal data processed through autonomous and semi-autonomous systems\")",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

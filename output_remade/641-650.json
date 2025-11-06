@@ -1,0 +1,388 @@
+[
+  {
+    "document_id": "doc_641",
+    "entities": [
+      {
+        "pattern": "National Commission on Online Child Sexual Exploitation Prevention",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "interactive computer service providers",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data security",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "cryptography",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Online Privacy Act of 2023, Sec. 106 (\"Right to individual autonomy\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Eliminating Abusive and Rampant Neglect of Interactive Technologies Act of 2023 (National Commission on Online Child Sexual Exploitation Prevention)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_642",
+    "entities": [
+      {
+        "pattern": "Treasury",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Commerce Secretaries",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "foreign government",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "app store",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Eliminating Abusive and Rampant Neglect of Interactive Technologies Act of 2023 (National Commission on Online Child Sexual Exploitation Prevention)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Know Your App Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_643",
+    "entities": [
+      {
+        "pattern": "verifiable consent",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "privacy policy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "data collection",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "security measures",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "targeted advertising",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Know Your App Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Protecting the Information of our Vulnerable Adolescents, Children, and Youth Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_644",
+    "entities": [
+      {
+        "pattern": "Secretary of Homeland Security",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "CBP Innovation Team",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "quantum information sciences",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "pilot projects",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "nonintrusive inspection systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Protecting the Information of our Vulnerable Adolescents, Children, and Youth Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Contraband Awareness Technology Catches Harmful Fentanyl Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_645",
+    "entities": [
+      {
+        "pattern": "Comprehensive Iran Sanctions, Accountability, and Divestment Act of 2010",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Countering America’s Adversaries Through Sanctions Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Iran-Iraq Arms Non-Proliferation Act of 1992",
+        "label": "LAW"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "UAS",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "export controls",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "strategy",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Contraband Awareness Technology Catches Harmful Fentanyl Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "No ICBMs or Drones for Iran Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_646",
+    "entities": [
+      {
+        "pattern": "FTC",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Federal and State agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "insurers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "underwriting rules",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "trade secrets",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "prohibited factors",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "insurance premiums",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "No ICBMs or Drones for Iran Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "PAID Act, Sec. 3 (Requirements for Private Passenger Automobile Insurers)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_647",
+    "entities": [
+      {
+        "pattern": "Comptroller General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "wearable medical devices",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "policy options",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "PAID Act, Sec. 3 (Requirements for Private Passenger Automobile Insurers)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Preserving Telehealth, Hospital, and Ambulance Access Act, Sec. 105 (Report on Wearable Medical Devices)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_648",
+    "entities": [
+      {
+        "pattern": "Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Federal Trade Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Bureau of Consumer Financial Protection",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "tenant and applicant screenings",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Preserving Telehealth, Hospital, and Ambulance Access Act, Sec. 105 (Report on Wearable Medical Devices)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "HOME Act of 2024, Sec. 7 (Identification of Unfair Screening Practices)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_649",
+    "entities": [
+      {
+        "pattern": "National Coordinator to Counter Antisemitism",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "algorithmic systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "community standards",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Senate",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "House committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "HOME Act of 2024, Sec. 7 (Identification of Unfair Screening Practices)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Countering Antisemitism Act, Sec. 8 (Online Antisemitism, Holocaust Denial, and Distortion)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_650",
+    "entities": [
+      {
+        "pattern": "Government Accountability Office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Labor Relations Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "GAO",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "algorithms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "House",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Senate committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Countering Antisemitism Act, Sec. 8 (Online Antisemitism, Holocaust Denial, and Distortion)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Richard L. Trumka Protecting the Right to Organize Act of 2023, Sec. 309 (GAO Report)",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

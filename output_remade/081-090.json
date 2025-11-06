@@ -1,0 +1,460 @@
+[
+  {
+    "document_id": "doc_081",
+    "entities": [
+      {
+        "pattern": "Data Center Validated End User",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "DC VEU",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI chips",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "cloud computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "export controls",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "licensing requirements",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "reporting requirements",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Framework for Artificial Intelligence Diffusion",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_082",
+    "entities": [
+      {
+        "pattern": "New Jersey Law Against Discrimination",
+        "label": "LAW"
+      },
+      {
+        "pattern": "LAD",
+        "label": "LAW"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "automated decision-making tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "reasonable accommodations",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "developers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "vendors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "bias",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "Guidance on Algorithmic Discrimination and the New Jersey Law Against Discrimination",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_083",
+    "entities": [
+      {
+        "pattern": "Intelligence Community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "foundation AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "U.S. person information",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "oversight mechanisms",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "interim guidance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Common Intelligence Community Interim Guidance Regarding the Acquisition and Use of Foundation AI Models",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_084",
+    "entities": [
+      {
+        "pattern": "Administrator",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "airport efficiency",
+        "label": "TRANSPORTATION"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "air traffic control operations",
+        "label": "TRANSPORTATION"
+      },
+      {
+        "pattern": "report to Congress",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Securing Growth and Robust Leadership in American Aviation Act, Sec. 1024 (\"Technology Review of Artificial Intelligence and Machine Learning Technologies\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_085",
+    "entities": [
+      {
+        "pattern": "Administrator",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "research program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "FAA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "air traffic controllers",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "labor organizations",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "stakeholders",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "report findings to Congress",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Securing Growth and Robust Leadership in American Aviation Act, Sec. 1028 (\"Air Traffic Control Training\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_086",
+    "entities": [
+      {
+        "pattern": "Federal Election Campaign Act of 1971",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Federal Election Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "FEC",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "political advertisement",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "disclaimer requirement",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "REAL Political Advertisements Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_087",
+    "entities": [
+      {
+        "pattern": "Algorithmic Impact Assessments",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "automated decision system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "automated systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "monitoring",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "biases",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "data governance",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "Gender-based Analysis Plus",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "human intervention",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "Financial Administration Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Chief Information Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Directive on Automated Decision-Making (Canada)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_088",
+    "entities": [
+      {
+        "pattern": "Secretary of the Navy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "autonomous surface and underwater vehicles",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "program element",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Navy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 125 (\"Designation of official responsible for autonomous surface and underwater dual-modality vehicles\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_089",
+    "entities": [
+      {
+        "pattern": "AI industry",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Shenzhen",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Shenzhen Municipal Government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI infrastructure",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data centers",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "public data platforms",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "open-source systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI ethics committee",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "ethical norms",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "safety standards",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "consumer protection",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "privacy safeguards",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "international collaboration",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Regulations of Shenzhen Special Economic Zone on Promoting the Artificial Intelligence Industry",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_090",
+    "entities": [
+      {
+        "pattern": "National Artificial Intelligence Research Resource",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "NAIRR",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Office of Science and Technology Policy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Program Management Office",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Operating Entity",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "data repositories",
+        "label": "DATA"
+      },
+      {
+        "pattern": "AI testbeds",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "ethics",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "civil rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "national security policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "scientific integrity standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "CREATE AI Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

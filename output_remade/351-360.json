@@ -1,0 +1,404 @@
+[
+  {
+    "document_id": "doc_351",
+    "entities": [
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Foreign Service",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "deep textual analysis",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 10305 (\"Modifications to the ocean exploration program of the National Oceanic and Atmospheric Administration\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9218 (\"Report on changes to the Foreign Service Officer Test\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_352",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Chinese AI businesses",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Xinjiang Uyghur Autonomous Region of China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9218 (\"Report on changes to the Foreign Service Officer Test\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6504 (\"Annual report on concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of the People's Republic of China\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_353",
+    "entities": [
+      {
+        "pattern": "Commission on the Future of the Navy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Navy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Shipyard Infrastructure Optimization Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "congressional armed services committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6504 (\"Annual report on concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of the People's Republic of China\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1092 (\"National Commission on the Future of the Navy\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_354",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "emerging technology software products",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI and emerging technology product",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "policy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "user adoption metrics",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1092 (\"National Commission on the Future of the Navy\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6717 (\"Policy on required user adoption metrics in certain contracts for artificial intelligence and emerging technology software products\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_355",
+    "entities": [
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "code-free artificial intelligence enablement tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "policy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "official",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6717 (\"Policy on required user adoption metrics in certain contracts for artificial intelligence and emerging technology software products\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6742 (\"Code-free artificial intelligence enablement tools policy\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_356",
+    "entities": [
+      {
+        "pattern": "Secretary of State",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Bureau of Global Talent Management",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "engineering",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data science",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "application development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "critical and emerging technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "technology and digital policy",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Recruitment Language Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "language incentive pay",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6742 (\"Code-free artificial intelligence enablement tools policy\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9506 (\"Cybersecurity recruitment and retention\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_357",
+    "entities": [
+      {
+        "pattern": "information technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "software systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "training programs",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9506 (\"Cybersecurity recruitment and retention\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6718 (\"Certification relating to information technology and software systems\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_358",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "China",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "semiconductors",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cloud computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomous vehicles",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "electronic design automation technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "semiconductor manufacturing equipment",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Chinese semiconductor manufacturers",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6718 (\"Certification relating to information technology and software systems\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6505 (\"Assessments of production of semiconductors by the People's Republic of China\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_359",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Office of the Director of National Intelligence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Intelligence Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI-related policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI-related development activities",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6505 (\"Assessments of production of semiconductors by the People's Republic of China\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6702 (\"Additional responsibilities of Director of National Intelligence for artificial intelligence policies, standards, and guidance for the intelligence community\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_360",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "education and training",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "intelligence community",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI adoption",
+        "label": "DEPLOYMENT_STAGE"
+      },
+      {
+        "pattern": "AI workforce",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "foreign adversaries",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI products",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "emerging tech companies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6702 (\"Additional responsibilities of Director of National Intelligence for artificial intelligence policies, standards, and guidance for the intelligence community\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6721 (\"Reports on integration of artificial intelligence within intelligence community\")",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

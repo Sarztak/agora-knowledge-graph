@@ -1,0 +1,428 @@
+[
+  {
+    "document_id": "doc_921",
+    "entities": [
+      {
+        "pattern": "University of Tennessee",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI usage policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "joint government operations committee",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "public charter schools",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "public higher education institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "students",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "faculty",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "staff",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "teachers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Colorado House Bill 1147",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Tennessee Senate Bill 1711",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_922",
+    "entities": [
+      {
+        "pattern": "Talent Innovation Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Maryland Department of Labor",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Talent Innovation Fund",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "State Treasurer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Tennessee Senate Bill 1711",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Maryland House Bill 1128",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_923",
+    "entities": [
+      {
+        "pattern": "synthetic media",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "interactive computer services",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "public disclosure commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "campaign finance laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "courts",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "sponsors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "mediums",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Maryland House Bill 1128",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Washington Senate Bill 5152",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_924",
+    "entities": [
+      {
+        "pattern": "Dyslexia Research Grant Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "State Department of Education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-based writing assistance",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Education Future Fund",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "State Board of Education",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Nebraska",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Washington Senate Bill 5152",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Nebraska L 1284 (Teacher Incentive Programs), Sec. 2.",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_925",
+    "entities": [
+      {
+        "pattern": "Managed Care Reform and Patient Rights Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Department of Insurance",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Health Utilization Management Standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "licensed physicians",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "health care plans",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "algorithmic automated processes",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "utilization review programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Nebraska L 1284 (Teacher Incentive Programs), Sec. 2.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Idaho House Bill 2472",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_926",
+    "entities": [
+      {
+        "pattern": "penal law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "digitization",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "intimate images",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "Idaho House Bill 2472",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "New York Senate Bill 1042",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_927",
+    "entities": [
+      {
+        "pattern": "election law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "materially deceptive media",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "courts",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "federal law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "political communications",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "satire",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "bona fide news reporting",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "New York Senate Bill 1042",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "New York Senate Bill 9678",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_928",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "hardware",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "ballots",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Arizona",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "New York Senate Bill 9678",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "State of Arizona Senate Bill 1565, An Act Amending Sections 16-442, 16-552 and 16-621, Arizona Revised Statutes; Relating to Conduct of Elections.",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_929",
+    "entities": [
+      {
+        "pattern": "Sustainable Development Goals",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Member States",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "human rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "developing countries",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "UN entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "data governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "international cooperation",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "State of Arizona Senate Bill 1565, An Act Amending Sections 16-442, 16-552 and 16-621, Arizona Revised Statutes; Relating to Conduct of Elections.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "UN General Assembly Resolution A/78/L.49 (\"Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development\"",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_930",
+    "entities": [
+      {
+        "pattern": "Washington D.C.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "algorithmic decision-making tools",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "algorithmic determination",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "DC government",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "personal information",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "civil action",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "audit",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "discriminatory effects",
+        "label": "DISCRIMINATION_HARM"
+      },
+      {
+        "pattern": "adverse action",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "fines",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "UN General Assembly Resolution A/78/L.49 (\"Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development\"",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "A Bill in the District of Columbia to prohibit users of algorithmic decision-making from utilizing algorithmic eligibility determinations in a discriminatory manner, to require corresponding notices to individuals whose personal information is used, and to provide for appropriate means of civil enforcement.",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

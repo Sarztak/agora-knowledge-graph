@@ -1,0 +1,460 @@
+[
+  {
+    "document_id": "doc_471",
+    "entities": [
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Google",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security practices",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "human control",
+        "label": "AUTONOMY_HARM"
+      },
+      {
+        "pattern": "international law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "weapons",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "surveillance",
+        "label": "PRIVACY_HARM"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "scientific excellence",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "California (2021-2022) SB 1398",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Google AI Principles",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_472",
+    "entities": [
+      {
+        "pattern": "Interagency Commission on School Construction",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "General Assembly",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence weapon detection systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "school construction funding",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Google AI Principles",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Maryland House Bill 1390",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_473",
+    "entities": [
+      {
+        "pattern": "Department of Innovation and Technology Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Generative AI and Natural Language Processing Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "generative AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "natural language processing software",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Illinois",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "General Assembly",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cybersecurity experts",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI experts",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "business and labor association members",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "consumer information",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "model policies",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "civil rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "workforce",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "public services",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Maryland House Bill 1390",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Illinois HB 4844 (2024), Section 90 (\"Generative AI and Natural Language Processing Task Force\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_474",
+    "entities": [
+      {
+        "pattern": "New Jersey Advanced Autonomous Vehicle Task Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "autonomous vehicles",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Governor",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "New Jersey Motor Vehicle Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Transportation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Alan M. Voorhees Transportation Center",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "SAE J3016 standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "state roads",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "pilot programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Illinois HB 4844 (2024), Section 90 (\"Generative AI and Natural Language Processing Task Force\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "New Jersey (2019) Assembly Joint Resolution 164",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_475",
+    "entities": [
+      {
+        "pattern": "minor",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "class \"D\" felony",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "class \"C\" felony",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "jurisdictions",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "New Jersey (2019) Assembly Joint Resolution 164",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Iowa S 2243 (Sexual Exploitation of Minors, Use of Falsely Created Images)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_476",
+    "entities": [
+      {
+        "pattern": "S.C. Code",
+        "label": "LAW"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "licensee",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Iowa S 2243 (Sexual Exploitation of Minors, Use of Falsely Created Images)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "South Carolina 2023 H 4754 (Section 4)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_477",
+    "entities": [
+      {
+        "pattern": "General Fund",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "Higher Education Coordinating Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "University of Oregon Labor Education and Research Center",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "automation",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Oregon",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "economic industries",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "South Carolina 2023 H 4754 (Section 4)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Oregon Senate Bill 5701",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_478",
+    "entities": [
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "MSMEs",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "G20 AI Principles",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "ethical issues",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "labor market",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "developing countries",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "G20 Repository of Digital Policies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "policy development",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Oregon Senate Bill 5701",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Section I, Subsection 3 \"Human-centered Artificial Intelligence\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_479",
+    "entities": [
+      {
+        "pattern": "New Hanover County Schools",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Davidson County Schools",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI School Safety Pilot Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "school safety systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Joint Legislative Education Oversight Committee",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "public school units",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI system capabilities",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "safety outcomes",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Section I, Subsection 3 \"Human-centered Artificial Intelligence\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "North Carolina House Bill 259",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_480",
+    "entities": [
+      {
+        "pattern": "Center for Equitable Artificial Intelligence and Machine Learning Systems",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Morgan State University",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "General Fund",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "Artificial Intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Machine Learning Systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "North Carolina House Bill 259",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Maryland Senate Bill 360",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

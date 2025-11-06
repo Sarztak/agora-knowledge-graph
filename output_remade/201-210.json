@@ -1,0 +1,484 @@
+[
+  {
+    "document_id": "doc_201",
+    "entities": [
+      {
+        "pattern": "Executive Order 14110",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Office of Management and Budget",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "OMB",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "American innovation",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Executive Order on Advancing United States Leadership in Artificial Intelligence Infrastructure (EO 14141)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Executive Order on Removing Barriers To American Leadership In Artificial Intelligence",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_202",
+    "entities": [
+      {
+        "pattern": "New York AI Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "New York State",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "social scoring AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "private right of action",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Executive Order on Removing Barriers To American Leadership In Artificial Intelligence",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "New York artificial intelligence act (New York AI act)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_203",
+    "entities": [
+      {
+        "pattern": "frontier models",
+        "label": "FRONTIER_AI"
+      },
+      {
+        "pattern": "oversight entity",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cybersecurity standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "interagency body",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "biological",
+        "label": "SAFETY_HARM"
+      },
+      {
+        "pattern": "chemical",
+        "label": "SAFETY_HARM"
+      },
+      {
+        "pattern": "cyber",
+        "label": "SECURITY_HARM"
+      },
+      {
+        "pattern": "nuclear threats",
+        "label": "SAFETY_HARM"
+      },
+      {
+        "pattern": "New York artificial intelligence act (New York AI act)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Framework to Mitigate AI-Enabled Extreme Risks",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_204",
+    "entities": [
+      {
+        "pattern": "AI safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "data security",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "penetration tests",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "incident response protocols",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "Alibaba",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Baidu",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Huawei",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Tencent",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Chinese tech companies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Framework to Mitigate AI-Enabled Extreme Risks",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Safety Commitments (China AI Industry Alliance)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_205",
+    "entities": [
+      {
+        "pattern": "AI safety governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "stakeholders",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "international cooperation",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "data protection",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "risk assessment",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "data security",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "human control",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "sensitive data",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "AI products",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Artificial Intelligence Safety Commitments (China AI Industry Alliance)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI Safety Governance Framework v1.0 (National Technical Committee 260 on Cybersecurity of SAC)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_206",
+    "entities": [
+      {
+        "pattern": "risk assessment",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "Sustainable Development Goals",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "multistakeholder",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "industry",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "academia",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "civil society",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "government",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "post-deployment monitoring",
+        "label": "MONITORING_STAGE"
+      },
+      {
+        "pattern": "AI advancements",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI Safety Governance Framework v1.0 (National Technical Committee 260 on Cybersecurity of SAC)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Joint Statement on Risk Assessment of Advanced AI Systems (International Network of AI Safety Institutes)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_207",
+    "entities": [
+      {
+        "pattern": "Texas Responsible Artificial Intelligence Governance Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Artificial Intelligence Council",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI Regulatory Sandbox Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "civil penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "AI workforce development grants",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "biometric identifiers",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "September 1, 2025",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "Joint Statement on Risk Assessment of Advanced AI Systems (International Network of AI Safety Institutes)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Texas Responsible Artificial Intelligence Governance Act (HB 1709)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_208",
+    "entities": [
+      {
+        "pattern": "AI security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "cyber security training",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "threat modeling",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "risk management",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "human oversight",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "access control",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "vulnerability disclosure policies",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "secure supply chain",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "End-users",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "decommissioning processes",
+        "label": "DECOMMISSION_STAGE"
+      },
+      {
+        "pattern": "Texas Responsible Artificial Intelligence Governance Act (HB 1709)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Code of Practice for the Cyber Security of AI",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_209",
+    "entities": [
+      {
+        "pattern": "Freedom Online Coalition",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "FOC",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Universal Declaration of Human Rights",
+        "label": "LAW"
+      },
+      {
+        "pattern": "human rights",
+        "label": "HUMAN_RIGHTS"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "law enforcement and justice",
+        "label": "JUSTICE"
+      },
+      {
+        "pattern": "public benefits",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Code of Practice for the Cyber Security of AI",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Freedom Online Coalition Joint Statement on Responsible Government Practices for AI Technologies",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_210",
+    "entities": [
+      {
+        "pattern": "Chapter 93M",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "employment",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "healthcare",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "algorithmic discrimination",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "risk management policies",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "impact assessments",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "national standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "unfair trade practices",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Freedom Online Coalition Joint Statement on Responsible Government Practices for AI Technologies",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Massachusetts House Docket 4053 (2025)",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

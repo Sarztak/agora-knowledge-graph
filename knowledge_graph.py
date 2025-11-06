@@ -16,24 +16,26 @@ ruler = nlp.add_pipe("entity_ruler")
 ruler.add_patterns(patterns)
 
 # === 4. Load documents.csv ===
-df = pd.read_csv("/Users/blag/Documents/UChicago MS/2025 Fall/agora-knowledge-graph/data/documents.csv")
-if "Long summary" not in df.columns:
-    raise ValueError("Could not find column 'Long summary' in documents.csv")
+df = pd.read_csv("/Users/blag/Documents/UChicago MS/2025 Fall/agora-knowledge-graph/data/documents_normalized.csv")
+if "Normalized Long Summary" not in df.columns:
+    raise ValueError("Could not find column 'Normalized Long Summary' in documents_normalized.csv")
 
 # === 5. Apply NER to each document ===
 results = []
 
-for i, text in enumerate(df["Long summary"].fillna("")):
+# TODO: index error here
+for i, text in enumerate(df["Normalized Long Summary"].fillna("")):
     doc = nlp(text)
     entities = [
         {"text": ent.text, "label": ent.label_}
         for ent in doc.ents
     ]
     results.append({
-        "index": i,
+        "index": i+1,
         "text": text,
         "entities": entities
     })
+
 
 # === 6. Save results ===
 output_path = "ner_results.json"
@@ -55,7 +57,6 @@ with open("ner_results.json") as f:
 G = nx.DiGraph()
 
 for item in data:
-
     doc = nlp(item["text"]) # doc sentence
     entities = {e["text"]: e["label"] for e in item["entities"]}
 
@@ -72,5 +73,5 @@ for item in data:
                     G.add_node(o, label=entities[o])
                     G.add_edge(s, o, relation=token.lemma_, context=item["index"])
 
-nx.write_gexf(G, "ai_policy_kg_with_dependencies.gexf")
+nx.write_gexf(G, "ai_policy_kg_with_dependencies_2.gexf")
 # View graph at https://lite.gephi.org/v1.0.0/#/

@@ -1,0 +1,448 @@
+[
+  {
+    "document_id": "doc_301",
+    "entities": [
+      {
+        "pattern": "Commandant",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Blue Technology Center of Expertise",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "unmanned maritime systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "satellite vessel tracking technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Coast Guard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "mission requirements",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XC, Section 9004 (\"Department of Homeland Security reports on digital content forgery technology\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title LVXXXIV, Section 8411 (\"Unmanned maritime systems and satellite vessel tracking technologies\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_302",
+    "entities": [
+      {
+        "pattern": "Secretary of the Navy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Navy program executive officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "acquisition executive agent for autonomy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "autonomous technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title LVXXXIV, Section 8411 (\"Unmanned maritime systems and satellite vessel tracking technologies\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title II, Section 218 (\"Executive agent for autonomy\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_303",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Director of the Joint Artificial Intelligence Center",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "acquisition programs",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "congressional defense committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "implementation plan",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "acquisition executive",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "acquisition workforce",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "infrastructure",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title II, Section 218 (\"Executive agent for autonomy\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title VII, Section 808 (\"Acquisition authority of the Director of the Joint Artificial Intelligence Center\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_304",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defence",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Research and Engineering",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Chief Information Officer",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Armed Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Senate",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "House Armed Services Committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Public-Private Exchange programmes",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Artificial Intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "conflict of interest requirements",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title VII, Section 808 (\"Acquisition authority of the Director of the Joint Artificial Intelligence Center\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XI, Section 1102 (\"Enhancement of public-private talent exchange programs in the Department of Defense\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_305",
+    "entities": [
+      {
+        "pattern": "Director of the Space Development Agency",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Space Development Agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "military space-based sensing, tracking, and data transport architecture",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomous battle features",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Space Force",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Office of the Secretary of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "low-Earth orbit",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XI, Section 1102 (\"Enhancement of public-private talent exchange programs in the Department of Defense\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XVI, Section 1601 (\"Space Development Agency development requirements and transfer to Space Force\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_306",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-related education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "software development",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "architecture certification programmes",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "DOD coding language proficiency",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "AI competency tests",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "artificial intelligence competency tests",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "foreign language competency system",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "intelligence agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "computer or digital programming language",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XVI, Section 1601 (\"Space Development Agency development requirements and transfer to Space Force\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title II, Section 241 (\"Measuring and incentivizing programming proficiency\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_307",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI professionals",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "software and data science personnel",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "HR",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "direct hiring authorities",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "subject matter experts",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "ePortfolio reviews",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "referral bonuses",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title II, Section 241 (\"Measuring and incentivizing programming proficiency\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XVII, Section 1751 (\"Guidance and direction on use of direct hiring processes for artificial intelligence professionals and other data science and software development personnel\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_308",
+    "entities": [
+      {
+        "pattern": "Secretary of Defense",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Armed Forces",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cyberexploitation",
+        "label": "SECURITY_HARM"
+      },
+      {
+        "pattern": "policy recommendations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "information warfare",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XVII, Section 1751 (\"Guidance and direction on use of direct hiring processes for artificial intelligence professionals and other data science and software development personnel\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title V, Section 589F (\"Study on cyberexploitation and online deception of members of the Armed Forces and their families\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_309",
+    "entities": [
+      {
+        "pattern": "Executive Agent of the Joint Counter Small Unmanned Aircraft Systems Office",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "unmanned aircraft system",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "autonomous and semi-autonomous systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "military",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "operational requirements",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "plan",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title V, Section 589F (\"Study on cyberexploitation and online deception of members of the Armed Forces and their families\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title I, Section 164 (\"Acceleration of development and fielding of counter unmanned aircraft systems across the joint force\")",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_310",
+    "entities": [
+      {
+        "pattern": "Director of National Intelligence",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "congressional appropriations and intelligence committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "intelligence community directives",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "intelligence",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "plan and timeline",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title I, Section 164 (\"Acceleration of development and fielding of counter unmanned aircraft systems across the joint force\")",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 7510 (\"Requirement to ensure intelligence community directives appropriately account for artificial intelligence and machine learning tools in intelligence products\")",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

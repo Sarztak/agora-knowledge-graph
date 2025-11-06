@@ -1,0 +1,484 @@
+[
+  {
+    "document_id": "doc_551",
+    "entities": [
+      {
+        "pattern": "Secretary of Education",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "computer science education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "STEAM education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI Training Expansion Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Computer Science for All Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_552",
+    "entities": [
+      {
+        "pattern": "FinCEN Modernization Act of 2023",
+        "label": "LAW"
+      },
+      {
+        "pattern": "FinCEN",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Treasury",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data analytics",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "financial systems",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "cryptocurrencies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "money laundering",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "cyber threats",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Congressional committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Computer Science for All Act of 2023",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_553",
+    "entities": [
+      {
+        "pattern": "Environmental Protection Agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "EPA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "hardware",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data centers",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI model design",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NIST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary of Energy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "FinCEN Modernization Act of 2023",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Environmental Impacts Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_554",
+    "entities": [
+      {
+        "pattern": "Under Secretary of Commerce for Oceans and Atmosphere",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Oceanic and Atmospheric Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NOAA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "hazard risk communication office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "research program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "pilot program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Artificial Intelligence Environmental Impacts Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Tornado Observations Research and Notification Assessment for Development of Operations Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_555",
+    "entities": [
+      {
+        "pattern": "Department of Energy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Department of Transportation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Pipeline Modernization Center",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "pipeline technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "pipeline systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "measurement research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "standardization programs",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Tornado Observations Research and Notification Assessment for Development of Operations Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Next Generation Pipelines Research and Development Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_556",
+    "entities": [
+      {
+        "pattern": "Supply Chain Resiliency and Crisis Response Office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Under Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "private sector",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "labor organizations",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "international partners",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "supply chain",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "supply chain resilience",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "domestic manufacturing",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Next Generation Pipelines Research and Development Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Supply Chain Mapping and Monitoring Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_557",
+    "entities": [
+      {
+        "pattern": "Secretary of Energy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "NOAA Administrator",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "advanced computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "weather models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "memorandum of understanding",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "high-performance computing systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "scientific computing infrastructure",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "data sharing",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "computing research initiative",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "National Laboratories",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-enabled computing systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Supply Chain Mapping and Monitoring Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Advanced Weather Model Computing Development Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_558",
+    "entities": [
+      {
+        "pattern": "National Defense Authorization Act for Fiscal Year 2022",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "cyber data products and services",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI-driven endpoint security",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "software supply chain security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Advanced Weather Model Computing Development Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI for National Security Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_559",
+    "entities": [
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NIST",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Director of NIST",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI workforce framework",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Initiative for Cybersecurity Education Workforce Framework for Cybersecurity",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "quantum information science",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI for National Security Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Technology Workforce Framework Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_560",
+    "entities": [
+      {
+        "pattern": "AI-generated audio",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "visual media",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "Federal election",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "injunctive relief",
+        "label": "MECHANISM"
+      },
+      {
+        "pattern": "bona fide news",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "satire",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "attorney's fees",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "Technology Workforce Framework Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Protect Elections from Deceptive AI Act",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

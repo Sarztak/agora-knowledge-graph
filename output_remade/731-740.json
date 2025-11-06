@@ -1,0 +1,480 @@
+[
+  {
+    "document_id": "doc_731",
+    "entities": [
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "fire environment modeling",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "emissions monitoring program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "national security",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "intellectual property",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "weather forecasting",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Earth system modeling",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "greenhouse gas emission models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Forecasting Optimization for Robust Earth Climate Analysis and Subseasonal-to-Seasonal Tracking Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_732",
+    "entities": [
+      {
+        "pattern": "digital social companies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI involvement",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "public repository",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "terms of service",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "end-to-end encryption",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "U.S. District Courts",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Digital Social Platform Transparency Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_733",
+    "entities": [
+      {
+        "pattern": "Secretary of Agriculture",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Director of the National Science Foundation",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "digital agriculture",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "educational institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "nonprofit entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Center for Agricultural Research, Education, and Workforce Development",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "CHIPS Act of 2022",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Digital Social Platform Transparency Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "NSF and USDA Interagency Research Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_734",
+    "entities": [
+      {
+        "pattern": "Chief Data Officer Council",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Chief Artificial Intelligence Officers",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Director",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "United States Code",
+        "label": "LAW"
+      },
+      {
+        "pattern": "data governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "data management report",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Federal data governance",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "NSF and USDA Interagency Research Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Modernizing Data Practices to Improve Government Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_735",
+    "entities": [
+      {
+        "pattern": "AI-generated election media",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "U.S. District Courts",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "National Voter Registration Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Computer Fraud and Abuse Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "states",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "bona fide news entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-generated depictions",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "Modernizing Data Practices to Improve Government Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_736",
+    "entities": [
+      {
+        "pattern": "National Windstorm Impact Reduction Act of 2004",
+        "label": "LAW"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "climate variability",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "interdisciplinary research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "building codes",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "public response",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "funding amounts",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "National Windstorm Impact Reduction Program Reauthorization Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_737",
+    "entities": [
+      {
+        "pattern": "Under Secretary of Defense for Research and Engineering",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AIxBio sandbox",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Department of Defense",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "biological data",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "medical countermeasures",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "biomanufacturing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "National Windstorm Impact Reduction Program Reauthorization Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "H.R. 9626, To direct the Department of Defense to develop a plan for the establishment of a secure computing and data storage environment for the testing of artificial intelligence trained on biological data, and for other purposes.",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_738",
+    "entities": [
+      {
+        "pattern": "Homeland Security Act of 2002",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Under Secretary for Science and Technology",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "NIST AI Risk Management Framework",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "Drug Enforcement Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "law enforcement agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "drug detection and trafficking disruption",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "H.R. 9626, To direct the Department of Defense to develop a plan for the establishment of a secure computing and data storage environment for the testing of artificial intelligence trained on biological data, and for other purposes.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_739",
+    "entities": [
+      {
+        "pattern": "Energy Policy and Conservation Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Flex-Tech Energy Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Secretary",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "State energy agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Indian Tribes",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "advanced manufacturing technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "energy studies",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "State Industrial Competitiveness Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_740",
+    "entities": [
+      {
+        "pattern": "Secretary of Commerce",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI Campaign",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "deepfakes",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "senior citizens",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI-enabled fraud",
+        "label": "ECONOMIC_HARM"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "educational institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Federal Government",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "State Industrial Competitiveness Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Public Awareness and Education Campaign Act",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

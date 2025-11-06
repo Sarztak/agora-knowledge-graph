@@ -1,0 +1,488 @@
+[
+  {
+    "document_id": "doc_701",
+    "entities": [
+      {
+        "pattern": "NSF AI Education Act of 2024",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Director of the National Science Foundation",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Centers of AI Excellence",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI education research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "AI training",
+        "label": "TRAINING_STAGE"
+      },
+      {
+        "pattern": "workforce frameworks for AI",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "anti-discrimination laws",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI Grand Challenges Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_702",
+    "entities": [
+      {
+        "pattern": "Preparing Election Administrators for AI Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Election Assistance Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "State and local election offices",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI-generated information",
+        "label": "SYNTHETIC_DATA"
+      },
+      {
+        "pattern": "cybersecurity risks",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI-driven election disinformation",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "NSF AI Education Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_703",
+    "entities": [
+      {
+        "pattern": "Center for AI Advancement and Reliability",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "AI reliability",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI capabilities",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Under Secretary of Commerce for Standards and Technology",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "Preparing Election Administrators for AI Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI Advancement and Reliability Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_704",
+    "entities": [
+      {
+        "pattern": "algorithmic payment stablecoin",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "non-depository trust company",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "national payment stablecoin issuer",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Board",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "safe harbor regulations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "U.S.",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "foreign authorities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI Advancement and Reliability Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Lummis-Gillibrand Payment Stablecoin Act (Sec. 1-3)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_705",
+    "entities": [
+      {
+        "pattern": "VET Artificial Intelligence Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Director of the National Institute of Standards and Technology",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Institute of Standards and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Artificial Intelligence Assurance Qualifications Advisory Committee",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "international standards",
+        "label": "STANDARD"
+      },
+      {
+        "pattern": "consumer privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "harm mitigation",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "dataset quality",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "Lummis-Gillibrand Payment Stablecoin Act (Sec. 1-3)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Validation and Evaluation for Trustworthy (VET) Artificial Intelligence Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_706",
+    "entities": [
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-enabled efficient technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "EPSCoR institutions",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "federal agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "private sector",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI-enabled technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "energy consumption",
+        "label": "BENCHMARK"
+      },
+      {
+        "pattern": "Senate and House committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Validation and Evaluation for Trustworthy (VET) Artificial Intelligence Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI Innovation and Development for Efficiency Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_707",
+    "entities": [
+      {
+        "pattern": "Secretary of Commerce",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Small Business Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI training resources",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "cybersecurity",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "financial management",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "government contracting",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "AI Innovation and Development for Efficiency Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Small Business Artificial Intelligence Training Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_708",
+    "entities": [
+      {
+        "pattern": "regulatory sandboxes",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "financial entities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI test projects",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "financial regulatory agencies",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI project sponsors",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "data security measures",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "regulations",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "national security",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Small Business Artificial Intelligence Training Act of 2024",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Unleashing AI Innovation in Financial Services Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_709",
+    "entities": [
+      {
+        "pattern": "Department of Energy AI Act",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Department of Energy",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Secretary of Energy",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "AI program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI training datasets",
+        "label": "TRAINING_DATA"
+      },
+      {
+        "pattern": "next-generation computing infrastructure",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI Research and Development Centers",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI Risk Evaluation and Mitigation Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "STEM education",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "AI skill training",
+        "label": "TRAINING_STAGE"
+      },
+      {
+        "pattern": "Office of Critical and Emerging Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "national security",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "energy security",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Unleashing AI Innovation in Financial Services Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_710",
+    "entities": [
+      {
+        "pattern": "Chief Artificial Intelligence Officers Council",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Federal Acquisition Regulation",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI use cases",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI testing",
+        "label": "TESTING_STAGE"
+      },
+      {
+        "pattern": "AI risks",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "AI inventories",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "risk classification systems",
+        "label": "REQUIREMENT"
+      },
+      {
+        "pattern": "facial features",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "biometric data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "sensitive traits",
+        "label": "SENSITIVE_DATA"
+      },
+      {
+        "pattern": "public disclosure",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "Department of Energy AI Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Promoting Responsible Evaluation and Procurement to Advance Readiness for Enterprise-wide Deployment for Artificial Intelligence Act",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]

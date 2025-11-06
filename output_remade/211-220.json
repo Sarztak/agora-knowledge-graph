@@ -1,0 +1,556 @@
+[
+  {
+    "document_id": "doc_211",
+    "entities": [
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "automated decision-making technology",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "consumer data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "financial",
+        "label": "FINANCE"
+      },
+      {
+        "pattern": "employment",
+        "label": "EMPLOYMENT"
+      },
+      {
+        "pattern": "educational",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "Pre-use Notices",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "human review",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "protected classes",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "consumer privacy",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "Massachusetts House Docket 4053 (2025)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "California Privacy Protection Agency Draft Risk Assessment and Automated Decisionmaking Technology Regulations ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_212",
+    "entities": [
+      {
+        "pattern": "Executive Order 14105",
+        "label": "LAW"
+      },
+      {
+        "pattern": "Department of the Treasury",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "U.S. persons",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "national security technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "countries of concern",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "military",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "intelligence",
+        "label": "MILITARY"
+      },
+      {
+        "pattern": "surveillance",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "Secretary of the Treasury",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Attorney General",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "California Privacy Protection Agency Draft Risk Assessment and Automated Decisionmaking Technology Regulations ",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Provisions Pertaining to U.S. Investments in Certain National Security Technologies and Products in Countries of Concern ",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_213",
+    "entities": [
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "personal data",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "privacy rights",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "stakeholders",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "AI systems",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "safety",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "Law",
+        "label": "LAW"
+      },
+      {
+        "pattern": "supervisory authorities",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Provisions Pertaining to U.S. Investments in Certain National Security Technologies and Products in Countries of Concern ",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Artificial Intelligence Law Proposal (Grand National Assembly of Turkey)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_214",
+    "entities": [
+      {
+        "pattern": "CalCompute",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "public cloud computing framework",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "whistleblower protections",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI risks",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "misinformation",
+        "label": "SOCIAL_HARM"
+      },
+      {
+        "pattern": "attorney’s fees",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "injunctive relief",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "developers",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "employee protections",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "Artificial Intelligence Law Proposal (Grand National Assembly of Turkey)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "California SB 53",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_215",
+    "entities": [
+      {
+        "pattern": "ethics committees",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "S&T activities",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "fairness",
+        "label": "FAIRNESS"
+      },
+      {
+        "pattern": "controllability",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "reliability",
+        "label": "SAFETY"
+      },
+      {
+        "pattern": "national data security",
+        "label": "PRIVACY"
+      },
+      {
+        "pattern": "penalties",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "national ethics management registry",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "Ministry of Science and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "governance of AI research",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "California SB 53",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "(Trial) Measures for Science and Technology Ethics Reviews (Draft for Feedback)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_216",
+    "entities": [
+      {
+        "pattern": "National Science and Technology Ethics Commission",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Ministry of Science and Technology",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "S&T ethics",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "AI",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "life sciences",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "medicine",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "local governments",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "legislative development",
+        "label": "POLICY"
+      },
+      {
+        "pattern": "accountability",
+        "label": "ACCOUNTABILITY"
+      },
+      {
+        "pattern": "S&T personnel",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "educational initiatives",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "public",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "punitive measures",
+        "label": "PENALTY"
+      },
+      {
+        "pattern": "government-funded activities",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "(Trial) Measures for Science and Technology Ethics Reviews (Draft for Feedback)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Guiding Opinions on Strengthening the Governance of Science and Technology Ethics (Draft for Feedback)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_217",
+    "entities": [
+      {
+        "pattern": "IT Department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI products",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "AI-generated content",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "public communications",
+        "label": "DOCUMENT"
+      },
+      {
+        "pattern": "transparency",
+        "label": "TRANSPARENCY"
+      },
+      {
+        "pattern": "sensitive or private information",
+        "label": "PERSONAL_DATA"
+      },
+      {
+        "pattern": "Information Technology department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "public services",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Guiding Opinions on Strengthening the Governance of Science and Technology Ethics (Draft for Feedback)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Boise Regulations 4.30q City Use of Artificial Intelligence (AI)",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_218",
+    "entities": [
+      {
+        "pattern": "federal agency",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Senior Executive Service",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "emerging technology lead",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "emerging technologies",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "President",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Boise Regulations 4.30q City Use of Artificial Intelligence (AI)",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "Oversee Emerging Technology Act",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_219",
+    "entities": [
+      {
+        "pattern": "National Oceanic and Atmospheric Administration",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "NOAA",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "Earth System Models",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "high performance computing",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "machine learning",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "artificial intelligence",
+        "label": "TECHNOLOGY"
+      },
+      {
+        "pattern": "Federal",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "State",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "local",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "Tribal",
+        "label": "GOVERNMENT"
+      },
+      {
+        "pattern": "academic",
+        "label": "EDUCATION"
+      },
+      {
+        "pattern": "program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "Oversee Emerging Technology Act",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "To establish in the National Oceanic and Atmospheric Administration a program to improve precipitation forecasts, and for other purposes.",
+        "label": "BILL NAME"
+      }
+    ]
+  },
+  {
+    "document_id": "doc_220",
+    "entities": [
+      {
+        "pattern": "AI Grand Challenges Program",
+        "label": "PROGRAM"
+      },
+      {
+        "pattern": "AI research",
+        "label": "RESEARCH_STAGE"
+      },
+      {
+        "pattern": "Director of the National Science Foundation",
+        "label": "ROLE"
+      },
+      {
+        "pattern": "National Science Foundation",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "AI-enabled cancer breakthroughs",
+        "label": "HEALTHCARE"
+      },
+      {
+        "pattern": "U.S.-based",
+        "label": "GEOGRAPHIC"
+      },
+      {
+        "pattern": "U.S. citizens",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "permanent residents",
+        "label": "STAKEHOLDER"
+      },
+      {
+        "pattern": "Congress",
+        "label": "ORGANIZATION"
+      },
+      {
+        "pattern": "To establish in the National Oceanic and Atmospheric Administration a program to improve precipitation forecasts, and for other purposes.",
+        "label": "BILL NAME"
+      },
+      {
+        "pattern": "AI Grand Challenges Act of 2024",
+        "label": "BILL NAME"
+      }
+    ]
+  }
+]
