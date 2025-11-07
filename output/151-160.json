@@ -1,0 +1,170 @@
+[
+{
+"document_id": "doc_151",
+"entities": [
+{ "pattern": "Centre for Data Ethics and Innovation", "label": "ORGANIZATION" },
+{ "pattern": "AI Ethics Advisory Panel", "label": "PROGRAM" },
+{ "pattern": "International Humanitarian Law", "label": "LAW" },
+{ "pattern": "algorithmic bias", "label": "FAIRNESS" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "human oversight", "label": "ACCOUNTABILITY" },
+{ "pattern": "autonomous weapon systems", "label": "TECHNOLOGY" },
+{ "pattern": "lethal autonomous weapons systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI-enabled weapons systems", "label": "TECHNOLOGY" },
+{ "pattern": "defense", "label": "MILITARY" },
+{ "pattern": "AI-empowered defense systems", "label": "TECHNOLOGY" },
+{ "pattern": "stakeholder", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_152",
+"entities": [
+{ "pattern": "Department of Agriculture", "label": "ORGANIZATION" },
+{ "pattern": "Commodity Credit Corporation", "label": "ORGANIZATION" },
+{ "pattern": "research and extension grant program", "label": "PROGRAM" },
+{ "pattern": "mechanization and automation", "label": "TECHNOLOGY" },
+{ "pattern": "autonomy", "label": "TECHNOLOGY" },
+{ "pattern": "resource management", "label": "TECHNOLOGY" },
+{ "pattern": "specialty crops committee", "label": "ORGANIZATION" },
+{ "pattern": "scientific peer review", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_153",
+"entities": [
+{ "pattern": "National Science Foundation", "label": "ORGANIZATION" },
+{ "pattern": "Secretary of State", "label": "ROLE" },
+{ "pattern": "export control regulations", "label": "LAW" },
+{ "pattern": "AI research partnerships", "label": "PROGRAM" },
+{ "pattern": "AI research collaborations", "label": "PROGRAM" },
+{ "pattern": "AI leadership", "label": "PROGRAM" },
+{ "pattern": "workforce development", "label": "EMPLOYMENT" },
+{ "pattern": "national security", "label": "SECURITY_HARM" },
+{ "pattern": "foreign policy", "label": "GOVERNMENT" },
+{ "pattern": "congressional committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_154",
+"entities": [
+{ "pattern": "National AI Initiative Act", "label": "LAW" },
+{ "pattern": "National Science Foundation", "label": "ORGANIZATION" },
+{ "pattern": "AI research", "label": "TECHNOLOGY" },
+{ "pattern": "education", "label": "EDUCATION" },
+{ "pattern": "workforce development", "label": "EMPLOYMENT" },
+{ "pattern": "AI research institutes", "label": "ORGANIZATION" },
+{ "pattern": "ethical AI education", "label": "POLICY" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" },
+{ "pattern": "diversity", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_155",
+"entities": [
+{ "pattern": "Artificial Intelligence and Data Act", "label": "LAW" },
+{ "pattern": "AIDA", "label": "LAW" },
+{ "pattern": "Minister of Innovation, Science, and Industry", "label": "ROLE" },
+{ "pattern": "AI and Data Commissioner", "label": "ROLE" },
+{ "pattern": "EU AI Act", "label": "LAW" },
+{ "pattern": "Canada", "label": "GEOGRAPHIC" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "criminal law", "label": "LAW" },
+{ "pattern": "biometric identification", "label": "TECHNOLOGY" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" },
+{ "pattern": "health and safety", "label": "HEALTHCARE" }
+]
+},
+{
+"document_id": "doc_156",
+"entities": [
+{ "pattern": "Chapter 93M", "label": "LAW" },
+{ "pattern": "Massachusetts", "label": "GEOGRAPHIC" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "algorithmic discrimination", "label": "FAIRNESS" },
+{ "pattern": "consumer protection", "label": "POLICY" },
+{ "pattern": "consumer targeting", "label": "CONSUMER" },
+{ "pattern": "behavior influence", "label": "CONSUMER" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "AI consumer rights", "label": "POLICY" },
+{ "pattern": "risk management programs", "label": "REQUIREMENT" },
+{ "pattern": "public education campaign", "label": "PROGRAM" },
+{ "pattern": "unfair trade practices", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_157",
+"entities": [
+{ "pattern": "City Administrator’s Office", "label": "ORGANIZATION" },
+{ "pattern": "Office of Cybersecurity", "label": "ORGANIZATION" },
+{ "pattern": "AI-generated content", "label": "TECHNOLOGY" },
+{ "pattern": "Generative AI tools", "label": "TECHNOLOGY" },
+{ "pattern": "IT leaders", "label": "ROLE" },
+{ "pattern": "AI tools", "label": "TECHNOLOGY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "human review", "label": "ACCOUNTABILITY" },
+{ "pattern": "vendors", "label": "STAKEHOLDER" },
+{ "pattern": "guidelines", "label": "POLICY" },
+{ "pattern": "AI risks", "label": "SAFETY" },
+{ "pattern": "data", "label": "PERSONAL_DATA" },
+{ "pattern": "legislative frameworks", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_158",
+"entities": [
+{ "pattern": "Ohio", "label": "GEOGRAPHIC" },
+{ "pattern": "AI Council", "label": "ORGANIZATION" },
+{ "pattern": "Ohio Department of Administrative Services", "label": "ORGANIZATION" },
+{ "pattern": "Chief Data Officer Council", "label": "ORGANIZATION" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "generative AI", "label": "TECHNOLOGY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "security", "label": "SAFETY" },
+{ "pattern": "ethical considerations", "label": "POLICY" },
+{ "pattern": "data governance", "label": "POLICY" },
+{ "pattern": "data protection", "label": "PRIVACY" },
+{ "pattern": "bias", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_159",
+"entities": [
+{ "pattern": "AI Subcabinet", "label": "ORGANIZATION" },
+{ "pattern": "Maryland", "label": "GEOGRAPHIC" },
+{ "pattern": "NIST’s AI Risk Management Framework", "label": "STANDARD" },
+{ "pattern": "Department of Information Technology", "label": "ORGANIZATION" },
+{ "pattern": "Department of General Services", "label": "ORGANIZATION" },
+{ "pattern": "AI Action Plan", "label": "DOCUMENT" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "legislature", "label": "ORGANIZATION" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "fairness", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_160",
+"entities": [
+{ "pattern": "Georgia", "label": "GEOGRAPHIC" },
+{ "pattern": "Georgia Technology Authority", "label": "ORGANIZATION" },
+{ "pattern": "GTA", "label": "ORGANIZATION" },
+{ "pattern": "NIST", "label": "ORGANIZATION" },
+{ "pattern": "Enterprise's Data Protection Policies", "label": "POLICY" },
+{ "pattern": "State CIO", "label": "ROLE" },
+{ "pattern": "GTA OIS", "label": "ORGANIZATION" },
+{ "pattern": "AI misuse", "label": "MISUSE_RISK" },
+{ "pattern": "AI development", "label": "TRAINING_STAGE" },
+{ "pattern": "testing and monitoring", "label": "TESTING_STAGE" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "ethics", "label": "POLICY" },
+{ "pattern": "data protection", "label": "PRIVACY" },
+{ "pattern": "safety", "label": "SAFETY" }
+]
+}
+]

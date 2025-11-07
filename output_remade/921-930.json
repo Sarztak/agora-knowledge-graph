@@ -47,10 +47,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Colorado House Bill 1147",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Tennessee Senate Bill 1711",
         "label": "BILL NAME"
       }
@@ -86,10 +82,6 @@
       {
         "pattern": "Department",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Tennessee Senate Bill 1711",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Maryland House Bill 1128",
@@ -129,10 +121,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Maryland House Bill 1128",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Washington Senate Bill 5152",
         "label": "BILL NAME"
       }
@@ -168,10 +156,6 @@
       {
         "pattern": "Nebraska",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "Washington Senate Bill 5152",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Nebraska L 1284 (Teacher Incentive Programs), Sec. 2.",
@@ -215,10 +199,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Nebraska L 1284 (Teacher Incentive Programs), Sec. 2.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Idaho House Bill 2472",
         "label": "BILL NAME"
       }
@@ -238,10 +218,6 @@
       {
         "pattern": "intimate images",
         "label": "SENSITIVE_DATA"
-      },
-      {
-        "pattern": "Idaho House Bill 2472",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New York Senate Bill 1042",
@@ -281,10 +257,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "New York Senate Bill 1042",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "New York Senate Bill 9678",
         "label": "BILL NAME"
       }
@@ -312,10 +284,6 @@
       {
         "pattern": "Arizona",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "New York Senate Bill 9678",
-        "label": "BILL NAME"
       },
       {
         "pattern": "State of Arizona Senate Bill 1565, An Act Amending Sections 16-442, 16-552 and 16-621, Arizona Revised Statutes; Relating to Conduct of Elections.",
@@ -357,10 +325,6 @@
       {
         "pattern": "international cooperation",
         "label": "POLICY"
-      },
-      {
-        "pattern": "State of Arizona Senate Bill 1565, An Act Amending Sections 16-442, 16-552 and 16-621, Arizona Revised Statutes; Relating to Conduct of Elections.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "UN General Assembly Resolution A/78/L.49 (\"Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development\"",
@@ -414,10 +378,6 @@
       {
         "pattern": "fines",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "UN General Assembly Resolution A/78/L.49 (\"Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development\"",
-        "label": "BILL NAME"
       },
       {
         "pattern": "A Bill in the District of Columbia to prohibit users of algorithmic decision-making from utilizing algorithmic eligibility determinations in a discriminatory manner, to require corresponding notices to individuals whose personal information is used, and to provide for appropriate means of civil enforcement.",

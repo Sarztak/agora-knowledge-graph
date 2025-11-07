@@ -1,0 +1,133 @@
+[
+{
+"document_id": "doc_011",
+"entities": [
+{ "pattern": "Government Code", "label": "LAW" },
+{ "pattern": "Section 230 of Title 47 of the U.S. Code", "label": "LAW" },
+{ "pattern": "Commission", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "interactive service providers", "label": "STAKEHOLDER" },
+{ "pattern": "disclosure", "label": "TRANSPARENCY" },
+{ "pattern": "injunctive relief", "label": "ACCOUNTABILITY" },
+{ "pattern": "administrative or civil remedies", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_012",
+"entities": [
+{ "pattern": "California Civil Code", "label": "LAW" },
+{ "pattern": "AI-generated digital replicas", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of State", "label": "ORGANIZATION" },
+{ "pattern": "posthumous rights", "label": "LAW" },
+{ "pattern": "public records", "label": "DOCUMENT" },
+{ "pattern": "unauthorized use", "label": "REQUIREMENT" }
+]
+},
+{
+"document_id": "doc_013",
+"entities": [
+{ "pattern": "Generative AI", "label": "TECHNOLOGY" },
+{ "pattern": "Executive Order N-12-23", "label": "LAW" },
+{ "pattern": "GenAI pilot projects", "label": "PROGRAM" },
+{ "pattern": "Civil Code Section 1798.3", "label": "LAW" },
+{ "pattern": "personal information", "label": "PRIVACY" },
+{ "pattern": "sensitive personal information", "label": "SENSITIVE_DATA" },
+{ "pattern": "educational records", "label": "SENSITIVE_DATA" },
+{ "pattern": "medical information", "label": "SENSITIVE_DATA" },
+{ "pattern": "California's GenAI Guidelines", "label": "POLICY" },
+{ "pattern": "de-identified data", "label": "DATA_TYPE" }
+]
+},
+{
+"document_id": "doc_014",
+"entities": [
+{ "pattern": "California AI Transparency Act", "label": "LAW" },
+{ "pattern": "generative AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI detection tools", "label": "TECHNOLOGY" },
+{ "pattern": "system provenance data", "label": "TRANSPARENCY" },
+{ "pattern": "personal provenance data", "label": "PRIVACY" },
+{ "pattern": "personal information", "label": "PRIVACY" },
+{ "pattern": "AI-generated content", "label": "TECHNOLOGY" },
+{ "pattern": "GenAI systems", "label": "TECHNOLOGY" },
+{ "pattern": "civil penalties", "label": "PENALTY" },
+{ "pattern": "entertainment products", "label": "CONSUMER" }
+]
+},
+{
+"document_id": "doc_015",
+"entities": [
+{ "pattern": "health care service plans", "label": "HEALTHCARE" },
+{ "pattern": "disability insurers", "label": "FINANCE" },
+{ "pattern": "AI tools", "label": "TECHNOLOGY" },
+{ "pattern": "clinical data", "label": "SENSITIVE_DATA" },
+{ "pattern": "licensed professionals", "label": "ROLE" },
+{ "pattern": "state and federal laws", "label": "LAW" },
+{ "pattern": "audits", "label": "ACCOUNTABILITY" },
+{ "pattern": "privacy laws", "label": "PRIVACY" },
+{ "pattern": "AI usage policies", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_016",
+"entities": [
+{ "pattern": "commission", "label": "ORGANIZATION" },
+{ "pattern": "AI literacy", "label": "EDUCATION" },
+{ "pattern": "mathematics, science, and history-social science curriculum frameworks", "label": "DOCUMENT" },
+{ "pattern": "state board", "label": "ORGANIZATION" },
+{ "pattern": "media literacy", "label": "EDUCATION" },
+{ "pattern": "English language arts and English language development", "label": "EDUCATION" }
+]
+},
+{
+"document_id": "doc_017",
+"entities": [
+{ "pattern": "Communications Act of 1934", "label": "LAW" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Federal Trade Commission", "label": "ORGANIZATION" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "restitution", "label": "ACCOUNTABILITY" },
+{ "pattern": "forfeiture", "label": "ACCOUNTABILITY" },
+{ "pattern": "digital forgeries", "label": "TECHNOLOGY" },
+{ "pattern": "user-generated content", "label": "CONSUMER" }
+]
+},
+{
+"document_id": "doc_018",
+"entities": [
+{ "pattern": "TAKE IT DOWN Act", "label": "LAW" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "digital forgeries", "label": "TECHNOLOGY" },
+{ "pattern": "Federal Trade Commission", "label": "ORGANIZATION" },
+{ "pattern": "user-generated content", "label": "CONSUMER" },
+{ "pattern": "public websites or applications", "label": "CONSUMER" },
+{ "pattern": "lawful or investigative purposes", "label": "JUSTICE" },
+{ "pattern": "nonconsensual intimate visual depictions", "label": "PRIVACY_HARM" }
+]
+},
+{
+"document_id": "doc_019",
+"entities": [
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "developer", "label": "STAKEHOLDER" },
+{ "pattern": "generative artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "synthetic data generation", "label": "SYNTHETIC_DATA" },
+{ "pattern": "training data documentation", "label": "DOCUMENT" },
+{ "pattern": "personal information", "label": "PRIVACY" },
+{ "pattern": "intellectual property", "label": "LAW" },
+{ "pattern": "security", "label": "SAFETY" },
+{ "pattern": "national airspace", "label": "GEOGRAPHIC" },
+{ "pattern": "national security and defense", "label": "MILITARY" },
+{ "pattern": "federal entities", "label": "GOVERNMENT" }
+]
+},
+{
+"document_id": "doc_020",
+"entities": [
+{ "pattern": "Public Utilities Code", "label": "LAW" },
+{ "pattern": "automatic dialing-announcing devices", "label": "TECHNOLOGY" },
+{ "pattern": "artificial voice", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "organization", "label": "ORGANIZATION" }
+]
+}
+]

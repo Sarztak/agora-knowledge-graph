@@ -422,10 +422,6 @@
         "label": "CONSUMER"
       },
       {
-        "pattern": "Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An Act to amend Tennessee Code Annotated, Title 39, Chapter 14, Part 1 and Title 47, relative to the protection of personal rights.",
         "label": "BILL NAME"
       }
@@ -467,10 +463,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "An Act to amend Tennessee Code Annotated, Title 39, Chapter 14, Part 1 and Title 47, relative to the protection of personal rights.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 235 (\"Competitive demonstration of automated target recognition algorithms\")",
         "label": "BILL NAME"
       }
@@ -502,10 +494,6 @@
       {
         "pattern": "policies",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 235 (\"Competitive demonstration of automated target recognition algorithms\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1547 (\"Joint partner-sharing network capabilities for Middle East defense integration\")",

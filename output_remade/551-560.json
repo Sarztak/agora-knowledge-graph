@@ -19,10 +19,6 @@
         "label": "EDUCATION"
       },
       {
-        "pattern": "AI Training Expansion Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Computer Science for All Act of 2023",
         "label": "BILL NAME"
       }
@@ -70,10 +66,6 @@
       {
         "pattern": "Congressional committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Computer Science for All Act of 2023",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -129,10 +121,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "FinCEN Modernization Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence Environmental Impacts Act of 2024",
         "label": "BILL NAME"
       }
@@ -172,10 +160,6 @@
       {
         "pattern": "pilot program",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Artificial Intelligence Environmental Impacts Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Tornado Observations Research and Notification Assessment for Development of Operations Act",
@@ -231,10 +215,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Tornado Observations Research and Notification Assessment for Development of Operations Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Next Generation Pipelines Research and Development Act",
         "label": "BILL NAME"
       }
@@ -282,10 +262,6 @@
       {
         "pattern": "domestic manufacturing",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Next Generation Pipelines Research and Development Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Supply Chain Mapping and Monitoring Act",
@@ -349,10 +325,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Supply Chain Mapping and Monitoring Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Advanced Weather Model Computing Development Act",
         "label": "BILL NAME"
       }
@@ -384,10 +356,6 @@
       {
         "pattern": "AI",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Advanced Weather Model Computing Development Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI for National Security Act",
@@ -431,10 +399,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "AI for National Security Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Technology Workforce Framework Act of 2024",
         "label": "BILL NAME"
       }
@@ -470,10 +434,6 @@
       {
         "pattern": "attorney's fees",
         "label": "FINANCE"
-      },
-      {
-        "pattern": "Technology Workforce Framework Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Protect Elections from Deceptive AI Act",

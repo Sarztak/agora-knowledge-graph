@@ -27,10 +27,6 @@
         "label": "REQUIREMENT"
       },
       {
-        "pattern": "New Mexico SM 63",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Texas HB 4695 ",
         "label": "BILL NAME"
       }
@@ -76,10 +72,6 @@
         "label": "SENSITIVE_DATA"
       },
       {
-        "pattern": "Texas HB 4695 ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "New Jersey SB 3876",
         "label": "BILL NAME"
       }
@@ -103,10 +95,6 @@
       {
         "pattern": "act",
         "label": "LAW"
-      },
-      {
-        "pattern": "New Jersey SB 3876",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New York A7106",
@@ -166,10 +154,6 @@
         "label": "MECHANISM"
       },
       {
-        "pattern": "New York A7106",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Massachusetts Bill S. 31",
         "label": "BILL NAME"
       }
@@ -223,10 +207,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Massachusetts Bill S. 31",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Massachusetts Bill H.64",
         "label": "BILL NAME"
       }
@@ -272,10 +252,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Massachusetts Bill H.64",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "New York Bill A5309",
         "label": "BILL NAME"
       }
@@ -295,10 +271,6 @@
       {
         "pattern": "collective bargaining agreements",
         "label": "POLICY"
-      },
-      {
-        "pattern": "New York Bill A5309",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New York S7422",
@@ -350,10 +322,6 @@
         "label": "FAIRNESS"
       },
       {
-        "pattern": "New York S7422",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Australia’s AI Ethics Principles",
         "label": "BILL NAME"
       }
@@ -403,10 +371,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Australia’s AI Ethics Principles",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Maintaining American Leadership in Artificial Intelligence (EO 13859)",
         "label": "BILL NAME"
       }
@@ -454,10 +418,6 @@
       {
         "pattern": "independent audits",
         "label": "MONITORING_STAGE"
-      },
-      {
-        "pattern": "Maintaining American Leadership in Artificial Intelligence (EO 13859)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "NSTC/OSTP Framework for Nucleic Acid Synthesis Screening",

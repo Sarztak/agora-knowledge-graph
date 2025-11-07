@@ -1,0 +1,146 @@
+[
+{
+"document_id": "doc_681",
+"entities": [
+{ "pattern": "National Advisory Committee on Autonomous Maritime Systems", "label": "ORGANIZATION" },
+{ "pattern": "Secretary", "label": "ROLE" },
+{ "pattern": "Autonomous Systems", "label": "TECHNOLOGY" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "port authorities", "label": "ORGANIZATION" },
+{ "pattern": "labor unions", "label": "ORGANIZATION" },
+{ "pattern": "academic institutions", "label": "ORGANIZATION" },
+{ "pattern": "maritime pilots", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_682",
+"entities": [
+{ "pattern": "foreign adversary controlled applications", "label": "TECHNOLOGY" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "U.S. Court of Appeals for the District of Columbia Circuit", "label": "ORGANIZATION" },
+{ "pattern": "qualified divestiture", "label": "POLICY" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "data portability", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_683",
+"entities": [
+{ "pattern": "United States", "label": "GEOGRAPHIC" },
+{ "pattern": "precision agriculture", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary", "label": "ROLE" },
+{ "pattern": "NIST", "label": "ORGANIZATION" },
+{ "pattern": "FCC", "label": "ORGANIZATION" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Comptroller General", "label": "ROLE" },
+{ "pattern": "Senate", "label": "ORGANIZATION" },
+{ "pattern": "House", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_684",
+"entities": [
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "Chinese influence", "label": "GEOGRAPHIC" },
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "ByteDance", "label": "ORGANIZATION" },
+{ "pattern": "TikTok", "label": "ORGANIZATION" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "U.S. jurisdiction", "label": "GEOGRAPHIC" },
+{ "pattern": "sanctions", "label": "PENALTY" },
+{ "pattern": "national security", "label": "GOVERNMENT" }
+]
+},
+{
+"document_id": "doc_685",
+"entities": [
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "FTC", "label": "ORGANIZATION" },
+{ "pattern": "Federal Trade Commission Act", "label": "LAW" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "consumers", "label": "STAKEHOLDER" },
+{ "pattern": "third-party entities", "label": "STAKEHOLDER" },
+{ "pattern": "de-identified data", "label": "PERSONAL_DATA" }
+]
+},
+{
+"document_id": "doc_686",
+"entities": [
+{ "pattern": "Office of Technology for Peace", "label": "ORGANIZATION" },
+{ "pattern": "Department", "label": "ORGANIZATION" },
+{ "pattern": "Assistant Secretary for Technology for Peace", "label": "ROLE" },
+{ "pattern": "Department of State", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "transportation", "label": "TRANSPORTATION" },
+{ "pattern": "communications", "label": "TECHNOLOGY" },
+{ "pattern": "agriculture", "label": "AGRICULTURE" },
+{ "pattern": "medicine", "label": "HEALTHCARE" },
+{ "pattern": "energy", "label": "TECHNOLOGY" },
+{ "pattern": "conservation", "label": "POLICY" },
+{ "pattern": "sustainability", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_687",
+"entities": [
+{ "pattern": "Export Enforcement Coordination Center", "label": "ORGANIZATION" },
+{ "pattern": "Department of Homeland Security", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "semiconductors", "label": "TECHNOLOGY" },
+{ "pattern": "quantum technology", "label": "TECHNOLOGY" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "Russia", "label": "GEOGRAPHIC" },
+{ "pattern": "Iran", "label": "GEOGRAPHIC" },
+{ "pattern": "North Korea", "label": "GEOGRAPHIC" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "law enforcement officials", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_688",
+"entities": [
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "robotics", "label": "TECHNOLOGY" },
+{ "pattern": "quantum information science", "label": "TECHNOLOGY" },
+{ "pattern": "International Emergency Economic Powers Act", "label": "LAW" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_689",
+"entities": [
+{ "pattern": "Secretary of the Treasury", "label": "ROLE" },
+{ "pattern": "Secretary of Homeland Security", "label": "ROLE" },
+{ "pattern": "Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "financial crimes", "label": "FINANCE" },
+{ "pattern": "deepfakes", "label": "SYNTHETIC_DATA" },
+{ "pattern": "voice cloning", "label": "TECHNOLOGY" },
+{ "pattern": "foreign election interference", "label": "GOVERNMENT" },
+{ "pattern": "synthetic identities", "label": "SYNTHETIC_DATA" },
+{ "pattern": "false market signals", "label": "FINANCE" },
+{ "pattern": "digital fraud", "label": "ECONOMIC_HARM" }
+]
+},
+{
+"document_id": "doc_690",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "NOAA", "label": "ORGANIZATION" },
+{ "pattern": "Earth system reanalysis dataset", "label": "DOCUMENT" },
+{ "pattern": "AI weather models", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Energy", "label": "ORGANIZATION" },
+{ "pattern": "energy grids", "label": "TECHNOLOGY" },
+{ "pattern": "wildfire detection", "label": "SAFETY" },
+{ "pattern": "emissions monitoring", "label": "TECHNOLOGY" },
+{ "pattern": "illegal wood product tracking", "label": "TECHNOLOGY" },
+{ "pattern": "AI code and data", "label": "TRAINING_DATA" },
+{ "pattern": "national security", "label": "GOVERNMENT" }
+]
+}
+]

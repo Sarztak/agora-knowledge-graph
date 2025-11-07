@@ -35,10 +35,6 @@
         "label": "REQUIREMENT"
       },
       {
-        "pattern": "Maryland Senate Bill 360",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Maryland Senate Bill 1068",
         "label": "BILL NAME"
       }
@@ -70,10 +66,6 @@
       {
         "pattern": "workers",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "Maryland Senate Bill 1068",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Washington Senate Bill 5950",
@@ -113,10 +105,6 @@
         "label": "SYNTHETIC_DATA"
       },
       {
-        "pattern": "Washington Senate Bill 5950",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "DEEPFAKES Accountability Act, Sec. 2 (\"Transparency Requirements\")",
         "label": "BILL NAME"
       }
@@ -152,10 +140,6 @@
       {
         "pattern": "report",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "DEEPFAKES Accountability Act, Sec. 2 (\"Transparency Requirements\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Sensible Classification Act of 2023",
@@ -207,10 +191,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Sensible Classification Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Federal AI Governance and Transparency Act",
         "label": "BILL NAME"
       }
@@ -250,10 +230,6 @@
       {
         "pattern": "governmental agencies",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Federal AI Governance and Transparency Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "To direct the Director of the National Institutes of Health to establish a grant program to facilitate research regarding the use of generative artificial intelligence in health care, and for other purposes.",
@@ -305,10 +281,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "To direct the Director of the National Institutes of Health to establish a grant program to facilitate research regarding the use of generative artificial intelligence in health care, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Anthropic Responsible Scaling Policy",
         "label": "BILL NAME"
       }
@@ -340,10 +312,6 @@
       {
         "pattern": "intimate visual depiction",
         "label": "SYNTHETIC_DATA"
-      },
-      {
-        "pattern": "Anthropic Responsible Scaling Policy",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act",
@@ -385,10 +353,6 @@
       {
         "pattern": "consortium",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act (SB 1047)",
@@ -434,10 +398,6 @@
       {
         "pattern": "security",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act (SB 1047)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "OpenAI Charter",

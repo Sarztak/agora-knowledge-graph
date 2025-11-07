@@ -1,0 +1,154 @@
+[
+{
+"document_id": "doc_521",
+"entities": [
+{ "pattern": "Secretary of Health and Human Services", "label": "ROLE" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" },
+{ "pattern": "Public Health Service Act", "label": "LAW" },
+{ "pattern": "biological weapons", "label": "SAFETY_HARM" },
+{ "pattern": "drug-resistant viruses and bacteria", "label": "SAFETY_HARM" },
+{ "pattern": "congressional committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_522",
+"entities": [
+{ "pattern": "artificial intelligence regulation", "label": "POLICY" },
+{ "pattern": "financial services industry", "label": "FINANCE" },
+{ "pattern": "artificial intelligence bug bounty programs", "label": "PROGRAM" },
+{ "pattern": "vulnerability analysis study", "label": "RESEARCH_STAGE" },
+{ "pattern": "artificial intelligence-enabled military applications", "label": "MILITARY" },
+{ "pattern": "data sharing and coordination", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_523",
+"entities": [
+{ "pattern": "covered algorithm", "label": "TECHNOLOGY" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "bias", "label": "FAIRNESS" },
+{ "pattern": "discrimination", "label": "DISCRIMINATION_HARM" },
+{ "pattern": "algorithmic harms", "label": "STRUCTURAL_RISK" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "Department of Justice", "label": "ORGANIZATION" },
+{ "pattern": "Civil Rights Division", "label": "ORGANIZATION" },
+{ "pattern": "interagency working group", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_524",
+"entities": [
+{ "pattern": "Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Export Control Classification Number 3A090", "label": "STANDARD" },
+{ "pattern": "Export Control Classification Number 4A090", "label": "STANDARD" },
+{ "pattern": "Export Administration Regulations", "label": "LAW" },
+{ "pattern": "People’s Republic of China", "label": "GEOGRAPHIC" },
+{ "pattern": "Macau", "label": "GEOGRAPHIC" },
+{ "pattern": "integrated circuits", "label": "TECHNOLOGY" },
+{ "pattern": "US persons", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_525",
+"entities": [
+{ "pattern": "Director of the National Institute of Standards and Technology", "label": "ROLE" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "NIST", "label": "ORGANIZATION" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "emerging technology standards development", "label": "STANDARD" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "U.S. industry", "label": "STAKEHOLDER" },
+{ "pattern": "international standards efforts", "label": "STANDARD" },
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "grants", "label": "FINANCE" },
+{ "pattern": "fiscal years 2024 through 2028", "label": "REQUIREMENT" }
+]
+},
+{
+"document_id": "doc_526",
+"entities": [
+{ "pattern": "Financial Stability Act of 2010", "label": "LAW" },
+{ "pattern": "Financial Stability Oversight Council", "label": "ORGANIZATION" },
+{ "pattern": "Office of Financial Research", "label": "ORGANIZATION" },
+{ "pattern": "NSA", "label": "ORGANIZATION" },
+{ "pattern": "Cybersecurity Information Sheet", "label": "DOCUMENT" },
+{ "pattern": "Federal securities laws", "label": "LAW" },
+{ "pattern": "machine-manipulated media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI model outcomes", "label": "TECHNOLOGY" },
+{ "pattern": "securities violations", "label": "JUSTICE" },
+{ "pattern": "financial institutions", "label": "FINANCE" },
+{ "pattern": "third-party AI service providers", "label": "STAKEHOLDER" },
+{ "pattern": "malign actors", "label": "MISUSE_RISK" },
+{ "pattern": "market manipulation", "label": "ECONOMIC_HARM" }
+]
+},
+{
+"document_id": "doc_527",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Chinese autonomous ground vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. Government", "label": "ORGANIZATION" },
+{ "pattern": "Chinese Communist Party", "label": "ORGANIZATION" },
+{ "pattern": "People’s Liberation Army", "label": "ORGANIZATION" },
+{ "pattern": "national security threats", "label": "SAFETY_HARM" },
+{ "pattern": "dual-use implications", "label": "MISUSE_RISK" },
+{ "pattern": "Department of Defense bases", "label": "GEOGRAPHIC" },
+{ "pattern": "sensitive U.S. Government facilities", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_528",
+"entities": [
+{ "pattern": "National AI Commission", "label": "ORGANIZATION" },
+{ "pattern": "legislative branch", "label": "GOVERNMENT" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Federal Government", "label": "ORGANIZATION" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "general-purpose AI systems", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "binding regulatory framework", "label": "POLICY" },
+{ "pattern": "commissioners", "label": "STAKEHOLDER" },
+{ "pattern": "Democratic appointee", "label": "STAKEHOLDER" },
+{ "pattern": "Republican appointee", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_529",
+"entities": [
+{ "pattern": "First Amendment", "label": "LAW" },
+{ "pattern": "intellectual property", "label": "LAW" },
+{ "pattern": "personalized cloning services", "label": "TECHNOLOGY" },
+{ "pattern": "digital voice replicas", "label": "TECHNOLOGY" },
+{ "pattern": "digital depictions", "label": "TECHNOLOGY" },
+{ "pattern": "unauthorized distribution", "label": "MISUSE_RISK" },
+{ "pattern": "commercial use", "label": "ECONOMIC_HARM" },
+{ "pattern": "financial", "label": "ECONOMIC_HARM" },
+{ "pattern": "physical", "label": "SAFETY_HARM" },
+{ "pattern": "emotional distress", "label": "SOCIAL_HARM" },
+{ "pattern": "attorney fees", "label": "FINANCE" },
+{ "pattern": "civil actions", "label": "JUSTICE" },
+{ "pattern": "negligible harm", "label": "HARM" },
+{ "pattern": "liability", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_530",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Joint Autonomy Office", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "autonomous systems", "label": "TECHNOLOGY" },
+{ "pattern": "autonomous capabilities", "label": "TECHNOLOGY" },
+{ "pattern": "datasets", "label": "TRAINING_DATA" },
+{ "pattern": "security protocols", "label": "SAFETY" },
+{ "pattern": "classification framework", "label": "POLICY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "training", "label": "TRAINING_STAGE" },
+{ "pattern": "evaluation", "label": "TESTING_STAGE" }
+]
+}
+]

@@ -35,10 +35,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Promoting Precision Agriculture Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Preventing PLA Acquisition of United States Technology Act of 2023",
         "label": "BILL NAME"
       }
@@ -80,10 +76,6 @@
         "label": "TRANSPORTATION"
       },
       {
-        "pattern": "Preventing PLA Acquisition of United States Technology Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Alabama (2019) SB 47",
         "label": "BILL NAME"
       }
@@ -123,10 +115,6 @@
       {
         "pattern": "U.S. Code",
         "label": "LAW"
-      },
-      {
-        "pattern": "Alabama (2019) SB 47",
-        "label": "BILL NAME"
       },
       {
         "pattern": "DOE and USDA Interagency Research Act",
@@ -174,10 +162,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "DOE and USDA Interagency Research Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Harmful Algal Bloom and Hypoxia Research and Control Amendments Act of 2023, Sec. 2f (\"National Harmful Algal Bloom and Hypoxia Observing Network\")",
         "label": "BILL NAME"
       }
@@ -221,10 +205,6 @@
       {
         "pattern": "disabilities",
         "label": "HEALTHCARE"
-      },
-      {
-        "pattern": "Harmful Algal Bloom and Hypoxia Research and Control Amendments Act of 2023, Sec. 2f (\"National Harmful Algal Bloom and Hypoxia Observing Network\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Communications, Video, and Technology Accessibility Act of 2023, Sec. 401 (\"Emerging Technology\") ",
@@ -280,10 +260,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Communications, Video, and Technology Accessibility Act of 2023, Sec. 401 (\"Emerging Technology\") ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Americas Act, Title II (\"Trade and Investment for the Americas\"), Sec. 202 (\"Americas Partnership Business Advisory Board\")",
         "label": "BILL NAME"
       }
@@ -319,10 +295,6 @@
       {
         "pattern": "beneficiaries",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "Americas Act, Title II (\"Trade and Investment for the Americas\"), Sec. 202 (\"Americas Partnership Business Advisory Board\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Medicare Transaction Fraud Prevention Act",
@@ -368,10 +340,6 @@
       {
         "pattern": "security",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Medicare Transaction Fraud Prevention Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Tech to Save Moms Act, Sec. 5 (\"Report on the Use of Technology in Maternity Care\")",
@@ -427,10 +395,6 @@
         "label": "PRIVACY"
       },
       {
-        "pattern": "Tech to Save Moms Act, Sec. 5 (\"Report on the Use of Technology in Maternity Care\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Federal Information Security Modernization Act of 2023, Sec. 14 (\"Automation and Artificial Intelligence\")",
         "label": "BILL NAME"
       }
@@ -474,10 +438,6 @@
       {
         "pattern": "platforms",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Federal Information Security Modernization Act of 2023, Sec. 14 (\"Automation and Artificial Intelligence\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Targeting Online Sales of Fentanyl Act",

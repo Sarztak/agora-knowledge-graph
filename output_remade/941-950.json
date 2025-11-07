@@ -39,10 +39,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Illinois House Bill 2123",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Mississippi Senate Bill 2577",
         "label": "BILL NAME"
       }
@@ -86,10 +82,6 @@
       {
         "pattern": "bankruptcy proceedings",
         "label": "MECHANISM"
-      },
-      {
-        "pattern": "Mississippi Senate Bill 2577",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Indiana House Bill 1047",
@@ -141,10 +133,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Indiana House Bill 1047",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Washington House Bill 1999",
         "label": "BILL NAME"
       }
@@ -176,10 +164,6 @@
       {
         "pattern": "political message",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Washington House Bill 1999",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Illinois Senate Bill 382",
@@ -231,10 +215,6 @@
         "label": "RESEARCH_STAGE"
       },
       {
-        "pattern": "Illinois Senate Bill 382",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Consensus Statement on AI Safety as a Global Public Good",
         "label": "BILL NAME"
       }
@@ -282,10 +262,6 @@
       {
         "pattern": "AI safety research",
         "label": "RESEARCH_STAGE"
-      },
-      {
-        "pattern": "Consensus Statement on AI Safety as a Global Public Good",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Consensus Statement on Red Lines in Artificial Intelligence",
@@ -339,10 +315,6 @@
       {
         "pattern": "governance institutions",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Consensus Statement on Red Lines in Artificial Intelligence",
-        "label": "BILL NAME"
       },
       {
         "pattern": "IDAIS-Oxford Statement (2023)",

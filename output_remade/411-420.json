@@ -39,10 +39,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "21 CFR § 870.2785 (\"Software for optical camera-based measurement of pulse rate, heart rate, breathing rate, and/or respiratory rate\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "21 CFR § 870.1345 (\"Intravascular bleed monitor\")",
         "label": "BILL NAME"
       }
@@ -84,10 +80,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "21 CFR § 870.1345 (\"Intravascular bleed monitor\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "15 CFR part 7 (\"Securing the Information and Communications Technology and Services Supply Chain\")",
         "label": "BILL NAME"
       }
@@ -127,10 +119,6 @@
       {
         "pattern": "AI technologies",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "15 CFR part 7 (\"Securing the Information and Communications Technology and Services Supply Chain\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Literacy in Future Technologies Artificial Intelligence Act",
@@ -186,10 +174,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Literacy in Future Technologies Artificial Intelligence Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence Acquisitions Act of 2024",
         "label": "BILL NAME"
       }
@@ -221,10 +205,6 @@
       {
         "pattern": "July 1, 2024",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Artificial Intelligence Acquisitions Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Idaho House Bill 575",
@@ -262,10 +242,6 @@
       {
         "pattern": "congressional defense committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Idaho House Bill 575",
-        "label": "BILL NAME"
       },
       {
         "pattern": "A bill to specify control and management of Department of Defense data and to establish the Chief Digital and Artificial Intelligence Officer Governing Council, and for other purposes.",
@@ -321,10 +297,6 @@
         "label": "ACCOUNTABILITY"
       },
       {
-        "pattern": "A bill to specify control and management of Department of Defense data and to establish the Chief Digital and Artificial Intelligence Officer Governing Council, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Digital Platform Commission Act of 2023",
         "label": "BILL NAME"
       }
@@ -374,10 +346,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Digital Platform Commission Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Cooper Davis Act",
         "label": "BILL NAME"
       }
@@ -409,10 +377,6 @@
       {
         "pattern": "fraudulent solicitation",
         "label": "CRIME"
-      },
-      {
-        "pattern": "Cooper Davis Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Ads Act ",
@@ -490,10 +454,6 @@
       {
         "pattern": "national security interests",
         "label": "SAFETY_HARM"
-      },
-      {
-        "pattern": "AI Ads Act ",
-        "label": "BILL NAME"
       },
       {
         "pattern": "S.4306, Five AIs Act 2024",

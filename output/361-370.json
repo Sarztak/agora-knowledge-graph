@@ -1,0 +1,126 @@
+[
+{
+"document_id": "doc_361",
+"entities": [
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "Intelligence Advanced Research Projects Activity", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "quantum computing", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "synthetic biology", "label": "TECHNOLOGY" },
+{ "pattern": "engineering", "label": "TECHNOLOGY" },
+{ "pattern": "computer sciences", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_362",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Defense Department", "label": "ORGANIZATION" },
+{ "pattern": "unmanned aerial system swarms", "label": "TECHNOLOGY" },
+{ "pattern": "autonomous intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Armed Forces", "label": "MILITARY" },
+{ "pattern": "Defense Department", "label": "ORGANIZATION" },
+{ "pattern": "unmanned aerial systems", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_363",
+"entities": [
+{ "pattern": "Alabama Commission on Artificial Intelligence", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "Lieutenant Governor", "label": "ROLE" },
+{ "pattern": "House Speaker", "label": "ROLE" },
+{ "pattern": "Senate President Pro Tempore", "label": "ROLE" },
+{ "pattern": "healthcare", "label": "HEALTHCARE" },
+{ "pattern": "education", "label": "EDUCATION" },
+{ "pattern": "transportation", "label": "TRANSPORTATION" },
+{ "pattern": "Office of the Governor", "label": "ORGANIZATION" },
+{ "pattern": "privacy", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_364",
+"entities": [
+{ "pattern": "FY 2021 National Defense Authorization Act", "label": "LAW" },
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Principal Deputy Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "Vice Chairman of the Joint Chiefs of Staff", "label": "ROLE" },
+{ "pattern": "Deputy Secretary of Defense", "label": "ROLE" },
+{ "pattern": "National Defense Strategy", "label": "POLICY" },
+{ "pattern": "National Intelligence Strategy", "label": "POLICY" },
+{ "pattern": "National Security Strategy", "label": "POLICY" },
+{ "pattern": "National Intelligence Program", "label": "PROGRAM" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "intelligence community", "label": "ORGANIZATION" },
+{ "pattern": "National Security Act of 1947", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_365",
+"entities": [
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "Department", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning algorithms", "label": "TECHNOLOGY" },
+{ "pattern": "software", "label": "TECHNOLOGY" },
+{ "pattern": "government departments", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_366",
+"entities": [
+{ "pattern": "U.S. Naval Community College", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "digital technologies", "label": "TECHNOLOGY" },
+{ "pattern": "college's educational programs", "label": "EDUCATION" }
+]
+},
+{
+"document_id": "doc_367",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "chief digital recruiting officer", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "distributed ledger technologies", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "digital technology", "label": "TECHNOLOGY" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_368",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "National Security Commission on AI", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_369",
+"entities": [
+{ "pattern": "Commander of Cyber Command", "label": "ROLE" },
+{ "pattern": "Under Secretary of Defense for Intelligence", "label": "ROLE" },
+{ "pattern": "U.S. military", "label": "MILITARY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_370",
+"entities": [
+{ "pattern": "Secretary of the Navy", "label": "ROLE" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" },
+{ "pattern": "Navy", "label": "ORGANIZATION" },
+{ "pattern": "Next Generation Jammer", "label": "TECHNOLOGY" },
+{ "pattern": "EA-18G aircraft", "label": "TECHNOLOGY" },
+{ "pattern": "E-2D aircraft", "label": "TECHNOLOGY" }
+]
+}
+]

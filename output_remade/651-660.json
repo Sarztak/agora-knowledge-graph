@@ -39,10 +39,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Richard L. Trumka Protecting the Right to Organize Act of 2023, Sec. 309 (GAO Report)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Federal Improvement in Technology Procurement Act",
         "label": "BILL NAME"
       }
@@ -62,10 +58,6 @@
       {
         "pattern": "Fund Administrator",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Federal Improvement in Technology Procurement Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Living Wage for Musicians Act of 2024",
@@ -109,10 +101,6 @@
         "label": "ROLE"
       },
       {
-        "pattern": "Living Wage for Musicians Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Methane Emissions Mitigation Research and Development Act",
         "label": "BILL NAME"
       }
@@ -148,10 +136,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Methane Emissions Mitigation Research and Development Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Veterans Appeals Efficiency Act of 2024",
@@ -199,10 +183,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Veterans Appeals Efficiency Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Protecting Consumers from Deceptive AI Act",
         "label": "BILL NAME"
       }
@@ -248,10 +228,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Protecting Consumers from Deceptive AI Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Patient Safety Board Act of 2024",
         "label": "BILL NAME"
       }
@@ -283,10 +259,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "National Patient Safety Board Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Examining Educational Redlining in Lending Act",
@@ -342,10 +314,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Examining Educational Redlining in Lending Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Advanced Aviation Act",
         "label": "BILL NAME"
       }
@@ -387,10 +355,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Advanced Aviation Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Americas Act, Title II (\"Trade and Investment for the Americas\"), Sec. 255 (\"Transformational Energy Development\")",
         "label": "BILL NAME"
       }
@@ -422,10 +386,6 @@
       {
         "pattern": "retrospective regulatory reviews",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Americas Act, Title II (\"Trade and Investment for the Americas\"), Sec. 255 (\"Transformational Energy Development\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Modernizing Retrospective Regulatory Review",

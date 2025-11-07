@@ -39,10 +39,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Forecasting Optimization for Robust Earth Climate Analysis and Subseasonal-to-Seasonal Tracking Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather Act",
         "label": "BILL NAME"
       }
@@ -82,10 +78,6 @@
       {
         "pattern": "penalties",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Digital Social Platform Transparency Act",
@@ -141,10 +133,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "Digital Social Platform Transparency Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "NSF and USDA Interagency Research Act",
         "label": "BILL NAME"
       }
@@ -190,10 +178,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "NSF and USDA Interagency Research Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Modernizing Data Practices to Improve Government Act",
         "label": "BILL NAME"
       }
@@ -235,10 +219,6 @@
         "label": "SYNTHETIC_DATA"
       },
       {
-        "pattern": "Modernizing Data Practices to Improve Government Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024",
         "label": "BILL NAME"
       }
@@ -274,10 +254,6 @@
       {
         "pattern": "funding amounts",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Windstorm Impact Reduction Program Reauthorization Act of 2024",
@@ -321,10 +297,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Windstorm Impact Reduction Program Reauthorization Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "H.R. 9626, To direct the Department of Defense to develop a plan for the establishment of a secure computing and data storage environment for the testing of artificial intelligence trained on biological data, and for other purposes.",
         "label": "BILL NAME"
       }
@@ -364,10 +336,6 @@
       {
         "pattern": "drug detection and trafficking disruption",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "H.R. 9626, To direct the Department of Defense to develop a plan for the establishment of a secure computing and data storage environment for the testing of artificial intelligence trained on biological data, and for other purposes.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024",
@@ -413,10 +381,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "State Industrial Competitiveness Act of 2024",
@@ -466,10 +430,6 @@
       {
         "pattern": "Federal Government",
         "label": "GOVERNMENT"
-      },
-      {
-        "pattern": "State Industrial Competitiveness Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence Public Awareness and Education Campaign Act",

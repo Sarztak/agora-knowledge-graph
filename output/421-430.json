@@ -1,0 +1,480 @@
+[
+	{
+		"document_id": "doc_421",
+		"entities": [
+			{
+				"pattern": "China",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "prohibited technologies",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "national security",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "Secretary of the Treasury",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "U.S. allies",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "prohibited technology development/acquisition",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "public database",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "foreign persons",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "civil penalties",
+				"label": "PENALTY"
+			},
+			{
+				"pattern": "national interest",
+				"label": "POLICY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_422",
+		"entities": [
+			{
+				"pattern": "Artificial Intelligence Safety Review Office",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "national security",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "cyber threats",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "Under Secretary of Commerce for AI Safety",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Attorney General",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "red-teaming",
+				"label": "MECHANISM"
+			},
+			{
+				"pattern": "cybersecurity practices",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "standards",
+				"label": "STANDARD"
+			},
+			{
+				"pattern": "know-your-customer protocols",
+				"label": "POLICY"
+			},
+			{
+				"pattern": "civil fines",
+				"label": "PENALTY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_423",
+		"entities": [
+			{
+				"pattern": "financial regulators",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "banking regulators",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "fraud detection",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "cybersecurity",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "Securities and Exchange Commission",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "market research",
+				"label": "RESEARCH_STAGE"
+			},
+			{
+				"pattern": "portfolio management",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "housing and mortgage regulators",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Treasury Department",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Bank Secrecy Act",
+				"label": "LAW"
+			},
+			{
+				"pattern": "public consultation",
+				"label": "MECHANISM"
+			},
+			{
+				"pattern": "self-regulatory organizations",
+				"label": "STAKEHOLDER"
+			}
+		]
+	},
+	{
+		"document_id": "doc_424",
+		"entities": [
+			{
+				"pattern": "Director of the National Institute of Standards and Technology",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "guidelines",
+				"label": "STANDARD"
+			},
+			{
+				"pattern": "Federal law",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Federal agencies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Chief AI Officer",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "developers",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "stakeholders",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "AI lifecycle",
+				"label": "TECHNOLOGY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_425",
+		"entities": [
+			{
+				"pattern": "China",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "defense",
+				"label": "MILITARY"
+			},
+			{
+				"pattern": "military-civil fusion",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "surveillance technology",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "President",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Secretary of the Treasury",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "quantum tech",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "robotics",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "International Emergency Economic Powers Act",
+				"label": "LAW"
+			},
+			{
+				"pattern": "intelligence",
+				"label": "MILITARY"
+			},
+			{
+				"pattern": "law enforcement",
+				"label": "JUSTICE"
+			},
+			{
+				"pattern": "humanitarian activities",
+				"label": "HUMAN_RIGHTS"
+			}
+		]
+	},
+	{
+		"document_id": "doc_426",
+		"entities": [
+			{
+				"pattern": "Workforce Innovation and Opportunity Act",
+				"label": "LAW"
+			},
+			{
+				"pattern": "workforce data quality initiative",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "statewide longitudinal data systems",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Secretary",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "state agencies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "education and workforce systems",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "privacy measures",
+				"label": "PRIVACY"
+			},
+			{
+				"pattern": "emerging technologies",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "grants",
+				"label": "MECHANISM"
+			},
+			{
+				"pattern": "data-driven decision-making",
+				"label": "MECHANISM"
+			}
+		]
+	},
+	{
+		"document_id": "doc_427",
+		"entities": [
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "specialty crop production",
+				"label": "AGRICULTURE"
+			},
+			{
+				"pattern": "Food, Agriculture, Conservation, and Trade Act of 1990",
+				"label": "LAW"
+			},
+			{
+				"pattern": "research projects",
+				"label": "RESEARCH_STAGE"
+			},
+			{
+				"pattern": "technologies",
+				"label": "TECHNOLOGY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_428",
+		"entities": [
+			{
+				"pattern": "Department of Agriculture",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Department of Energy",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "National Science Foundation",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "R&D activities",
+				"label": "RESEARCH_STAGE"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "large-scale data analytics",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "predictive analysis",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "agricultural and rural energy systems",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Federal agencies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "labs",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "educational and nonprofit institutions",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "industry",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "Federal regulations",
+				"label": "LAW"
+			},
+			{
+				"pattern": "research security regulations",
+				"label": "LAW"
+			}
+		]
+	},
+	{
+		"document_id": "doc_429",
+		"entities": [
+			{
+				"pattern": "pilot program",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "critical and emerging technologies",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "microelectronics",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "quantum information science",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "United States Patent and Trademark Office",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "patent",
+				"label": "DOCUMENT"
+			},
+			{
+				"pattern": "Paperwork Reduction Act",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_430",
+		"entities": [
+			{
+				"pattern": "atmospheric river forecast improvement program",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "data assimilation",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "dynamic modeling systems",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "U.S. West Coast",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "observatories",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "program plan",
+				"label": "DOCUMENT"
+			}
+		]
+	}
+]

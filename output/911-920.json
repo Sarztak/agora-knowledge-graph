@@ -1,0 +1,132 @@
+[
+{
+"document_id": "doc_911",
+"entities": [
+{ "pattern": "deepfakes", "label": "SYNTHETIC_DATA" },
+{ "pattern": "interactive services", "label": "TECHNOLOGY" },
+{ "pattern": "media entities", "label": "STAKEHOLDER" },
+{ "pattern": "secretary of state", "label": "ROLE" },
+{ "pattern": "lobbyist registrations", "label": "DOCUMENT" },
+{ "pattern": "January 1, 2025", "label": "POLICY" },
+{ "pattern": "July 19, 2024", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_912",
+"entities": [
+{ "pattern": "R.S. 14:73.14", "label": "LAW" },
+{ "pattern": "AI-generated images", "label": "SYNTHETIC_DATA" },
+{ "pattern": "interactive computer services", "label": "TECHNOLOGY" },
+{ "pattern": "telecommunications or information services", "label": "TECHNOLOGY" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" }
+]
+},
+{
+"document_id": "doc_913",
+"entities": [
+{ "pattern": "Delaware Artificial Intelligence Commission", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "Department of Technology and Information", "label": "ORGANIZATION" },
+{ "pattern": "Chief Information Officer", "label": "ROLE" },
+{ "pattern": "General Assembly", "label": "ORGANIZATION" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_914",
+"entities": [
+{ "pattern": "Tennessee Artificial Intelligence Advisory Council", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "governor", "label": "ROLE" },
+{ "pattern": "state departments", "label": "ORGANIZATION" },
+{ "pattern": "AI governance frameworks", "label": "POLICY" },
+{ "pattern": "AI deployment", "label": "DEPLOYMENT_STAGE" }
+]
+},
+{
+"document_id": "doc_915",
+"entities": [
+{ "pattern": "Education Enhancement Fund", "label": "FINANCE" },
+{ "pattern": "Institutions of Higher Learning", "label": "ORGANIZATION" },
+{ "pattern": "University of Mississippi", "label": "ORGANIZATION" },
+{ "pattern": "Data Science and Artificial Intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Healthcare Innovation", "label": "HEALTHCARE" },
+{ "pattern": "Delta State University", "label": "ORGANIZATION" },
+{ "pattern": "Mississippi State University", "label": "ORGANIZATION" },
+{ "pattern": "Alcorn State University", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Senate Bill 3002", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_916",
+"entities": [
+{ "pattern": "Joint Commission on Technology and Science", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Virginia", "label": "GEOGRAPHIC" },
+{ "pattern": "AI procurement", "label": "REQUIREMENT" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "Commission on Artificial Intelligence", "label": "ORGANIZATION" },
+{ "pattern": "General Assembly", "label": "ORGANIZATION" },
+{ "pattern": "House and Senate committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_917",
+"entities": [
+{ "pattern": "Iowa State University of Science and Technology", "label": "ORGANIZATION" },
+{ "pattern": "STEM", "label": "EDUCATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "computer science", "label": "EDUCATION" },
+{ "pattern": "digital agriculture", "label": "TECHNOLOGY" },
+{ "pattern": "manufacturing", "label": "TECHNOLOGY" },
+{ "pattern": "water quality", "label": "ENVIRONMENT" },
+{ "pattern": "vaccine delivery technologies", "label": "HEALTHCARE" },
+{ "pattern": "biosciences", "label": "HEALTHCARE" },
+{ "pattern": "state board of regents", "label": "ORGANIZATION" },
+{ "pattern": "general assembly", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_918",
+"entities": [
+{ "pattern": "deepfake content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "election officials", "label": "ROLE" },
+{ "pattern": "injunctive relief", "label": "MECHANISM" },
+{ "pattern": "bona fide news reports", "label": "POLICY" },
+{ "pattern": "disclosures", "label": "TRANSPARENCY" }
+]
+},
+{
+"document_id": "doc_919",
+"entities": [
+{ "pattern": "materially deceptive media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "deepfake", "label": "SYNTHETIC_DATA" },
+{ "pattern": "generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "attorney general", "label": "ROLE" },
+{ "pattern": "campaign spending commission", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "civil remedies", "label": "MECHANISM" },
+{ "pattern": "criminal penalties", "label": "PENALTY" },
+{ "pattern": "injunctive relief", "label": "MECHANISM" }
+]
+},
+{
+"document_id": "doc_920",
+"entities": [
+{ "pattern": "deepfakes", "label": "SYNTHETIC_DATA" },
+{ "pattern": "Secretary of State", "label": "ROLE" },
+{ "pattern": "bona fide news", "label": "POLICY" },
+{ "pattern": "satire", "label": "SOCIAL_HARM" },
+{ "pattern": "parody", "label": "SOCIAL_HARM" },
+{ "pattern": "media and technology providers", "label": "STAKEHOLDER" },
+{ "pattern": "civil penalties", "label": "PENALTY" },
+{ "pattern": "administrative complaints", "label": "MECHANISM" },
+{ "pattern": "July 1, 2024", "label": "POLICY" }
+]
+}
+]

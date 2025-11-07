@@ -31,10 +31,6 @@
         "label": "PRIVACY"
       },
       {
-        "pattern": "To establish a Joint Autonomy Office in the Department of Defense, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "ASK Act",
         "label": "BILL NAME"
       }
@@ -82,10 +78,6 @@
       {
         "pattern": "AI experts",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "ASK Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Preventing Deep Fake Scams Act",
@@ -147,10 +139,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Preventing Deep Fake Scams Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Leadership Training Act",
@@ -222,10 +210,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "AI Leadership Training Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "DOE and NSF Interagency Research Act",
         "label": "BILL NAME"
       }
@@ -269,10 +253,6 @@
       {
         "pattern": "political campaign",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "DOE and NSF Interagency Research Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Political BIAS Emails Act of 2023",
@@ -332,10 +312,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Political BIAS Emails Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "ASSESS AI Act",
         "label": "BILL NAME"
       }
@@ -373,10 +349,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "ASSESS AI Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI Disclosure Act of 2023",
         "label": "BILL NAME"
       }
@@ -408,10 +380,6 @@
       {
         "pattern": "fraud",
         "label": "MISUSE_RISK"
-      },
-      {
-        "pattern": "AI Disclosure Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "R U REAL Act",
@@ -471,10 +439,6 @@
         "label": "HUMAN_RIGHTS"
       },
       {
-        "pattern": "R U REAL Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI LEAD Act",
         "label": "BILL NAME"
       }
@@ -526,10 +490,6 @@
       {
         "pattern": "stakeholders",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "AI LEAD Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Foundation Model Transparency Act of 2023",

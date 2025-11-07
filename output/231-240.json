@@ -1,0 +1,149 @@
+[
+{
+"document_id": "doc_231",
+"entities": [
+{ "pattern": "social media platforms", "label": "ORGANIZATION" },
+{ "pattern": "age verification technologies", "label": "TECHNOLOGY" },
+{ "pattern": "Pilot Program", "label": "PROGRAM" },
+{ "pattern": "Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Federal Trade Commission", "label": "ORGANIZATION" },
+{ "pattern": "FTC", "label": "ORGANIZATION" },
+{ "pattern": "state attorneys general", "label": "ROLE" },
+{ "pattern": "United States", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_232",
+"entities": [
+{ "pattern": "Director of the Office of Management and Budget", "label": "ROLE" },
+{ "pattern": "Office of Management and Budget", "label": "ORGANIZATION" },
+{ "pattern": "automated governance", "label": "TECHNOLOGY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" },
+{ "pattern": "AI-augmented processes", "label": "TECHNOLOGY" },
+{ "pattern": "Comptroller General", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_233",
+"entities": [
+{ "pattern": "Department of Energy", "label": "ORGANIZATION" },
+{ "pattern": "DOE", "label": "ORGANIZATION" },
+{ "pattern": "National Oceanic and Atmospheric Administration", "label": "ORGANIZATION" },
+{ "pattern": "NOAA", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "high-performance computing", "label": "TECHNOLOGY" },
+{ "pattern": "climate models", "label": "TECHNOLOGY" },
+{ "pattern": "weather prediction", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "data assimilation", "label": "TECHNOLOGY" },
+{ "pattern": "predictive analysis techniques", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of Energy", "label": "ROLE" },
+{ "pattern": "NOAA Administrator", "label": "ROLE" },
+{ "pattern": "National Laboratories", "label": "ORGANIZATION" },
+{ "pattern": "CHIPS Act of 2022", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_234",
+"entities": [
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Defense Information School", "label": "ORGANIZATION" },
+{ "pattern": "digital content provenance", "label": "TECHNOLOGY" },
+{ "pattern": "DoD", "label": "ORGANIZATION" },
+{ "pattern": "industry-open technical standards", "label": "STANDARD" },
+{ "pattern": "secure digital content documentation", "label": "TECHNOLOGY" },
+{ "pattern": "pilot program", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_235",
+"entities": [
+{ "pattern": "New Zealand", "label": "GEOGRAPHIC" },
+{ "pattern": "AI tools", "label": "TECHNOLOGY" },
+{ "pattern": "Privacy Act 2020", "label": "LAW" },
+{ "pattern": "Information Privacy Principles", "label": "PRIVACY" },
+{ "pattern": "privacy impact assessment", "label": "PRIVACY" },
+{ "pattern": "PIA", "label": "PRIVACY" },
+{ "pattern": "Māori", "label": "STAKEHOLDER" },
+{ "pattern": "training data provenance", "label": "TECHNOLOGY" },
+{ "pattern": "privacy policies", "label": "POLICY" },
+{ "pattern": "personal information", "label": "PERSONAL_DATA" }
+]
+},
+{
+"document_id": "doc_236",
+"entities": [
+{ "pattern": "U.S. Infrastructure as a Service", "label": "TECHNOLOGY" },
+{ "pattern": "IaaS", "label": "TECHNOLOGY" },
+{ "pattern": "Customer Identification Program", "label": "PROGRAM" },
+{ "pattern": "CIP", "label": "PROGRAM" },
+{ "pattern": "Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Department of Commerce", "label": "ORGANIZATION" },
+{ "pattern": "AI models", "label": "TECHNOLOGY" },
+{ "pattern": "foreign jurisdictions", "label": "GEOGRAPHIC" },
+{ "pattern": "cyber activities", "label": "SECURITY_HARM" }
+]
+},
+{
+"document_id": "doc_237",
+"entities": [
+{ "pattern": "ICTS", "label": "TECHNOLOGY" },
+{ "pattern": "Executive Order 13873", "label": "LAW" },
+{ "pattern": "Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "national security", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_238",
+"entities": [
+{ "pattern": "City Entity", "label": "ORGANIZATION" },
+{ "pattern": "St. Louis", "label": "GEOGRAPHIC" },
+{ "pattern": "Board of Aldermen", "label": "ORGANIZATION" },
+{ "pattern": "surveillance technology", "label": "TECHNOLOGY" },
+{ "pattern": "AI surveillance tools", "label": "TECHNOLOGY" },
+{ "pattern": "Surveillance Use Plan", "label": "DOCUMENT" },
+{ "pattern": "SUP", "label": "DOCUMENT" },
+{ "pattern": "whistleblowers", "label": "STAKEHOLDER" },
+{ "pattern": "ordinance", "label": "LAW" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "discriminatory impacts", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_239",
+"entities": [
+{ "pattern": "City of San José", "label": "GEOGRAPHIC" },
+{ "pattern": "Generative AI", "label": "TECHNOLOGY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "accuracy", "label": "STANDARD" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "equity", "label": "FAIRNESS" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "AI governance", "label": "POLICY" },
+{ "pattern": "public records laws", "label": "LAW" },
+{ "pattern": "copyright compliance", "label": "LAW" },
+{ "pattern": "AI workgroups", "label": "PROGRAM" },
+{ "pattern": "risk assessment criteria", "label": "BENCHMARK" }
+]
+},
+{
+"document_id": "doc_240",
+"entities": [
+{ "pattern": "AI tools", "label": "TECHNOLOGY" },
+{ "pattern": "City Employees", "label": "STAKEHOLDER" },
+{ "pattern": "IT Professionals", "label": "STAKEHOLDER" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "data privacy", "label": "PRIVACY" },
+{ "pattern": "ethical", "label": "FAIRNESS" },
+{ "pattern": "data transparency", "label": "TRANSPARENCY" },
+{ "pattern": "training", "label": "PROGRAM" },
+{ "pattern": "AI implementation", "label": "DEPLOYMENT_STAGE" },
+{ "pattern": "City", "label": "ORGANIZATION" }
+]
+}
+]

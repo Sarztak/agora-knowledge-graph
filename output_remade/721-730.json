@@ -39,10 +39,6 @@
         "label": "STANDARD"
       },
       {
-        "pattern": "Atomic Supply Chain Solutions Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI Development Practices Act of 2024",
         "label": "BILL NAME"
       }
@@ -74,10 +70,6 @@
       {
         "pattern": "healthcare providers",
         "label": "HEALTHCARE"
-      },
-      {
-        "pattern": "AI Development Practices Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Maintaining Innovation and Safe Technologies Act",
@@ -125,10 +117,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Maintaining Innovation and Safe Technologies Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Workforce of the Future Act of 2024",
         "label": "BILL NAME"
       }
@@ -158,10 +146,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "Workforce of the Future Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "PATHS Act",
         "label": "BILL NAME"
       }
@@ -189,10 +173,6 @@
       {
         "pattern": "Federal agency-approved AI applications",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "PATHS Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Civilian Agency AI Watermark Act",
@@ -240,10 +220,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Civilian Agency AI Watermark Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "American Privacy Rights Act of 2024, Sec. 114-5",
         "label": "BILL NAME"
       }
@@ -283,10 +259,6 @@
       {
         "pattern": "online scams",
         "label": "ECONOMIC_HARM"
-      },
-      {
-        "pattern": "American Privacy Rights Act of 2024, Sec. 114-5",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Veterans Online Information and Cybersecurity Empowerment Act of 2024",
@@ -362,10 +334,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Veterans Online Information and Cybersecurity Empowerment Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Department of Energy Artificial Intelligence Act of 2024",
         "label": "BILL NAME"
       }
@@ -405,10 +373,6 @@
       {
         "pattern": "AI supply chain risks",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Department of Energy Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Secure Artificial Intelligence Act of 2024",
@@ -458,10 +422,6 @@
       {
         "pattern": "NOAA's weather research activities",
         "label": "RESEARCH_STAGE"
-      },
-      {
-        "pattern": "Secure Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Forecasting Optimization for Robust Earth Climate Analysis and Subseasonal-to-Seasonal Tracking Act of 2024",

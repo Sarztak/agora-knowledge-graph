@@ -55,10 +55,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Protect Elections from Deceptive AI Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "RESTRICT Act",
         "label": "BILL NAME"
       }
@@ -94,10 +90,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "RESTRICT Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "FAA Research and Development Act of 2023, Sec. 215 (\"Air Traffic Control Training\")",
@@ -143,10 +135,6 @@
       {
         "pattern": "China",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "FAA Research and Development Act of 2023, Sec. 215 (\"Air Traffic Control Training\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "FAA Research and Development Act of 2023, Sec. 210 (\"Technology review of artificial intelligence and machine learning technologies\")",
@@ -198,10 +186,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "FAA Research and Development Act of 2023, Sec. 210 (\"Technology review of artificial intelligence and machine learning technologies\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 304 (\"Data Assimilation, Management, and Sharing Practices\")",
         "label": "BILL NAME"
       }
@@ -241,10 +225,6 @@
       {
         "pattern": "unmanned aircraft systems",
         "label": "TRANSPORTATION"
-      },
-      {
-        "pattern": "Weather Act Reauthorization Act of 2023, Sec. 304 (\"Data Assimilation, Management, and Sharing Practices\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title II (\"National Drone and Advanced Air Mobility Research Institutes\")",
@@ -304,10 +284,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title II (\"National Drone and Advanced Air Mobility Research Institutes\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 116(f) (\"National Harmful Algal Bloom and Hypoxia Observing Network\")",
         "label": "BILL NAME"
       }
@@ -361,10 +337,6 @@
         "label": "SENSITIVE_DATA"
       },
       {
-        "pattern": "Weather Act Reauthorization Act of 2023, Sec. 116(f) (\"National Harmful Algal Bloom and Hypoxia Observing Network\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Data Science and Literacy Act of 2023",
         "label": "BILL NAME"
       }
@@ -408,10 +380,6 @@
       {
         "pattern": "federal departments",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Data Science and Literacy Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title VI (\"Department of Energy Activities\")",
@@ -481,10 +449,6 @@
       {
         "pattern": "grants",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title VI (\"Department of Energy Activities\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title VII (\"Department of Homeland Security Activities\")",
@@ -562,10 +526,6 @@
       {
         "pattern": "biotechnology",
         "label": "HEALTHCARE"
-      },
-      {
-        "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title VII (\"Department of Homeland Security Activities\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Fair Trade with China Enforcement Act, Sec. 101 (\"Establishment of list of certain products receiving support from government of People's Republic of China pursuant to Made in China 2025 policy\")",

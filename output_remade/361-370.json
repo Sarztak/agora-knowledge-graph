@@ -39,10 +39,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6721 (\"Reports on integration of artificial intelligence within intelligence community\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6812 (\"Increased intelligence-related engineering, research, and development capabilities of minority institutions\")",
         "label": "BILL NAME"
       }
@@ -82,10 +78,6 @@
       {
         "pattern": "unmanned aerial systems",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6812 (\"Increased intelligence-related engineering, research, and development capabilities of minority institutions\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 162 (\"Assessment and strategy for fielding capabilities to counter threats posed by unmanned aerial system swarms\")",
@@ -139,10 +131,6 @@
       {
         "pattern": "privacy",
         "label": "PRIVACY"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 162 (\"Assessment and strategy for fielding capabilities to counter threats posed by unmanned aerial system swarms\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "An Act Establishing the Alabama Commission on Artificial Intelligence and Associated Technologies.",
@@ -206,10 +194,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "An Act Establishing the Alabama Commission on Artificial Intelligence and Associated Technologies.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 216 (\"Improvements relating to steering committee on emerging technology and national security threats\") ",
         "label": "BILL NAME"
       }
@@ -243,10 +227,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 216 (\"Improvements relating to steering committee on emerging technology and national security threats\") ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 1511 (\"Comparative analysis of cybersecurity capabilities\")",
         "label": "BILL NAME"
       }
@@ -270,10 +250,6 @@
       {
         "pattern": "college's educational programs",
         "label": "EDUCATION"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 1511 (\"Comparative analysis of cybersecurity capabilities\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 557 (\"United States Naval Community College\")",
@@ -317,10 +293,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 557 (\"United States Naval Community College\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 909 (\"Digital talent recruiting officer\")",
         "label": "BILL NAME"
       }
@@ -344,10 +316,6 @@
       {
         "pattern": "congressional defense committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 909 (\"Digital talent recruiting officer\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 247 (\"Reports and briefings on recommendations of the National Security Commission on Artificial Intelligence regarding the Department of Defense\")",
@@ -377,10 +345,6 @@
       {
         "pattern": "congressional defense committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 247 (\"Reports and briefings on recommendations of the National Security Commission on Artificial Intelligence regarding the Department of Defense\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 1509 (\"Assessment of cyber posture and operational assumptions and development of targeting strategies and supporting capabilities\")",
@@ -414,10 +378,6 @@
       {
         "pattern": "E-2D aircraft",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 1509 (\"Assessment of cyber posture and operational assumptions and development of targeting strategies and supporting capabilities\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 126 (\"Acquisition, modernization, and sustainment plan for carrier air wings\")",

@@ -47,10 +47,6 @@
         "label": "PERSONAL_DATA"
       },
       {
-        "pattern": "AI Grand Challenges Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "To provide for Federal civilian agency laboratory development for testing and certification of artificial intelligence for civilian agency use, and for other purposes.",
         "label": "BILL NAME"
       }
@@ -88,10 +84,6 @@
         "label": "FAIRNESS"
       },
       {
-        "pattern": "To provide for Federal civilian agency laboratory development for testing and certification of artificial intelligence for civilian agency use, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Singapore National AI Strategy 2.0",
         "label": "BILL NAME"
       }
@@ -127,10 +119,6 @@
       {
         "pattern": "safety",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Singapore National AI Strategy 2.0",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Securing Growth and Robust Leadership in American Aviation Act, Sec. 908 (\"Part 107 Waiver Improvements\")",
@@ -182,10 +170,6 @@
         "label": "ACCOUNTABILITY"
       },
       {
-        "pattern": "Securing Growth and Robust Leadership in American Aviation Act, Sec. 908 (\"Part 107 Waiver Improvements\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Canadian Guardrails for Generative AI – Code of Practice",
         "label": "BILL NAME"
       }
@@ -221,10 +205,6 @@
       {
         "pattern": "congressional committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Canadian Guardrails for Generative AI – Code of Practice",
-        "label": "BILL NAME"
       },
       {
         "pattern": "To direct the Secretary of Defense to establish a working group to develop and coordinate an artificial intelligence initiative among the Five Eyes countries, and for other purposes.",
@@ -272,10 +252,6 @@
         "label": "ECONOMIC_HARM"
       },
       {
-        "pattern": "To direct the Secretary of Defense to establish a working group to develop and coordinate an artificial intelligence initiative among the Five Eyes countries, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Wisconsin Executive Order #211",
         "label": "BILL NAME"
       }
@@ -317,10 +293,6 @@
         "label": "ROLE"
       },
       {
-        "pattern": "Wisconsin Executive Order #211",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Indianapolis City Council Proposal No.362, 2023",
         "label": "BILL NAME"
       }
@@ -356,10 +328,6 @@
       {
         "pattern": "governmental entities",
         "label": "GOVERNMENT"
-      },
-      {
-        "pattern": "Indianapolis City Council Proposal No.362, 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New York A7838",
@@ -407,10 +375,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "New York A7838",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Rhode Island SB 146",
         "label": "BILL NAME"
       }
@@ -450,10 +414,6 @@
       {
         "pattern": "state agencies",
         "label": "GOVERNMENT"
-      },
-      {
-        "pattern": "Rhode Island SB 146",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Pennsylvania HR 170",

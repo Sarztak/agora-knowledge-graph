@@ -33,10 +33,6 @@
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 43201 (\"Artificial intelligence and information technology modernization initiative\")",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -98,10 +94,6 @@
       {
         "pattern": "California Executive Order N-12-23 ",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "Oklahoma House Bill 1916",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -151,10 +143,6 @@
       {
         "pattern": "California Senate Bill 1288 (2024)",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "Meta Frontier AI Framework (Version 1.1)",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -195,10 +183,6 @@
       },
       {
         "pattern": "California (2023-2024) AB 96",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "Advancing the Responsible Acquisition of Artificial Intelligence in Government ",
         "label": "BILL NAME"
       }
     ]
@@ -248,10 +232,6 @@
       },
       {
         "pattern": "California SJR 6",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "Recommendation of the Council on Artificial Intelligence (5/2/2024)",
         "label": "BILL NAME"
       }
     ]
@@ -314,10 +294,6 @@
       {
         "pattern": "California Assembly Bill 1831 (2024)",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "Google DeepMind Frontier Safety Framework Version 2.0",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -366,10 +342,6 @@
       },
       {
         "pattern": "California Senate Bill 1381 (2024)",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "Artificial Intelligence Safety Commitments (China AI Industry Alliance)",
         "label": "BILL NAME"
       }
     ]
@@ -424,10 +396,6 @@
       {
         "pattern": "California AB 2839 (2024)",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "AI Safety Governance Framework v1.0 (National Technical Committee 260 on Cybersecurity of SAC)",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -472,10 +440,6 @@
       },
       {
         "pattern": "California 2023 SCR 17 (Relative to AI)",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "Singapore National AI Strategy 2.0",
         "label": "BILL NAME"
       }
     ]
@@ -533,10 +497,6 @@
       },
       {
         "pattern": "California AB 2885 (2024)",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "Google DeepMind Frontier Safety Framework Version 1.0",
         "label": "BILL NAME"
       }
     ]

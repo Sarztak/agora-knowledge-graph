@@ -47,10 +47,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "S.4306, Five AIs Act 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "A bill to prohibit and require notifications with respect to certain investments by United States persons in the People's Republic of China, and for other purposes.",
         "label": "BILL NAME"
       }
@@ -102,10 +98,6 @@
       {
         "pattern": "civil fines",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "A bill to prohibit and require notifications with respect to certain investments by United States persons in the People's Republic of China, and for other purposes.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Preserving American Dominance in Artificial Intelligence Act of 2024",
@@ -169,10 +161,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Preserving American Dominance in Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI Act of 2024",
         "label": "BILL NAME"
       }
@@ -220,10 +208,6 @@
       {
         "pattern": "AI lifecycle",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "AI Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Trustworthy By Design Artificial Intelligence Act of 2024",
@@ -291,10 +275,6 @@
         "label": "HUMAN_RIGHTS"
       },
       {
-        "pattern": "Trustworthy By Design Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Chinese Military and Surveillance Company Sanctions Act of 2024",
         "label": "BILL NAME"
       }
@@ -348,10 +328,6 @@
         "label": "MECHANISM"
       },
       {
-        "pattern": "Chinese Military and Surveillance Company Sanctions Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Workforce Data Enhancement Act",
         "label": "BILL NAME"
       }
@@ -379,10 +355,6 @@
       {
         "pattern": "technologies",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Workforce Data Enhancement Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Rural Prosperity and Food Security Act of 2024",
@@ -499,10 +471,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Rural Prosperity and Food Security Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Leadership in CET Act",
         "label": "BILL NAME"
       }
@@ -542,10 +510,6 @@
       {
         "pattern": "program plan",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Leadership in CET Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Improving Atmospheric River Forecasts Act",

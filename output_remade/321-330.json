@@ -23,10 +23,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 903 (\"Establishment of Office of Strategic Capital\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 253 (\"Annual review of status of implementation plan for digital engineering career tracks\")",
         "label": "BILL NAME"
       }
@@ -58,10 +54,6 @@
       {
         "pattern": "supply chain",
         "label": "STRUCTURAL_RISK"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 253 (\"Annual review of status of implementation plan for digital engineering career tracks\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 7511 (\"Expanded annual assessment of economic and technological capabilities of the People's Republic of China and related briefing\")",
@@ -101,10 +93,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 7511 (\"Expanded annual assessment of economic and technological capabilities of the People's Republic of China and related briefing\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 7356 (\"Analysis of commercial cloud initiatives of intelligence community\")",
         "label": "BILL NAME"
       }
@@ -138,10 +126,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 7356 (\"Analysis of commercial cloud initiatives of intelligence community\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 350 (\"Strategy and assessment on use of automation and artificial intelligence for shipyard optimization\")",
         "label": "BILL NAME"
       }
@@ -173,10 +157,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 350 (\"Strategy and assessment on use of automation and artificial intelligence for shipyard optimization\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 1521 (\"Control and management of Department of Defense data; establishment of Chief Digital and Artificial Intelligence Officer Governing Council\")",
@@ -220,10 +200,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 1521 (\"Control and management of Department of Defense data; establishment of Chief Digital and Artificial Intelligence Officer Governing Council\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 112 (\"Strategy for Army tactical wheeled vehicle program\")",
         "label": "BILL NAME"
       }
@@ -255,10 +231,6 @@
       {
         "pattern": "diplomacy",
         "label": "GOVERNMENT"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 112 (\"Strategy for Army tactical wheeled vehicle program\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 6303 (\"Establishment of the Chief Artificial Intelligence Officer of the Department of State\")",
@@ -330,10 +302,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 6303 (\"Establishment of the Chief Artificial Intelligence Officer of the Department of State\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Title XV, Subtitle E (\"Artificial Intelligence\")",
         "label": "BILL NAME"
       }
@@ -369,10 +337,6 @@
       {
         "pattern": "defense technologies",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Title XV, Subtitle E (\"Artificial Intelligence\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Title XIII, Subtitle B (\"Other Matters Relating to Foreign Nations: Matters Relating to the AUKUS Partnership\")",
@@ -426,10 +390,6 @@
       {
         "pattern": "US persons",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Title XIII, Subtitle B (\"Other Matters Relating to Foreign Nations: Matters Relating to the AUKUS Partnership\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Title XV, Subtitle C (\"Cyberspace-Related Matters: Information Technology and Data Management\")",

@@ -19,10 +19,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Artificial Intelligence Public Awareness and Education Campaign Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Ending FCC Meddling in Our Elections Act",
         "label": "BILL NAME"
       }
@@ -72,10 +68,6 @@
         "label": "BENCHMARK"
       },
       {
-        "pattern": "Ending FCC Meddling in Our Elections Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Supercritical Geothermal Research and Development Act",
         "label": "BILL NAME"
       }
@@ -121,10 +113,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Supercritical Geothermal Research and Development Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Social Media and AI Resiliency Toolkits in Schools Act",
         "label": "BILL NAME"
       }
@@ -168,10 +156,6 @@
       {
         "pattern": "export controls",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Social Media and AI Resiliency Toolkits in Schools Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Bureau of Industry and Security Information Technology Modernization Act",
@@ -221,10 +205,6 @@
       {
         "pattern": "market surveillance",
         "label": "MONITORING_STAGE"
-      },
-      {
-        "pattern": "Bureau of Industry and Security Information Technology Modernization Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Protecting Patients from Deceptive Drug Ads Online Act",
@@ -280,10 +260,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Protecting Patients from Deceptive Drug Ads Online Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "S.4870, A bill to require reports on artificial intelligence regulation in the financial services industry.",
         "label": "BILL NAME"
       }
@@ -337,10 +313,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "S.4870, A bill to require reports on artificial intelligence regulation in the financial services industry.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Preventing the Algorithmic Facilitation of Rental Housing Cartels Act of 2024",
         "label": "BILL NAME"
       }
@@ -390,10 +362,6 @@
         "label": "HEALTHCARE"
       },
       {
-        "pattern": "Preventing the Algorithmic Facilitation of Rental Housing Cartels Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Improving Seniors’ Timely Access to Care Act of 2024",
         "label": "BILL NAME"
       }
@@ -441,10 +409,6 @@
       {
         "pattern": "core data science program",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Improving Seniors’ Timely Access to Care Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "S.4862, A bill to ensure that new advances in artificial intelligence are ethically adopted to improve the health of all individuals, and for other purposes.",
@@ -502,10 +466,6 @@
       {
         "pattern": "problem gamblers",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "S.4862, A bill to ensure that new advances in artificial intelligence are ethically adopted to improve the health of all individuals, and for other purposes.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Sec. 103, Supporting Affordability and Fairness with Every Bet Act",

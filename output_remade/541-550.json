@@ -27,10 +27,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "AI Foundation Model Transparency Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "“Managing Active and Reserve Tech Talent Effectively Act of 2023”",
         "label": "BILL NAME"
       }
@@ -76,10 +72,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "“Managing Active and Reserve Tech Talent Effectively Act of 2023”",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Water Quality and Environmental Innovation Act",
         "label": "BILL NAME"
       }
@@ -115,10 +107,6 @@
       {
         "pattern": "House Armed Services Committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Water Quality and Environmental Innovation Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Basic Allowance for Housing Calculation Improvement Act of 2023",
@@ -166,10 +154,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Basic Allowance for Housing Calculation Improvement Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "TEST AI Act of 2023",
         "label": "BILL NAME"
       }
@@ -197,10 +181,6 @@
       {
         "pattern": "robocalls",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "TEST AI Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "QUIET Act",
@@ -260,10 +240,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "QUIET Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Farm Tech Act",
         "label": "BILL NAME"
       }
@@ -307,10 +283,6 @@
       {
         "pattern": "federal agencies",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Farm Tech Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Jobs of the Future Act of 2023",
@@ -362,10 +334,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Jobs of the Future Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Building Resilient Supply Chains Act",
         "label": "BILL NAME"
       }
@@ -415,10 +383,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Building Resilient Supply Chains Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Small Business Broadband and Emerging Information Technology Enhancement Act of 2023",
         "label": "BILL NAME"
       }
@@ -446,10 +410,6 @@
       {
         "pattern": "AI",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Small Business Broadband and Emerging Information Technology Enhancement Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Training Expansion Act of 2023",

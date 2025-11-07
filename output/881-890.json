@@ -1,0 +1,146 @@
+[
+{
+"document_id": "doc_881",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "frontier AI", "label": "FRONTIER_AI" },
+{ "pattern": "AI Safety Summits", "label": "PROGRAM" },
+{ "pattern": "AI safety", "label": "SAFETY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "human rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "AI governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "international cooperation", "label": "POLICY" },
+{ "pattern": "United States", "label": "GEOGRAPHIC" },
+{ "pattern": "EU", "label": "GEOGRAPHIC" },
+{ "pattern": "China", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_882",
+"entities": [
+{ "pattern": "generative AI services", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "safety requirements", "label": "REQUIREMENT" },
+{ "pattern": "safety assessments", "label": "TESTING_STAGE" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "data security", "label": "SAFETY" },
+{ "pattern": "personal information protection laws", "label": "PRIVACY" },
+{ "pattern": "intellectual property rights", "label": "POLICY" },
+{ "pattern": "model safety", "label": "SAFETY" },
+{ "pattern": "foundation model registration", "label": "REQUIREMENT" },
+{ "pattern": "content safety monitoring", "label": "MONITORING_STAGE" },
+{ "pattern": "complaint handling", "label": "MECHANISM" }
+]
+},
+{
+"document_id": "doc_883",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "AI industry", "label": "TECHNOLOGY" },
+{ "pattern": "Municipal People's Government", "label": "ORGANIZATION" },
+{ "pattern": "Municipal Artificial Intelligence Strategy Advisory Expert Committee", "label": "ORGANIZATION" },
+{ "pattern": "AI governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "compute resources", "label": "TECHNOLOGY" },
+{ "pattern": "big data centers", "label": "TECHNOLOGY" },
+{ "pattern": "algorithm innovation", "label": "TECHNOLOGY" },
+{ "pattern": "algorithm models", "label": "TECHNOLOGY" },
+{ "pattern": "AI technology standardization", "label": "STANDARD" },
+{ "pattern": "intellectual property protection", "label": "POLICY" },
+{ "pattern": "AI products", "label": "TECHNOLOGY" },
+{ "pattern": "security compliance", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_884",
+"entities": [
+{ "pattern": "52 U.S.C. 30124", "label": "LAW" },
+{ "pattern": "11 CFR 110.16", "label": "LAW" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Regulatory Flexibility Act", "label": "LAW" },
+{ "pattern": "Commission", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_885",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "United States", "label": "GEOGRAPHIC" },
+{ "pattern": "intellectual property", "label": "POLICY" },
+{ "pattern": "frontier foundational AI systems", "label": "FRONTIER_AI" },
+{ "pattern": "national security institutions", "label": "ORGANIZATION" },
+{ "pattern": "Chief AI Officer", "label": "ROLE" },
+{ "pattern": "National Security Coordination Group", "label": "ORGANIZATION" },
+{ "pattern": "AI governance norms", "label": "POLICY" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" },
+{ "pattern": "privacy", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_886",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Chief AI Officers", "label": "ROLE" },
+{ "pattern": "AI Governance Boards", "label": "ORGANIZATION" },
+{ "pattern": "human rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "national security", "label": "MILITARY" },
+{ "pattern": "risk assessments", "label": "TESTING_STAGE" },
+{ "pattern": "risk management practices", "label": "REQUIREMENT" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "training", "label": "EDUCATION" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" }
+]
+},
+{
+"document_id": "doc_887",
+"entities": [
+{ "pattern": "synthetic media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "47 USC 230", "label": "LAW" },
+{ "pattern": "commission", "label": "ORGANIZATION" },
+{ "pattern": "civil liabilities", "label": "PENALTY" },
+{ "pattern": "criminal liabilities", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_888",
+"entities": [
+{ "pattern": "West Virginia Task Force on Artificial Intelligence", "label": "ORGANIZATION" },
+{ "pattern": "Office of the Governor", "label": "ORGANIZATION" },
+{ "pattern": "Office of Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "AI policy oversight", "label": "POLICY" },
+{ "pattern": "employment", "label": "EMPLOYMENT" },
+{ "pattern": "data", "label": "TRAINING_DATA" },
+{ "pattern": "education", "label": "EDUCATION" },
+{ "pattern": "report", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_889",
+"entities": [
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "attorney general", "label": "ROLE" },
+{ "pattern": "House Bill No. 5143", "label": "LAW" },
+{ "pattern": "materially deceptive media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "misdemeanor", "label": "PENALTY" },
+{ "pattern": "felony", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_890",
+"entities": [
+{ "pattern": "Campaign Reporting Act", "label": "LAW" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "materially deceptive media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "attorney general", "label": "ROLE" },
+{ "pattern": "district attorneys", "label": "ROLE" },
+{ "pattern": "misdemeanor", "label": "PENALTY" },
+{ "pattern": "fourth-degree felony", "label": "PENALTY" }
+]
+}
+]

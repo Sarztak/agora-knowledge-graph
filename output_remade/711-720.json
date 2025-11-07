@@ -43,10 +43,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Promoting Responsible Evaluation and Procurement to Advance Readiness for Enterprise-wide Deployment for Artificial Intelligence Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Technology in the Parks Act of 2024",
         "label": "BILL NAME"
       }
@@ -84,10 +80,6 @@
         "label": "GOVERNMENT"
       },
       {
-        "pattern": "Technology in the Parks Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Securing Elections From AI Deception Act",
         "label": "BILL NAME"
       }
@@ -115,10 +107,6 @@
       {
         "pattern": "technology-based solution",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Securing Elections From AI Deception Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Sensible Classification Act of 2023, Sec. 7: Implementation of Technology for Classification and Declassification",
@@ -160,10 +148,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Sensible Classification Act of 2023, Sec. 7: Implementation of Technology for Classification and Declassification",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Small Business Artificial Intelligence Advancement Act",
@@ -211,10 +195,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Small Business Artificial Intelligence Advancement Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI Leadership To Enable Accountable Deployment Act",
         "label": "BILL NAME"
       }
@@ -250,10 +230,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "AI Leadership To Enable Accountable Deployment Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Nucleic Acid Standards for Biosecurity Act",
@@ -309,10 +285,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Nucleic Acid Standards for Biosecurity Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Consumer Literacy and Empowerment to Advance Responsible Navigation of Artificial Intelligence Act",
         "label": "BILL NAME"
       }
@@ -356,10 +328,6 @@
       {
         "pattern": "AI training",
         "label": "TRAINING_STAGE"
-      },
-      {
-        "pattern": "Consumer Literacy and Empowerment to Advance Responsible Navigation of Artificial Intelligence Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence Allied Collaboration for Crucial Operations, Research, and Development Act of 2024",
@@ -409,10 +377,6 @@
       {
         "pattern": "compliance and enforcement",
         "label": "ACCOUNTABILITY"
-      },
-      {
-        "pattern": "Artificial Intelligence Allied Collaboration for Crucial Operations, Research, and Development Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Transparency in Elections Act of 2024",
@@ -470,10 +434,6 @@
       {
         "pattern": "advanced nuclear technology",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "AI Transparency in Elections Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Atomic Supply Chain Solutions Act",

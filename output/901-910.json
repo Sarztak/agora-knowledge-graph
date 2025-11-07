@@ -1,0 +1,132 @@
+[
+{
+"document_id": "doc_901",
+"entities": [
+{ "pattern": "Task Force on Artificial Intelligence", "label": "ORGANIZATION" },
+{ "pattern": "Oregon", "label": "GEOGRAPHIC" },
+{ "pattern": "Legislative Policy and Research Director", "label": "ROLE" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "computer science", "label": "EDUCATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "data privacy", "label": "PRIVACY" },
+{ "pattern": "federal definitions", "label": "STANDARD" },
+{ "pattern": "stakeholders", "label": "STAKEHOLDER" },
+{ "pattern": "businesses", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_902",
+"entities": [
+{ "pattern": "Department of Administrative Services", "label": "ORGANIZATION" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "Office of Policy and Management", "label": "ORGANIZATION" },
+{ "pattern": "AI policies and procedures", "label": "POLICY" },
+{ "pattern": "Judicial Department", "label": "ORGANIZATION" },
+{ "pattern": "state contracts", "label": "REQUIREMENT" },
+{ "pattern": "ethical AI use", "label": "POLICY" },
+{ "pattern": "AI bill of rights", "label": "POLICY" },
+{ "pattern": "Connecticut", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_903",
+"entities": [
+{ "pattern": "deepfakes", "label": "SYNTHETIC_DATA" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "satire", "label": "SOCIAL_HARM" },
+{ "pattern": "parody", "label": "SOCIAL_HARM" },
+{ "pattern": "interactive computer services", "label": "TECHNOLOGY" },
+{ "pattern": "civil penalty", "label": "PENALTY" },
+{ "pattern": "synthetic media", "label": "SYNTHETIC_DATA" }
+]
+},
+{
+"document_id": "doc_904",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "biometric identification systems", "label": "TECHNOLOGY" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "deepfakes", "label": "SYNTHETIC_DATA" },
+{ "pattern": "generative AI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "Department of Information Technology", "label": "ORGANIZATION" },
+{ "pattern": "ethics code", "label": "POLICY" },
+{ "pattern": "public surveillance", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_905",
+"entities": [
+{ "pattern": "computer-generated child pornography", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI-generated depictions", "label": "SYNTHETIC_DATA" },
+{ "pattern": "child pornography", "label": "SOCIAL_HARM" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "court", "label": "JUSTICE" },
+{ "pattern": "sex crimes", "label": "LAW" },
+{ "pattern": "juvenile sexting", "label": "SOCIAL_HARM" },
+{ "pattern": "digital media", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_906",
+"entities": [
+{ "pattern": "Indiana Code", "label": "LAW" },
+{ "pattern": "digitally altered media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "campaign communication", "label": "PROGRAM" },
+{ "pattern": "fabricated media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "candidates", "label": "STAKEHOLDER" },
+{ "pattern": "injunctive relief", "label": "MECHANISM" },
+{ "pattern": "civil actions", "label": "JUSTICE" }
+]
+},
+{
+"document_id": "doc_907",
+"entities": [
+{ "pattern": "Industry 4.0 Technology Grant Program", "label": "PROGRAM" },
+{ "pattern": "Maryland", "label": "GEOGRAPHIC" },
+{ "pattern": "Department of Commerce", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "Industry 4.0 Technology Grant Fund", "label": "FINANCE" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "Secretary", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_908",
+"entities": [
+{ "pattern": "University of Hawaii", "label": "ORGANIZATION" },
+{ "pattern": "wildfire forecast system", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "public safety", "label": "SAFETY" },
+{ "pattern": "risk mitigation measures", "label": "REQUIREMENT" },
+{ "pattern": "legislature", "label": "ORGANIZATION" },
+{ "pattern": "general revenues", "label": "FINANCE" },
+{ "pattern": "Hawaii", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_909",
+"entities": [
+{ "pattern": "Arizona Revised Statutes", "label": "LAW" },
+{ "pattern": "digital impersonation", "label": "SYNTHETIC_DATA" },
+{ "pattern": "AI techniques", "label": "TECHNOLOGY" },
+{ "pattern": "interactive computer service providers", "label": "TECHNOLOGY" },
+{ "pattern": "superior court", "label": "JUSTICE" },
+{ "pattern": "impersonations involving sexual or criminal content", "label": "SOCIAL_HARM" },
+{ "pattern": "emergency measure", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_910",
+"entities": [
+{ "pattern": "Lethal Autonomous Weapon Systems", "label": "MILITARY" },
+{ "pattern": "LAWS", "label": "MILITARY" },
+{ "pattern": "international humanitarian laws", "label": "LAW" },
+{ "pattern": "Protocol on Blinding Laser Weapons", "label": "LAW" },
+{ "pattern": "Convention on Certain Conventional Weapons", "label": "LAW" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "civilian", "label": "STAKEHOLDER" },
+{ "pattern": "military uses", "label": "MILITARY" }
+]
+}
+]

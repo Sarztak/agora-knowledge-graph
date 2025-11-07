@@ -39,10 +39,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "STOP HATE Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Strengthening Consumer Protections and Medical Debt Transparency Act",
         "label": "BILL NAME"
       }
@@ -84,10 +80,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Strengthening Consumer Protections and Medical Debt Transparency Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Exploitative Workplace Surveillance and Technologies Task Force Act of 2023",
         "label": "BILL NAME"
       }
@@ -115,10 +107,6 @@
       {
         "pattern": "conflict of interest",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Exploitative Workplace Surveillance and Technologies Task Force Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "CONSULT Act of 2023",
@@ -156,10 +144,6 @@
       {
         "pattern": "congressional notification",
         "label": "ACCOUNTABILITY"
-      },
-      {
-        "pattern": "CONSULT Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Preventing Adversaries from Developing Critical Capabilities Act",
@@ -213,10 +197,6 @@
       {
         "pattern": "diplomacy",
         "label": "GOVERNMENT"
-      },
-      {
-        "pattern": "Preventing Adversaries from Developing Critical Capabilities Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Department of State Authorization Act of 2023, Sec. 304 (\"Establishment of the Chief Artificial Intelligence Officer of the Department of State\")",
@@ -276,10 +256,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Department of State Authorization Act of 2023, Sec. 304 (\"Establishment of the Chief Artificial Intelligence Officer of the Department of State\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Water Infrastructure Modernization Act of 2023",
         "label": "BILL NAME"
       }
@@ -323,10 +299,6 @@
       {
         "pattern": "ethical considerations",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Water Infrastructure Modernization Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Ensuring Safe and Ethical AI Development Through SAFE AI Research Grants",
@@ -390,10 +362,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Ensuring Safe and Ethical AI Development Through SAFE AI Research Grants",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "DOE and NASA Interagency Research Coordination Act",
         "label": "BILL NAME"
       }
@@ -455,10 +423,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "DOE and NASA Interagency Research Coordination Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Coast Guard Authorization Act of 2023, Sec. 212 (\"Report on Establishment of an Unmanned Systems Capabilities Office\")",
         "label": "BILL NAME"
       }
@@ -502,10 +466,6 @@
       {
         "pattern": "citizen science community",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "Coast Guard Authorization Act of 2023, Sec. 212 (\"Report on Establishment of an Unmanned Systems Capabilities Office\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Weather Information for Agriculture Act",

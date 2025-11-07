@@ -43,10 +43,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "A bill to establish protections for individual rights with respect to computational algorithms, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "A bill to require the Secretary of Defense to carry out a pilot program on using artificial intelligence-enabled software to optimize the workflow and operations of depots, shipyards, and other manufacturing facilities run by the Department of Defense, and for other purposes.",
         "label": "BILL NAME"
       }
@@ -78,10 +74,6 @@
       {
         "pattern": "cybersecurity processes",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "A bill to require the Secretary of Defense to carry out a pilot program on using artificial intelligence-enabled software to optimize the workflow and operations of depots, shipyards, and other manufacturing facilities run by the Department of Defense, and for other purposes.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Fix Our Forests Act, Section 102 (\"Fireshed Center\")",
@@ -133,10 +125,6 @@
         "label": "MILITARY"
       },
       {
-        "pattern": "Fix Our Forests Act, Section 102 (\"Fireshed Center\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2025, Title V, Section 505 (\"Establishment of Artificial Intelligence Security Center\")",
         "label": "BILL NAME"
       }
@@ -172,10 +160,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Intelligence Authorization Act for Fiscal Year 2025, Title V, Section 505 (\"Establishment of Artificial Intelligence Security Center\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Fix Our Forests Act, Section 303 (\"Public-private wildfire technology deployment and demonstration partnership\")",
@@ -225,10 +209,6 @@
       {
         "pattern": "proprietary datasets",
         "label": "TRAINING_DATA"
-      },
-      {
-        "pattern": "Fix Our Forests Act, Section 303 (\"Public-private wildfire technology deployment and demonstration partnership\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2025, Title V, Section 510 (\"Management of artificial intelligence security risks\")",
@@ -284,10 +264,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Intelligence Authorization Act for Fiscal Year 2025, Title V, Section 510 (\"Management of artificial intelligence security risks\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "STAND with Taiwan Act of 2024, Section 11 (\"Prohibition on investments by United States financial institutions that benefit the Government of the People's Republic of China or the Chinese Communist Party\")",
         "label": "BILL NAME"
       }
@@ -329,10 +305,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "STAND with Taiwan Act of 2024, Section 11 (\"Prohibition on investments by United States financial institutions that benefit the Government of the People's Republic of China or the Chinese Communist Party\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2025, Title V, Section 504 (\"National security procedures to address certain risks and threats relating to artificial intelligence\")",
         "label": "BILL NAME"
       }
@@ -364,10 +336,6 @@
       {
         "pattern": "healthcare providers",
         "label": "HEALTHCARE"
-      },
-      {
-        "pattern": "Intelligence Authorization Act for Fiscal Year 2025, Title V, Section 504 (\"National security procedures to address certain risks and threats relating to artificial intelligence\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "American Medical Innovation and Investment Act of 2024 (Sec. 5)",
@@ -409,10 +377,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "American Medical Innovation and Investment Act of 2024 (Sec. 5)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Synthetic Biology Advancement Act of 2024",
@@ -470,10 +434,6 @@
       {
         "pattern": "tribes",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "Synthetic Biology Advancement Act of 2024",
-        "label": "BILL NAME"
       }
     ]
   }

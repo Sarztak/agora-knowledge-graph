@@ -47,10 +47,6 @@
         "label": "STANDARD"
       },
       {
-        "pattern": "21 CFR § 870.2790 (\"Photoplethysmograph analysis software for over-the-counter use\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "21 CFR § 892.2060 (\"Radiological computer-assisted diagnostic software for lesions suspicious of cancer\")",
         "label": "BILL NAME"
       }
@@ -86,10 +82,6 @@
       {
         "pattern": "U.S.",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "21 CFR § 892.2060 (\"Radiological computer-assisted diagnostic software for lesions suspicious of cancer\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "21 CFR § 870.2210 (\"Adjunctive predictive cardiovascular indicator\")",
@@ -129,10 +121,6 @@
         "label": "STANDARD"
       },
       {
-        "pattern": "21 CFR § 870.2210 (\"Adjunctive predictive cardiovascular indicator\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "21 CFR § 864.3750 (\"Software algorithm device to assist users in digital pathology\")",
         "label": "BILL NAME"
       }
@@ -164,10 +152,6 @@
       {
         "pattern": "human factors and usability testing",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "21 CFR § 864.3750 (\"Software algorithm device to assist users in digital pathology\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "21 CFR § 870.2345 (\"Electrocardiograph software for over-the-counter use\")",
@@ -205,10 +189,6 @@
       {
         "pattern": "usability assessment",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "21 CFR § 870.2345 (\"Electrocardiograph software for over-the-counter use\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "21 CFR § 864.3750 (\"Adjunctive hemodynamic indicator with decision point\")",
@@ -256,10 +236,6 @@
         "label": "PERSONAL_DATA"
       },
       {
-        "pattern": "21 CFR § 864.3750 (\"Adjunctive hemodynamic indicator with decision point\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Limited Applicability of Consumer Financial Protection Act's “Time or Space” Exception With Respect to Digital Marketing Providers",
         "label": "BILL NAME"
       }
@@ -305,10 +281,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Limited Applicability of Consumer Financial Protection Act's “Time or Space” Exception With Respect to Digital Marketing Providers",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "21 CFR § 882.1491 (\"Pediatric Autism Spectrum Disorder diagnosis aid\")",
         "label": "BILL NAME"
       }
@@ -332,10 +304,6 @@
       {
         "pattern": "independent data set",
         "label": "STANDARD"
-      },
-      {
-        "pattern": "21 CFR § 882.1491 (\"Pediatric Autism Spectrum Disorder diagnosis aid\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "21 CFR § 870.1420 (\"Coronary artery disease risk indicator using acoustic heart signals\")",
@@ -373,10 +341,6 @@
       {
         "pattern": "traceability analysis",
         "label": "ACCOUNTABILITY"
-      },
-      {
-        "pattern": "21 CFR § 870.1420 (\"Coronary artery disease risk indicator using acoustic heart signals\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "21 CFR § 892.2070 (\"Medical image analyzer\")",
@@ -418,10 +382,6 @@
       {
         "pattern": "product labeling",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "21 CFR § 892.2070 (\"Medical image analyzer\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "21 CFR § 870.2785 (\"Software for optical camera-based measurement of pulse rate, heart rate, breathing rate, and/or respiratory rate\")",

@@ -47,10 +47,6 @@
         "label": "TRAINING_DATA"
       },
       {
-        "pattern": "AI in Government Act of 2020",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An Act relating to the creation of the artificial intelligence advisory council",
         "label": "BILL NAME"
       }
@@ -108,10 +104,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "An Act relating to the creation of the artificial intelligence advisory council",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Energy Act of 2020, Title IX, Section 9008 (\"Veterans' health initiative\")",
         "label": "BILL NAME"
       }
@@ -151,10 +143,6 @@
       {
         "pattern": "computing technology",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Energy Act of 2020, Title IX, Section 9008 (\"Veterans' health initiative\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Consolidated Appropriations Act, 2021, Division W, Title V, Section 502 (\"Seedling investment in next-generation microelectronics in support of artificial intelligence\")",
@@ -246,10 +234,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Consolidated Appropriations Act, 2021, Division W, Title V, Section 502 (\"Seedling investment in next-generation microelectronics in support of artificial intelligence\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Research and Development, Competition, and Innovation Act, Title III (\"National Science Foundation for the Future\")",
         "label": "BILL NAME"
       }
@@ -299,10 +283,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Research and Development, Competition, and Innovation Act, Title III (\"National Science Foundation for the Future\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Energy Act of 2020, Title III, Section 3002(g) (\"Advanced Geothermal Computing and Data Science Research and Development\")",
         "label": "BILL NAME"
       }
@@ -322,10 +302,6 @@
       {
         "pattern": "artificial intelligence",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Energy Act of 2020, Title III, Section 3002(g) (\"Advanced Geothermal Computing and Data Science Research and Development\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Research and Development, Competition, and Innovation Act, Title VI, Section 10771 (\"Department of Energy research, development, and demonstration activities\")",
@@ -371,10 +347,6 @@
       {
         "pattern": "data",
         "label": "TRAINING_DATA"
-      },
-      {
-        "pattern": "Research and Development, Competition, and Innovation Act, Title VI, Section 10771 (\"Department of Energy research, development, and demonstration activities\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Infrastructure Investment and Jobs Act, Section 25005 (\"Strengthening Mobility and Revolutionizing Transportation Grant Program\")",
@@ -474,10 +446,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Infrastructure Investment and Jobs Act, Section 25005 (\"Strengthening Mobility and Revolutionizing Transportation Grant Program\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Research and Development, Competition, and Innovation Act, Title II (\"National Institute of Standards and Technology for the Future\"), Subtitle B (\"Measurement Research\")",
         "label": "BILL NAME"
       }
@@ -501,10 +469,6 @@
       {
         "pattern": "infrastructure instillation",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Research and Development, Competition, and Innovation Act, Title II (\"National Institute of Standards and Technology for the Future\"), Subtitle B (\"Measurement Research\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Infrastructure Investment and Jobs Act, Section 11401 (\"Grants for Charging and Fueling Infrastructure\")",
@@ -538,10 +502,6 @@
       {
         "pattern": "AI-related research and development activities",
         "label": "RESEARCH_STAGE"
-      },
-      {
-        "pattern": "Infrastructure Investment and Jobs Act, Section 11401 (\"Grants for Charging and Fueling Infrastructure\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Infrastructure Investment and Jobs Act, Section 40210 (\"Critical Minerals Mining and Recycling Research\")",

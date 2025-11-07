@@ -1,0 +1,408 @@
+[
+	{
+		"document_id": "doc_501",
+		"entities": [
+			{
+				"pattern": "U.S. entities",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Chinese entities of concern",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "military-civil fusion strategy",
+				"label": "POLICY"
+			},
+			{
+				"pattern": "Secretary of Defense",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "federal agencies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "federal financial assistance",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "regulations",
+				"label": "POLICY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_502",
+		"entities": [
+			{
+				"pattern": "autonomous commercial vehicles",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "teleoperation systems",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Alabama",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "Department of Transportation",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "federal motor vehicle safety standards",
+				"label": "STANDARD"
+			},
+			{
+				"pattern": "Governor",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "law enforcement",
+				"label": "JUSTICE"
+			},
+			{
+				"pattern": "automated driving systems",
+				"label": "TRANSPORTATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_503",
+		"entities": [
+			{
+				"pattern": "Department of Energy",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Department of Agriculture",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Federal regulations",
+				"label": "POLICY"
+			},
+			{
+				"pattern": "Federal agencies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Congressional Committees",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "U.S. Code",
+				"label": "LAW"
+			}
+		]
+	},
+	{
+		"document_id": "doc_504",
+		"entities": [
+			{
+				"pattern": "Harmful Algal Blooms and Hypoxia Research and Control Act of 1998",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Under Secretary",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "NCCOS",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "IOOS",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "NOAA",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "IOOS Program Office",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Harmful Algal Bloom Data Assembly Center",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "ecological forecasting",
+				"label": "TECHNOLOGY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_505",
+		"entities": [
+			{
+				"pattern": "Title VII of the Communications Act of 1934",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Commission",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "U.S. Access Board",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "emerging technologies",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "augmented reality",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "advanced computing",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "disabilities",
+				"label": "HEALTHCARE"
+			}
+		]
+	},
+	{
+		"document_id": "doc_506",
+		"entities": [
+			{
+				"pattern": "business advisory board",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Americas Partnership Secretariat",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "private sector",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "civil society",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "labor organizations",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "partner countries",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "emerging technologies",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "USMCA",
+				"label": "LAW"
+			},
+			{
+				"pattern": "regulations",
+				"label": "POLICY"
+			},
+			{
+				"pattern": "annual report",
+				"label": "DOCUMENT"
+			}
+		]
+	},
+	{
+		"document_id": "doc_507",
+		"entities": [
+			{
+				"pattern": "Medicare program",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "predictive risk-scoring algorithm",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "AI Bill of Rights",
+				"label": "POLICY"
+			},
+			{
+				"pattern": "law enforcement",
+				"label": "JUSTICE"
+			},
+			{
+				"pattern": "Medicare card",
+				"label": "DOCUMENT"
+			},
+			{
+				"pattern": "industry representatives",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "beneficiaries",
+				"label": "STAKEHOLDER"
+			}
+		]
+	},
+	{
+		"document_id": "doc_508",
+		"entities": [
+			{
+				"pattern": "Secretary of Health and Human Services",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "National Academies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "maternity care",
+				"label": "HEALTHCARE"
+			},
+			{
+				"pattern": "patient monitoring devices",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "racial or ethnic biases",
+				"label": "FAIRNESS"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "privacy",
+				"label": "PRIVACY"
+			},
+			{
+				"pattern": "security",
+				"label": "SAFETY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_509",
+		"entities": [
+			{
+				"pattern": "information system",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "section 3502 of title 44, United States Code",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Director",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "cybersecurity",
+				"label": "SAFETY"
+			},
+			{
+				"pattern": "Comptroller General",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "automation",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "federal government",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "cybersecurity tools",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "privacy",
+				"label": "PRIVACY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_510",
+		"entities": [
+			{
+				"pattern": "Comptroller General",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "fentanyl",
+				"label": "HEALTHCARE"
+			},
+			{
+				"pattern": "methamphetamine",
+				"label": "HEALTHCARE"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Federal Government",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "law enforcement",
+				"label": "JUSTICE"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "providers",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "platforms",
+				"label": "TECHNOLOGY"
+			}
+		]
+	}
+]

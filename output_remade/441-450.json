@@ -31,10 +31,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "To prohibit the Secretary of Defense from entering into information technology contracts with entities that provide certain services to China, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Stop Smuggling Illicit Synthetic Drugs on U.S. Transportation Networks Act of 2024",
         "label": "BILL NAME"
       }
@@ -74,10 +70,6 @@
       {
         "pattern": "Secretary",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Stop Smuggling Illicit Synthetic Drugs on U.S. Transportation Networks Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "To amend and reauthorize the Workforce Innovation and Opportunity Act and the Older Americans Act of 1965.",
@@ -125,10 +117,6 @@
         "label": "TRANSPARENCY"
       },
       {
-        "pattern": "To amend and reauthorize the Workforce Innovation and Opportunity Act and the Older Americans Act of 1965.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Transparency in Bureaucratic Communications Act",
         "label": "BILL NAME"
       }
@@ -158,10 +146,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "Transparency in Bureaucratic Communications Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "SCAM Platform Act",
         "label": "BILL NAME"
       }
@@ -185,10 +169,6 @@
       {
         "pattern": "data analysis techniques",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "SCAM Platform Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "To amend and reauthorize the Workforce Innovation and Opportunity Act and the Older Americans Act of 1965.",
@@ -228,10 +208,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "To amend and reauthorize the Workforce Innovation and Opportunity Act and the Older Americans Act of 1965.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Cybersecurity and Infrastructure Security Agency Securing AI Task Force Act",
         "label": "BILL NAME"
       }
@@ -267,10 +243,6 @@
       {
         "pattern": "U.S. Code",
         "label": "LAW"
-      },
-      {
-        "pattern": "Cybersecurity and Infrastructure Security Agency Securing AI Task Force Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "No AI Audits Act",
@@ -330,10 +302,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "No AI Audits Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence Weapon Accountability and Risk Evaluation Act of 2024",
         "label": "BILL NAME"
       }
@@ -373,10 +341,6 @@
       {
         "pattern": "state agencies",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Artificial Intelligence Weapon Accountability and Risk Evaluation Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Data Protection Act of 2024",
@@ -422,10 +386,6 @@
       {
         "pattern": "injunctive relief",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Data Protection Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New York Assembly Bill A8808A",

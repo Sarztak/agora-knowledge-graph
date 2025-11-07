@@ -59,10 +59,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "TAME Extreme Weather Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Wildland Fire Risk Reduction Program Act, Sec. 7 (Responsibilities of Program Agencies)",
         "label": "BILL NAME"
       }
@@ -116,10 +112,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Wildland Fire Risk Reduction Program Act, Sec. 7 (Responsibilities of Program Agencies)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Free Credit Scores for Consumers Act of 2024",
         "label": "BILL NAME"
       }
@@ -157,10 +149,6 @@
         "label": "PRIVACY"
       },
       {
-        "pattern": "Free Credit Scores for Consumers Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Kids Online Safety Act, Title II (Filter Bubble Transparency)",
         "label": "BILL NAME"
       }
@@ -188,10 +176,6 @@
       {
         "pattern": "geolocation data",
         "label": "PERSONAL_DATA"
-      },
-      {
-        "pattern": "Kids Online Safety Act, Title II (Filter Bubble Transparency)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Government Surveillance Reform Act of 2023, Title VII (Protection of Car Data from Warrantless Searches)",
@@ -235,10 +219,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Government Surveillance Reform Act of 2023, Title VII (Protection of Car Data from Warrantless Searches)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Deploying American Blockchains Act of 2023",
         "label": "BILL NAME"
       }
@@ -278,10 +258,6 @@
       {
         "pattern": "non-intrusive inspection technology",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Deploying American Blockchains Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Border Act of 2024, General Provisions Title",
@@ -327,10 +303,6 @@
       {
         "pattern": "environmental review records",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Border Act of 2024, General Provisions Title",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Community and Hydropower Improvement Act, Sec. 4 (Approach to Environmental Review)",
@@ -382,10 +354,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Community and Hydropower Improvement Act, Sec. 4 (Approach to Environmental Review)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Future of Artificial Intelligence Innovation Act of 2024",
         "label": "BILL NAME"
       }
@@ -409,10 +377,6 @@
       {
         "pattern": "state program operations",
         "label": "GOVERNMENT"
-      },
-      {
-        "pattern": "Future of Artificial Intelligence Innovation Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "A Stronger Workforce for America Act, Chapter 3 (Performance Accountability)",
@@ -454,10 +418,6 @@
       {
         "pattern": "AI-enabled cancer breakthroughs",
         "label": "HEALTHCARE"
-      },
-      {
-        "pattern": "A Stronger Workforce for America Act, Chapter 3 (Performance Accountability)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Grand Challenges Act of 2024",

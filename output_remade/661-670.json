@@ -39,10 +39,6 @@
         "label": "GOVERNMENT"
       },
       {
-        "pattern": "Modernizing Retrospective Regulatory Review",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Emerging Innovative Border Technologies Act",
         "label": "BILL NAME"
       }
@@ -66,10 +62,6 @@
       {
         "pattern": "law enforcement",
         "label": "JUSTICE"
-      },
-      {
-        "pattern": "Emerging Innovative Border Technologies Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Child Exploitation and Artificial Intelligence Expert Commission Act of 2024",
@@ -109,10 +101,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Child Exploitation and Artificial Intelligence Expert Commission Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "ENFORCE Act",
         "label": "BILL NAME"
       }
@@ -142,10 +130,6 @@
         "label": "PERSONAL_DATA"
       },
       {
-        "pattern": "ENFORCE Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Generative AI Copyright Disclosure Act of 2024",
         "label": "BILL NAME"
       }
@@ -173,10 +157,6 @@
       {
         "pattern": "court documents",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Generative AI Copyright Disclosure Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "CONSENT Act",
@@ -210,10 +190,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "CONSENT Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Promoting United States Leadership in Standards Act of 2024",
@@ -269,10 +245,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Promoting United States Leadership in Standards Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Secure Artificial Intelligence Act of 2024",
         "label": "BILL NAME"
       }
@@ -316,10 +288,6 @@
       {
         "pattern": "classified annex",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Secure Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "American Economic Independence Act of 2024",
@@ -367,10 +335,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "American Economic Independence Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Comment Integrity and Management Act of 2024",
         "label": "BILL NAME"
       }
@@ -406,10 +370,6 @@
       {
         "pattern": "Senate and House Committees on Armed Services",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Comment Integrity and Management Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Department of Defense Financial Audits Using Artificial Intelligence Act",

@@ -35,10 +35,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Pennsylvania HR 170",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Protecting Kids on Social Media Act",
         "label": "BILL NAME"
       }
@@ -78,10 +74,6 @@
       {
         "pattern": "Comptroller General",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Protecting Kids on Social Media Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Transparent Automated Governance Act",
@@ -153,10 +145,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "Transparent Automated Governance Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Advanced Weather Model Computing Development Act",
         "label": "BILL NAME"
       }
@@ -192,10 +180,6 @@
       {
         "pattern": "pilot program",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Advanced Weather Model Computing Development Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Digital Defense Content Provenance Act of 2023",
@@ -247,10 +231,6 @@
         "label": "PERSONAL_DATA"
       },
       {
-        "pattern": "Digital Defense Content Provenance Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence and the Information Privacy Principles",
         "label": "BILL NAME"
       }
@@ -296,10 +276,6 @@
         "label": "SECURITY_HARM"
       },
       {
-        "pattern": "Artificial Intelligence and the Information Privacy Principles",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Federal Register Doc. No. 2024-01580. Taking Additional Steps To Address the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities",
         "label": "BILL NAME"
       }
@@ -331,10 +307,6 @@
       {
         "pattern": "national security",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Federal Register Doc. No. 2024-01580. Taking Additional Steps To Address the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Federal Register Doc. No. 2024-28335 (Securing the Information and Communications Technology and Services Supply Chain)",
@@ -394,10 +366,6 @@
         "label": "FAIRNESS"
       },
       {
-        "pattern": "Federal Register Doc. No. 2024-28335 (Securing the Information and Communications Technology and Services Supply Chain)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "St Louis, MO Board Bill Number 185 2023-24",
         "label": "BILL NAME"
       }
@@ -455,10 +423,6 @@
         "label": "BENCHMARK"
       },
       {
-        "pattern": "St Louis, MO Board Bill Number 185 2023-24",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "City of San Jose Generative AI Guidelines ",
         "label": "BILL NAME"
       }
@@ -506,10 +470,6 @@
       {
         "pattern": "City",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "City of San Jose Generative AI Guidelines ",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Los Angeles AI Roadmap 2024, Best Practices and Roadmap",

@@ -51,10 +51,6 @@
         "label": "PRIVACY"
       },
       {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1547 (\"Joint partner-sharing network capabilities for Middle East defense integration\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section Title XV, Subtitle D (\"Artificial Intelligence\")",
         "label": "BILL NAME"
       }
@@ -90,10 +86,6 @@
       {
         "pattern": "congressional defense committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section Title XV, Subtitle D (\"Artificial Intelligence\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 221 (\"Improvements relating to defining, identifying, and planning the artificial intelligence workforce of the Department of Defense\")",
@@ -143,10 +135,6 @@
       {
         "pattern": "national security",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 221 (\"Improvements relating to defining, identifying, and planning the artificial intelligence workforce of the Department of Defense\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1087 (\"Establishment of Department of Defense working group on multilateral artificial intelligence coordination\")",
@@ -202,10 +190,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1087 (\"Establishment of Department of Defense working group on multilateral artificial intelligence coordination\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 236 (\"Pilot program on development of near-term use cases and demonstration of artificial intelligence toward biotechnology applications for national security\")",
         "label": "BILL NAME"
       }
@@ -241,10 +225,6 @@
       {
         "pattern": "adversarial countries",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 236 (\"Pilot program on development of near-term use cases and demonstration of artificial intelligence toward biotechnology applications for national security\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 225 (\"Duties of Chief Digital and Artificial Intelligence Officer Governing Council relating to artificial intelligence models and advanced artificial intelligence technologies\")",
@@ -296,10 +276,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 225 (\"Duties of Chief Digital and Artificial Intelligence Officer Governing Council relating to artificial intelligence models and advanced artificial intelligence technologies\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 6506 (\"Enhancement of authority for intelligence community public-private talent exchanges\")",
         "label": "BILL NAME"
       }
@@ -339,10 +315,6 @@
       {
         "pattern": "congressional defense committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 6506 (\"Enhancement of authority for intelligence community public-private talent exchanges\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1514 (\"Management and cybersecurity of multi-cloud environments\")",
@@ -406,10 +378,6 @@
         "label": "REQUIREMENT"
       },
       {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1514 (\"Management and cybersecurity of multi-cloud environments\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1078 (\"Study and report on Department of Defense use of unmanned ground vehicle systems manufactured by certain foreign entities\")",
         "label": "BILL NAME"
       }
@@ -449,10 +417,6 @@
       {
         "pattern": "industry practices",
         "label": "STANDARD"
-      },
-      {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1078 (\"Study and report on Department of Defense use of unmanned ground vehicle systems manufactured by certain foreign entities\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1031 (\"Requirements for the unmanned maritime autonomy architecture\")",
@@ -518,10 +482,6 @@
       {
         "pattern": "national security",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1031 (\"Requirements for the unmanned maritime autonomy architecture\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Executive Order on Advancing United States Leadership in Artificial Intelligence Infrastructure (EO 14141)",

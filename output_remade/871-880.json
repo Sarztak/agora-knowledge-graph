@@ -39,10 +39,6 @@
         "label": "STANDARD"
       },
       {
-        "pattern": "Commission Decision Establishing the European AI Office",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "White Paper on Artificial Intelligence Standardization 2021",
         "label": "BILL NAME"
       }
@@ -92,10 +88,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "White Paper on Artificial Intelligence Standardization 2021",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Initial advice on Generative Artificial Intelligence in the public service (New Zealand)",
         "label": "BILL NAME"
       }
@@ -135,10 +127,6 @@
       {
         "pattern": "education and training",
         "label": "EDUCATION"
-      },
-      {
-        "pattern": "Initial advice on Generative Artificial Intelligence in the public service (New Zealand)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Opinion on Strengthening Science and Technology Ethics Governance",
@@ -198,10 +186,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Opinion on Strengthening Science and Technology Ethics Governance",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Internet Information Service Algorithmic Recommendation Management Provisions",
         "label": "BILL NAME"
       }
@@ -247,10 +231,6 @@
         "label": "ECONOMIC_HARM"
       },
       {
-        "pattern": "Internet Information Service Algorithmic Recommendation Management Provisions",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Digital Charter Implementation Act 2022, Part 3 (\"Artificial Intelligence and Data Act\")",
         "label": "BILL NAME"
       }
@@ -290,10 +270,6 @@
       {
         "pattern": "emergency scenarios",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Digital Charter Implementation Act 2022, Part 3 (\"Artificial Intelligence and Data Act\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "OpenAI Preparedness Framework (Beta)",
@@ -349,10 +325,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "OpenAI Preparedness Framework (Beta)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "The Global Security Initiative Concept Paper",
         "label": "BILL NAME"
       }
@@ -396,10 +368,6 @@
       {
         "pattern": "governance regime",
         "label": "POLICY"
-      },
-      {
-        "pattern": "The Global Security Initiative Concept Paper",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Position Paper of the People’s Republic of China on Regulating Military Applications of Artificial Intelligence",
@@ -467,10 +435,6 @@
         "label": "ACCOUNTABILITY"
       },
       {
-        "pattern": "Position Paper of the People’s Republic of China on Regulating Military Applications of Artificial Intelligence",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Position Paper of the People's Republic of China on Strengthening Ethical Governance of Artificial Intelligence (AI)",
         "label": "BILL NAME"
       }
@@ -514,10 +478,6 @@
       {
         "pattern": "risk management framework",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Position Paper of the People's Republic of China on Strengthening Ethical Governance of Artificial Intelligence (AI)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Israel's Policy on Artificial Intelligence: Regulations and Ethics",

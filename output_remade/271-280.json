@@ -23,10 +23,6 @@
         "label": "HUMAN_RIGHTS"
       },
       {
-        "pattern": "An act to include certain computer-related projects in the Federal permitting program under title XLI of the FAST Act, and for other purposes",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11227 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
         "label": "BILL NAME"
       }
@@ -68,10 +64,6 @@
         "label": "CONSUMER"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11227 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Information Technology Modernization Centers of Excellence Program Act",
         "label": "BILL NAME"
       }
@@ -103,10 +95,6 @@
       {
         "pattern": "genomics",
         "label": "SENSITIVE_DATA"
-      },
-      {
-        "pattern": "Information Technology Modernization Centers of Excellence Program Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Research and Development, Competition, and Innovation Act, Title IV, Section 10402 (\"National engineering biology research and development initiative\")",
@@ -150,10 +138,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Research and Development, Competition, and Innovation Act, Title IV, Section 10402 (\"National engineering biology research and development initiative\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Identifying Outputs of Generative Adversarial Networks Act",
         "label": "BILL NAME"
       }
@@ -181,10 +165,6 @@
       {
         "pattern": "hydrologic modeling",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Identifying Outputs of Generative Adversarial Networks Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Flood Level Observation, Operations, and Decision Support Act, Section 14 (\"National Weather Service hydrologic research fellowship program\")",
@@ -224,10 +204,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Flood Level Observation, Operations, and Decision Support Act, Section 14 (\"National Weather Service hydrologic research fellowship program\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "21 CFR § 876.1520 (\"Gastrointestinal lesion software detection system\")",
         "label": "BILL NAME"
       }
@@ -263,10 +239,6 @@
       {
         "pattern": "manufacturing jobs",
         "label": "EMPLOYMENT"
-      },
-      {
-        "pattern": "21 CFR § 876.1520 (\"Gastrointestinal lesion software detection system\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Energy Act of 2020, Title VI, Section 6006 (\"Development of National Smart Manufacturing Plan\")",
@@ -308,10 +280,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Energy Act of 2020, Title VI, Section 6006 (\"Development of National Smart Manufacturing Plan\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 232 (\"Pilot program on data repositories to facilitate the development of artificial intelligence capabilities for the Department of Defense\")",
@@ -427,10 +395,6 @@
         "label": "EMPLOYMENT"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 232 (\"Pilot program on data repositories to facilitate the development of artificial intelligence capabilities for the Department of Defense\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
         "label": "BILL NAME"
       }
@@ -466,10 +430,6 @@
       {
         "pattern": "racial bias",
         "label": "DISCRIMINATION_HARM"
-      },
-      {
-        "pattern": "Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Illinois HB53 2021",

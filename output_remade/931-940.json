@@ -19,10 +19,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "A Bill in the District of Columbia to prohibit users of algorithmic decision-making from utilizing algorithmic eligibility determinations in a discriminatory manner, to require corresponding notices to individuals whose personal information is used, and to provide for appropriate means of civil enforcement.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Tennessee House Bill 2163 (Sexual Exploitation of Children)",
         "label": "BILL NAME"
       }
@@ -54,10 +50,6 @@
       {
         "pattern": "federal law",
         "label": "LAW"
-      },
-      {
-        "pattern": "Tennessee House Bill 2163 (Sexual Exploitation of Children)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Illinois House Bill 4875",
@@ -105,10 +97,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Illinois House Bill 4875",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Utah Senate Bill 149, Chapter 70",
         "label": "BILL NAME"
       }
@@ -142,10 +130,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Utah Senate Bill 149, Chapter 70",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Utah Senate Bill 149, Section 13-2-12",
         "label": "BILL NAME"
       }
@@ -173,10 +157,6 @@
       {
         "pattern": "Section 63N-1a-306",
         "label": "LAW"
-      },
-      {
-        "pattern": "Utah Senate Bill 149, Section 13-2-12",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Utah Senate Bill 84, Part 13",
@@ -228,10 +208,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Utah Senate Bill 84, Part 13",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "West Virginia House Bill 3214",
         "label": "BILL NAME"
       }
@@ -271,10 +247,6 @@
       {
         "pattern": "March 1, 2025",
         "label": "POLICY"
-      },
-      {
-        "pattern": "West Virginia House Bill 3214",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Massachusetts House Bill 4885 ",
@@ -318,10 +290,6 @@
         "label": "EDUCATION"
       },
       {
-        "pattern": "Massachusetts House Bill 4885 ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An Act Authorizing And Adjusting Bonds Of The State And Concerning Provisions Related To State And Municipal Tax Administration, General Government And School Building Projects",
         "label": "BILL NAME"
       }
@@ -359,10 +327,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "An Act Authorizing And Adjusting Bonds Of The State And Concerning Provisions Related To State And Municipal Tax Administration, General Government And School Building Projects",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Utah House Bill 148",
         "label": "BILL NAME"
       }
@@ -398,10 +362,6 @@
       {
         "pattern": "digitally altered images",
         "label": "SYNTHETIC_DATA"
-      },
-      {
-        "pattern": "Utah House Bill 148",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Illinois House Bill 2123",

@@ -43,10 +43,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Colorado House Bill 24-1468",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Oregon House Bill 4153",
         "label": "BILL NAME"
       }
@@ -96,10 +92,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Oregon House Bill 4153",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Connecticut Substitute Senate Bill 1103",
         "label": "BILL NAME"
       }
@@ -135,10 +127,6 @@
       {
         "pattern": "synthetic media",
         "label": "SYNTHETIC_DATA"
-      },
-      {
-        "pattern": "Connecticut Substitute Senate Bill 1103",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Arizona 2024 Senate Bill 1359",
@@ -182,10 +170,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Arizona 2024 Senate Bill 1359",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "New Hampshire House Bill 1688 ",
         "label": "BILL NAME"
       }
@@ -227,10 +211,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "New Hampshire House Bill 1688 ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "South Dakota 2024 Senate Bill 79",
         "label": "BILL NAME"
       }
@@ -268,10 +248,6 @@
         "label": "JUSTICE"
       },
       {
-        "pattern": "South Dakota 2024 Senate Bill 79",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Indiana 2024 House Bill 1133",
         "label": "BILL NAME"
       }
@@ -307,10 +283,6 @@
       {
         "pattern": "Secretary",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Indiana 2024 House Bill 1133",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Maryland House Bill 622",
@@ -354,10 +326,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Maryland House Bill 622",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Hawaii Senate Bill 2284 (Relating To A Wildfire Forecast System For Hawaii)",
         "label": "BILL NAME"
       }
@@ -393,10 +361,6 @@
       {
         "pattern": "emergency measure",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Hawaii Senate Bill 2284 (Relating To A Wildfire Forecast System For Hawaii)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Arizona 2024 House Bill 2394",
@@ -438,10 +402,6 @@
       {
         "pattern": "military uses",
         "label": "MILITARY"
-      },
-      {
-        "pattern": "Arizona 2024 House Bill 2394",
-        "label": "BILL NAME"
       },
       {
         "pattern": "The position paper submitted by the Chinese delegation to CCW 5th Review Conference",

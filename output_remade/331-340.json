@@ -71,10 +71,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Title XV, Subtitle C (\"Cyberspace-Related Matters: Information Technology and Data Management\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 346 (\"Pilot program on optimization of aerial refueling and fuel management in contested logistics environments through use of artificial intelligence\")",
         "label": "BILL NAME"
       }
@@ -118,10 +114,6 @@
       {
         "pattern": "virtual assistants",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 346 (\"Pilot program on optimization of aerial refueling and fuel management in contested logistics environments through use of artificial intelligence\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Virginia HB 2154",
@@ -185,10 +177,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Virginia HB 2154",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Illinois HB 3563",
         "label": "BILL NAME"
       }
@@ -240,10 +228,6 @@
       {
         "pattern": "diversity",
         "label": "FAIRNESS"
-      },
-      {
-        "pattern": "Illinois HB 3563",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Alabama SB 78",
@@ -299,10 +283,6 @@
         "label": "BENCHMARK"
       },
       {
-        "pattern": "Alabama SB 78",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "New Jersey S 2723",
         "label": "BILL NAME"
       }
@@ -340,10 +320,6 @@
         "label": "ROLE"
       },
       {
-        "pattern": "New Jersey S 2723",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Arkansas SB 656",
         "label": "BILL NAME"
       }
@@ -379,10 +355,6 @@
       {
         "pattern": "plan for implementation",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Arkansas SB 656",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
@@ -430,10 +402,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 916 (\"Strategic management dashboard demonstration\")",
         "label": "BILL NAME"
       }
@@ -445,10 +413,6 @@
       {
         "pattern": "artificial intelligence",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 916 (\"Strategic management dashboard demonstration\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 212 (\"Clarification of role of senior official with principal responsibility for artificial intelligence and machine learning\")",
@@ -478,10 +442,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 212 (\"Clarification of role of senior official with principal responsibility for artificial intelligence and machine learning\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 557 (\"Study and report on professional military education\")",

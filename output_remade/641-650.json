@@ -27,10 +27,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Online Privacy Act of 2023, Sec. 106 (\"Right to individual autonomy\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Eliminating Abusive and Rampant Neglect of Interactive Technologies Act of 2023 (National Commission on Online Child Sexual Exploitation Prevention)",
         "label": "BILL NAME"
       }
@@ -64,10 +60,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Eliminating Abusive and Rampant Neglect of Interactive Technologies Act of 2023 (National Commission on Online Child Sexual Exploitation Prevention)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Know Your App Act",
         "label": "BILL NAME"
       }
@@ -95,10 +87,6 @@
       {
         "pattern": "targeted advertising",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Know Your App Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Protecting the Information of our Vulnerable Adolescents, Children, and Youth Act",
@@ -142,10 +130,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Protecting the Information of our Vulnerable Adolescents, Children, and Youth Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Contraband Awareness Technology Catches Harmful Fentanyl Act",
         "label": "BILL NAME"
       }
@@ -181,10 +165,6 @@
       {
         "pattern": "strategy",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Contraband Awareness Technology Catches Harmful Fentanyl Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "No ICBMs or Drones for Iran Act of 2023",
@@ -228,10 +208,6 @@
         "label": "FINANCE"
       },
       {
-        "pattern": "No ICBMs or Drones for Iran Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "PAID Act, Sec. 3 (Requirements for Private Passenger Automobile Insurers)",
         "label": "BILL NAME"
       }
@@ -255,10 +231,6 @@
       {
         "pattern": "policy options",
         "label": "POLICY"
-      },
-      {
-        "pattern": "PAID Act, Sec. 3 (Requirements for Private Passenger Automobile Insurers)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Preserving Telehealth, Hospital, and Ambulance Access Act, Sec. 105 (Report on Wearable Medical Devices)",
@@ -294,10 +266,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Preserving Telehealth, Hospital, and Ambulance Access Act, Sec. 105 (Report on Wearable Medical Devices)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "HOME Act of 2024, Sec. 7 (Identification of Unfair Screening Practices)",
         "label": "BILL NAME"
       }
@@ -329,10 +297,6 @@
       {
         "pattern": "House committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "HOME Act of 2024, Sec. 7 (Identification of Unfair Screening Practices)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Countering Antisemitism Act, Sec. 8 (Online Antisemitism, Holocaust Denial, and Distortion)",
@@ -374,10 +338,6 @@
       {
         "pattern": "Senate committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Countering Antisemitism Act, Sec. 8 (Online Antisemitism, Holocaust Denial, and Distortion)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Richard L. Trumka Protecting the Right to Organize Act of 2023, Sec. 309 (GAO Report)",

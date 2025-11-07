@@ -1,0 +1,173 @@
+[
+{
+"document_id": "doc_071",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "biodefense posture reviews", "label": "DOCUMENT" },
+{ "pattern": "biodefense strategies", "label": "POLICY" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "cyber capabilities", "label": "TECHNOLOGY" },
+{ "pattern": "biological attacks", "label": "SAFETY_HARM" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_072",
+"entities": [
+{ "pattern": "Secretary of the Navy", "label": "ROLE" },
+{ "pattern": "unmanned underwater vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "mission autonomy planning", "label": "TECHNOLOGY" },
+{ "pattern": "Navy", "label": "ORGANIZATION" },
+{ "pattern": "United States Indo-Pacific Command", "label": "ORGANIZATION" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" },
+{ "pattern": "underwater vehicle requirements", "label": "REQUIREMENT" },
+{ "pattern": "modular payload integration", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_073",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Digital On-Demand Program", "label": "PROGRAM" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Senate and House Armed Services Committees", "label": "ORGANIZATION" },
+{ "pattern": "Chief Digital and Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "emerging technologies", "label": "TECHNOLOGY" },
+{ "pattern": "data literacy", "label": "EDUCATION" },
+{ "pattern": "digital platform", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_074",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "mobile devices", "label": "TECHNOLOGY" },
+{ "pattern": "anonymizing-enabling technologies", "label": "TECHNOLOGY" },
+{ "pattern": "network-enabled content inspection", "label": "TECHNOLOGY" },
+{ "pattern": "on-device VPNs", "label": "TECHNOLOGY" },
+{ "pattern": "AI-based protection", "label": "TECHNOLOGY" },
+{ "pattern": "smishing", "label": "SECURITY_HARM" },
+{ "pattern": "phishing", "label": "SECURITY_HARM" },
+{ "pattern": "cybersecurity architecture", "label": "STANDARD" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_075",
+"entities": [
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "human rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "democracy", "label": "HUMAN_RIGHTS" },
+{ "pattern": "rule of law", "label": "LAW" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "non-discrimination", "label": "FAIRNESS" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "human dignity", "label": "HUMAN_RIGHTS" },
+{ "pattern": "democratic processes", "label": "GOVERNMENT" },
+{ "pattern": "risk assessment", "label": "BENCHMARK" },
+{ "pattern": "mitigation strategies", "label": "POLICY" },
+{ "pattern": "international cooperation", "label": "PROGRAM" },
+{ "pattern": "compliance monitoring", "label": "MONITORING_STAGE" },
+{ "pattern": "accessible remedies", "label": "PENALTY" },
+{ "pattern": "public consultation", "label": "MECHANISM" },
+{ "pattern": "digital literacy", "label": "EDUCATION" },
+{ "pattern": "procedural safeguards", "label": "POLICY" },
+{ "pattern": "oversight mechanisms", "label": "ACCOUNTABILITY" },
+{ "pattern": "national security interests", "label": "MILITARY" },
+{ "pattern": "international human rights law", "label": "LAW" },
+{ "pattern": "Conference of the Parties", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_076",
+"entities": [
+{ "pattern": "facial recognition technology", "label": "TECHNOLOGY" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "research and development", "label": "RESEARCH_STAGE" },
+{ "pattern": "algorithm training", "label": "TRAINING_STAGE" },
+{ "pattern": "personal information", "label": "PERSONAL_DATA" },
+{ "pattern": "transparently", "label": "TRANSPARENCY" },
+{ "pattern": "consent", "label": "PRIVACY" },
+{ "pattern": "minors", "label": "STAKEHOLDER" },
+{ "pattern": "personal information protection impact assessments", "label": "BENCHMARK" },
+{ "pattern": "cyberspace administrations", "label": "ORGANIZATION" },
+{ "pattern": "public security authorities", "label": "ORGANIZATION" },
+{ "pattern": "facial information", "label": "SENSITIVE_DATA" },
+{ "pattern": "ethical standards", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_077",
+"entities": [
+{ "pattern": "Illinois Future of Work Task Force", "label": "ORGANIZATION" },
+{ "pattern": "emerging technologies", "label": "TECHNOLOGY" },
+{ "pattern": "automation", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "employment", "label": "EMPLOYMENT" },
+{ "pattern": "job standards", "label": "STANDARD" },
+{ "pattern": "working conditions", "label": "REQUIREMENT" },
+{ "pattern": "workforce development and training programs", "label": "PROGRAM" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "General Assembly", "label": "ORGANIZATION" },
+{ "pattern": "Illinois", "label": "GEOGRAPHIC" }
+]
+},
+{
+"document_id": "doc_078",
+"entities": [
+{ "pattern": "bias audit", "label": "BENCHMARK" },
+{ "pattern": "Automated Employment Decision Tools", "label": "TECHNOLOGY" },
+{ "pattern": "AEDTs", "label": "TECHNOLOGY" },
+{ "pattern": "sex", "label": "SENSITIVE_DATA" },
+{ "pattern": "race/ethnicity", "label": "SENSITIVE_DATA" },
+{ "pattern": "bias audit summaries", "label": "DOCUMENT" },
+{ "pattern": "data retention policies", "label": "POLICY" },
+{ "pattern": "employment agencies", "label": "ORGANIZATION" },
+{ "pattern": "employers", "label": "STAKEHOLDER" },
+{ "pattern": "candidates", "label": "STAKEHOLDER" },
+{ "pattern": "employees", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_079",
+"entities": [
+{ "pattern": "generative AI services", "label": "TECHNOLOGY" },
+{ "pattern": "training data", "label": "TRAINING_DATA" },
+{ "pattern": "model safety", "label": "SAFETY" },
+{ "pattern": "intellectual property rights", "label": "LAW" },
+{ "pattern": "personal information consent", "label": "PRIVACY" },
+{ "pattern": "security audits", "label": "MONITORING_STAGE" },
+{ "pattern": "malicious attacks", "label": "SECURITY_HARM" },
+{ "pattern": "content accuracy", "label": "TRANSPARENCY" },
+{ "pattern": "personal data usage", "label": "PERSONAL_DATA" },
+{ "pattern": "complaints", "label": "ACCOUNTABILITY" },
+{ "pattern": "service continuity", "label": "SAFETY" },
+{ "pattern": "parental controls", "label": "POLICY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "user consent", "label": "PRIVACY" },
+{ "pattern": "banks of unsafe key words", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_080",
+"entities": [
+{ "pattern": "Ministry of Defence", "label": "ORGANIZATION" },
+{ "pattern": "Responsible Officers", "label": "ROLE" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Defence", "label": "MILITARY" },
+{ "pattern": "JSP", "label": "DOCUMENT" },
+{ "pattern": "AI Ethical Principles", "label": "POLICY" },
+{ "pattern": "Governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "UK National AI Strategy", "label": "POLICY" },
+{ "pattern": "security risks", "label": "SAFETY" },
+{ "pattern": "ethical risks", "label": "FAIRNESS" },
+{ "pattern": "AI legal considerations", "label": "LAW" },
+{ "pattern": "AI-specific requirements", "label": "REQUIREMENT" }
+]
+}
+]

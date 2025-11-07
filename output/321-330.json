@@ -1,0 +1,129 @@
+[
+{
+"document_id": "doc_321",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "data science", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_322",
+"entities": [
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "congressional intelligence committees", "label": "ORGANIZATION" },
+{ "pattern": "People's Republic of China", "label": "GEOGRAPHIC" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "supply chain", "label": "STRUCTURAL_RISK" }
+]
+},
+{
+"document_id": "doc_323",
+"entities": [
+{ "pattern": "Director of National Intelligence", "label": "ROLE" },
+{ "pattern": "intelligence community", "label": "ORGANIZATION" },
+{ "pattern": "Commercial Cloud Enterprise", "label": "PROGRAM" },
+{ "pattern": "Director of the Central Intelligence Agency", "label": "ROLE" },
+{ "pattern": "cloud computing", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence systems", "label": "TECHNOLOGY" },
+{ "pattern": "congressional intelligence and appropriations committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_324",
+"entities": [
+{ "pattern": "Secretary of the Navy", "label": "ROLE" },
+{ "pattern": "Shipyard Infrastructure Optimization Program", "label": "PROGRAM" },
+{ "pattern": "Department of the Navy", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. Navy shipyards", "label": "GEOGRAPHIC" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_325",
+"entities": [
+{ "pattern": "Chief Digital and Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Chief Digital and Artificial Intelligence Officer Governing Council", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_326",
+"entities": [
+{ "pattern": "Secretary of the Army", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "Army", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "autonomous vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "tactical wheeled vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "national security strategy", "label": "POLICY" },
+{ "pattern": "congressional defense committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_327",
+"entities": [
+{ "pattern": "Chief Artificial Intelligence Officer", "label": "ROLE" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of State", "label": "ROLE" },
+{ "pattern": "Chief Information Officer", "label": "ROLE" },
+{ "pattern": "diplomacy", "label": "GOVERNMENT" }
+]
+},
+{
+"document_id": "doc_328",
+"entities": [
+{ "pattern": "DoD", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "ML", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "bug bounty program", "label": "PROGRAM" },
+{ "pattern": "generative AI", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "bias mitigation", "label": "FAIRNESS" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "training programs", "label": "EDUCATION" },
+{ "pattern": "intellectual property", "label": "LAW" },
+{ "pattern": "autonomous systems", "label": "TECHNOLOGY" },
+{ "pattern": "decision support systems", "label": "TECHNOLOGY" },
+{ "pattern": "military applications", "label": "MILITARY" },
+{ "pattern": "security risks", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_329",
+"entities": [
+{ "pattern": "Secretary of State", "label": "ROLE" },
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "AUKUS partnership", "label": "PROGRAM" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AUKUS partners", "label": "STAKEHOLDER" },
+{ "pattern": "defense technologies", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_330",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "Chief Digital and Artificial Intelligence Officer Governing Council", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "Chief Digital and AI Officer", "label": "ROLE" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Defense Information School", "label": "ORGANIZATION" },
+{ "pattern": "Director of the Defense Media Activity", "label": "ROLE" },
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "digital content provenance", "label": "STANDARD" },
+{ "pattern": "official photographs and videos", "label": "DOCUMENT" },
+{ "pattern": "US persons", "label": "STAKEHOLDER" }
+]
+}
+]

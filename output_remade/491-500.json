@@ -35,10 +35,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "OpenAI Charter",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Provisions on the Administration of Deep Synthesis Internet Information Services",
         "label": "BILL NAME"
       }
@@ -82,10 +78,6 @@
       {
         "pattern": "Chinese government-controlled entities",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Provisions on the Administration of Deep Synthesis Internet Information Services",
-        "label": "BILL NAME"
       },
       {
         "pattern": "STAND with Taiwan Act of 2023",
@@ -149,10 +141,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "STAND with Taiwan Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "NIST AI Risk Management Framework 1.0",
         "label": "BILL NAME"
       }
@@ -184,10 +172,6 @@
       {
         "pattern": "congressional defense committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "NIST AI Risk Management Framework 1.0",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence Bug Bounty Act of 2023",
@@ -231,10 +215,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Artificial Intelligence Bug Bounty Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI Labeling Act of 2023",
         "label": "BILL NAME"
       }
@@ -270,10 +250,6 @@
       {
         "pattern": "rulemaking",
         "label": "MECHANISM"
-      },
-      {
-        "pattern": "AI Labeling Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "An Act concerning consumer protections in interactions with artificial intelligence systems.",
@@ -315,10 +291,6 @@
       {
         "pattern": "fairness",
         "label": "FAIRNESS"
-      },
-      {
-        "pattern": "An Act concerning consumer protections in interactions with artificial intelligence systems.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Microsoft Responsible AI Standard, v2",
@@ -370,10 +342,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "Microsoft Responsible AI Standard, v2",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Algorithmic Accountability Act of 2023",
         "label": "BILL NAME"
       }
@@ -413,10 +381,6 @@
       {
         "pattern": "misinformation",
         "label": "SOCIAL_HARM"
-      },
-      {
-        "pattern": "Algorithmic Accountability Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "LISTOS Act",
@@ -462,10 +426,6 @@
       {
         "pattern": "Congressional committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "LISTOS Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Promoting Precision Agriculture Act of 2023",

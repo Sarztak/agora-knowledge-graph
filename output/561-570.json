@@ -1,0 +1,496 @@
+[
+	{
+		"document_id": "doc_561",
+		"entities": [
+			{
+				"pattern": "Secretary of Commerce",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "information and communications technology",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "ICT",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "U.S.",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "foreign adversaries",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "President",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "quantum computing",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "telecommunications",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "civil and criminal penalties",
+				"label": "PENALTY"
+			},
+			{
+				"pattern": "fines",
+				"label": "PENALTY"
+			},
+			{
+				"pattern": "imprisonment",
+				"label": "PENALTY"
+			},
+			{
+				"pattern": "forfeiture",
+				"label": "PENALTY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_562",
+		"entities": [
+			{
+				"pattern": "Administrator",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "air traffic control training",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "virtual/augmented reality",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "labor organizations",
+				"label": "STAKEHOLDER"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_563",
+		"entities": [
+			{
+				"pattern": "Administrator",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "airport efficiency and safety",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "jet bridges",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "airport service vehicles",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "aircraft taxiing",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "China",
+				"label": "GEOGRAPHIC"
+			}
+		]
+	},
+	{
+		"document_id": "doc_564",
+		"entities": [
+			{
+				"pattern": "Under Secretary",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "weather enterprise",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "National Oceanic and Atmospheric Administration",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "NOAA",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Commercial Data Program",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "U.S.",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "university consortium",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "federal agencies",
+				"label": "ORGANIZATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_565",
+		"entities": [
+			{
+				"pattern": "National Drone and Advanced Air Mobility Research Institutes",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Federal agencies",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "advanced air mobility systems",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "testbeds",
+				"label": "MECHANISM"
+			},
+			{
+				"pattern": "workforce development",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "unmanned aircraft systems",
+				"label": "TRANSPORTATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_566",
+		"entities": [
+			{
+				"pattern": "Section 606 of the Harmful Algal Bloom and Hypoxia Research and Control Act",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Under Secretary",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "NCCOS",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "IOOS",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Federal",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "State",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "regional",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "local observing capabilities",
+				"label": "PROGRAM"
+			},
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "IOOS Program Office",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Harmful Algal Bloom Data Assembly Center",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "ecological forecasting",
+				"label": "TECHNOLOGY"
+			}
+		]
+	},
+	{
+		"document_id": "doc_567",
+		"entities": [
+			{
+				"pattern": "Secretary of Education",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "data literacy education",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "STEM education",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "Congress",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "industry",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "educational institutions",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "data literacy curricula",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "professional development",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "race",
+				"label": "SENSITIVE_DATA"
+			},
+			{
+				"pattern": "ethnicity",
+				"label": "SENSITIVE_DATA"
+			},
+			{
+				"pattern": "gender",
+				"label": "SENSITIVE_DATA"
+			}
+		]
+	},
+	{
+		"document_id": "doc_568",
+		"entities": [
+			{
+				"pattern": "Secretary of Energy",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Department of Energy",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Artificial Intelligence Technology Office",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "UAS",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "high-performance computing infrastructure",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "industry",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "federal departments",
+				"label": "ORGANIZATION"
+			}
+		]
+	},
+	{
+		"document_id": "doc_569",
+		"entities": [
+			{
+				"pattern": "Secretary of Homeland Security",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "Department of Homeland Security",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Cybersecurity and Infrastructure Security Agency",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "U.S. Customs and Border Protection",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "advanced air mobility",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "unmanned aircraft systems",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "counter-UAS systems",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "Institutes",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Counter-UAS Center of Excellence",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "AI",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "machine learning",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "education",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "training",
+				"label": "EDUCATION"
+			},
+			{
+				"pattern": "privacy-protected data sets",
+				"label": "PRIVACY"
+			},
+			{
+				"pattern": "grants",
+				"label": "PROGRAM"
+			}
+		]
+	},
+	{
+		"document_id": "doc_570",
+		"entities": [
+			{
+				"pattern": "Trade Act of 1974",
+				"label": "LAW"
+			},
+			{
+				"pattern": "Chinese government",
+				"label": "ORGANIZATION"
+			},
+			{
+				"pattern": "Made in China 2025 policy",
+				"label": "POLICY"
+			},
+			{
+				"pattern": "United States Trade Representative",
+				"label": "ROLE"
+			},
+			{
+				"pattern": "U.S.",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "China",
+				"label": "GEOGRAPHIC"
+			},
+			{
+				"pattern": "civil aircraft",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "motor vehicles",
+				"label": "TRANSPORTATION"
+			},
+			{
+				"pattern": "advanced medical equipment",
+				"label": "HEALTHCARE"
+			},
+			{
+				"pattern": "agricultural machinery",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "semiconductors",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "lithium batteries",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "artificial intelligence",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "high-capacity computing",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "quantum computing",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "robotics",
+				"label": "TECHNOLOGY"
+			},
+			{
+				"pattern": "biotechnology",
+				"label": "HEALTHCARE"
+			}
+		]
+	}
+]

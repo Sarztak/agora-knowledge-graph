@@ -1,0 +1,151 @@
+[
+{
+"document_id": "doc_871",
+"entities": [
+{ "pattern": "National Information Technology Standardization Technical Committee", "label": "ORGANIZATION" },
+{ "pattern": "AI Technical Subcommittee", "label": "ORGANIZATION" },
+{ "pattern": "AI standardization", "label": "STANDARD" },
+{ "pattern": "AI standards", "label": "STANDARD" },
+{ "pattern": "performance benchmarks", "label": "BENCHMARK" },
+{ "pattern": "hardware virtual interfaces", "label": "TECHNOLOGY" },
+{ "pattern": "international exchanges", "label": "POLICY" },
+{ "pattern": "ISO/IEC JTC 1", "label": "ORGANIZATION" },
+{ "pattern": "AI standards formulation", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_872",
+"entities": [
+{ "pattern": "GenAI", "label": "GENERAL_PURPOSE_AI" },
+{ "pattern": "personal information", "label": "PERSONAL_DATA" },
+{ "pattern": "Shadow IT", "label": "TECHNOLOGY" },
+{ "pattern": "governance and accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "privacy impact assessments", "label": "DOCUMENT" },
+{ "pattern": "Māori data", "label": "SENSITIVE_DATA" },
+{ "pattern": "cybersecurity practices", "label": "SAFETY" },
+{ "pattern": "sandboxes", "label": "TESTING_STAGE" },
+{ "pattern": "procurement principles", "label": "REQUIREMENT" },
+{ "pattern": "AI regulatory frameworks", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_873",
+"entities": [
+{ "pattern": "AI ethics", "label": "POLICY" },
+{ "pattern": "rule of law", "label": "LAW" },
+{ "pattern": "agile governance", "label": "POLICY" },
+{ "pattern": "ethics committees", "label": "ORGANIZATION" },
+{ "pattern": "National Committee for Ethics in Science and Technology", "label": "ORGANIZATION" },
+{ "pattern": "international standards", "label": "STANDARD" },
+{ "pattern": "monitoring and early-warning systems", "label": "MECHANISM" },
+{ "pattern": "education and training", "label": "EDUCATION" }
+]
+},
+{
+"document_id": "doc_874",
+"entities": [
+{ "pattern": "algorithmic recommendation services", "label": "TECHNOLOGY" },
+{ "pattern": "algorithm examination", "label": "TESTING_STAGE" },
+{ "pattern": "security monitoring", "label": "SAFETY" },
+{ "pattern": "incident response", "label": "MECHANISM" },
+{ "pattern": "data protection", "label": "PRIVACY" },
+{ "pattern": "fraud prevention", "label": "SAFETY" },
+{ "pattern": "misinformation", "label": "SOCIAL_HARM" },
+{ "pattern": "complaint handling processes", "label": "MECHANISM" },
+{ "pattern": "algorithm management system", "label": "POLICY" },
+{ "pattern": "security assessments", "label": "TESTING_STAGE" },
+{ "pattern": "legal liabilities", "label": "LAW" },
+{ "pattern": "penalties", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_875",
+"entities": [
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "high-impact system", "label": "TECHNOLOGY" },
+{ "pattern": "Minister", "label": "ROLE" },
+{ "pattern": "risk mitigation measures", "label": "REQUIREMENT" },
+{ "pattern": "system descriptions", "label": "DOCUMENT" },
+{ "pattern": "administrative penalties", "label": "PENALTY" },
+{ "pattern": "personal information", "label": "PERSONAL_DATA" },
+{ "pattern": "AI purposes", "label": "TECHNOLOGY" },
+{ "pattern": "economic loss", "label": "ECONOMIC_HARM" }
+]
+},
+{
+"document_id": "doc_876",
+"entities": [
+{ "pattern": "Safety Advisory Group", "label": "ORGANIZATION" },
+{ "pattern": "OpenAI", "label": "ORGANIZATION" },
+{ "pattern": "Board of Directors", "label": "ORGANIZATION" },
+{ "pattern": "Preparedness team", "label": "ORGANIZATION" },
+{ "pattern": "risk assessments", "label": "TESTING_STAGE" },
+{ "pattern": "safety drills", "label": "MONITORING_STAGE" },
+{ "pattern": "third-party auditing", "label": "MONITORING_STAGE" },
+{ "pattern": "emergency scenarios", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_877",
+"entities": [
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "emerging technologies", "label": "TECHNOLOGY" },
+{ "pattern": "military applications", "label": "MILITARY" },
+{ "pattern": "AI security governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "AI governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "bioscience research", "label": "RESEARCH_STAGE" },
+{ "pattern": "biosecurity guidelines", "label": "POLICY" },
+{ "pattern": "information security", "label": "SAFETY" },
+{ "pattern": "data security initiatives", "label": "SAFETY" },
+{ "pattern": "global counter-terrorism efforts", "label": "JUSTICE" },
+{ "pattern": "digital governance", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_878",
+"entities": [
+{ "pattern": "military applications of AI", "label": "MILITARY" },
+{ "pattern": "international humanitarian law", "label": "LAW" },
+{ "pattern": "AI weapon systems", "label": "TECHNOLOGY" },
+{ "pattern": "data security", "label": "SAFETY" },
+{ "pattern": "AI data", "label": "TRAINING_DATA" },
+{ "pattern": "accountability mechanisms", "label": "ACCOUNTABILITY" },
+{ "pattern": "operator training", "label": "EDUCATION" },
+{ "pattern": "risk management", "label": "SAFETY" },
+{ "pattern": "governance regime", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_879",
+"entities": [
+{ "pattern": "AI ethics", "label": "POLICY" },
+{ "pattern": "laws", "label": "LAW" },
+{ "pattern": "policies", "label": "POLICY" },
+{ "pattern": "R&D entities", "label": "STAKEHOLDER" },
+{ "pattern": "algorithm security", "label": "SAFETY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "data quality", "label": "TRAINING_DATA" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "data security", "label": "SAFETY" },
+{ "pattern": "international norms", "label": "STANDARD" },
+{ "pattern": "personal information", "label": "PERSONAL_DATA" },
+{ "pattern": "public education", "label": "EDUCATION" },
+{ "pattern": "international agreements", "label": "POLICY" },
+{ "pattern": "governance framework", "label": "ACCOUNTABILITY" }
+]
+},
+{
+"document_id": "doc_880",
+"entities": [
+{ "pattern": "policy framework", "label": "POLICY" },
+{ "pattern": "AI regulation", "label": "POLICY" },
+{ "pattern": "OECD AI Principles", "label": "STANDARD" },
+{ "pattern": "AI Policy Coordination Center", "label": "ORGANIZATION" },
+{ "pattern": "regulators", "label": "STAKEHOLDER" },
+{ "pattern": "public participation", "label": "STAKEHOLDER" },
+{ "pattern": "international forums", "label": "ORGANIZATION" },
+{ "pattern": "AI regulation and standards", "label": "STANDARD" },
+{ "pattern": "risk management framework", "label": "REQUIREMENT" }
+]
+}
+]

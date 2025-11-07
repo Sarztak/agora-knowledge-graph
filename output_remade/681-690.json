@@ -35,10 +35,6 @@
         "label": "ROLE"
       },
       {
-        "pattern": "Coast Guard Authorization Act of 2024, Title II (\"Coast Guard\"), Sec. 207 (\"Report on establishment of unmanned systems capabilities office\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Coast Guard Authorization Act of 2024, Title III (\"Shipping and Navigation\"), Sec. 342 (\"Establishment of National Advisory Committee on Autonomous Maritime Systems\")",
         "label": "BILL NAME"
       }
@@ -70,10 +66,6 @@
       {
         "pattern": "data portability",
         "label": "PRIVACY"
-      },
-      {
-        "pattern": "Coast Guard Authorization Act of 2024, Title III (\"Shipping and Navigation\"), Sec. 342 (\"Establishment of National Advisory Committee on Autonomous Maritime Systems\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "21st Century Peace through Strength Act, Division D (\"Protecting Americans from Foreign Adversary Controlled Applications Act\")",
@@ -125,10 +117,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "21st Century Peace through Strength Act, Division D (\"Protecting Americans from Foreign Adversary Controlled Applications Act\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Farm, Food, and National Security Act of 2024, Title VI (\"Rural Development\"), Sec. 6303 (\"Promoting Precision Agriculture\") ",
         "label": "BILL NAME"
       }
@@ -174,10 +162,6 @@
         "label": "GOVERNMENT"
       },
       {
-        "pattern": "Farm, Food, and National Security Act of 2024, Title VI (\"Rural Development\"), Sec. 6303 (\"Promoting Precision Agriculture\") ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Countering Communist China Act, Title VI (\"Matters Related to Democracy, Human Rights, and Taiwan\"), Sec. 615 (\"Deterring America's Technological Adversaries Act\")",
         "label": "BILL NAME"
       }
@@ -213,10 +197,6 @@
       {
         "pattern": "de-identified data",
         "label": "PERSONAL_DATA"
-      },
-      {
-        "pattern": "Countering Communist China Act, Title VI (\"Matters Related to Democracy, Human Rights, and Taiwan\"), Sec. 615 (\"Deterring America's Technological Adversaries Act\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI CONSENT Act",
@@ -276,10 +256,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "AI CONSENT Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Department of Peacebuilding Act of 2023, Sec. 107 (\"Office of Technology for Peace\")",
         "label": "BILL NAME"
       }
@@ -333,10 +309,6 @@
         "label": "ROLE"
       },
       {
-        "pattern": "Department of Peacebuilding Act of 2023, Sec. 107 (\"Office of Technology for Peace\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Export Controls Enforcement Improvement Act of 2024",
         "label": "BILL NAME"
       }
@@ -376,10 +348,6 @@
       {
         "pattern": "U.S.",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "Export Controls Enforcement Improvement Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Countering Communist China Act, Title I (\"Matters Related to Trade, Investment, and Economic Relations\"), Sec. 102 (\"Sanctions with Respect to Communist Chinese Military and Surveillance Companies\")",
@@ -439,10 +407,6 @@
         "label": "ECONOMIC_HARM"
       },
       {
-        "pattern": "Countering Communist China Act, Title I (\"Matters Related to Trade, Investment, and Economic Relations\"), Sec. 102 (\"Sanctions with Respect to Communist Chinese Military and Surveillance Companies\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI PLAN Act",
         "label": "BILL NAME"
       }
@@ -494,10 +458,6 @@
       {
         "pattern": "national security",
         "label": "GOVERNMENT"
-      },
-      {
-        "pattern": "AI PLAN Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "TAME Extreme Weather Act",

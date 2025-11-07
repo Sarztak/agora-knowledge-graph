@@ -67,10 +67,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "National Artificial Intelligence Research and Development Strategic Plan 2023 Update",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An act to add Chapter 25 (commencing with Section 22756) to Division 8 of the Business and Professions Code, relating to artificial intelligence.",
         "label": "BILL NAME"
       }
@@ -112,10 +108,6 @@
         "label": "RESEARCH_STAGE"
       },
       {
-        "pattern": "An act to add Chapter 25 (commencing with Section 22756) to Division 8 of the Business and Professions Code, relating to artificial intelligence.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Ethical Norms for the New Generation Artificial Intelligence",
         "label": "BILL NAME"
       }
@@ -151,10 +143,6 @@
       {
         "pattern": "AI trustworthiness",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "Ethical Norms for the New Generation Artificial Intelligence",
-        "label": "BILL NAME"
       },
       {
         "pattern": "TTC Joint Roadmap on Evaluation and Measurement Tools for Trustworthy AI and Risk Management ",
@@ -204,10 +192,6 @@
       {
         "pattern": "index evaluation system",
         "label": "BENCHMARK"
-      },
-      {
-        "pattern": "TTC Joint Roadmap on Evaluation and Measurement Tools for Trustworthy AI and Risk Management ",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence Security Standardization White Paper, Section 5 (\"Recommendations for AI security standardization work\")",
@@ -279,10 +263,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Artificial Intelligence Security Standardization White Paper, Section 5 (\"Recommendations for AI security standardization work\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence Law of the People’s Republic of China (Draft for Suggestions from Scholars)",
         "label": "BILL NAME"
       }
@@ -336,10 +316,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Artificial Intelligence Law of the People’s Republic of China (Draft for Suggestions from Scholars)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)",
         "label": "BILL NAME"
       }
@@ -379,10 +355,6 @@
       {
         "pattern": "guidelines",
         "label": "POLICY"
-      },
-      {
-        "pattern": "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Department of Defense Directive 3000.09 (\"Autonomy in weapon systems\")",
@@ -442,10 +414,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Department of Defense Directive 3000.09 (\"Autonomy in weapon systems\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Interim Measures for the Management of Generative Artificial Intelligence Services",
         "label": "BILL NAME"
       }
@@ -495,10 +463,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Interim Measures for the Management of Generative Artificial Intelligence Services",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Global AI Governance Initiative",
         "label": "BILL NAME"
       }
@@ -542,10 +506,6 @@
       {
         "pattern": "EU",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "Global AI Governance Initiative",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Commission Decision Establishing the European AI Office",

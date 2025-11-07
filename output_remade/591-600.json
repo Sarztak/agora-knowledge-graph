@@ -31,10 +31,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Forest Data Modernization Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Pandemic and All-Hazards Preparedness and Response Act, Sec. 407 (\"Assessment of Artificial Intelligence Threats to Health Security\")",
         "label": "BILL NAME"
       }
@@ -100,10 +96,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Pandemic and All-Hazards Preparedness and Response Act, Sec. 407 (\"Assessment of Artificial Intelligence Threats to Health Security\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 906 (\"Programs for Next-Generation Microelectronics in Support of Artificial Intelligence\")",
         "label": "BILL NAME"
       }
@@ -161,10 +153,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 906 (\"Programs for Next-Generation Microelectronics in Support of Artificial Intelligence\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Advancing Nuclear Regulatory Oversight Act",
         "label": "BILL NAME"
       }
@@ -196,10 +184,6 @@
       {
         "pattern": "penalties",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Advancing Nuclear Regulatory Oversight Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Advisory for AI-Generated Content Act",
@@ -255,10 +239,6 @@
         "label": "FINANCE"
       },
       {
-        "pattern": "Advisory for AI-Generated Content Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "SAFE from PRC Investments Act",
         "label": "BILL NAME"
       }
@@ -294,10 +274,6 @@
       {
         "pattern": "Government of Israel",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "SAFE from PRC Investments Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "United States-Israel Health Technologies Cooperation Act",
@@ -369,10 +345,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "United States-Israel Health Technologies Cooperation Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Department of State Authorization Act of 2023, Sec. 931 (\"Priority for Australia and the United Kingdom in Foreign Military Sales and Direct Commercial Sales\")",
         "label": "BILL NAME"
       }
@@ -426,10 +398,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Department of State Authorization Act of 2023, Sec. 931 (\"Priority for Australia and the United Kingdom in Foreign Military Sales and Direct Commercial Sales\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Do Not Disturb Act",
         "label": "BILL NAME"
       }
@@ -469,10 +437,6 @@
       {
         "pattern": "U.S.",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "Do Not Disturb Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Promoting Resilient Supply Chains Act of 2023",
@@ -522,10 +486,6 @@
       {
         "pattern": "report",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Promoting Resilient Supply Chains Act of 2023",
-        "label": "BILL NAME"
       }
     ]
   }

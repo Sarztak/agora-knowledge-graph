@@ -1,0 +1,148 @@
+[
+{
+"document_id": "doc_851",
+"entities": [
+{ "pattern": "Office of Algorithmic Innovation", "label": "ORGANIZATION" },
+{ "pattern": "New York", "label": "GEOGRAPHIC" },
+{ "pattern": "algorithms", "label": "TECHNOLOGY" },
+{ "pattern": "policy", "label": "POLICY" },
+{ "pattern": "standards", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_852",
+"entities": [
+{ "pattern": "deepfake pornography", "label": "SYNTHETIC_DATA" },
+{ "pattern": "Pennsylvania", "label": "GEOGRAPHIC" },
+{ "pattern": "criminal misdemeanor offense", "label": "PENALTY" },
+{ "pattern": "law", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_853",
+"entities": [
+{ "pattern": "New York", "label": "GEOGRAPHIC" },
+{ "pattern": "synthetic media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "civil penalties", "label": "PENALTY" },
+{ "pattern": "fines", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_854",
+"entities": [
+{ "pattern": "New Generation Artificial Intelligence Development Plan", "label": "POLICY" },
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "autonomous systems", "label": "TECHNOLOGY" },
+{ "pattern": "knowledge computing", "label": "TECHNOLOGY" },
+{ "pattern": "intelligent robots", "label": "TECHNOLOGY" },
+{ "pattern": "military-civilian integration", "label": "POLICY" },
+{ "pattern": "standards", "label": "STANDARD" },
+{ "pattern": "ethical guidelines", "label": "POLICY" },
+{ "pattern": "AI innovation systems", "label": "PROGRAM" },
+{ "pattern": "AI key technologies", "label": "TECHNOLOGY" },
+{ "pattern": "AI-related infrastructure", "label": "TECHNOLOGY" },
+{ "pattern": "governance structures", "label": "ACCOUNTABILITY" },
+{ "pattern": "security", "label": "SAFETY" },
+{ "pattern": "national competitiveness", "label": "ECONOMIC_HARM" },
+{ "pattern": "regulatory frameworks", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_855",
+"entities": [
+{ "pattern": "Office of Artificial Intelligence", "label": "ORGANIZATION" },
+{ "pattern": "California Department of Technology", "label": "ORGANIZATION" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "automated systems", "label": "TECHNOLOGY" },
+{ "pattern": "bias", "label": "FAIRNESS" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" },
+{ "pattern": "AI system", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_856",
+"entities": [
+{ "pattern": "licensed mental health professionals", "label": "STAKEHOLDER" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "licensing board", "label": "ORGANIZATION" },
+{ "pattern": "patients", "label": "STAKEHOLDER" },
+{ "pattern": "mental health services", "label": "HEALTHCARE" },
+{ "pattern": "disciplinary action", "label": "PENALTY" },
+{ "pattern": "professional licensing board", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_857",
+"entities": [
+{ "pattern": "employers", "label": "STAKEHOLDER" },
+{ "pattern": "employment agencies", "label": "ORGANIZATION" },
+{ "pattern": "automated employment decision tools", "label": "TECHNOLOGY" },
+{ "pattern": "employment decisions", "label": "EMPLOYMENT" },
+{ "pattern": "job applicants", "label": "STAKEHOLDER" },
+{ "pattern": "data", "label": "TRAINING_DATA" },
+{ "pattern": "natural persons", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_858",
+"entities": [
+{ "pattern": "China", "label": "GEOGRAPHIC" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "protected characteristics", "label": "SENSITIVE_DATA" },
+{ "pattern": "intellectual property", "label": "POLICY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "AI developers", "label": "STAKEHOLDER" },
+{ "pattern": "security assessment", "label": "TESTING_STAGE" },
+{ "pattern": "generative AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "regulators", "label": "STAKEHOLDER" },
+{ "pattern": "legal liability", "label": "POLICY" },
+{ "pattern": "fines", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_859",
+"entities": [
+{ "pattern": "AI standards system", "label": "STANDARD" },
+{ "pattern": "international cooperation", "label": "POLICY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "natural language processing", "label": "TECHNOLOGY" },
+{ "pattern": "computer vision", "label": "TECHNOLOGY" },
+{ "pattern": "quantum computing", "label": "TECHNOLOGY" },
+{ "pattern": "healthcare", "label": "HEALTHCARE" },
+{ "pattern": "transportation", "label": "TRANSPORTATION" },
+{ "pattern": "finance", "label": "FINANCE" },
+{ "pattern": "smart cities", "label": "GOVERNMENT" },
+{ "pattern": "security", "label": "SAFETY" },
+{ "pattern": "ethics", "label": "POLICY" },
+{ "pattern": "AI data", "label": "TRAINING_DATA" },
+{ "pattern": "algorithms", "label": "TECHNOLOGY" },
+{ "pattern": "models", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_860",
+"entities": [
+{ "pattern": "federal government", "label": "ORGANIZATION" },
+{ "pattern": "U.S.", "label": "GEOGRAPHIC" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "R&D", "label": "RESEARCH_STAGE" },
+{ "pattern": "international collaboration", "label": "POLICY" },
+{ "pattern": "AI research", "label": "RESEARCH_STAGE" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "security standards", "label": "STANDARD" },
+{ "pattern": "AI training and testing", "label": "TRAINING_STAGE" },
+{ "pattern": "benchmarks", "label": "BENCHMARK" },
+{ "pattern": "standards", "label": "STANDARD" },
+{ "pattern": "fairness", "label": "FAIRNESS" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "bias", "label": "FAIRNESS" },
+{ "pattern": "workforce", "label": "EMPLOYMENT" },
+{ "pattern": "public-private partnerships", "label": "PROGRAM" },
+{ "pattern": "AI governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "international guidelines", "label": "POLICY" }
+]
+}
+]

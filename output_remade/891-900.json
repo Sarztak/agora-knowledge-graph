@@ -43,10 +43,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "New Mexico House Bill 182 of 2024(Campaign Reporting Act)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Minnesota HF 1370 (Deepfake Accountability and Public Safety) ",
         "label": "BILL NAME"
       }
@@ -82,10 +78,6 @@
       {
         "pattern": "fines",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Minnesota HF 1370 (Deepfake Accountability and Public Safety) ",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Michigan House Bill 5141",
@@ -129,10 +121,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Michigan House Bill 5141",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Idaho House Bill 664 (Freedom From AI-Rigged Elections Act)",
         "label": "BILL NAME"
       }
@@ -160,10 +148,6 @@
       {
         "pattern": "nonhuman animals",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "Idaho House Bill 664 (Freedom From AI-Rigged Elections Act)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Utah House Bill 249 (Utah Legal Personhood Amendments)",
@@ -205,10 +189,6 @@
       {
         "pattern": "parody",
         "label": "SOCIAL_HARM"
-      },
-      {
-        "pattern": "Utah House Bill 249 (Utah Legal Personhood Amendments)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Alabama House Bill 172",
@@ -262,10 +242,6 @@
       {
         "pattern": "legislature",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Alabama House Bill 172",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Washington Senate Bill 5838 (2024)",
@@ -325,10 +301,6 @@
         "label": "SOCIAL_HARM"
       },
       {
-        "pattern": "Washington Senate Bill 5838 (2024)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Oregon Senate Bill 1571",
         "label": "BILL NAME"
       }
@@ -386,10 +358,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Oregon Senate Bill 1571",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Utah Senate Bill 131 Information Technology Act Amendments (2024)",
         "label": "BILL NAME"
       }
@@ -441,10 +409,6 @@
       {
         "pattern": "third-degree felony",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Utah Senate Bill 131 Information Technology Act Amendments (2024)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Florida Senate Bill 1680",
@@ -502,10 +466,6 @@
       {
         "pattern": "compensation",
         "label": "FINANCE"
-      },
-      {
-        "pattern": "Florida Senate Bill 1680",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Colorado House Bill 24-1468",

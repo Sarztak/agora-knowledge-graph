@@ -35,10 +35,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Preventing Algorithmic Collusion Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats",
         "label": "BILL NAME"
       }
@@ -70,10 +66,6 @@
       {
         "pattern": "data sharing and coordination",
         "label": "ACCOUNTABILITY"
-      },
-      {
-        "pattern": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence Advancement Act of 2023",
@@ -121,10 +113,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Artificial Intelligence Advancement Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Eliminating Bias in Algorithmic Systems Act of 2023",
         "label": "BILL NAME"
       }
@@ -164,10 +152,6 @@
       {
         "pattern": "US persons",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "Eliminating Bias in Algorithmic Systems Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Closing Loopholes for the Overseas Use and Development of Artificial Intelligence Act",
@@ -225,10 +209,6 @@
       {
         "pattern": "fiscal years 2024 through 2028",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Closing Loopholes for the Overseas Use and Development of Artificial Intelligence Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "A bill to promote United States leadership in technical standards by directing the National Institute of Standards and Technology and the Department of State to take certain actions to encourage and enable United States participation in developing standards and specifications for artificial intelligence and other critical and emerging technologies, and for other purposes.",
@@ -292,10 +272,6 @@
         "label": "ECONOMIC_HARM"
       },
       {
-        "pattern": "A bill to promote United States leadership in technical standards by directing the National Institute of Standards and Technology and the Department of State to take certain actions to encourage and enable United States participation in developing standards and specifications for artificial intelligence and other critical and emerging technologies, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "FAIRR Act",
         "label": "BILL NAME"
       }
@@ -343,10 +319,6 @@
       {
         "pattern": "sensitive U.S. Government facilities",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "FAIRR Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "To require a briefing on the national security threats associated with Chinese autonomous ground vehicles operating in the United States.",
@@ -400,10 +372,6 @@
       {
         "pattern": "Republican appointee",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "To require a briefing on the national security threats associated with Chinese autonomous ground vehicles operating in the United States.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National AI Commission Act",
@@ -471,10 +439,6 @@
         "label": "ACCOUNTABILITY"
       },
       {
-        "pattern": "National AI Commission Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "No AI FRAUD Act",
         "label": "BILL NAME"
       }
@@ -526,10 +490,6 @@
       {
         "pattern": "evaluation",
         "label": "TESTING_STAGE"
-      },
-      {
-        "pattern": "No AI FRAUD Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "To establish a Joint Autonomy Office in the Department of Defense, and for other purposes.",

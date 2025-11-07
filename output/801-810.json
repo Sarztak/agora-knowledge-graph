@@ -1,0 +1,148 @@
+[
+{
+"document_id": "doc_801",
+"entities": [
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "protected class", "label": "FAIRNESS" },
+{ "pattern": "health care providers", "label": "HEALTHCARE" },
+{ "pattern": "fines", "label": "PENALTY" },
+{ "pattern": "civil lawsuits", "label": "MECHANISM" }
+]
+},
+{
+"document_id": "doc_802",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "automated process", "label": "TECHNOLOGY" },
+{ "pattern": "automated decision systems", "label": "TECHNOLOGY" },
+{ "pattern": "outside auditor", "label": "STAKEHOLDER" },
+{ "pattern": "impact assessment", "label": "DOCUMENT" },
+{ "pattern": "training data", "label": "TRAINING_DATA" },
+{ "pattern": "discrimination", "label": "FAIRNESS" },
+{ "pattern": "employment", "label": "EMPLOYMENT" },
+{ "pattern": "education", "label": "EDUCATION" }
+]
+},
+{
+"document_id": "doc_803",
+"entities": [
+{ "pattern": "Amazon", "label": "ORGANIZATION" },
+{ "pattern": "Anthropic", "label": "ORGANIZATION" },
+{ "pattern": "Google", "label": "ORGANIZATION" },
+{ "pattern": "Inflection", "label": "ORGANIZATION" },
+{ "pattern": "Meta", "label": "ORGANIZATION" },
+{ "pattern": "Microsoft", "label": "ORGANIZATION" },
+{ "pattern": "OpenAI", "label": "ORGANIZATION" },
+{ "pattern": "Biden-Harris Administration", "label": "ORGANIZATION" },
+{ "pattern": "AI technology", "label": "TECHNOLOGY" },
+{ "pattern": "executive order", "label": "POLICY" },
+{ "pattern": "bipartisan legislation", "label": "LAW" },
+{ "pattern": "civil society", "label": "STAKEHOLDER" },
+{ "pattern": "academia", "label": "STAKEHOLDER" },
+{ "pattern": "cybersecurity", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_804",
+"entities": [
+{ "pattern": "automated systems", "label": "TECHNOLOGY" },
+{ "pattern": "pre-deployment testing", "label": "TESTING_STAGE" },
+{ "pattern": "risk identification", "label": "SAFETY" },
+{ "pattern": "ongoing monitoring", "label": "MONITORING_STAGE" },
+{ "pattern": "algorithmic discrimination", "label": "DISCRIMINATION_HARM" },
+{ "pattern": "data privacy", "label": "PRIVACY" },
+{ "pattern": "surveillance technologies", "label": "TECHNOLOGY" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" },
+{ "pattern": "user consent", "label": "PRIVACY" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "public reporting", "label": "TRANSPARENCY" }
+]
+},
+{
+"document_id": "doc_805",
+"entities": [
+{ "pattern": "data analytics", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "eligibility verification", "label": "PROGRAM" },
+{ "pattern": "fraud detection", "label": "PROGRAM" },
+{ "pattern": "public assistance programs", "label": "PROGRAM" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "federal waivers", "label": "POLICY" },
+{ "pattern": "health savings accounts", "label": "PROGRAM" },
+{ "pattern": "medical assistance", "label": "HEALTHCARE" },
+{ "pattern": "managed care organizations", "label": "ORGANIZATION" },
+{ "pattern": "medical assistance claims data", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_806",
+"entities": [
+{ "pattern": "automobile insurers", "label": "STAKEHOLDER" },
+{ "pattern": "automated or predictive underwriting systems", "label": "TECHNOLOGY" },
+{ "pattern": "Department of Banking and Insurance", "label": "ORGANIZATION" },
+{ "pattern": "Commissioner of Banking and Insurance", "label": "ROLE" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "robotic process automation", "label": "TECHNOLOGY" },
+{ "pattern": "rules and regulations", "label": "POLICY" },
+{ "pattern": "act", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_807",
+"entities": [
+{ "pattern": "Department of State", "label": "ORGANIZATION" },
+{ "pattern": "artificial intelligence (AI) systems", "label": "TECHNOLOGY" },
+{ "pattern": "Right-to-Know Law", "label": "LAW" },
+{ "pattern": "online database", "label": "DOCUMENT" },
+{ "pattern": "legislative committees", "label": "ORGANIZATION" },
+{ "pattern": "registry", "label": "DOCUMENT" },
+{ "pattern": "act", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_808",
+"entities": [
+{ "pattern": "large-scale generative AI models", "label": "TECHNOLOGY" },
+{ "pattern": "watermark", "label": "STANDARD" },
+{ "pattern": "consent", "label": "PRIVACY" },
+{ "pattern": "training models", "label": "TRAINING_STAGE" },
+{ "pattern": "Rhode Island Attorney General's Office", "label": "ORGANIZATION" },
+{ "pattern": "public registry", "label": "DOCUMENT" },
+{ "pattern": "risk assessments", "label": "MONITORING_STAGE" },
+{ "pattern": "bias and discrimination", "label": "DISCRIMINATION_HARM" }
+]
+},
+{
+"document_id": "doc_809",
+"entities": [
+{ "pattern": "Study Committee on Automation and the Workforce", "label": "PROGRAM" },
+{ "pattern": "North Carolina", "label": "GEOGRAPHIC" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "state legislators", "label": "ROLE" },
+{ "pattern": "state departments", "label": "ORGANIZATION" },
+{ "pattern": "educational institutions", "label": "ORGANIZATION" },
+{ "pattern": "automation technologies", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "industrial robotics", "label": "TECHNOLOGY" },
+{ "pattern": "self-service technologies", "label": "TECHNOLOGY" },
+{ "pattern": "employment", "label": "EMPLOYMENT" },
+{ "pattern": "training requirements", "label": "EDUCATION" },
+{ "pattern": "Joint Legislative Commission on Governmental Operations", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_810",
+"entities": [
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "Children, Youth, and Families Department", "label": "ORGANIZATION" },
+{ "pattern": "structured decision-making tools", "label": "TECHNOLOGY" },
+{ "pattern": "task force", "label": "PROGRAM" },
+{ "pattern": "child abuse and neglect cases", "label": "HEALTHCARE" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "behavioral health", "label": "HEALTHCARE" },
+{ "pattern": "post-secondary institution", "label": "EDUCATION" },
+{ "pattern": "legislative health and human services committee", "label": "ORGANIZATION" }
+]
+}
+]

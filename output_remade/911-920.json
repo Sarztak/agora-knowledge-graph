@@ -31,10 +31,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "The position paper submitted by the Chinese delegation to CCW 5th Review Conference",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "New Hampshire House Bill 1432",
         "label": "BILL NAME"
       }
@@ -62,10 +58,6 @@
       {
         "pattern": "AI-generated content",
         "label": "SYNTHETIC_DATA"
-      },
-      {
-        "pattern": "New Hampshire House Bill 1432",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Louisiana Senate Bill 6",
@@ -105,10 +97,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Louisiana Senate Bill 6",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Delaware House Bill 333",
         "label": "BILL NAME"
       }
@@ -140,10 +128,6 @@
       {
         "pattern": "AI deployment",
         "label": "DEPLOYMENT_STAGE"
-      },
-      {
-        "pattern": "Delaware House Bill 333",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Tennessee House Bill 2325 ",
@@ -195,10 +179,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "Tennessee House Bill 2325 ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Mississippi Senate Bill 3000",
         "label": "BILL NAME"
       }
@@ -238,10 +218,6 @@
       {
         "pattern": "House and Senate committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Mississippi Senate Bill 3000",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Virginia Senate Bill 487",
@@ -301,10 +277,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Virginia Senate Bill 487",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Iowa Senate Bill 2435",
         "label": "BILL NAME"
       }
@@ -340,10 +312,6 @@
       {
         "pattern": "disclosures",
         "label": "TRANSPARENCY"
-      },
-      {
-        "pattern": "Iowa Senate Bill 2435",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New Hampshire House Bill 1596",
@@ -391,10 +359,6 @@
         "label": "MECHANISM"
       },
       {
-        "pattern": "New Hampshire House Bill 1596",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Hawaii Senate Bill 2687",
         "label": "BILL NAME"
       }
@@ -438,10 +402,6 @@
       {
         "pattern": "July 1, 2024",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Hawaii Senate Bill 2687",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Colorado House Bill 1147",

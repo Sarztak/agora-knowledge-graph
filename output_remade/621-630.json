@@ -35,10 +35,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Weather Information for Agriculture Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 758 (\"Implementation of Technology for Classification and Declassification\")",
         "label": "BILL NAME"
       }
@@ -84,10 +80,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 758 (\"Implementation of Technology for Classification and Declassification\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Novel, Advanced Spectrum and Communications Technology Networks Promotion Act",
         "label": "BILL NAME"
       }
@@ -123,10 +115,6 @@
       {
         "pattern": "civil penalties",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Novel, Advanced Spectrum and Communications Technology Networks Promotion Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Critical Capabilities Defense Act of 2023",
@@ -184,10 +172,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "National Critical Capabilities Defense Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Black Maternal Health Omnibus Act, Sec. 904 (Report on the Use of Technology in Maternity Care)",
@@ -251,10 +235,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Black Maternal Health Omnibus Act, Sec. 904 (Report on the Use of Technology in Maternity Care)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Wildfire Technology Demonstration, Evaluation, Modernization, and Optimization Act",
         "label": "BILL NAME"
       }
@@ -312,10 +292,6 @@
         "label": "TRAINING_DATA"
       },
       {
-        "pattern": "Wildfire Technology Demonstration, Evaluation, Modernization, and Optimization Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "DATA Privacy Act",
         "label": "BILL NAME"
       }
@@ -363,10 +339,6 @@
       {
         "pattern": "grant program",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "DATA Privacy Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Advanced Safe Testing at Residence Telehealth Act of 2023, Sec. 2 (\"Coverage and Payment for Certain Tests and Assistive Telehealth Consultations; Demonstration Program Under Certain State Medicaid Programs\")",
@@ -430,10 +402,6 @@
         "label": "GOVERNMENT"
       },
       {
-        "pattern": "Advanced Safe Testing at Residence Telehealth Act of 2023, Sec. 2 (\"Coverage and Payment for Certain Tests and Assistive Telehealth Consultations; Demonstration Program Under Certain State Medicaid Programs\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Quantum Initiative Reauthorization Act, Sec. 16 (\"Department of Energy Quantum Information Science Research Program\")",
         "label": "BILL NAME"
       }
@@ -485,10 +453,6 @@
       {
         "pattern": "advanced communications technology prototyping",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "National Quantum Initiative Reauthorization Act, Sec. 16 (\"Department of Energy Quantum Information Science Research Program\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "NTIA Reauthorization Act of 2023, Sec. 203 (\"Spectrum management improvements\")",
@@ -566,10 +530,6 @@
       {
         "pattern": "AI risks",
         "label": "SAFETY"
-      },
-      {
-        "pattern": "NTIA Reauthorization Act of 2023, Sec. 203 (\"Spectrum management improvements\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Title V (\"Matters Pertaining to United States Economic and Emerging Technology Competition with United States Adversaries\"), Subtitle B (\"Next Generation Energy, Biotechnology, and Artificial Intelligence\")",

@@ -19,10 +19,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "SAFE Bet Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Land Grant Research Prioritization Act of 2023",
         "label": "BILL NAME"
       }
@@ -50,10 +46,6 @@
       {
         "pattern": "precision or controlled environment agriculture",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Land Grant Research Prioritization Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Supporting Innovation in Agriculture Act of 2024",
@@ -91,10 +83,6 @@
       {
         "pattern": "procurement policies",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Supporting Innovation in Agriculture Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "No CCP Consultants Act",
@@ -158,10 +146,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "No CCP Consultants Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Combat Chinese Economic Aggression Act of 2024, Section 4 (\"Protection of covered sectors.\")",
         "label": "BILL NAME"
       }
@@ -193,10 +177,6 @@
       {
         "pattern": "Administrator",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Combat Chinese Economic Aggression Act of 2024, Section 4 (\"Protection of covered sectors.\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Drone Safety and Efficiency Act",
@@ -234,10 +214,6 @@
       {
         "pattern": "nondiscrimination provisions",
         "label": "FAIRNESS"
-      },
-      {
-        "pattern": "Drone Safety and Efficiency Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Investing in Tomorrow's Workforce Act of 2023",
@@ -283,10 +259,6 @@
       {
         "pattern": "government orders",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Investing in Tomorrow's Workforce Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Platform Accountability and Transparency Act, Section 9 (\"Rulemaking authority\")",
@@ -338,10 +310,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Platform Accountability and Transparency Act, Section 9 (\"Rulemaking authority\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Providing Individuals Various Opportunities for Technical Training to Build a Skills-Based Cyber Workforce Act of 2024",
         "label": "BILL NAME"
       }
@@ -391,10 +359,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Providing Individuals Various Opportunities for Technical Training to Build a Skills-Based Cyber Workforce Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Sustaining America’s Fisheries for the Future Act of 2024, Title IV, Section 402 (\"Expanding and improving electronic technologies.\")",
         "label": "BILL NAME"
       }
@@ -422,10 +386,6 @@
       {
         "pattern": "program operations",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Sustaining America’s Fisheries for the Future Act of 2024, Title IV, Section 402 (\"Expanding and improving electronic technologies.\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "WIOA Performance Accountability Improvement Act, Section 2, Subsection (c) (\"Evaluation of State programs.\")",

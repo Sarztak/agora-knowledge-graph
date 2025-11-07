@@ -23,10 +23,6 @@
         "label": "STANDARD"
       },
       {
-        "pattern": "An act creating a temporary state commission to  study  and  investigate how  to regulate artificial intelligence, robotics and automation; and providing for the repeal of such provisions upon expiration thereof",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An act to amend the executive law, in relation to creating the office of  algorithmic innovation",
         "label": "BILL NAME"
       }
@@ -52,10 +48,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "An act to amend the executive law, in relation to creating the office of  algorithmic innovation",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An Act amending Title 18 (Crimes and Offenses) of the Pennsylvania Consolidated Statutes, in sexual offenses, providing for the offense of unlawful dissemination of artificially generated depiction; and, in minors, further providing for the offense of sexual abuse of children and for the offense of transmission of sexually explicit images by minor.",
         "label": "BILL NAME"
       }
@@ -79,10 +71,6 @@
       {
         "pattern": "fines",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "An Act amending Title 18 (Crimes and Offenses) of the Pennsylvania Consolidated Statutes, in sexual offenses, providing for the offense of unlawful dissemination of artificially generated depiction; and, in minors, further providing for the offense of sexual abuse of children and for the offense of transmission of sexually explicit images by minor.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "An act to amend the general business law, in relation to requiring advertisements to disclose the use of synthetic media",
@@ -156,10 +144,6 @@
       {
         "pattern": "regulatory frameworks",
         "label": "POLICY"
-      },
-      {
-        "pattern": "An act to amend the general business law, in relation to requiring advertisements to disclose the use of synthetic media",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -199,10 +183,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "New Generation Artificial Intelligence Development Plan",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An act to add Chapter 5.9 (commencing with Section 11549.80) to Part 1 of Division 3 of Title 2 of, the Government Code, relating to state government.",
         "label": "BILL NAME"
       }
@@ -240,10 +220,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "An act to add Chapter 5.9 (commencing with Section 11549.80) to Part 1 of Division 3 of Title 2 of, the Government Code, relating to state government.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An Act regulating the use of artificial intelligence (AI) in providing mental health services.",
         "label": "BILL NAME"
       }
@@ -279,10 +255,6 @@
       {
         "pattern": "natural persons",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "An Act regulating the use of artificial intelligence (AI) in providing mental health services.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "An Act to amend the labor law, in relation to automated employment decision tools",
@@ -340,10 +312,6 @@
       {
         "pattern": "fines",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "An Act to amend the labor law, in relation to automated employment decision tools",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Measures for the Management of Generative Artificial Intelligence Services (Draft for Comment)",
@@ -413,10 +381,6 @@
       {
         "pattern": "models",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Measures for the Management of Generative Artificial Intelligence Services (Draft for Comment)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National New Generation AI Standards System Construction Guide",
@@ -498,10 +462,6 @@
       {
         "pattern": "international guidelines",
         "label": "POLICY"
-      },
-      {
-        "pattern": "National New Generation AI Standards System Construction Guide",
-        "label": "BILL NAME"
       },
       {
         "pattern": "National Artificial Intelligence Research and Development Strategic Plan 2023 Update",

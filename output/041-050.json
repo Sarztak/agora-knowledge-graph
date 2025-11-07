@@ -1,0 +1,140 @@
+[
+{
+"document_id": "doc_041",
+"entities": [
+{ "pattern": "Internal Revenue Code", "label": "LAW" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "robotics", "label": "TECHNOLOGY" },
+{ "pattern": "sensors", "label": "TECHNOLOGY" },
+{ "pattern": "precision agriculture", "label": "TECHNOLOGY" },
+{ "pattern": "controlled environment agriculture", "label": "TECHNOLOGY" },
+{ "pattern": "tax credit", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_042",
+"entities": [
+{ "pattern": "Secretary of Homeland Security", "label": "ROLE" },
+{ "pattern": "TSA", "label": "ORGANIZATION" },
+{ "pattern": "CISA", "label": "ORGANIZATION" },
+{ "pattern": "DHS", "label": "ORGANIZATION" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "vehicular terrorism", "label": "SAFETY_HARM" },
+{ "pattern": "connected and autonomous vehicles", "label": "TECHNOLOGY" },
+{ "pattern": "ADAS technologies", "label": "TECHNOLOGY" },
+{ "pattern": "AI-driven cybersecurity vulnerabilities", "label": "SECURITY_HARM" },
+{ "pattern": "AI-enabled predictive analytics", "label": "TECHNOLOGY" },
+{ "pattern": "vehicle immobilization technologies", "label": "TECHNOLOGY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "civil liberties", "label": "HUMAN_RIGHTS" }
+]
+},
+{
+"document_id": "doc_043",
+"entities": [
+{ "pattern": "Director of the Office of Management and Budget", "label": "ROLE" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI system", "label": "TECHNOLOGY" },
+{ "pattern": "Title 5 of the United States Code", "label": "LAW" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "accountability", "label": "ACCOUNTABILITY" },
+{ "pattern": "national security", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_044",
+"entities": [
+{ "pattern": "Secretary of Agriculture", "label": "ROLE" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "Federal Communications Commission", "label": "ORGANIZATION" },
+{ "pattern": "Comptroller General", "label": "ROLE" },
+{ "pattern": "Senate", "label": "ORGANIZATION" },
+{ "pattern": "House", "label": "ORGANIZATION" },
+{ "pattern": "precision agriculture", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "advanced wireless technology", "label": "TECHNOLOGY" },
+{ "pattern": "cybersecurity", "label": "SAFETY" },
+{ "pattern": "voluntary interconnectivity standards", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_045",
+"entities": [
+{ "pattern": "U.S. Customs and Border Protection", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "autonomous", "label": "TECHNOLOGY" },
+{ "pattern": "sensors", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. borders", "label": "GEOGRAPHIC" },
+{ "pattern": "surveillance towers", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_046",
+"entities": [
+{ "pattern": "Social Security Act", "label": "LAW" },
+{ "pattern": "Secretary of Health and Human Services", "label": "ROLE" },
+{ "pattern": "Medicare", "label": "PROGRAM" },
+{ "pattern": "FDA", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "software", "label": "TECHNOLOGY" },
+{ "pattern": "2022 Medicare rule", "label": "POLICY" },
+{ "pattern": "healthcare services", "label": "HEALTHCARE" }
+]
+},
+{
+"document_id": "doc_047",
+"entities": [
+{ "pattern": "Public Health Service Act", "label": "LAW" },
+{ "pattern": "Secretary of Health and Human Services", "label": "ROLE" },
+{ "pattern": "Medicare part B", "label": "PROGRAM" },
+{ "pattern": "Medicare part D", "label": "PROGRAM" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "biosimilar drugs", "label": "HEALTHCARE" },
+{ "pattern": "generic drugs", "label": "HEALTHCARE" }
+]
+},
+{
+"document_id": "doc_048",
+"entities": [
+{ "pattern": "AI training", "label": "TRAINING_STAGE" },
+{ "pattern": "Extended Collective Licensing", "label": "POLICY" },
+{ "pattern": "Department of Justice", "label": "ORGANIZATION" },
+{ "pattern": "antitrust", "label": "LAW" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "AI law", "label": "LAW" },
+{ "pattern": "collective licensing", "label": "MECHANISM" }
+]
+},
+{
+"document_id": "doc_049",
+"entities": [
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "First Amendment", "label": "LAW" },
+{ "pattern": "Copyright Office", "label": "ORGANIZATION" },
+{ "pattern": "AI governance", "label": "ACCOUNTABILITY" },
+{ "pattern": "digital replicas", "label": "PRIVACY" },
+{ "pattern": "state rights of publicity", "label": "LAW" },
+{ "pattern": "monetary damages", "label": "PENALTY" },
+{ "pattern": "injunctive relief", "label": "PENALTY" },
+{ "pattern": "secondary liability", "label": "ACCOUNTABILITY" },
+{ "pattern": "safe harbor", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_050",
+"entities": [
+{ "pattern": "US Coast Guard", "label": "ORGANIZATION" },
+{ "pattern": "United States Code", "label": "LAW" },
+{ "pattern": "autonomous maritime systems", "label": "TECHNOLOGY" },
+{ "pattern": "unmanned aircraft systems", "label": "TECHNOLOGY" },
+{ "pattern": "maritime domain awareness equipment", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "reporting requirements", "label": "REQUIREMENT" },
+{ "pattern": "expenditure plan", "label": "DOCUMENT" }
+]
+}
+]

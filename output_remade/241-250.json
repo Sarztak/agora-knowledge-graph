@@ -39,10 +39,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Los Angeles AI Roadmap 2024, Best Practices and Roadmap",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "City of Boston Interim Guidelines for Using Generative AI",
         "label": "BILL NAME"
       }
@@ -90,10 +86,6 @@
       {
         "pattern": "community engagement",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "City of Boston Interim Guidelines for Using Generative AI",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Miami Dade County Artificial Intelligence Report: Policies, Principles & Guidelines",
@@ -145,10 +137,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Miami Dade County Artificial Intelligence Report: Policies, Principles & Guidelines",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Department of Energy Quantum Leadership Act of 2024, Section 2",
         "label": "BILL NAME"
       }
@@ -188,10 +176,6 @@
       {
         "pattern": "governing board",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Department of Energy Quantum Leadership Act of 2024, Section 2",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Open Translation Center Act of 2024",
@@ -243,10 +227,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Open Translation Center Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "City of Seattle Generative Artificial Intelligence Policy ",
         "label": "BILL NAME"
       }
@@ -294,10 +274,6 @@
       {
         "pattern": "policy reviews",
         "label": "POLICY"
-      },
-      {
-        "pattern": "City of Seattle Generative Artificial Intelligence Policy ",
-        "label": "BILL NAME"
       },
       {
         "pattern": "City of Tempe Ethical Artificial Intelligence Policy ",
@@ -349,10 +325,6 @@
         "label": "FAIRNESS"
       },
       {
-        "pattern": "City of Tempe Ethical Artificial Intelligence Policy ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "County of Santa Cruz Artificial Intelligence Appropriate Use Policy",
         "label": "BILL NAME"
       }
@@ -394,10 +366,6 @@
         "label": "REQUIREMENT"
       },
       {
-        "pattern": "County of Santa Cruz Artificial Intelligence Appropriate Use Policy",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Kendall County Generative AI Chatbot Usage Policy",
         "label": "BILL NAME"
       }
@@ -425,10 +393,6 @@
       {
         "pattern": "12 O.S. §2011",
         "label": "LAW"
-      },
-      {
-        "pattern": "Kendall County Generative AI Chatbot Usage Policy",
-        "label": "BILL NAME"
       },
       {
         "pattern": "The City of Tulsa Municipal Court Rules 2024",
@@ -474,10 +438,6 @@
       {
         "pattern": "copyright-protected",
         "label": "POLICY"
-      },
-      {
-        "pattern": "The City of Tulsa Municipal Court Rules 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "City of St. Louis Information Technology Policy #2023-001 Guidance on Generative AI",

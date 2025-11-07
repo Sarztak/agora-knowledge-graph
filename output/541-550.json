@@ -1,0 +1,134 @@
+[
+{
+"document_id": "doc_541",
+"entities": [
+{ "pattern": "U.S. Armed Forces", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense Cyber Workforce Framework", "label": "STANDARD" },
+{ "pattern": "Secretary", "label": "ROLE" },
+{ "pattern": "military departments", "label": "ORGANIZATION" },
+{ "pattern": "Department of Defense", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_542",
+"entities": [
+{ "pattern": "Environmental Protection Agency", "label": "ORGANIZATION" },
+{ "pattern": "EPA", "label": "ORGANIZATION" },
+{ "pattern": "Administrator", "label": "ROLE" },
+{ "pattern": "Water Quality and Environmental Innovation Fund", "label": "PROGRAM" },
+{ "pattern": "Motor Vehicle and Engine Compliance Program", "label": "PROGRAM" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "quantum information science", "label": "TECHNOLOGY" },
+{ "pattern": "robotics", "label": "TECHNOLOGY" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_543",
+"entities": [
+{ "pattern": "Secretary of Defense", "label": "ROLE" },
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "Basic Allowance for Housing", "label": "BENCHMARK" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence algorithms", "label": "TECHNOLOGY" },
+{ "pattern": "Senate", "label": "ORGANIZATION" },
+{ "pattern": "House Armed Services Committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_544",
+"entities": [
+{ "pattern": "Director of the National Institute on Standards and Technology", "label": "ROLE" },
+{ "pattern": "National Institute on Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "NIST", "label": "ORGANIZATION" },
+{ "pattern": "trustworthy AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "AI guardrails", "label": "POLICY" },
+{ "pattern": "Secretary of Commerce", "label": "ROLE" },
+{ "pattern": "Secretary of Energy", "label": "ROLE" },
+{ "pattern": "Department of Energy", "label": "ORGANIZATION" },
+{ "pattern": "memorandum of understanding", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_545",
+"entities": [
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "Communications Act of 1934", "label": "LAW" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "financial penalties", "label": "PENALTY" },
+{ "pattern": "robocalls", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_546",
+"entities": [
+{ "pattern": "Secretary of Agriculture", "label": "ROLE" },
+{ "pattern": "program", "label": "PROGRAM" },
+{ "pattern": "AI software", "label": "TECHNOLOGY" },
+{ "pattern": "National Institute of Standards and Technology", "label": "ORGANIZATION" },
+{ "pattern": "Artificial Intelligence Risk Management Framework", "label": "STANDARD" },
+{ "pattern": "Federal and State standards", "label": "STANDARD" },
+{ "pattern": "licensure", "label": "REQUIREMENT" },
+{ "pattern": "certification", "label": "REQUIREMENT" },
+{ "pattern": "commercial driving", "label": "TRANSPORTATION" },
+{ "pattern": "manure application", "label": "AGRICULTURE" },
+{ "pattern": "pesticide application", "label": "AGRICULTURE" },
+{ "pattern": "hazardous materials", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_547",
+"entities": [
+{ "pattern": "Secretary of Labor", "label": "ROLE" },
+{ "pattern": "Director of the National Science Foundation", "label": "ROLE" },
+{ "pattern": "National Science Foundation", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. workforce", "label": "EMPLOYMENT" },
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "educational institutions", "label": "ORGANIZATION" },
+{ "pattern": "industry stakeholders", "label": "STAKEHOLDER" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_548",
+"entities": [
+{ "pattern": "Department of Commerce", "label": "ORGANIZATION" },
+{ "pattern": "Supply Chain Resiliency and Crisis Response Office", "label": "ORGANIZATION" },
+{ "pattern": "grants", "label": "FINANCE" },
+{ "pattern": "loans", "label": "FINANCE" },
+{ "pattern": "loan guarantees", "label": "FINANCE" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "quantum computing", "label": "TECHNOLOGY" },
+{ "pattern": "Inspector General", "label": "ROLE" },
+{ "pattern": "DOC", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_549",
+"entities": [
+{ "pattern": "Office of Investment and Innovation", "label": "ORGANIZATION" },
+{ "pattern": "broadband and emerging information technology coordinator", "label": "ROLE" },
+{ "pattern": "SBA", "label": "ORGANIZATION" },
+{ "pattern": "chief information officer", "label": "ROLE" },
+{ "pattern": "chief technology officer", "label": "ROLE" },
+{ "pattern": "federal agencies", "label": "ORGANIZATION" },
+{ "pattern": "Chief Counsel for Advocacy", "label": "ROLE" },
+{ "pattern": "Small Business Act", "label": "LAW" },
+{ "pattern": "broadband", "label": "TECHNOLOGY" },
+{ "pattern": "emerging technologies", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_550",
+"entities": [
+{ "pattern": "Artificial Intelligence Training for the Acquisition Workforce Act", "label": "LAW" },
+{ "pattern": "executive branch", "label": "GOVERNMENT" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "training program", "label": "PROGRAM" },
+{ "pattern": "AI", "label": "TECHNOLOGY" }
+]
+}
+]

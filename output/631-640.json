@@ -1,0 +1,127 @@
+[
+{
+"document_id": "doc_631",
+"entities": [
+{ "pattern": "Elementary and Secondary Education Act of 1965", "label": "LAW" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "career counseling programs", "label": "PROGRAM" },
+{ "pattern": "training certification programs", "label": "PROGRAM" },
+{ "pattern": "one-stop centers", "label": "ORGANIZATION" },
+{ "pattern": "workforce entities", "label": "ORGANIZATION" },
+{ "pattern": "internships", "label": "PROGRAM" },
+{ "pattern": "apprenticeships", "label": "PROGRAM" },
+{ "pattern": "dual enrollment programs", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_632",
+"entities": [
+{ "pattern": "National Mesonet Program", "label": "PROGRAM" },
+{ "pattern": "National Weather Service", "label": "ORGANIZATION" },
+{ "pattern": "weather observation", "label": "TECHNOLOGY" },
+{ "pattern": "numerical weather prediction", "label": "TECHNOLOGY" },
+{ "pattern": "satellite constellations", "label": "TECHNOLOGY" },
+{ "pattern": "mesonet systems", "label": "TECHNOLOGY" },
+{ "pattern": "advisory committee", "label": "ORGANIZATION" },
+{ "pattern": "Congressional committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_633",
+"entities": [
+{ "pattern": "Research Commissioner", "label": "ROLE" },
+{ "pattern": "National Education Research Database", "label": "DOCUMENT" },
+{ "pattern": "educational technology", "label": "TECHNOLOGY" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "digital literacy", "label": "EDUCATION" },
+{ "pattern": "research-practice partnerships", "label": "PROGRAM" }
+]
+},
+{
+"document_id": "doc_634",
+"entities": [
+{ "pattern": "Director of the Defense Media Activity", "label": "ROLE" },
+{ "pattern": "Defense Media Activity", "label": "ORGANIZATION" },
+{ "pattern": "Defense Information School", "label": "ORGANIZATION" },
+{ "pattern": "digital content provenance", "label": "STANDARD" },
+{ "pattern": "digital content forgery", "label": "SYNTHETIC_DATA" },
+{ "pattern": "pilot program", "label": "PROGRAM" },
+{ "pattern": "Department", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_635",
+"entities": [
+{ "pattern": "Secretary of Homeland Security", "label": "ROLE" },
+{ "pattern": "Department of Homeland Security", "label": "ORGANIZATION" },
+{ "pattern": "Immigration and Nationality Act", "label": "LAW" },
+{ "pattern": "U.S. Border Patrol", "label": "ORGANIZATION" },
+{ "pattern": "COVID-19", "label": "HEALTHCARE" },
+{ "pattern": "asylum officers", "label": "ROLE" },
+{ "pattern": "immigration judges", "label": "ROLE" },
+{ "pattern": "detention facilities", "label": "ORGANIZATION" },
+{ "pattern": "border wall system", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_636",
+"entities": [
+{ "pattern": "Deputy Administrator of the Federal Aviation Administration", "label": "ROLE" },
+{ "pattern": "Federal Aviation Administration", "label": "ORGANIZATION" },
+{ "pattern": "FAA", "label": "ORGANIZATION" },
+{ "pattern": "Office of Advanced Integration", "label": "ORGANIZATION" },
+{ "pattern": "Advanced Aviation Coordination Unit", "label": "ORGANIZATION" },
+{ "pattern": "unmanned aircraft systems", "label": "TECHNOLOGY" },
+{ "pattern": "advanced air mobility", "label": "TECHNOLOGY" },
+{ "pattern": "safety technology integration", "label": "SAFETY" },
+{ "pattern": "advanced aviation systems", "label": "TECHNOLOGY" },
+{ "pattern": "Secretary of Transportation", "label": "ROLE" }
+]
+},
+{
+"document_id": "doc_637",
+"entities": [
+{ "pattern": "Secretary of Homeland Security", "label": "ROLE" },
+{ "pattern": "transnational criminal organizations", "label": "ORGANIZATION" },
+{ "pattern": "National Strategy to Combat Illicit Recruitment Activity by Transnational Criminal Organizations on Social Media and Online Platforms", "label": "POLICY" },
+{ "pattern": "Department of Homeland Security", "label": "ORGANIZATION" },
+{ "pattern": "social media companies", "label": "ORGANIZATION" },
+{ "pattern": "U.S. Customs and Border Protection", "label": "ORGANIZATION" },
+{ "pattern": "Congressional committees", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_638",
+"entities": [
+{ "pattern": "Secretary of Transportation", "label": "ROLE" },
+{ "pattern": "Qualified Mechanical Inspectors", "label": "ROLE" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "camera-based systems", "label": "TECHNOLOGY" },
+{ "pattern": "Code of Federal Regulations", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_639",
+"entities": [
+{ "pattern": "Office of Science and Technology Policy", "label": "ORGANIZATION" },
+{ "pattern": "National Economic Council", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "crypto assets", "label": "TECHNOLOGY" },
+{ "pattern": "distributed ledger technology", "label": "TECHNOLOGY" },
+{ "pattern": "President", "label": "ROLE" },
+{ "pattern": "Congress", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_640",
+"entities": [
+{ "pattern": "personal information", "label": "PERSONAL_DATA" },
+{ "pattern": "behavioral personalization", "label": "TECHNOLOGY" },
+{ "pattern": "affirmative express consent", "label": "PRIVACY" },
+{ "pattern": "aggregated data", "label": "PUBLIC_DATA" },
+{ "pattern": "user engagement time", "label": "BENCHMARK" },
+{ "pattern": "small businesses", "label": "STAKEHOLDER" },
+{ "pattern": "covered entities", "label": "ORGANIZATION" }
+]
+}
+]

@@ -23,10 +23,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Executive Order on Advancing United States Leadership in Artificial Intelligence Infrastructure (EO 14141)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Executive Order on Removing Barriers To American Leadership In Artificial Intelligence",
         "label": "BILL NAME"
       }
@@ -58,10 +54,6 @@
       {
         "pattern": "private right of action",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Executive Order on Removing Barriers To American Leadership In Artificial Intelligence",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New York artificial intelligence act (New York AI act)",
@@ -107,10 +99,6 @@
       {
         "pattern": "nuclear threats",
         "label": "SAFETY_HARM"
-      },
-      {
-        "pattern": "New York artificial intelligence act (New York AI act)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Framework to Mitigate AI-Enabled Extreme Risks",
@@ -162,10 +150,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Framework to Mitigate AI-Enabled Extreme Risks",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence Safety Commitments (China AI Industry Alliance)",
         "label": "BILL NAME"
       }
@@ -215,10 +199,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Artificial Intelligence Safety Commitments (China AI Industry Alliance)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "AI Safety Governance Framework v1.0 (National Technical Committee 260 on Cybersecurity of SAC)",
         "label": "BILL NAME"
       }
@@ -264,10 +244,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "AI Safety Governance Framework v1.0 (National Technical Committee 260 on Cybersecurity of SAC)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Joint Statement on Risk Assessment of Advanced AI Systems (International Network of AI Safety Institutes)",
         "label": "BILL NAME"
       }
@@ -311,10 +287,6 @@
       {
         "pattern": "September 1, 2025",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Joint Statement on Risk Assessment of Advanced AI Systems (International Network of AI Safety Institutes)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Texas Responsible Artificial Intelligence Governance Act (HB 1709)",
@@ -366,10 +338,6 @@
         "label": "DECOMMISSION_STAGE"
       },
       {
-        "pattern": "Texas Responsible Artificial Intelligence Governance Act (HB 1709)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Code of Practice for the Cyber Security of AI",
         "label": "BILL NAME"
       }
@@ -419,10 +387,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Code of Practice for the Cyber Security of AI",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Freedom Online Coalition Joint Statement on Responsible Government Practices for AI Technologies",
         "label": "BILL NAME"
       }
@@ -470,10 +434,6 @@
       {
         "pattern": "unfair trade practices",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Freedom Online Coalition Joint Statement on Responsible Government Practices for AI Technologies",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Massachusetts House Docket 4053 (2025)",

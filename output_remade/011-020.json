@@ -37,10 +37,6 @@
       {
         "pattern": "California AB 2355 (2024), Section 8",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "An Act Concerning Artificial Intelligence, Automated Decision-Making and Personal Data Privacy",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -73,10 +69,6 @@
       },
       {
         "pattern": "California AB 1836 ",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "Anthropic Responsible Scaling Policy",
         "label": "BILL NAME"
       }
     ]
@@ -127,10 +119,6 @@
       {
         "pattern": "Budget Act of 2024",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "NIST AI Risk Management Framework 1.0",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -180,10 +168,6 @@
       {
         "pattern": "California Senate Bill 942 (2024)",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "An Act concerning consumer protections in interactions with artificial intelligence systems.",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -229,10 +213,6 @@
       {
         "pattern": "California Senate Bill 1120 (2024)",
         "label": "BILL NAME"
-      },
-      {
-        "pattern": "Microsoft Responsible AI Standard, v2",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -265,10 +245,6 @@
       },
       {
         "pattern": "California Assembly Bill 2876 (2024)",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "OpenAI Preparedness Framework (Beta)",
         "label": "BILL NAME"
       }
     ]
@@ -310,10 +286,6 @@
       },
       {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title IX \"Take It Down Act\")",
-        "label": "BILL NAME"
-      },
-      {
-        "pattern": "Framework to Advance AI Governance and Risk Management in National Security",
         "label": "BILL NAME"
       }
     ]

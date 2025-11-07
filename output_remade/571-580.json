@@ -31,10 +31,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Fair Trade with China Enforcement Act, Sec. 101 (\"Establishment of list of certain products receiving support from government of People's Republic of China pursuant to Made in China 2025 policy\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 402 (\"Hazardous Weather or Water Event Risk Communication\")",
         "label": "BILL NAME"
       }
@@ -92,10 +88,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Weather Act Reauthorization Act of 2023, Sec. 402 (\"Hazardous Weather or Water Event Risk Communication\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 108 (\"Computing Resources Prioritization\")",
         "label": "BILL NAME"
       }
@@ -135,10 +127,6 @@
       {
         "pattern": "forecast modeling tools",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Weather Act Reauthorization Act of 2023, Sec. 108 (\"Computing Resources Prioritization\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 502 (\"National Integrated Drought Information System\")",
@@ -238,10 +226,6 @@
         "label": "MECHANISM"
       },
       {
-        "pattern": "Weather Act Reauthorization Act of 2023, Sec. 502 (\"National Integrated Drought Information System\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title IV (\"National Science Foundation Activities\")",
         "label": "BILL NAME"
       }
@@ -281,10 +265,6 @@
       {
         "pattern": "non-profit organizations",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title IV (\"National Science Foundation Activities\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Kids Online Safety Act, Sec. 13 (\"Filter Bubble Transparency Requirements\")",
@@ -360,10 +340,6 @@
         "label": "MILITARY"
       },
       {
-        "pattern": "Kids Online Safety Act, Sec. 13 (\"Filter Bubble Transparency Requirements\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Fair Trade with China Enforcement Act, Sec. 102 (\"Prohibition on export to People's Republic of China of national security sensitive technology and intellectual property\")",
         "label": "BILL NAME"
       }
@@ -417,10 +393,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Fair Trade with China Enforcement Act, Sec. 102 (\"Prohibition on export to People's Republic of China of national security sensitive technology and intellectual property\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "MEANS Act",
         "label": "BILL NAME"
       }
@@ -456,10 +428,6 @@
       {
         "pattern": "Independent Music Creator Owners",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "MEANS Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Protect Working Musicians Act of 2023",
@@ -525,10 +493,6 @@
       {
         "pattern": "institutions of higher education",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Protect Working Musicians Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Countering Adversarial and Malicious Partnerships at Universities and Schools Act of 2023",
@@ -598,10 +562,6 @@
       {
         "pattern": "President",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Countering Adversarial and Malicious Partnerships at Universities and Schools Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "TORPEDO Act of 2023, Sec. 6 (Reporting requirements on efforts of the Department of State to implement the AUKUS partnership)",

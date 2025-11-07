@@ -47,10 +47,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Promoting Digital Privacy Technologies Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act",
         "label": "BILL NAME"
       }
@@ -100,10 +96,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Department of State Authorization Act of 2023, Sec. 303 (\"Task force to address artificial intelligence-enabled influence operations\")",
         "label": "BILL NAME"
       }
@@ -141,10 +133,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Department of State Authorization Act of 2023, Sec. 303 (\"Task force to address artificial intelligence-enabled influence operations\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "HEARTS Act of 2022",
         "label": "BILL NAME"
       }
@@ -180,10 +168,6 @@
       {
         "pattern": "DEIA",
         "label": "POLICY"
-      },
-      {
-        "pattern": "HEARTS Act of 2022",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Diversify Tech Act",
@@ -241,10 +225,6 @@
       {
         "pattern": "Graduate Automotive Technology Education Centers of Research Excellence",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Diversify Tech Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Shifting Forward Vehicle Technologies Research and Development Act",
@@ -308,10 +288,6 @@
         "label": "MECHANISM"
       },
       {
-        "pattern": "Shifting Forward Vehicle Technologies Research and Development Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Department of State Authorization Act of 2023, Sec. 941 (\"Reporting Related to the AUKUS Partnership\")",
         "label": "BILL NAME"
       }
@@ -355,10 +331,6 @@
       {
         "pattern": "Comptroller General",
         "label": "ROLE"
-      },
-      {
-        "pattern": "Department of State Authorization Act of 2023, Sec. 941 (\"Reporting Related to the AUKUS Partnership\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Food and Agriculture Industry Cybersecurity Support Act",
@@ -410,10 +382,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Food and Agriculture Industry Cybersecurity Support Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Outbound Investment Transparency Act of 2023",
         "label": "BILL NAME"
       }
@@ -459,10 +427,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Outbound Investment Transparency Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Health Care Price Transparency Act of 2023, Sec. 301 (\"Establishing Requirements With Respect to the Use of Prior Authorization Under Medicare Advantage Plans\")",
         "label": "BILL NAME"
       }
@@ -490,10 +454,6 @@
       {
         "pattern": "civil penalty",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Health Care Price Transparency Act of 2023, Sec. 301 (\"Establishing Requirements With Respect to the Use of Prior Authorization Under Medicare Advantage Plans\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "STOP HATE Act of 2023",

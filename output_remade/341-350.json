@@ -15,10 +15,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 557 (\"Study and report on professional military education\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 911 (\"Updates to management reform framework\")",
         "label": "BILL NAME"
       }
@@ -42,10 +38,6 @@
       {
         "pattern": "machine learning",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 911 (\"Updates to management reform framework\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 861 (\"Strategy for increasing competitive opportunities for certain critical technologies\")",
@@ -93,10 +85,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 861 (\"Strategy for increasing competitive opportunities for certain critical technologies\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 835 (\"Curricula on software acquisitions and cybersecurity software or hardware acquisitions for covered individuals\")",
         "label": "BILL NAME"
       }
@@ -132,10 +120,6 @@
       {
         "pattern": "Israel",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 835 (\"Curricula on software acquisitions and cybersecurity software or hardware acquisitions for covered individuals\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6513 (\"Lead intelligence community coordinator for countering and neutralizing proliferation of Iran-origin unmanned aircraft systems\")",
@@ -203,10 +187,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6513 (\"Lead intelligence community coordinator for countering and neutralizing proliferation of Iran-origin unmanned aircraft systems\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Advancing American Artificial Intelligence Act",
         "label": "BILL NAME"
       }
@@ -242,10 +222,6 @@
       {
         "pattern": "Department of Defense",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Advancing American Artificial Intelligence Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 862 (\"Key advanced system development industry days\")",
@@ -303,10 +279,6 @@
       {
         "pattern": "Coast Guard",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 862 (\"Key advanced system development industry days\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11225 (\"Establishment of unmanned system program and autonomous control and computer vision technology project\")",
@@ -370,10 +342,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11225 (\"Establishment of unmanned system program and autonomous control and computer vision technology project\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11504 (\"At-sea recovery operations pilot program\")",
         "label": "BILL NAME"
       }
@@ -405,10 +373,6 @@
       {
         "pattern": "institution of higher education",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11504 (\"At-sea recovery operations pilot program\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1535 (\"Department of Defense Cyber and Digital Service Academy\")",
@@ -454,10 +418,6 @@
       {
         "pattern": "data sharing practices",
         "label": "POLICY"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1535 (\"Department of Defense Cyber and Digital Service Academy\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 10305 (\"Modifications to the ocean exploration program of the National Oceanic and Atmospheric Administration\")",

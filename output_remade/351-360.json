@@ -19,10 +19,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 10305 (\"Modifications to the ocean exploration program of the National Oceanic and Atmospheric Administration\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9218 (\"Report on changes to the Foreign Service Officer Test\")",
         "label": "BILL NAME"
       }
@@ -56,10 +52,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9218 (\"Report on changes to the Foreign Service Officer Test\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6504 (\"Annual report on concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of the People's Republic of China\")",
         "label": "BILL NAME"
       }
@@ -87,10 +79,6 @@
       {
         "pattern": "congressional armed services committees",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6504 (\"Annual report on concentrated reeducation camps in the Xinjiang Uyghur Autonomous Region of the People's Republic of China\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1092 (\"National Commission on the Future of the Navy\")",
@@ -130,10 +118,6 @@
         "label": "BENCHMARK"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1092 (\"National Commission on the Future of the Navy\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6717 (\"Policy on required user adoption metrics in certain contracts for artificial intelligence and emerging technology software products\")",
         "label": "BILL NAME"
       }
@@ -157,10 +141,6 @@
       {
         "pattern": "official",
         "label": "ROLE"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6717 (\"Policy on required user adoption metrics in certain contracts for artificial intelligence and emerging technology software products\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6742 (\"Code-free artificial intelligence enablement tools policy\")",
@@ -220,10 +200,6 @@
         "label": "FINANCE"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6742 (\"Code-free artificial intelligence enablement tools policy\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9506 (\"Cybersecurity recruitment and retention\")",
         "label": "BILL NAME"
       }
@@ -251,10 +227,6 @@
       {
         "pattern": "training programs",
         "label": "EDUCATION"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 9506 (\"Cybersecurity recruitment and retention\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6718 (\"Certification relating to information technology and software systems\")",
@@ -306,10 +278,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6718 (\"Certification relating to information technology and software systems\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6505 (\"Assessments of production of semiconductors by the People's Republic of China\")",
         "label": "BILL NAME"
       }
@@ -345,10 +313,6 @@
       {
         "pattern": "AI-related development activities",
         "label": "RESEARCH_STAGE"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6505 (\"Assessments of production of semiconductors by the People's Republic of China\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6702 (\"Additional responsibilities of Director of National Intelligence for artificial intelligence policies, standards, and guidance for the intelligence community\")",
@@ -390,10 +354,6 @@
       {
         "pattern": "emerging tech companies",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6702 (\"Additional responsibilities of Director of National Intelligence for artificial intelligence policies, standards, and guidance for the intelligence community\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6721 (\"Reports on integration of artificial intelligence within intelligence community\")",

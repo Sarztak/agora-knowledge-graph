@@ -55,10 +55,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Israel's Policy on Artificial Intelligence: Regulations and Ethics",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "The Bletchley Declaration by Countries Attending the AI Safety Summit",
         "label": "BILL NAME"
       }
@@ -114,10 +110,6 @@
       {
         "pattern": "complaint handling",
         "label": "MECHANISM"
-      },
-      {
-        "pattern": "The Bletchley Declaration by Countries Attending the AI Safety Summit",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Technical Documentation of National Technical Committee 260 on Cybersecurity of Standardization Administration of China: Basic Safety Requirements for Generative Artificial Intelligence Services",
@@ -181,10 +173,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Technical Documentation of National Technical Committee 260 on Cybersecurity of Standardization Administration of China: Basic Safety Requirements for Generative Artificial Intelligence Services",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Regulations for the Promotion of the Development of the Artificial Intelligence Industry in Shanghai Municipality",
         "label": "BILL NAME"
       }
@@ -212,10 +200,6 @@
       {
         "pattern": "Commission",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Regulations for the Promotion of the Development of the Artificial Intelligence Industry in Shanghai Municipality",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Fraudulent Misrepresentation of Campaign Authority",
@@ -265,10 +249,6 @@
       {
         "pattern": "privacy",
         "label": "PRIVACY"
-      },
-      {
-        "pattern": "Fraudulent Misrepresentation of Campaign Authority",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Memorandum on Advancing the United States’ Leadership in Artificial Intelligence; Harnessing Artificial Intelligence to Fulfill National Security Objectives; and Fostering the Safety, Security, and Trustworthiness of Artificial Intelligence",
@@ -324,10 +304,6 @@
         "label": "TRANSPARENCY"
       },
       {
-        "pattern": "Memorandum on Advancing the United States’ Leadership in Artificial Intelligence; Harnessing Artificial Intelligence to Fulfill National Security Objectives; and Fostering the Safety, Security, and Trustworthiness of Artificial Intelligence",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Framework to Advance AI Governance and Risk Management in National Security",
         "label": "BILL NAME"
       }
@@ -363,10 +339,6 @@
       {
         "pattern": "criminal liabilities",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Framework to Advance AI Governance and Risk Management in National Security",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Wisconsin Act 2023-123 (Artificial Intelligence Content Disclosure)",
@@ -414,10 +386,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Wisconsin Act 2023-123 (Artificial Intelligence Content Disclosure)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "West Virginia HB 5690 (Artificial Intelligence Task Force)",
         "label": "BILL NAME"
       }
@@ -455,10 +423,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "West Virginia HB 5690 (Artificial Intelligence Task Force)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Michigan House Bill 5144 of 2023 (Election Law)",
         "label": "BILL NAME"
       }
@@ -494,10 +458,6 @@
       {
         "pattern": "fourth-degree felony",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Michigan House Bill 5144 of 2023 (Election Law)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New Mexico House Bill 182 of 2024(Campaign Reporting Act)",

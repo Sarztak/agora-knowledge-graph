@@ -39,10 +39,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Title V (\"Matters Pertaining to United States Economic and Emerging Technology Competition with United States Adversaries\"), Subtitle B (\"Next Generation Energy, Biotechnology, and Artificial Intelligence\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Counseling for Career Choice Act",
         "label": "BILL NAME"
       }
@@ -84,10 +80,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Counseling for Career Choice Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "National Mesonet Authorization Act",
         "label": "BILL NAME"
       }
@@ -119,10 +111,6 @@
       {
         "pattern": "research-practice partnerships",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "National Mesonet Authorization Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AREA Act, Part B (\"National Center for Education Research\"), Sec. 133 (\"Duties\")",
@@ -160,10 +148,6 @@
       {
         "pattern": "Department",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "AREA Act, Part B (\"National Center for Education Research\"), Sec. 133 (\"Duties\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Digital Defense Content Provenance Act of 2023",
@@ -209,10 +193,6 @@
       {
         "pattern": "border wall system",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Digital Defense Content Provenance Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Solving the Border Crisis Act",
@@ -264,10 +244,6 @@
         "label": "ROLE"
       },
       {
-        "pattern": "Solving the Border Crisis Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Advanced Aviation Integration Act",
         "label": "BILL NAME"
       }
@@ -305,10 +281,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Advanced Aviation Integration Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Combating Cartels on Social Media Act of 2023",
         "label": "BILL NAME"
       }
@@ -336,10 +308,6 @@
       {
         "pattern": "Code of Federal Regulations",
         "label": "STANDARD"
-      },
-      {
-        "pattern": "Combating Cartels on Social Media Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Rail Worker and Community Safety Act, Sec. 13 (Equipment Inspections)",
@@ -379,10 +347,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Rail Worker and Community Safety Act, Sec. 13 (Equipment Inspections)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Lummis-Gillibrand Responsible Financial Innovation Act, Sec. 1001 (\"Executive Office of the President Appropriations\")",
         "label": "BILL NAME"
       }
@@ -418,10 +382,6 @@
       {
         "pattern": "covered entities",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Lummis-Gillibrand Responsible Financial Innovation Act, Sec. 1001 (\"Executive Office of the President Appropriations\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Online Privacy Act of 2023, Sec. 106 (\"Right to individual autonomy\")",

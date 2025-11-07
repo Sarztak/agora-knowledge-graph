@@ -39,10 +39,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Improving Atmospheric River Forecasts Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Protecting AI and Cloud Competition in Defense Act of 2024",
         "label": "BILL NAME"
       }
@@ -86,10 +82,6 @@
       {
         "pattern": "Federal Rules of Civil Procedure",
         "label": "LAW"
-      },
-      {
-        "pattern": "Protecting AI and Cloud Competition in Defense Act of 2024",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -127,10 +119,6 @@
       {
         "pattern": "state department",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "TRAIN Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Iowa (2019) SB 302 (Automated Driving System Motor Vehicles)",
@@ -174,10 +162,6 @@
         "label": "GEOGRAPHIC"
       },
       {
-        "pattern": "Iowa (2019) SB 302 (Automated Driving System Motor Vehicles)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "S5344 Advancing Digital Freedom Act of 2024",
         "label": "BILL NAME"
       }
@@ -213,10 +197,6 @@
       {
         "pattern": "electronic system",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "S5344 Advancing Digital Freedom Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "DOGE Act",
@@ -258,10 +238,6 @@
       {
         "pattern": "organizational conflicts of interest",
         "label": "POLICY"
-      },
-      {
-        "pattern": "DOGE Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Enable Intelligence Community Partnerships Act of 2024",
@@ -311,10 +287,6 @@
       {
         "pattern": "financial regulatory bodies",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Enable Intelligence Community Partnerships Act of 2024",
-        "label": "BILL NAME"
       }
     ]
   },
@@ -340,10 +312,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Responsible AI Disclosure Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "American Foreign Affairs Talent Expansion Act: Diversity in Diplomacy and Development, Section 112 (Mitigating bias in artificial intelligence use.)",
@@ -381,10 +349,6 @@
       {
         "pattern": "IT modernization projects",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "American Foreign Affairs Talent Expansion Act: Diversity in Diplomacy and Development, Section 112 (Mitigating bias in artificial intelligence use.)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "A bill to require a study on the use of commercial-off-the-shelf products and artificial intelligence technologies by the Internal Revenue Service.",
@@ -442,10 +406,6 @@
       {
         "pattern": "national security",
         "label": "MILITARY"
-      },
-      {
-        "pattern": "A bill to require a study on the use of commercial-off-the-shelf products and artificial intelligence technologies by the Internal Revenue Service.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "To prohibit the Secretary of Defense from entering into information technology contracts with entities that provide certain services to China, and for other purposes.",

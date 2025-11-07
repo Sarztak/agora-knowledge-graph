@@ -31,10 +31,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Targeting Online Sales of Fentanyl Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Western Wildfire Support Act of 2023, Sec. 206 (\"Study on Wildfire Detection Equipment and Integration of Artificial Intelligence Technologies\")",
         "label": "BILL NAME"
       }
@@ -88,10 +84,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "Western Wildfire Support Act of 2023, Sec. 206 (\"Study on Wildfire Detection Equipment and Integration of Artificial Intelligence Technologies\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Americas Act, Title I (\"Administration\"), Sec. 103 (\"Additional Duties of Institute\")",
         "label": "BILL NAME"
       }
@@ -127,10 +119,6 @@
       {
         "pattern": "National Health Security Strategy",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Americas Act, Title I (\"Administration\"), Sec. 103 (\"Additional Duties of Institute\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence and Biosecurity Risk Assessment Act",
@@ -180,10 +168,6 @@
       {
         "pattern": "disclosed",
         "label": "TRANSPARENCY"
-      },
-      {
-        "pattern": "Artificial Intelligence and Biosecurity Risk Assessment Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence Accountability Act",
@@ -237,10 +221,6 @@
       {
         "pattern": "consumer education working group",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Artificial Intelligence Accountability Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Artificial Intelligence Research, Innovation, and Accountability Act of 2023",
@@ -320,10 +300,6 @@
         "label": "DOCUMENT"
       },
       {
-        "pattern": "Artificial Intelligence Research, Innovation, and Accountability Act of 2023",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Justice in Forensic Algorithms Act of 2024",
         "label": "BILL NAME"
       }
@@ -347,10 +323,6 @@
       {
         "pattern": "generative artificial intelligence",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "Justice in Forensic Algorithms Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "A bill to waive immunity under section 230 of the Communications Act of 1934 for claims and charges related to generative artificial intelligence.",
@@ -438,10 +410,6 @@
         "label": "TESTING_STAGE"
       },
       {
-        "pattern": "A bill to waive immunity under section 230 of the Communications Act of 1934 for claims and charges related to generative artificial intelligence.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Federal Artificial Intelligence Risk Management Act of 2023",
         "label": "BILL NAME"
       }
@@ -481,10 +449,6 @@
       {
         "pattern": "premarket notification",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Federal Artificial Intelligence Risk Management Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Healthy Technology Act of 2023",
@@ -550,10 +514,6 @@
       {
         "pattern": "consumer harm",
         "label": "SOCIAL_HARM"
-      },
-      {
-        "pattern": "Healthy Technology Act of 2023",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Preventing Algorithmic Collusion Act of 2024",

@@ -1,0 +1,137 @@
+[
+{
+"document_id": "doc_141",
+"entities": [
+{ "pattern": "Delaware State Agencies", "label": "ORGANIZATION" },
+{ "pattern": "Delaware", "label": "GEOGRAPHIC" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "automation", "label": "TECHNOLOGY" },
+{ "pattern": "robotics", "label": "TECHNOLOGY" },
+{ "pattern": "government branches", "label": "ORGANIZATION" },
+{ "pattern": "employment", "label": "EMPLOYMENT" },
+{ "pattern": "autonomy", "label": "AUTONOMY_HARM" }
+]
+},
+{
+"document_id": "doc_142",
+"entities": [
+{ "pattern": "New York City", "label": "GEOGRAPHIC" },
+{ "pattern": "mayor’s office of operations", "label": "ORGANIZATION" },
+{ "pattern": "mayor’s office", "label": "ORGANIZATION" },
+{ "pattern": "algorithmic tools", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "predictive analytics", "label": "TECHNOLOGY" },
+{ "pattern": "data types", "label": "DATA" },
+{ "pattern": "laws", "label": "LAW" },
+{ "pattern": "safety", "label": "SAFETY" }
+]
+},
+{
+"document_id": "doc_143",
+"entities": [
+{ "pattern": "Department of Administration", "label": "ORGANIZATION" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "state agencies", "label": "ORGANIZATION" },
+{ "pattern": "impact assessments", "label": "DOCUMENT" },
+{ "pattern": "biometric identification", "label": "TECHNOLOGY" },
+{ "pattern": "emotion recognition", "label": "TECHNOLOGY" },
+{ "pattern": "social scoring", "label": "TECHNOLOGY" },
+{ "pattern": "multi-factor authentication", "label": "STANDARD" },
+{ "pattern": "AI system governance", "label": "POLICY" },
+{ "pattern": "anti-discrimination measures", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_144",
+"entities": [
+{ "pattern": "Illinois", "label": "GEOGRAPHIC" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "AI analysis", "label": "TECHNOLOGY" },
+{ "pattern": "employers", "label": "STAKEHOLDER" },
+{ "pattern": "job applicants", "label": "HUMAN_RIGHTS" },
+{ "pattern": "consent", "label": "PRIVACY" },
+{ "pattern": "video interviews", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_145",
+"entities": [
+{ "pattern": "deepfake", "label": "TECHNOLOGY" },
+{ "pattern": "candidate", "label": "HUMAN_RIGHTS" },
+{ "pattern": "political party", "label": "ORGANIZATION" },
+{ "pattern": "voters", "label": "STAKEHOLDER" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "disclosure statement", "label": "REQUIREMENT" },
+{ "pattern": "audio communications", "label": "DOCUMENT" },
+{ "pattern": "video communications", "label": "DOCUMENT" },
+{ "pattern": "digital communications", "label": "DOCUMENT" }
+]
+},
+{
+"document_id": "doc_146",
+"entities": [
+{ "pattern": "Artificial Intelligence Video Interview Act", "label": "LAW" },
+{ "pattern": "Department of Commerce and Economic Opportunity", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "race and ethnicity data", "label": "SENSITIVE_DATA" },
+{ "pattern": "Governor", "label": "ROLE" },
+{ "pattern": "General Assembly", "label": "ORGANIZATION" },
+{ "pattern": "racial bias", "label": "FAIRNESS" }
+]
+},
+{
+"document_id": "doc_147",
+"entities": [
+{ "pattern": "Select Committee on Artificial Intelligence", "label": "PROGRAM" },
+{ "pattern": "West Virginia House of Delegates", "label": "ORGANIZATION" },
+{ "pattern": "Speaker of the House", "label": "ROLE" },
+{ "pattern": "Standing Committees", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_148",
+"entities": [
+{ "pattern": "Department of Health", "label": "ORGANIZATION" },
+{ "pattern": "Stakeholder Working Group", "label": "PROGRAM" },
+{ "pattern": "health care", "label": "HEALTHCARE" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "limited English proficiency (LEP) populations", "label": "STAKEHOLDER" },
+{ "pattern": "language services", "label": "PROGRAM" },
+{ "pattern": "AI-based solutions", "label": "TECHNOLOGY" },
+{ "pattern": "insurers", "label": "ORGANIZATION" },
+{ "pattern": "community-based organizations", "label": "ORGANIZATION" },
+{ "pattern": "language service providers", "label": "ORGANIZATION" },
+{ "pattern": "Legislature", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_149",
+"entities": [
+{ "pattern": "State Department of Education", "label": "ORGANIZATION" },
+{ "pattern": "K-12 computer science curriculum", "label": "PROGRAM" },
+{ "pattern": "2018 standards", "label": "STANDARD" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "machine learning", "label": "TECHNOLOGY" },
+{ "pattern": "Center for Cyber Education", "label": "ORGANIZATION" },
+{ "pattern": "Mississippi State University", "label": "ORGANIZATION" },
+{ "pattern": "school districts", "label": "ORGANIZATION" },
+{ "pattern": "charter schools", "label": "ORGANIZATION" },
+{ "pattern": "high schools", "label": "ORGANIZATION" },
+{ "pattern": "elementary schools", "label": "ORGANIZATION" },
+{ "pattern": "computer science courses", "label": "EDUCATION" }
+]
+},
+{
+"document_id": "doc_150",
+"entities": [
+{ "pattern": "Artificial Intelligence Task Force", "label": "PROGRAM" },
+{ "pattern": "Senate Committee on Government Operations", "label": "ORGANIZATION" },
+{ "pattern": "House Committee on Energy and Technology", "label": "ORGANIZATION" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "Task Force", "label": "PROGRAM" },
+{ "pattern": "final report", "label": "DOCUMENT" }
+]
+}
+]

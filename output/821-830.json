@@ -1,0 +1,138 @@
+[
+{
+"document_id": "doc_821",
+"entities": [
+{ "pattern": "European Commission", "label": "ORGANIZATION" },
+{ "pattern": "Directive (EU) 2020/1828", "label": "LAW" },
+{ "pattern": "AI Liability Directive", "label": "LAW" },
+{ "pattern": "Member States", "label": "GEOGRAPHIC" },
+{ "pattern": "Union law", "label": "LAW" }
+]
+},
+{
+"document_id": "doc_822",
+"entities": [
+{ "pattern": "Amazon Web Services", "label": "ORGANIZATION" },
+{ "pattern": "AWS", "label": "ORGANIZATION" },
+{ "pattern": "Amazon Bedrock", "label": "TECHNOLOGY" },
+{ "pattern": "Amazon Titan Foundation Models", "label": "TECHNOLOGY" },
+{ "pattern": "AI Service Cards", "label": "DOCUMENT" },
+{ "pattern": "AWS Responsible AI Policy", "label": "POLICY" },
+{ "pattern": "AI and ML services", "label": "TECHNOLOGY" },
+{ "pattern": "red teaming", "label": "TESTING_STAGE" },
+{ "pattern": "bias mitigation", "label": "FAIRNESS" },
+{ "pattern": "human oversight", "label": "ACCOUNTABILITY" },
+{ "pattern": "security assessments", "label": "MONITORING_STAGE" },
+{ "pattern": "privacy violations", "label": "PRIVACY_HARM" }
+]
+},
+{
+"document_id": "doc_823",
+"entities": [
+{ "pattern": "OpenAI", "label": "ORGANIZATION" },
+{ "pattern": "Preparedness Framework", "label": "POLICY" },
+{ "pattern": "frontier AI models", "label": "FRONTIER_AI" },
+{ "pattern": "Deployment Safety Board", "label": "ORGANIZATION" },
+{ "pattern": "Microsoft", "label": "ORGANIZATION" },
+{ "pattern": "Superalignment", "label": "PROGRAM" },
+{ "pattern": "Preparedness teams", "label": "PROGRAM" },
+{ "pattern": "GPT-4", "label": "TECHNOLOGY" },
+{ "pattern": "DALL-E 3", "label": "TECHNOLOGY" },
+{ "pattern": "system card", "label": "DOCUMENT" },
+{ "pattern": "national security-related risks", "label": "MISUSE_RISK" },
+{ "pattern": "data input controls", "label": "REQUIREMENT" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" }
+]
+},
+{
+"document_id": "doc_824",
+"entities": [
+{ "pattern": "U.S. patents", "label": "DOCUMENT" },
+{ "pattern": "Pannu factors", "label": "STANDARD" },
+{ "pattern": "AI-assisted inventions", "label": "TECHNOLOGY" },
+{ "pattern": "U.S. inventorship requirements", "label": "LAW" },
+{ "pattern": "natural persons", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_825",
+"entities": [
+{ "pattern": "Inflection", "label": "ORGANIZATION" },
+{ "pattern": "frontier AI", "label": "FRONTIER_AI" },
+{ "pattern": "pre-deployment safety", "label": "TESTING_STAGE" },
+{ "pattern": "post-launch monitoring", "label": "MONITORING_STAGE" },
+{ "pattern": "International Panel on AI Safety", "label": "ORGANIZATION" },
+{ "pattern": "vulnerability reporting structures", "label": "POLICY" },
+{ "pattern": "bug bounty program", "label": "PROGRAM" },
+{ "pattern": "training data", "label": "TRAINING_DATA" },
+{ "pattern": "AI-generated material", "label": "SYNTHETIC_DATA" },
+{ "pattern": "watermarking", "label": "STANDARD" }
+]
+},
+{
+"document_id": "doc_826",
+"entities": [
+{ "pattern": "OPM", "label": "ORGANIZATION" },
+{ "pattern": "AI and key technical employees", "label": "STAKEHOLDER" },
+{ "pattern": "Federal work experience", "label": "EMPLOYMENT" },
+{ "pattern": "alternative work schedules", "label": "POLICY" },
+{ "pattern": "telework", "label": "POLICY" },
+{ "pattern": "remote work", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_827",
+"entities": [
+{ "pattern": "Congress", "label": "ORGANIZATION" },
+{ "pattern": "A.I. models", "label": "TECHNOLOGY" },
+{ "pattern": "independent oversight body", "label": "ORGANIZATION" },
+{ "pattern": "state Attorneys General", "label": "ROLE" },
+{ "pattern": "export controls", "label": "POLICY" },
+{ "pattern": "sanctions", "label": "POLICY" },
+{ "pattern": "A.I. technology transfers", "label": "TECHNOLOGY" },
+{ "pattern": "deepfakes", "label": "SYNTHETIC_DATA" },
+{ "pattern": "public database of A.I. information", "label": "DOCUMENT" },
+{ "pattern": "consumer protections", "label": "POLICY" },
+{ "pattern": "safety brakes", "label": "SAFETY" },
+{ "pattern": "data usage control", "label": "PRIVACY" }
+]
+},
+{
+"document_id": "doc_828",
+"entities": [
+{ "pattern": "health IT certification criteria", "label": "STANDARD" },
+{ "pattern": "Predictive Decision Support Intervention", "label": "TECHNOLOGY" },
+{ "pattern": "health IT systems", "label": "TECHNOLOGY" },
+{ "pattern": "HL7", "label": "STANDARD" },
+{ "pattern": "LOINC", "label": "STANDARD" },
+{ "pattern": "SNOMED CT", "label": "STANDARD" },
+{ "pattern": "risk management practices", "label": "POLICY" },
+{ "pattern": "electronic health information exchange", "label": "HEALTHCARE" }
+]
+},
+{
+"document_id": "doc_829",
+"entities": [
+{ "pattern": "sex-based harassment", "label": "FAIRNESS" },
+{ "pattern": "education programs", "label": "EDUCATION" },
+{ "pattern": "AI technologies", "label": "TECHNOLOGY" },
+{ "pattern": "remote settings", "label": "EDUCATION" },
+{ "pattern": "institution-sponsored events", "label": "EDUCATION" },
+{ "pattern": "digital platforms", "label": "TECHNOLOGY" }
+]
+},
+{
+"document_id": "doc_830",
+"entities": [
+{ "pattern": "FRA", "label": "ORGANIZATION" },
+{ "pattern": "freight rail industry", "label": "ORGANIZATION" },
+{ "pattern": "automated trucking", "label": "TRANSPORTATION" },
+{ "pattern": "PTC", "label": "TECHNOLOGY" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "automation", "label": "TECHNOLOGY" },
+{ "pattern": "drones", "label": "TECHNOLOGY" },
+{ "pattern": "real-time safety systems", "label": "TECHNOLOGY" },
+{ "pattern": "safety justifications", "label": "SAFETY" }
+]
+}
+]

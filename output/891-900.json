@@ -1,0 +1,148 @@
+[
+{
+"document_id": "doc_891",
+"entities": [
+{ "pattern": "Minnesota", "label": "GEOGRAPHIC" },
+{ "pattern": "deep fake technology", "label": "TECHNOLOGY" },
+{ "pattern": "deep fake images", "label": "SYNTHETIC_DATA" },
+{ "pattern": "criminal investigations", "label": "JUSTICE" },
+{ "pattern": "scientific research", "label": "RESEARCH_STAGE" },
+{ "pattern": "federal law", "label": "LAW" },
+{ "pattern": "financial losses", "label": "ECONOMIC_HARM" },
+{ "pattern": "mental anguish", "label": "SOCIAL_HARM" },
+{ "pattern": "imprisonment", "label": "PENALTY" },
+{ "pattern": "fines", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_892",
+"entities": [
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "political advertisements", "label": "PROGRAM" },
+{ "pattern": "House Bill No. 5143", "label": "LAW" },
+{ "pattern": "AI-generated content", "label": "SYNTHETIC_DATA" },
+{ "pattern": "bona fide news coverage", "label": "POLICY" },
+{ "pattern": "policies on AI content disclosure", "label": "POLICY" },
+{ "pattern": "fines", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_893",
+"entities": [
+{ "pattern": "Freedom From AI-Rigged (FAIR) Elections Act", "label": "LAW" },
+{ "pattern": "synthetic media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "altered audio or video", "label": "SYNTHETIC_DATA" },
+{ "pattern": "advanced digital techniques", "label": "TECHNOLOGY" },
+{ "pattern": "injunctive relief", "label": "MECHANISM" },
+{ "pattern": "information content providers", "label": "STAKEHOLDER" },
+{ "pattern": "courts", "label": "JUSTICE" },
+{ "pattern": "emergency declaration", "label": "POLICY" }
+]
+},
+{
+"document_id": "doc_894",
+"entities": [
+{ "pattern": "Utah", "label": "GEOGRAPHIC" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "legal personhood", "label": "LAW" },
+{ "pattern": "human beings", "label": "STAKEHOLDER" },
+{ "pattern": "nonhuman animals", "label": "STAKEHOLDER" }
+]
+},
+{
+"document_id": "doc_895",
+"entities": [
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "materially deceptive media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "Class A misdemeanors", "label": "PENALTY" },
+{ "pattern": "Class D felonies", "label": "PENALTY" },
+{ "pattern": "news coverage", "label": "POLICY" },
+{ "pattern": "satire", "label": "SOCIAL_HARM" },
+{ "pattern": "parody", "label": "SOCIAL_HARM" }
+]
+},
+{
+"document_id": "doc_896",
+"entities": [
+{ "pattern": "Washington State", "label": "GEOGRAPHIC" },
+{ "pattern": "task force", "label": "PROGRAM" },
+{ "pattern": "attorney general's office", "label": "ORGANIZATION" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "safety", "label": "SAFETY" },
+{ "pattern": "privacy", "label": "PRIVACY" },
+{ "pattern": "civil rights", "label": "HUMAN_RIGHTS" },
+{ "pattern": "literature review", "label": "DOCUMENT" },
+{ "pattern": "ethical AI guidelines", "label": "POLICY" },
+{ "pattern": "governor", "label": "ROLE" },
+{ "pattern": "legislature", "label": "ORGANIZATION" }
+]
+},
+{
+"document_id": "doc_897",
+"entities": [
+{ "pattern": "Secretary of State", "label": "ROLE" },
+{ "pattern": "Attorney General", "label": "ROLE" },
+{ "pattern": "State Treasury's General Fund", "label": "FINANCE" },
+{ "pattern": "synthetic media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "Oregon Revised Statutes", "label": "LAW" },
+{ "pattern": "ORS 260.345", "label": "LAW" },
+{ "pattern": "civil penalty", "label": "PENALTY" },
+{ "pattern": "media providers", "label": "STAKEHOLDER" },
+{ "pattern": "broadcasters", "label": "STAKEHOLDER" },
+{ "pattern": "publications", "label": "STAKEHOLDER" },
+{ "pattern": "satire", "label": "SOCIAL_HARM" },
+{ "pattern": "parody", "label": "SOCIAL_HARM" }
+]
+},
+{
+"document_id": "doc_898",
+"entities": [
+{ "pattern": "AI", "label": "TECHNOLOGY" },
+{ "pattern": "synthetic media", "label": "SYNTHETIC_DATA" },
+{ "pattern": "audio communications", "label": "TECHNOLOGY" },
+{ "pattern": "visual communications", "label": "TECHNOLOGY" },
+{ "pattern": "digital content provenance", "label": "STANDARD" },
+{ "pattern": "creators", "label": "STAKEHOLDER" },
+{ "pattern": "sponsors", "label": "STAKEHOLDER" },
+{ "pattern": "criminal sentencing", "label": "JUSTICE" },
+{ "pattern": "judges", "label": "ROLE" },
+{ "pattern": "parole boards", "label": "ROLE" },
+{ "pattern": "AI-assisted crime", "label": "MISUSE_RISK" },
+{ "pattern": "civil penalties", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_899",
+"entities": [
+{ "pattern": "Government Technology Modernization Council", "label": "ORGANIZATION" },
+{ "pattern": "Department of Management Services", "label": "ORGANIZATION" },
+{ "pattern": "Florida", "label": "GEOGRAPHIC" },
+{ "pattern": "artificial intelligence", "label": "TECHNOLOGY" },
+{ "pattern": "data modernization", "label": "PROGRAM" },
+{ "pattern": "AI system deployment", "label": "DEPLOYMENT_STAGE" },
+{ "pattern": "AI safety standards", "label": "STANDARD" },
+{ "pattern": "digital literacy curricula", "label": "EDUCATION" },
+{ "pattern": "law enforcement", "label": "JUSTICE" },
+{ "pattern": "child pornography", "label": "SOCIAL_HARM" },
+{ "pattern": "third-degree felony", "label": "PENALTY" }
+]
+},
+{
+"document_id": "doc_900",
+"entities": [
+{ "pattern": "Artificial Intelligence Impact Task Force", "label": "ORGANIZATION" },
+{ "pattern": "Colorado", "label": "GEOGRAPHIC" },
+{ "pattern": "consumers", "label": "STAKEHOLDER" },
+{ "pattern": "workers", "label": "STAKEHOLDER" },
+{ "pattern": "AI systems", "label": "TECHNOLOGY" },
+{ "pattern": "automated decision systems", "label": "TECHNOLOGY" },
+{ "pattern": "algorithmic discrimination", "label": "FAIRNESS" },
+{ "pattern": "transparency", "label": "TRANSPARENCY" },
+{ "pattern": "disclosure", "label": "TRANSPARENCY" },
+{ "pattern": "ethical AI usage", "label": "POLICY" },
+{ "pattern": "legislative members", "label": "ROLE" },
+{ "pattern": "compensation", "label": "FINANCE" }
+]
+}
+]

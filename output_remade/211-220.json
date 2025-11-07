@@ -47,10 +47,6 @@
         "label": "PRIVACY"
       },
       {
-        "pattern": "Massachusetts House Docket 4053 (2025)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "California Privacy Protection Agency Draft Risk Assessment and Automated Decisionmaking Technology Regulations ",
         "label": "BILL NAME"
       }
@@ -102,10 +98,6 @@
       {
         "pattern": "Attorney General",
         "label": "ROLE"
-      },
-      {
-        "pattern": "California Privacy Protection Agency Draft Risk Assessment and Automated Decisionmaking Technology Regulations ",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Provisions Pertaining to U.S. Investments in Certain National Security Technologies and Products in Countries of Concern ",
@@ -165,10 +157,6 @@
         "label": "ROLE"
       },
       {
-        "pattern": "Provisions Pertaining to U.S. Investments in Certain National Security Technologies and Products in Countries of Concern ",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence Law Proposal (Grand National Assembly of Turkey)",
         "label": "BILL NAME"
       }
@@ -212,10 +200,6 @@
       {
         "pattern": "employee protections",
         "label": "ACCOUNTABILITY"
-      },
-      {
-        "pattern": "Artificial Intelligence Law Proposal (Grand National Assembly of Turkey)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "California SB 53",
@@ -273,10 +257,6 @@
       {
         "pattern": "governance of AI research",
         "label": "ACCOUNTABILITY"
-      },
-      {
-        "pattern": "California SB 53",
-        "label": "BILL NAME"
       },
       {
         "pattern": "(Trial) Measures for Science and Technology Ethics Reviews (Draft for Feedback)",
@@ -344,10 +324,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "(Trial) Measures for Science and Technology Ethics Reviews (Draft for Feedback)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Guiding Opinions on Strengthening the Governance of Science and Technology Ethics (Draft for Feedback)",
         "label": "BILL NAME"
       }
@@ -393,10 +369,6 @@
         "label": "GOVERNMENT"
       },
       {
-        "pattern": "Guiding Opinions on Strengthening the Governance of Science and Technology Ethics (Draft for Feedback)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Boise Regulations 4.30q City Use of Artificial Intelligence (AI)",
         "label": "BILL NAME"
       }
@@ -432,10 +404,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Boise Regulations 4.30q City Use of Artificial Intelligence (AI)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Oversee Emerging Technology Act",
@@ -495,10 +463,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Oversee Emerging Technology Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "To establish in the National Oceanic and Atmospheric Administration a program to improve precipitation forecasts, and for other purposes.",
         "label": "BILL NAME"
       }
@@ -542,10 +506,6 @@
       {
         "pattern": "Congress",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "To establish in the National Oceanic and Atmospheric Administration a program to improve precipitation forecasts, and for other purposes.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Grand Challenges Act of 2024",

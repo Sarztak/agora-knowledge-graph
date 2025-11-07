@@ -47,10 +47,6 @@
         "label": "RESEARCH_STAGE"
       },
       {
-        "pattern": "California (2021-2022) SB 1398",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Google AI Principles",
         "label": "BILL NAME"
       }
@@ -74,10 +70,6 @@
       {
         "pattern": "school construction funding",
         "label": "PROGRAM"
-      },
-      {
-        "pattern": "Google AI Principles",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Maryland House Bill 1390",
@@ -157,10 +149,6 @@
         "label": "GOVERNMENT"
       },
       {
-        "pattern": "Maryland House Bill 1390",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Illinois HB 4844 (2024), Section 90 (\"Generative AI and Natural Language Processing Task Force\")",
         "label": "BILL NAME"
       }
@@ -206,10 +194,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Illinois HB 4844 (2024), Section 90 (\"Generative AI and Natural Language Processing Task Force\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "New Jersey (2019) Assembly Joint Resolution 164",
         "label": "BILL NAME"
       }
@@ -239,10 +223,6 @@
         "label": "LAW"
       },
       {
-        "pattern": "New Jersey (2019) Assembly Joint Resolution 164",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Iowa S 2243 (Sexual Exploitation of Minors, Use of Falsely Created Images)",
         "label": "BILL NAME"
       }
@@ -266,10 +246,6 @@
       {
         "pattern": "licensee",
         "label": "STAKEHOLDER"
-      },
-      {
-        "pattern": "Iowa S 2243 (Sexual Exploitation of Minors, Use of Falsely Created Images)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "South Carolina 2023 H 4754 (Section 4)",
@@ -307,10 +283,6 @@
       {
         "pattern": "economic industries",
         "label": "FINANCE"
-      },
-      {
-        "pattern": "South Carolina 2023 H 4754 (Section 4)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Oregon Senate Bill 5701",
@@ -366,10 +338,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Oregon Senate Bill 5701",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Section I, Subsection 3 \"Human-centered Artificial Intelligence\")",
         "label": "BILL NAME"
       }
@@ -415,10 +383,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Section I, Subsection 3 \"Human-centered Artificial Intelligence\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "North Carolina House Bill 259",
         "label": "BILL NAME"
       }
@@ -446,10 +410,6 @@
       {
         "pattern": "Machine Learning Systems",
         "label": "TECHNOLOGY"
-      },
-      {
-        "pattern": "North Carolina House Bill 259",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Maryland Senate Bill 360",

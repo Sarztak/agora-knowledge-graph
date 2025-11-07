@@ -19,10 +19,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "WIOA Performance Accountability Improvement Act, Section 2, Subsection (c) (\"Evaluation of State programs.\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "To amend the Communications Act of 1934 to establish technical and procedural standards for artificial or prerecorded voice systems created through generative artificial intelligence, and for other purposes.",
         "label": "BILL NAME"
       }
@@ -68,10 +64,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "To amend the Communications Act of 1934 to establish technical and procedural standards for artificial or prerecorded voice systems created through generative artificial intelligence, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Stop Spying Bosses Act",
         "label": "BILL NAME"
       }
@@ -109,10 +101,6 @@
         "label": "TECHNOLOGY"
       },
       {
-        "pattern": "Stop Spying Bosses Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Sustaining America’s Fisheries for the Future Act of 2024, Title IV, Section 401 (\"Data modernization.\")",
         "label": "BILL NAME"
       }
@@ -136,10 +124,6 @@
       {
         "pattern": "state laws",
         "label": "LAW"
-      },
-      {
-        "pattern": "Sustaining America’s Fisheries for the Future Act of 2024, Title IV, Section 401 (\"Data modernization.\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "NO FAKES Act of 2024",
@@ -183,10 +167,6 @@
         "label": "PRIVACY"
       },
       {
-        "pattern": "NO FAKES Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "SPEED through Screening Act",
         "label": "BILL NAME"
       }
@@ -228,10 +208,6 @@
         "label": "TRANSPARENCY"
       },
       {
-        "pattern": "SPEED through Screening Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Better Mental Health Care for Americans Act, Sec. 203",
         "label": "BILL NAME"
       }
@@ -271,10 +247,6 @@
       {
         "pattern": "nonquantitative treatment limitations",
         "label": "STANDARD"
-      },
-      {
-        "pattern": "Better Mental Health Care for Americans Act, Sec. 203",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Better Mental Health Care for Americans Act, Sec. 201",
@@ -326,10 +298,6 @@
         "label": "MISUSE_RISK"
       },
       {
-        "pattern": "Better Mental Health Care for Americans Act, Sec. 201",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Agriculture and National Security Act of 2024",
         "label": "BILL NAME"
       }
@@ -361,10 +329,6 @@
       {
         "pattern": "imprisonment",
         "label": "PENALTY"
-      },
-      {
-        "pattern": "Agriculture and National Security Act of 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "AI Fraud Deterrence Act",
@@ -422,10 +386,6 @@
       {
         "pattern": "ethical use",
         "label": "POLICY"
-      },
-      {
-        "pattern": "AI Fraud Deterrence Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Next Generation Military Education Act",

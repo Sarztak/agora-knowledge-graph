@@ -31,10 +31,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Dubai International Financial Centre Data Protection Regulations, Regulation 10 (\"Personal data processed through autonomous and semi-autonomous systems\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Connecticut (2017) SB 260",
         "label": "BILL NAME"
       }
@@ -76,10 +72,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Connecticut (2017) SB 260",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Simplify, Don't Amplify the IRS Act, Sec. 201 (\"Tax Gap Projection\")",
         "label": "BILL NAME"
       }
@@ -99,10 +91,6 @@
       {
         "pattern": "Sandoval County",
         "label": "GEOGRAPHIC"
-      },
-      {
-        "pattern": "Simplify, Don't Amplify the IRS Act, Sec. 201 (\"Tax Gap Projection\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "New Mexico Senate Bill 192",
@@ -142,10 +130,6 @@
         "label": "REQUIREMENT"
       },
       {
-        "pattern": "New Mexico Senate Bill 192",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Oklahoma H 3642",
         "label": "BILL NAME"
       }
@@ -177,10 +161,6 @@
       {
         "pattern": "July 1, 2024",
         "label": "REQUIREMENT"
-      },
-      {
-        "pattern": "Oklahoma H 3642",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Minnesota House Bill 4772",
@@ -236,10 +216,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Minnesota House Bill 4772",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Minnesota Senate Bill 2909",
         "label": "BILL NAME"
       }
@@ -291,10 +267,6 @@
       {
         "pattern": "autonomous vehicle regulations",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Minnesota Senate Bill 2909",
-        "label": "BILL NAME"
       },
       {
         "pattern": "California (2017) AB 1444",
@@ -354,10 +326,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "California (2017) AB 1444",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Remarks by Ambassador Zhang Jun at the UN Security Council Briefing on Artificial Intelligence: Opportunities and Risks for International Peace and Security",
         "label": "BILL NAME"
       }
@@ -381,10 +349,6 @@
       {
         "pattern": "House Bill No. 5141",
         "label": "LAW"
-      },
-      {
-        "pattern": "Remarks by Ambassador Zhang Jun at the UN Security Council Briefing on Artificial Intelligence: Opportunities and Risks for International Peace and Security",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Michigan HB 5143",
@@ -422,10 +386,6 @@
       {
         "pattern": "California's constitutional provisions",
         "label": "LAW"
-      },
-      {
-        "pattern": "Michigan HB 5143",
-        "label": "BILL NAME"
       },
       {
         "pattern": "California (2021-2022) SB 1398",

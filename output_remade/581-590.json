@@ -35,10 +35,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "TORPEDO Act of 2023, Sec. 6 (Reporting requirements on efforts of the Department of State to implement the AUKUS partnership)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Deceptive Experiences To Online Users Reduction Act",
         "label": "BILL NAME"
       }
@@ -88,10 +84,6 @@
         "label": "FINANCE"
       },
       {
-        "pattern": "Deceptive Experiences To Online Users Reduction Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Research and Development Program on New Approaches to Data Analysis for Aviation Safety",
         "label": "BILL NAME"
       }
@@ -127,10 +119,6 @@
       {
         "pattern": "entrepreneurial activities",
         "label": "ECONOMIC_HARM"
-      },
-      {
-        "pattern": "Research and Development Program on New Approaches to Data Analysis for Aviation Safety",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Disincentivizing Internet Service Censorship of Online Users and Restrictions on Speech and Expression Act",
@@ -174,10 +162,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Disincentivizing Internet Service Censorship of Online Users and Restrictions on Speech and Expression Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Autonomous Vehicle Accessibility Act/AV Accessibility Act",
         "label": "BILL NAME"
       }
@@ -217,10 +201,6 @@
       {
         "pattern": "statute of limitations",
         "label": "LAW"
-      },
-      {
-        "pattern": "Autonomous Vehicle Accessibility Act/AV Accessibility Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Disrupt Explicit Forged Images And Non-Consensual Edits Act of 2024",
@@ -276,10 +256,6 @@
         "label": "POLICY"
       },
       {
-        "pattern": "Disrupt Explicit Forged Images And Non-Consensual Edits Act of 2024",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "TORPEDO Act of 2023,  Sec. 12 (Expedited release of advanced technologies to Australia, Canada, and the United Kingdom through the foreign military sales program)",
         "label": "BILL NAME"
       }
@@ -311,10 +287,6 @@
       {
         "pattern": "Intelligence Community Directives 203 and 206",
         "label": "POLICY"
-      },
-      {
-        "pattern": "TORPEDO Act of 2023,  Sec. 12 (Expedited release of advanced technologies to Australia, Canada, and the United Kingdom through the foreign military sales program)",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 909 (\"Requirement to Ensure Intelligence Community Directives Appropriately Account for Artificial Intelligence and Machine Learning Tools in Intelligence Products\")",
@@ -360,10 +332,6 @@
       {
         "pattern": "risk-informed, performance-based procedures",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 909 (\"Requirement to Ensure Intelligence Community Directives Appropriately Account for Artificial Intelligence and Machine Learning Tools in Intelligence Products\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Atomic Energy Advancement Act, Sec. 123 (\"Advancement of Nuclear Regulatory Oversight\")",
@@ -419,10 +387,6 @@
         "label": "PENALTY"
       },
       {
-        "pattern": "Atomic Energy Advancement Act, Sec. 123 (\"Advancement of Nuclear Regulatory Oversight\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Stop Fentanyl at the Border Act",
         "label": "BILL NAME"
       }
@@ -470,10 +434,6 @@
       {
         "pattern": "strategic plan",
         "label": "DOCUMENT"
-      },
-      {
-        "pattern": "Stop Fentanyl at the Border Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Forest Data Modernization Act of 2023",

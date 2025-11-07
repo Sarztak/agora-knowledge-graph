@@ -39,10 +39,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "A bill to amend the South Carolina Code of Laws by adding Section 63-5-380 so as to prohibit operators of internet-based applications from using \"automated decision systems\" to place content on social media platforms for users under the age of eighteen who are residents of the State of South Carolina, to require operators to perform age-verification practices for certain users, to establish that a violation is an unfair or deceptive act or practice under the South Carolina Unfair Trade Practices Act, and for other purposes.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An act relating to state affairs and government -- commission to monitor the use of artificial intelligence in state government.",
         "label": "BILL NAME"
       }
@@ -74,10 +70,6 @@
       {
         "pattern": "employment candidates",
         "label": "EMPLOYMENT"
-      },
-      {
-        "pattern": "An act relating to state affairs and government -- commission to monitor the use of artificial intelligence in state government.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "An act to amend the labor law, in relation to establishing criteria for\nthe use of automated employment decision tools",
@@ -121,10 +113,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "An act to amend the labor law, in relation to establishing criteria for\nthe use of automated employment decision tools",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An act relating to a study on the establishment of a program administered by the Texas Workforce Commission to train individuals in certain skills related to artificial intelligence systems.",
         "label": "BILL NAME"
       }
@@ -162,10 +150,6 @@
         "label": "SAFETY"
       },
       {
-        "pattern": "An act relating to a study on the establishment of a program administered by the Texas Workforce Commission to train individuals in certain skills related to artificial intelligence systems.",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "An Act preventing a dystopian work environment.",
         "label": "BILL NAME"
       }
@@ -201,10 +185,6 @@
       {
         "pattern": "employment practices",
         "label": "EMPLOYMENT"
-      },
-      {
-        "pattern": "An Act preventing a dystopian work environment.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Public Act 103-0804",
@@ -250,10 +230,6 @@
       {
         "pattern": "policy",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Public Act 103-0804",
-        "label": "BILL NAME"
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XCIV, Section 9412 (\"Industries of the future\")",
@@ -325,10 +301,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XCIV, Section 9412 (\"Industries of the future\")",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "2023 UK AI Safety Summit Response (Microsoft)",
         "label": "BILL NAME"
       }
@@ -370,10 +342,6 @@
         "label": "PRIVACY"
       },
       {
-        "pattern": "2023 UK AI Safety Summit Response (Microsoft)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence for California Research Act",
         "label": "BILL NAME"
       }
@@ -413,10 +381,6 @@
       {
         "pattern": "workforce",
         "label": "EMPLOYMENT"
-      },
-      {
-        "pattern": "Artificial Intelligence for California Research Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "An Act requiring the Commissioner of Labor and Workforce Development to conduct a study and issue a report on the impact of artificial intelligence on the growth of the State's economy.",
@@ -466,10 +430,6 @@
       {
         "pattern": "weaponry",
         "label": "MILITARY"
-      },
-      {
-        "pattern": "An Act requiring the Commissioner of Labor and Workforce Development to conduct a study and issue a report on the impact of artificial intelligence on the growth of the State's economy.",
-        "label": "BILL NAME"
       },
       {
         "pattern": "An act creating a temporary state commission to  study  and  investigate how  to regulate artificial intelligence, robotics and automation; and providing for the repeal of such provisions upon expiration thereof",

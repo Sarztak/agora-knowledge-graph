@@ -43,10 +43,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "City of St. Louis Information Technology Policy #2023-001 Guidance on Generative AI",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Artificial Intelligence (Regulation) Act 2024",
         "label": "BILL NAME"
       }
@@ -94,10 +90,6 @@
       {
         "pattern": "radio or television stations",
         "label": "ORGANIZATION"
-      },
-      {
-        "pattern": "Artificial Intelligence (Regulation) Act 2024",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Candidate Voice Fraud Prohibition Act",
@@ -157,10 +149,6 @@
         "label": "ORGANIZATION"
       },
       {
-        "pattern": "Candidate Voice Fraud Prohibition Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Integrating New Technologies to Empower Law Enforcement at Our Borders Act",
         "label": "BILL NAME"
       }
@@ -206,10 +194,6 @@
         "label": "PROGRAM"
       },
       {
-        "pattern": "Integrating New Technologies to Empower Law Enforcement at Our Borders Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title VIII \"Prohibition and Notification on Investments Relating to Covered National Security Transactions\")",
         "label": "BILL NAME"
       }
@@ -245,10 +229,6 @@
       {
         "pattern": "privacy concerns",
         "label": "PRIVACY"
-      },
-      {
-        "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title VIII \"Prohibition and Notification on Investments Relating to Covered National Security Transactions\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title V \"Promoting Resilient Supply Chains\")",
@@ -302,10 +282,6 @@
       {
         "pattern": "legal and policy issues",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title V \"Promoting Resilient Supply Chains\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Diabetes Act",
@@ -369,10 +345,6 @@
         "label": "ACCOUNTABILITY"
       },
       {
-        "pattern": "Diabetes Act",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Executive order No. 78 (St. Louis)",
         "label": "BILL NAME"
       }
@@ -430,10 +402,6 @@
         "label": "STAKEHOLDER"
       },
       {
-        "pattern": "Executive order No. 78 (St. Louis)",
-        "label": "BILL NAME"
-      },
-      {
         "pattern": "Emerging Innovative Border Technologies Act",
         "label": "BILL NAME"
       }
@@ -465,10 +433,6 @@
       {
         "pattern": "policy options",
         "label": "POLICY"
-      },
-      {
-        "pattern": "Emerging Innovative Border Technologies Act",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Section 217 \"Report on Wearable Medical Devices\")",
@@ -522,10 +486,6 @@
       {
         "pattern": "misuse",
         "label": "MISUSE_RISK"
-      },
-      {
-        "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Section 217 \"Report on Wearable Medical Devices\")",
-        "label": "BILL NAME"
       },
       {
         "pattern": "Google DeepMind Frontier Safety Framework Version 1.0",
