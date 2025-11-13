@@ -4,6 +4,10 @@ from pathlib import Path
 import json
 from rich.traceback import install 
 import pandas as pd
+import numpy as np
+import spacy 
+from relationship_extractor import RelationExtractor
+
 install()
 
 def map_doc_id_to_agora_id(path):
