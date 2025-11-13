@@ -5,48 +5,209 @@ import spacy
 from rich.traceback import install
 
 install()
+# from spacy.pipeline import EntityRuler
 
-def extract_dependency(row, nlp):
-    name = f"ruler_{row['doc_index']}"
-    ruler = nlp.add_pipe("entity_ruler", before="ner", name=name)
-    ruler.add_patterns(row['patterns'])
-    extractor = RelationExtractor(nlp)
-    doc = nlp(row['long_summary'])
-    rels = extractor.extract(doc, parser_type='legal') 
-    nlp.remove_pipe(name)           # remove to keep pipeline clean
-    del extractor                   # clean up memory
-    return rels
+nlp = spacy.load("en_core_web_sm")
+ruler = nlp.add_pipe("entity_ruler", before="ner")
 
-def create_ner_list(df):
-    return [[{'label': row['label'], 'pattern': row['pattern']} for _, row in df.iterrows()], df['long_summary'].iloc[0]]
-
-if __name__ == "__main__":
-    # import spacy
-    # # Example usage:
-    nlp = spacy.load("en_core_web_sm")
-    docs_df = pd.read_csv('./data/documents.csv')
-    docs_df.rename(columns={'Long summary': 'long_summary'}, inplace=True)
-
-    ent_df = pd.read_parquet('./output/entity_label.parquet')
-
-    ent_docs_df = pd.merge(ent_df, docs_df, on='AGORA ID', how='inner')
-    
-    ent_list_df = (
-        ent_docs_df
-        .groupby('doc_index')
-        .apply(lambda df: create_ner_list(df), include_groups=False)
-        .reset_index()
-    )
-    ent_list_df[['patterns', 'long_summary']] = pd.DataFrame(ent_list_df[0].tolist(), index=ent_list_df.index)
-    ent_list_df = ent_list_df.drop(columns=0)
-    ent_list_df['dependency'] = ent_list_df.apply(lambda row: extract_dependency(row, nlp), axis=1)
-    dep_df = ent_list_df[['doc_index', 'dependency']]
-    dep_df = dep_df.explode('dependency')
-    dep_df[['sub', 'verb', 'obj']] = pd.DataFrame(dep_df['dependency'].tolist(), index=dep_df.index)
-    dep_df = dep_df.drop(columns='dependency').replace({None: np.nan}).reset_index(drop=True)
-    dep_df = pd.merge(dep_df, ent_docs_df[['AGORA ID', 'doc_index']].drop_duplicates(), on='doc_index', how='left')[['doc_index', 'AGORA ID', 'sub', 'verb', 'obj']]
-    dep_df.to_parquet('output/dependency.parquet')
+def normalize_text(text, law_name):
+    lines = [line.strip() for line in text.split("\n") if line.strip()]
+    normalized = []
+    for line in lines:
+        if line[0].isupper() and line.split()[0].istitle():
+            normalized.append(f"{law_name} {line[0].lower()}{line[1:]}")
+        else:
+            normalized.append(f"{law_name} {line}")
+    return " ".join(normalized)
 
 
+# Existing entities + additions for typical legal objects
+patterns = [
+    {"label": "TECHNOLOGY", "pattern": "artificial intelligence"},
+    {"label": "TECHNOLOGY", "pattern": "AI-generated depictions"},
+    {"label": "GEOGRAPHIC", "pattern": "city"},
+    {"label": "GEOGRAPHIC", "pattern": "county"},
+    {"label": "ROLE", "pattern": "state officials"},
+    {"label": "JUSTICE", "pattern": "law enforcement"},
+    {"label": "HEALTHCARE", "pattern": "medical"},
+    {"label": "EDUCATION", "pattern": "educational"},
+    {"label": "RESEARCH_STAGE", "pattern": "scientific"},
+    {"label": "LAW", "pattern": "AB 1831"},
+    # new categories for typical legal targets
+    {"label": "CONTENT", "pattern": "materials"},
+    {"label": "CONTENT", "pattern": "depictions"},
+    {"label": "CONTENT", "pattern": "content"},
+    {"label": "OFFENSE", "pattern": "production"},
+    {"label": "OFFENSE", "pattern": "distribution"},
+    {"label": "OFFENSE", "pattern": "possession"},
+    {"label": "PENALTY", "pattern": "penalties"},
+
+    # AI-related content
+    {"label": "TECHNOLOGY", "pattern": "AI-generated"},
+    {"label": "TECHNOLOGY", "pattern": "AI generated content"},
+    {"label": "TECHNOLOGY", "pattern": "AI-generated depictions"},
+    {"label": "TECHNOLOGY", "pattern": "AI-generated materials"},
+    {"label": "TECHNOLOGY", "pattern": "AI altered content"},
+    {"label": "TECHNOLOGY", "pattern": "digitally altered material"},
+    {"label": "TECHNOLOGY", "pattern": "AI altered material"},
+    {"label": "TECHNOLOGY", "pattern": "AI content"},
+
+    # Legal and moral objects
+    {"label": "CRIME", "pattern": "child pornography"},
+    {"label": "CONTENT", "pattern": "depictions involving minors"},
+    {"label": "CONTENT", "pattern": "materials involving minors"},
+
+    # Penalties and remedies
+    {"label": "PENALTY", "pattern": "fines"},
+    {"label": "PENALTY", "pattern": "imprisonment"},
+    {"label": "PENALTY", "pattern": "conviction"},
+    {"label": "PENALTY", "pattern": "criminal conviction"},
+    {"label": "PENALTY", "pattern": "civil penalties"},
+
+    # Mechanisms and enforcement
+    {"label": "MECHANISM", "pattern": "forfeiture"},
+    {"label": "MECHANISM", "pattern": "destruction"},
+    {"label": "MECHANISM", "pattern": "enforcement"},
+    {"label": "MECHANISM", "pattern": "recruiting minors"},
+
+]
+ruler.add_patterns(patterns)
+
+# patterns = [
+#     {"label": "TECHNOLOGY",
+#      "pattern": [{"LOWER": {"IN": ["ai", "artificial", "digitally"]}},
+#                  {"LOWER": {"IN": ["generated", "altered"]}, "OP": "?"},
+#                  {"LOWER": {"IN": ["content", "depiction", "depictions", "material", "materials"]}}]},
+#     {"label": "CRIME",
+#      "pattern": [{"LOWER": "child"}, {"LOWER": "pornography"}]},
+#     {"label": "PENALTY",
+#      "pattern": [{"LOWER": {"IN": ["fine", "fines", "imprisonment", "conviction", "penalties"]}}]},
+#     {"label": "MECHANISM",
+#      "pattern": [{"LOWER": {"IN": ["forfeiture", "destruction", "enforcement"]}}]},
+# ]
+# ruler.add_patterns(patterns)
+
+text = """Expands existing child pornography laws to include materials digitally altered or generated by artificial intelligence.
+Prohibits the production, distribution, or possession of AI-generated depictions involving minors engaging in sexual conduct.
+Imposes penalties including fines and imprisonment for violations involving AI-generated content depicting minors, including recruiting minors to create such content.
+Specifies exemptions for legally emancipated minors; law enforcement; legitimate medical, educational, or scientific activities; and lawful conduct between spouses.
+Allows forfeiture of AI-generated depictions involving minors engaging in sexual conduct that is in the possession of city, county, or state officials or agencies.
+Allows destruction of AI-generated materials regardless of criminal conviction.
+Mandates that the act becomes operative only if AB 1831 is enacted by January 1, 2025."""
+
+norm_text = normalize_text(text, "AI Child Protection Act")
+doc = nlp(norm_text)
+
+entity_spans = list(doc.ents)
+
+# Extend entity spans with noun chunks not already covered
+known_span_set = {(ent.start, ent.end) for ent in entity_spans}
+for np in doc.noun_chunks:
+    if (np.start, np.end) not in known_span_set:
+        entity_spans.append(np)
 
 
+def collect_direct_objects_only(verb_token, entity_spans):
+    """Collect only the DIRECT objects of this specific verb, not subordinate clauses"""
+    collected = []
+    visited = set()
+
+    def walk(t):
+        if t.i in visited:
+            return
+        visited.add(t.i)
+
+        # Check if in entity
+        in_entity = False
+        for ent in entity_spans:
+            if ent.start <= t.i < ent.end:
+                collected.append(ent.text)
+                in_entity = True
+                break
+        
+        # For nouns, get full noun phrase with left modifiers
+        if not in_entity and t.pos_ in ("NOUN", "PROPN") and not t.is_stop:
+            phrase_tokens = [t]
+            for left_child in t.lefts:
+                if left_child.dep_ in ("amod", "compound"):
+                    phrase_tokens.insert(0, left_child)
+            
+            phrase = " ".join([tok.text for tok in phrase_tokens])
+            collected.append(phrase)
+
+        # Traverse right, but STOP at subordinate verbs
+        for child in t.rights:
+            if child.pos_ == "VERB" and child.dep_ in ("acl", "xcomp", "ccomp", "relcl"):
+                continue  
+            walk(child)
+
+    walk(verb_token)
+    return list(set(collected))
+
+LAW_NAME = "AI Child Protection Act"
+# Process ALL verbs, not just ROOT
+relations = []
+for sent in doc.sents:
+    for token in sent:
+        if token.pos_ == "VERB":
+            
+            # Find the subject for this verb
+            if token.dep_ == "ROOT":
+                # Root verb: look for nsubj on the left
+                subs = [w for w in token.lefts if w.dep_.startswith("nsubj")]
+                if subs:
+                    subj_text = None
+                    for ent in entity_spans:
+                        if ent.start <= subs[0].i < ent.end:
+                            subj_text = ent.text
+                            break
+                    if not subj_text:
+                        subj_text = subs[0].text
+                else:
+                    subj_text = LAW_NAME
+            
+            elif token.dep_ in ("acl", "relcl"):
+                # Subordinate clause: subject is what this verb modifies (its head)
+                subj_text = None
+                for ent in entity_spans:
+                    if ent.start <= token.head.i < ent.end:
+                        subj_text = ent.text
+                        break
+                if not subj_text:
+                    # Build noun phrase for the head
+                    phrase_tokens = [token.head]
+                    for left_child in token.head.lefts:
+                        if left_child.dep_ in ("amod", "compound"):
+                            phrase_tokens.insert(0, left_child)
+                    subj_text = " ".join([tok.text for tok in phrase_tokens])
+            
+            elif token.dep_ in ("xcomp", "ccomp"):
+                # Complement clause: subject is the subject of the main verb
+                subj_text = None
+                main_verb = token.head
+                subs = [w for w in main_verb.lefts if w.dep_.startswith("nsubj")]
+                if subs:
+                    for ent in entity_spans:
+                        if ent.start <= subs[0].i < ent.end:
+                            subj_text = ent.text
+                            break
+                    if not subj_text:
+                        subj_text = subs[0].text
+                else:
+                    subj_text = LAW_NAME
+            else:
+                continue  # Skip other verb types
+            
+            # Get objects for this verb
+            obj_entities = collect_direct_objects_only(token, entity_spans)
+            for obj in obj_entities:
+                if subj_text != obj:
+                    relations.append((subj_text, token.lemma_, obj))
+
+relations = list(set(relations))
+for r in relations:
+    print(r)
+
+for token in doc:
+    print(token.text, token.dep_, token.head.text, token.pos_)
+breakpoint()

@@ -58,6 +58,71 @@ def tabulate_extracted_entities():
     ent_label_df.to_parquet(output / 'entity_label.parquet')
 
 
+def extract_dependency(row, nlp):
+    name = f"ruler_{row['doc_index']}"
+    ruler = nlp.add_pipe("entity_ruler", before="ner", name=name)
+    ruler.add_patterns(row['patterns'])
+    extractor = RelationExtractor(nlp)
+    doc = nlp(row['long_summary'])
+    rels = extractor.extract(doc, parser_type='legal') 
+    nlp.remove_pipe(name)           # remove to keep pipeline clean
+    del extractor                   # clean up memory
+    return rels
+
+def create_ner_list(df):
+    return [[{'label': row['label'], 'pattern': row['pattern']} for _, row in df.iterrows()], df['long_summary'].iloc[0]]
+
+def tabular_extracted_dependency():
+    # Load spaCy model
+    nlp = spacy.load("en_core_web_sm")
+
+    # Load data
+    docs_df = pd.read_csv('./data/documents.csv')
+    docs_df.rename(columns={'Long summary': 'long_summary'}, inplace=True)
+
+    ent_df = pd.read_parquet('./output/entity_label.parquet')
+
+    # Merge entity and document data
+    ent_docs_df = pd.merge(ent_df, docs_df, on='AGORA ID', how='inner')
+
+    # Create NER pattern list
+    ent_list_df = (
+        ent_docs_df
+        .groupby('doc_index')
+        .apply(lambda df: create_ner_list(df), include_groups=False)
+        .reset_index()
+    )
+
+    # Unpack NER output into separate columns
+    ent_list_df[['patterns', 'long_summary']] = pd.DataFrame(
+        ent_list_df[0].tolist(), index=ent_list_df.index
+    )
+    ent_list_df.drop(columns=0, inplace=True)
+
+    # Extract dependencies
+    ent_list_df['dependency'] = ent_list_df.apply(
+        lambda row: extract_dependency(row, nlp), axis=1
+    )
+
+    # Flatten dependencies
+    dep_df = ent_list_df[['doc_index', 'dependency']].explode('dependency')
+    dep_df[['sub', 'verb', 'obj']] = pd.DataFrame(
+        dep_df['dependency'].tolist(), index=dep_df.index
+    )
+    dep_df.drop(columns='dependency', inplace=True)
+    dep_df.replace({None: np.nan}, inplace=True)
+
+    # Merge back AGORA ID
+    dep_df = pd.merge(
+        dep_df,
+        ent_docs_df[['AGORA ID', 'doc_index']].drop_duplicates(),
+        on='doc_index',
+        how='left'
+    )[['doc_index', 'AGORA ID', 'sub', 'verb', 'obj']]
+
+    # Save output
+    dep_df.to_parquet('output/dependency.parquet')
+
 def prompt():
     return """
 SYSTEM ROLE
@@ -218,9 +283,38 @@ def chunk_writer():
                 w.write(text)
                 w.write('\n\n---\n\n')
 
+def clean_dependency(path):
+
+    df = pd.read_parquet(path)
+    
+    # Only keep valid triples
+    clean_df = df.dropna(subset=["sub", "verb", "obj"])
+
+    clean_df = clean_df[
+        (clean_df["sub"].str.strip() != "") &
+        (clean_df["verb"].str.strip() != "") &
+        (clean_df["obj"].str.strip() != "")
+    ]
+
+    nodes = pd.concat([clean_df['sub'], clean_df['obj']]).unique()
+    nodes_df = pd.DataFrame({
+        "id": range(len(nodes)),
+        "name": nodes
+    })
+
+    mapping = {name: i for i, name in enumerate(nodes)}
+
+    edges_df = pd.DataFrame({
+        "source": clean_df['sub'].map(mapping),
+        "target": clean_df['obj'].map(mapping),
+        "relationship": clean_df['verb']
+    })
+    
+    nodes_df.to_csv("./output/nodes.csv", index=False)
+    edges_df.to_csv("./output/edges.csv", index=False)
 
 if __name__ == "__main__":
     
-    tabulate_extracted_entities()
-    ent_df = pd.read_parquet('./output/entity_label.parquet')
-    
+    # tabulate_extracted_entities()
+    # ent_df = pd.read_parquet('./output/entity_label.parquet')
+    clean_dependency("./output/dependency.parquet")
