@@ -16,7 +16,7 @@
       },
       {
         "pattern": "California Assembly Bill 3030 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 222 (\"Modification to artificial intelligence education strategy\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -86,7 +86,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1066 (\"Reports on approval and deployment of lethal autonomous weapon systems\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -131,7 +131,7 @@
       },
       {
         "pattern": "Foreign Investment Guardrails to Help Thwart (FIGHT) China Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -160,7 +160,7 @@
       },
       {
         "pattern": "S257 Promoting Resilient Supply Chains Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -193,7 +193,7 @@
       },
       {
         "pattern": "H2444 Promoting Resilient Supply Chains Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -234,7 +234,7 @@
       },
       {
         "pattern": "Next Generation Pipelines Research and Development Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -271,7 +271,7 @@
       },
       {
         "pattern": "Promoting United States Leadership in Standards Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -320,7 +320,7 @@
       },
       {
         "pattern": "Leading Ethical AI Development (LEAD) for Kids Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -369,7 +369,7 @@
       },
       {
         "pattern": "Department of Energy Quantum Leadership Act of 2025, Section 2 \"Department of Energy quantum information science research program\"",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -32,7 +32,7 @@
       },
       {
         "pattern": "Stop Smuggling Illicit Synthetic Drugs on U.S. Transportation Networks Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -73,7 +73,7 @@
       },
       {
         "pattern": "To amend and reauthorize the Workforce Innovation and Opportunity Act and the Older Americans Act of 1965.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -118,7 +118,7 @@
       },
       {
         "pattern": "Transparency in Bureaucratic Communications Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "pattern": "SCAM Platform Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -172,7 +172,7 @@
       },
       {
         "pattern": "To amend and reauthorize the Workforce Innovation and Opportunity Act and the Older Americans Act of 1965.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -209,7 +209,7 @@
       },
       {
         "pattern": "Cybersecurity and Infrastructure Security Agency Securing AI Task Force Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -246,7 +246,7 @@
       },
       {
         "pattern": "No AI Audits Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -303,7 +303,7 @@
       },
       {
         "pattern": "Artificial Intelligence Weapon Accountability and Risk Evaluation Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -344,7 +344,7 @@
       },
       {
         "pattern": "Data Protection Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -389,7 +389,7 @@
       },
       {
         "pattern": "New York Assembly Bill A8808A",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

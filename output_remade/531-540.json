@@ -32,7 +32,7 @@
       },
       {
         "pattern": "ASK Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "Preventing Deep Fake Scams Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -142,7 +142,7 @@
       },
       {
         "pattern": "AI Leadership Training Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -211,7 +211,7 @@
       },
       {
         "pattern": "DOE and NSF Interagency Research Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -256,7 +256,7 @@
       },
       {
         "pattern": "Political BIAS Emails Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -313,7 +313,7 @@
       },
       {
         "pattern": "ASSESS AI Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -350,7 +350,7 @@
       },
       {
         "pattern": "AI Disclosure Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -383,7 +383,7 @@
       },
       {
         "pattern": "R U REAL Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -440,7 +440,7 @@
       },
       {
         "pattern": "AI LEAD Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -493,7 +493,7 @@
       },
       {
         "pattern": "AI Foundation Model Transparency Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

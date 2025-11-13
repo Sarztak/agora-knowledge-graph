@@ -40,7 +40,7 @@
       },
       {
         "pattern": "2023 UK AI Safety Summit Response (Meta)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -101,7 +101,7 @@
       },
       {
         "pattern": "HHS Public Benefits and AI",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -146,7 +146,7 @@
       },
       {
         "pattern": "USDA Framework for State, Local, Tribal, and Territorial Use of Artificial Intelligence for Public Benefit Administration",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -203,7 +203,7 @@
       },
       {
         "pattern": "Frontier AI Safety Commitments, AI Seoul Summit 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -260,7 +260,7 @@
       },
       {
         "pattern": "2023 UK AI Safety Summit Response (Google DeepMind)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -313,7 +313,7 @@
       },
       {
         "pattern": "Guidance on Application of the Fair Housing Act to the Advertising of Housing, Credit, and Other Real Estate-Related Transactions through Digital Platforms",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -370,7 +370,7 @@
       },
       {
         "pattern": "Increasing AI Capacity Across the Federal Government: AI Talent Surge Progress and Recommendations",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -407,7 +407,7 @@
       },
       {
         "pattern": "Government-wide Hiring Authorities for Advancing Federal Government\nUse of Artificial Intelligence (AI)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -444,7 +444,7 @@
       },
       {
         "pattern": "Safe and Responsible AI in Australia Consultation, Interim Response",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -473,7 +473,7 @@
       },
       {
         "pattern": "A bill to amend the South Carolina Code of Laws by adding Section 63-5-380 so as to prohibit operators of internet-based applications from using \"automated decision systems\" to place content on social media platforms for users under the age of eighteen who are residents of the State of South Carolina, to require operators to perform age-verification practices for certain users, to establish that a violation is an unfair or deceptive act or practice under the South Carolina Unfair Trade Practices Act, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

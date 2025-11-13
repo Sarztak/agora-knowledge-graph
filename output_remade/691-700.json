@@ -60,7 +60,7 @@
       },
       {
         "pattern": "National Wildland Fire Risk Reduction Program Act, Sec. 7 (Responsibilities of Program Agencies)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -113,7 +113,7 @@
       },
       {
         "pattern": "Free Credit Scores for Consumers Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -150,7 +150,7 @@
       },
       {
         "pattern": "Kids Online Safety Act, Title II (Filter Bubble Transparency)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -179,7 +179,7 @@
       },
       {
         "pattern": "Government Surveillance Reform Act of 2023, Title VII (Protection of Car Data from Warrantless Searches)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -220,7 +220,7 @@
       },
       {
         "pattern": "Deploying American Blockchains Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -261,7 +261,7 @@
       },
       {
         "pattern": "Border Act of 2024, General Provisions Title",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -306,7 +306,7 @@
       },
       {
         "pattern": "Community and Hydropower Improvement Act, Sec. 4 (Approach to Environmental Review)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -355,7 +355,7 @@
       },
       {
         "pattern": "Future of Artificial Intelligence Innovation Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -380,7 +380,7 @@
       },
       {
         "pattern": "A Stronger Workforce for America Act, Chapter 3 (Performance Accountability)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -421,7 +421,7 @@
       },
       {
         "pattern": "AI Grand Challenges Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

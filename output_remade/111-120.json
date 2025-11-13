@@ -28,7 +28,7 @@
       },
       {
         "pattern": "Bipartisan Health Care Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -117,7 +117,7 @@
       },
       {
         "pattern": "City of San Jose Artificial Intelligence Policy 1.7.12",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -186,7 +186,7 @@
       },
       {
         "pattern": "California Attorney General’s Legal Advisory on the Application of Existing California Laws to Artificial Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -231,7 +231,7 @@
       },
       {
         "pattern": "Meta Frontier AI Framework (Version 1.1)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -280,7 +280,7 @@
       },
       {
         "pattern": "Establishment of Reporting Requirements for the Development of Advanced Artificial Intelligence Models and Computing Clusters ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -329,7 +329,7 @@
       },
       {
         "pattern": "Illinois SB2203",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -374,7 +374,7 @@
       },
       {
         "pattern": "AI Incident Reporting and Security Enhancement Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -419,7 +419,7 @@
       },
       {
         "pattern": "Artificial Intelligence Literacy Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -464,7 +464,7 @@
       },
       {
         "pattern": "AI Transparency in Elections Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -513,7 +513,7 @@
       },
       {
         "pattern": "Colorado SB21-169",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -20,7 +20,7 @@
       },
       {
         "pattern": "To amend the Communications Act of 1934 to establish technical and procedural standards for artificial or prerecorded voice systems created through generative artificial intelligence, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "pattern": "Stop Spying Bosses Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -102,7 +102,7 @@
       },
       {
         "pattern": "Sustaining America’s Fisheries for the Future Act of 2024, Title IV, Section 401 (\"Data modernization.\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -127,7 +127,7 @@
       },
       {
         "pattern": "NO FAKES Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -168,7 +168,7 @@
       },
       {
         "pattern": "SPEED through Screening Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -209,7 +209,7 @@
       },
       {
         "pattern": "Better Mental Health Care for Americans Act, Sec. 203",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -250,7 +250,7 @@
       },
       {
         "pattern": "Better Mental Health Care for Americans Act, Sec. 201",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -299,7 +299,7 @@
       },
       {
         "pattern": "Agriculture and National Security Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -332,7 +332,7 @@
       },
       {
         "pattern": "AI Fraud Deterrence Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -389,7 +389,7 @@
       },
       {
         "pattern": "Next Generation Military Education Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

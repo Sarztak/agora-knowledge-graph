@@ -48,7 +48,7 @@
       },
       {
         "pattern": "A bill to prohibit and require notifications with respect to certain investments by United States persons in the People's Republic of China, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -101,7 +101,7 @@
       },
       {
         "pattern": "Preserving American Dominance in Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -162,7 +162,7 @@
       },
       {
         "pattern": "AI Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -211,7 +211,7 @@
       },
       {
         "pattern": "Trustworthy By Design Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -276,7 +276,7 @@
       },
       {
         "pattern": "Chinese Military and Surveillance Company Sanctions Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -329,7 +329,7 @@
       },
       {
         "pattern": "Workforce Data Enhancement Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -358,7 +358,7 @@
       },
       {
         "pattern": "Rural Prosperity and Food Security Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -427,7 +427,7 @@
       },
       {
         "pattern": "Rural Prosperity and Food Security Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -472,7 +472,7 @@
       },
       {
         "pattern": "Leadership in CET Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -513,7 +513,7 @@
       },
       {
         "pattern": "Improving Atmospheric River Forecasts Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Alabama Executive Order No. 738",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -93,7 +93,7 @@
       },
       {
         "pattern": "State of North Dakota Artificial Intelligence Policy",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -154,7 +154,7 @@
       },
       {
         "pattern": "North Carolina State Government Responsible Use of Artificial Intelligence Framework",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -207,7 +207,7 @@
       },
       {
         "pattern": "State of New Hampshire Use of Artificial Intelligence Technologies Policy",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -248,7 +248,7 @@
       },
       {
         "pattern": "New Jersey Executive Order No. 346 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -305,7 +305,7 @@
       },
       {
         "pattern": "Rhode Island Executive Order 24-06",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -358,7 +358,7 @@
       },
       {
         "pattern": "Mississippi Senate Bill 2062",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -423,7 +423,7 @@
       },
       {
         "pattern": "Legal Advisory on the Application of Existing California Law to Artificial Intelligence in Healthcare (California Attorney General)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -468,7 +468,7 @@
       },
       {
         "pattern": "New York 2025-A768",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -525,7 +525,7 @@
       },
       {
         "pattern": "Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -48,7 +48,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 7513 (\"Policies established by Director of National Intelligence for artificial intelligence capabilities\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 856 (\"Pilot program to analyze and monitor certain supply chains\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -138,7 +138,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 811 (\"Modernizing the Department of Defense requirements process\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -179,7 +179,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 1507 (\"Review and plan relating to cyber red teams of Department of Defense\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -236,7 +236,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 7507 (\"Programs for next-generation microelectronics in support of artificial intelligence\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -289,7 +289,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 224 (\"Next Generation Air Dominance family of systems development program accountability matrices\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -338,7 +338,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 1090 (\"Conduct of weather reconnaissance in the United States\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -363,7 +363,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 251 (\"Congressional notification of changes to Department of Defense policy on autonomy in weapon systems\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -400,7 +400,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 1682 (\"Electromagnetic Warfare\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -437,7 +437,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 903 (\"Establishment of Office of Strategic Capital\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

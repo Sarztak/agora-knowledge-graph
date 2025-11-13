@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Maryland Senate Bill 1068",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "pattern": "Washington Senate Bill 5950",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -106,7 +106,7 @@
       },
       {
         "pattern": "DEEPFAKES Accountability Act, Sec. 2 (\"Transparency Requirements\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -143,7 +143,7 @@
       },
       {
         "pattern": "Sensible Classification Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -192,7 +192,7 @@
       },
       {
         "pattern": "Federal AI Governance and Transparency Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -233,7 +233,7 @@
       },
       {
         "pattern": "To direct the Director of the National Institutes of Health to establish a grant program to facilitate research regarding the use of generative artificial intelligence in health care, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -282,7 +282,7 @@
       },
       {
         "pattern": "Anthropic Responsible Scaling Policy",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -315,7 +315,7 @@
       },
       {
         "pattern": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -356,7 +356,7 @@
       },
       {
         "pattern": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act (SB 1047)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -401,7 +401,7 @@
       },
       {
         "pattern": "OpenAI Charter",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -48,7 +48,7 @@
       },
       {
         "pattern": "California Privacy Protection Agency Draft Risk Assessment and Automated Decisionmaking Technology Regulations ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -101,7 +101,7 @@
       },
       {
         "pattern": "Provisions Pertaining to U.S. Investments in Certain National Security Technologies and Products in Countries of Concern ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -158,7 +158,7 @@
       },
       {
         "pattern": "Artificial Intelligence Law Proposal (Grand National Assembly of Turkey)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -203,7 +203,7 @@
       },
       {
         "pattern": "California SB 53",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -260,7 +260,7 @@
       },
       {
         "pattern": "(Trial) Measures for Science and Technology Ethics Reviews (Draft for Feedback)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -325,7 +325,7 @@
       },
       {
         "pattern": "Guiding Opinions on Strengthening the Governance of Science and Technology Ethics (Draft for Feedback)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -370,7 +370,7 @@
       },
       {
         "pattern": "Boise Regulations 4.30q City Use of Artificial Intelligence (AI)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -407,7 +407,7 @@
       },
       {
         "pattern": "Oversee Emerging Technology Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -464,7 +464,7 @@
       },
       {
         "pattern": "To establish in the National Oceanic and Atmospheric Administration a program to improve precipitation forecasts, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -509,7 +509,7 @@
       },
       {
         "pattern": "AI Grand Challenges Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

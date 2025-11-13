@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Framework for Artificial Intelligence Diffusion",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "Guidance on Algorithmic Discrimination and the New Jersey Law Against Discrimination",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -110,7 +110,7 @@
       },
       {
         "pattern": "Common Intelligence Community Interim Guidance Regarding the Acquisition and Use of Foundation AI Models",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "pattern": "Securing Growth and Robust Leadership in American Aviation Act, Sec. 1024 (\"Technology Review of Artificial Intelligence and Machine Learning Technologies\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -188,7 +188,7 @@
       },
       {
         "pattern": "Securing Growth and Robust Leadership in American Aviation Act, Sec. 1028 (\"Air Traffic Control Training\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -233,7 +233,7 @@
       },
       {
         "pattern": "REAL Political Advertisements Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -290,7 +290,7 @@
       },
       {
         "pattern": "Directive on Automated Decision-Making (Canada)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -315,7 +315,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 125 (\"Designation of official responsible for autonomous surface and underwater dual-modality vehicles\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -384,7 +384,7 @@
       },
       {
         "pattern": "Regulations of Shenzhen Special Economic Zone on Promoting the Artificial Intelligence Industry",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -453,7 +453,7 @@
       },
       {
         "pattern": "CREATE AI Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

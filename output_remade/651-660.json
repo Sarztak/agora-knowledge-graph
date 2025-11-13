@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Federal Improvement in Technology Procurement Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -61,7 +61,7 @@
       },
       {
         "pattern": "Living Wage for Musicians Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -102,7 +102,7 @@
       },
       {
         "pattern": "Methane Emissions Mitigation Research and Development Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -139,7 +139,7 @@
       },
       {
         "pattern": "Veterans Appeals Efficiency Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -184,7 +184,7 @@
       },
       {
         "pattern": "Protecting Consumers from Deceptive AI Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "pattern": "National Patient Safety Board Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -262,7 +262,7 @@
       },
       {
         "pattern": "Examining Educational Redlining in Lending Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -315,7 +315,7 @@
       },
       {
         "pattern": "Advanced Aviation Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -356,7 +356,7 @@
       },
       {
         "pattern": "Americas Act, Title II (\"Trade and Investment for the Americas\"), Sec. 255 (\"Transformational Energy Development\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -389,7 +389,7 @@
       },
       {
         "pattern": "Modernizing Retrospective Regulatory Review",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

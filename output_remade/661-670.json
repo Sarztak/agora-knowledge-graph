@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Emerging Innovative Border Technologies Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "pattern": "Child Exploitation and Artificial Intelligence Expert Commission Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -102,7 +102,7 @@
       },
       {
         "pattern": "ENFORCE Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -131,7 +131,7 @@
       },
       {
         "pattern": "Generative AI Copyright Disclosure Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -160,7 +160,7 @@
       },
       {
         "pattern": "CONSENT Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -193,7 +193,7 @@
       },
       {
         "pattern": "Promoting United States Leadership in Standards Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -246,7 +246,7 @@
       },
       {
         "pattern": "Secure Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -291,7 +291,7 @@
       },
       {
         "pattern": "American Economic Independence Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -336,7 +336,7 @@
       },
       {
         "pattern": "Comment Integrity and Management Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -373,7 +373,7 @@
       },
       {
         "pattern": "Department of Defense Financial Audits Using Artificial Intelligence Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

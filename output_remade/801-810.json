@@ -24,7 +24,7 @@
       },
       {
         "pattern": "An Act concerning discrimination and automated decision systems and supplementing P.L.1945, c.169 (C.10:5-1 et seq.).",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "pattern": "An Act to amend the general business law, in relation to the management\n and oversight of personal data (Section 7)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "pattern": "Voluntary Commitments from Leading Artificial Intelligence Companies",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -191,7 +191,7 @@
       },
       {
         "pattern": "Blueprint for an AI Bill of Rights",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -244,7 +244,7 @@
       },
       {
         "pattern": "Pennsylvania HB 1380",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -285,7 +285,7 @@
       },
       {
         "pattern": "New Jersey Bill A537",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -322,7 +322,7 @@
       },
       {
         "pattern": "Pennsylvania HB 49",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -363,7 +363,7 @@
       },
       {
         "pattern": "Rhode Island HB 6286",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -424,7 +424,7 @@
       },
       {
         "pattern": "North Carolina SB 460",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -469,7 +469,7 @@
       },
       {
         "pattern": "New Mexico SM 63",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

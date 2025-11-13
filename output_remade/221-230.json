@@ -48,7 +48,7 @@
       },
       {
         "pattern": "To provide for Federal civilian agency laboratory development for testing and certification of artificial intelligence for civilian agency use, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -85,7 +85,7 @@
       },
       {
         "pattern": "Singapore National AI Strategy 2.0",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Securing Growth and Robust Leadership in American Aviation Act, Sec. 908 (\"Part 107 Waiver Improvements\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -171,7 +171,7 @@
       },
       {
         "pattern": "Canadian Guardrails for Generative AI – Code of Practice",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -208,7 +208,7 @@
       },
       {
         "pattern": "To direct the Secretary of Defense to establish a working group to develop and coordinate an artificial intelligence initiative among the Five Eyes countries, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -253,7 +253,7 @@
       },
       {
         "pattern": "Wisconsin Executive Order #211",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -294,7 +294,7 @@
       },
       {
         "pattern": "Indianapolis City Council Proposal No.362, 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -331,7 +331,7 @@
       },
       {
         "pattern": "New York A7838",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -376,7 +376,7 @@
       },
       {
         "pattern": "Rhode Island SB 146",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -417,7 +417,7 @@
       },
       {
         "pattern": "Pennsylvania HR 170",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -16,7 +16,7 @@ ruler = nlp.add_pipe("entity_ruler")
 ruler.add_patterns(patterns)
 
 # === 3. Load normalized documents ===
-df = pd.read_csv("/Users/blag/Documents/UChicago MS/2025 Fall/agora-knowledge-graph/data/documents_normalized.csv")
+df = pd.read_csv("./data/documents_normalized.csv")
 if "Normalized Long Summary" not in df.columns:
     raise ValueError("Could not find column 'Normalized Long Summary' in documents_normalized.csv")
 

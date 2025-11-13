@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1069 (\"Biodefense posture reviews\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -77,7 +77,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1032 (\"Competitive demonstration of large and extra large unmanned underwater vehicles\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 232 (\"Expansion of participation in the Digital On-Demand Program\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -179,7 +179,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1515 (\"Protective measures for mobile devices within the Department of Defense\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -276,7 +276,7 @@
       },
       {
         "pattern": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -337,7 +337,7 @@
       },
       {
         "pattern": "Security Management Measures for the Application of Facial Recognition Technology",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -390,7 +390,7 @@
       },
       {
         "pattern": "Illinois HB 0645",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -443,7 +443,7 @@
       },
       {
         "pattern": "New York City Department of Consumer and Worker Protection Amendment to Rules of NY City (Use of Automated Employment Decisionmaking Tools)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -512,7 +512,7 @@
       },
       {
         "pattern": "National Standard of the People’s Republic of China: Cybersecurity Technology – Basic Safety Requirements for Generative Artificial Intelligence Services (Draft for Feedback)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -569,7 +569,7 @@
       },
       {
         "pattern": "JSP 936 V1.1 Dependable Artificial Intelligence (AI) in Defence (part 1: directive)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

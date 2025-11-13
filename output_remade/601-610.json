@@ -48,7 +48,7 @@
       },
       {
         "pattern": "National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -97,7 +97,7 @@
       },
       {
         "pattern": "Department of State Authorization Act of 2023, Sec. 303 (\"Task force to address artificial intelligence-enabled influence operations\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "pattern": "HEARTS Act of 2022",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -171,7 +171,7 @@
       },
       {
         "pattern": "Diversify Tech Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -228,7 +228,7 @@
       },
       {
         "pattern": "Shifting Forward Vehicle Technologies Research and Development Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -289,7 +289,7 @@
       },
       {
         "pattern": "Department of State Authorization Act of 2023, Sec. 941 (\"Reporting Related to the AUKUS Partnership\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -334,7 +334,7 @@
       },
       {
         "pattern": "Food and Agriculture Industry Cybersecurity Support Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -383,7 +383,7 @@
       },
       {
         "pattern": "Outbound Investment Transparency Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -428,7 +428,7 @@
       },
       {
         "pattern": "Health Care Price Transparency Act of 2023, Sec. 301 (\"Establishing Requirements With Respect to the Use of Prior Authorization Under Medicare Advantage Plans\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -457,7 +457,7 @@
       },
       {
         "pattern": "STOP HATE Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

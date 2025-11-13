@@ -20,7 +20,7 @@
       },
       {
         "pattern": "Computer Science for All Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Artificial Intelligence Environmental Impacts Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -163,7 +163,7 @@
       },
       {
         "pattern": "Tornado Observations Research and Notification Assessment for Development of Operations Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -216,7 +216,7 @@
       },
       {
         "pattern": "Next Generation Pipelines Research and Development Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -265,7 +265,7 @@
       },
       {
         "pattern": "Supply Chain Mapping and Monitoring Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -326,7 +326,7 @@
       },
       {
         "pattern": "Advanced Weather Model Computing Development Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -359,7 +359,7 @@
       },
       {
         "pattern": "AI for National Security Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -400,7 +400,7 @@
       },
       {
         "pattern": "Technology Workforce Framework Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -437,7 +437,7 @@
       },
       {
         "pattern": "Protect Elections from Deceptive AI Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

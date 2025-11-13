@@ -32,7 +32,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 43201 (\"Artificial intelligence and information technology modernization initiative\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -93,7 +93,7 @@
       },
       {
         "pattern": "California Executive Order N-12-23 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -142,7 +142,7 @@
       },
       {
         "pattern": "California Senate Bill 1288 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -183,7 +183,7 @@
       },
       {
         "pattern": "California (2023-2024) AB 96",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -232,7 +232,7 @@
       },
       {
         "pattern": "California SJR 6",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -293,7 +293,7 @@
       },
       {
         "pattern": "California Assembly Bill 1831 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -342,7 +342,7 @@
       },
       {
         "pattern": "California Senate Bill 1381 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -395,7 +395,7 @@
       },
       {
         "pattern": "California AB 2839 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -440,7 +440,7 @@
       },
       {
         "pattern": "California 2023 SCR 17 (Relative to AI)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -497,7 +497,7 @@
       },
       {
         "pattern": "California AB 2885 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -44,7 +44,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title VIII, Section 801 (\"Report on acquisition risk assessment and mitigation as part of Adaptive Acquisition Framework implementation\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -77,7 +77,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title II, Section 248 (\"Pilot program on self-directed training in advanced technologies\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -110,7 +110,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title II, Section 249 (\"Part-time and term employment of university faculty and students in the Defense science and technology enterprise\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -143,7 +143,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XXXV, Section 3521 (\"Maritime security and domain awareness\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -176,7 +176,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title I, Section 152 (\"Transfer of responsibilities and functions relating to electromagnetic spectrum operations\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -225,7 +225,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XCIV, Section 9414 (\"Study on Chinese policies and influence in the development of international standards for emerging technologies\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -274,7 +274,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title II, Section 513 (\"Grants to support STEM education in the Junior Reserve Officers’ Training Corps\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -327,7 +327,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XV, Section 6505 (\"GAO studies on trafficking\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -380,7 +380,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title LXII, Section 6211 (\"Financial crimes tech symposium\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -417,7 +417,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XC, Section 9004 (\"Department of Homeland Security reports on digital content forgery technology\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -44,7 +44,7 @@
       },
       {
         "pattern": "Advancing the Responsible Acquisition of Artificial Intelligence in Government ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -89,7 +89,7 @@
       },
       {
         "pattern": "Illinois HB 3506",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Opinions on Strengthening the Governance of Science and Technology Ethics",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -179,7 +179,7 @@
       },
       {
         "pattern": "Massachusetts Executive Order 629",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -248,7 +248,7 @@
       },
       {
         "pattern": "Recommendation of the Council on Artificial Intelligence (5/2/2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -297,7 +297,7 @@
       },
       {
         "pattern": "AI in America: OpenAI's Economic Blueprint",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -342,7 +342,7 @@
       },
       {
         "pattern": "(Trial) Measures for Science and Technology Ethics Reviews",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -383,7 +383,7 @@
       },
       {
         "pattern": "Workforce for AI Trust Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -420,7 +420,7 @@
       },
       {
         "pattern": "New Mexico 2025 HB 60",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -445,7 +445,7 @@
       },
       {
         "pattern": "City of Long Beach Data Privacy Guidelines (2021)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

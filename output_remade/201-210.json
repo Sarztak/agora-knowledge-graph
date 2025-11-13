@@ -24,7 +24,7 @@
       },
       {
         "pattern": "Executive Order on Removing Barriers To American Leadership In Artificial Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -57,7 +57,7 @@
       },
       {
         "pattern": "New York artificial intelligence act (New York AI act)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -102,7 +102,7 @@
       },
       {
         "pattern": "Framework to Mitigate AI-Enabled Extreme Risks",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -151,7 +151,7 @@
       },
       {
         "pattern": "Artificial Intelligence Safety Commitments (China AI Industry Alliance)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -200,7 +200,7 @@
       },
       {
         "pattern": "AI Safety Governance Framework v1.0 (National Technical Committee 260 on Cybersecurity of SAC)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -245,7 +245,7 @@
       },
       {
         "pattern": "Joint Statement on Risk Assessment of Advanced AI Systems (International Network of AI Safety Institutes)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -290,7 +290,7 @@
       },
       {
         "pattern": "Texas Responsible Artificial Intelligence Governance Act (HB 1709)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -339,7 +339,7 @@
       },
       {
         "pattern": "Code of Practice for the Cyber Security of AI",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -388,7 +388,7 @@
       },
       {
         "pattern": "Freedom Online Coalition Joint Statement on Responsible Government Practices for AI Technologies",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -437,7 +437,7 @@
       },
       {
         "pattern": "Massachusetts House Docket 4053 (2025)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

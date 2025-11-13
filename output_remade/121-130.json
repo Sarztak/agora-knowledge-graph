@@ -8,7 +8,7 @@
       },
       {
         "pattern": "New York SB5959 (2020)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "pattern": "Washington SB 5092 (2021-22), Section 151",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Pennsylvania Executive Order 2023-19",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -175,7 +175,7 @@
       },
       {
         "pattern": "DC Mayor's Orders 2024-028",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -216,7 +216,7 @@
       },
       {
         "pattern": "New York Senate Bill S3971B (2019)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -249,7 +249,7 @@
       },
       {
         "pattern": "Rhode Island SB 2083 (2022)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -286,7 +286,7 @@
       },
       {
         "pattern": "Utah SB 96",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -323,7 +323,7 @@
       },
       {
         "pattern": "West Virginia HB 2760 (2021), Sec 11-13Q \"Credit allowed for specified high technology manufacturers.\"",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -380,7 +380,7 @@
       },
       {
         "pattern": "Virginia Executive Directive 5 (2023)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -449,7 +449,7 @@
       },
       {
         "pattern": "Washington Executive Order 24-01",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

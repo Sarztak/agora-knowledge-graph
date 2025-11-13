@@ -44,7 +44,7 @@
       },
       {
         "pattern": "Technology in the Parks Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "Securing Elections From AI Deception Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -110,7 +110,7 @@
       },
       {
         "pattern": "Sensible Classification Act of 2023, Sec. 7: Implementation of Technology for Classification and Declassification",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -151,7 +151,7 @@
       },
       {
         "pattern": "Small Business Artificial Intelligence Advancement Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -196,7 +196,7 @@
       },
       {
         "pattern": "AI Leadership To Enable Accountable Deployment Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -233,7 +233,7 @@
       },
       {
         "pattern": "Nucleic Acid Standards for Biosecurity Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -286,7 +286,7 @@
       },
       {
         "pattern": "Consumer Literacy and Empowerment to Advance Responsible Navigation of Artificial Intelligence Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -331,7 +331,7 @@
       },
       {
         "pattern": "Artificial Intelligence Allied Collaboration for Crucial Operations, Research, and Development Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -380,7 +380,7 @@
       },
       {
         "pattern": "AI Transparency in Elections Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -437,7 +437,7 @@
       },
       {
         "pattern": "Atomic Supply Chain Solutions Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

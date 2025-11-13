@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Supporting Innovation in Agriculture Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -97,7 +97,7 @@
       },
       {
         "pattern": "Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "pattern": "Leveraging Artificial Intelligence to Streamline the Code of Federal Regulations Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -187,7 +187,7 @@
       },
       {
         "pattern": "Promoting Precision Agriculture Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -224,7 +224,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 60003 (\"U.S. Customs and Border Protection technology, vetting activities, and other efforts to enhance border security\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -269,7 +269,7 @@
       },
       {
         "pattern": "Health Tech Investment Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -310,7 +310,7 @@
       },
       {
         "pattern": "H.R.1142 - To amend the Public Health Service Act to direct the Secretary of Health and Human Services to establish drug adherence guidelines, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -347,7 +347,7 @@
       },
       {
         "pattern": "Copyright and Artificial Intelligence Part 3: Generative AI Training Report Pre-Publication Version 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -396,7 +396,7 @@
       },
       {
         "pattern": "Copyright and Artificial Intelligence Part 1: Digital Replicas July 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -437,7 +437,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 100001 (\"Coast guard assets necessary to secure the maritime border and interdict migrants and drugs\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

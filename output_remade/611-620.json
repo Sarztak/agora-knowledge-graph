@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Strengthening Consumer Protections and Medical Debt Transparency Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "Exploitative Workplace Surveillance and Technologies Task Force Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -110,7 +110,7 @@
       },
       {
         "pattern": "CONSULT Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "pattern": "Preventing Adversaries from Developing Critical Capabilities Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -200,7 +200,7 @@
       },
       {
         "pattern": "Department of State Authorization Act of 2023, Sec. 304 (\"Establishment of the Chief Artificial Intelligence Officer of the Department of State\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -257,7 +257,7 @@
       },
       {
         "pattern": "Water Infrastructure Modernization Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -302,7 +302,7 @@
       },
       {
         "pattern": "Ensuring Safe and Ethical AI Development Through SAFE AI Research Grants",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -363,7 +363,7 @@
       },
       {
         "pattern": "DOE and NASA Interagency Research Coordination Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -424,7 +424,7 @@
       },
       {
         "pattern": "Coast Guard Authorization Act of 2023, Sec. 212 (\"Report on Establishment of an Unmanned Systems Capabilities Office\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -469,7 +469,7 @@
       },
       {
         "pattern": "Weather Information for Agriculture Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

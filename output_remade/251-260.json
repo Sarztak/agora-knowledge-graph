@@ -44,7 +44,7 @@
       },
       {
         "pattern": "Artificial Intelligence (Regulation) Act 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -93,7 +93,7 @@
       },
       {
         "pattern": "Candidate Voice Fraud Prohibition Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -150,7 +150,7 @@
       },
       {
         "pattern": "Integrating New Technologies to Empower Law Enforcement at Our Borders Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -195,7 +195,7 @@
       },
       {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title VIII \"Prohibition and Notification on Investments Relating to Covered National Security Transactions\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -232,7 +232,7 @@
       },
       {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title V \"Promoting Resilient Supply Chains\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -285,7 +285,7 @@
       },
       {
         "pattern": "Diabetes Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -346,7 +346,7 @@
       },
       {
         "pattern": "Executive order No. 78 (St. Louis)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -403,7 +403,7 @@
       },
       {
         "pattern": "Emerging Innovative Border Technologies Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -436,7 +436,7 @@
       },
       {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Section 217 \"Report on Wearable Medical Devices\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -489,7 +489,7 @@
       },
       {
         "pattern": "Google DeepMind Frontier Safety Framework Version 1.0",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

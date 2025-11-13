@@ -32,7 +32,7 @@
       },
       {
         "pattern": "Western Wildfire Support Act of 2023, Sec. 206 (\"Study on Wildfire Detection Equipment and Integration of Artificial Intelligence Technologies\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -85,7 +85,7 @@
       },
       {
         "pattern": "Americas Act, Title I (\"Administration\"), Sec. 103 (\"Additional Duties of Institute\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Artificial Intelligence and Biosecurity Risk Assessment Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -171,7 +171,7 @@
       },
       {
         "pattern": "Artificial Intelligence Accountability Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -224,7 +224,7 @@
       },
       {
         "pattern": "Artificial Intelligence Research, Innovation, and Accountability Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -301,7 +301,7 @@
       },
       {
         "pattern": "Justice in Forensic Algorithms Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -326,7 +326,7 @@
       },
       {
         "pattern": "A bill to waive immunity under section 230 of the Communications Act of 1934 for claims and charges related to generative artificial intelligence.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -411,7 +411,7 @@
       },
       {
         "pattern": "Federal Artificial Intelligence Risk Management Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -452,7 +452,7 @@
       },
       {
         "pattern": "Healthy Technology Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -517,7 +517,7 @@
       },
       {
         "pattern": "Preventing Algorithmic Collusion Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

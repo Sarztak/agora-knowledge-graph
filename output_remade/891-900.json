@@ -44,7 +44,7 @@
       },
       {
         "pattern": "Minnesota HF 1370 (Deepfake Accountability and Public Safety) ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "Michigan House Bill 5141",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Idaho House Bill 664 (Freedom From AI-Rigged Elections Act)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -151,7 +151,7 @@
       },
       {
         "pattern": "Utah House Bill 249 (Utah Legal Personhood Amendments)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -192,7 +192,7 @@
       },
       {
         "pattern": "Alabama House Bill 172",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -245,7 +245,7 @@
       },
       {
         "pattern": "Washington Senate Bill 5838 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -302,7 +302,7 @@
       },
       {
         "pattern": "Oregon Senate Bill 1571",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -359,7 +359,7 @@
       },
       {
         "pattern": "Utah Senate Bill 131 Information Technology Act Amendments (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -412,7 +412,7 @@
       },
       {
         "pattern": "Florida Senate Bill 1680",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -469,7 +469,7 @@
       },
       {
         "pattern": "Colorado House Bill 24-1468",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -36,7 +36,7 @@
       },
       {
         "pattern": "TAME Extreme Weather and Wildfires Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -89,7 +89,7 @@
       },
       {
         "pattern": "Responsible AI safety and education act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "pattern": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -175,7 +175,7 @@
       },
       {
         "pattern": "H.R.1851 Fighter Force Preservation and Recapitalization Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -220,7 +220,7 @@
       },
       {
         "pattern": "H.R.1569 CATCH Fentanyl Act ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -273,7 +273,7 @@
       },
       {
         "pattern": "Advancing Artificial Intelligence Education for American Youth",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -318,7 +318,7 @@
       },
       {
         "pattern": "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather and Wildfires Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -371,7 +371,7 @@
       },
       {
         "pattern": "Fair Grocery Pricing Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -424,7 +424,7 @@
       },
       {
         "pattern": "Coast Guard Authorization Act of 2025, Subtitle C--\"Matters Involving Uncrewed Systems\"",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -469,7 +469,7 @@
       },
       {
         "pattern": "Wildfire Prevention Act of 2025, Section 302 \"Public-private wildfire technology deployment and testbed partnership.\"",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

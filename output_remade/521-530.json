@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "pattern": "Artificial Intelligence Advancement Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -114,7 +114,7 @@
       },
       {
         "pattern": "Eliminating Bias in Algorithmic Systems Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -155,7 +155,7 @@
       },
       {
         "pattern": "Closing Loopholes for the Overseas Use and Development of Artificial Intelligence Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -212,7 +212,7 @@
       },
       {
         "pattern": "A bill to promote United States leadership in technical standards by directing the National Institute of Standards and Technology and the Department of State to take certain actions to encourage and enable United States participation in developing standards and specifications for artificial intelligence and other critical and emerging technologies, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -273,7 +273,7 @@
       },
       {
         "pattern": "FAIRR Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -322,7 +322,7 @@
       },
       {
         "pattern": "To require a briefing on the national security threats associated with Chinese autonomous ground vehicles operating in the United States.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -375,7 +375,7 @@
       },
       {
         "pattern": "National AI Commission Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -440,7 +440,7 @@
       },
       {
         "pattern": "No AI FRAUD Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -493,7 +493,7 @@
       },
       {
         "pattern": "To establish a Joint Autonomy Office in the Department of Defense, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

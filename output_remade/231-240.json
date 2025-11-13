@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Protecting Kids on Social Media Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -77,7 +77,7 @@
       },
       {
         "pattern": "Transparent Automated Governance Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -146,7 +146,7 @@
       },
       {
         "pattern": "Advanced Weather Model Computing Development Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -183,7 +183,7 @@
       },
       {
         "pattern": "Digital Defense Content Provenance Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -232,7 +232,7 @@
       },
       {
         "pattern": "Artificial Intelligence and the Information Privacy Principles",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -277,7 +277,7 @@
       },
       {
         "pattern": "Federal Register Doc. No. 2024-01580. Taking Additional Steps To Address the National Emergency With Respect to Significant Malicious Cyber-Enabled Activities",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -310,7 +310,7 @@
       },
       {
         "pattern": "Federal Register Doc. No. 2024-28335 (Securing the Information and Communications Technology and Services Supply Chain)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -367,7 +367,7 @@
       },
       {
         "pattern": "St Louis, MO Board Bill Number 185 2023-24",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -424,7 +424,7 @@
       },
       {
         "pattern": "City of San Jose Generative AI Guidelines ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -473,7 +473,7 @@
       },
       {
         "pattern": "Los Angeles AI Roadmap 2024, Best Practices and Roadmap",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Mississippi Senate Bill 2577",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -85,7 +85,7 @@
       },
       {
         "pattern": "Indiana House Bill 1047",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "pattern": "Washington House Bill 1999",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -167,7 +167,7 @@
       },
       {
         "pattern": "Illinois Senate Bill 382",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -216,7 +216,7 @@
       },
       {
         "pattern": "Consensus Statement on AI Safety as a Global Public Good",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -265,7 +265,7 @@
       },
       {
         "pattern": "Consensus Statement on Red Lines in Artificial Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -318,7 +318,7 @@
       },
       {
         "pattern": "IDAIS-Oxford Statement (2023)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

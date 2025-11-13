@@ -20,7 +20,7 @@
       },
       {
         "pattern": "Land Grant Research Prioritization Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -49,7 +49,7 @@
       },
       {
         "pattern": "Supporting Innovation in Agriculture Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -86,7 +86,7 @@
       },
       {
         "pattern": "No CCP Consultants Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "pattern": "Combat Chinese Economic Aggression Act of 2024, Section 4 (\"Protection of covered sectors.\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -180,7 +180,7 @@
       },
       {
         "pattern": "Drone Safety and Efficiency Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -217,7 +217,7 @@
       },
       {
         "pattern": "Investing in Tomorrow's Workforce Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -262,7 +262,7 @@
       },
       {
         "pattern": "Platform Accountability and Transparency Act, Section 9 (\"Rulemaking authority\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -311,7 +311,7 @@
       },
       {
         "pattern": "Providing Individuals Various Opportunities for Technical Training to Build a Skills-Based Cyber Workforce Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -360,7 +360,7 @@
       },
       {
         "pattern": "Sustaining America’s Fisheries for the Future Act of 2024, Title IV, Section 402 (\"Expanding and improving electronic technologies.\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -389,7 +389,7 @@
       },
       {
         "pattern": "WIOA Performance Accountability Improvement Act, Section 2, Subsection (c) (\"Evaluation of State programs.\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

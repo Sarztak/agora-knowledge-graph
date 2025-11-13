@@ -44,7 +44,7 @@
       },
       {
         "pattern": "Mississippi Executive Order No. 1584",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -117,7 +117,7 @@
       },
       {
         "pattern": "Google DeepMind Frontier Safety Framework Version 2.0",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -162,7 +162,7 @@
       },
       {
         "pattern": "National Artificial Intelligence Strategy 2024-2025 Action Plan (Turkey)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -211,7 +211,7 @@
       },
       {
         "pattern": "Indiana Senate Bill 2024-150 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -268,7 +268,7 @@
       },
       {
         "pattern": "Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -317,7 +317,7 @@
       },
       {
         "pattern": "Hiroshima Process International Guiding Principles for Advanced AI Systems",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -382,7 +382,7 @@
       },
       {
         "pattern": "Political Declaration on Responsible Military Use of Artificial Intelligence and Autonomy",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -423,7 +423,7 @@
       },
       {
         "pattern": "An Act to amend Tennessee Code Annotated, Title 39, Chapter 14, Part 1 and Title 47, relative to the protection of personal rights.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -464,7 +464,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 235 (\"Competitive demonstration of automated target recognition algorithms\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -497,7 +497,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1547 (\"Joint partner-sharing network capabilities for Middle East defense integration\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -48,7 +48,7 @@
       },
       {
         "pattern": "Tennessee Senate Bill 1711",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -85,7 +85,7 @@
       },
       {
         "pattern": "Maryland House Bill 1128",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Washington Senate Bill 5152",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -159,7 +159,7 @@
       },
       {
         "pattern": "Nebraska L 1284 (Teacher Incentive Programs), Sec. 2.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -200,7 +200,7 @@
       },
       {
         "pattern": "Idaho House Bill 2472",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -221,7 +221,7 @@
       },
       {
         "pattern": "New York Senate Bill 1042",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -258,7 +258,7 @@
       },
       {
         "pattern": "New York Senate Bill 9678",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -287,7 +287,7 @@
       },
       {
         "pattern": "State of Arizona Senate Bill 1565, An Act Amending Sections 16-442, 16-552 and 16-621, Arizona Revised Statutes; Relating to Conduct of Elections.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -328,7 +328,7 @@
       },
       {
         "pattern": "UN General Assembly Resolution A/78/L.49 (\"Seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development\"",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -381,7 +381,7 @@
       },
       {
         "pattern": "A Bill in the District of Columbia to prohibit users of algorithmic decision-making from utilizing algorithmic eligibility determinations in a discriminatory manner, to require corresponding notices to individuals whose personal information is used, and to provide for appropriate means of civil enforcement.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

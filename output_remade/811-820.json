@@ -28,7 +28,7 @@
       },
       {
         "pattern": "Texas HB 4695 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -73,7 +73,7 @@
       },
       {
         "pattern": "New Jersey SB 3876",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -98,7 +98,7 @@
       },
       {
         "pattern": "New York A7106",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -155,7 +155,7 @@
       },
       {
         "pattern": "Massachusetts Bill S. 31",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -208,7 +208,7 @@
       },
       {
         "pattern": "Massachusetts Bill H.64",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -253,7 +253,7 @@
       },
       {
         "pattern": "New York Bill A5309",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -274,7 +274,7 @@
       },
       {
         "pattern": "New York S7422",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -323,7 +323,7 @@
       },
       {
         "pattern": "Australia’s AI Ethics Principles",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -372,7 +372,7 @@
       },
       {
         "pattern": "Maintaining American Leadership in Artificial Intelligence (EO 13859)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -421,7 +421,7 @@
       },
       {
         "pattern": "NSTC/OSTP Framework for Nucleic Acid Synthesis Screening",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

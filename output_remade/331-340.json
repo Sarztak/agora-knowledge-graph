@@ -72,7 +72,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2024, Section 346 (\"Pilot program on optimization of aerial refueling and fuel management in contested logistics environments through use of artificial intelligence\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -117,7 +117,7 @@
       },
       {
         "pattern": "Virginia HB 2154",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -178,7 +178,7 @@
       },
       {
         "pattern": "Illinois HB 3563",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -231,7 +231,7 @@
       },
       {
         "pattern": "Alabama SB 78",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -284,7 +284,7 @@
       },
       {
         "pattern": "New Jersey S 2723",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -321,7 +321,7 @@
       },
       {
         "pattern": "Arkansas SB 656",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -358,7 +358,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6731 (\"Report on establishment of technology acquisition cadre\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -403,7 +403,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 916 (\"Strategic management dashboard demonstration\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -416,7 +416,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 212 (\"Clarification of role of senior official with principal responsibility for artificial intelligence and machine learning\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -445,7 +445,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 557 (\"Study and report on professional military education\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

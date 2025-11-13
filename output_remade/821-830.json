@@ -77,7 +77,7 @@
       },
       {
         "pattern": "AI Safety Summit - Enhancing Frontier AI Safety (Amazon)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -138,7 +138,7 @@
       },
       {
         "pattern": "OpenAI's Approach to Frontier Risk (An Update for the UK AI Safety Summit)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -167,7 +167,7 @@
       },
       {
         "pattern": "Inventorship Guidance for AI-Assisted Inventions",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -216,7 +216,7 @@
       },
       {
         "pattern": "Our Policy on Frontier Safety (Inflection)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -249,7 +249,7 @@
       },
       {
         "pattern": "Pay Flexibility, Incentive Pay, and Leave and Workforce Flexibility Programs for Artificial Intelligence (AI), AI-enabling, and Other Key Technical Employees (OPM)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -306,7 +306,7 @@
       },
       {
         "pattern": "Bipartisan Framework for U.S. AI Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -347,7 +347,7 @@
       },
       {
         "pattern": "Part 170: Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -380,7 +380,7 @@
       },
       {
         "pattern": "Section 106.11 Application: Nondiscrimination on the Basis of Sex in Education Programs or Activities Receiving Federal Financial Assistance",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -425,7 +425,7 @@
       },
       {
         "pattern": "Train Crew Size Safety Requirements (New Technology and Automated Operations)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

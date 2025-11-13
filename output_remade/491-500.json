@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Provisions on the Administration of Deep Synthesis Internet Information Services",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "STAND with Taiwan Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -142,7 +142,7 @@
       },
       {
         "pattern": "NIST AI Risk Management Framework 1.0",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -175,7 +175,7 @@
       },
       {
         "pattern": "Artificial Intelligence Bug Bounty Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -216,7 +216,7 @@
       },
       {
         "pattern": "AI Labeling Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -253,7 +253,7 @@
       },
       {
         "pattern": "An Act concerning consumer protections in interactions with artificial intelligence systems.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -294,7 +294,7 @@
       },
       {
         "pattern": "Microsoft Responsible AI Standard, v2",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -343,7 +343,7 @@
       },
       {
         "pattern": "Algorithmic Accountability Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -384,7 +384,7 @@
       },
       {
         "pattern": "LISTOS Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -429,7 +429,7 @@
       },
       {
         "pattern": "Promoting Precision Agriculture Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

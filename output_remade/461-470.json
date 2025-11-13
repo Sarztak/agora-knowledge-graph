@@ -32,7 +32,7 @@
       },
       {
         "pattern": "Connecticut (2017) SB 260",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -73,7 +73,7 @@
       },
       {
         "pattern": "Simplify, Don't Amplify the IRS Act, Sec. 201 (\"Tax Gap Projection\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -94,7 +94,7 @@
       },
       {
         "pattern": "New Mexico Senate Bill 192",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -131,7 +131,7 @@
       },
       {
         "pattern": "Oklahoma H 3642",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -164,7 +164,7 @@
       },
       {
         "pattern": "Minnesota House Bill 4772",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -217,7 +217,7 @@
       },
       {
         "pattern": "Minnesota Senate Bill 2909",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -270,7 +270,7 @@
       },
       {
         "pattern": "California (2017) AB 1444",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -327,7 +327,7 @@
       },
       {
         "pattern": "Remarks by Ambassador Zhang Jun at the UN Security Council Briefing on Artificial Intelligence: Opportunities and Risks for International Peace and Security",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -352,7 +352,7 @@
       },
       {
         "pattern": "Michigan HB 5143",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -389,7 +389,7 @@
       },
       {
         "pattern": "California (2021-2022) SB 1398",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

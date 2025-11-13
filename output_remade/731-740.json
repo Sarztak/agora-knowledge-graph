@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "Digital Social Platform Transparency Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "pattern": "NSF and USDA Interagency Research Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -179,7 +179,7 @@
       },
       {
         "pattern": "Modernizing Data Practices to Improve Government Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -220,7 +220,7 @@
       },
       {
         "pattern": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -257,7 +257,7 @@
       },
       {
         "pattern": "National Windstorm Impact Reduction Program Reauthorization Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -298,7 +298,7 @@
       },
       {
         "pattern": "H.R. 9626, To direct the Department of Defense to develop a plan for the establishment of a secure computing and data storage environment for the testing of artificial intelligence trained on biological data, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -339,7 +339,7 @@
       },
       {
         "pattern": "Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -384,7 +384,7 @@
       },
       {
         "pattern": "State Industrial Competitiveness Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -433,7 +433,7 @@
       },
       {
         "pattern": "Artificial Intelligence Public Awareness and Education Campaign Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

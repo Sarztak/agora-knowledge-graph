@@ -61,7 +61,7 @@ for file_name in os.listdir(output_path):
             if official_name not in existing_patterns:
                 entities.append({
                     "pattern": official_name,
-                    "label": "BILL NAME"
+                    "label": "BILL_NAME"
                 })
                 modified = True
 

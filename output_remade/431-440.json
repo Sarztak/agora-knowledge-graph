@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Protecting AI and Cloud Competition in Defense Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Iowa (2019) SB 302 (Automated Driving System Motor Vehicles)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -163,7 +163,7 @@
       },
       {
         "pattern": "S5344 Advancing Digital Freedom Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -200,7 +200,7 @@
       },
       {
         "pattern": "DOGE Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -241,7 +241,7 @@
       },
       {
         "pattern": "Enable Intelligence Community Partnerships Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -315,7 +315,7 @@
       },
       {
         "pattern": "American Foreign Affairs Talent Expansion Act: Diversity in Diplomacy and Development, Section 112 (Mitigating bias in artificial intelligence use.)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -352,7 +352,7 @@
       },
       {
         "pattern": "A bill to require a study on the use of commercial-off-the-shelf products and artificial intelligence technologies by the Internal Revenue Service.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -409,7 +409,7 @@
       },
       {
         "pattern": "To prohibit the Secretary of Defense from entering into information technology contracts with entities that provide certain services to China, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

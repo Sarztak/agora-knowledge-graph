@@ -40,7 +40,7 @@
       },
       {
         "pattern": "21 CFR § 870.1345 (\"Intravascular bleed monitor\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "15 CFR part 7 (\"Securing the Information and Communications Technology and Services Supply Chain\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Literacy in Future Technologies Artificial Intelligence Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -175,7 +175,7 @@
       },
       {
         "pattern": "Artificial Intelligence Acquisitions Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -208,7 +208,7 @@
       },
       {
         "pattern": "Idaho House Bill 575",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -245,7 +245,7 @@
       },
       {
         "pattern": "A bill to specify control and management of Department of Defense data and to establish the Chief Digital and Artificial Intelligence Officer Governing Council, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -298,7 +298,7 @@
       },
       {
         "pattern": "Digital Platform Commission Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -347,7 +347,7 @@
       },
       {
         "pattern": "Cooper Davis Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -380,7 +380,7 @@
       },
       {
         "pattern": "AI Ads Act ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -457,7 +457,7 @@
       },
       {
         "pattern": "S.4306, Five AIs Act 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

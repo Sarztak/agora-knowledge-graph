@@ -40,7 +40,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 246 (\"Report on autonomy integration in major weapon systems\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -77,7 +77,7 @@
       },
       {
         "pattern": "An act to amend Chapter 12 of Title 31 of the Official Code of Georgia Annotated, relating to the control of hazardous conditions, preventable diseases, and metabolic disorders [...]",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -142,7 +142,7 @@
       },
       {
         "pattern": "Artificial Intelligence Training for the Acquisition Workforce Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -195,7 +195,7 @@
       },
       {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2022, Section 834 (\"Plan for Artificial Intelligence Digital Ecosystem\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -280,7 +280,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division E (\"National Artificial Intelligence Initiative Act\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -329,7 +329,7 @@
       },
       {
         "pattern": "Countering Human Trafficking Act of 2021, Section 4 (\"Specialized Initiatives\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -386,7 +386,7 @@
       },
       {
         "pattern": "American Competitiveness Of a More Productive Emerging Tech Economy Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -423,7 +423,7 @@
       },
       {
         "pattern": "Consolidated Appropriations Act, 2023, Section 101 (\"Manufacturing.gov Hub\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -472,7 +472,7 @@
       },
       {
         "pattern": "Health Extenders, Improving Access to Medicare, Medicaid, and CHIP, and Strengthening Public Health Act of 2022, Section 1432 (\"Research on the Health and Development Effects of Media and Related Technology on Infants, Children, and Adolescents\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -569,7 +569,7 @@
       },
       {
         "pattern": "AI in Government Act of 2020",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

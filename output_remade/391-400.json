@@ -28,7 +28,7 @@
       },
       {
         "pattern": "Infrastructure Investment and Jobs Act, Title V, Subtitle C, Part II (\"Smart Manufacturing\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "pattern": "Infrastructure Investment and Jobs Act, Section 25017 (\"University Transportation Centers Program\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -98,7 +98,7 @@
       },
       {
         "pattern": "Infrastructure Investment and Jobs Act, Section 13005 (\"Emerging Technology Research Pilot Program\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -135,7 +135,7 @@
       },
       {
         "pattern": "Research and Development, Competition, and Innovation Act, Title VI, Section 10731 (\"Microelectronics research for energy innovation\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -168,7 +168,7 @@
       },
       {
         "pattern": "Consolidated Appropriations Act, 2021, Division W, Title V, Section 604 (\"Assessment of critical technology trends relating to artificial intelligence, microchips, and semiconductors and related supply chains\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -237,7 +237,7 @@
       },
       {
         "pattern": "Research and Development, Competition, and Innovation Act, Title I (\"Department of Energy Science for the Future\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -266,7 +266,7 @@
       },
       {
         "pattern": "Energy Act of 2020, Title VIII, Section 8002 (\"Smart grid modeling, visualization, architecture, and controls\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -299,7 +299,7 @@
       },
       {
         "pattern": "Infrastructure Investment and Jobs Act, Section 40433 (\"Digital Climate Solutions Report\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -336,7 +336,7 @@
       },
       {
         "pattern": "Senate Resolution requesting the State to convene an Artificial Intelligence Advisory Committee to investigate how to implement, develop, and regulate artificial intelligence in the State.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -377,7 +377,7 @@
       },
       {
         "pattern": "21 CFR § 870.2790 (\"Photoplethysmograph analysis software for over-the-counter use\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

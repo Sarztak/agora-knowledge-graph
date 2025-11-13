@@ -28,7 +28,7 @@
       },
       {
         "pattern": "North Carolina House Bill 591",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -89,7 +89,7 @@
       },
       {
         "pattern": "Proposed Model AI Governance Framework for Generative AI",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -150,7 +150,7 @@
       },
       {
         "pattern": "Michigan House Bill 5507",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -199,7 +199,7 @@
       },
       {
         "pattern": "New Jersey Senate Bill 3432",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -244,7 +244,7 @@
       },
       {
         "pattern": "Wyoming House Bill 1",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -297,7 +297,7 @@
       },
       {
         "pattern": "Utah House Bill 534",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -370,7 +370,7 @@
       },
       {
         "pattern": "Measures of Beijing Municipality on Promoting the Innovative Development of Artificial General Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -399,7 +399,7 @@
       },
       {
         "pattern": "Virginia 2024 SB 731",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -492,7 +492,7 @@
       },
       {
         "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Annex \"G20 AI Principles\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -569,7 +569,7 @@
       },
       {
         "pattern": "Dubai International Financial Centre Data Protection Regulations, Regulation 10 (\"Personal data processed through autonomous and semi-autonomous systems\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

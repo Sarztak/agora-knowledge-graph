@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Delaware House Concurrent Resolution 7 (2019-2020)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -85,7 +85,7 @@
       },
       {
         "pattern": "New York City Council No. 1806-A ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -134,7 +134,7 @@
       },
       {
         "pattern": "Alaska Senate Bill No. 177",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -171,7 +171,7 @@
       },
       {
         "pattern": "Illinois House Bill 2557 (2019)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -216,7 +216,7 @@
       },
       {
         "pattern": "Alaska Senate Bill No. 177",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -253,7 +253,7 @@
       },
       {
         "pattern": "Illinois House Bill 53 (2021)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -282,7 +282,7 @@
       },
       {
         "pattern": "West Virginia House Resolution 3",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -335,7 +335,7 @@
       },
       {
         "pattern": "Hawaii House Concurrent Resolution 71",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -392,7 +392,7 @@
       },
       {
         "pattern": "Mississippi House Bill 633 (2021)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -425,7 +425,7 @@
       },
       {
         "pattern": "Vermont 2019 Act No.16, Section 20",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

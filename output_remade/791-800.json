@@ -20,7 +20,7 @@
       },
       {
         "pattern": "Eliminating Bias in Algorithmic Systems Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -61,7 +61,7 @@
       },
       {
         "pattern": "Modernizing Data Practices to Improve Government Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -102,7 +102,7 @@
       },
       {
         "pattern": "Economic Security and Diplomacy Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -139,7 +139,7 @@
       },
       {
         "pattern": "Improving Diagnosis in Medicine Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -172,7 +172,7 @@
       },
       {
         "pattern": "Supercomputing for Safer Chemicals Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -197,7 +197,7 @@
       },
       {
         "pattern": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -246,7 +246,7 @@
       },
       {
         "pattern": "Creating Resources for Every American To Experiment with Artificial Intelligence Act of 2023 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -283,7 +283,7 @@
       },
       {
         "pattern": "Governance Principles for a New Generation of Artificial Intelligence: Develop Responsible Artificial Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -328,7 +328,7 @@
       },
       {
         "pattern": "An Act to amend the general business law, the executive law, the state finance law and the education law, in relation to enacting the \"digital fairness act\" - Sections 7-9 (\"AUTOMATED DECISION SYSTEM IMPACT ASSESSMENTS,\" etc.)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -361,7 +361,7 @@
       },
       {
         "pattern": "An Act concerning the use of automated tools to assist with hiring decisions and supplementing Title 34 of the Revised Statutes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

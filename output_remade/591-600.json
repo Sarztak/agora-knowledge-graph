@@ -32,7 +32,7 @@
       },
       {
         "pattern": "Pandemic and All-Hazards Preparedness and Response Act, Sec. 407 (\"Assessment of Artificial Intelligence Threats to Health Security\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -97,7 +97,7 @@
       },
       {
         "pattern": "Intelligence Authorization Act for Fiscal Year 2024, Sec. 906 (\"Programs for Next-Generation Microelectronics in Support of Artificial Intelligence\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -154,7 +154,7 @@
       },
       {
         "pattern": "Advancing Nuclear Regulatory Oversight Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -187,7 +187,7 @@
       },
       {
         "pattern": "Advisory for AI-Generated Content Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -240,7 +240,7 @@
       },
       {
         "pattern": "SAFE from PRC Investments Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -277,7 +277,7 @@
       },
       {
         "pattern": "United States-Israel Health Technologies Cooperation Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -346,7 +346,7 @@
       },
       {
         "pattern": "Department of State Authorization Act of 2023, Sec. 931 (\"Priority for Australia and the United Kingdom in Foreign Military Sales and Direct Commercial Sales\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -399,7 +399,7 @@
       },
       {
         "pattern": "Do Not Disturb Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -440,7 +440,7 @@
       },
       {
         "pattern": "Promoting Resilient Supply Chains Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },

@@ -32,7 +32,7 @@
       },
       {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 402 (\"Hazardous Weather or Water Event Risk Communication\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -89,7 +89,7 @@
       },
       {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 108 (\"Computing Resources Prioritization\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -130,7 +130,7 @@
       },
       {
         "pattern": "Weather Act Reauthorization Act of 2023, Sec. 502 (\"National Integrated Drought Information System\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -227,7 +227,7 @@
       },
       {
         "pattern": "National Drone and Advanced Air Mobility Research and Development Act, Title IV (\"National Science Foundation Activities\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -268,7 +268,7 @@
       },
       {
         "pattern": "Kids Online Safety Act, Sec. 13 (\"Filter Bubble Transparency Requirements\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -341,7 +341,7 @@
       },
       {
         "pattern": "Fair Trade with China Enforcement Act, Sec. 102 (\"Prohibition on export to People's Republic of China of national security sensitive technology and intellectual property\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -394,7 +394,7 @@
       },
       {
         "pattern": "MEANS Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -431,7 +431,7 @@
       },
       {
         "pattern": "Protect Working Musicians Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -496,7 +496,7 @@
       },
       {
         "pattern": "Countering Adversarial and Malicious Partnerships at Universities and Schools Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -565,7 +565,7 @@
       },
       {
         "pattern": "TORPEDO Act of 2023, Sec. 6 (Reporting requirements on efforts of the Department of State to implement the AUKUS partnership)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

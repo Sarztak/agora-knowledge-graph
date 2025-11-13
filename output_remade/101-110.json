@@ -52,7 +52,7 @@
       },
       {
         "pattern": "Decoupling America's Artificial Intelligence Capabilities from China Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -97,7 +97,7 @@
       },
       {
         "pattern": "HEARTS Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -142,7 +142,7 @@
       },
       {
         "pattern": "Promoting Precision Agriculture Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -191,7 +191,7 @@
       },
       {
         "pattern": "Generative AI Terrorism Risk Assessment Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -236,7 +236,7 @@
       },
       {
         "pattern": "Protect Victims of Digital Exploitation and Manipulation Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -285,7 +285,7 @@
       },
       {
         "pattern": "China Technology Transfer Control Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -358,7 +358,7 @@
       },
       {
         "pattern": "AI PLAN Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -395,7 +395,7 @@
       },
       {
         "pattern": "S.305 Small Business Technological Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -428,7 +428,7 @@
       },
       {
         "pattern": "Protecting Our Children in an AI World Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -477,7 +477,7 @@
       },
       {
         "pattern": "CORE Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

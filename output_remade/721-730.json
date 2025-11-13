@@ -40,7 +40,7 @@
       },
       {
         "pattern": "AI Development Practices Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -73,7 +73,7 @@
       },
       {
         "pattern": "Maintaining Innovation and Safe Technologies Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -118,7 +118,7 @@
       },
       {
         "pattern": "Workforce of the Future Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "pattern": "PATHS Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -176,7 +176,7 @@
       },
       {
         "pattern": "Civilian Agency AI Watermark Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -221,7 +221,7 @@
       },
       {
         "pattern": "American Privacy Rights Act of 2024, Sec. 114-5",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -262,7 +262,7 @@
       },
       {
         "pattern": "Veterans Online Information and Cybersecurity Empowerment Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -335,7 +335,7 @@
       },
       {
         "pattern": "Department of Energy Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -376,7 +376,7 @@
       },
       {
         "pattern": "Secure Artificial Intelligence Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -425,7 +425,7 @@
       },
       {
         "pattern": "Forecasting Optimization for Robust Earth Climate Analysis and Subseasonal-to-Seasonal Tracking Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

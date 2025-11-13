@@ -36,7 +36,7 @@
       },
       {
         "pattern": "California AB 2355 (2024), Section 8",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "pattern": "California AB 1836 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -118,7 +118,7 @@
       },
       {
         "pattern": "Budget Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -167,7 +167,7 @@
       },
       {
         "pattern": "California Senate Bill 942 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -212,7 +212,7 @@
       },
       {
         "pattern": "California Senate Bill 1120 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -245,7 +245,7 @@
       },
       {
         "pattern": "California Assembly Bill 2876 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -286,7 +286,7 @@
       },
       {
         "pattern": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act 2025 (Title IX \"Take It Down Act\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -327,7 +327,7 @@
       },
       {
         "pattern": "TAKE IT DOWN Act ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -380,7 +380,7 @@
       },
       {
         "pattern": "California Assembly Bill 2013 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -409,7 +409,7 @@
       },
       {
         "pattern": "California Assembly Bill 2905 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

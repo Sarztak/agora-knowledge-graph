@@ -48,7 +48,7 @@
       },
       {
         "pattern": "Google AI Principles",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -73,7 +73,7 @@
       },
       {
         "pattern": "Maryland House Bill 1390",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -150,7 +150,7 @@
       },
       {
         "pattern": "Illinois HB 4844 (2024), Section 90 (\"Generative AI and Natural Language Processing Task Force\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -195,7 +195,7 @@
       },
       {
         "pattern": "New Jersey (2019) Assembly Joint Resolution 164",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -224,7 +224,7 @@
       },
       {
         "pattern": "Iowa S 2243 (Sexual Exploitation of Minors, Use of Falsely Created Images)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -249,7 +249,7 @@
       },
       {
         "pattern": "South Carolina 2023 H 4754 (Section 4)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -286,7 +286,7 @@
       },
       {
         "pattern": "Oregon Senate Bill 5701",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -339,7 +339,7 @@
       },
       {
         "pattern": "G20 Ministerial Statement on Trade and Digital Economy (Section I, Subsection 3 \"Human-centered Artificial Intelligence\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -384,7 +384,7 @@
       },
       {
         "pattern": "North Carolina House Bill 259",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -413,7 +413,7 @@
       },
       {
         "pattern": "Maryland Senate Bill 360",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -24,7 +24,7 @@
       },
       {
         "pattern": "An act to amend the executive law, in relation to creating the office of  algorithmic innovation",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -49,7 +49,7 @@
       },
       {
         "pattern": "An Act amending Title 18 (Crimes and Offenses) of the Pennsylvania Consolidated Statutes, in sexual offenses, providing for the offense of unlawful dissemination of artificially generated depiction; and, in minors, further providing for the offense of sexual abuse of children and for the offense of transmission of sexually explicit images by minor.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -74,7 +74,7 @@
       },
       {
         "pattern": "An act to amend the general business law, in relation to requiring advertisements to disclose the use of synthetic media",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -184,7 +184,7 @@
       },
       {
         "pattern": "An act to add Chapter 5.9 (commencing with Section 11549.80) to Part 1 of Division 3 of Title 2 of, the Government Code, relating to state government.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -221,7 +221,7 @@
       },
       {
         "pattern": "An Act regulating the use of artificial intelligence (AI) in providing mental health services.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -258,7 +258,7 @@
       },
       {
         "pattern": "An Act to amend the labor law, in relation to automated employment decision tools",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -315,7 +315,7 @@
       },
       {
         "pattern": "Measures for the Management of Generative Artificial Intelligence Services (Draft for Comment)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -384,7 +384,7 @@
       },
       {
         "pattern": "National New Generation AI Standards System Construction Guide",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -465,7 +465,7 @@
       },
       {
         "pattern": "National Artificial Intelligence Research and Development Strategic Plan 2023 Update",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

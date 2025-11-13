@@ -40,7 +40,7 @@
       },
       {
         "pattern": "White Paper on Artificial Intelligence Standardization 2021",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -89,7 +89,7 @@
       },
       {
         "pattern": "Initial advice on Generative Artificial Intelligence in the public service (New Zealand)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -130,7 +130,7 @@
       },
       {
         "pattern": "Opinion on Strengthening Science and Technology Ethics Governance",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -187,7 +187,7 @@
       },
       {
         "pattern": "Internet Information Service Algorithmic Recommendation Management Provisions",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -232,7 +232,7 @@
       },
       {
         "pattern": "Digital Charter Implementation Act 2022, Part 3 (\"Artificial Intelligence and Data Act\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -273,7 +273,7 @@
       },
       {
         "pattern": "OpenAI Preparedness Framework (Beta)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -326,7 +326,7 @@
       },
       {
         "pattern": "The Global Security Initiative Concept Paper",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -371,7 +371,7 @@
       },
       {
         "pattern": "Position Paper of the People’s Republic of China on Regulating Military Applications of Artificial Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -436,7 +436,7 @@
       },
       {
         "pattern": "Position Paper of the People's Republic of China on Strengthening Ethical Governance of Artificial Intelligence (AI)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -481,7 +481,7 @@
       },
       {
         "pattern": "Israel's Policy on Artificial Intelligence: Regulations and Ethics",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

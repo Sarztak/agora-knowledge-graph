@@ -114,7 +114,7 @@
       },
       {
         "pattern": "AI Advancement and Reliability Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -151,7 +151,7 @@
       },
       {
         "pattern": "Lummis-Gillibrand Payment Stablecoin Act (Sec. 1-3)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -196,7 +196,7 @@
       },
       {
         "pattern": "Validation and Evaluation for Trustworthy (VET) Artificial Intelligence Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -237,7 +237,7 @@
       },
       {
         "pattern": "AI Innovation and Development for Efficiency Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -278,7 +278,7 @@
       },
       {
         "pattern": "Small Business Artificial Intelligence Training Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -323,7 +323,7 @@
       },
       {
         "pattern": "Unleashing AI Innovation in Financial Services Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -441,7 +441,7 @@
       },
       {
         "pattern": "Promoting Responsible Evaluation and Procurement to Advance Readiness for Enterprise-wide Deployment for Artificial Intelligence Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Emerging Innovative Border Technologies Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -85,7 +85,7 @@
       },
       {
         "pattern": "Western Wildfire Support Act of 2025, Section 205 \"Study on modernizing wildfire response technologies\"",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -114,7 +114,7 @@
       },
       {
         "pattern": "Healthy Technology Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -143,7 +143,7 @@
       },
       {
         "pattern": "PATHS Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -184,7 +184,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 20004 (\"Enhancement of Department of Defense resources for munitions and defense supply chain resiliency\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 20005 (\"Enhancement of Department of Defense resources for scaling low-cost weapons into production\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -278,7 +278,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 112204 (\"Implementing artificial intelligence tools for purposes of reducing and recouping improper payments under Medicare\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -319,7 +319,7 @@
       },
       {
         "pattern": "Duplicative Grant Consolidation Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -348,7 +348,7 @@
       },
       {
         "pattern": "Nondiscrimination in Health Programs and Activities",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -413,7 +413,7 @@
       },
       {
         "pattern": "United States-Israel Defense Partnership Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

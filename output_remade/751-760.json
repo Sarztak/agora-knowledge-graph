@@ -20,7 +20,7 @@
       },
       {
         "pattern": "Modernizing Retrospective Regulatory Review Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "pattern": "Content Origin Protection and Integrity from Edited and Deepfaked Media Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -106,7 +106,7 @@
       },
       {
         "pattern": "Sec. 2412. Duty of Care, Digital Consumer Protection Commission Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "pattern": "Modernizing Wildfire Safety and Prevention Act of 2024, Section 405 (\"Joint Office of the Fire Environment Center (Report Recommendations 104, 105, 106)\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -180,7 +180,7 @@
       },
       {
         "pattern": "Sec. 2501. Corporate Citizenship and Ownership, Digital Consumer Protection Commission Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "pattern": "Health Equity and Accountability Act of 2024, Sec 1013 (\"Task Force on Preventing Bias in AI and Algorithms\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -270,7 +270,7 @@
       },
       {
         "pattern": "To provide for citizen engagement on the development and adoption of Federal civilian agency use of artificial intelligence, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -307,7 +307,7 @@
       },
       {
         "pattern": "A Bill to prohibit certain uses of automated decision systems by employers, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -352,7 +352,7 @@
       },
       {
         "pattern": "MedShield Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -405,7 +405,7 @@
       },
       {
         "pattern": "A bill to establish protections for individual rights with respect to computational algorithms, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

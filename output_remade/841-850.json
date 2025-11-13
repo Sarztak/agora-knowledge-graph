@@ -40,7 +40,7 @@
       },
       {
         "pattern": "An act relating to state affairs and government -- commission to monitor the use of artificial intelligence in state government.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -73,7 +73,7 @@
       },
       {
         "pattern": "An act to amend the labor law, in relation to establishing criteria for\nthe use of automated employment decision tools",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -114,7 +114,7 @@
       },
       {
         "pattern": "An act relating to a study on the establishment of a program administered by the Texas Workforce Commission to train individuals in certain skills related to artificial intelligence systems.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -151,7 +151,7 @@
       },
       {
         "pattern": "An Act preventing a dystopian work environment.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -188,7 +188,7 @@
       },
       {
         "pattern": "Public Act 103-0804",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -233,7 +233,7 @@
       },
       {
         "pattern": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Division A, Title XCIV, Section 9412 (\"Industries of the future\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -302,7 +302,7 @@
       },
       {
         "pattern": "2023 UK AI Safety Summit Response (Microsoft)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -343,7 +343,7 @@
       },
       {
         "pattern": "Artificial Intelligence for California Research Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -384,7 +384,7 @@
       },
       {
         "pattern": "An Act requiring the Commissioner of Labor and Workforce Development to conduct a study and issue a report on the impact of artificial intelligence on the growth of the State's economy.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -433,7 +433,7 @@
       },
       {
         "pattern": "An act creating a temporary state commission to  study  and  investigate how  to regulate artificial intelligence, robotics and automation; and providing for the repeal of such provisions upon expiration thereof",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

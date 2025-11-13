@@ -28,7 +28,7 @@
       },
       {
         "pattern": "Rhode Island HB 6654 (2022)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "New Hampshire H1688 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -118,7 +118,7 @@
       },
       {
         "pattern": "Vermont Agency of Digital Services Report regarding Inventory of Artificial Intelligence Usage, pursuant to 3 V.S.A. § 3305",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -163,7 +163,7 @@
       },
       {
         "pattern": "Kansas Policy and Procedures Memorandum 8200.00",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -204,7 +204,7 @@
       },
       {
         "pattern": "Maryland 2020 HB49",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -245,7 +245,7 @@
       },
       {
         "pattern": "Massachusetts (2020) House Bill 5250, Section 92 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -294,7 +294,7 @@
       },
       {
         "pattern": "New Jersey Assembly Resolution 141 (2024)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -343,7 +343,7 @@
       },
       {
         "pattern": "Louisiana SCR 49",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -388,7 +388,7 @@
       },
       {
         "pattern": "Louisiana (2024) HCR 66",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -441,7 +441,7 @@
       },
       {
         "pattern": "Rhode Island House Resolution 6423",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

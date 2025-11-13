@@ -32,7 +32,7 @@
       },
       {
         "pattern": "New Hampshire House Bill 1432",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -61,7 +61,7 @@
       },
       {
         "pattern": "Louisiana Senate Bill 6",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -98,7 +98,7 @@
       },
       {
         "pattern": "Delaware House Bill 333",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -131,7 +131,7 @@
       },
       {
         "pattern": "Tennessee House Bill 2325 ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -180,7 +180,7 @@
       },
       {
         "pattern": "Mississippi Senate Bill 3000",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -221,7 +221,7 @@
       },
       {
         "pattern": "Virginia Senate Bill 487",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -278,7 +278,7 @@
       },
       {
         "pattern": "Iowa Senate Bill 2435",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -315,7 +315,7 @@
       },
       {
         "pattern": "New Hampshire House Bill 1596",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -360,7 +360,7 @@
       },
       {
         "pattern": "Hawaii Senate Bill 2687",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -405,7 +405,7 @@
       },
       {
         "pattern": "Colorado House Bill 1147",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

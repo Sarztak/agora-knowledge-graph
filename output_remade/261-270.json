@@ -20,7 +20,7 @@
       },
       {
         "pattern": "An Act Providing for Transferring and Renumbering; Amending Section 41-2414, Arizona Revised Statutes, as Transferred and Renumbered; Relating to Crime Victims",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -45,7 +45,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11226 (\"Artificial intelligence strategy\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -70,7 +70,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 226 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -99,7 +99,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 227 (\"Modification of the joint common foundation program\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -144,7 +144,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1554 (\"Roadmap and implementation plan for cyber adoption of artificial intelligence\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -173,7 +173,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 1531 (\"Digital development infrastructure plan and working group\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -210,7 +210,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 6723 (\"Requirements and report on workforce needs of intelligence community relating to science, technology, engineering, and math, and related areas\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -263,7 +263,7 @@
       },
       {
         "pattern": "A Local Law to amend the administrative code of the city of New York, in relation to automated employment decision tools",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -296,7 +296,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 1513 (\"Establishing projects for data management, artificial intelligence, and digital solutions\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -333,7 +333,7 @@
       },
       {
         "pattern": "An act to include certain computer-related projects in the Federal permitting program under title XLI of the FAST Act, and for other purposes",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

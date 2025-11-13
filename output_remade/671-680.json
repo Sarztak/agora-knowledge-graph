@@ -36,7 +36,7 @@
       },
       {
         "pattern": "Protect Victims of Digital Exploitation and Manipulation Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -57,7 +57,7 @@
       },
       {
         "pattern": "Countering Communist China Act, Title VII (\"Matters Related to Defense\"), Sec. 701 (\"Modifications to Use of Emergency Sanctions Authorities Regarding Communist Chinese Military Companies\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -122,7 +122,7 @@
       },
       {
         "pattern": "Farm, Food, and National Security Act of 2024, Title VII (\"Research, Extension, and Related Matters\"), Sec. 7208 (\"Centers of Excellence\") ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -171,7 +171,7 @@
       },
       {
         "pattern": "GRIData Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -216,7 +216,7 @@
       },
       {
         "pattern": "Department of State, Foreign Operations, and Related Programs Appropriations Act 2024, Title VII (\"General Provisions\"), Sec. 7032 (\"Democracy Programs\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -253,7 +253,7 @@
       },
       {
         "pattern": "Countering Communist China Act, Title I (\"Matters Related to Trade, Investment, and Economic Relations\"), Sec. 101 (\"Preventing Adversaries from Developing Critical Capabilities\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -294,7 +294,7 @@
       },
       {
         "pattern": "Preparing Election Administrators for AI Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -331,7 +331,7 @@
       },
       {
         "pattern": "Farm, Food, and National Security Act of 2024, Title VIII (\"Forestry\"), Sec. 8414 (\"Public-Private Wildfire Technology Deployment and Testbed Partnership\") ",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -376,7 +376,7 @@
       },
       {
         "pattern": "Air Tour and Sport Parachuting Safety Improvement Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -417,7 +417,7 @@
       },
       {
         "pattern": "Coast Guard Authorization Act of 2024, Title II (\"Coast Guard\"), Sec. 207 (\"Report on establishment of unmanned systems capabilities office\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

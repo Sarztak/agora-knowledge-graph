@@ -20,7 +20,7 @@
       },
       {
         "pattern": "Ending FCC Meddling in Our Elections Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "pattern": "Supercritical Geothermal Research and Development Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -114,7 +114,7 @@
       },
       {
         "pattern": "Social Media and AI Resiliency Toolkits in Schools Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -159,7 +159,7 @@
       },
       {
         "pattern": "Bureau of Industry and Security Information Technology Modernization Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -208,7 +208,7 @@
       },
       {
         "pattern": "Protecting Patients from Deceptive Drug Ads Online Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -261,7 +261,7 @@
       },
       {
         "pattern": "S.4870, A bill to require reports on artificial intelligence regulation in the financial services industry.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -314,7 +314,7 @@
       },
       {
         "pattern": "Preventing the Algorithmic Facilitation of Rental Housing Cartels Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -363,7 +363,7 @@
       },
       {
         "pattern": "Improving Seniors’ Timely Access to Care Act of 2024",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -412,7 +412,7 @@
       },
       {
         "pattern": "S.4862, A bill to ensure that new advances in artificial intelligence are ethically adopted to improve the health of all individuals, and for other purposes.",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -469,7 +469,7 @@
       },
       {
         "pattern": "Sec. 103, Supporting Affordability and Fairness with Every Bet Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

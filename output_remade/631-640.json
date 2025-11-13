@@ -40,7 +40,7 @@
       },
       {
         "pattern": "Counseling for Career Choice Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "National Mesonet Authorization Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -114,7 +114,7 @@
       },
       {
         "pattern": "AREA Act, Part B (\"National Center for Education Research\"), Sec. 133 (\"Duties\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -151,7 +151,7 @@
       },
       {
         "pattern": "Digital Defense Content Provenance Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -196,7 +196,7 @@
       },
       {
         "pattern": "Solving the Border Crisis Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -245,7 +245,7 @@
       },
       {
         "pattern": "Advanced Aviation Integration Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -282,7 +282,7 @@
       },
       {
         "pattern": "Combating Cartels on Social Media Act of 2023",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -311,7 +311,7 @@
       },
       {
         "pattern": "Rail Worker and Community Safety Act, Sec. 13 (Equipment Inspections)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -348,7 +348,7 @@
       },
       {
         "pattern": "Lummis-Gillibrand Responsible Financial Innovation Act, Sec. 1001 (\"Executive Office of the President Appropriations\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -385,7 +385,7 @@
       },
       {
         "pattern": "Online Privacy Act of 2023, Sec. 106 (\"Right to individual autonomy\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

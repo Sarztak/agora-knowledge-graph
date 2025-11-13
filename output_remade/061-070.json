@@ -40,7 +40,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 20002 (\"Enhancement of Department of Defense resources for shipbuilding\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -77,7 +77,7 @@
       },
       {
         "pattern": "Air National Guard Squadron Preservation Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -102,7 +102,7 @@
       },
       {
         "pattern": "IRONDOME Act of 2025",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -139,7 +139,7 @@
       },
       {
         "pattern": "One Big Beautiful Bill Act 2025, Section 20006 (\"Enhancement of Department of Defense resources for improving the efficiency and cybersecurity of the Department of Defense\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -180,7 +180,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1638 (\"Sense of Congress with respect to use of artificial intelligence to support strategic deterrence\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -237,7 +237,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 1007 (\"Use of technology using artificial intelligence to facilitate audit of the financial statements of the Department of Defense for fiscal year 2025\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -290,7 +290,7 @@
       },
       {
         "pattern": "Texas Responsible Artificial Intelligence Governance Act (HB 149)",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -363,7 +363,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 233 (\"Management and utilization of digital data to enhance maintenance activities\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -408,7 +408,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 237 (\"Pilot program on use of artificial intelligence for certain workflow and operations tasks\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -453,7 +453,7 @@
       },
       {
         "pattern": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025, Section 6504 (\"Establishment of Artificial Intelligence Security Center\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }

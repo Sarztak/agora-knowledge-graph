@@ -24,7 +24,7 @@
       },
       {
         "pattern": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023, Section 11227 (\"Review of artificial intelligence applications and establishment of performance metrics\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "pattern": "Information Technology Modernization Centers of Excellence Program Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -98,7 +98,7 @@
       },
       {
         "pattern": "Research and Development, Competition, and Innovation Act, Title IV, Section 10402 (\"National engineering biology research and development initiative\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -139,7 +139,7 @@
       },
       {
         "pattern": "Identifying Outputs of Generative Adversarial Networks Act",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -168,7 +168,7 @@
       },
       {
         "pattern": "Flood Level Observation, Operations, and Decision Support Act, Section 14 (\"National Weather Service hydrologic research fellowship program\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -205,7 +205,7 @@
       },
       {
         "pattern": "21 CFR § 876.1520 (\"Gastrointestinal lesion software detection system\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -242,7 +242,7 @@
       },
       {
         "pattern": "Energy Act of 2020, Title VI, Section 6006 (\"Development of National Smart Manufacturing Plan\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -283,7 +283,7 @@
       },
       {
         "pattern": "National Defense Authorization Act for Fiscal Year 2022, Section 232 (\"Pilot program on data repositories to facilitate the development of artificial intelligence capabilities for the Department of Defense\")",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -396,7 +396,7 @@
       },
       {
         "pattern": "Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   },
@@ -433,7 +433,7 @@
       },
       {
         "pattern": "Illinois HB53 2021",
-        "label": "BILL NAME"
+        "label": "BILL_NAME"
       }
     ]
   }
