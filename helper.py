@@ -6,6 +6,8 @@ from rich.traceback import install
 import pandas as pd
 import numpy as np
 import spacy 
+from entity_remapping import *
+from collections import defaultdict
 from relationship_extractor import RelationExtractor
 
 install()
@@ -60,7 +62,6 @@ def tabulate_extracted_entities():
     )[['doc_index', 'AGORA ID', 'label', 'pattern']]
 
     ent_label_df.to_parquet(output / 'entity_label.parquet')
-
 
 def extract_dependency(row, nlp):
     name = f"ruler_{row['doc_index']}"
@@ -317,8 +318,41 @@ def clean_dependency(path):
     nodes_df.to_csv("./output/nodes.csv", index=False)
     edges_df.to_csv("./output/edges.csv", index=False)
 
+def count_ner_labels():
+
+    tag_counter = defaultdict(int)
+
+    with open('ner_results.json', 'r', encoding='utf-8') as file:
+        ner_dict = json.load(file)
+        for ner in ner_dict:
+            entities_list = ner.get('entities')
+            for txt_label in entities_list:
+                tag_counter[txt_label.get('label')] += 1
+
+def collapse_verbs(verb_map):
+    df = pd.read_csv('./output/edges.csv')
+    df['label'] = df['relationship'].map(verb_map).fillna('OTHER')
+    df = df[df.label != 'OTHER']
+    df.to_csv("./output/edges_remapped.csv", index=False)
+    return df 
+
+def create_labels_remapped_nodes(mapping_dict):
+    df = pd.read_parquet('./output/entity_label.parquet')
+    df['TYPE'] = df['label'].map(mapping_dict).fillna('OTHER')
+    df['TEXT'] = df['pattern'].str.strip()
+    df = df.reset_index(drop=True)
+    df['ID'] = df.index.astype(int)
+    nodes_df = df[['ID', 'TEXT', 'TYPE', 'doc_index', 'AGORA ID']]
+    nodes_df.to_csv('./output/nodes_clean.csv', index=False)
+
+
 if __name__ == "__main__":
     
     # tabulate_extracted_entities()
     # ent_df = pd.read_parquet('./output/entity_label.parquet')
-    clean_dependency("./output/dependency.parquet")
+    # clean_dependency("./output/dependency.parquet")
+    # count_ner_labels()
+    # create_labels_remapped_nodes(label_map)
+    df = collapse_verbs(verb_map)
+    breakpoint()
+    
