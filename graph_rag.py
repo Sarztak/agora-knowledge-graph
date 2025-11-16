@@ -7,6 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
+import pandas as pd
 
 # ================================================================
 # Load credentials
@@ -162,7 +163,13 @@ def score_triple(query: str, triple: dict, embed_model):
 # ================================================================
 # 9. Build LLM context
 # ================================================================
+
+# Preload original documents.csv into a lookup table
+docs_df = pd.read_csv("data/documents_normalized.csv")
+
+
 def build_context_for_llm(query: str, triples, top_n_docs=3):
+    # Group triples by document
     grouped = {}
     for t in triples:
         key = (t["doc_id"], t["doc_name"])
@@ -172,26 +179,50 @@ def build_context_for_llm(query: str, triples, top_n_docs=3):
     scored_docs = [(key, len(vals)) for key, vals in grouped.items()]
     scored_docs.sort(key=lambda x: x[1], reverse=True)
 
+    # Pick top documents
     top_docs = scored_docs[:top_n_docs]
 
     lines = []
     for (doc_id, doc_name), score in top_docs:
-        lines.append(f"[{doc_id} – {doc_name}]")
-        for t in grouped[(doc_id, doc_name)]:
-            lines.append(f"{t['source']} --[{t['relation']}]--> {t['target']}")
-        lines.append("")
 
+        # === HEADER ===
+        lines.append(f"[{doc_id} – {doc_name}]")
+
+        # === DOCUMENT TEXT (ONCE PER DOC) ===
+        matches = docs_df.loc[docs_df["doc_id"] == doc_id]
+
+        if len(matches) > 0:
+            doc_text = matches["Normalized Long Summary"].iloc[0]
+        else:
+            doc_text = "(Document not found)"
+
+        lines.append("Document Text:")
+        lines.append("--------------")
+        lines.append(doc_text.strip())
+        lines.append("")  # blank line
+
+        # === TRIPLES (ONLY LIST THEM, DON'T DUPLICATE DOC TEXT) ===
+        lines.append("Extracted Triples:")
+        lines.append("-------------------")
+        for triple in grouped[(doc_id, doc_name)]:
+            lines.append(f"{triple['source']} --[{triple['relation']}]--> {triple['target']}")
+        lines.append("")  # blank line after the doc section
+
+    # Combine all blocks
     graph_block = "\n".join(lines)
 
     final_prompt = f"""
 User Query:
 {query}
 
-Top {top_n_docs} Most Relevant Documents (Filtered Triples):
----------------------------------------------------------------
+Top {top_n_docs} Most Relevant Documents:
+==========================================
+
 {graph_block}
 
-Using ONLY the above structured evidence, provide a factual, well-structured answer.
+Using ONLY the above evidence and the provided document text,
+provide a well-phrased answer. 
+DO NOT bring in any outside information.
 """
     return final_prompt
 
@@ -235,7 +266,7 @@ def llm_answer_from_context(context: str, model="gpt-4o-mini"):
         model=model,
         messages=[
             {"role": "system",
-             "content": "You are an AI policy expert using a knowledge graph. Use ONLY the evidence."},
+             "content": "You are an AI policy expert using a knowledge graph. Use ONLY the evidence. Be concise and clear."},
             {"role": "user", "content": context}
         ],
         temperature=0.2,
@@ -248,7 +279,7 @@ def llm_answer_from_context(context: str, model="gpt-4o-mini"):
 # 12. CLI 
 # ================================================================
 if __name__ == "__main__":
-    graph = load_graph("ai_policy_kg_with_dependencies_4.gexf")
+    graph = load_graph("ai_policy_kg_with_dependencies_5.gexf")
     embed_model = build_node_embeddings(graph)
     ner_nlp = load_query_ner()
 
