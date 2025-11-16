@@ -56,11 +56,11 @@ class RelationExtractor:
                         subs = [w for w in sent if w.ent_type_ in ("ROLE", "ORGANIZATION", "GOVERNMENT")]
                     if subs and not objs:
                         objs = [w for w in sent if w.ent_type_ in ("TECHNOLOGY", "POLICY", "PROGRAM", "SAFETY")]
-
+                    
                     for s in subs:
                         for o in objs:
-                            s_ent = [ent.text for ent in doc.ents if ent.start <= s.i <= ent.end]
-                            o_ent = [ent.text for ent in doc.ents if ent.start <= o.i <= ent.end]
+                            s_ent = [(ent.text, ent.label_) for ent in doc.ents if ent.start <= s.i <= ent.end]
+                            o_ent = [(ent.text, ent.label_) for ent in doc.ents if ent.start <= o.i <= ent.end]
                             if s_ent and o_ent and s_ent[0] != o_ent[0]:
                                 relations.append((s_ent[0], token.lemma_, o_ent[0]))
         return relations

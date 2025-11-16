@@ -6,6 +6,8 @@ from rich.traceback import install
 import pandas as pd
 import numpy as np
 import spacy 
+from entity_remapping import *
+from collections import defaultdict
 from relationship_extractor import RelationExtractor
 
 install()
@@ -60,7 +62,6 @@ def tabulate_extracted_entities():
     )[['doc_index', 'AGORA ID', 'label', 'pattern']]
 
     ent_label_df.to_parquet(output / 'entity_label.parquet')
-
 
 def extract_dependency(row, nlp):
     name = f"ruler_{row['doc_index']}"
@@ -317,8 +318,109 @@ def clean_dependency(path):
     nodes_df.to_csv("./output/nodes.csv", index=False)
     edges_df.to_csv("./output/edges.csv", index=False)
 
+def count_ner_labels():
+
+    tag_counter = defaultdict(int)
+
+    with open('ner_results.json', 'r', encoding='utf-8') as file:
+        ner_dict = json.load(file)
+        for ner in ner_dict:
+            entities_list = ner.get('entities')
+            for txt_label in entities_list:
+                tag_counter[txt_label.get('label')] += 1
+
+def collapse_verbs(verb_map):
+    df = pd.read_csv('./output/edges.csv')
+    df['label'] = df['relationship'].map(verb_map).fillna('OTHER')
+    df = df[df.label != 'OTHER']
+    df.to_csv("./output/edges_remapped.csv", index=False)
+    return df 
+
+def create_labels_remapped_nodes(mapping_dict):
+    df = pd.read_parquet('./output/entity_label.parquet')
+    df['TYPE'] = df['label'].map(mapping_dict).fillna('OTHER')
+    df['TEXT'] = df['pattern'].str.strip()
+    df = df.reset_index(drop=True)
+    df['ID'] = df.index.astype(int)
+    nodes_df = df[['ID', 'TEXT', 'TYPE', 'doc_index', 'AGORA ID']]
+    nodes_df.to_csv('./output/nodes_clean.csv', index=False)
+
+
+def build_doc_kg():
+    path = Path('./data/documents.csv')
+    output = Path('./output')
+
+    df = pd.read_csv(path)
+    doc_df = df[
+        [
+            'AGORA ID', 
+            'Casual name', 
+            'Authority', 
+            'Primarily applies to the government',
+            'Primarily applies to the private sector',
+            'Long summary',
+        ]
+    ]
+
+    doc_df.columns = ['doc_id', 'name', 'authority', 
+                      'applies_gov','applies_private', 'summary']
+    
+    doc_df.to_csv(output / 'neo_docs.csv', index=False)
+
+    prefix_map = {
+        "Strategies": "STRATEGY",
+        "Risk factors": "RISK",
+        "Harms": "HARM",
+        "Incentives": "INCENTIVE",
+        "Applications": "APPLICATION",
+    }
+
+    tag_cols = [
+        col for col in df.columns
+        for pref in prefix_map.keys()
+        if col.startswith(pref)
+    ]
+    
+    def normalize_tags(s): 
+        category, *subcategories = [p.strip() for p in s.split(':')]
+        norm_tag = f"{prefix_map[category]}: {' - '.join(subcategories)}"
+        return norm_tag 
+ 
+    tags = [normalize_tags(col) for col in tag_cols]
+    tags_df = df[['AGORA ID'] + tag_cols] 
+    tags_df.columns = ['doc_id'] + tags
+
+    tag_id_map = {tag: i for i, tag in enumerate(tags)}
+
+    tags_df = pd.melt(
+        tags_df, 
+        value_vars=tags, 
+        var_name='tag_text', 
+        value_name='tag_true', 
+        id_vars=['doc_id']
+    )
+
+    tags_df['tag_id'] = tags_df.tag_text.map(tag_id_map)
+    tags_df = tags_df[tags_df.tag_true]
+
+    tags_df.drop(columns='tag_true', inplace=True)
+
+    (
+        pd.DataFrame(tag_id_map.items(), columns=['tag_text', 'tag_id'])
+        .to_csv(output / 'tags.csv', index=False)
+    )
+
+    tags_df.to_csv(output / 'doc_tag_edges.csv', index=False)
+
 if __name__ == "__main__":
     
     # tabulate_extracted_entities()
     # ent_df = pd.read_parquet('./output/entity_label.parquet')
-    clean_dependency("./output/dependency.parquet")
+    # clean_dependency("./output/dependency.parquet")
+    # count_ner_labels()
+    # create_labels_remapped_nodes(label_map)
+    # df = collapse_verbs(verb_map)
+    build_doc_kg()
+    pass 
+    # breakpoint()
+    
