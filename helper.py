@@ -291,7 +291,8 @@ def chunk_writer():
 def clean_dependency(path):
 
     df = pd.read_parquet(path)
-    
+    ent_label_df = pd.read_parquet('./output/entity_label.parquet')
+
     # Only keep valid triples
     clean_df = df.dropna(subset=["sub", "verb", "obj"])
 
@@ -301,20 +302,70 @@ def clean_dependency(path):
         (clean_df["obj"].str.strip() != "")
     ]
 
-    nodes = pd.concat([clean_df['sub'], clean_df['obj']]).unique()
-    nodes_df = pd.DataFrame({
-        "id": range(len(nodes)),
-        "name": nodes
-    })
+    clean_df['label'] = (
+        clean_df['verb']
+        .map(verb_map) # verb remapping
+        .fillna('OTHER')
+    )
 
-    mapping = {name: i for i, name in enumerate(nodes)}
+    clean_df = clean_df[clean_df.label != 'OTHER'] # drop unmapped verbs
 
-    edges_df = pd.DataFrame({
-        "source": clean_df['sub'].map(mapping),
-        "target": clean_df['obj'].map(mapping),
-        "relationship": clean_df['verb']
-    })
+    nodes_df = pd.DataFrame(
+        pd.concat([clean_df['sub'], clean_df['obj']])
+        .drop_duplicates(),
+        columns=['pattern']
+    )
     
+
+    # get entites label for each entity
+    nodes_df = pd.merge(
+        nodes_df,
+        ent_label_df,
+        on='pattern',
+        how='inner',
+    )
+
+    nodes_df['category'] = (
+        nodes_df['label']
+        .map(label_map)
+        .fillna('OTHER')
+    )
+
+    nodes_df['name'] = (
+        nodes_df['pattern']
+        .str
+        .strip()
+        .replace(entity_map)
+    )
+    
+    nodes_df = (
+        nodes_df
+        .drop_duplicates(subset=['name'])
+        .reset_index(drop=True)
+        .loc[:, ['name', 'category', 'AGORA ID']]
+        .rename(columns={'AGORA ID': 'doc_id'})
+    )
+
+    nodes_df.reset_index(drop=True, inplace=True)
+    nodes_df['id'] = nodes_df.index
+    mapping = {row['name']: row['id'] for _, row in nodes_df.iterrows()}
+
+    clean_df['source'] = clean_df['sub'].map(mapping)
+    clean_df['target'] = clean_df['obj'].map(mapping)
+    
+    edges_df = (
+        clean_df
+        .dropna(subset=['source', 'target'])
+        .loc[:, ['source', 'target', 'verb', 'label', 'AGORA ID']]
+        .rename(columns={'AGORA ID': 'doc_id', 'label': 'name'})
+    )
+    
+    edges_df = edges_df.assign(
+        source=edges_df.source.astype(int), 
+        target=edges_df.target.astype(int),
+    )
+
+
     nodes_df.to_csv("./output/nodes.csv", index=False)
     edges_df.to_csv("./output/edges.csv", index=False)
 
@@ -329,22 +380,27 @@ def count_ner_labels():
             for txt_label in entities_list:
                 tag_counter[txt_label.get('label')] += 1
 
-def collapse_verbs(verb_map):
-    df = pd.read_csv('./output/edges.csv')
-    df['label'] = df['relationship'].map(verb_map).fillna('OTHER')
-    df = df[df.label != 'OTHER']
-    df.to_csv("./output/edges_remapped.csv", index=False)
-    return df 
+# def collapse_verbs(verb_map):
+#     df = pd.read_csv('./output/edges.csv')
+#     df['label'] = df['relationship'].map(verb_map).fillna('OTHER')
+#     df = df[df.label != 'OTHER']
+#     df.to_csv("./output/edges_remapped.csv", index=False)
+#     return df 
 
-def create_labels_remapped_nodes(mapping_dict):
-    df = pd.read_parquet('./output/entity_label.parquet')
-    df['TYPE'] = df['label'].map(mapping_dict).fillna('OTHER')
-    df['TEXT'] = df['pattern'].str.strip()
-    df = df.reset_index(drop=True)
-    df['ID'] = df.index.astype(int)
-    nodes_df = df[['ID', 'TEXT', 'TYPE', 'doc_index', 'AGORA ID']]
-    nodes_df.to_csv('./output/nodes_clean.csv', index=False)
+# def create_labels_remapped_nodes(mapping_dict):
+#     df = pd.read_parquet('./output/entity_label.parquet')
+#     df['category'] = df['label'].map(mapping_dict).fillna('OTHER')
+#     df['name'] = df['pattern'].str.strip().replace(entity_map)
+#     breakpoint()
+#     df = df.reset_index(drop=True)
+#     df['id'] = df.index.astype(int)
 
+#     nodes_df = (
+#         df[['id', 'name', 'category', 'AGORA ID']]
+#         .rename(columns={'AGORA ID': 'doc_id'})
+#     )
+
+#     nodes_df.to_csv('./output/nodes_clean.csv', index=False)
 
 def build_doc_kg():
     path = Path('./data/documents.csv')
@@ -395,18 +451,18 @@ def build_doc_kg():
     tags_df = pd.melt(
         tags_df, 
         value_vars=tags, 
-        var_name='tag_text', 
+        var_name='name', 
         value_name='tag_true', 
         id_vars=['doc_id']
     )
 
-    tags_df['tag_id'] = tags_df.tag_text.map(tag_id_map)
+    tags_df['tag_id'] = tags_df.name.map(tag_id_map)
     tags_df = tags_df[tags_df.tag_true]
 
     tags_df.drop(columns='tag_true', inplace=True)
 
     (
-        pd.DataFrame(tag_id_map.items(), columns=['tag_text', 'tag_id'])
+        pd.DataFrame(tag_id_map.items(), columns=['name', 'tag_id'])
         .to_csv(output / 'tags.csv', index=False)
     )
 
@@ -420,7 +476,7 @@ if __name__ == "__main__":
     # count_ner_labels()
     # create_labels_remapped_nodes(label_map)
     # df = collapse_verbs(verb_map)
-    build_doc_kg()
+    # build_doc_kg()
     pass 
     # breakpoint()
     
