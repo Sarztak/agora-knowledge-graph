@@ -346,6 +346,72 @@ def create_labels_remapped_nodes(mapping_dict):
     nodes_df.to_csv('./output/nodes_clean.csv', index=False)
 
 
+def build_doc_kg():
+    path = Path('./data/documents.csv')
+    output = Path('./output')
+
+    df = pd.read_csv(path)
+    doc_df = df[
+        [
+            'AGORA ID', 
+            'Casual name', 
+            'Authority', 
+            'Primarily applies to the government',
+            'Primarily applies to the private sector',
+            'Long summary',
+        ]
+    ]
+
+    doc_df.columns = ['doc_id', 'name', 'authority', 
+                      'applies_gov','applies_private', 'summary']
+    
+    doc_df.to_csv(output / 'neo_docs.csv', index=False)
+
+    prefix_map = {
+        "Strategies": "STRATEGY",
+        "Risk factors": "RISK",
+        "Harms": "HARM",
+        "Incentives": "INCENTIVE",
+        "Applications": "APPLICATION",
+    }
+
+    tag_cols = [
+        col for col in df.columns
+        for pref in prefix_map.keys()
+        if col.startswith(pref)
+    ]
+    
+    def normalize_tags(s): 
+        category, *subcategories = [p.strip() for p in s.split(':')]
+        norm_tag = f"{prefix_map[category]}: {' - '.join(subcategories)}"
+        return norm_tag 
+ 
+    tags = [normalize_tags(col) for col in tag_cols]
+    tags_df = df[['AGORA ID'] + tag_cols] 
+    tags_df.columns = ['doc_id'] + tags
+
+    tag_id_map = {tag: i for i, tag in enumerate(tags)}
+
+    tags_df = pd.melt(
+        tags_df, 
+        value_vars=tags, 
+        var_name='tag_text', 
+        value_name='tag_true', 
+        id_vars=['doc_id']
+    )
+
+    tags_df['tag_id'] = tags_df.tag_text.map(tag_id_map)
+    tags_df = tags_df[tags_df.tag_true]
+
+    tags_df.drop(columns='tag_true', inplace=True)
+
+    (
+        pd.DataFrame(tag_id_map.items(), columns=['tag_text', 'tag_id'])
+        .to_csv(output / 'tags.csv', index=False)
+    )
+
+    tags_df.to_csv(output / 'doc_tag_edges.csv', index=False)
+
 if __name__ == "__main__":
     
     # tabulate_extracted_entities()
@@ -353,6 +419,8 @@ if __name__ == "__main__":
     # clean_dependency("./output/dependency.parquet")
     # count_ner_labels()
     # create_labels_remapped_nodes(label_map)
-    df = collapse_verbs(verb_map)
-    breakpoint()
+    # df = collapse_verbs(verb_map)
+    build_doc_kg()
+    pass 
+    # breakpoint()
     

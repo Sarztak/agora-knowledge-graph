@@ -1,0 +1,78 @@
+tag_text,tag_id
+APPLICATION: Agriculture and resource extraction,0
+"APPLICATION: Arts, sports, leisure, travel, and lifestyle",1
+APPLICATION: Broadcasting and media production,2
+APPLICATION: Business services and analytics,3
+APPLICATION: Construction and field services,4
+APPLICATION: Consumer goods,5
+APPLICATION: Education,6
+APPLICATION: Energy and utilities,7
+APPLICATION: Finance and investment,8
+APPLICATION: Government - benefits and welfare,9
+APPLICATION: Government - judicial and law enforcement,10
+APPLICATION: Government - military and public safety,11
+APPLICATION: Government - other applications/unspecified,12
+APPLICATION: Manufacturing and process automation,13
+"APPLICATION: Medicine, life sciences and public health",14
+APPLICATION: Networking and telecommunications,15
+"APPLICATION: Sales, retail, and customer relations",16
+APPLICATION: Security,17
+APPLICATION: Transportation,18
+HARM: Detrimental content,19
+HARM: Discrimination,20
+HARM: Ecological harm,21
+HARM: Financial loss,22
+HARM: Harm to health/safety,23
+HARM: Harm to infrastructure,24
+HARM: Harm to property,25
+"HARM: Violation of civil or human rights, including privacy",26
+INCENTIVE: Access to business opportunities,27
+INCENTIVE: Civil liability,28
+INCENTIVE: Criminal liability,29
+INCENTIVE: Fines,30
+INCENTIVE: Imprisonment,31
+INCENTIVE: Subsidies,32
+RISK: Bias,33
+RISK: Interpretability and explainability,34
+RISK: Privacy,35
+RISK: Reliability,36
+RISK: Reliability - Robustness,37
+RISK: Safety,38
+RISK: Security,39
+RISK: Security - Cybersecurity,40
+RISK: Security - Dissemination,41
+RISK: Transparency,42
+STRATEGY: Convening,43
+STRATEGY: Disclosure,44
+STRATEGY: Disclosure - About evaluation,45
+STRATEGY: Disclosure - About incidents,46
+STRATEGY: Disclosure - About inputs,47
+STRATEGY: Disclosure - Accuracy thereof,48
+STRATEGY: Disclosure - In deployment,49
+STRATEGY: Disclosure - In standard form,50
+STRATEGY: Evaluation,51
+STRATEGY: Evaluation - Adversarial testing,52
+STRATEGY: Evaluation - Conformity assessment,53
+STRATEGY: Evaluation - External auditing,54
+STRATEGY: Evaluation - Impact assessment,55
+STRATEGY: Evaluation - Post-market monitoring,56
+STRATEGY: Governance development,57
+STRATEGY: Government study or report,58
+STRATEGY: Government support,59
+STRATEGY: Government support - AI workforce-related,60
+STRATEGY: Government support - For R&D,61
+STRATEGY: Input controls,62
+STRATEGY: Input controls - Compute circulation,63
+STRATEGY: Input controls - Compute use,64
+STRATEGY: Input controls - Data circulation,65
+STRATEGY: Input controls - Data use,66
+"STRATEGY: Licensing, registration, and certification",67
+STRATEGY: New institution,68
+STRATEGY: Performance requirements,69
+STRATEGY: Pilots and testbeds,70
+STRATEGY: Tiering,71
+STRATEGY: Tiering - Tiering based on domain of application,72
+STRATEGY: Tiering - Tiering based on generality,73
+STRATEGY: Tiering - Tiering based on impact,74
+STRATEGY: Tiering - Tiering based on inputs,75
+STRATEGY: Tiering - Tiering based on planning ability,76
