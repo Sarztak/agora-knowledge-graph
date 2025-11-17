@@ -22,6 +22,7 @@ dependencies = [
     { name = "pip" },
     { name = "pyarrow" },
     { name = "spacy" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
@@ -34,6 +35,7 @@ requires-dist = [
     { name = "pip", specifier = ">=25.2" },
     { name = "pyarrow", specifier = ">=22.0.0" },
     { name = "spacy", specifier = ">=3.8.7" },
+    { name = "tqdm", specifier = ">=4.67.1" },
 ]
 
 [[package]]

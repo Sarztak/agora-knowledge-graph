@@ -60,7 +60,7 @@ print(f"Finished processing {len(df)} documents. Saved ner_results.json.")
 # APPLIED category/verb/entity COLLAPSE and normalization here
 
 print("\n=== Building Knowledge Graph ===")
-nlp = spacy.load("en_core_web_md", disable=["ner"])
+nlp = spacy.load("en_core_web_sm", disable=["ner"])
 if "sentencizer" not in nlp.pipe_names:
     nlp.add_pipe("sentencizer")
 
@@ -82,8 +82,8 @@ for item in tqdm(data, desc="Extracting relations"):
 
     for ent_text, ent_label in raw_entities.items():
         clean_text = entity_map.get(ent_text, ent_text)
-        clean_label = label_map.get(ent_label, ent_label)
-        entities[clean_text] = clean_label
+        clean_label = label_map.get(ent_label, ent_label) # should have been OTHER if not found
+        entities[clean_text] = clean_label # this is creating duplicate entities since the previous ent_text is not replaces consider AI and artificial intelligent, also this will create problem with dependency parsing because original text is being updated 
 
     doc = nlp(text)
 
@@ -98,7 +98,7 @@ for item in tqdm(data, desc="Extracting relations"):
 
     for ent_text, ent_label in entities.items():
         G.add_node(
-            ent_text,
+            ent_text, # this only adds ent_text again rather than clean_text
             label=ent_label,
             source_doc_id=clean_doc_id
         )
@@ -107,9 +107,9 @@ for item in tqdm(data, desc="Extracting relations"):
     # === Add edges ===
     for sent in doc.sents:
         sent_entities = find_entities_in_sentence(entities.keys(), sent.text)
-
         for token in sent:
             if token.pos_ == "VERB":
+                breakpoint()
 
                 raw_lemma = token.lemma_
                 collapsed_verb = verb_map.get(raw_lemma, raw_lemma)

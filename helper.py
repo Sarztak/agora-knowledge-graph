@@ -1,3 +1,4 @@
+from tqdm import tqdm
 import pandas as pd 
 import os 
 from pathlib import Path
@@ -73,6 +74,31 @@ def extract_dependency(row, nlp):
     nlp.remove_pipe(name)           # remove to keep pipeline clean
     del extractor                   # clean up memory
     return rels
+
+def parse_ner_results(json_path):
+    
+    nlp = spacy.load("en_core_web_sm")
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    for item in tqdm(data, desc="Extracting relations"):
+        text = item["text"]
+        doc_id = item["index"]
+        patterns = [
+            {"label": e["label"], "pattern": e["text"]}
+            for e in item["entities"]
+        ]
+        name = f"ruler_{doc_id}"
+        ruler = nlp.add_pipe("entity_ruler", before="ner", name=name)
+        ruler.add_patterns(patterns)
+        extractor = RelationExtractor(nlp)
+        doc = nlp(text)
+        rels = extractor.extract(doc, parser_type='legal') 
+        breakpoint()
+        nlp.remove_pipe(name)           # remove to keep pipeline clean
+        del extractor                   # clean up memory
+        return rels
+
 
 def create_ner_list(df):
     return [[{'label': row['label'], 'pattern': row['pattern']} for _, row in df.iterrows()], df['long_summary'].iloc[0]]
@@ -477,6 +503,7 @@ if __name__ == "__main__":
     # create_labels_remapped_nodes(label_map)
     # df = collapse_verbs(verb_map)
     # build_doc_kg()
+    parse_ner_results('./ner_results.json')
     pass 
     # breakpoint()
     
