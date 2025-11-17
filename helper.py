@@ -93,7 +93,7 @@ def parse_ner_results(json_path):
         ruler.add_patterns(patterns)
         extractor = RelationExtractor(nlp)
         doc = nlp(text)
-        rels = extractor.extract(doc, parser_type='legal') 
+        rels = extractor.extract(doc, parser_type='child') 
         breakpoint()
         nlp.remove_pipe(name)           # remove to keep pipeline clean
         del extractor                   # clean up memory

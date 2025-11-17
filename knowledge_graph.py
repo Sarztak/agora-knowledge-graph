@@ -107,7 +107,6 @@ for item in tqdm(data, desc="Extracting relations"):
         sent_entities = find_entities_in_sentence(entities.keys(), sent.text)
         for token in sent:
             if token.pos_ == "VERB":
-                breakpoint()
 
                 raw_lemma = token.lemma_
                 collapsed_verb = verb_map.get(raw_lemma, raw_lemma)

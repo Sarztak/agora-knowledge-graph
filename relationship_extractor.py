@@ -7,7 +7,8 @@ class RelationExtractor:
         self.strategies = {
             'grammar': self.extract_grammar,
             'position': self.extract_position,
-            'legal': self.extract_legal
+            'legal': self.extract_legal,
+            'child': self.extract_child
         }
 
     def extract(self, text, parser_type='legal'):
@@ -64,6 +65,56 @@ class RelationExtractor:
                             if s_ent and o_ent and s_ent[0] != o_ent[0]:
                                 relations.append((s_ent[0], token.lemma_, o_ent[0]))
         return relations
+
+    def extract_child(self, doc):
+
+        def find_entity_for_token(token, sent_entities):
+            for ent in sent_entities:
+                if token.i in range(ent.start, ent.end):
+                    return ent
+
+        def find_children_token(token, sent_entities):
+            children = []
+            for child in token.children:
+                ent = find_entity_for_token(child, sent_entities)
+                if ent:
+                    children.append(ent)
+            return children 
+        
+        triplets = []
+        for sent in doc.sents:
+            sent_entities = [ent for ent in doc.ents if sent.start <= ent.start < sent.end]
+            verb_child_rel = {
+                token: find_children_token(token, sent_entities) for token in sent if token.pos_ == 'VERB'
+            }
+
+            
+            # for token in sent:
+            #     if token.pos_ != "VERB":
+            #         continue
+            #     breakpoint()
+            #     subj_ents = [
+            #         ent for ent in sent_entities
+            #         if any(
+            #             child.dep_ in ("nsubj", "nsubjpass") and child.i in range(ent.start, ent.end)
+            #             for child in token.children
+            #         )
+            #     ]
+
+            #     obj_ents = [
+            #         ent for ent in sent_entities
+            #         if any(
+            #             child.dep_ in ("dobj", "pobj", "attr", "appos", "obl", "xcomp", "ccomp") and child.i in range(ent.start, ent.end)
+            #             for child in token.children
+            #         )
+            #     ]
+
+                # for s in subj_ents:
+                #     for o in obj_ents:
+                #         if s != o:
+                #             triplets.append((s.text, token.lemma_, o.text))
+
+        return triplets
 
     # You can easily add new rule sets here
     def add_strategy(self, name, func):
