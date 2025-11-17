@@ -57,8 +57,6 @@ print(f"Finished processing {len(df)} documents. Saved ner_results.json.")
 
 # === 5. Knowledge Graph Construction ===
 
-# APPLIED category/verb/entity COLLAPSE and normalization here
-
 print("\n=== Building Knowledge Graph ===")
 nlp = spacy.load("en_core_web_sm", disable=["ner"])
 if "sentencizer" not in nlp.pipe_names:
@@ -121,7 +119,7 @@ for item in tqdm(data, desc="Extracting relations"):
 
                 obj = [
                     ent for ent in sent_entities
-                    if any(child.dep_ in ("dobj", "pobj", "attr", "appos") for child in token.children)
+                    if any(child.dep_ in ("dobj", "pobj", "attr", "appos", "obl", "xcomp", "ccomp") for child in token.children)
                 ]
 
                 for s in subj:
@@ -139,8 +137,97 @@ for item in tqdm(data, desc="Extracting relations"):
                             )
 
 
-# === 6. Save GEXF ===
-output_file_name = "ai_policy_kg_with_dependencies_collapsed_5.gexf"
+# ===================================================================
+# === 6. DEDUPE LOGIC (ADDED, AS REQUESTED) =========================
+# ===================================================================
+
+def deduplicate_substring_entities(G: nx.DiGraph):
+    """
+    Remove triples ONLY when one entity is a strict substring of the other.
+    Example:
+        AI -> government oversight
+        AI development -> government oversight
+    Remove the shorter one (AI).
+    """
+    remove_edges = set()
+
+    # Case A: Same SOURCE + RELATION: compare TARGETs
+    buckets = defaultdict(list)
+    for u, v, data in G.edges(data=True):
+        buckets[(u, data.get("relation",""))].append((u, v))
+
+    for (u, rel), triples in buckets.items():
+        if len(triples) < 2:
+            continue
+        targets = [v for _, v in triples]
+        for v1 in targets:
+            for v2 in targets:
+                if v1 == v2:
+                    continue
+                if v1 in v2 and len(v2) > len(v1):
+                    remove_edges.add((u, v1))
+
+    # Case B: Same TARGET + RELATION: compare SOURCEs
+    buckets = defaultdict(list)
+    for u, v, data in G.edges(data=True):
+        buckets[(v, data.get("relation",""))].append((u, v))
+
+    for (v, rel), triples in buckets.items():
+        if len(triples) < 2:
+            continue
+        sources = [u for u, _ in triples]
+        for u1 in sources:
+            for u2 in sources:
+                if u1 == u2:
+                    continue
+                if u1 in u2 and len(u2) > len(u1):
+                    remove_edges.add((u1, v))
+
+    # delete
+    for u, v in remove_edges:
+        if G.has_edge(u, v):
+            G.remove_edge(u, v)
+
+    print(f"[Dedup Substring] Removed {len(remove_edges)} substring duplicates.")
+
+
+def drop_symmetric_duplicates_keep_longest(G: nx.DiGraph):
+    """
+    Remove A --R--> B and B --R--> A duplicates.
+    Keep the triple whose SUBJECT text is longer.
+    """
+    to_remove = []
+
+    for u, v, data in G.edges(data=True):
+        rel = data.get("relation", "")
+        if G.has_edge(v, u):
+            rel2 = G[v][u].get("relation", "")
+            if rel == rel2:
+                if len(u) < len(v):
+                    to_remove.append((u, v))
+                elif len(v) < len(u):
+                    to_remove.append((v, u))
+                else:
+                    # tie breaker: alphabetical
+                    if u < v:
+                        to_remove.append((u, v))
+                    else:
+                        to_remove.append((v, u))
+
+    for a, b in to_remove:
+        if G.has_edge(a, b):
+            G.remove_edge(a, b)
+
+    print(f"[Dedupe] Removed {len(to_remove)} symmetric duplicates.")
+
+
+# === RUN BOTH DEDUPES ===
+deduplicate_substring_entities(G)
+drop_symmetric_duplicates_keep_longest(G)
+
+
+# === 7. Save GEXF ===
+output_file_name = "ai_policy_kg_with_dependencies_6.gexf"
 nx.write_gexf(G, output_file_name)
 
 print("\nFinished building graph.")
@@ -148,20 +235,17 @@ print(f"Total nodes: {len(G.nodes)}, Total edges: {len(G.edges)}")
 print(f"Graph saved as {output_file_name}")
 
 
-# === 7. CSV EXPORTS===
+# === 8. CSV EXPORTS===
 print("\n=== Generating nodes_ug.csv and edges_ug.csv ===")
 
-# Node IDs
 node_list = list(G.nodes())
 node_to_id = {node: idx for idx, node in enumerate(node_list)}
 
-# NODES CSV 
-
+# NODES CSV
 nodes_rows = []
 for node, idx in node_to_id.items():
     data = G.nodes[node]
     category = data.get("label", "")
-
     doc_final = data.get("source_doc_id", -1)
 
     nodes_rows.append({
@@ -199,15 +283,3 @@ for u, v, ed in G.edges(data=True):
 edges_df = pd.DataFrame(edges_rows)
 edges_df.to_csv("./output/edges_ug.csv", index=False)
 print("Saved ./output/edges_ug.csv")
-
-
-"""
-# Print all node-edge-node triples with provenance
-print("\n=== All Extracted Relations ===")
-for u, v, data in G.edges(data=True):
-    rel = data.get("relation", "")
-    src = data.get("doc_id", "")
-    title = data.get("doc_name", "")
-    print(f"[{src} – {title}]  {u} --[{rel}]--> {v}")
-
-"""
