@@ -650,3 +650,144 @@ entity_map = {
     # State-specific canonicalization
     'Washington State': 'Washington',
 }
+
+
+# Some normalized terms do not have labels because they never existed independently
+# in the original text
+# The mapping below solves that issue
+# ===============================================================
+# NORMALIZED ENTITY → CORRECT COLLAPSED LABEL
+# ===============================================================
+
+normalized_entity_label = {
+
+    # --- CANONICAL AI / TECHNOLOGY ---
+    'AI': 'TECHNOLOGY',
+    'GenAI': 'TECHNOLOGY',
+    'ML': 'TECHNOLOGY',
+    'LLM': 'TECHNOLOGY',
+    'AI models': 'TECHNOLOGY',
+    'foundation AI models': 'TECHNOLOGY',
+    'frontier AI models': 'TECHNOLOGY',
+    'training data': 'TECHNOLOGY',
+    'deepfakes': 'TECHNOLOGY',
+    'biometric identification': 'TECHNOLOGY',
+    'autonomous vehicles': 'TECHNOLOGY',
+    'autonomous weapon systems': 'TECHNOLOGY',
+    'quantum technology': 'TECHNOLOGY',
+    'algorithms': 'TECHNOLOGY',
+    'automated decision systems': 'TECHNOLOGY',
+    'testing and evaluation': 'TECHNOLOGY',
+
+    # --- GOVERNMENT / AGENCIES / ROLES → ACTOR ---
+    'Department of Commerce': 'ACTOR',
+    'Department of Defense': 'ACTOR',
+    'Department of State': 'ACTOR',
+    'Department of Energy': 'ACTOR',
+    'Department of Agriculture': 'ACTOR',
+    'Department of Transportation': 'ACTOR',
+    'Department of Labor': 'ACTOR',
+    'Department of Education': 'ACTOR',
+    'Department of Health and Human Services': 'ACTOR',
+    'Department of Homeland Security': 'ACTOR',
+    'Department of the Treasury': 'ACTOR',
+    'Department of Veterans Affairs': 'ACTOR',
+    'Department of the Air Force': 'ACTOR',
+    'Department of the Navy': 'ACTOR',
+    'Department of the Army': 'ACTOR',
+    'NIST': 'ACTOR',
+    'NSF': 'ACTOR',
+    'NSA': 'ACTOR',
+    'CIA': 'ACTOR',
+    'FBI': 'ACTOR',
+    'OMB': 'ACTOR',
+    'NIH': 'ACTOR',
+    'FAA': 'ACTOR',
+    'FEMA': 'ACTOR',
+    'TSA': 'ACTOR',
+    'CISA': 'ACTOR',
+    'EPA': 'ACTOR',
+    'SBA': 'ACTOR',
+    'DEA': 'ACTOR',
+    'IRS': 'ACTOR',
+    'SEC': 'ACTOR',
+    'FEC': 'ACTOR',
+    'FinCEN': 'ACTOR',
+    'CFPB': 'ACTOR',
+    'GSA': 'ACTOR',
+    'GAO': 'ACTOR',
+    'OPM': 'ACTOR',
+    'OSTP': 'ACTOR',
+    'Coast Guard': 'ACTOR',
+    'CBP': 'ACTOR',
+    'ICE': 'ACTOR',
+    'NRC': 'ACTOR',
+    'USAID': 'ACTOR',
+    'NASA': 'ACTOR',
+    'DFC': 'ACTOR',
+    'DoD': 'ACTOR',
+    'Joint Artificial Intelligence Center': 'ACTOR',
+    'United States Cyber Command': 'ACTOR',
+    'DHS': 'ACTOR',
+    'Air Force': 'ACTOR',
+    'Navy': 'ACTOR',
+    'Army': 'ACTOR',
+    'Air National Guard': 'ACTOR',
+    'National Guard': 'ACTOR',
+    'National Intelligence': 'ACTOR',
+    'Intelligence Community': 'ACTOR',
+    'NOAA': 'ACTOR',
+    'law enforcement agencies': 'ACTOR',
+    'FTC': 'ACTOR',
+    'FCC': 'ACTOR',
+    'Governor': 'ACTOR',
+    'Attorney General': 'ACTOR',
+    'Commissioner': 'ACTOR',
+    'Mayor': 'ACTOR',
+    'state legislatures': 'ACTOR',
+    'federal courts': 'ACTOR',
+    'Speaker of the House': 'ACTOR',
+    'U.S. government': 'ACTOR',
+    'Armed Forces': 'ACTOR',
+
+    # --- GEOPOLITICAL ENTITIES ---
+    'China': 'ACTOR',
+    'Washington': 'ACTOR',
+
+    # --- LEGAL SOURCES (Acts, Laws, Bills, etc.) ---
+    'U.S. Copyright Office': 'LEGAL_SOURCE',
+    'Federal Trade Commission Act': 'LEGAL_SOURCE',
+    'standards': 'REQUIREMENT',  # not legal source
+
+    # --- DOMAIN ---
+    'education': 'DOMAIN',
+    'healthcare': 'DOMAIN',
+    'elections': 'DOMAIN',
+    'privacy': 'DOMAIN',
+    'discrimination': 'DOMAIN',
+    'children': 'DOMAIN',
+    'R&D': 'DOMAIN',
+    'AI research': 'DOMAIN',
+    'workforce': 'DOMAIN',
+    'elections': 'DOMAIN',
+    'national security': 'DOMAIN',
+    'cybersecurity': 'DOMAIN',
+    'risk management': 'DOMAIN',
+
+    # --- REQUIREMENT / GOVERNANCE ---
+    'standards': 'REQUIREMENT',
+    'audits': 'REQUIREMENT',
+    'transparency': 'REQUIREMENT',
+    'accountability': 'REQUIREMENT',
+    'Medicare': 'REQUIREMENT',
+
+    # --- RISK ---
+    'CSAM': 'RISK',
+    'privacy': 'RISK',
+    'discrimination': 'RISK',
+    'cybersecurity': 'RISK',
+
+    # --- LIFECYCLE STAGE ---
+    'AI deployment': 'LIFECYCLE_STAGE',
+}
+

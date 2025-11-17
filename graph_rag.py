@@ -95,17 +95,17 @@ def semantic_search_nodes(query: str, graph: nx.DiGraph, embed_model, threshold=
 
 
 # ================================================================
-# 6. Hybrid Retrieval (Semantic + Fuzzy)
+# 6. Hybrid Retrieval 
 # ================================================================
 def hybrid_node_retrieval(query, graph, ents, embed_model):
     hybrid_scores = {}
 
-    # FUZZY
+    # fuzzy
     for e in ents:
         for node, score in fuzzy_match_nodes(e, graph):
             hybrid_scores[node] = hybrid_scores.get(node, 0) + 0.30 * (score / 100.0)
 
-    # SEMANTIC
+    # semantic
     semantic_nodes = semantic_search_nodes(query, graph, embed_model, threshold=0.60, top_k=10)
     for node, score in semantic_nodes:
         hybrid_scores[node] = hybrid_scores.get(node, 0) + 0.70 * score
@@ -118,12 +118,11 @@ def hybrid_node_retrieval(query, graph, ents, embed_model):
         return fallback[:5]
 
     sorted_nodes = sorted(hybrid_scores.items(), key=lambda x: x[1], reverse=True)
-
     return [node for node, _ in sorted_nodes[:5]]
 
 
 # ================================================================
-# 7. DIRECT Triple Extraction (NOT graph hop expansion)
+# 7. Triple Extraction (direct neighbors only)
 # ================================================================
 def get_direct_triples(graph: nx.DiGraph, seed_nodes):
     triples = []
@@ -151,7 +150,7 @@ def get_direct_triples(graph: nx.DiGraph, seed_nodes):
 
 
 # ================================================================
-# 8. Triple-level semantic scoring
+# 8. Triple scoring
 # ================================================================
 def score_triple(query: str, triple: dict, embed_model):
     text = f"{triple['source']} {triple['relation']} {triple['target']}"
@@ -161,36 +160,29 @@ def score_triple(query: str, triple: dict, embed_model):
 
 
 # ================================================================
-# 9. Build LLM context
+# 9. Build prompt for LLM
 # ================================================================
-
-# Preload original documents.csv into a lookup table
 docs_df = pd.read_csv("data/documents_normalized.csv")
 
 
 def build_context_for_llm(query: str, triples, top_n_docs=3):
-    # Group triples by document
+
     grouped = {}
     for t in triples:
         key = (t["doc_id"], t["doc_name"])
         grouped.setdefault(key, []).append(t)
 
-    # Score documents by number of high-relevance triples
     scored_docs = [(key, len(vals)) for key, vals in grouped.items()]
     scored_docs.sort(key=lambda x: x[1], reverse=True)
 
-    # Pick top documents
     top_docs = scored_docs[:top_n_docs]
 
     lines = []
-    for (doc_id, doc_name), score in top_docs:
 
-        # === HEADER ===
+    for (doc_id, doc_name), score in top_docs:
         lines.append(f"[{doc_id} – {doc_name}]")
 
-        # === DOCUMENT TEXT (ONCE PER DOC) ===
         matches = docs_df.loc[docs_df["doc_id"] == doc_id]
-
         if len(matches) > 0:
             doc_text = matches["Normalized Long Summary"].iloc[0]
         else:
@@ -199,16 +191,14 @@ def build_context_for_llm(query: str, triples, top_n_docs=3):
         lines.append("Document Text:")
         lines.append("--------------")
         lines.append(doc_text.strip())
-        lines.append("")  # blank line
+        lines.append("")
 
-        # === TRIPLES (ONLY LIST THEM, DON'T DUPLICATE DOC TEXT) ===
         lines.append("Extracted Triples:")
         lines.append("-------------------")
         for triple in grouped[(doc_id, doc_name)]:
             lines.append(f"{triple['source']} --[{triple['relation']}]--> {triple['target']}")
-        lines.append("")  # blank line after the doc section
+        lines.append("")
 
-    # Combine all blocks
     graph_block = "\n".join(lines)
 
     final_prompt = f"""
@@ -224,13 +214,58 @@ Using ONLY the above evidence and the provided document text,
 provide a well-phrased answer. 
 DO NOT bring in any outside information.
 """
+
     return final_prompt
 
 
 # ================================================================
-# 10. Main Graph-RAG Entry
+# 10. Document search AND Graph-RAG answer
+# ================================================================
+
+def get_all_triples_grouped_by_document(graph):
+    grouped = {}
+    for u, v, data in graph.edges(data=True):
+        key = (data.get("doc_id"), data.get("doc_name"))
+        triple = {
+            "source": u,
+            "relation": data.get("relation",""),
+            "target": v,
+            **data
+        }
+        grouped.setdefault(key, []).append(triple)
+    return grouped
+
+
+def print_document_details(doc_id, doc_name, triples):
+
+    print(f"\n================ {doc_id} — {doc_name} ================\n")
+
+    matches = docs_df[docs_df["doc_id"] == doc_id]
+    if len(matches) > 0:
+        text = matches["Normalized Long Summary"].iloc[0]
+    else:
+        text = "(Document not found)"
+
+    print("DOCUMENT TEXT:")
+    print("--------------")
+    print(text)
+    print("\n\nExtracted Triples:")
+    print("------------------")
+
+    if len(triples) == 0:
+        print("(No triples extracted from this document.)")
+    else:
+        for t in triples:
+            print(f"{t['source']} --[{t['relation']}]--> {t['target']}")
+
+    print("\n=========================================================\n")
+
+
+# ================================================================
+# 11. Query entry point
 # ================================================================
 def graph_rag_answer(query: str, graph: nx.DiGraph, ner_nlp, embed_model):
+
     print(f"\n[GraphRAG] Query: {query}")
 
     ents = extract_query_entities(query, ner_nlp)
@@ -242,24 +277,23 @@ def graph_rag_answer(query: str, graph: nx.DiGraph, ner_nlp, embed_model):
     if not seed_nodes:
         return "No relevant graph nodes found."
 
-    # DIRECT triple extraction
-    all_triples = get_direct_triples(graph, seed_nodes)
+    triples = get_direct_triples(graph, seed_nodes)
 
-    # Semantic filtering
     relevant = []
-    for t in all_triples:
+    for t in triples:
         sim = score_triple(query, t, embed_model)
         if sim >= 0.50:
             t["score"] = sim
             relevant.append(t)
 
     relevant.sort(key=lambda x: x["score"], reverse=True)
-    relevant = relevant[:30]  
+    relevant = relevant[:30]
+
     return build_context_for_llm(query, relevant, top_n_docs=3)
 
 
 # ================================================================
-# 11. LLM Call
+# 12. LLM call
 # ================================================================
 def llm_answer_from_context(context: str, model="gpt-4o-mini"):
     response = client.chat.completions.create(
@@ -276,26 +310,55 @@ def llm_answer_from_context(context: str, model="gpt-4o-mini"):
 
 
 # ================================================================
-# 12. CLI 
+# 13. CLI with both modes
 # ================================================================
 if __name__ == "__main__":
-    graph = load_graph("ai_policy_kg_with_dependencies_5.gexf")
+    graph = load_graph("ai_policy_kg_with_dependencies_6.gexf")
     embed_model = build_node_embeddings(graph)
     ner_nlp = load_query_ner()
 
+    all_docs = get_all_triples_grouped_by_document(graph)
+
     while True:
-        user_query = input("\nEnter your policy question (or 'quit'): ")
-        if user_query.lower() == "quit":
+        print("\nChoose an option:")
+        print("1 = Ask a policy question (Graph-RAG QA)")
+        print("2 = Inspect a document")
+        print("quit = Exit")
+        mode = input("Enter choice: ").strip().lower()
+
+        if mode == "quit":
             break
 
-        context = graph_rag_answer(user_query, graph, ner_nlp, embed_model)
+        # Graph-RAG QA
+        if mode == "1":
+            q = input("\nEnter your policy question: ").strip()
+            context = graph_rag_answer(q, graph, ner_nlp, embed_model)
+            print("\n================= GRAPH RAG CONTEXT =================")
+            print(context)
+            print("=====================================================\n")
 
-        print("\n================= GRAPH RAG CONTEXT =================")
-        print(context)
-        print("=====================================================\n")
+            answer = llm_answer_from_context(context)
+            print("\n================ LLM ANSWER =================")
+            print(answer)
+            print("=============================================\n")
 
-        answer = llm_answer_from_context(context)
+        # Document inspection
+        elif mode == "2":
+            print("\nAvailable documents:")
+            for (doc_id, doc_name) in all_docs.keys():
+                print(f"- {doc_id}: {doc_name}")
 
-        print("\n================ LLM ANSWER =================")
-        print(answer)
-        print("=============================================\n")
+            chosen = input("\nEnter doc_id exactly (like doc_594): ").strip()
+
+            found = False
+            for (doc_id, doc_name), triples in all_docs.items():
+                if doc_id == chosen:
+                    print_document_details(doc_id, doc_name, triples)
+                    found = True
+                    break
+
+            if not found:
+                print("Document not found.")
+
+        else:
+            print("Invalid option.")
