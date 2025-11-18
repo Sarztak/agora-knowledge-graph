@@ -81,8 +81,10 @@ def parse_ner_results(json_path):
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
+    sub_verb_obj = []
     for item in tqdm(data, desc="Extracting relations"):
-        text = item["text"]
+        text = item["masked_text"]
+        law_entity = item["law_map"].get("LAW_ENTITY")
         doc_id = item["index"]
         patterns = [
             {"label": e["label"], "pattern": e["text"]}
@@ -94,10 +96,21 @@ def parse_ner_results(json_path):
         extractor = RelationExtractor(nlp)
         doc = nlp(text)
         rels = extractor.extract(doc, parser_type='child') 
-        breakpoint()
+
+        # post process rels
+        for sub, verb, obj in rels:
+            if not(sub and verb and obj):
+                continue
+            
+            if sub == 'LAW_ENTITY':
+                sub = law_entity
+            sub_verb_obj.append((sub, verb, obj))
+         
         nlp.remove_pipe(name)           # remove to keep pipeline clean
         del extractor                   # clean up memory
-        return rels
+    with open('entity_ext.txt', 'w', encoding='utf-8') as w: 
+        w.write("\n".join(str(s) for s in sub_verb_obj))
+    return sub_verb_obj
 
 
 def create_ner_list(df):
@@ -503,7 +516,7 @@ if __name__ == "__main__":
     # create_labels_remapped_nodes(label_map)
     # df = collapse_verbs(verb_map)
     # build_doc_kg()
-    parse_ner_results('./ner_results.json')
+    parse_ner_results('./masked_output.json')
     pass 
     # breakpoint()
     

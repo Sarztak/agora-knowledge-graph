@@ -12,10 +12,10 @@ class RelationExtractor:
         }
 
     def extract(self, text, parser_type='legal'):
-        """Main entry point. Selects a parser strategy."""
+        """main entry point. selects a parser strategy."""
         doc = self.nlp(text)
         if parser_type not in self.strategies:
-            raise ValueError(f"Unknown parser type: {parser_type}")
+            raise ValueError(f"unknown parser type: {parser_type}")
         return sorted(list(set(self.strategies[parser_type](doc))))
 
     def extract_grammar(self, doc):
@@ -52,7 +52,7 @@ class RelationExtractor:
                     subs = [w for w in token.lefts if w.dep_.startswith("nsubj")]
                     objs = [w for w in token.rights if w.dep_ in ("dobj", "attr", "pobj", "xcomp")]
 
-                    # Fallbacks for missing subject or object
+                    # fallbacks for missing subject or object
                     if not subs and objs:
                         subs = [w for w in sent if w.ent_type_ in ("ROLE", "ORGANIZATION", "GOVERNMENT")]
                     if subs and not objs:
@@ -68,80 +68,94 @@ class RelationExtractor:
 
     def extract_child(self, doc):
 
-        def find_entity_for_token(token, sent_entities):
-            for ent in sent_entities:
-                if token.i in range(ent.start, ent.end):
-                    return ent
+        def merge_entities_into_phrase(entities):
+            # entities is a list of Ent objects
+            if not entities:
+                return None
+            # convert each span to text
+            parts = [ent.text for ent in entities]
+            # join with ' and ' if multiple
+            if len(parts) == 1:
+                return parts[0]
+            return " and ".join(parts)
 
-        def find_children_token(token, sent_entities):
-            children = []
-            for child in token.children:
-                ent = find_entity_for_token(child, sent_entities)
-                if ent:
-                    children.append(ent)
-            return children 
-        
+        def get_governing_verb_and_role(ent):
+            head = ent.root
+            # if the head itself is a noun with a verb child, use that child
+            if head.pos_ in ("NOUN", "PROPN"):
+                for child in head.children:
+                    if child.pos_ == "VERB" and child.dep_ in ("appos", "acl", "relcl"):
+                        return child, "nsubj"  # treat the entity as subject
+            # otherwise walk upward
+            while head.pos_ != "VERB" and head != head.head:
+                head = head.head
+            if head.pos_ == "VERB":
+                return head, ent.root.dep_
+            return None, None
+
+
+        subj_deps = {"nsubj", "nsubjpass"}
+        obj_deps  = {"dobj", "pobj", "attr", "obl", "xcomp", "ccomp"}
+
         triplets = []
         for sent in doc.sents:
             sent_entities = [ent for ent in doc.ents if sent.start <= ent.start < sent.end]
-            verb_child_rel = {
-                token: find_children_token(token, sent_entities) for token in sent if token.pos_ == 'VERB'
-            }
+            verb_roles = {token: {"subj": [], "obj": []} for token in sent if token.pos_ == 'VERB'}
+            _vr = [get_governing_verb_and_role(ent) for ent in sent_entities]
+    
 
-            
-            # for token in sent:
-            #     if token.pos_ != "VERB":
-            #         continue
-            #     breakpoint()
-            #     subj_ents = [
-            #         ent for ent in sent_entities
-            #         if any(
-            #             child.dep_ in ("nsubj", "nsubjpass") and child.i in range(ent.start, ent.end)
-            #             for child in token.children
-            #         )
-            #     ]
+            for ent in sent_entities:
+                verb, role = get_governing_verb_and_role(ent)
+                if verb not in verb_roles:
+                    continue
 
-            #     obj_ents = [
-            #         ent for ent in sent_entities
-            #         if any(
-            #             child.dep_ in ("dobj", "pobj", "attr", "appos", "obl", "xcomp", "ccomp") and child.i in range(ent.start, ent.end)
-            #             for child in token.children
-            #         )
-            #     ]
+                if role in subj_deps:
+                    verb_roles[verb]["subj"].append(ent)
+                elif role in obj_deps:
+                    verb_roles[verb]["obj"].append(ent)
 
-                # for s in subj_ents:
-                #     for o in obj_ents:
-                #         if s != o:
-                #             triplets.append((s.text, token.lemma_, o.text))
 
+            for verb, roles in verb_roles.items():
+                for s in roles["subj"]:
+                    for o in roles["obj"]:
+                        triplets.append((s.text, verb.lemma_, o.text))
+                    # if len(roles["obj"]) > 1:
+                    #     start = roles["obj"][0].start
+                    #     end = roles["obj"][-1].end
+                    #     if start < end:
+                    #         full_span = sent[start:end]
+                    #         triplets.append((s.text, verb.lemma_, full_span.text))
+                    # else:
+                    #     for o in roles["obj"]:
+                    #         triplets.append((s.text, verb.lemma_, o.text))
         return triplets
 
-    # You can easily add new rule sets here
+    # you can easily add new rule sets here
     def add_strategy(self, name, func):
-        """Register a new extraction rule dynamically."""
+        """register a new extraction rule dynamically."""
         self.strategies[name] = func.__get__(self)
 
 
 if __name__ == "__main__":
     
-    # Example usage:
+    # example usage:
     nlp = spacy.load("en_core_web_sm")
     ruler = nlp.add_pipe("entity_ruler", before="ner")
 
     entity_patterns = [
-        {"label": "ORGANIZATION", "pattern": "Department of Commerce"},
-        {"label": "ROLE", "pattern": "Secretary of Commerce"},
-        {"label": "TECHNOLOGY", "pattern": "AI"},
-        {"label": "TECHNOLOGY", "pattern": "automation technologies"},
-        {"label": "SAFETY", "pattern": "cybersecurity"},
-        {"label": "GOVERNMENT", "pattern": "state and local governments"},
-        {"label": "REQUIREMENT", "pattern": "federally mandated"},
+        {"label": "organization", "pattern": "department of commerce"},
+        {"label": "role", "pattern": "secretary of commerce"},
+        {"label": "technology", "pattern": "ai"},
+        {"label": "technology", "pattern": "automation technologies"},
+        {"label": "safety", "pattern": "cybersecurity"},
+        {"label": "government", "pattern": "state and local governments"},
+        {"label": "requirement", "pattern": "federally mandated"},
     ]
 
-    text = """Appropriates $500 million to the Department of Commerce for FY 2025 to modernize federal IT systems using AI and automation technologies.
-    Authorizes the Secretary of Commerce to use funds to replace legacy systems, adopt efficient AI models, and enhance cybersecurity with AI solutions.
-    Enacts a 10-year moratorium preventing state and local governments from regulating AI models or systems.
-    Exempts laws facilitating AI deployment or removing legal barriers, provided they do not impose additional requirements unless federally mandated or generally applicable."""
+    text = """appropriates $500 million to the department of commerce for fy 2025 to modernize federal it systems using ai and automation technologies.
+    authorizes the secretary of commerce to use funds to replace legacy systems, adopt efficient ai models, and enhance cybersecurity with ai solutions.
+    enacts a 10-year moratorium preventing state and local governments from regulating ai models or systems.
+    exempts laws facilitating ai deployment or removing legal barriers, provided they do not impose additional requirements unless federally mandated or generally applicable."""
 
     ruler.add_patterns(entity_patterns)
     extractor = RelationExtractor(nlp)
