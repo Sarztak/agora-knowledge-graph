@@ -8,7 +8,8 @@ class RelationExtractor:
             'grammar': self.extract_grammar,
             'position': self.extract_position,
             'legal': self.extract_legal,
-            'child': self.extract_child
+            'child': self.extract_child,
+            'free': self.extract_free,
         }
 
     def extract(self, text, parser_type='legal'):
@@ -70,6 +71,7 @@ class RelationExtractor:
 
         def merge_entities_into_phrase(entities):
             # entities is a list of Ent objects
+            # still experiemental
             if not entities:
                 return None
             # convert each span to text
@@ -119,16 +121,116 @@ class RelationExtractor:
                 for s in roles["subj"]:
                     for o in roles["obj"]:
                         triplets.append((s.text, verb.lemma_, o.text))
-                    # if len(roles["obj"]) > 1:
-                    #     start = roles["obj"][0].start
-                    #     end = roles["obj"][-1].end
-                    #     if start < end:
-                    #         full_span = sent[start:end]
-                    #         triplets.append((s.text, verb.lemma_, full_span.text))
-                    # else:
-                    #     for o in roles["obj"]:
-                    #         triplets.append((s.text, verb.lemma_, o.text))
         return triplets
+
+    def extract_free(self, doc):
+        relations = []        
+        entity_spans = list(doc.ents)
+
+        # Extend entity spans with noun chunks not already covered
+        known_span_set = {(ent.start, ent.end) for ent in entity_spans}
+        for np in doc.noun_chunks:
+            if (np.start, np.end) not in known_span_set:
+                entity_spans.append(np)
+
+
+        def collect_direct_objects_only(verb_token, entity_spans):
+            """Collect only the DIRECT objects of this specific verb, not subordinate clauses"""
+            collected = []
+            visited = set()
+
+            def walk(t):
+                if t.i in visited:
+                    return
+                visited.add(t.i)
+
+                # Check if in entity
+                in_entity = False
+                for ent in entity_spans:
+                    if ent.start <= t.i < ent.end:
+                        collected.append(ent.text)
+                        in_entity = True
+                        break
+                
+                # For nouns, get full noun phrase with left modifiers
+                if not in_entity and t.pos_ in ("NOUN", "PROPN") and not t.is_stop:
+                    phrase_tokens = [t]
+                    for left_child in t.lefts:
+                        if left_child.dep_ in ("amod", "compound"):
+                            phrase_tokens.insert(0, left_child)
+                    
+                    phrase = " ".join([tok.text for tok in phrase_tokens])
+                    collected.append(phrase)
+
+                # Traverse right, but STOP at subordinate verbs
+                for child in t.rights:
+                    if child.pos_ == "VERB" and child.dep_ in ("acl", "xcomp", "ccomp", "relcl"):
+                        continue  
+                    walk(child)
+
+            walk(verb_token)
+            return list(set(collected))
+
+
+
+        for sent in doc.sents:
+            for token in sent:
+                if token.pos_ == "VERB":
+                    
+                    # Find the subject for this verb
+                    if token.dep_ == "ROOT":
+                        # Root verb: look for nsubj on the left
+                        subs = [w for w in token.lefts if w.dep_.startswith("nsubj")]
+                        if subs:
+                            subj_text = None
+                            for ent in entity_spans:
+                                if ent.start <= subs[0].i < ent.end:
+                                    subj_text = ent.text
+                                    break
+                            if not subj_text:
+                                subj_text = subs[0].text
+                        else:
+                            subj_text = "LAW_NAME"
+                    
+                    elif token.dep_ in ("acl", "relcl"):
+                        # Subordinate clause: subject is what this verb modifies (its head)
+                        subj_text = None
+                        for ent in entity_spans:
+                            if ent.start <= token.head.i < ent.end:
+                                subj_text = ent.text
+                                break
+                        if not subj_text:
+                            # Build noun phrase for the head
+                            phrase_tokens = [token.head]
+                            for left_child in token.head.lefts:
+                                if left_child.dep_ in ("amod", "compound"):
+                                    phrase_tokens.insert(0, left_child)
+                            subj_text = " ".join([tok.text for tok in phrase_tokens])
+                    
+                    elif token.dep_ in ("xcomp", "ccomp"):
+                        # Complement clause: subject is the subject of the main verb
+                        subj_text = None
+                        main_verb = token.head
+                        subs = [w for w in main_verb.lefts if w.dep_.startswith("nsubj")]
+                        if subs:
+                            for ent in entity_spans:
+                                if ent.start <= subs[0].i < ent.end:
+                                    subj_text = ent.text
+                                    break
+                            if not subj_text:
+                                subj_text = subs[0].text
+                        else:
+                            subj_text = "LAW_NAME"
+                    else:
+                        continue  # Skip other verb types
+                    
+                    # Get objects for this verb
+                    obj_entities = collect_direct_objects_only(token, entity_spans)
+                    for obj in obj_entities:
+                        if subj_text != obj:
+                            relations.append((subj_text, token.lemma_, obj))
+
+        return list(set(relations))
 
     # you can easily add new rule sets here
     def add_strategy(self, name, func):

@@ -208,6 +208,6 @@ relations = list(set(relations))
 for r in relations:
     print(r)
 
-for token in doc:
-    print(token.text, token.dep_, token.head.text, token.pos_)
-breakpoint()
+# for token in doc:
+#     print(token.text, token.dep_, token.head.text, token.pos_)
+# breakpoint()
