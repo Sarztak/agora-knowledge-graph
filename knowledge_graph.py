@@ -54,7 +54,6 @@ with open("ner_results.json", "w", encoding="utf-8") as f:
 
 print(f"Finished processing {len(df)} documents. Saved ner_results.json.")
 
-
 # === 5. Knowledge Graph Construction ===
 
 print("\n=== Building Knowledge Graph ===")
@@ -66,18 +65,35 @@ with open("ner_results.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 G = nx.DiGraph()
+def match_entity_for_token(token, entities):
+    """
+    Match token to the LONGEST entity span that contains it.
+    This fixes cases like token 'California' matching:
+       - 'California SJR 6'  (preferred)
+       - NOT 'California' alone
+    """
+    token_text = token.text.lower()
 
-# Helper
-def find_entities_in_sentence(entities, sent_text):
-    return [ent for ent in entities if ent in sent_text]
+    # 1. collect all entity candidates containing token
+    candidates = []
+    for ent_text in entities.keys():
+        if token_text in ent_text.lower().split():
+            candidates.append(ent_text)
+
+    if not candidates:
+        return None
+
+    # 2. return the LONGEST matching entity
+    return max(candidates, key=len)
+
 
 
 for item in tqdm(data, desc="Extracting relations"):
     text = item["text"]
 
+    # normalize entity labels and names
     raw_entities = {e["text"]: e["label"] for e in item["entities"]}
     entities = {}
-
     for ent_text, ent_label in raw_entities.items():
         clean_text = entity_map.get(ent_text, ent_text)
         clean_label = label_map.get(ent_label, ent_label)
@@ -91,9 +107,9 @@ for item in tqdm(data, desc="Extracting relations"):
     doc_name = meta["doc_name"]
     full_text = meta["text"]
 
-    # === Add nodes ===
     clean_doc_id = int(str(doc_id).replace("doc_", ""))
 
+    # === Add nodes ===
     for ent_text, ent_label in entities.items():
         G.add_node(
             ent_text,
@@ -101,40 +117,57 @@ for item in tqdm(data, desc="Extracting relations"):
             source_doc_id=clean_doc_id
         )
 
-
-    # === Add edges ===
+    # === Add edges (NEW FIXED METHOD) ===
     for sent in doc.sents:
-        sent_entities = find_entities_in_sentence(entities.keys(), sent.text)
 
         for token in sent:
-            if token.pos_ == "VERB":
+            if token.pos_ != "VERB":
+                continue
 
-                raw_lemma = token.lemma_
-                collapsed_verb = verb_map.get(raw_lemma, raw_lemma)
+            raw_lemma = token.lemma_
+            collapsed_verb = verb_map.get(raw_lemma, raw_lemma)
 
-                subj = [
-                    ent for ent in sent_entities
-                    if any(child.dep_ in ("nsubj", "nsubjpass") for child in token.children)
-                ]
+            # subjects of this verb
+            subj_tokens = [
+                child for child in token.children
+                if child.dep_ in ("nsubj", "nsubjpass")
+            ]
 
-                obj = [
-                    ent for ent in sent_entities
-                    if any(child.dep_ in ("dobj", "pobj", "attr", "appos", "obl", "xcomp", "ccomp") for child in token.children)
-                ]
+            # objects of this verb
+            obj_tokens = [
+                child for child in token.children
+                if child.dep_ in ("dobj", "pobj", "attr", "appos", "obl", "xcomp", "ccomp")
+            ]
 
-                for s in subj:
-                    for o in obj:
-                        if s != o:
-                            evidence = find_sentence(full_text, s, o)
-                            G.add_edge(
-                                s, o,
-                                relation=collapsed_verb,
-                                relation_type="verb_dependency",
-                                source_doc=source_doc,
-                                doc_id=doc_id,
-                                doc_name=doc_name,
-                                evidence=evidence or ""
-                            )
+            # Convert subject tokens → entity text
+            subj_entities = []
+            for tok in subj_tokens:
+                ent_name = match_entity_for_token(tok, entities)
+                if ent_name:
+                    subj_entities.append(ent_name)
+
+            # Convert object tokens → entity text
+            obj_entities = []
+            for tok in obj_tokens:
+                ent_name = match_entity_for_token(tok, entities)
+                if ent_name:
+                    obj_entities.append(ent_name)
+
+            # Create triples
+            for s in subj_entities:
+                for o in obj_entities:
+                    if s != o:
+                        evidence = find_sentence(full_text, s, o)
+                        G.add_edge(
+                            s, o,
+                            relation=collapsed_verb,
+                            relation_type="verb_dependency",
+                            source_doc=source_doc,
+                            doc_id=doc_id,
+                            doc_name=doc_name,
+                            evidence=evidence or ""
+                        )
+
 
 
 # ===================================================================
@@ -222,12 +255,12 @@ def drop_symmetric_duplicates_keep_longest(G: nx.DiGraph):
 
 
 # === RUN BOTH DEDUPES ===
-deduplicate_substring_entities(G)
-drop_symmetric_duplicates_keep_longest(G)
+#deduplicate_substring_entities(G)
+#drop_symmetric_duplicates_keep_longest(G)
 
 
 # === 7. Save GEXF ===
-output_file_name = "ai_policy_kg_with_dependencies_6.gexf"
+output_file_name = "ai_policy_kg_with_dependencies_children.gexf"
 nx.write_gexf(G, output_file_name)
 
 print("\nFinished building graph.")

@@ -182,17 +182,6 @@ def build_context_for_llm(query: str, triples, top_n_docs=3):
     for (doc_id, doc_name), score in top_docs:
         lines.append(f"[{doc_id} – {doc_name}]")
 
-        matches = docs_df.loc[docs_df["doc_id"] == doc_id]
-        if len(matches) > 0:
-            doc_text = matches["Normalized Long Summary"].iloc[0]
-        else:
-            doc_text = "(Document not found)"
-
-        lines.append("Document Text:")
-        lines.append("--------------")
-        lines.append(doc_text.strip())
-        lines.append("")
-
         lines.append("Extracted Triples:")
         lines.append("-------------------")
         for triple in grouped[(doc_id, doc_name)]:
@@ -205,14 +194,14 @@ def build_context_for_llm(query: str, triples, top_n_docs=3):
 User Query:
 {query}
 
-Top {top_n_docs} Most Relevant Documents:
+Top {top_n_docs} Most Relevant Documents (Knowledge Graph Triples Only):
 ==========================================
 
 {graph_block}
 
-Using ONLY the above evidence and the provided document text,
+Using ONLY the above knowledge graph triples (nodes and edges),
 provide a well-phrased answer. 
-DO NOT bring in any outside information.
+DO NOT bring in any outside information or original document content.
 """
 
     return final_prompt
@@ -313,7 +302,7 @@ def llm_answer_from_context(context: str, model="gpt-4o-mini"):
 # 13. CLI with both modes
 # ================================================================
 if __name__ == "__main__":
-    graph = load_graph("ai_policy_kg_with_dependencies_6.gexf")
+    graph = load_graph("ai_policy_kg_with_dependencies_children.gexf")
     embed_model = build_node_embeddings(graph)
     ner_nlp = load_query_ner()
 
