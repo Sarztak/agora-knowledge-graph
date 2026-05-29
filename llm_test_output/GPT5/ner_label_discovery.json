@@ -1,0 +1,149 @@
+{
+  "categories": [
+    {
+      "category_name": "ORG",
+      "entities": [
+        "California's Government Operations Agency",
+        "California Cybersecurity Integration Center",
+        "GSA",
+        "National Institute of Standards and Technology",
+        "Bureau of Consumer Financial Protection",
+        "Federal Election Commission (FEC)",
+        "Department of Education",
+        "Federal Trade Commission",
+        "National Science Foundation",
+        "Department of Commerce",
+        "Civil Rights Department",
+        "Rhode Island Department of Administration",
+        "Department of Labor and Training",
+        "Rhode Island Department of Education",
+        "Office of Post Secondary Commissioner",
+        "National Laboratories"
+      ]
+    },
+    {
+      "category_name": "ROLE",
+      "entities": [
+        "Secretary of Health and Human Services",
+        "Comptroller General",
+        "Governor",
+        "Lieutenant Governor",
+        "Speaker of the House",
+        "Secretary of Energy",
+        "Secretary of State",
+        "Secretary of Defense",
+        "Administrator",
+        "Assistant Secretary for Preparedness and Response",
+        "Chief Data Officer",
+        "Inspector General of the DOC",
+        "State Superintendent of Education"
+      ]
+    },
+    {
+      "category_name": "LAW",
+      "entities": [
+        "Executive Order 13960",
+        "OMB Memorandum M-25-21",
+        "National Quantum Initiative Act",
+        "Federal Election Campaign Act of 1971",
+        "Trade Act of 1974",
+        "Workforce Innovation and Opportunity Act",
+        "Elementary and Secondary Education Act of 1965",
+        "Freedom From AI-Rigged (FAIR) Elections Act"
+      ]
+    },
+    {
+      "category_name": "PROGRAM",
+      "entities": [
+        "AI leadership training program",
+        "AI research and development program",
+        "AI Center of Excellence",
+        "AI Task Force",
+        "Artificial Intelligence in Education Task Force",
+        "Supply Chain Resiliency and Crisis Response Office",
+        "Illinois Future of Work Task Force",
+        "university-led traineeship program"
+      ]
+    },
+    {
+      "category_name": "TECH",
+      "entities": [
+        "automated insulin delivery systems",
+        "diabetes technology",
+        "diabetes technologies",
+        "insulin pumps",
+        "Generative AI (GenAI)",
+        "energy infrastructure",
+        "AI",
+        "robotics",
+        "automation",
+        "artificial intelligence",
+        "computational tools",
+        "AI and machine learning technologies",
+        "quantum technologies",
+        "high-performance computing systems",
+        "quantum supply chain",
+        "hypersonic missiles",
+        "cyber capabilities",
+        "synthetic media"
+      ]
+    },
+    {
+      "category_name": "DOC",
+      "entities": [
+        "10-year strategic plan",
+        "AI, robotics, and automation commission report",
+        "national coverage determination",
+        "report",
+        "National Health Security Strategy"
+      ]
+    },
+    {
+      "category_name": "ORG_GROUP",
+      "entities": [
+        "federal agencies",
+        "California departments",
+        "civil rights stakeholders",
+        "civil society",
+        "academia",
+        "industry experts",
+        "cross-functional teams",
+        "executive agencies"
+      ]
+    },
+    {
+      "category_name": "PLACE",
+      "entities": [
+        "United States",
+        "Australia",
+        "Canada",
+        "UK",
+        "People's Republic of China",
+        "States",
+        "UC Berkeley",
+        "Stanford"
+      ]
+    },
+    {
+      "category_name": "DATA",
+      "entities": [
+        "educational data",
+        "certain educational data",
+        "covered person",
+        "covered persons",
+        "labor market information",
+        "shared repository of best practices",
+        "data center testbeds"
+      ]
+    },
+    {
+      "category_name": "REQUIREMENT",
+      "entities": [
+        "procurement guidelines",
+        "training guidelines",
+        "anticipatory release policy",
+        "GenAI threats"
+      ]
+    }
+  ]
+}

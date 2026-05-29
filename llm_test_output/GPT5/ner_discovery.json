@@ -1,0 +1,512 @@
+[
+  {
+    "text": "Secretary of Health and Human Services",
+    "sentence": "Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement."
+  },
+  {
+    "text": "automated insulin delivery systems",
+    "sentence": "Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement."
+  },
+  {
+    "text": "Medicare",
+    "sentence": "Mandates the Secretary of Health and Human Services to recognize algorithms in automated insulin delivery systems as medically necessary under Medicare, ensuring their separate reimbursement."
+  },
+  {
+    "text": "Medicare Part B",
+    "sentence": "Ensures care continuity for individuals using diabetes technology when enrolling in Medicare Part B by January 2026."
+  },
+  {
+    "text": "diabetes technology",
+    "sentence": "Ensures care continuity for individuals using diabetes technology when enrolling in Medicare Part B by January 2026."
+  },
+  {
+    "text": "Medicare Part B",
+    "sentence": "Requires development of a process to consider diabetes technologies not currently covered under Medicare Part B for potential inclusion."
+  },
+  {
+    "text": "diabetes technologies",
+    "sentence": "Requires development of a process to consider diabetes technologies not currently covered under Medicare Part B for potential inclusion."
+  },
+  {
+    "text": "coding for insulin pump training",
+    "sentence": "Mandates creation of new coding for insulin pump training and education by 2026, to enhance billing and reimbursement transparency."
+  },
+  {
+    "text": "insulin pump training",
+    "sentence": "Mandates creation of new coding for insulin pump training and education by 2026, to enhance billing and reimbursement transparency."
+  },
+  {
+    "text": "national coverage determination",
+    "sentence": "Obligates the issuance of a national coverage determination for insulin pumps within 180 days from enactment."
+  },
+  {
+    "text": "insulin pumps",
+    "sentence": "Obligates the issuance of a national coverage determination for insulin pumps within 180 days from enactment."
+  },
+  {
+    "text": "Comptroller General",
+    "sentence": "Instructs the Comptroller General to report within a year on barriers hindering access to diabetes technologies and services in Federal healthcare programs, reviewing legal and policy issues affecting access."
+  },
+  {
+    "text": "Federal healthcare programs",
+    "sentence": "Instructs the Comptroller General to report within a year on barriers hindering access to diabetes technologies and services in Federal healthcare programs, reviewing legal and policy issues affecting access."
+  },
+  {
+    "text": "California's Government Operations Agency",
+    "sentence": "Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state."
+  },
+  {
+    "text": "Governor",
+    "sentence": "Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state."
+  },
+  {
+    "text": "Generative AI (GenAI)",
+    "sentence": "Orders California's Government Operations Agency and related entities to draft a report for the Governor within 60 days on beneficial uses and risks of Generative AI (GenAI) by the state."
+  },
+  {
+    "text": "California Cybersecurity Integration Center",
+    "sentence": "Requires the California Cybersecurity Integration Center and related bodies to perform a risk analysis by March 2024 on GenAI threats to energy infrastructure, brief the Governor on findings, and make public recommendations for actions to guard against GenAI threats when appropriate."
+  },
+  {
+    "text": "energy infrastructure",
+    "sentence": "Requires the California Cybersecurity Integration Center and related bodies to perform a risk analysis by March 2024 on GenAI threats to energy infrastructure, brief the Governor on findings, and make public recommendations for actions to guard against GenAI threats when appropriate."
+  },
+  {
+    "text": "GenAI threats",
+    "sentence": "Requires the California Cybersecurity Integration Center and related bodies to perform a risk analysis by March 2024 on GenAI threats to energy infrastructure, brief the Governor on findings, and make public recommendations for actions to guard against GenAI threats when appropriate."
+  },
+  {
+    "text": "California departments",
+    "sentence": "Directs various California departments to issue procurement and training guidelines for GenAI by January 2024."
+  },
+  {
+    "text": "procurement guidelines",
+    "sentence": "Directs various California departments to issue procurement and training guidelines for GenAI by January 2024."
+  },
+  {
+    "text": "training guidelines",
+    "sentence": "Directs various California departments to issue procurement and training guidelines for GenAI by January 2024."
+  },
+  {
+    "text": "vulnerable communities",
+    "sentence": "Instructs relevant agencies to develop guidelines by July 2024 for using GenAI tools with vulnerable communities."
+  },
+  {
+    "text": "GenAI pilot project infrastructure",
+    "sentence": "Mandates establishment of GenAI pilot project infrastructure by March 2024."
+  },
+  {
+    "text": "Governor's Office",
+    "sentence": "Urges the Governor's Office to partner with UC Berkeley and Stanford to evaluate GenAI's impact."
+  },
+  {
+    "text": "UC Berkeley",
+    "sentence": "Urges the Governor's Office to partner with UC Berkeley and Stanford to evaluate GenAI's impact."
+  },
+  {
+    "text": "Stanford",
+    "sentence": "Urges the Governor's Office to partner with UC Berkeley and Stanford to evaluate GenAI's impact."
+  },
+  {
+    "text": "legal counsel",
+    "sentence": "Tasks legal counsel to assess GenAI's regulatory impact and recommend updates."
+  },
+  {
+    "text": "civil society",
+    "sentence": "Emphasizes collaboration with civil society, academia, and industry experts in drafting guidelines and conducting analyses."
+  },
+  {
+    "text": "academia",
+    "sentence": "Emphasizes collaboration with civil society, academia, and industry experts in drafting guidelines and conducting analyses."
+  },
+  {
+    "text": "industry experts",
+    "sentence": "Emphasizes collaboration with civil society, academia, and industry experts in drafting guidelines and conducting analyses."
+  },
+  {
+    "text": "American AI marketplace",
+    "sentence": "Promotes the competitive American AI marketplace by mandating federal agencies to procure AI systems that enhance efficiency and mission effectiveness while avoiding dependence on single vendors."
+  },
+  {
+    "text": "federal agencies",
+    "sentence": "Promotes the competitive American AI marketplace by mandating federal agencies to procure AI systems that enhance efficiency and mission effectiveness while avoiding dependence on single vendors."
+  },
+  {
+    "text": "Executive Order 13960",
+    "sentence": "Ensures taxpayer dollars are safeguarded by tracking AI performance and managing risks as outlined in Executive Order 13960."
+  },
+  {
+    "text": "OMB Memorandum M-25-21",
+    "sentence": "Directs agencies to update internal procedures within 270 days to align with this memorandum and OMB Memorandum M-25-21, requiring cross-functional teams for AI acquisitions and addressing intellectual property rights."
+  },
+  {
+    "text": "cross-functional teams",
+    "sentence": "Directs agencies to update internal procedures within 270 days to align with this memorandum and OMB Memorandum M-25-21, requiring cross-functional teams for AI acquisitions and addressing intellectual property rights."
+  },
+  {
+    "text": "GSA",
+    "sentence": "Requires GSA to develop AI acquisition guides within 100 days and establish a shared repository of best practices within 200 days."
+  },
+  {
+    "text": "AI acquisition guides",
+    "sentence": "Requires GSA to develop AI acquisition guides within 100 days and establish a shared repository of best practices within 200 days."
+  },
+  {
+    "text": "shared repository of best practices",
+    "sentence": "Requires GSA to develop AI acquisition guides within 100 days and establish a shared repository of best practices within 200 days."
+  },
+  {
+    "text": "National Institute of Standards and Technology",
+    "sentence": "Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies."
+  },
+  {
+    "text": "PRC policies",
+    "sentence": "Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies."
+  },
+  {
+    "text": "international standards-setting bodies",
+    "sentence": "Instructs the Director of the National Institute of Standards and Technology to work with an entity with relevant expertise to conduct a study on PRC policies and influence in the development of emerging technology international standards, and make recommendations on how the U.S. can mitigate PRC influence and bolster U.S. participation in international standards-setting bodies."
+  },
+  {
+    "text": "National Quantum Initiative Act",
+    "sentence": "Amends the National Quantum Initiative Act to mandate the Secretary of Energy to conduct a program focusing on quantum information science research, development, and commercialization."
+  },
+  {
+    "text": "Secretary of Energy",
+    "sentence": "Amends the National Quantum Initiative Act to mandate the Secretary of Energy to conduct a program focusing on quantum information science research, development, and commercialization."
+  },
+  {
+    "text": "National Quantum Information Science Research Centers",
+    "sentence": "Operates National Quantum Information Science Research Centers to facilitate breakthroughs in quantum technologies."
+  },
+  {
+    "text": "National Laboratories",
+    "sentence": "Requires collaboration with industry, National Laboratories, and educational institutions for technology development."
+  },
+  {
+    "text": "quantum technology industry",
+    "sentence": "Engages with the quantum technology industry to promote the commercialization of applications relevant to the Department of Energy's activities."
+  },
+  {
+    "text": "10-year strategic plan",
+    "sentence": "Submits a 10-year strategic plan to integrate quantum and AI with high-performance computing systems."
+  },
+  {
+    "text": "high-performance computing systems",
+    "sentence": "Submits a 10-year strategic plan to integrate quantum and AI with high-performance computing systems."
+  },
+  {
+    "text": "quantum high-performance computing research program",
+    "sentence": "Establishes an early-stage quantum high-performance computing research program."
+  },
+  {
+    "text": "quantum supply chain",
+    "sentence": "Conducts a study on the quantum supply chain to identify growth obstacles and recommends strategies to bolster domestic manufacturing and workforce development."
+  },
+  {
+    "text": "workforce development",
+    "sentence": "Conducts a study on the quantum supply chain to identify growth obstacles and recommends strategies to bolster domestic manufacturing and workforce development."
+  },
+  {
+    "text": "university-led traineeship program",
+    "sentence": "Launches a university-led traineeship program to develop the quantum workforce."
+  },
+  {
+    "text": "Bureau of Consumer Financial Protection",
+    "sentence": "Requires the Bureau of Consumer Financial Protection to assess the use of educational data and automated processes in creditworthiness determinations annually."
+  },
+  {
+    "text": "educational data",
+    "sentence": "Requires the Bureau of Consumer Financial Protection to assess the use of educational data and automated processes in creditworthiness determinations annually."
+  },
+  {
+    "text": "automated processes",
+    "sentence": "Requires the Bureau of Consumer Financial Protection to assess the use of educational data and automated processes in creditworthiness determinations annually."
+  },
+  {
+    "text": "civil rights stakeholders",
+    "sentence": "Mandates coordination with executive agencies and civil rights stakeholders for these assessments."
+  },
+  {
+    "text": "algorithmic underwriting processes",
+    "sentence": "Examines the risks and disparate impacts of using automated or algorithmic underwriting processes."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Obligates the Bureau to report findings and recommendations to Congress 60 days post-assessment."
+  },
+  {
+    "text": "covered persons",
+    "sentence": "Requires public disclosure of assessment findings, lists of covered persons using educational data, and those employing automated or algorithmic processes."
+  },
+  {
+    "text": "certain educational data",
+    "sentence": "Defines key terms, including \"certain educational data\" and \"covered person,\" with references to existing legislation."
+  },
+  {
+    "text": "covered person",
+    "sentence": "Defines key terms, including \"certain educational data\" and \"covered person,\" with references to existing legislation."
+  },
+  {
+    "text": "Federal Election Campaign Act of 1971",
+    "sentence": "Amends the Federal Election Campaign Act of 1971 to include penalties for violations of the disclaimer requirements, with fines up to $50,000."
+  },
+  {
+    "text": "Federal Election Commission (FEC)",
+    "sentence": "Directs the Federal Election Commission (FEC) to issue regulations outlining criteria for determining substantially AI-generated content and requirements for the disclosure statement."
+  },
+  {
+    "text": "Artificial Intelligence in Education Task Force",
+    "sentence": "Establishes an Artificial Intelligence in Education Task Force in Mississippi to evaluate and recommend AI applications in K-12 education."
+  },
+  {
+    "text": "State Superintendent of Education",
+    "sentence": "Requires the State Superintendent of Education to chair the task force, with administrative support provided by the Department of Education."
+  },
+  {
+    "text": "Department of Education",
+    "sentence": "Requires the State Superintendent of Education to chair the task force, with administrative support provided by the Department of Education."
+  },
+  {
+    "text": "Governor",
+    "sentence": "Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy."
+  },
+  {
+    "text": "Lieutenant Governor",
+    "sentence": "Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy."
+  },
+  {
+    "text": "Speaker of the House",
+    "sentence": "Comprises twelve members appointed by the Governor, Lieutenant Governor, and Speaker of the House, possessing expertise in education, technology, and data privacy."
+  },
+  {
+    "text": "Federal Trade Commission",
+    "sentence": "Mandates the FTC to create regulations within one year for reasonable, equitable, and non-deceptive data practices, including opt-out and affirmative consent mechanisms."
+  },
+  {
+    "text": "National Science Foundation",
+    "sentence": "Directs the National Science Foundation to support research on privacy-enhancing technologies."
+  },
+  {
+    "text": "Workforce Innovation and Opportunity Act",
+    "sentence": "Amends Section 169 of the Workforce Innovation and Opportunity Act to evaluate programs using emerging technology, including AI, for enhancing labor market information and data integration."
+  },
+  {
+    "text": "labor market information",
+    "sentence": "Amends Section 169 of the Workforce Innovation and Opportunity Act to evaluate programs using emerging technology, including AI, for enhancing labor market information and data integration."
+  },
+  {
+    "text": "States",
+    "sentence": "Demands evaluation of AI and machine learning adoption by States in workforce systems, assessing accuracy and identifying biases."
+  },
+  {
+    "text": "Secretary of State",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "Secretary of Defense",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "Australia",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "Canada",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "UK",
+    "sentence": "Requires the Secretary of State, in coordination with the Secretary of Defense, to compile a list of pre-cleared military technologies and platforms for sale to Australia, Canada, and the UK within 90 days of enactment and annually thereafter."
+  },
+  {
+    "text": "Foreign Military Sales",
+    "sentence": "Expedites the processing of Foreign Military Sales requests from Australia, Canada, and the UK."
+  },
+  {
+    "text": "anticipatory release policy",
+    "sentence": "Mandates the creation of an anticipatory release policy for key Foreign Military Sales capabilities, including AI, hypersonic missiles, cyber capabilities, and quantum technologies, with a presumption of approval."
+  },
+  {
+    "text": "AI",
+    "sentence": "Mandates the creation of an anticipatory release policy for key Foreign Military Sales capabilities, including AI, hypersonic missiles, cyber capabilities, and quantum technologies, with a presumption of approval."
+  },
+  {
+    "text": "hypersonic missiles",
+    "sentence": "Mandates the creation of an anticipatory release policy for key Foreign Military Sales capabilities, including AI, hypersonic missiles, cyber capabilities, and quantum technologies, with a presumption of approval."
+  },
+  {
+    "text": "cyber capabilities",
+    "sentence": "Mandates the creation of an anticipatory release policy for key Foreign Military Sales capabilities, including AI, hypersonic missiles, cyber capabilities, and quantum technologies, with a presumption of approval."
+  },
+  {
+    "text": "quantum technologies",
+    "sentence": "Mandates the creation of an anticipatory release policy for key Foreign Military Sales capabilities, including AI, hypersonic missiles, cyber capabilities, and quantum technologies, with a presumption of approval."
+  },
+  {
+    "text": "Secretary of Energy",
+    "sentence": "Directs the Secretary of Energy to support the development of new and emerging technologies to increase the resilience of electrical grid design, planning, and operation."
+  },
+  {
+    "text": "electrical grid",
+    "sentence": "Directs the Secretary of Energy to support the development of new and emerging technologies to increase the resilience of electrical grid design, planning, and operation."
+  },
+  {
+    "text": "computational tools",
+    "sentence": "Mandates the Secretary to bolster the usage of computational tools and technologies in improving the sensing, monitoring, and visualization of the electric grid; models must be able to predict the effects of adverse physical and cyber events on the electric grid."
+  },
+  {
+    "text": "artificial intelligence",
+    "sentence": "Instructs the Secretary to research the potential deployment of new and emerging technologies, including artificial intelligence, with existing electrical grid infrastructure."
+  },
+  {
+    "text": "financial services industry",
+    "sentence": "Requires a report on artificial intelligence regulation in the financial services industry, establishes artificial intelligence bug bounty programs, requires a vulnerability analysis study for artificial intelligence-enabled military applications, and requires a report on data sharing and coordination."
+  },
+  {
+    "text": "People's Republic of China",
+    "sentence": "Prohibits the Secretary of Commerce from exporting any national security sensitive technology or intellectual property to the People's Republic of China."
+  },
+  {
+    "text": "Trade Act of 1974",
+    "sentence": "Defines \"national security sensitive technology or intellectual property\" to include contributions to China's military, protection of U.S. economic security, and components of key products listed under the Trade Act of 1974."
+  },
+  {
+    "text": "robotics",
+    "sentence": "Establishes a temporary New York state commission, composed of 13 members appointed by stakeholders in government and academia, to study the impact of and make determinations on how to regulate AI, robotics, and automation."
+  },
+  {
+    "text": "automation",
+    "sentence": "Establishes a temporary New York state commission, composed of 13 members appointed by stakeholders in government and academia, to study the impact of and make determinations on how to regulate AI, robotics, and automation."
+  },
+  {
+    "text": "AI, robotics, and automation commission report",
+    "sentence": "Requires the commission to issue a final report to the governor and other state leaders before December 31, 2024."
+  },
+  {
+    "text": "Illinois Future of Work Task Force",
+    "sentence": "Creates the Illinois Future of Work Task Force to proactively plan for the future of work and address current labor issues."
+  },
+  {
+    "text": "Governor",
+    "sentence": "Requires the Task Force to submit a report with findings to the Governor and General Assembly by May 1, 2022, and dissolves upon report submission."
+  },
+  {
+    "text": "Department of Commerce",
+    "sentence": "Directs the Department of Commerce to establish a Supply Chain Resiliency and Crisis Response Office, responsible for awarding grants, loans, and loan guarantees to critical industry and supply chain stakeholders that integrate artificial intelligence into manufacturing."
+  },
+  {
+    "text": "Supply Chain Resiliency and Crisis Response Office",
+    "sentence": "Directs the Department of Commerce to establish a Supply Chain Resiliency and Crisis Response Office, responsible for awarding grants, loans, and loan guarantees to critical industry and supply chain stakeholders that integrate artificial intelligence into manufacturing."
+  },
+  {
+    "text": "Inspector General of the DOC",
+    "sentence": "Directs the Inspector General of the DOC to audit activities supported by the Supply Chain Resiliency and Crisis Response Office's grants, loans, and loan guarantees every four years."
+  },
+  {
+    "text": "Elementary and Secondary Education Act of 1965",
+    "sentence": "Amends the Elementary and Secondary Education Act of 1965 to expand career counseling opportunities."
+  },
+  {
+    "text": "career counseling programs",
+    "sentence": "Requires career counseling programs to leverage resources and emerging technologies, including artificial intelligence."
+  },
+  {
+    "text": "Administrator",
+    "sentence": "Requires the Administrator to conduct a review of current and planned AI and machine learning technologies to enhance airport efficiency and safety."
+  },
+  {
+    "text": "AI and machine learning technologies",
+    "sentence": "Requires the Administrator to conduct a review of current and planned AI and machine learning technologies to enhance airport efficiency and safety."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Obligates the Administrator to submit a report to Congress within one year, detailing the review's findings."
+  },
+  {
+    "text": "Secretary of Energy",
+    "sentence": "Instructs the Secretary to research the potential deployment of new and emerging technologies, including artificial intelligence, with existing electrical grid infrastructure."
+  },
+  {
+    "text": "AI leadership training program",
+    "sentence": "Establishes an AI leadership training program for management officials, supervisors, and other designated employees in executive agencies, to be developed and implemented within 18 months."
+  },
+  {
+    "text": "executive agencies",
+    "sentence": "Establishes an AI leadership training program for management officials, supervisors, and other designated employees in executive agencies, to be developed and implemented within 18 months."
+  },
+  {
+    "text": "Congress",
+    "sentence": "Permits Congress to request detailed information about the program materials and responsible personnel."
+  },
+  {
+    "text": "Civil Rights Department",
+    "sentence": "Requires any entity that develops or deploys an automated decision tool to perform an impact assessment on the tool ... and be provided to the state's Civil Rights Department."
+  },
+  {
+    "text": "AI research and development program",
+    "sentence": "Establishes a cross-cutting AI research and development program within the Department of Energy to advance AI tools, systems, and capabilities."
+  },
+  {
+    "text": "Office of Science",
+    "sentence": "Mandates coordination across relevant offices such as the Office of Science and the Office of Energy Efficiency to carry out this program."
+  },
+  {
+    "text": "Office of Energy Efficiency",
+    "sentence": "Mandates coordination across relevant offices such as the Office of Science and the Office of Energy Efficiency to carry out this program."
+  },
+  {
+    "text": "data center testbeds",
+    "sentence": "Establishes data center testbeds to improve energy efficiency in AI training and inference."
+  },
+  {
+    "text": "Assistant Secretary for Preparedness and Response",
+    "sentence": "Requires the Assistant Secretary for Preparedness and Response to conduct risk assessments and implement strategic initiatives that address whether AI can develop novel pathogens, viruses, bioweapons, or chemical weapons, including monitoring and researching the global biological catastrophic risk landscape."
+  },
+  {
+    "text": "National Health Security Strategy",
+    "sentence": "Requires the Assistant Secretary for Preparedness and Response to include a summary of the risk assessment above in the National Health Security Strategy."
+  },
+  {
+    "text": "Freedom From AI-Rigged (FAIR) Elections Act",
+    "sentence": "Enacts the \"Freedom From AI-Rigged (FAIR) Elections Act\" to regulate synthetic media in electioneering communications."
+  },
+  {
+    "text": "synthetic media",
+    "sentence": "Defines \"synthetic media\" as altered audio or video intended to mislead about real events or speech through advanced digital techniques."
+  },
+  {
+    "text": "Rhode Island Department of Administration",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "Chief Data Officer",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "Data Center of Excellence",
+    "sentence": "Mandates the Department of Administration (DOA) to appoint a Chief Data Officer (CDO) to oversee the Data Center of Excellence, enhancing data operations and readiness for AI integration."
+  },
+  {
+    "text": "AI Center of Excellence",
+    "sentence": "Creates an AI Center of Excellence to formulate AI policies and ethics, minimizing bias and guiding AI implementation in state operations."
+  },
+  {
+    "text": "AI Task Force",
+    "sentence": "Forms an AI Task Force to assess AI risks and opportunities, providing advice to policymakers."
+  },
+  {
+    "text": "Department of Labor and Training",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  },
+  {
+    "text": "Rhode Island Department of Education",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  },
+  {
+    "text": "Office of Post Secondary Commissioner",
+    "sentence": "Instructs the Department of Labor and Training (DLT), Rhode Island Department of Education (RIDE), and Office of Post Secondary Commissioner (OPC) to develop AI training programs for state and private-sector workers, integrating AI topics into existing curricula."
+  }
+]
+
+

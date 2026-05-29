@@ -1,0 +1,187 @@
+[
+  {
+    "text": "care continuity",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "AI performance",
+    "original_label": "VALUE_PROP",
+    "new_label": "PERFORMANCE_CRITERIA"
+  },
+  {
+    "text": "intellectual property rights",
+    "original_label": "VALUE_PROP",
+    "new_label": "LEGAL_CONCEPT"
+  },
+  {
+    "text": "national data privacy standards",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "human rights",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "diversity",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "individual autonomy",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "fairness",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "privacy protection",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "data security",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "data governance",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "vulnerability assessments",
+    "original_label": "VALUE_PROP",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "AI reliability and safety",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "risk management",
+    "original_label": "VALUE_PROP",
+    "new_label": "PROCESS"
+  },
+  {
+    "text": "transparency and explainability",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "contestability",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "human oversight",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_RULE"
+  },
+  {
+    "text": "property right",
+    "original_label": "VALUE_PROP",
+    "new_label": "LEGAL_CONCEPT"
+  },
+  {
+    "text": "eligibility verification and fraud detection",
+    "original_label": "VALUE_PROP",
+    "new_label": "USE_CASE"
+  },
+  {
+    "text": "ethical AI use",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "cybersecurity",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "green, peaceful economy",
+    "original_label": "VALUE_PROP",
+    "new_label": "POLICY_GOAL"
+  },
+  {
+    "text": "educational data",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DATA_TYPE"
+  },
+  {
+    "text": "creditworthiness determinations",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "USE_CASE"
+  },
+  {
+    "text": "assessment findings",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DATA_TYPE"
+  },
+  {
+    "text": "certain educational data",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DATA_TYPE"
+  },
+  {
+    "text": "quantum supply chain",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DOMAIN_AREA"
+  },
+  {
+    "text": "medium to high-risk data",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DATA_CLASSIFICATION"
+  },
+  {
+    "text": "moderate/high-risk data",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DATA_CLASSIFICATION"
+  },
+  {
+    "text": "medical assistance claims data",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DATA_TYPE"
+  },
+  {
+    "text": "data from other state agencies",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DATA_TYPE"
+  },
+  {
+    "text": "quantum information science research, development, and commercialization",
+    "original_label": "CONCEPT_DATA",
+    "new_label": "DOMAIN_AREA"
+  },
+  {
+    "text": "cross-functional teams",
+    "original_label": "LABOR_REL",
+    "new_label": "ORG_UNIT"
+  },
+  {
+    "text": "quantum workforce",
+    "original_label": "LABOR_REL",
+    "new_label": "DOMAIN_AREA"
+  },
+  {
+    "text": "technical position",
+    "original_label": "LABOR_REL",
+    "new_label": "JOB_TITLE"
+  },
+  {
+    "text": "unauthorized production, distribution, or public display of digital replicas",
+    "original_label": "ABSTRACT_TERM",
+    "new_label": "LEGAL_OFFENSE"
+  },
+  {
+    "text": "unlawful dissemination or publication of intimate images",
+    "original_label": "ABSTRACT_TERM",
+    "new_label": "LEGAL_OFFENSE"
+  }
+]

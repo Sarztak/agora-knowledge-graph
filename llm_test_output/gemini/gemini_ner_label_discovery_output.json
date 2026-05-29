@@ -1,0 +1,321 @@
+{
+  "categories": [
+    {
+      "category_name": "ORG",
+      "entities": [
+        "California's Government Operations Agency",
+        "California Cybersecurity Integration Center",
+        "California departments",
+        "Governor's Office",
+        "UC Berkeley",
+        "Stanford",
+        "federal agencies",
+        "GSA",
+        "Director of the National Institute of Standards and Technology",
+        "international standards-setting bodies",
+        "international standards setting organizations",
+        "Committees on Science, Space, and Technology",
+        "Foreign Affairs",
+        "Commerce, Science, and Transportation",
+        "Foreign Relations",
+        "National Quantum Information Science Research Centers",
+        "National Laboratories",
+        "Department of Energy",
+        "federal entities",
+        "Bureau of Consumer Financial Protection",
+        "executive agencies",
+        "Bureau",
+        "Congress",
+        "Federal Election Commission (FEC)",
+        "Americas Partnership Secretariat",
+        "physical health managed care organizations",
+        "Fireshed Center",
+        "Forest Service",
+        "U.S. Geological Survey",
+        "Department",
+        "Department of State",
+        "Air Force",
+        "Secretary of the Air Force",
+        "Air Force squadrons",
+        "Air National Guard",
+        "Illinois Future of Work Task Force",
+        "General Assembly",
+        "digital social companies",
+        "Attorney General",
+        "Department of Defense participating organization",
+        "North Dakota’s executive branch",
+        "NDIT",
+        "Division of Consumer Protection"
+      ]
+    },
+    {
+      "category_name": "ROLE",
+      "entities": [
+        "Secretary of Health and Human Services",
+        "Comptroller General",
+        "Governor",
+        "legal counsel",
+        "Secretary of Energy",
+        "civil rights stakeholders",
+        "privacy protection officers",
+        "Assistant Secretary for Technology for Peace",
+        "human resources manager",
+        "Director",
+        "State Superintendent of Education",
+        "Lieutenant Governor",
+        "Speaker of the House",
+        "Secretary of Defense",
+        "Secretary of State",
+        "Director of the National Institute of Standards and Technology"
+      ]
+    },
+    {
+      "category_name": "TECH",
+      "entities": [
+        "algorithms",
+        "automated insulin delivery systems",
+        "diabetes technology",
+        "diabetes technologies",
+        "Generative AI (GenAI)",
+        "GenAI tools",
+        "AI systems",
+        "national security systems",
+        "artificial intelligence",
+        "quantum information science",
+        "quantum technologies",
+        "quantum",
+        "AI",
+        "high-performance computing systems",
+        "automated processes",
+        "automated or algorithmic underwriting processes",
+        "AI inclusivity and accessibility",
+        "detection algorithms",
+        "medical image analyzers",
+        "image analysis algorithms",
+        "hypersonic missiles",
+        "cyber capabilities",
+        "digital replicas",
+        "robotics",
+        "automation",
+        "F-16 Block 70 aircraft",
+        "advanced capability fighter aircraft",
+        "fifth-generation fighter aircraft",
+        "next-generation air dominance fighter aircraft",
+        "emerging technologies",
+        "AI/ML services",
+        "data analytics and artificial intelligence",
+        "technologies",
+        "materially deceptive media",
+        "machine-based system",
+        "computer-generated images"
+      ]
+    },
+    {
+      "category_name": "DOC_PROC",
+      "entities": [
+        "new coding",
+        "insulin pump training and education",
+        "national coverage determination",
+        "risk analysis",
+        "procurement and training guidelines",
+        "guidelines",
+        "internal procedures",
+        "this memorandum",
+        "OMB Memorandum M-25-21",
+        "AI acquisition guides",
+        "shared repository of best practices",
+        "PRC policies",
+        "emerging technology international standards",
+        "PRC practices",
+        "international standardization engagement",
+        "report",
+        "10-year strategic plan",
+        "assessment findings",
+        "disclaimers",
+        "safe harbor guidelines",
+        "disclosure statement",
+        "annual report",
+        "terms of service",
+        "content flagging processes",
+        "semiannual terms of service reports",
+        "content moderation practices",
+        "electronic portfolios",
+        "AI training and workshops",
+        "AI technology inventory",
+        "licensing agreements",
+        "Fireshed Registry",
+        "annual reports",
+        "recapitalized fighter allocations",
+        "annual recapitalization plan",
+        "key milestones, testing events, and performance goals",
+        "cost estimates",
+        "key performance parameters",
+        "cost thresholds and objectives",
+        "procurement and cybersecurity processes",
+        "predictive services and decision support",
+        "data sharing and coordination"
+      ]
+    },
+    {
+      "category_name": "LAW_REG",
+      "entities": [
+        "Medicare",
+        "Medicare Part B",
+        "Federal healthcare programs",
+        "Executive Order 13960",
+        "federal law and policy",
+        "National Quantum Initiative Act",
+        "federal law",
+        "National Quantum Initiative Act",
+        "USMCA",
+        "Federal Election Campaign Act of 1971",
+        "penal law",
+        "subdivision 2-a of section 245.15 of the penal law",
+        "House Bill No. 5141",
+        "consumer protection laws"
+      ]
+    },
+    {
+      "category_name": "TIME",
+      "entities": [
+        "January 2026",
+        "2026",
+        "180 days",
+        "a year",
+        "60 days",
+        "March 2024",
+        "January 2024",
+        "July 2024",
+        "270 days",
+        "100 days",
+        "200 days",
+        "January 1, 2025",
+        "July 1, 2024",
+        "two years",
+        "May 1, 2022",
+        "sixtieth day",
+        "one year",
+        "6 months",
+        "December 31, 2024"
+      ]
+    },
+    {
+      "category_name": "PROGRAM",
+      "entities": [
+        "early-stage quantum high-performance computing research program",
+        "university-led traineeship program",
+        "Office of Technology for Peace",
+        "Next Generation Air Dominance and Collaborative Combat Aircraft programs",
+        "program"
+      ]
+    },
+    {
+      "category_name": "VALUE_PROP",
+      "entities": [
+        "care continuity",
+        "AI performance",
+        "intellectual property rights",
+        "national data privacy standards",
+        "human rights",
+        "diversity",
+        "individual autonomy",
+        "fairness",
+        "privacy protection",
+        "data security",
+        "data governance",
+        "vulnerability assessments",
+        "AI reliability and safety",
+        "risk management",
+        "transparency and explainability",
+        "contestability",
+        "human oversight",
+        "property right",
+        "eligibility verification and fraud detection",
+        "ethical AI use",
+        "cybersecurity",
+        "green, peaceful economy"
+      ]
+    },
+    {
+      "category_name": "GEOPOL_AREA",
+      "entities": [
+        "American AI marketplace",
+        "U.S.",
+        "Australia",
+        "Canada",
+        "UK",
+        "North Dakota’s executive branch"
+      ]
+    },
+    {
+      "category_name": "CONCEPT_DATA",
+      "entities": [
+        "educational data",
+        "creditworthiness determinations",
+        "assessment findings",
+        "certain educational data",
+        "quantum supply chain",
+        "medium to high-risk data",
+        "moderate/high-risk data",
+        "medical assistance claims data",
+        "data from other state agencies",
+        "quantum information science research, development, and commercialization"
+      ]
+    },
+    {
+      "category_name": "METRIC_UNIT",
+      "entities": [
+        "$50,000",
+        "1,900",
+        "1,800",
+        "25 fighter squadrons",
+        "$15,000 per day",
+        "$2,500 per violation",
+        "sensitivity",
+        "specificity",
+        "positive predictive value",
+        "unit recurring flyaway cost",
+        "average procurement unit cost",
+        "gross/weapon system unit cost",
+        "aircraft cost-per-tail-per-year",
+        "aircraft cost-per-flight-hour"
+      ]
+    },
+    {
+      "category_name": "PHYSICAL_SYS",
+      "entities": [
+        "energy infrastructure",
+        "GenAI pilot project infrastructure",
+        "high-performance computing systems",
+        "national security systems",
+        "fighter aircraft",
+        "legacy aircraft retirement"
+      ]
+    },
+    {
+      "category_name": "STATUS_COND",
+      "entities": [
+        "care continuity",
+        "new guidelines",
+        "previously adjudicated data set",
+        "Class II (special controls)",
+        "over-the-counter use"
+      ]
+    },
+    {
+      "category_name": "LABOR_REL",
+      "entities": [
+        "cross-functional teams",
+        "quantum workforce",
+        "technical position"
+      ]
+    },
+    {
+      "category_name": "ABSTRACT_TERM",
+      "entities": [
+        "unauthorized production, distribution, or public display of digital replicas",
+        "unlawful dissemination or publication of intimate images"
+      ]
+    }
+  ]
+}

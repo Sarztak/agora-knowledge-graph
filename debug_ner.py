@@ -2,13 +2,6 @@ import json
 import re
 from pathlib import Path
 
-
-import json
-import re
-from pathlib import Path
-import json
-import re
-
 def mask_single_law(input_path, output_path):
     with open(input_path, "r", encoding="utf-8") as f:
         data = json.load(f)
